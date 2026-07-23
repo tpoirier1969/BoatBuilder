@@ -1,0 +1,5 @@
+BoatBuilder catalog refresh marker.
+
+Update this file after an authorized spreadsheet audit to trigger regeneration of data/catalog.js on main.
+
+Last requested refresh: 2026-07-23 Minn Kota legacy-family and Legend 17 Xcalibur audit.
