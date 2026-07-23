@@ -22,7 +22,7 @@ The primary workflow is:
 5. Check the item to add it to the current estimate.
 6. Review every selected item with package low and high totals.
 
-The app is not primarily a marketplace search tool. Do not make search the main organizing principle unless Tod later asks for it.
+The app is not primarily a marketplace search tool. Do not make search the main organizing principle unless Tod asks for it.
 
 The app should help evaluate realistic Lake Superior-capable fishing packages without making unsuitable boats or equipment look better than they are.
 
@@ -86,7 +86,7 @@ Accuracy beats visual completeness.
 - Do not use a 16-foot boat image for an 18-foot version merely because the family name is similar.
 - Do not substitute another console, windshield, hull material, propulsion layout, or generation without explicit labeling.
 - A blank image is better than a persuasive but incorrect image.
-- The app may display a boat photo only when the `Boat Photos` record identifies the match as exact.
+- The app may display a boat photo only when the `Boat Photos` record identifies the match as exact under the approved photo policy.
 - Preserve warnings, limitations, inspection cautions, and negative recommendations.
 - Do not spin an unsuitable Lake Superior boat into an acceptable choice.
 - Keep low and high estimates honest. Do not narrow ranges merely to make a package appear affordable.
@@ -101,7 +101,7 @@ Current canonical source IDs are:
 - Boats: static `App Boats[AppSheet Key]`
 - Equipment: `App Equipment[Equipment ID]`
 
-`AppSheet Key` is only the name of a spreadsheet data column in this project. BoatBuilder does not depend on AppSheet configuration or AppSheet schema behavior.
+`AppSheet Key` is only the name of a spreadsheet data column. BoatBuilder does not depend on AppSheet configuration or schema behavior.
 
 Rules:
 
@@ -116,48 +116,47 @@ Rules:
 
 Keep one clear source of truth for each responsibility.
 
-Canonical files:
+Canonical files and responsibilities:
 
-- `index.html` — application shell
+- `index.html` — application shell and production script order
 - `styles.css` — application styles
-- `app.js` — interface, navigation, live data adapter, state, and estimating logic
+- `app.js` — interface, navigation, state, selection, and estimating logic
+- `data/catalog.js` — generated production catalog snapshot
+- `scripts/build_catalog.py` — repeatable spreadsheet-to-catalog generator
+- `.github/workflows/build-catalog.yml` — automated snapshot generation on `main`
 - `ProjectRules.md` — controlling project rules
 - `README.md` — setup, deployment, data-source, and maintenance documentation
 
-The first version is a static web application with no build system and no application server.
-
-Do not create chains of patch files, override stylesheets, duplicate entry points, or runtime repair scripts merely to avoid fixing the canonical file.
+The application is a static web app with no application server. Do not create chains of patch files, override stylesheets, duplicate entry points, or runtime repair scripts merely to avoid fixing the canonical file.
 
 New files must represent a real durable responsibility.
 
-## 7. Live spreadsheet data contract
+## 7. Spreadsheet and production catalog contract
 
-The app currently reads catalog data directly and read-only from the Google Sheet titled `Aluminum boat model review`.
+The Google Sheet titled `Aluminum boat model review` is the maintained research and editing source.
 
-Authorized live source tabs are:
+Authorized source tabs are:
 
 - `App Boats`
 - `App Equipment`
 - `Boat Photos`
 
-The app uses the Google Visualization read-only endpoint. It must not write to the spreadsheet.
+The production app must load the generated local snapshot at `data/catalog.js`. It must not depend on a live Google Visualization or Google Sheets request in the user’s browser.
 
-The spreadsheet must remain shared so anyone with the link can read it. It does not need to be publicly discoverable.
+The snapshot builder may read the workbook and must:
 
-Rules:
+- query only the authorized source tabs;
+- ignore formula-generated blank rows;
+- ignore rows lacking the required stable ID;
+- validate uniqueness and required fields;
+- preserve source URLs, recommendation text, model variation, price guidance, photo match quality, and curation notes;
+- never silently merge materially different records;
+- fail rather than publish an empty catalog;
+- write the generated snapshot to `main`.
 
-- Do not query unrelated workbook tabs merely because they exist.
-- Do not expose internal estimate, backup, scratch, or builder tabs through the app.
-- Do not use spreadsheet row numbers as identities.
-- Do not treat formula-generated blank rows as records.
-- Ignore rows lacking the required stable ID.
-- Validate uniqueness and required fields.
-- Preserve source URLs, recommendation text, model variation, price guidance, photo match quality, and curation notes.
-- Never silently merge materially different records.
-- Keep transformation logic documented and repeatable.
-- Do not make the app depend on AppSheet formulas, schema regeneration, Ref columns, or AppSheet row keys.
+The browser app remains read-only. It must not write to the spreadsheet.
 
-If the sheet-sharing arrangement becomes unreliable or a private data source is required, replace the data adapter deliberately rather than layering a patch over it.
+After spreadsheet changes, regenerate and validate `data/catalog.js` before treating the production catalog as current.
 
 ## 8. Estimate behavior
 
@@ -172,7 +171,7 @@ Each estimate line must include:
 - low value
 - high value
 - optional quantity only when the category truly requires it
-- optional user note when later authorized
+- optional user note only when later authorized
 
 Rules:
 
@@ -182,7 +181,7 @@ Rules:
 - Do not invent quantity behavior for every category.
 - Display low and high totals clearly and label them as estimates.
 - Do not replace ranges with a midpoint unless Tod explicitly asks.
-- Missing configured prices must be shown honestly, not silently presented as a genuine $0 value.
+- Missing configured prices must be shown honestly, not presented as a genuine zero-dollar value.
 - The current estimate may persist in browser `localStorage` in the first version.
 
 ## 9. Storage and Supabase safety
@@ -197,7 +196,7 @@ If Supabase is added:
 - Never assume BoatBuilder is the only project.
 - Use a unique project-specific prefix or schema such as `boatbuilder_`.
 - Do not create generic shared-namespace objects such as `items`, `estimates`, `users`, or `settings`.
-- Do not alter, drop, rename, truncate, overwrite, or reuse tables, functions, buckets, policies, secrets, or migrations belonging to another project.
+- Do not alter, drop, rename, truncate, overwrite, or reuse objects belonging to another project.
 - Document every new object and naming convention before applying it.
 - Never commit service-role keys, database passwords, access tokens, or private credentials.
 
@@ -205,55 +204,47 @@ If Supabase is added:
 
 Make the narrowest safe change that completes the authorized work.
 
-Do not quietly bundle unrelated:
-
-- visual redesigns
-- schema changes
-- data reorganizations
-- backend changes
-- new categories
-- search systems
-- authentication
-- analytics
-- deployment changes
-- cleanup work
+Do not quietly bundle unrelated visual redesigns, schema changes, data reorganizations, backend changes, new categories, search systems, authentication, analytics, deployment changes, or cleanup work.
 
 If a useful unrelated improvement is found, report it separately and leave it unchanged unless Tod authorizes it.
 
 ## 11. Better-way challenge rule
 
-Do not blindly implement a request without checking whether it creates problems with:
-
-- phone usability
-- data accuracy
-- model-specific representation
-- estimate integrity
-- maintainability
-- storage safety
-- accessibility
-- technical debt
-- existing spreadsheet or Supabase data
+Do not blindly implement a request without checking whether it creates problems with phone usability, data accuracy, model-specific representation, estimate integrity, maintainability, storage safety, accessibility, technical debt, or existing project data.
 
 If a better approach exists, state the concern clearly before implementing. Tod’s decision controls after the concern is explained unless the direction would violate safety, data integrity, source honesty, credential security, or project-integrity rules.
 
-## 12. Repository and change-control rules
+## 12. Repository and branch rules
 
-The `main` branch is the authoritative application unless Tod explicitly establishes another workflow.
+**The working and deployed application must always be on `main`.**
 
-- Questions and discussion alone do not authorize unrelated repository changes.
-- When Tod explicitly asks to build, revise, fix, simplify, or redesign, do the work directly when the available files and instructions are sufficient.
-- Before a substantial risky change to an established live app, create a clearly named backup branch from current `main`.
-- Do not force-update `main` without explicit approval.
-- Never commit credentials, authenticated URLs, private keys, database passwords, or tokens.
-- Confirm that only intended files changed.
-- Because the repository began empty, the initial scaffold may be created directly on `main`.
+Branches are only for:
+
+- backups before risky work;
+- recovery points;
+- isolated sandbox experiments.
+
+Unless Tod explicitly establishes a different workflow:
+
+- do not use a feature branch as the working application;
+- do not leave completed, approved, or production-ready changes only on a branch;
+- apply working changes directly to `main`;
+- treat `main` as the authoritative current app;
+- use a clearly named backup branch before a substantial risky change to an established live app;
+- never force-update `main` without explicit approval;
+- confirm that only intended files changed;
+- never commit credentials, authenticated URLs, private keys, database passwords, or tokens.
+
+Questions and discussion alone do not authorize unrelated repository changes. When Tod explicitly asks to build, revise, fix, simplify, or redesign, do the work directly on `main` when the available files and instructions are sufficient.
 
 ## 13. QA requirements
 
 Before calling a version complete:
 
 - The app loads without console errors.
-- Live source tabs load successfully.
+- `data/catalog.js` exists and contains a nonzero catalog.
+- The generated item, boat, and equipment counts are validated.
+- No duplicate or blank stable IDs exist.
 - Category → manufacturer → model → detail navigation works.
 - Back navigation preserves useful context.
 - Images do not overflow the phone viewport.
@@ -263,15 +254,14 @@ Before calling a version complete:
 - Low and high totals are mathematically correct.
 - Missing prices are disclosed honestly.
 - Estimate state survives a page reload.
-- No duplicate stable IDs exist.
-- No catalog record has a blank stable ID.
 - No materially different model variations are silently merged.
 - Touch targets and focus states are usable.
 - The app works at common narrow phone widths.
-- The sheet remains read-only from the application.
+- The app does not depend on a live Google request from the browser.
+- The spreadsheet remains read-only from the application.
 
 ## 14. Rules freshness
 
-When Tod and the assistant make a durable workflow, architecture, data-model, proof-standard, estimate, storage, or QA decision, fold it into `ProjectRules.md` in the next authorized revision.
+When Tod and the assistant make a durable workflow, architecture, data-model, proof-standard, estimate, storage, branch, deployment, or QA decision, fold it into `ProjectRules.md` in the next authorized revision.
 
 Do not let stale AppSheet assumptions, old handoffs, or temporary prototypes override these current rules.
