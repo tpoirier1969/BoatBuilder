@@ -20,7 +20,8 @@
   ];
 
   const MANUFACTURER_NOTES = {
-    Lund: "Current and many recent Lund families use SS for side console, Sport for a full windshield, and Tiller for tiller steering. That is not a timeless rule for every Lund ever built. Older paperwork may say Lund American, which is manufacturer wording rather than a model name. Verify the year, full family name, length designation, layout suffix, HIN, and capacity plate."
+    Lund: "Current and many recent Lund families use SS for side console, Sport for a full windshield, and Tiller for tiller steering. That is not a timeless rule for every Lund ever built. Older paperwork may say Lund American, which is manufacturer wording rather than a model name. Verify the year, full family name, length designation, layout suffix, HIN, and capacity plate.",
+    Princecraft: "Princecraft suffixes are layout and trim clues, not interchangeable model names. WS means windshield, SC means side console, BT means back-troller, and DL, DLX, SE, or MAX describe a series or trim level that can change by year. Princecraft also renamed some nearly identical hulls, including Sport 167 becoming Sport 164. Verify the year, complete model name, suffix, HIN, and capacity plate before matching a listing."
   };
 
   const els = {
