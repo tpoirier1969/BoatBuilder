@@ -1,0 +1,35 @@
+name: BoatBuilder QA
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - styles.css
+      - app.js
+      - data/catalog.js
+      - scripts/qa_app.mjs
+      - .github/workflows/qa.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check JavaScript syntax
+        run: node --check app.js
+
+      - name: Run catalog and estimate QA
+        run: node scripts/qa_app.mjs
