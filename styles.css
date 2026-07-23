@@ -25,7 +25,7 @@ body {
   background: var(--surface-soft);
 }
 
-button, input { font: inherit; }
+button, input, select { font: inherit; }
 button { touch-action: manipulation; }
 
 .skip-link {
@@ -62,6 +62,16 @@ button { touch-action: manipulation; }
   gap: .35rem;
 }
 
+#back-button { grid-column: 1; }
+
+.header-home-actions {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: .25rem;
+}
+
 .icon-button,
 .brand-button,
 .estimate-button {
@@ -86,10 +96,10 @@ button { touch-action: manipulation; }
   text-align: left;
 }
 
-.brand-mark { margin-right: .55rem; font-size: 1.35rem; }
+.brand-mark { margin-right: .45rem; font-size: 1.25rem; }
 .brand-button strong,
 .brand-button small { display: block; }
-.brand-button strong { font-size: 1.05rem; }
+.brand-button strong { font-size: 1rem; }
 
 .brand-button small {
   overflow: hidden;
@@ -107,6 +117,46 @@ button { touch-action: manipulation; }
   font-weight: 700;
 }
 
+.estimate-button:disabled {
+  opacity: .45;
+}
+
+.clear-estimate-button {
+  min-height: 2.45rem;
+  padding: .35rem .5rem;
+  font-size: .8rem;
+}
+
+.header-estimate-button {
+  grid-column: 3;
+  justify-self: end;
+  display: grid;
+  justify-items: end;
+  width: auto;
+  min-width: 6.8rem;
+  max-width: 8.5rem;
+  gap: .12rem;
+  padding: .35rem .5rem;
+  line-height: 1.05;
+}
+
+.estimate-button-label {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.estimate-range {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  color: #d8e8ef;
+  font-size: .72rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .count-badge {
   display: inline-grid;
   place-items: center;
@@ -122,7 +172,8 @@ button { touch-action: manipulation; }
 
 button:focus-visible,
 a:focus-visible,
-input:focus-visible {
+input:focus-visible,
+select:focus-visible {
   outline: 3px solid #f4c95d;
   outline-offset: 2px;
 }
@@ -419,6 +470,35 @@ main {
   color: var(--muted);
   font-size: .8rem;
   line-height: 1.4;
+}
+
+@media (max-width: 22rem) {
+  .header-row {
+    padding-right: .4rem;
+    padding-left: .4rem;
+    gap: .2rem;
+  }
+
+  .icon-button {
+    width: 2.35rem;
+    height: 2.35rem;
+  }
+
+  .brand-mark { margin-right: .3rem; }
+  .brand-button strong { font-size: .9rem; }
+
+  .clear-estimate-button {
+    padding: .3rem .4rem;
+    font-size: .72rem;
+  }
+
+  .header-estimate-button {
+    min-width: 6.1rem;
+    padding-right: .4rem;
+    padding-left: .4rem;
+  }
+
+  .estimate-range { font-size: .67rem; }
 }
 
 @media (min-width: 42rem) {
