@@ -1,0 +1,114 @@
+# BoatBuilder Catalog Audit Workflow
+
+This is the required operating procedure for completeness audits of boat manufacturers and model years. `ProjectRules.md` remains controlling when rules conflict.
+
+## Purpose
+
+A catalog audit is a reconciliation against a known factory roster. It is not an open-ended search for models that look missing.
+
+The words **audited**, **complete**, or **fully reconciled** may be used only after every official roster entry in the defined scope has a documented disposition.
+
+A search that investigates selected families, lengths, listings, or suspicious gaps must be called a **focused gap pass** or **audit in progress**.
+
+## Control sheets
+
+The Google workbook contains two audit-control tabs:
+
+### Boat Audit Ledger
+
+One row represents one official manufacturer/model/year roster entry. Required fields include:
+
+- manufacturer;
+- model year;
+- official model name;
+- propulsion or layout;
+- primary factory source;
+- secondary roster source when available;
+- matching app ID, when present;
+- disposition status;
+- evidence and reasoning;
+- date checked;
+- next action;
+- audit batch.
+
+Permitted dispositions are:
+
+- `Needs Reconciliation`
+- `Present`
+- `Missing – Add`
+- `Added`
+- `Alias of Existing`
+- `Renamed / Same Hull`
+- `Insufficient Evidence`
+- `Not Factory Model`
+
+A manufacturer/year scope is incomplete while any row remains `Needs Reconciliation` or `Missing – Add`.
+
+### Unmatched Listing Queue
+
+Every listing name that cannot be matched confidently to an app record must be added immediately. Do not rely on chat history or memory.
+
+A queue entry remains open until it is:
+
+- matched to an existing official model;
+- documented as seller shorthand or an alias;
+- added as a missing factory model;
+- rejected as not being a factory model; or
+- blocked pending specific seller evidence.
+
+## Source priority
+
+Use sources in this order:
+
+1. year-specific manufacturer catalog or brochure;
+2. manufacturer archive, owner manual, specification sheet, or factory parts/cover fitment record;
+3. recognized model-year roster or valuation database;
+4. period dealer literature;
+5. surviving listings and owner material, used only to fill clearly labeled gaps.
+
+Do not transfer specifications from a nearby length, layout, trim, or generation.
+
+## Reconciliation sequence
+
+For each manufacturer and year range:
+
+1. Define the exact scope in the ledger.
+2. Build the complete official factory roster before deciding what is missing.
+3. Enter every roster item as its own ledger row.
+4. Compare each item against the app by official family, length, layout, propulsion, and generation.
+5. Record one disposition for every row.
+6. Add missing models to `Verified Models`, `App Boats`, and `Boat Photos` with stable IDs.
+7. Record aliases and renames without creating duplicate catalog rows.
+8. Leave unsupported specifications explicitly unpublished.
+9. Resolve related unmatched-listing entries.
+10. Rebuild `data/catalog.js`.
+11. Run `tests/qa.mjs` and syntax checks.
+12. Verify the production snapshot contains every newly required stable ID.
+13. Mark the scope complete only when no unexplained roster rows remain.
+
+## Inclusion rule
+
+The catalog is broader than Tod and Donna's current purchase requirements. A legitimate model is not excluded merely because it is:
+
+- side-console or tiller;
+- too small or too large for the current search;
+- poorly suited to Lake Superior;
+- above the current budget;
+- missing a walk-through windshield.
+
+Those limitations belong in recommendation and suitability fields, not at the catalog gate.
+
+## Completion report
+
+Every completed audit scope must report:
+
+- manufacturer and years covered;
+- number of official roster entries;
+- number already present;
+- number added;
+- aliases or renamed hulls;
+- unresolved or insufficient-evidence rows;
+- resulting production item and boat counts;
+- QA result.
+
+Do not summarize a partial pass as a full audit.
