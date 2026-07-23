@@ -1,0 +1,48 @@
+name: Build catalog snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_catalog.py
+      - .github/workflows/build-catalog.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: boatbuilder-catalog
+  cancel-in-progress: false
+
+jobs:
+  build-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install workbook reader
+        run: python -m pip install --disable-pip-version-check openpyxl
+
+      - name: Generate catalog snapshot
+        run: python scripts/build_catalog.py --output data/catalog.js
+
+      - name: Commit updated snapshot to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.js
+          if git diff --cached --quiet; then
+            echo "Catalog snapshot is already current."
+          else
+            git commit -m "Update bundled catalog snapshot"
+            git push origin HEAD:main
+          fi
