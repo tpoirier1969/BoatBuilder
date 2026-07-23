@@ -56,6 +56,15 @@ Each detail screen must show all useful available details. When an exact matchin
 
 Every selectable catalog item must have a clear checkbox or equivalent selection control. Selecting an item adds it to the current estimate. Deselecting it removes it.
 
+### Official names, aliases, and seller shorthand
+
+- Use the verified official manufacturer, family, size, and layout name as the primary catalog name.
+- Do not create a second catalog row merely because a seller abbreviated, misspelled, or incompletely named the same boat.
+- Put common seller shorthand, aliases, corporate/manufacturer wording, and verified suffix explanations in a manufacturer naming note or alias metadata.
+- Manufacturer suffixes are brand-specific and may also be era-specific. Never assume one maker's abbreviation applies to another maker.
+- A separate catalog row is appropriate only when the underlying length, hull, console, windshield, generation, value, or capability is materially different and relevant to the project.
+- When a listing name is ambiguous, identify the likely official model but clearly state what evidence is still needed from the HIN, capacity plate, registration, decals, or year-specific brochure.
+
 ## 3. Mobile-first interface rules
 
 BoatBuilder is primarily a phone app.
@@ -71,7 +80,8 @@ Requirements:
 - Preserve the user’s context when returning from a detail screen.
 - Keep the current estimate reachable from every major screen.
 - Show the selected-item count near the estimate control.
-- Provide visible keyboard focus states.
+- Provide a visible global Clear estimate control, disabled when empty and protected by confirmation when populated.
+- Provide visible keyboard focus states on actual controls without programmatically focusing the main content container.
 - Do not use color as the only indicator of selection or status.
 - Respect `prefers-reduced-motion`.
 - Do not require sound.
@@ -170,6 +180,9 @@ Each estimate line must include:
 - model or variation display name
 - low value
 - high value
+- selected era when the item is age-sensitive
+- selected horsepower for gasoline main motors and kickers when the family includes more than one horsepower
+- selected trailer assumption or upgrade for boats
 - optional quantity only when the category truly requires it
 - optional user note only when later authorized
 
@@ -183,6 +196,11 @@ Rules:
 - Do not replace ranges with a midpoint unless Tod explicitly asks.
 - Missing configured prices must be shown honestly, not presented as a genuine zero-dollar value.
 - The current estimate may persist in browser `localStorage` in the first version.
+- Main-motor and kicker estimates must allow horsepower selection. Use a verified source price band when one exists.
+- When no horsepower-specific source band exists, any derived narrowing must be labeled as derived from the broader family range rather than represented as direct market data.
+- A main-motor estimate is not considered adequately narrowed until both era and horsepower are selected when those controls are available.
+- Boat values assume a standard factory or generic trailer is included. Do not add a second standard trailer line or double-count it.
+- Premium trailer construction or features may add an explicit upgrade range above the standard included trailer assumption.
 
 ## 9. Storage and Supabase safety
 
@@ -252,9 +270,14 @@ Before calling a version complete:
 - Selection controls work from model lists and detail views.
 - The estimate contains exactly the checked items.
 - Low and high totals are mathematically correct.
+- Motor era and horsepower selections persist and affect the correct estimate line.
+- Known horsepower-band tests pass, including 2010s Evinrude E-TEC 75–90 hp at $4,000–$6,500 and 115–150 hp at $5,500–$8,500.
+- Boat estimates include the standard trailer assumption exactly once and premium trailer adjustments add only the upgrade range.
 - Missing prices are disclosed honestly.
 - Estimate state survives a page reload.
+- The global Clear estimate control disables when empty and confirms before clearing populated estimates.
 - No materially different model variations are silently merged.
+- Seller aliases do not create duplicate catalog rows without a material model difference.
 - Touch targets and focus states are usable.
 - The app works at common narrow phone widths.
 - The app does not depend on a live Google request from the browser.
