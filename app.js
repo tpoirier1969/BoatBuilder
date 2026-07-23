@@ -566,7 +566,7 @@
         </button>`;
       }).join("");
 
-    els.app.innerHTML = `${heading("Build a used boat package", "Choose the type of item you want to review.")}
+    els.app.innerHTML = `${heading("Build a used aluminum outboard boat package", "Choose the type of item you want to review.")}
       <section class="card-list category-grid" aria-label="Categories">${cards}</section>
       <p class="data-note">The catalog is bundled with BoatBuilder from the maintained research spreadsheet. BoatBuilder does not use AppSheet.</p>`;
 
