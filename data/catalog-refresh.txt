@@ -2,4 +2,4 @@ BoatBuilder catalog refresh marker.
 
 Update this file after an authorized spreadsheet audit to trigger regeneration of data/catalog.js on main.
 
-Last requested refresh: 2026-07-23 after adding verified Sylvan Explorer 1600 DC and Sylvan Pro Fish 1700 DC records; expected production count 340 items, 159 boats and 181 equipment records.
+Last requested refresh: 2026-07-23 after adding verified Lowe FM Pro 165 WT and FM Pro 175 WT records; expected production count 342 items, 161 boats and 181 equipment records.
