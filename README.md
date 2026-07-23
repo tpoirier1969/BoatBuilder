@@ -41,8 +41,8 @@ The generator is `scripts/build_catalog.py`. The GitHub Action in `.github/workf
 
 Current validated snapshot counts:
 
-- 338 total catalog items
-- 157 boats
+- 344 total catalog items
+- 163 boats
 - 181 equipment records
 
 ### Stable IDs
