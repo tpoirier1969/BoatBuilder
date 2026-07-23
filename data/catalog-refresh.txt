@@ -2,4 +2,4 @@ BoatBuilder catalog refresh marker.
 
 Update this file after an authorized spreadsheet audit to trigger regeneration of data/catalog.js on main.
 
-Last requested refresh: 2026-07-23 full 17-foot audit including Lund Tyee 5.3, Starweld 1700, Legend 17 Xcalibur, three Tracker Targa generations, Tracker Pro Guide V-17 WT, Minn Kota legacy families, and older electronics.
+Last requested refresh: 2026-07-23 after adding verified Crestliner Super Hawk 1600 WT and Starcraft Fishmaster 176 DC records; expected production count 338 items, 157 boats and 181 equipment records.
