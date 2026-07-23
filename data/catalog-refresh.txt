@@ -2,4 +2,4 @@ BoatBuilder catalog refresh marker.
 
 Update this file after an authorized spreadsheet audit to trigger regeneration of data/catalog.js on main.
 
-Last requested refresh: 2026-07-23 after adding verified Princecraft Sport 167 / Sport 164 compact generation and Xpedition 170 WS records; expected production count 344 items, 163 boats and 181 equipment records.
+Last requested refresh: 2026-07-23 after adding Electronics and Electrical subtype navigation, restoring Princecraft Sport 167 / Sport 164 interior details, and rebuilding the combined-name record.
