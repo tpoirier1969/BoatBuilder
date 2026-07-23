@@ -27,7 +27,7 @@ assert.ok(princecraftSport, "Princecraft Sport 167 / Sport 164 record is missing
 
 const lund1600ProSport = catalog.items.find(item =>
   item.categoryId === "boats"
-  && item.id === "Lund | 1600 Pro Sport"
+  && item.id === "boat:Lund | 1600 Pro Sport"
   && /1600 Pro Sport/i.test(item.displayName || item.model || "")
 );
 assert.ok(lund1600ProSport, "Lund 1600 Pro Sport record is missing");
