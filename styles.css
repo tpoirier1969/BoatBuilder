@@ -7,24 +7,19 @@
   --line: #cbd7dd;
   --accent: #163c52;
   --accent-2: #256985;
-  --selected: #e5f3ea;
-  --selected-line: #397b51;
   --danger: #a13535;
   --shadow: 0 5px 18px rgba(19, 44, 58, 0.11);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * { box-sizing: border-box; }
-
 html { background: #dfe9ed; }
-
 body {
   margin: 0;
   min-width: 280px;
   color: var(--ink);
   background: var(--surface-soft);
 }
-
 button, input, select { font: inherit; }
 button { touch-action: manipulation; }
 
@@ -38,7 +33,6 @@ button { touch-action: manipulation; }
   background: var(--accent);
   border-radius: .5rem;
 }
-
 .skip-link:focus { top: 1rem; }
 
 .app-header {
@@ -53,7 +47,7 @@ button { touch-action: manipulation; }
 
 .header-row {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
   min-height: 4rem;
   max-width: 58rem;
@@ -62,14 +56,13 @@ button { touch-action: manipulation; }
   gap: .35rem;
 }
 
-#back-button { grid-column: 1; }
-
-.header-home-actions {
-  grid-column: 2;
+.header-left-actions {
+  grid-column: 1;
   display: flex;
   align-items: center;
+  justify-self: start;
   min-width: 0;
-  gap: .25rem;
+  gap: .15rem;
 }
 
 .icon-button,
@@ -95,19 +88,8 @@ button { touch-action: manipulation; }
   padding: .25rem;
   text-align: left;
 }
-
-.brand-mark { margin-right: .45rem; font-size: 1.25rem; }
-.brand-button strong,
-.brand-button small { display: block; }
-.brand-button strong { font-size: 1rem; }
-
-.brand-button small {
-  overflow: hidden;
-  color: #d8e8ef;
-  font-size: .72rem;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
+.brand-mark { margin-right: .4rem; font-size: 1.25rem; }
+.brand-button strong { display: block; font-size: 1rem; }
 
 .estimate-button {
   min-height: 2.75rem;
@@ -116,28 +98,30 @@ button { touch-action: manipulation; }
   border-radius: .7rem;
   font-weight: 700;
 }
-
-.estimate-button:disabled {
-  opacity: .45;
-}
-
-.clear-estimate-button {
-  min-height: 2.45rem;
-  padding: .35rem .5rem;
-  font-size: .8rem;
-}
+.estimate-button:disabled { opacity: .45; }
 
 .header-estimate-button {
-  grid-column: 3;
-  justify-self: end;
+  grid-column: 2;
+  justify-self: center;
   display: grid;
-  justify-items: end;
+  justify-items: center;
   width: auto;
   min-width: 6.8rem;
   max-width: 8.5rem;
   gap: .12rem;
   padding: .35rem .5rem;
   line-height: 1.05;
+}
+
+.clear-estimate-button {
+  grid-column: 3;
+  justify-self: end;
+  min-height: 2.45rem;
+  max-width: 6.25rem;
+  padding: .35rem .5rem;
+  font-size: .76rem;
+  line-height: 1.05;
+  white-space: nowrap;
 }
 
 .estimate-button-label {
@@ -186,13 +170,11 @@ main {
 }
 
 .page-heading { margin: .15rem 0 1rem; }
-
 .page-heading h1 {
   margin: 0;
   font-size: clamp(1.45rem, 6vw, 2rem);
   line-height: 1.15;
 }
-
 .page-heading p {
   margin: .45rem 0 0;
   color: var(--muted);
@@ -231,54 +213,32 @@ main {
   color: var(--ink);
   text-align: left;
 }
-
 .nav-card strong { font-size: 1.05rem; }
 .nav-card small { display: block; margin-top: .22rem; color: var(--muted); }
 .nav-card .chevron { color: var(--accent-2); font-size: 1.4rem; }
 
 .item-card {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: .75rem;
   padding: .8rem;
 }
 
-.item-card.selected {
-  background: var(--selected);
-  border-color: var(--selected-line);
-}
-
-.select-control {
-  display: grid;
-  place-items: center;
-  width: 2.65rem;
-  height: 2.65rem;
-}
-
-.select-control input {
-  width: 1.45rem;
-  height: 1.45rem;
-  accent-color: var(--selected-line);
-}
-
 .item-open {
   min-width: 0;
-  padding: .15rem 0;
+  padding: .35rem .1rem;
   border: 0;
   color: inherit;
   background: transparent;
   text-align: left;
 }
-
 .item-open strong,
 .item-open span { display: block; }
-
 .item-open strong {
   overflow-wrap: anywhere;
   font-size: 1rem;
 }
-
 .item-open span {
   margin-top: .25rem;
   color: var(--muted);
@@ -291,6 +251,17 @@ main {
   white-space: nowrap;
 }
 
+.manufacturer-note {
+  margin: 0 0 1rem;
+  padding: .85rem;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: .8rem;
+  font-size: .8rem;
+  line-height: 1.4;
+}
+
 .detail-card {
   overflow: hidden;
   background: var(--surface);
@@ -298,12 +269,10 @@ main {
   border-radius: 1rem;
   box-shadow: var(--shadow);
 }
-
 .detail-image-wrap {
   min-height: 11rem;
   background: #d8e2e7;
 }
-
 .detail-image {
   display: block;
   width: 100%;
@@ -311,20 +280,16 @@ main {
   object-fit: contain;
   background: white;
 }
-
 .detail-body { padding: 1rem; }
-
 .detail-title {
   margin: 0;
   font-size: clamp(1.4rem, 7vw, 2rem);
   line-height: 1.12;
 }
-
 .detail-subtitle {
   margin: .45rem 0 0;
   color: var(--muted);
 }
-
 .badge {
   display: inline-block;
   margin-top: .7rem;
@@ -334,6 +299,36 @@ main {
   border-radius: 999px;
   font-size: .8rem;
   font-weight: 700;
+}
+
+.configuration-controls {
+  display: grid;
+  gap: .75rem;
+  margin: 1rem 0;
+  padding: .85rem;
+  background: var(--surface-soft);
+  border-radius: .8rem;
+}
+.config-field {
+  display: grid;
+  gap: .3rem;
+}
+.config-field > span {
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 700;
+}
+.config-field select {
+  width: 100%;
+  min-height: 2.7rem;
+  padding: .5rem;
+  border: 1px solid var(--line);
+  border-radius: .55rem;
+  background: white;
+}
+.config-field small {
+  color: var(--muted);
+  line-height: 1.35;
 }
 
 .detail-select {
@@ -346,18 +341,24 @@ main {
   background: var(--surface-soft);
   border-radius: .8rem;
 }
-
 .detail-select label {
   display: flex;
   align-items: center;
   gap: .6rem;
   font-weight: 800;
 }
-
 .detail-select input {
   width: 1.55rem;
   height: 1.55rem;
-  accent-color: var(--selected-line);
+  accent-color: #397b51;
+}
+.detail-select input:disabled { cursor: not-allowed; }
+.selection-requirement {
+  margin: -.45rem 0 1rem;
+  color: var(--danger);
+  font-size: .82rem;
+  font-weight: 700;
+  line-height: 1.35;
 }
 
 .price-panel {
@@ -366,24 +367,20 @@ main {
   gap: .65rem;
   margin: 1rem 0;
 }
-
 .price-box {
   padding: .75rem;
   background: #f8fafb;
   border: 1px solid var(--line);
   border-radius: .7rem;
 }
-
 .price-box small { display: block; color: var(--muted); }
 .price-box strong { display: block; margin-top: .15rem; font-size: 1.2rem; }
 
 .definition-list { margin: 1rem 0 0; }
-
 .definition-row {
   padding: .75rem 0;
   border-top: 1px solid var(--line);
 }
-
 .definition-row dt {
   color: var(--muted);
   font-size: .79rem;
@@ -391,13 +388,11 @@ main {
   text-transform: uppercase;
   letter-spacing: .035em;
 }
-
 .definition-row dd {
   margin: .28rem 0 0;
   line-height: 1.45;
   white-space: pre-wrap;
 }
-
 .source-link {
   display: inline-block;
   margin-top: 1rem;
@@ -414,12 +409,11 @@ main {
   gap: .7rem;
   margin-bottom: .8rem;
   padding: .8rem;
+  color: white;
   background: var(--accent);
   border-radius: .9rem;
-  color: white;
   box-shadow: var(--shadow);
 }
-
 .estimate-summary small { display: block; color: #d8e8ef; }
 .estimate-summary strong { display: block; font-size: 1.3rem; }
 
@@ -429,26 +423,23 @@ main {
   gap: .7rem;
   padding: .8rem;
 }
-
 .estimate-line input {
   width: 1.4rem;
   height: 1.4rem;
-  accent-color: var(--selected-line);
+  accent-color: #397b51;
 }
-
 .estimate-line h2 {
   margin: 0;
   font-size: 1rem;
 }
-
 .estimate-line p {
   margin: .25rem 0 0;
   color: var(--muted);
   font-size: .82rem;
 }
-
 .line-prices {
   display: flex;
+  flex-wrap: wrap;
   gap: .8rem;
   margin-top: .45rem;
   font-weight: 800;
@@ -474,31 +465,31 @@ main {
 
 @media (max-width: 22rem) {
   .header-row {
-    padding-right: .4rem;
-    padding-left: .4rem;
-    gap: .2rem;
+    padding-right: .35rem;
+    padding-left: .35rem;
+    gap: .15rem;
   }
-
+  .header-left-actions { gap: 0; }
   .icon-button {
-    width: 2.35rem;
-    height: 2.35rem;
+    width: 2.25rem;
+    height: 2.25rem;
   }
-
-  .brand-mark { margin-right: .3rem; }
-  .brand-button strong { font-size: .9rem; }
-
+  .brand-mark { margin-right: .25rem; }
+  .brand-button strong { font-size: .86rem; }
   .clear-estimate-button {
-    padding: .3rem .4rem;
-    font-size: .72rem;
+    max-width: 5.15rem;
+    padding: .3rem .35rem;
+    font-size: .66rem;
+    white-space: normal;
   }
-
   .header-estimate-button {
-    min-width: 6.1rem;
-    padding-right: .4rem;
-    padding-left: .4rem;
+    min-width: 5.8rem;
+    max-width: 6.6rem;
+    padding-right: .35rem;
+    padding-left: .35rem;
   }
-
   .estimate-range { font-size: .67rem; }
+  .price { font-size: .85rem; }
 }
 
 @media (min-width: 42rem) {
