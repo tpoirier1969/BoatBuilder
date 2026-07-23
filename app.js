@@ -1,16 +1,34 @@
 (() => {
   "use strict";
 
-  const STORAGE_KEY = "boatbuilder.currentEstimate.v2";
-  const LEGACY_STORAGE_KEY = "boatbuilder.currentEstimate.v1";
+  const STORAGE_KEY = "boatbuilder.currentEstimate.v3";
+  const LEGACY_STORAGE_KEYS = [
+    "boatbuilder.currentEstimate.v2",
+    "boatbuilder.currentEstimate.v1"
+  ];
   const ERA_FIELDS = ["1980s Value", "1990s Value", "2000s Value", "2010s Value", "2020s Value"];
+  const MOTOR_CATEGORIES = new Set(["main-motors", "kickers"]);
+  const COMMON_HP = [4, 5, 6, 8, 9.8, 9.9, 15, 20, 25, 30, 40, 50, 55, 60, 65, 70, 75, 80, 85, 88, 90, 100, 110, 115, 125, 130, 135, 140, 150, 175, 200];
+
+  const TRAILER_OPTIONS = [
+    { id: "standard", label: "Standard factory / generic trailer included", low: 0, high: 0 },
+    { id: "premium-single", label: "Premium single axle: brakes, swing tongue, upgraded hardware", low: 400, high: 1200 },
+    { id: "galvanized-single", label: "Galvanized single axle", low: 700, high: 1600 },
+    { id: "aluminum-single", label: "Aluminum single axle", low: 1200, high: 2500 },
+    { id: "tandem", label: "Tandem axle steel / galvanized", low: 1500, high: 3000 },
+    { id: "tandem-premium", label: "Premium tandem / aluminum trailer", low: 2500, high: 4500 }
+  ];
+
+  const MANUFACTURER_NOTES = {
+    Lund: "Current and many recent Lund families use SS for side console, Sport for a full windshield, and Tiller for tiller steering. That is not a timeless rule for every Lund ever built. Older paperwork may say Lund American, which is manufacturer wording rather than a model name. Verify the year, full family name, length designation, layout suffix, HIN, and capacity plate."
+  };
 
   const els = {
     app: document.querySelector("#app"),
-    main: document.querySelector("#app-main"),
     loading: document.querySelector("#loading"),
     back: document.querySelector("#back-button"),
     home: document.querySelector("#home-button"),
+    clear: document.querySelector("#clear-estimate-button"),
     estimate: document.querySelector("#estimate-button"),
     count: document.querySelector("#estimate-count")
   };
@@ -24,9 +42,10 @@
   let catalog = null;
   let itemById = new Map();
   let selections = loadSelections();
-  let pendingEra = new Map();
-  let appHistory = [];
+  const pendingConfig = new Map();
   const eraCache = new Map();
+  const hpCache = new Map();
+  let appHistory = [];
 
   function clean(value) {
     return value === null || value === undefined ? "" : String(value).trim();
@@ -41,20 +60,36 @@
       .replaceAll("'", "&#039;");
   }
 
+  function normalizedConfig(value = {}) {
+    const hp = Number(value.hp);
+    return {
+      era: clean(value.era) || null,
+      hp: Number.isFinite(hp) && hp > 0 ? hp : null,
+      trailer: clean(value.trailer) || "standard"
+    };
+  }
+
   function loadSelections() {
     try {
-      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-      if (Array.isArray(saved)) {
-        return new Map(saved
+      const current = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+      if (Array.isArray(current)) {
+        return new Map(current
           .filter(entry => entry && typeof entry.id === "string")
-          .map(entry => [entry.id, { era: clean(entry.era) || null }]));
+          .map(entry => [entry.id, normalizedConfig(entry)]));
       }
 
-      const legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE_KEY) || "[]");
-      if (Array.isArray(legacy)) {
-        return new Map(legacy
+      const v2 = JSON.parse(localStorage.getItem(LEGACY_STORAGE_KEYS[0]) || "null");
+      if (Array.isArray(v2)) {
+        return new Map(v2
+          .filter(entry => entry && typeof entry.id === "string")
+          .map(entry => [entry.id, normalizedConfig(entry)]));
+      }
+
+      const v1 = JSON.parse(localStorage.getItem(LEGACY_STORAGE_KEYS[1]) || "[]");
+      if (Array.isArray(v1)) {
+        return new Map(v1
           .filter(id => typeof id === "string")
-          .map(id => [id, { era: null }]));
+          .map(id => [id, normalizedConfig()]));
       }
     } catch (error) {
       console.warn("Could not restore the saved estimate.", error);
@@ -63,55 +98,182 @@
   }
 
   function saveSelections() {
-    const payload = [...selections].map(([id, selection]) => ({
-      id,
-      era: clean(selection?.era) || null
-    }));
+    const payload = [...selections].map(([id, config]) => ({ id, ...normalizedConfig(config) }));
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
     els.count.textContent = String(selections.size);
+    if (els.clear) els.clear.disabled = selections.size === 0;
+  }
+
+  function detailMap(item) {
+    return new Map((item.details || []).map(detail => [detail.label, detail.value]));
+  }
+
+  function parseAmount(numberText, suffix) {
+    const number = Number(numberText);
+    if (!Number.isFinite(number)) return null;
+    return suffix ? Math.round(number * 1000) : Math.round(number);
   }
 
   function parseMoneyTokens(value) {
     const text = clean(value).replaceAll(",", "");
     if (!text) return [];
-
     const values = [];
     const pattern = /\$?\s*(\d+(?:\.\d+)?)\s*([kK]?)/g;
     let match;
-
     while ((match = pattern.exec(text)) !== null) {
       const token = match[0];
       if (!token.includes("$") && !match[2]) continue;
-      let amount = Number(match[1]);
-      if (match[2]) amount *= 1000;
-      if (Number.isFinite(amount)) values.push(Math.round(amount));
+      const amount = parseAmount(match[1], match[2]);
+      if (amount !== null) values.push(amount);
     }
     return values;
   }
 
+  function parsePriceBands(value) {
+    const text = clean(value).replaceAll(",", "");
+    if (!text) return [];
+    const bands = [];
+
+    for (const segment of text.split(";")) {
+      const priceMatches = [...segment.matchAll(/\$?\s*(\d+(?:\.\d+)?)\s*([kK]?)\s*[–—-]\s*\$?\s*(\d+(?:\.\d+)?)\s*([kK]?)/g)];
+      const priceMatch = priceMatches.at(-1);
+      if (!priceMatch) continue;
+
+      const low = parseAmount(priceMatch[1], priceMatch[2]);
+      const high = parseAmount(priceMatch[3], priceMatch[4]);
+      if (low === null || high === null) continue;
+
+      const prefix = segment.slice(0, priceMatch.index).trim();
+      const hpRanges = [...prefix.matchAll(/(\d+(?:\.\d+)?)\s*[–—-]\s*(\d+(?:\.\d+)?)/g)];
+      const hpRange = hpRanges.at(-1);
+      if (hpRange) {
+        bands.push({ minHp: Number(hpRange[1]), maxHp: Number(hpRange[2]), low, high });
+        continue;
+      }
+
+      const singles = [...prefix.matchAll(/(\d+(?:\.\d+)?)(?=\s*:?\s*$)/g)];
+      const single = singles.at(-1);
+      if (single) {
+        const hp = Number(single[1]);
+        bands.push({ minHp: hp, maxHp: hp, low, high });
+      }
+    }
+
+    return bands.filter(band => Number.isFinite(band.minHp) && Number.isFinite(band.maxHp));
+  }
+
   function eraOptions(item) {
     if (eraCache.has(item.id)) return eraCache.get(item.id);
-
-    const detailMap = new Map((item.details || []).map(detail => [detail.label, detail.value]));
+    const details = detailMap(item);
     const options = ERA_FIELDS.flatMap(field => {
-      const values = parseMoneyTokens(detailMap.get(field));
+      const value = details.get(field);
+      const bands = parsePriceBands(value);
+      const values = bands.length
+        ? bands.flatMap(band => [band.low, band.high])
+        : parseMoneyTokens(value);
       if (!values.length) return [];
       return [{
         era: field.replace(" Value", ""),
         low: Math.min(...values),
-        high: Math.max(...values)
+        high: Math.max(...values),
+        bands
       }];
     });
-
     eraCache.set(item.id, options);
     return options;
   }
 
-  function pricingFor(item, era) {
-    const match = eraOptions(item).find(option => option.era === era);
-    return match
-      ? { low: match.low, high: match.high, era: match.era }
-      : { low: item.lowPrice, high: item.highPrice, era: null };
+  function motorSpecsText(item) {
+    const details = detailMap(item);
+    return clean(details.get("Specs / Role")) || clean(item.model);
+  }
+
+  function hpOptions(item) {
+    if (!MOTOR_CATEGORIES.has(item.categoryId)) return [];
+    if (hpCache.has(item.id)) return hpCache.get(item.id);
+
+    const values = new Set();
+    for (const era of eraOptions(item)) {
+      for (const band of era.bands) {
+        values.add(band.minHp);
+        values.add(band.maxHp);
+        for (const hp of COMMON_HP) {
+          if (hp >= band.minHp && hp <= band.maxHp) values.add(hp);
+        }
+      }
+    }
+
+    const specs = motorSpecsText(item).split("•")[0];
+    const range = specs.match(/(\d+(?:\.\d+)?)\s*[–—-]\s*(\d+(?:\.\d+)?)/);
+    if (range) {
+      const min = Number(range[1]);
+      const max = Number(range[2]);
+      values.add(min);
+      values.add(max);
+      for (const hp of COMMON_HP) {
+        if (hp >= min && hp <= max) values.add(hp);
+      }
+    } else {
+      for (const match of specs.matchAll(/\d+(?:\.\d+)?/g)) {
+        const hp = Number(match[0]);
+        if (hp > 0 && hp <= 300) values.add(hp);
+      }
+    }
+
+    const result = [...values].filter(Number.isFinite).sort((a, b) => a - b);
+    hpCache.set(item.id, result);
+    return result;
+  }
+
+  function trailerOption(id) {
+    return TRAILER_OPTIONS.find(option => option.id === id) || TRAILER_OPTIONS[0];
+  }
+
+  function hpAdjustedRange(base, item, hp) {
+    const options = hpOptions(item);
+    if (!Number.isFinite(base.low) || !Number.isFinite(base.high) || options.length < 2 || !Number.isFinite(hp)) {
+      return { ...base, hpMethod: null };
+    }
+
+    const minHp = options[0];
+    const maxHp = options.at(-1);
+    const ratio = maxHp === minHp ? 0.5 : Math.max(0, Math.min(1, (hp - minHp) / (maxHp - minHp)));
+    const span = Math.max(0, base.high - base.low);
+    const window = span * 0.55;
+    const center = base.low + ratio * span;
+    const roundTo = span >= 2000 ? 100 : 25;
+    const low = Math.round(Math.max(base.low, center - window / 2) / roundTo) * roundTo;
+    const high = Math.round(Math.min(base.high, center + window / 2) / roundTo) * roundTo;
+    return { ...base, low, high, hpMethod: "derived" };
+  }
+
+  function pricingFor(item, rawConfig = {}) {
+    const config = normalizedConfig(rawConfig);
+    const era = eraOptions(item).find(option => option.era === config.era) || null;
+    let pricing = era
+      ? { low: era.low, high: era.high, era: era.era, hpMethod: null }
+      : { low: item.lowPrice, high: item.highPrice, era: null, hpMethod: null };
+
+    if (MOTOR_CATEGORIES.has(item.categoryId) && Number.isFinite(config.hp)) {
+      const exactBand = era?.bands.find(band => config.hp >= band.minHp && config.hp <= band.maxHp);
+      if (exactBand) {
+        pricing = { low: exactBand.low, high: exactBand.high, era: era.era, hpMethod: "source" };
+      } else {
+        pricing = hpAdjustedRange(pricing, item, config.hp);
+      }
+    }
+
+    if (item.categoryId === "boats") {
+      const trailer = trailerOption(config.trailer);
+      pricing = {
+        ...pricing,
+        low: Number.isFinite(pricing.low) ? pricing.low + trailer.low : pricing.low,
+        high: Number.isFinite(pricing.high) ? pricing.high + trailer.high : pricing.high,
+        trailer
+      };
+    }
+
+    return pricing;
   }
 
   function formatPrice(value) {
@@ -119,43 +281,33 @@
   }
 
   function formatPricing(pricing) {
-    if (!Number.isFinite(pricing.low) && !Number.isFinite(pricing.high)) {
-      return "Price not set";
-    }
+    if (!Number.isFinite(pricing.low) && !Number.isFinite(pricing.high)) return "Price not set";
     return `${formatPrice(pricing.low)}–${formatPrice(pricing.high)}`;
   }
 
-  function selectedEra(id) {
-    return clean(selections.get(id)?.era) || null;
+  function selectedConfig(id) {
+    return selections.get(id) || null;
   }
 
-  function preferredEra(id) {
-    return selectedEra(id) || clean(pendingEra.get(id)) || null;
+  function workingConfig(id) {
+    return normalizedConfig(selectedConfig(id) || pendingConfig.get(id) || {});
   }
 
-  function toggleItem(id, checked, era = undefined) {
-    if (checked) {
-      const resolvedEra = era === undefined ? preferredEra(id) : (clean(era) || null);
-      selections.set(id, { era: resolvedEra });
-    } else {
-      selections.delete(id);
-    }
+  function setConfig(id, patch) {
+    const next = normalizedConfig({ ...workingConfig(id), ...patch });
+    pendingConfig.set(id, next);
+    if (selections.has(id)) selections.set(id, next);
     saveSelections();
   }
 
-  function setEra(id, era) {
-    const normalized = clean(era) || null;
-    if (normalized) pendingEra.set(id, normalized);
-    else pendingEra.delete(id);
-
-    if (selections.has(id)) {
-      selections.set(id, { era: normalized });
-      saveSelections();
-    }
+  function toggleItem(id, checked, suppliedConfig = null) {
+    if (checked) selections.set(id, normalizedConfig(suppliedConfig || workingConfig(id)));
+    else selections.delete(id);
+    saveSelections();
   }
 
   function eraSelectOptions(item, era) {
-    const broad = pricingFor(item, null);
+    const broad = pricingFor(item, { era: null });
     const options = [`<option value=""${era ? "" : " selected"}>All listed eras · ${escapeHtml(formatPricing(broad))}</option>`];
     for (const option of eraOptions(item)) {
       options.push(`<option value="${escapeHtml(option.era)}"${option.era === era ? " selected" : ""}>${escapeHtml(option.era)} · ${escapeHtml(formatPricing(option))}</option>`);
@@ -163,31 +315,77 @@
     return options.join("");
   }
 
+  function hpSelectOptions(item, hp) {
+    const options = [`<option value=""${hp ? "" : " selected"}>Choose horsepower</option>`];
+    for (const value of hpOptions(item)) {
+      options.push(`<option value="${value}"${Number(hp) === value ? " selected" : ""}>${value} hp</option>`);
+    }
+    return options.join("");
+  }
+
+  function trailerSelectOptions(selected) {
+    return TRAILER_OPTIONS.map(option => `<option value="${option.id}"${option.id === selected ? " selected" : ""}>${escapeHtml(option.label)}${option.low || option.high ? ` · +${formatPrice(option.low)}–${formatPrice(option.high)}` : ""}</option>`).join("");
+  }
+
+  function configurationControls(item, config, prefix) {
+    const controls = [];
+    const eras = eraOptions(item);
+    const hpValues = hpOptions(item);
+
+    if (eras.length) {
+      controls.push(`<label class="estimate-era" style="display:grid;gap:.3rem">
+        <span style="color:#60717b;font-size:.78rem;font-weight:700">Age / era</span>
+        <select data-config-era="${escapeHtml(item.id)}" id="${prefix}-era" style="width:100%;min-height:2.7rem;padding:.5rem;border:1px solid #cbd7dd;border-radius:.55rem;background:#fff">${eraSelectOptions(item, config.era)}</select>
+      </label>`);
+    }
+
+    if (hpValues.length) {
+      controls.push(`<label class="estimate-hp" style="display:grid;gap:.3rem">
+        <span style="color:#60717b;font-size:.78rem;font-weight:700">Horsepower</span>
+        <select data-config-hp="${escapeHtml(item.id)}" id="${prefix}-hp" style="width:100%;min-height:2.7rem;padding:.5rem;border:1px solid #cbd7dd;border-radius:.55rem;background:#fff">${hpSelectOptions(item, config.hp)}</select>
+      </label>`);
+    }
+
+    if (item.categoryId === "boats") {
+      controls.push(`<label class="estimate-trailer" style="display:grid;gap:.3rem">
+        <span style="color:#60717b;font-size:.78rem;font-weight:700">Trailer included with boat</span>
+        <select data-config-trailer="${escapeHtml(item.id)}" id="${prefix}-trailer" style="width:100%;min-height:2.7rem;padding:.5rem;border:1px solid #cbd7dd;border-radius:.55rem;background:#fff">${trailerSelectOptions(config.trailer)}</select>
+        <small style="color:#60717b">Boat values already assume a standard factory or generic trailer. Only the selected upgrade is added.</small>
+      </label>`);
+    }
+
+    return controls.length
+      ? `<div class="configuration-controls" style="display:grid;gap:.75rem;margin:1rem 0;padding:.85rem;background:#edf3f6;border-radius:.8rem">${controls.join("")}</div>`
+      : "";
+  }
+
+  function pricingNote(item, config, pricing) {
+    const notes = [];
+    if (pricing.era) notes.push(`${pricing.era} value guidance`);
+    if (MOTOR_CATEGORIES.has(item.categoryId)) {
+      if (!config.hp) notes.push("Choose horsepower to narrow this motor estimate");
+      else if (pricing.hpMethod === "source") notes.push(`${config.hp} hp source price band`);
+      else if (pricing.hpMethod === "derived") notes.push(`${config.hp} hp adjustment derived from the family range because no separate source band exists`);
+    }
+    if (item.categoryId === "boats") notes.push(trailerOption(config.trailer).label);
+    return notes.length ? `${notes.join(". ")}. Exact condition and included rigging still matter.` : item.priceBasis;
+  }
+
   function currentRoute() {
     const parts = location.hash.replace(/^#/, "").split("/");
     if (!parts[0]) return { view: "categories" };
-    if (parts[0] === "category" && parts[1]) {
-      return { view: "manufacturers", categoryId: decodeURIComponent(parts[1]) };
-    }
+    if (parts[0] === "category" && parts[1]) return { view: "manufacturers", categoryId: decodeURIComponent(parts[1]) };
     if (parts[0] === "manufacturer" && parts[1] && parts[2]) {
-      return {
-        view: "items",
-        categoryId: decodeURIComponent(parts[1]),
-        manufacturer: decodeURIComponent(parts.slice(2).join("/"))
-      };
+      return { view: "items", categoryId: decodeURIComponent(parts[1]), manufacturer: decodeURIComponent(parts.slice(2).join("/")) };
     }
-    if (parts[0] === "item" && parts[1]) {
-      return { view: "detail", itemId: decodeURIComponent(parts.slice(1).join("/")) };
-    }
+    if (parts[0] === "item" && parts[1]) return { view: "detail", itemId: decodeURIComponent(parts.slice(1).join("/")) };
     if (parts[0] === "estimate") return { view: "estimate" };
     return { view: "categories" };
   }
 
   function routeHash(route) {
     if (route.view === "manufacturers") return `category/${encodeURIComponent(route.categoryId)}`;
-    if (route.view === "items") {
-      return `manufacturer/${encodeURIComponent(route.categoryId)}/${encodeURIComponent(route.manufacturer)}`;
-    }
+    if (route.view === "items") return `manufacturer/${encodeURIComponent(route.categoryId)}/${encodeURIComponent(route.manufacturer)}`;
     if (route.view === "detail") return `item/${encodeURIComponent(route.itemId)}`;
     if (route.view === "estimate") return "estimate";
     return "";
@@ -196,9 +394,8 @@
   function navigate(route, remember = true) {
     if (remember) appHistory.push(currentRoute());
     const hash = routeHash(route);
-    if (hash) {
-      location.hash = hash;
-    } else {
+    if (hash) location.hash = hash;
+    else {
       history.replaceState(null, "", `${location.pathname}${location.search}`);
       render();
     }
@@ -208,6 +405,15 @@
     const previous = appHistory.pop();
     if (previous) navigate(previous, false);
     else navigate({ view: "categories" }, false);
+  }
+
+  function clearEstimate() {
+    if (!selections.size) return;
+    if (!window.confirm(`Clear all ${selections.size} selected ${selections.size === 1 ? "item" : "items"} from the estimate?`)) return;
+    selections.clear();
+    pendingConfig.clear();
+    saveSelections();
+    render();
   }
 
   function heading(title, description = "") {
@@ -235,21 +441,15 @@
       <p class="data-note">The catalog is bundled with BoatBuilder from the maintained research spreadsheet. BoatBuilder does not use AppSheet.</p>`;
 
     els.app.querySelectorAll("[data-category]").forEach(button => {
-      button.addEventListener("click", () => navigate({
-        view: "manufacturers",
-        categoryId: button.dataset.category
-      }));
+      button.addEventListener("click", () => navigate({ view: "manufacturers", categoryId: button.dataset.category }));
     });
   }
 
   function renderManufacturers(route) {
     const category = catalog.categories.find(entry => entry.id === route.categoryId);
     if (!category) return renderCategories();
-
     const counts = new Map();
-    for (const item of itemsInCategory(route.categoryId)) {
-      counts.set(item.manufacturer, (counts.get(item.manufacturer) || 0) + 1);
-    }
+    for (const item of itemsInCategory(route.categoryId)) counts.set(item.manufacturer, (counts.get(item.manufacturer) || 0) + 1);
 
     const cards = [...counts.entries()]
       .sort(([a], [b]) => a.localeCompare(b))
@@ -262,19 +462,16 @@
       <section class="card-list" aria-label="Manufacturers">${cards}</section>`;
 
     els.app.querySelectorAll("[data-manufacturer]").forEach(button => {
-      button.addEventListener("click", () => navigate({
-        view: "items",
-        categoryId: route.categoryId,
-        manufacturer: button.dataset.manufacturer
-      }));
+      button.addEventListener("click", () => navigate({ view: "items", categoryId: route.categoryId, manufacturer: button.dataset.manufacturer }));
     });
   }
 
   function itemCard(item) {
     const checked = selections.has(item.id);
-    const era = selectedEra(item.id);
-    const pricing = pricingFor(item, era);
-    const subtitle = [item.subtitle || item.badge, era ? `Estimate: ${era}` : ""].filter(Boolean).join(" · ");
+    const config = workingConfig(item.id);
+    const pricing = pricingFor(item, config);
+    const configText = [config.era, config.hp ? `${config.hp} hp` : ""].filter(Boolean).join(" · ");
+    const subtitle = [item.subtitle || item.badge, configText ? `Estimate: ${configText}` : ""].filter(Boolean).join(" · ");
 
     return `<article class="item-card${checked ? " selected" : ""}">
       <label class="select-control" aria-label="${checked ? "Remove from" : "Add to"} estimate">
@@ -292,7 +489,7 @@
     els.app.querySelectorAll("[data-select]").forEach(input => {
       input.addEventListener("change", event => {
         toggleItem(event.currentTarget.dataset.select, event.currentTarget.checked);
-        event.currentTarget.closest(".item-card")?.classList.toggle("selected", event.currentTarget.checked);
+        render();
       });
     });
     els.app.querySelectorAll("[data-open]").forEach(button => {
@@ -306,82 +503,74 @@
       .filter(item => item.manufacturer === route.manufacturer)
       .sort((a, b) => (a.model || a.displayName).localeCompare(b.model || b.displayName));
 
-    els.app.innerHTML = `${heading(route.manufacturer, category?.name || "")}
+    const specific = MANUFACTURER_NOTES[route.manufacturer];
+    const namingNote = route.categoryId === "boats"
+      ? `<aside class="data-note" style="margin:0 0 1rem;padding:.85rem;background:#fff;border:1px solid #cbd7dd;border-radius:.8rem"><strong>Listing-name note:</strong> Sellers often abbreviate, omit, or misstate model names. BoatBuilder uses the official family, size, and layout name when it can be verified. Brand suffixes are not universal.${specific ? ` ${escapeHtml(specific)}` : ""}</aside>`
+      : "";
+
+    els.app.innerHTML = `${heading(route.manufacturer, category?.name || "")}${namingNote}
       <section class="card-list" aria-label="Models and variations">${items.map(itemCard).join("")}</section>`;
     bindItemCards();
+  }
+
+  function bindConfigurationControls(item, rerender) {
+    els.app.querySelectorAll("[data-config-era]").forEach(select => {
+      if (select.dataset.configEra !== item.id) return;
+      select.addEventListener("change", event => { setConfig(item.id, { era: event.currentTarget.value || null }); rerender(); });
+    });
+    els.app.querySelectorAll("[data-config-hp]").forEach(select => {
+      if (select.dataset.configHp !== item.id) return;
+      select.addEventListener("change", event => { setConfig(item.id, { hp: event.currentTarget.value ? Number(event.currentTarget.value) : null }); rerender(); });
+    });
+    els.app.querySelectorAll("[data-config-trailer]").forEach(select => {
+      if (select.dataset.configTrailer !== item.id) return;
+      select.addEventListener("change", event => { setConfig(item.id, { trailer: event.currentTarget.value }); rerender(); });
+    });
   }
 
   function renderDetail(route) {
     const item = itemById.get(route.itemId);
     if (!item) return renderCategories();
-
-    const era = preferredEra(item.id);
-    const pricing = pricingFor(item, era);
-    const options = eraOptions(item);
+    const config = workingConfig(item.id);
+    const pricing = pricingFor(item, config);
     const image = item.image?.url ? `<div class="detail-image-wrap">
-      <img class="detail-image" src="${escapeHtml(item.image.url)}" alt="${escapeHtml(item.displayName)}" loading="eager"
-        onerror="this.closest('.detail-image-wrap').remove()">
+      <img class="detail-image" src="${escapeHtml(item.image.url)}" alt="${escapeHtml(item.displayName)}" loading="eager" onerror="this.closest('.detail-image-wrap').remove()">
     </div>` : "";
-
-    const photoDetail = item.image ? `<div class="definition-row">
-      <dt>Photo match</dt>
-      <dd>${escapeHtml(item.image.matchQuality)}${item.image.note ? ` · ${escapeHtml(item.image.note)}` : ""}</dd>
-    </div>` : "";
-
-    const details = item.details.map(detail => `<div class="definition-row">
-      <dt>${escapeHtml(detail.label)}</dt><dd>${escapeHtml(detail.value)}</dd>
-    </div>`).join("");
-
-    const eraControl = options.length ? `<div class="era-control" style="margin:1rem 0;padding:.85rem;background:#edf3f6;border-radius:.8rem">
-      <label for="detail-era"><strong>Age / era for estimate</strong></label>
-      <select id="detail-era" style="display:block;width:100%;min-height:2.75rem;margin-top:.45rem;padding:.55rem;border:1px solid #cbd7dd;border-radius:.6rem;background:#fff">${eraSelectOptions(item, era)}</select>
-      <small style="display:block;margin-top:.4rem;color:#60717b">Choosing an era changes the values used in the estimate.</small>
-    </div>` : "";
+    const photoDetail = item.image ? `<div class="definition-row"><dt>Photo match</dt><dd>${escapeHtml(item.image.matchQuality)}${item.image.note ? ` · ${escapeHtml(item.image.note)}` : ""}</dd></div>` : "";
+    const details = item.details.map(detail => `<div class="definition-row"><dt>${escapeHtml(detail.label)}</dt><dd>${escapeHtml(detail.value)}</dd></div>`).join("");
 
     els.app.innerHTML = `<article class="detail-card">${image}<div class="detail-body">
       <h1 class="detail-title">${escapeHtml(item.displayName)}</h1>
       <p class="detail-subtitle">${escapeHtml(item.categoryName)} · ${escapeHtml(item.manufacturer)}</p>
       ${item.badge ? `<span class="badge">${escapeHtml(item.badge)}</span>` : ""}
-      ${eraControl}
+      ${configurationControls(item, config, "detail")}
       <div class="detail-select">
         <label><input id="detail-select" type="checkbox" ${selections.has(item.id) ? "checked" : ""}> Add to estimate</label>
-        <strong id="detail-range">${escapeHtml(formatPricing(pricing))}</strong>
+        <strong>${escapeHtml(formatPricing(pricing))}</strong>
       </div>
       <div class="price-panel">
-        <div class="price-box"><small>Low estimate</small><strong id="detail-low">${escapeHtml(formatPrice(pricing.low))}</strong></div>
-        <div class="price-box"><small>High estimate</small><strong id="detail-high">${escapeHtml(formatPrice(pricing.high))}</strong></div>
+        <div class="price-box"><small>Low estimate</small><strong>${escapeHtml(formatPrice(pricing.low))}</strong></div>
+        <div class="price-box"><small>High estimate</small><strong>${escapeHtml(formatPrice(pricing.high))}</strong></div>
       </div>
-      <p id="detail-price-basis" class="data-note">${escapeHtml(era ? `${era} value guidance from the spreadsheet. Exact condition and included controls still matter.` : item.priceBasis)}</p>
+      <p class="data-note">${escapeHtml(pricingNote(item, config, pricing))}</p>
       <dl class="definition-list">${photoDetail}${details}</dl>
       ${item.sourceUrl ? `<a class="source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener">Open source information</a>` : ""}
     </div></article>`;
 
-    const checkbox = document.querySelector("#detail-select");
-    const eraSelect = document.querySelector("#detail-era");
-
-    checkbox.addEventListener("change", event => {
-      toggleItem(item.id, event.currentTarget.checked, eraSelect?.value || null);
+    document.querySelector("#detail-select").addEventListener("change", event => {
+      toggleItem(item.id, event.currentTarget.checked, config);
+      renderDetail(route);
     });
-
-    eraSelect?.addEventListener("change", event => {
-      const chosenEra = event.currentTarget.value || null;
-      setEra(item.id, chosenEra);
-      const updated = pricingFor(item, chosenEra);
-      document.querySelector("#detail-range").textContent = formatPricing(updated);
-      document.querySelector("#detail-low").textContent = formatPrice(updated.low);
-      document.querySelector("#detail-high").textContent = formatPrice(updated.high);
-      document.querySelector("#detail-price-basis").textContent = chosenEra
-        ? `${chosenEra} value guidance from the spreadsheet. Exact condition and included controls still matter.`
-        : item.priceBasis;
-    });
+    bindConfigurationControls(item, () => renderDetail(route));
   }
 
   function renderEstimate() {
     const lines = [...selections]
-      .map(([id, selection]) => {
+      .map(([id, config]) => {
         const item = itemById.get(id);
         if (!item) return null;
-        return { item, era: clean(selection?.era) || null, pricing: pricingFor(item, selection?.era) };
+        const normalized = normalizedConfig(config);
+        return { item, config: normalized, pricing: pricingFor(item, normalized) };
       })
       .filter(Boolean)
       .sort((a, b) => a.item.categoryName.localeCompare(b.item.categoryName) || a.item.displayName.localeCompare(b.item.displayName));
@@ -395,82 +584,50 @@
     const lowTotal = lines.reduce((total, line) => total + (Number.isFinite(line.pricing.low) ? line.pricing.low : 0), 0);
     const highTotal = lines.reduce((total, line) => total + (Number.isFinite(line.pricing.high) ? line.pricing.high : 0), 0);
     const missing = lines.filter(line => !Number.isFinite(line.pricing.low) || !Number.isFinite(line.pricing.high)).length;
-    const broad = lines.filter(line => eraOptions(line.item).length && !line.era).length;
+    const broadEra = lines.filter(line => eraOptions(line.item).length && !line.config.era).length;
+    const missingHp = lines.filter(line => MOTOR_CATEGORIES.has(line.item.categoryId) && hpOptions(line.item).length && !line.config.hp).length;
 
-    const rows = lines.map(({ item, era, pricing }) => {
-      const options = eraOptions(item);
-      const eraControl = options.length ? `<label class="estimate-era" style="display:grid;gap:.3rem;margin-top:.65rem">
-        <span style="color:#60717b;font-size:.78rem;font-weight:700">Age / era</span>
-        <select data-estimate-era="${escapeHtml(item.id)}" style="width:100%;min-height:2.5rem;padding:.45rem;border:1px solid #cbd7dd;border-radius:.55rem;background:#fff">${eraSelectOptions(item, era)}</select>
-      </label>` : "";
-
-      return `<article class="estimate-line">
-        <label aria-label="Remove ${escapeHtml(item.displayName)} from estimate">
-          <input type="checkbox" data-remove="${escapeHtml(item.id)}" checked>
-        </label>
-        <div><h2>${escapeHtml(item.displayName)}</h2>
-          <p>${escapeHtml(item.categoryName)} · ${escapeHtml(item.manufacturer)}${era ? ` · ${escapeHtml(era)}` : ""}</p>
-          ${eraControl}
-          <div class="line-prices"><span>Low ${escapeHtml(formatPrice(pricing.low))}</span><span>High ${escapeHtml(formatPrice(pricing.high))}</span></div>
-        </div>
-      </article>`;
-    }).join("");
+    const rows = lines.map(({ item, config, pricing }) => `<article class="estimate-line">
+      <label aria-label="Remove ${escapeHtml(item.displayName)} from estimate"><input type="checkbox" data-remove="${escapeHtml(item.id)}" checked></label>
+      <div><h2>${escapeHtml(item.displayName)}</h2>
+        <p>${escapeHtml(item.categoryName)} · ${escapeHtml(item.manufacturer)}${config.era ? ` · ${escapeHtml(config.era)}` : ""}${config.hp ? ` · ${config.hp} hp` : ""}</p>
+        ${configurationControls(item, config, `estimate-${item.id.replace(/[^a-z0-9]/gi, "-")}`)}
+        <div class="line-prices"><span>Low ${escapeHtml(formatPrice(pricing.low))}</span><span>High ${escapeHtml(formatPrice(pricing.high))}</span></div>
+        <p class="data-note">${escapeHtml(pricingNote(item, config, pricing))}</p>
+      </div>
+    </article>`).join("");
 
     els.app.innerHTML = `${heading("Current estimate", `${lines.length} selected ${lines.length === 1 ? "item" : "items"}`)}
-      <section class="estimate-summary">
-        <div><small>Package low</small><strong>${escapeHtml(formatPrice(lowTotal))}</strong></div>
-        <div><small>Package high</small><strong>${escapeHtml(formatPrice(highTotal))}</strong></div>
-      </section>
-      ${broad ? `<p class="data-note"><strong>${broad} age-sensitive ${broad === 1 ? "item is" : "items are"} still using broad all-era values.</strong> Choose an era below for a more useful estimate.</p>` : ""}
-      ${missing ? `<p class="data-note"><strong>${missing} selected ${missing === 1 ? "item has" : "items have"} an incomplete price range.</strong> The displayed totals exclude missing values.</p>` : ""}
+      <section class="estimate-summary"><div><small>Package low</small><strong>${escapeHtml(formatPrice(lowTotal))}</strong></div><div><small>Package high</small><strong>${escapeHtml(formatPrice(highTotal))}</strong></div></section>
+      ${missingHp ? `<p class="data-note"><strong>${missingHp} selected ${missingHp === 1 ? "motor needs" : "motors need"} horsepower.</strong> Choose HP below before treating the estimate as narrowed.</p>` : ""}
+      ${broadEra ? `<p class="data-note"><strong>${broadEra} age-sensitive ${broadEra === 1 ? "item is" : "items are"} still using all-era values.</strong> Choose an era below.</p>` : ""}
+      ${missing ? `<p class="data-note"><strong>${missing} selected ${missing === 1 ? "item has" : "items have"} an incomplete price range.</strong> Missing values are excluded from totals.</p>` : ""}
       <section class="card-list">${rows}</section>
       <button id="clear-estimate" class="danger-button" type="button">Clear estimate</button>`;
 
     els.app.querySelectorAll("[data-remove]").forEach(input => {
-      input.addEventListener("change", event => {
-        toggleItem(event.currentTarget.dataset.remove, false);
-        renderEstimate();
-      });
+      input.addEventListener("change", event => { toggleItem(event.currentTarget.dataset.remove, false); renderEstimate(); });
     });
-
-    els.app.querySelectorAll("[data-estimate-era]").forEach(select => {
-      select.addEventListener("change", event => {
-        setEra(event.currentTarget.dataset.estimateEra, event.currentTarget.value || null);
-        renderEstimate();
-      });
-    });
-
-    document.querySelector("#clear-estimate").addEventListener("click", () => {
-      selections.clear();
-      saveSelections();
-      renderEstimate();
-    });
+    for (const { item } of lines) bindConfigurationControls(item, renderEstimate);
+    document.querySelector("#clear-estimate").addEventListener("click", clearEstimate);
   }
 
   function render() {
     const route = currentRoute();
     els.back.hidden = route.view === "categories";
-
     if (route.view === "manufacturers") renderManufacturers(route);
     else if (route.view === "items") renderItems(route);
     else if (route.view === "detail") renderDetail(route);
     else if (route.view === "estimate") renderEstimate();
     else renderCategories();
-
     els.app.hidden = false;
-    requestAnimationFrame(() => els.main.focus({ preventScroll: true }));
   }
 
   function initialize() {
     const data = window.BOATBUILDER_DATA;
-    if (!data || !Array.isArray(data.categories) || !Array.isArray(data.items) || data.items.length === 0) {
-      throw new Error("The bundled catalog is missing or empty.");
-    }
+    if (!data || !Array.isArray(data.categories) || !Array.isArray(data.items) || !data.items.length) throw new Error("The bundled catalog is missing or empty.");
     const ids = data.items.map(item => item.id);
-    if (new Set(ids).size !== ids.length) {
-      throw new Error("The bundled catalog contains duplicate item IDs.");
-    }
-
+    if (new Set(ids).size !== ids.length) throw new Error("The bundled catalog contains duplicate item IDs.");
     catalog = data;
     itemById = new Map(catalog.items.map(item => [item.id, item]));
     selections = new Map([...selections].filter(([id]) => itemById.has(id)));
@@ -481,6 +638,7 @@
 
   els.back.addEventListener("click", goBack);
   els.home.addEventListener("click", () => navigate({ view: "categories" }));
+  els.clear?.addEventListener("click", clearEstimate);
   els.estimate.addEventListener("click", () => navigate({ view: "estimate" }));
   window.addEventListener("hashchange", render);
 
