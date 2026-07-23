@@ -2,7 +2,7 @@
 
 BoatBuilder is a phone-first boat package research and estimating app for Tod and Donna.
 
-It replaces the attempted AppSheet interface with a small static web app while continuing to use the existing Google Sheet as the catalog source.
+It replaces the attempted AppSheet interface while continuing to use the existing Google Sheet as the maintained research source.
 
 ## Current workflow
 
@@ -26,17 +26,23 @@ There is intentionally no search-first home screen.
 - Bimini, canvas, and covers
 - Electrical systems
 
-## Data source
+## Data source and production snapshot
 
-The app reads these three tabs from the Google Sheet **Aluminum boat model review**:
+The maintained Google Sheet **Aluminum boat model review** supplies three authorized source tabs:
 
 - `App Boats`
 - `App Equipment`
 - `Boat Photos`
 
-The app uses Google Sheets' read-only Visualization endpoint. It does not write to the spreadsheet and does not use AppSheet.
+The deployed browser app does **not** query Google Sheets at runtime. It loads the generated local file `data/catalog.js` from the same GitHub Pages site.
 
-The sheet must remain shared so **anyone with the link** can read it. It does not need to be discoverable in search.
+The generator is `scripts/build_catalog.py`. The GitHub Action in `.github/workflows/build-catalog.yml` downloads the workbook, validates the data, creates `data/catalog.js`, and commits an updated snapshot to `main`.
+
+Current validated snapshot counts:
+
+- 320 total catalog items
+- 148 boats
+- 172 equipment records
 
 ### Stable IDs
 
@@ -44,11 +50,28 @@ The sheet must remain shared so **anyone with the link** can read it. It does no
 - Equipment uses `Equipment ID` from `App Equipment`.
 - Spreadsheet row numbers are never used as item identities.
 
-Despite its name, `AppSheet Key` is now simply a spreadsheet data column. The custom app does not depend on AppSheet.
+Despite its name, `AppSheet Key` is simply a spreadsheet data column. The custom app does not depend on AppSheet.
+
+## Updating the catalog
+
+After changing the spreadsheet:
+
+1. Open the repository’s **Actions** tab.
+2. Open **Build catalog snapshot**.
+3. Choose **Run workflow** on `main`.
+4. Confirm that the workflow reports nonzero item, boat, and equipment counts.
+5. Confirm that `data/catalog.js` received an update commit on `main`.
+
+The builder can also be run locally:
+
+```bash
+python -m pip install openpyxl
+python scripts/build_catalog.py --output data/catalog.js
+```
 
 ## Photo policy
 
-Boat photos appear only when the `Boat Photos` tab identifies the image as an exact or close-era exact-model match.
+Boat photos appear only when the `Boat Photos` tab identifies the image as an approved exact-model match.
 
 The app deliberately hides:
 
@@ -82,31 +105,24 @@ If a selected item has an incomplete price range, the estimate screen identifies
 
 ## Files
 
-- `index.html` — application shell
+- `index.html` — application shell and production script order
 - `styles.css` — phone-first presentation
-- `app.js` — live sheet loader, navigation, item selection, and estimating
+- `app.js` — navigation, item selection, details, and estimating
+- `data/catalog.js` — generated production catalog snapshot
+- `scripts/build_catalog.py` — snapshot generator
+- `.github/workflows/build-catalog.yml` — automated snapshot builder
 - `ProjectRules.md` — controlling project rules
 - `README.md` — this documentation
 
-No build process or package installation is required.
-
 ## Deploy with GitHub Pages
 
-In the GitHub repository:
+GitHub Pages deploys the working application from branch `main`, folder `/(root)`.
 
-1. Open **Settings**.
-2. Open **Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch **main** and folder **/(root)**.
-5. Save.
-
-The published site will load the current catalog from the Google Sheet whenever the app opens.
+The production app, working code, and completed fixes must remain on `main`. Branches are reserved for backup, recovery, and sandbox experiments unless Tod explicitly establishes another workflow.
 
 ## Local testing
 
-Because the app loads remote spreadsheet data, test it through a web server rather than opening `index.html` directly as a local file.
-
-One simple local command is:
+Start a simple local web server:
 
 ```bash
 python -m http.server 8000
@@ -123,9 +139,7 @@ http://localhost:8000
 - The estimate is browser-local, not cross-device.
 - Equipment does not yet have a separate photo catalog.
 - Broad motor-family rows can cover multiple horsepower and year ranges.
-- The live Google Sheets connection still needs a deployed browser test after GitHub Pages is enabled.
-- The spreadsheet must remain link-readable for the app to load.
 
 ## Project rules
 
-`ProjectRules.md` is controlling. It includes the mobile-first requirements, exact-photo rules, stable-ID rules, estimate behavior, repository discipline, and Supabase collision protections for this project.
+`ProjectRules.md` is controlling. It includes mobile-first requirements, exact-photo rules, stable-ID rules, estimate behavior, `main` branch discipline, catalog generation, and Supabase collision protections.
