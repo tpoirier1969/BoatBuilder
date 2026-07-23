@@ -25,6 +25,13 @@ const princecraftSport = catalog.items.find(item =>
 );
 assert.ok(princecraftSport, "Princecraft Sport 167 / Sport 164 record is missing");
 
+const lund1600ProSport = catalog.items.find(item =>
+  item.categoryId === "boats"
+  && item.id === "Lund | 1600 Pro Sport"
+  && /1600 Pro Sport/i.test(item.displayName || item.model || "")
+);
+assert.ok(lund1600ProSport, "Lund 1600 Pro Sport record is missing");
+
 const electronics = catalog.items.filter(item => item.categoryId === "electronics");
 const electrical = catalog.items.filter(item => item.categoryId === "electrical");
 assert.ok(electronics.length > 0 && electronics.every(item => item.subtypeId && item.subtypeName), "Electronics subtype metadata is incomplete");
@@ -54,4 +61,4 @@ assert.match(cssSource, /\.clear-estimate-button\s*\{[\s\S]*?grid-column:\s*3;/,
 assert.match(cssSource, /\.item-card\s*\{[\s\S]*?grid-template-columns:\s*minmax\(0, 1fr\) auto;/, "Model list still reserves a checkbox column");
 
 console.log(`BoatBuilder QA passed: ${catalog.items.length} items, ${catalog.items.filter(item => item.categoryId === "boats").length} boats.`);
-console.log("Verified detail-only selection, required options, centered estimate header, right-side Clear estimate, subtype navigation, and stable catalog IDs.");
+console.log("Verified detail-only selection, required options, centered estimate header, right-side Clear estimate, subtype navigation, stable catalog IDs, and required reconciled boat records.");
