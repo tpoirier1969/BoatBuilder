@@ -4,6 +4,11 @@
   const STORAGE_KEY = "boatbuilder.currentEstimate.v1";
   const SHEET_ID = "17-WMY8q2cCw7smmwLoMWzHbqZTlahi0Atsqe7gh7Wqs";
   const SHEETS = ["App Boats", "App Equipment", "Boat Photos"];
+  const REQUIRED_HEADERS = {
+    "App Boats": ["Boat ID", "AppSheet Key"],
+    "App Equipment": ["Equipment ID", "Category"],
+    "Boat Photos": ["Boat ID", "Representative Photo URL", "Match Quality"]
+  };
 
   const CATEGORIES = [
     { id: "boats", name: "Boats", order: 10 },
@@ -153,20 +158,44 @@
           finish(new Error(`Google Sheets returned an error for ${sheetName}`));
           return;
         }
-        finish(null, tableToRows(response.table));
+        try {
+          finish(null, tableToRows(response.table, sheetName));
+        } catch (error) {
+          finish(error);
+        }
       };
 
       const tqx = `out:json;responseHandler:${callback}`;
-      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?sheet=${encodeURIComponent(sheetName)}&tqx=${encodeURIComponent(tqx)}`;
+      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?sheet=${encodeURIComponent(sheetName)}&headers=1&tqx=${encodeURIComponent(tqx)}`;
       script.async = true;
       script.onerror = () => finish(new Error(`Could not load ${sheetName}`));
       document.head.append(script);
     });
   }
 
-  function tableToRows(table) {
-    const headers = table.cols.map(column => column.label || column.id || "");
-    return table.rows
+  function tableToRows(table, sheetName) {
+    let headers = table.cols.map(column => clean(column.label || column.id));
+    let rows = table.rows || [];
+    const required = REQUIRED_HEADERS[sheetName] || [];
+
+    if (!required.every(header => headers.includes(header)) && rows.length) {
+      const firstRowHeaders = headers.map((_, index) => {
+        const cell = rows[0].c?.[index];
+        return clean(cell ? (cell.v ?? cell.f ?? "") : "");
+      });
+
+      if (required.every(header => firstRowHeaders.includes(header))) {
+        headers = firstRowHeaders;
+        rows = rows.slice(1);
+      }
+    }
+
+    const missing = required.filter(header => !headers.includes(header));
+    if (missing.length) {
+      throw new Error(`${sheetName} is missing expected columns: ${missing.join(", ")}`);
+    }
+
+    return rows
       .map(row => Object.fromEntries(headers.map((header, index) => {
         const cell = row.c?.[index];
         return [header, cell ? (cell.v ?? cell.f ?? "") : ""];
