@@ -155,8 +155,7 @@
         continue;
       }
 
-      const singles = [...prefix.matchAll(/(\d+(?:\.\d+)?)(?=\s*:?\s*$)/g)];
-      const single = singles.at(-1);
+      const single = [...prefix.matchAll(/(\d+(?:\.\d+)?)(?=\s*:?\s*$)/g)].at(-1);
       if (single) {
         const hp = Number(single[1]);
         bands.push({ minHp: hp, maxHp: hp, low, high });
@@ -172,9 +171,7 @@
     const options = ERA_FIELDS.flatMap(field => {
       const value = details.get(field);
       const bands = parsePriceBands(value);
-      const values = bands.length
-        ? bands.flatMap(band => [band.low, band.high])
-        : parseMoneyTokens(value);
+      const values = bands.length ? bands.flatMap(band => [band.low, band.high]) : parseMoneyTokens(value);
       if (!values.length) return [];
       return [{
         era: field.replace(" Value", ""),
@@ -260,11 +257,9 @@
 
     if (MOTOR_CATEGORIES.has(item.categoryId) && Number.isFinite(config.hp)) {
       const exactBand = era?.bands.find(band => config.hp >= band.minHp && config.hp <= band.maxHp);
-      if (exactBand) {
-        pricing = { low: exactBand.low, high: exactBand.high, era: era.era, hpMethod: "source" };
-      } else {
-        pricing = hpAdjustedRange(pricing, item, config.hp);
-      }
+      pricing = exactBand
+        ? { low: exactBand.low, high: exactBand.high, era: era.era, hpMethod: "source" }
+        : hpAdjustedRange(pricing, item, config.hp);
     }
 
     if (item.categoryId === "boats") {
@@ -305,7 +300,6 @@
 
   function updateEstimateHeader() {
     if (!els.range || !els.estimate) return;
-
     if (!selections.size || !itemById.size) {
       els.range.textContent = "$0";
       els.estimate.setAttribute("aria-label", "Open estimate, no items selected");
@@ -336,14 +330,9 @@
       return;
     }
 
-    const compact = low === high
-      ? formatCompactPrice(low)
-      : `${formatCompactPrice(low)}–${formatCompactPrice(high)}`;
+    const compact = low === high ? formatCompactPrice(low) : `${formatCompactPrice(low)}–${formatCompactPrice(high)}`;
     els.range.textContent = missing ? `${compact}+` : compact;
-
-    const missingText = missing
-      ? `, plus ${missing} ${missing === 1 ? "item" : "items"} with incomplete pricing`
-      : "";
+    const missingText = missing ? `, plus ${missing} ${missing === 1 ? "item" : "items"} with incomplete pricing` : "";
     els.estimate.setAttribute(
       "aria-label",
       `Open estimate, ${selections.size} selected ${selections.size === 1 ? "item" : "items"}, ${formatPrice(low)} to ${formatPrice(high)}${missingText}`
@@ -358,10 +347,33 @@
     return normalizedConfig(selectedConfig(id) || pendingConfig.get(id) || {});
   }
 
+  function missingConfiguration(item, rawConfig = {}) {
+    const config = normalizedConfig(rawConfig);
+    const missing = [];
+    if (eraOptions(item).length && !config.era) missing.push("age / era");
+    if (hpOptions(item).length && !config.hp) missing.push("horsepower");
+    return missing;
+  }
+
+  function configurationComplete(item, rawConfig = {}) {
+    return missingConfiguration(item, rawConfig).length === 0;
+  }
+
+  function configurationRequirementText(item, rawConfig = {}) {
+    const missing = missingConfiguration(item, rawConfig);
+    if (!missing.length) return "";
+    if (missing.length === 1) return `Choose ${missing[0]} before adding this item to the estimate.`;
+    return `Choose ${missing.slice(0, -1).join(", ")} and ${missing.at(-1)} before adding this item to the estimate.`;
+  }
+
   function setConfig(id, patch) {
     const next = normalizedConfig({ ...workingConfig(id), ...patch });
     pendingConfig.set(id, next);
-    if (selections.has(id)) selections.set(id, next);
+    if (selections.has(id)) {
+      const item = itemById.get(id);
+      if (item && configurationComplete(item, next)) selections.set(id, next);
+      else selections.delete(id);
+    }
     saveSelections();
   }
 
@@ -373,7 +385,7 @@
 
   function eraSelectOptions(item, era) {
     const broad = pricingFor(item, { era: null });
-    const options = [`<option value=""${era ? "" : " selected"}>All listed eras · ${escapeHtml(formatPricing(broad))}</option>`];
+    const options = [`<option value=""${era ? "" : " selected"}>Choose age / era · broad range ${escapeHtml(formatPricing(broad))}</option>`];
     for (const option of eraOptions(item)) {
       options.push(`<option value="${escapeHtml(option.era)}"${option.era === era ? " selected" : ""}>${escapeHtml(option.era)} · ${escapeHtml(formatPricing(option))}</option>`);
     }
@@ -398,30 +410,28 @@
     const hpValues = hpOptions(item);
 
     if (eras.length) {
-      controls.push(`<label class="estimate-era" style="display:grid;gap:.3rem">
-        <span style="color:#60717b;font-size:.78rem;font-weight:700">Age / era</span>
-        <select data-config-era="${escapeHtml(item.id)}" id="${prefix}-era" style="width:100%;min-height:2.7rem;padding:.5rem;border:1px solid #cbd7dd;border-radius:.55rem;background:#fff">${eraSelectOptions(item, config.era)}</select>
+      controls.push(`<label class="config-field">
+        <span>Age / era</span>
+        <select data-config-era="${escapeHtml(item.id)}" id="${prefix}-era">${eraSelectOptions(item, config.era)}</select>
       </label>`);
     }
 
     if (hpValues.length) {
-      controls.push(`<label class="estimate-hp" style="display:grid;gap:.3rem">
-        <span style="color:#60717b;font-size:.78rem;font-weight:700">Horsepower</span>
-        <select data-config-hp="${escapeHtml(item.id)}" id="${prefix}-hp" style="width:100%;min-height:2.7rem;padding:.5rem;border:1px solid #cbd7dd;border-radius:.55rem;background:#fff">${hpSelectOptions(item, config.hp)}</select>
+      controls.push(`<label class="config-field">
+        <span>Horsepower</span>
+        <select data-config-hp="${escapeHtml(item.id)}" id="${prefix}-hp">${hpSelectOptions(item, config.hp)}</select>
       </label>`);
     }
 
     if (item.categoryId === "boats") {
-      controls.push(`<label class="estimate-trailer" style="display:grid;gap:.3rem">
-        <span style="color:#60717b;font-size:.78rem;font-weight:700">Trailer included with boat</span>
-        <select data-config-trailer="${escapeHtml(item.id)}" id="${prefix}-trailer" style="width:100%;min-height:2.7rem;padding:.5rem;border:1px solid #cbd7dd;border-radius:.55rem;background:#fff">${trailerSelectOptions(config.trailer)}</select>
-        <small style="color:#60717b">Boat values already assume a standard factory or generic trailer. Only the selected upgrade is added.</small>
+      controls.push(`<label class="config-field">
+        <span>Trailer included with boat</span>
+        <select data-config-trailer="${escapeHtml(item.id)}" id="${prefix}-trailer">${trailerSelectOptions(config.trailer)}</select>
+        <small>Boat values already assume a standard factory or generic trailer. Only the selected upgrade is added.</small>
       </label>`);
     }
 
-    return controls.length
-      ? `<div class="configuration-controls" style="display:grid;gap:.75rem;margin:1rem 0;padding:.85rem;background:#edf3f6;border-radius:.8rem">${controls.join("")}</div>`
-      : "";
+    return controls.length ? `<div class="configuration-controls">${controls.join("")}</div>` : "";
   }
 
   function pricingNote(item, config, pricing) {
@@ -444,11 +454,7 @@
       return { view: SUBTYPE_CATEGORIES.has(categoryId) ? "subtypes" : "manufacturers", categoryId };
     }
     if (parts[0] === "subtype" && parts[1] && parts[2]) {
-      return {
-        view: "manufacturers",
-        categoryId: decodeURIComponent(parts[1]),
-        subtypeId: decodeURIComponent(parts[2])
-      };
+      return { view: "manufacturers", categoryId: decodeURIComponent(parts[1]), subtypeId: decodeURIComponent(parts[2]) };
     }
     if (parts[0] === "manufacturer" && parts[1] && parts[2]) {
       const categoryId = decodeURIComponent(parts[1]);
@@ -508,10 +514,7 @@
   }
 
   function itemsInCategory(categoryId, subtypeId = null) {
-    return catalog.items.filter(item =>
-      item.categoryId === categoryId
-      && (!subtypeId || item.subtypeId === subtypeId)
-    );
+    return catalog.items.filter(item => item.categoryId === categoryId && (!subtypeId || item.subtypeId === subtypeId));
   }
 
   function subtypesInCategory(categoryId) {
@@ -538,8 +541,7 @@
   function renderSubtypes(route) {
     const category = catalog.categories.find(entry => entry.id === route.categoryId);
     if (!category) return renderCategories();
-    const groups = subtypesInCategory(route.categoryId);
-    const cards = groups.map(group => `<button class="nav-card" type="button" data-subtype="${escapeHtml(group.id)}">
+    const cards = subtypesInCategory(route.categoryId).map(group => `<button class="nav-card" type="button" data-subtype="${escapeHtml(group.id)}">
       <span><strong>${escapeHtml(group.name)}</strong><small>${group.count} catalog ${group.count === 1 ? "item" : "items"}</small></span>
       <span class="chevron" aria-hidden="true">›</span>
     </button>`).join("");
@@ -548,11 +550,7 @@
       <section class="card-list" aria-label="Equipment types">${cards}</section>`;
 
     els.app.querySelectorAll("[data-subtype]").forEach(button => {
-      button.addEventListener("click", () => navigate({
-        view: "manufacturers",
-        categoryId: route.categoryId,
-        subtypeId: button.dataset.subtype
-      }));
+      button.addEventListener("click", () => navigate({ view: "manufacturers", categoryId: route.categoryId, subtypeId: button.dataset.subtype }));
     });
   }
 
@@ -573,7 +571,10 @@
       <p class="data-note">The catalog is bundled with BoatBuilder from the maintained research spreadsheet. BoatBuilder does not use AppSheet.</p>`;
 
     els.app.querySelectorAll("[data-category]").forEach(button => {
-      button.addEventListener("click", () => navigate({ view: SUBTYPE_CATEGORIES.has(button.dataset.category) ? "subtypes" : "manufacturers", categoryId: button.dataset.category }));
+      button.addEventListener("click", () => navigate({
+        view: SUBTYPE_CATEGORIES.has(button.dataset.category) ? "subtypes" : "manufacturers",
+        categoryId: button.dataset.category
+      }));
     });
   }
 
@@ -607,16 +608,12 @@
   }
 
   function itemCard(item) {
-    const checked = selections.has(item.id);
     const config = workingConfig(item.id);
     const pricing = pricingFor(item, config);
-    const configText = [config.era, config.hp ? `${config.hp} hp` : ""].filter(Boolean).join(" · ");
-    const subtitle = [item.subtitle || item.badge, configText ? `Estimate: ${configText}` : ""].filter(Boolean).join(" · ");
+    const status = selections.has(item.id) ? " · In estimate" : "";
+    const subtitle = `${item.subtitle || item.badge || ""}${status}`;
 
-    return `<article class="item-card${checked ? " selected" : ""}">
-      <label class="select-control" aria-label="${checked ? "Remove from" : "Add to"} estimate">
-        <input type="checkbox" data-select="${escapeHtml(item.id)}" ${checked ? "checked" : ""}>
-      </label>
+    return `<article class="item-card">
       <button class="item-open" type="button" data-open="${escapeHtml(item.id)}">
         <strong>${escapeHtml(item.model || item.displayName)}</strong>
         <span>${escapeHtml(subtitle)}</span>
@@ -626,12 +623,6 @@
   }
 
   function bindItemCards() {
-    els.app.querySelectorAll("[data-select]").forEach(input => {
-      input.addEventListener("change", event => {
-        toggleItem(event.currentTarget.dataset.select, event.currentTarget.checked);
-        render();
-      });
-    });
     els.app.querySelectorAll("[data-open]").forEach(button => {
       button.addEventListener("click", () => navigate({ view: "detail", itemId: button.dataset.open }));
     });
@@ -646,7 +637,7 @@
 
     const specific = MANUFACTURER_NOTES[route.manufacturer];
     const namingNote = route.categoryId === "boats"
-      ? `<aside class="data-note" style="margin:0 0 1rem;padding:.85rem;background:#fff;border:1px solid #cbd7dd;border-radius:.8rem"><strong>Listing-name note:</strong> Sellers often abbreviate, omit, or misstate model names. BoatBuilder uses the official family, size, and layout name when it can be verified. Brand suffixes are not universal.${specific ? ` ${escapeHtml(specific)}` : ""}</aside>`
+      ? `<aside class="manufacturer-note"><strong>Listing-name note:</strong> Sellers often abbreviate, omit, or misstate model names. BoatBuilder uses the official family, size, and layout name when it can be verified. Brand suffixes are not universal.${specific ? ` ${escapeHtml(specific)}` : ""}</aside>`
       : "";
     const context = [category?.name, subtype?.name].filter(Boolean).join(" · ");
 
@@ -658,23 +649,37 @@
   function bindConfigurationControls(item, rerender) {
     els.app.querySelectorAll("[data-config-era]").forEach(select => {
       if (select.dataset.configEra !== item.id) return;
-      select.addEventListener("change", event => { setConfig(item.id, { era: event.currentTarget.value || null }); rerender(); });
+      select.addEventListener("change", event => {
+        setConfig(item.id, { era: event.currentTarget.value || null });
+        rerender();
+      });
     });
     els.app.querySelectorAll("[data-config-hp]").forEach(select => {
       if (select.dataset.configHp !== item.id) return;
-      select.addEventListener("change", event => { setConfig(item.id, { hp: event.currentTarget.value ? Number(event.currentTarget.value) : null }); rerender(); });
+      select.addEventListener("change", event => {
+        setConfig(item.id, { hp: event.currentTarget.value ? Number(event.currentTarget.value) : null });
+        rerender();
+      });
     });
     els.app.querySelectorAll("[data-config-trailer]").forEach(select => {
       if (select.dataset.configTrailer !== item.id) return;
-      select.addEventListener("change", event => { setConfig(item.id, { trailer: event.currentTarget.value }); rerender(); });
+      select.addEventListener("change", event => {
+        setConfig(item.id, { trailer: event.currentTarget.value });
+        rerender();
+      });
     });
   }
 
   function renderDetail(route) {
     const item = itemById.get(route.itemId);
     if (!item) return renderCategories();
+
     const config = workingConfig(item.id);
     const pricing = pricingFor(item, config);
+    const isSelected = selections.has(item.id);
+    const canAdd = configurationComplete(item, config);
+    const requirementText = configurationRequirementText(item, config);
+    const disableAdd = !isSelected && !canAdd;
     const image = item.image?.url ? `<div class="detail-image-wrap">
       <img class="detail-image" src="${escapeHtml(item.image.url)}" alt="${escapeHtml(item.displayName)}" loading="eager" onerror="this.closest('.detail-image-wrap').remove()">
     </div>` : "";
@@ -687,9 +692,10 @@
       ${item.badge ? `<span class="badge">${escapeHtml(item.badge)}</span>` : ""}
       ${configurationControls(item, config, "detail")}
       <div class="detail-select">
-        <label><input id="detail-select" type="checkbox" ${selections.has(item.id) ? "checked" : ""}> Add to estimate</label>
+        <label><input id="detail-select" type="checkbox" ${isSelected ? "checked" : ""} ${disableAdd ? "disabled" : ""}> Add to estimate</label>
         <strong>${escapeHtml(formatPricing(pricing))}</strong>
       </div>
+      ${requirementText && !isSelected ? `<p class="selection-requirement">${escapeHtml(requirementText)}</p>` : ""}
       <div class="price-panel">
         <div class="price-box"><small>Low estimate</small><strong>${escapeHtml(formatPrice(pricing.low))}</strong></div>
         <div class="price-box"><small>High estimate</small><strong>${escapeHtml(formatPrice(pricing.high))}</strong></div>
@@ -700,6 +706,10 @@
     </div></article>`;
 
     document.querySelector("#detail-select").addEventListener("change", event => {
+      if (event.currentTarget.checked && !configurationComplete(item, config)) {
+        event.currentTarget.checked = false;
+        return;
+      }
       toggleItem(item.id, event.currentTarget.checked, config);
       renderDetail(route);
     });
@@ -718,16 +728,14 @@
       .sort((a, b) => a.item.categoryName.localeCompare(b.item.categoryName) || a.item.displayName.localeCompare(b.item.displayName));
 
     if (!lines.length) {
-      els.app.innerHTML = `${heading("Current estimate", "Checked catalog items appear here.")}
-        <section class="empty-state"><h2>No items selected</h2><p>Choose a category and check the items you want in the package.</p></section>`;
+      els.app.innerHTML = `${heading("Current estimate", "Configured catalog items appear here.")}
+        <section class="empty-state"><h2>No items selected</h2><p>Open an item, choose its required options, and add it from the detail screen.</p></section>`;
       return;
     }
 
     const lowTotal = lines.reduce((total, line) => total + (Number.isFinite(line.pricing.low) ? line.pricing.low : 0), 0);
     const highTotal = lines.reduce((total, line) => total + (Number.isFinite(line.pricing.high) ? line.pricing.high : 0), 0);
     const missing = lines.filter(line => !Number.isFinite(line.pricing.low) || !Number.isFinite(line.pricing.high)).length;
-    const broadEra = lines.filter(line => eraOptions(line.item).length && !line.config.era).length;
-    const missingHp = lines.filter(line => MOTOR_CATEGORIES.has(line.item.categoryId) && hpOptions(line.item).length && !line.config.hp).length;
 
     const rows = lines.map(({ item, config, pricing }) => `<article class="estimate-line">
       <label aria-label="Remove ${escapeHtml(item.displayName)} from estimate"><input type="checkbox" data-remove="${escapeHtml(item.id)}" checked></label>
@@ -739,16 +747,17 @@
       </div>
     </article>`).join("");
 
-    els.app.innerHTML = `${heading("Current estimate", `${lines.length} selected ${lines.length === 1 ? "item" : "items"}`)}
+    els.app.innerHTML = `${heading("Current estimate", `${lines.length} configured ${lines.length === 1 ? "item" : "items"}`)}
       <section class="estimate-summary"><div><small>Package low</small><strong>${escapeHtml(formatPrice(lowTotal))}</strong></div><div><small>Package high</small><strong>${escapeHtml(formatPrice(highTotal))}</strong></div></section>
-      ${missingHp ? `<p class="data-note"><strong>${missingHp} selected ${missingHp === 1 ? "motor needs" : "motors need"} horsepower.</strong> Choose HP below before treating the estimate as narrowed.</p>` : ""}
-      ${broadEra ? `<p class="data-note"><strong>${broadEra} age-sensitive ${broadEra === 1 ? "item is" : "items are"} still using all-era values.</strong> Choose an era below.</p>` : ""}
       ${missing ? `<p class="data-note"><strong>${missing} selected ${missing === 1 ? "item has" : "items have"} an incomplete price range.</strong> Missing values are excluded from totals.</p>` : ""}
       <section class="card-list">${rows}</section>
       <button id="clear-estimate" class="danger-button" type="button">Clear estimate</button>`;
 
     els.app.querySelectorAll("[data-remove]").forEach(input => {
-      input.addEventListener("change", event => { toggleItem(event.currentTarget.dataset.remove, false); renderEstimate(); });
+      input.addEventListener("change", event => {
+        toggleItem(event.currentTarget.dataset.remove, false);
+        renderEstimate();
+      });
     });
     for (const { item } of lines) bindConfigurationControls(item, renderEstimate);
     document.querySelector("#clear-estimate").addEventListener("click", clearEstimate);
@@ -768,12 +777,18 @@
 
   function initialize() {
     const data = window.BOATBUILDER_DATA;
-    if (!data || !Array.isArray(data.categories) || !Array.isArray(data.items) || !data.items.length) throw new Error("The bundled catalog is missing or empty.");
+    if (!data || !Array.isArray(data.categories) || !Array.isArray(data.items) || !data.items.length) {
+      throw new Error("The bundled catalog is missing or empty.");
+    }
     const ids = data.items.map(item => item.id);
     if (new Set(ids).size !== ids.length) throw new Error("The bundled catalog contains duplicate item IDs.");
+
     catalog = data;
     itemById = new Map(catalog.items.map(item => [item.id, item]));
-    selections = new Map([...selections].filter(([id]) => itemById.has(id)));
+    selections = new Map([...selections].filter(([id, config]) => {
+      const item = itemById.get(id);
+      return item && configurationComplete(item, config);
+    }));
     saveSelections();
     els.loading.hidden = true;
     render();
