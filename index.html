@@ -5,24 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#163c52">
   <title>BoatBuilder</title>
-  <link rel="stylesheet" href="styles.css?v=8">
+  <link rel="stylesheet" href="styles.css?v=9">
 </head>
 <body>
   <a class="skip-link" href="#app-main">Skip to content</a>
   <header class="app-header">
     <div class="header-row">
-      <button id="back-button" class="icon-button" type="button" aria-label="Go back" hidden>‹</button>
-      <div class="header-home-actions">
+      <div class="header-left-actions">
+        <button id="back-button" class="icon-button" type="button" aria-label="Go back" hidden>‹</button>
         <button id="home-button" class="brand-button" type="button" aria-label="Go to BoatBuilder home">
           <span class="brand-mark" aria-hidden="true">⌂</span>
           <span><strong>Home</strong></span>
         </button>
-        <button id="clear-estimate-button" class="estimate-button clear-estimate-button" type="button" aria-label="Clear estimate" disabled>Clear</button>
       </div>
       <button id="estimate-button" class="estimate-button header-estimate-button" type="button" aria-label="Open estimate">
         <span class="estimate-button-label">Estimate <span id="estimate-count" class="count-badge">0</span></span>
         <span id="estimate-range" class="estimate-range">$0</span>
       </button>
+      <button id="clear-estimate-button" class="estimate-button clear-estimate-button" type="button" aria-label="Clear estimate" disabled>Clear estimate</button>
     </div>
   </header>
 
@@ -39,6 +39,6 @@
   </template>
 
   <script src="data/catalog.js?v=8" defer></script>
-  <script src="app.js?v=9" defer></script>
+  <script src="app.js?v=10" defer></script>
 </body>
 </html>
