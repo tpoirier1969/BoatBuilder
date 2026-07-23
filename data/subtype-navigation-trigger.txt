@@ -1,1 +1,0 @@
-Apply electronics/electrical subtype navigation and rebuild the catalog from the maintained spreadsheet.

@@ -8,6 +8,7 @@
   ];
   const ERA_FIELDS = ["1980s Value", "1990s Value", "2000s Value", "2010s Value", "2020s Value"];
   const MOTOR_CATEGORIES = new Set(["main-motors", "kickers"]);
+  const SUBTYPE_CATEGORIES = new Set(["electronics", "electrical"]);
   const COMMON_HP = [4, 5, 6, 8, 9.8, 9.9, 15, 20, 25, 30, 40, 50, 55, 60, 65, 70, 75, 80, 85, 88, 90, 100, 110, 115, 125, 130, 135, 140, 150, 175, 200];
 
   const TRAILER_OPTIONS = [
@@ -438,9 +439,28 @@
   function currentRoute() {
     const parts = location.hash.replace(/^#/, "").split("/");
     if (!parts[0]) return { view: "categories" };
-    if (parts[0] === "category" && parts[1]) return { view: "manufacturers", categoryId: decodeURIComponent(parts[1]) };
+    if (parts[0] === "category" && parts[1]) {
+      const categoryId = decodeURIComponent(parts[1]);
+      return { view: SUBTYPE_CATEGORIES.has(categoryId) ? "subtypes" : "manufacturers", categoryId };
+    }
+    if (parts[0] === "subtype" && parts[1] && parts[2]) {
+      return {
+        view: "manufacturers",
+        categoryId: decodeURIComponent(parts[1]),
+        subtypeId: decodeURIComponent(parts[2])
+      };
+    }
     if (parts[0] === "manufacturer" && parts[1] && parts[2]) {
-      return { view: "items", categoryId: decodeURIComponent(parts[1]), manufacturer: decodeURIComponent(parts.slice(2).join("/")) };
+      const categoryId = decodeURIComponent(parts[1]);
+      if (SUBTYPE_CATEGORIES.has(categoryId) && parts[3]) {
+        return {
+          view: "items",
+          categoryId,
+          subtypeId: decodeURIComponent(parts[2]),
+          manufacturer: decodeURIComponent(parts.slice(3).join("/"))
+        };
+      }
+      return { view: "items", categoryId, manufacturer: decodeURIComponent(parts.slice(2).join("/")) };
     }
     if (parts[0] === "item" && parts[1]) return { view: "detail", itemId: decodeURIComponent(parts.slice(1).join("/")) };
     if (parts[0] === "estimate") return { view: "estimate" };
@@ -448,7 +468,10 @@
   }
 
   function routeHash(route) {
+    if (route.view === "subtypes") return `category/${encodeURIComponent(route.categoryId)}`;
+    if (route.view === "manufacturers" && route.subtypeId) return `subtype/${encodeURIComponent(route.categoryId)}/${encodeURIComponent(route.subtypeId)}`;
     if (route.view === "manufacturers") return `category/${encodeURIComponent(route.categoryId)}`;
+    if (route.view === "items" && route.subtypeId) return `manufacturer/${encodeURIComponent(route.categoryId)}/${encodeURIComponent(route.subtypeId)}/${encodeURIComponent(route.manufacturer)}`;
     if (route.view === "items") return `manufacturer/${encodeURIComponent(route.categoryId)}/${encodeURIComponent(route.manufacturer)}`;
     if (route.view === "detail") return `item/${encodeURIComponent(route.itemId)}`;
     if (route.view === "estimate") return "estimate";
@@ -484,8 +507,53 @@
     return `<header class="page-heading"><h1>${escapeHtml(title)}</h1>${description ? `<p>${escapeHtml(description)}</p>` : ""}</header>`;
   }
 
-  function itemsInCategory(categoryId) {
-    return catalog.items.filter(item => item.categoryId === categoryId);
+  function itemsInCategory(categoryId, subtypeId = null) {
+    return catalog.items.filter(item =>
+      item.categoryId === categoryId
+      && (!subtypeId || item.subtypeId === subtypeId)
+    );
+  }
+
+  function subtypesInCategory(categoryId) {
+    const groups = new Map();
+    for (const item of itemsInCategory(categoryId)) {
+      const id = clean(item.subtypeId) || "other";
+      if (!groups.has(id)) {
+        groups.set(id, {
+          id,
+          name: clean(item.subtypeName) || "Other",
+          order: Number.isFinite(item.subtypeOrder) ? item.subtypeOrder : 999,
+          count: 0
+        });
+      }
+      groups.get(id).count += 1;
+    }
+    return [...groups.values()].sort((a, b) => a.order - b.order || a.name.localeCompare(b.name));
+  }
+
+  function subtypeInCategory(categoryId, subtypeId) {
+    return subtypesInCategory(categoryId).find(entry => entry.id === subtypeId) || null;
+  }
+
+  function renderSubtypes(route) {
+    const category = catalog.categories.find(entry => entry.id === route.categoryId);
+    if (!category) return renderCategories();
+    const groups = subtypesInCategory(route.categoryId);
+    const cards = groups.map(group => `<button class="nav-card" type="button" data-subtype="${escapeHtml(group.id)}">
+      <span><strong>${escapeHtml(group.name)}</strong><small>${group.count} catalog ${group.count === 1 ? "item" : "items"}</small></span>
+      <span class="chevron" aria-hidden="true">›</span>
+    </button>`).join("");
+
+    els.app.innerHTML = `${heading(category.name, "Choose the type of equipment.")}
+      <section class="card-list" aria-label="Equipment types">${cards}</section>`;
+
+    els.app.querySelectorAll("[data-subtype]").forEach(button => {
+      button.addEventListener("click", () => navigate({
+        view: "manufacturers",
+        categoryId: route.categoryId,
+        subtypeId: button.dataset.subtype
+      }));
+    });
   }
 
   function renderCategories() {
@@ -505,15 +573,18 @@
       <p class="data-note">The catalog is bundled with BoatBuilder from the maintained research spreadsheet. BoatBuilder does not use AppSheet.</p>`;
 
     els.app.querySelectorAll("[data-category]").forEach(button => {
-      button.addEventListener("click", () => navigate({ view: "manufacturers", categoryId: button.dataset.category }));
+      button.addEventListener("click", () => navigate({ view: SUBTYPE_CATEGORIES.has(button.dataset.category) ? "subtypes" : "manufacturers", categoryId: button.dataset.category }));
     });
   }
 
   function renderManufacturers(route) {
     const category = catalog.categories.find(entry => entry.id === route.categoryId);
     if (!category) return renderCategories();
+    const subtype = route.subtypeId ? subtypeInCategory(route.categoryId, route.subtypeId) : null;
     const counts = new Map();
-    for (const item of itemsInCategory(route.categoryId)) counts.set(item.manufacturer, (counts.get(item.manufacturer) || 0) + 1);
+    for (const item of itemsInCategory(route.categoryId, route.subtypeId)) {
+      counts.set(item.manufacturer, (counts.get(item.manufacturer) || 0) + 1);
+    }
 
     const cards = [...counts.entries()]
       .sort(([a], [b]) => a.localeCompare(b))
@@ -522,11 +593,16 @@
         <span class="chevron" aria-hidden="true">›</span>
       </button>`).join("");
 
-    els.app.innerHTML = `${heading(category.name, "Choose a manufacturer.")}
+    els.app.innerHTML = `${heading(subtype?.name || category.name, subtype ? `${category.name} · Choose a manufacturer.` : "Choose a manufacturer.")}
       <section class="card-list" aria-label="Manufacturers">${cards}</section>`;
 
     els.app.querySelectorAll("[data-manufacturer]").forEach(button => {
-      button.addEventListener("click", () => navigate({ view: "items", categoryId: route.categoryId, manufacturer: button.dataset.manufacturer }));
+      button.addEventListener("click", () => navigate({
+        view: "items",
+        categoryId: route.categoryId,
+        subtypeId: route.subtypeId || null,
+        manufacturer: button.dataset.manufacturer
+      }));
     });
   }
 
@@ -563,7 +639,8 @@
 
   function renderItems(route) {
     const category = catalog.categories.find(entry => entry.id === route.categoryId);
-    const items = itemsInCategory(route.categoryId)
+    const subtype = route.subtypeId ? subtypeInCategory(route.categoryId, route.subtypeId) : null;
+    const items = itemsInCategory(route.categoryId, route.subtypeId)
       .filter(item => item.manufacturer === route.manufacturer)
       .sort((a, b) => (a.model || a.displayName).localeCompare(b.model || b.displayName));
 
@@ -571,8 +648,9 @@
     const namingNote = route.categoryId === "boats"
       ? `<aside class="data-note" style="margin:0 0 1rem;padding:.85rem;background:#fff;border:1px solid #cbd7dd;border-radius:.8rem"><strong>Listing-name note:</strong> Sellers often abbreviate, omit, or misstate model names. BoatBuilder uses the official family, size, and layout name when it can be verified. Brand suffixes are not universal.${specific ? ` ${escapeHtml(specific)}` : ""}</aside>`
       : "";
+    const context = [category?.name, subtype?.name].filter(Boolean).join(" · ");
 
-    els.app.innerHTML = `${heading(route.manufacturer, category?.name || "")}${namingNote}
+    els.app.innerHTML = `${heading(route.manufacturer, context)}${namingNote}
       <section class="card-list" aria-label="Models and variations">${items.map(itemCard).join("")}</section>`;
     bindItemCards();
   }
@@ -679,7 +757,8 @@
   function render() {
     const route = currentRoute();
     els.back.hidden = route.view === "categories";
-    if (route.view === "manufacturers") renderManufacturers(route);
+    if (route.view === "subtypes") renderSubtypes(route);
+    else if (route.view === "manufacturers") renderManufacturers(route);
     else if (route.view === "items") renderItems(route);
     else if (route.view === "detail") renderDetail(route);
     else if (route.view === "estimate") renderEstimate();

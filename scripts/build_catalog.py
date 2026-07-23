@@ -45,6 +45,67 @@ APPROVED_PHOTO_MATCHES = {
     "exact factory deck plan; later era",
 }
 
+EQUIPMENT_SUBTYPES = {
+    "electronics": {
+        "sonar": ("Fish Finders & Sonar", 10),
+        "combo": ("Fish Finder / Chartplotter Combos", 20),
+        "mfd": ("Chartplotters & Multifunction Displays", 30),
+        "vhf": ("VHF Marine Radios", 40),
+    },
+    "electrical": {
+        "batteries": ("Batteries & Banks", 10),
+        "charging": ("Chargers & Charge Management", 20),
+        "protection": ("Circuit Protection & Distribution", 30),
+        "switching": ("Switching & Isolation", 40),
+        "monitoring": ("Monitoring", 50),
+        "wiring": ("Wiring & Installation", 60),
+    },
+}
+
+
+def equipment_subtype(row: dict[str, Any], category_id: str) -> dict[str, Any] | None:
+    name = " ".join(
+        clean(row.get(field))
+        for field in ("Display Name", "Manufacturer / System", "Model / Component")
+    ).lower()
+    role = clean(row.get("Specs / Role")).lower()
+
+    subtype_id: str | None = None
+
+    if category_id == "electronics":
+        if "vhf" in name or "vhf" in role or "marine radio" in name:
+            subtype_id = "vhf"
+        elif any(token in name for token in ("apex", "solix", "xplore", "hds live", "hds pro", "axiom /", "axiom+")) \
+                or "premium multifunction" in role or role.startswith("multifunction chartplotter"):
+            subtype_id = "mfd"
+        elif "no gps" in role or "no internal chartplotter" in role or "gps waypoint plotting" in role:
+            subtype_id = "sonar"
+        elif "chartplotter" in role or "gps plotter" in role or "fish finder / gps" in role or "fishfinder / gps" in role:
+            subtype_id = "combo"
+        else:
+            subtype_id = "sonar"
+
+    elif category_id == "electrical":
+        if name.startswith("battery bank") or name.startswith("battery chemistry"):
+            subtype_id = "batteries"
+        elif any(token in name for token in ("smartshunt", "battery monitor", "monitoring")):
+            subtype_id = "monitoring"
+        elif any(token in name for token in ("add-a-battery", "battery switch", "low-voltage disconnect", "m-lvd")):
+            subtype_id = "switching"
+        elif any(token in name for token in ("circuit breaker", "breaker", "fuse block")):
+            subtype_id = "protection"
+        elif any(token in name for token in ("charger", "charging relay", "si-acr", "dc-dc", "charger inlet")):
+            subtype_id = "charging"
+        else:
+            subtype_id = "wiring"
+
+    if subtype_id is None:
+        return None
+
+    label, order = EQUIPMENT_SUBTYPES[category_id][subtype_id]
+    return {"id": subtype_id, "name": label, "order": order}
+
+
 
 def clean(value: Any) -> str:
     if value is None:
@@ -183,6 +244,7 @@ def build_catalog(source: Path) -> dict[str, Any]:
         category_id = EQUIPMENT_CATEGORY.get(clean(row.get("Category")))
         if not item_id or not category_id:
             continue
+        subtype = equipment_subtype(row, category_id)
         broad_low, broad_high = broad_range(row)
         entered_low = finite_or_none(row.get("Est Low"))
         entered_high = finite_or_none(row.get("Est High"))
@@ -192,6 +254,9 @@ def build_catalog(source: Path) -> dict[str, Any]:
             "id": item_id,
             "categoryId": category_id,
             "categoryName": category_name[category_id],
+            "subtypeId": subtype["id"] if subtype else None,
+            "subtypeName": subtype["name"] if subtype else None,
+            "subtypeOrder": subtype["order"] if subtype else None,
             "manufacturer": clean(row.get("Manufacturer / System")) or "Unknown",
             "model": clean(row.get("Model / Component")) or clean(row.get("Display Name")),
             "displayName": clean(row.get("Display Name")) or clean(row.get("Model / Component")),

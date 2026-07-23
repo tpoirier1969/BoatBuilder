@@ -26,6 +26,10 @@ The app is not primarily a marketplace search tool. Do not make search the main 
 
 The app should help evaluate realistic Lake Superior-capable fishing packages without making unsuitable boats or equipment look better than they are.
 
+### Catalog breadth
+
+Catalog breadth is broader than the current purchase search. Include relevant fishing, multispecies, fish-and-ski, side-console, tiller, windshield, and other materially distinct boat models even when they do not meet Tod and Donna's current preferred features. Recommendation, layout, and suitability fields explain fit; they are not inclusion gates. Do not omit a real model merely because it lacks a walk-through windshield, is too small, is too expensive, or is otherwise a poor current purchase candidate.
+
 ## 2. Core navigation and catalog behavior
 
 Main navigation must be category-first.
@@ -41,7 +45,12 @@ Current categories are:
 - Bimini, canvas, curtains, and covers
 - Electrical systems
 
-Within a category, show manufacturers. Within a manufacturer, show each relevant model and each materially different variation as its own list row.
+Most categories flow from category to manufacturer. Electronics & Navigation and Electrical Systems add one type layer before manufacturer:
+
+- Electronics & Navigation → equipment type → manufacturer → model
+- Electrical Systems → equipment type → manufacturer → component
+
+Within a manufacturer, show each relevant model and each materially different variation as its own list row.
 
 Do not collapse:
 
@@ -263,7 +272,9 @@ Before calling a version complete:
 - `data/catalog.js` exists and contains a nonzero catalog.
 - The generated item, boat, and equipment counts are validated.
 - No duplicate or blank stable IDs exist.
-- Category → manufacturer → model → detail navigation works.
+- Standard categories follow category → manufacturer → model → detail navigation.
+- Electronics and Electrical follow category → type → manufacturer → model/component → detail navigation.
+- Princecraft Sport 167 / Sport 164 appears as one combined official-generation listing with both names visible.
 - Back navigation preserves useful context.
 - Images do not overflow the phone viewport.
 - Missing or non-exact images produce a clean image-free detail screen.

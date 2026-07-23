@@ -19,6 +19,27 @@ const ids = catalog.items.map(item => item.id);
 assert.equal(new Set(ids).size, ids.length, "Catalog contains duplicate stable IDs");
 assert.ok(ids.every(Boolean), "Catalog contains a blank stable ID");
 
+const princecraftSport = catalog.items.find(item =>
+  item.categoryId === "boats"
+  && /Sport 167\s*\/\s*Sport 164/i.test(item.displayName || item.model || "")
+);
+assert.ok(princecraftSport, "Princecraft Sport 167 / Sport 164 record is missing");
+
+const electronics = catalog.items.filter(item => item.categoryId === "electronics");
+const electrical = catalog.items.filter(item => item.categoryId === "electrical");
+assert.ok(electronics.length > 0 && electronics.every(item => item.subtypeId && item.subtypeName), "Electronics subtype metadata is incomplete");
+assert.ok(electrical.length > 0 && electrical.every(item => item.subtypeId && item.subtypeName), "Electrical subtype metadata is incomplete");
+assert.deepEqual(
+  [...new Set(electronics.map(item => item.subtypeId))].sort(),
+  ["combo", "mfd", "sonar", "vhf"],
+  "Electronics subtype set is wrong"
+);
+assert.deepEqual(
+  [...new Set(electrical.map(item => item.subtypeId))].sort(),
+  ["batteries", "charging", "monitoring", "protection", "switching", "wiring"],
+  "Electrical subtype set is wrong"
+);
+
 function detailMap(item) {
   return new Map((item.details || []).map(detail => [detail.label, String(detail.value ?? "")]));
 }
@@ -110,6 +131,9 @@ assert.match(appSource, /function updateEstimateHeader\(/, "Live estimate header
 assert.match(appSource, /updateEstimateHeader\(\);/, "Estimate header is not refreshed with selection changes");
 assert.match(appSource, /data-config-hp/, "Horsepower control is missing");
 assert.match(appSource, /data-config-trailer/, "Trailer control is missing");
+assert.match(appSource, /function renderSubtypes\(/, "Subtype navigation screen is missing");
+assert.match(appSource, /subtype\//, "Subtype route is missing");
+assert.match(appSource, /SUBTYPE_CATEGORIES/, "Subtype category routing is missing");
 assert.match(appSource, /Standard factory \/ generic trailer included/, "Standard trailer assumption is missing");
 assert.match(appSource, /Lund American/, "Lund naming guidance is missing");
 assert.doesNotMatch(appSource, /\.focus\(\{ preventScroll/, "Main-content programmatic focus regression returned");
