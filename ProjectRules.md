@@ -19,7 +19,7 @@ The primary workflow is:
 2. Choose a manufacturer.
 3. Choose a specific model or major model variation.
 4. Review the complete detail record.
-5. Check the item to add it to the current estimate.
+5. Choose every required option and add the item to the current estimate from its detail screen.
 6. Review every selected item with package low and high totals.
 
 The app is not primarily a marketplace search tool. Do not make search the main organizing principle unless Tod asks for it.
@@ -63,7 +63,7 @@ Do not collapse:
 
 Each detail screen must show all useful available details. When an exact matching image exists, place it above the details.
 
-Every selectable catalog item must have a clear checkbox or equivalent selection control. Selecting an item adds it to the current estimate. Deselecting it removes it.
+Model and component lists are navigation-only. They must not contain add-to-estimate checkboxes. The Add to estimate checkbox appears on the detail screen only. When an item has configurable options, all required options must be selected before the checkbox is enabled. Clearing a required option from an already selected item removes it from the estimate rather than preserving a broad or ambiguous value.
 
 ### Official names, aliases, and seller shorthand
 
@@ -88,8 +88,8 @@ Requirements:
 - Keep navigation obvious and reversible.
 - Preserve the user’s context when returning from a detail screen.
 - Keep the current estimate reachable from every major screen.
-- Show the selected-item count near the estimate control.
-- Provide a visible global Clear estimate control, disabled when empty and protected by confirmation when populated.
+- Show the selected-item count and current package range in the centered Estimate control.
+- Place the fully labeled Clear estimate control at the right side of the header, disable it when empty, and protect it with confirmation when populated.
 - Provide visible keyboard focus states on actual controls without programmatically focusing the main content container.
 - Do not use color as the only indicator of selection or status.
 - Respect `prefers-reduced-motion`.
@@ -205,6 +205,8 @@ Rules:
 - Do not replace ranges with a midpoint unless Tod explicitly asks.
 - Missing configured prices must be shown honestly, not presented as a genuine zero-dollar value.
 - The current estimate may persist in browser `localStorage` in the first version.
+- Items may be added only from their detail screen after all displayed required options are selected.
+- Age-sensitive items require a specific era before selection; an all-era range is informational only.
 - Main-motor and kicker estimates must allow horsepower selection. Use a verified source price band when one exists.
 - When no horsepower-specific source band exists, any derived narrowing must be labeled as derived from the broader family range rather than represented as direct market data.
 - A main-motor estimate is not considered adequately narrowed until both era and horsepower are selected when those controls are available.
@@ -278,15 +280,18 @@ Before calling a version complete:
 - Back navigation preserves useful context.
 - Images do not overflow the phone viewport.
 - Missing or non-exact images produce a clean image-free detail screen.
-- Selection controls work from model lists and detail views.
-- The estimate contains exactly the checked items.
+- Model and component lists contain no add-to-estimate checkbox.
+- Detail-screen selection remains disabled until every required option is complete.
+- Clearing a required option removes an already selected item from the estimate.
+- The estimate contains exactly the configured items selected from detail screens.
 - Low and high totals are mathematically correct.
 - Motor era and horsepower selections persist and affect the correct estimate line.
 - Known horsepower-band tests pass, including 2010s Evinrude E-TEC 75–90 hp at $4,000–$6,500 and 115–150 hp at $5,500–$8,500.
 - Boat estimates include the standard trailer assumption exactly once and premium trailer adjustments add only the upgrade range.
 - Missing prices are disclosed honestly.
 - Estimate state survives a page reload.
-- The global Clear estimate control disables when empty and confirms before clearing populated estimates.
+- The centered Estimate control shows the selected count and current package range.
+- The right-side Clear estimate control uses its full label, disables when empty, and confirms before clearing populated estimates.
 - No materially different model variations are silently merged.
 - Seller aliases do not create duplicate catalog rows without a material model difference.
 - Touch targets and focus states are usable.
