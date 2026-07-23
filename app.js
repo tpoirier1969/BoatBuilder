@@ -30,7 +30,8 @@
     home: document.querySelector("#home-button"),
     clear: document.querySelector("#clear-estimate-button"),
     estimate: document.querySelector("#estimate-button"),
-    count: document.querySelector("#estimate-count")
+    count: document.querySelector("#estimate-count"),
+    range: document.querySelector("#estimate-range")
   };
 
   const money = new Intl.NumberFormat("en-US", {
@@ -102,6 +103,7 @@
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
     els.count.textContent = String(selections.size);
     if (els.clear) els.clear.disabled = selections.size === 0;
+    updateEstimateHeader();
   }
 
   function detailMap(item) {
@@ -283,6 +285,67 @@
   function formatPricing(pricing) {
     if (!Number.isFinite(pricing.low) && !Number.isFinite(pricing.high)) return "Price not set";
     return `${formatPrice(pricing.low)}–${formatPrice(pricing.high)}`;
+  }
+
+  function formatCompactPrice(value) {
+    if (!Number.isFinite(value)) return "?";
+    const absolute = Math.abs(value);
+    if (absolute >= 1000000) {
+      const scaled = value / 1000000;
+      return `$${scaled >= 10 ? scaled.toFixed(0) : scaled.toFixed(1).replace(/\.0$/, "")}m`;
+    }
+    if (absolute >= 1000) {
+      const scaled = value / 1000;
+      return `$${scaled >= 10 ? scaled.toFixed(0) : scaled.toFixed(1).replace(/\.0$/, "")}k`;
+    }
+    return `$${Math.round(value)}`;
+  }
+
+  function updateEstimateHeader() {
+    if (!els.range || !els.estimate) return;
+
+    if (!selections.size || !itemById.size) {
+      els.range.textContent = "$0";
+      els.estimate.setAttribute("aria-label", "Open estimate, no items selected");
+      return;
+    }
+
+    let low = 0;
+    let high = 0;
+    let priced = 0;
+    let missing = 0;
+
+    for (const [id, config] of selections) {
+      const item = itemById.get(id);
+      if (!item) continue;
+      const pricing = pricingFor(item, config);
+      if (Number.isFinite(pricing.low) && Number.isFinite(pricing.high)) {
+        low += pricing.low;
+        high += pricing.high;
+        priced += 1;
+      } else {
+        missing += 1;
+      }
+    }
+
+    if (!priced) {
+      els.range.textContent = "Price pending";
+      els.estimate.setAttribute("aria-label", `Open estimate, ${selections.size} selected items, prices pending`);
+      return;
+    }
+
+    const compact = low === high
+      ? formatCompactPrice(low)
+      : `${formatCompactPrice(low)}–${formatCompactPrice(high)}`;
+    els.range.textContent = missing ? `${compact}+` : compact;
+
+    const missingText = missing
+      ? `, plus ${missing} ${missing === 1 ? "item" : "items"} with incomplete pricing`
+      : "";
+    els.estimate.setAttribute(
+      "aria-label",
+      `Open estimate, ${selections.size} selected ${selections.size === 1 ? "item" : "items"}, ${formatPrice(low)} to ${formatPrice(high)}${missingText}`
+    );
   }
 
   function selectedConfig(id) {
