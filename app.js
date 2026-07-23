@@ -2,6 +2,13 @@
   "use strict";
 
   const STORAGE_KEY = "boatbuilder.currentEstimate.v1";
+  const SHEET_ID = "17-WMY8q2cCw7smmwLoMWzHbqZTlahi0Atsqe7gh7Wqs";
+  const SHEETS = {
+    boats: "App Boats",
+    equipment: "App Equipment",
+    photos: "Boat Photos"
+  };
+
   const app = document.querySelector("#app");
   const loading = document.querySelector("#loading");
   const backButton = document.querySelector("#back-button");
@@ -19,6 +26,27 @@
     currency: "USD",
     maximumFractionDigits: 0
   });
+
+  const categoryDefinitions = [
+    { id: "boats", name: "Boats", order: 10 },
+    { id: "main-motors", name: "Main Motors", order: 20 },
+    { id: "kickers", name: "Kicker Motors", order: 30 },
+    { id: "bow-trolling-motors", name: "Bow Trolling Motors", order: 40 },
+    { id: "downriggers", name: "Downriggers", order: 50 },
+    { id: "electronics", name: "Electronics & Navigation", order: 60 },
+    { id: "canvas", name: "Bimini, Canvas & Covers", order: 70 },
+    { id: "electrical", name: "Electrical Systems", order: 80 }
+  ];
+
+  const equipmentCategoryMap = {
+    "Main Motor": "main-motors",
+    "Kicker": "kickers",
+    "Bow Trolling Motor": "bow-trolling-motors",
+    "Downrigger": "downriggers",
+    "Electronics": "electronics",
+    "Bimini / Canvas": "canvas",
+    "Electrical": "electrical"
+  };
 
   function loadSelection() {
     try {
@@ -58,6 +86,173 @@
       .replaceAll("'", "&#039;");
   }
 
+  function parseMoneyTokens(value) {
+    if (value === null || value === undefined || value === "") return [];
+    const text = String(value).replaceAll(",", "");
+    const values = [];
+    const pattern = /\$?\s*(\d+(?:\.\d+)?)\s*([kK]?)/g;
+    let match;
+    while ((match = pattern.exec(text)) !== null) {
+      const token = match[0];
+      if (!token.includes("$") && !match[2]) continue;
+      let amount = Number(match[1]);
+      if (match[2]) amount *= 1000;
+      if (Number.isFinite(amount)) values.push(Math.round(amount));
+    }
+    return values;
+  }
+
+  function broadRange(row, fields) {
+    const values = fields.flatMap(field => parseMoneyTokens(row[field]));
+    if (!values.length) return { low: null, high: null };
+    return { low: Math.min(...values), high: Math.max(...values) };
+  }
+
+  function detailRows(row, fields) {
+    return fields
+      .filter(field => row[field] !== "" && row[field] !== null && row[field] !== undefined && row[field] !== "—")
+      .map(field => ({ label: field, value: row[field] }));
+  }
+
+  function loadSheet(sheetName) {
+    return new Promise((resolve, reject) => {
+      const callbackName = `boatbuilder_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+      const script = document.createElement("script");
+      const timer = window.setTimeout(() => {
+        cleanup();
+        reject(new Error(`Timed out loading ${sheetName}`));
+      }, 20000);
+
+      function cleanup() {
+        window.clearTimeout(timer);
+        delete window[callbackName];
+        script.remove();
+      }
+
+      window[callbackName] = response => {
+        cleanup();
+        if (!response || response.status === "error" || !response.table) {
+          reject(new Error(`Google Sheets returned an error for ${sheetName}`));
+          return;
+        }
+        resolve(tableToRows(response.table));
+      };
+
+      const tqx = `out:json;responseHandler:${callbackName}`;
+      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?sheet=${encodeURIComponent(sheetName)}&tqx=${encodeURIComponent(tqx)}`;
+      script.async = true;
+      script.onerror = () => {
+        cleanup();
+        reject(new Error(`Could not load ${sheetName}`));
+      };
+      document.head.append(script);
+    });
+  }
+
+  function tableToRows(table) {
+    const headers = table.cols.map(column => column.label || column.id || "");
+    return table.rows.map(row => {
+      const record = {};
+      headers.forEach((header, index) => {
+        const cell = row.c?.[index];
+        record[header] = cell ? (cell.v ?? cell.f ?? "") : "";
+      });
+      return record;
+    }).filter(row => Object.values(row).some(value => value !== ""));
+  }
+
+  function buildCatalog(boatRows, equipmentRows, photoRows) {
+    const priceFields = ["1980s Value", "1990s Value", "2000s Value", "2010s Value", "2020s Value"];
+    const categoryNameById = new Map(categoryDefinitions.map(category => [category.id, category.name]));
+    const photosByBoatId = new Map(photoRows.map(row => [row["Boat ID"], row]));
+    const items = [];
+
+    const boatDetailFields = [
+      "Model Years / Era", "Recommendation", "Big-Water Suitability", "Layout", "Length", "Beam",
+      "Chine / Bottom Width", "Dry Hull Weight", "Max / Bow Depth", "Cockpit / Interior Depth",
+      "Deadrise", "Transom Height", "Transom Width", "Max HP", "Practical Working HP", "Persons",
+      "Capacity Weight", "Fuel Capacity", "Bottom Thickness", "Side / Freeboard Thickness",
+      "Construction", "Availability Under $14k", "Placement Reason", "Notes",
+      "Interior Finish / Deck Material", "Interior Material Basis", "Washdown / Carpet Fit",
+      ...priceFields
+    ];
+
+    boatRows.forEach(row => {
+      if (!row["Boat ID"]) return;
+      const price = broadRange(row, priceFields);
+      const photo = photosByBoatId.get(row["Boat ID"]);
+      const matchQuality = String(photo?.["Match Quality"] || "");
+      const exactPhoto = matchQuality.toLowerCase().startsWith("exact") && photo?.["Representative Photo URL"];
+      const sourceKey = row["AppSheet Key"] || row["Boat ID"];
+
+      items.push({
+        id: `boat:${sourceKey}`,
+        sourceId: sourceKey,
+        categoryId: "boats",
+        categoryName: "Boats",
+        manufacturer: row["Brand"] || "Unknown",
+        model: row["Exact Model / Variant"] || row["Variant / Size"] || row["Model Family"] || row["Display Name"],
+        displayName: row["Display Name"] || row["Boat ID"],
+        subtitle: row["Model Years / Era"] || "",
+        badge: row["Recommendation"] || "",
+        lowPrice: price.low,
+        highPrice: price.high,
+        priceBasis: "Broad model-era hull guidance from the spreadsheet",
+        image: exactPhoto ? {
+          url: photo["Representative Photo URL"],
+          source: photo["Photo Source Page"] || "",
+          matchQuality,
+          note: photo["Curation Notes"] || ""
+        } : null,
+        sourceUrl: row["Source URL"] || "",
+        details: detailRows(row, boatDetailFields)
+      });
+    });
+
+    const equipmentDetailFields = [
+      "Era / Status", "Specs / Role", "Features / Controls", "Known Concerns", "Inspect Before Valuing",
+      "Great Lakes / Fit", "Desirability", "Value Guidance", "Audit / Notes", ...priceFields
+    ];
+
+    equipmentRows.forEach(row => {
+      const categoryId = equipmentCategoryMap[row["Category"]];
+      if (!categoryId || !row["Equipment ID"]) return;
+
+      let low = Number(row["Est Low"]);
+      let high = Number(row["Est High"]);
+      if (!Number.isFinite(low) || !Number.isFinite(high)) {
+        const price = broadRange(row, priceFields);
+        if (!Number.isFinite(low)) low = price.low;
+        if (!Number.isFinite(high)) high = price.high;
+      }
+
+      items.push({
+        id: row["Equipment ID"],
+        sourceId: row["Equipment ID"],
+        categoryId,
+        categoryName: categoryNameById.get(categoryId),
+        manufacturer: row["Manufacturer / System"] || "Unknown",
+        model: row["Model / Component"] || row["Display Name"],
+        displayName: row["Display Name"] || row["Model / Component"],
+        subtitle: row["Era / Status"] || "",
+        badge: row["Desirability"] || "",
+        lowPrice: Number.isFinite(low) ? low : null,
+        highPrice: Number.isFinite(high) ? high : null,
+        priceBasis: row["Est Low"] !== "" ? "Spreadsheet estimate range" : "Broad family/era guidance from the spreadsheet",
+        image: null,
+        sourceUrl: row["Source URL"] || "",
+        details: detailRows(row, equipmentDetailFields)
+      });
+    });
+
+    return {
+      schemaVersion: 1,
+      source: "Live read-only Google Sheets data",
+      categories: categoryDefinitions,
+      items
+    };
+  }
+
   function routeKey(route) {
     return JSON.stringify(route);
   }
@@ -70,7 +265,7 @@
     if (parts[0] === "manufacturer" && parts[1] && parts[2]) {
       return { view: "items", categoryId: parts[1], manufacturer: parts.slice(2).join("/") };
     }
-    if (parts[0] === "item" && parts[1]) return { view: "detail", itemId: parts[1] };
+    if (parts[0] === "item" && parts[1]) return { view: "detail", itemId: parts.slice(1).join("/") };
     if (parts[0] === "estimate") return { view: "estimate" };
     return { view: "categories" };
   }
@@ -143,7 +338,7 @@
 
     app.innerHTML = `${pageHeading("Build a boat package", "Choose the type of item you want to review.")}
       <section class="card-list category-grid" aria-label="Categories">${categories}</section>
-      <p class="data-note">This app is category-first. It does not use a marketplace-style search screen.</p>`;
+      <p class="data-note">The catalog is read directly from the Google Sheet. The app does not use AppSheet or a marketplace-style search screen.</p>`;
 
     app.querySelectorAll("[data-category]").forEach(button => {
       button.addEventListener("click", () => navigate({ view: "manufacturers", categoryId: button.dataset.category }));
@@ -197,7 +392,7 @@
       input.addEventListener("change", event => {
         const id = event.currentTarget.dataset.selectItem;
         toggleItem(id, event.currentTarget.checked);
-        const card = app.querySelector(`[data-item-card="${CSS.escape(id)}"]`);
+        const card = event.currentTarget.closest(".item-card");
         card?.classList.toggle("selected", event.currentTarget.checked);
       });
     });
@@ -333,21 +528,19 @@
 
   updateEstimateCount();
 
-  fetch("data/catalog.json", { cache: "no-store" })
-    .then(response => {
-      if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
-      return response.json();
-    })
-    .then(data => {
-      catalog = data;
-      itemById = new Map(catalog.items.map(item => [item.id, item]));
-      selected = new Set([...selected].filter(id => itemById.has(id)));
-      saveSelection();
-      loading.hidden = true;
-      render();
-    })
-    .catch(error => {
-      console.error(error);
-      loading.textContent = "The catalog could not be loaded. Open this app through a web server or GitHub Pages rather than directly from the file system.";
-    });
+  Promise.all([
+    loadSheet(SHEETS.boats),
+    loadSheet(SHEETS.equipment),
+    loadSheet(SHEETS.photos)
+  ]).then(([boatRows, equipmentRows, photoRows]) => {
+    catalog = buildCatalog(boatRows, equipmentRows, photoRows);
+    itemById = new Map(catalog.items.map(item => [item.id, item]));
+    selected = new Set([...selected].filter(id => itemById.has(id)));
+    saveSelection();
+    loading.hidden = true;
+    render();
+  }).catch(error => {
+    console.error(error);
+    loading.innerHTML = "<strong>The catalog could not be loaded.</strong><br>The Google Sheet must remain shared for anyone with the link to view, comment, or edit.";
+  });
 })();
