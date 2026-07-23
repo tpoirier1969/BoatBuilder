@@ -2,4 +2,4 @@ BoatBuilder catalog refresh marker.
 
 Update this file after an authorized spreadsheet audit to trigger regeneration of data/catalog.js on main.
 
-Last requested refresh: 2026-07-23 Starweld 1700 DC/WT boat audit after Minn Kota legacy-family and Legend 17 Xcalibur additions.
+Last requested refresh: 2026-07-23 full 17-foot audit including Lund Tyee 5.3, Starweld 1700, Legend 17 Xcalibur, three Tracker Targa generations, Tracker Pro Guide V-17 WT, Minn Kota legacy families, and older electronics.
