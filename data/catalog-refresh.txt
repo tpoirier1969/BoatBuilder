@@ -2,4 +2,4 @@ BoatBuilder catalog refresh marker.
 
 Update this file after an authorized spreadsheet audit to trigger regeneration of data/catalog.js on main.
 
-Last requested refresh: 2026-07-23 after Electronics and Electrical subtype navigation, Princecraft Sport 167 / Sport 164 key alignment, and removal of the App Boats interior-detail array blockage.
+Last requested refresh: 2026-07-23 after creating the Boat Audit Ledger and Unmatched Listing Queue, seeding the full 1997 Lund roster, and adding the verified Lund 1600 Pro Sport.
