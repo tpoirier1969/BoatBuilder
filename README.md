@@ -11,7 +11,7 @@ It replaces the attempted AppSheet interface while continuing to use the existin
 3. Choose a model or major model variation.
 4. Open the item to see its complete details.
 5. Configure age, horsepower, or trailer options when applicable.
-6. Check an item to add it to the current estimate.
+6. Add the configured item to the estimate from its detail screen.
 7. Open **Estimate** to see every selected item and the package low/high totals.
 
 The header Estimate control shows the current item count and live package range. There is intentionally no search-first home screen.
@@ -29,11 +29,16 @@ The header Estimate control shows the current item count and live package range.
 
 ## Data source and production snapshot
 
-The maintained Google Sheet **Aluminum boat model review** supplies three authorized source tabs:
+The maintained Google Sheet **Aluminum boat model review** supplies three authorized production source tabs:
 
 - `App Boats`
 - `App Equipment`
 - `Boat Photos`
+
+It also contains two audit-control tabs:
+
+- `Boat Audit Ledger`
+- `Unmatched Listing Queue`
 
 The deployed browser app does **not** query Google Sheets at runtime. It loads the generated local file `data/catalog.js` from the same GitHub Pages site.
 
@@ -41,8 +46,8 @@ The generator is `scripts/build_catalog.py`. The GitHub Action in `.github/workf
 
 Current validated snapshot counts:
 
-- 344 total catalog items
-- 163 boats
+- 345 total catalog items
+- 164 boats
 - 181 equipment records
 
 ### Stable IDs
@@ -52,6 +57,16 @@ Current validated snapshot counts:
 - Spreadsheet row numbers are never used as item identities.
 
 Despite its name, `AppSheet Key` is simply a spreadsheet data column. The custom app does not depend on AppSheet.
+
+## Controlled boat audit process
+
+Boat completeness work follows `AUDIT_WORKFLOW.md`.
+
+A genuine audit starts by building a complete manufacturer/model-year factory roster and entering every official model in `Boat Audit Ledger`. Each row must receive a documented disposition such as Present, Added, Alias, Renamed / Same Hull, Insufficient Evidence, or Not Factory Model.
+
+A manufacturer or year range is not complete while roster rows remain unreconciled. Searches limited to suspicious gaps, selected families, or Marketplace discoveries are described as focused gap passes, not full audits.
+
+Any listing name that cannot be matched confidently to the app is entered in `Unmatched Listing Queue` and remains open until it is resolved. This prevents discoveries such as the 1997 Lund 1600 Pro Sport from living only in chat history.
 
 ## Updating the catalog
 
@@ -116,9 +131,10 @@ If a selected item has an incomplete price range, the estimate screen identifies
 - `app.js` — navigation, item selection, configuration, and estimating
 - `data/catalog.js` — generated production catalog snapshot
 - `scripts/build_catalog.py` — snapshot generator
-- `scripts/qa_app.mjs` — repeatable catalog and estimate checks
+- `tests/qa.mjs` — repeatable catalog, navigation, selection, and estimate checks
 - `.github/workflows/build-catalog.yml` — automated snapshot builder
 - `.github/workflows/qa.yml` — JavaScript syntax and application QA
+- `AUDIT_WORKFLOW.md` — controlled roster-reconciliation procedure
 - `ProjectRules.md` — controlling project rules
 - `README.md` — this documentation
 
@@ -146,7 +162,7 @@ Run the repeatable QA checks with:
 
 ```bash
 node --check app.js
-node scripts/qa_app.mjs
+node tests/qa.mjs
 ```
 
 ## Current limitations
@@ -158,4 +174,4 @@ node scripts/qa_app.mjs
 
 ## Project rules
 
-`ProjectRules.md` is controlling. It includes mobile-first requirements, exact-photo rules, stable-ID rules, estimate behavior, official-name and alias rules, `main` branch discipline, catalog generation, QA, and Supabase collision protections.
+`ProjectRules.md` is controlling. It includes mobile-first requirements, exact-photo rules, stable-ID rules, estimate behavior, official-name and alias rules, `main` branch discipline, catalog generation, QA, and Supabase collision protections. `AUDIT_WORKFLOW.md` supplies the required operational procedure for completeness audits.
