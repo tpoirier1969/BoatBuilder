@@ -8,7 +8,7 @@ on:
       - styles.css
       - app.js
       - data/catalog.js
-      - scripts/qa_app.mjs
+      - tests/qa.mjs
       - .github/workflows/qa.yml
   workflow_dispatch:
 
@@ -21,15 +21,16 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Check out main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: "22"
+          node-version: "24"
+          package-manager-cache: false
 
       - name: Check JavaScript syntax
         run: node --check app.js
 
       - name: Run catalog and estimate QA
-        run: node scripts/qa_app.mjs
+        run: node tests/qa.mjs
