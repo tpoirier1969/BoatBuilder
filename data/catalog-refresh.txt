@@ -2,4 +2,4 @@ BoatBuilder catalog refresh marker.
 
 Update this file after an authorized spreadsheet audit to trigger regeneration of data/catalog.js on main.
 
-Last requested refresh: 2026-07-23 after creating the Boat Audit Ledger and Unmatched Listing Queue, seeding the full 1997 Lund roster, and adding the verified Lund 1600 Pro Sport.
+Last requested refresh: 2026-07-23 after separating Johnson and Evinrude manufacturer navigation, repairing the App Equipment spill table, and adding Northwood 170 Pro Tourney.
