@@ -1,0 +1,74 @@
+name: Remove legacy era fallback
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/remove-legacy-era-fallback.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Remove obsolete fallback code
+        shell: python
+        run: |
+          from pathlib import Path
+
+          path = Path("app.js")
+          text = path.read_text()
+
+          old_constants = ',EF=["1980s Value","1990s Value","2000s Value","2010s Value","2020s Value"],MC='
+          new_constants = ',MC='
+          if old_constants not in text:
+              raise SystemExit("Legacy era constants were not found")
+          text = text.replace(old_constants, new_constants, 1)
+
+          old_money = 'function moneyTokens(v){return[...cl(v).replaceAll(",","").matchAll(/\\$?\\s*(\\d+(?:\\.\\d+)?)\\s*([kK]?)/g)].filter(m=>m[0].includes("$")||m[2]).map(m=>Math.round(Number(m[1])*(m[2]?1000:1)))}\n'
+          if old_money not in text:
+              raise SystemExit("Legacy money-token parser was not found")
+          text = text.replace(old_money, '', 1)
+
+          old_eras = 'function eras(i){if(Array.isArray(i.valueEras))return i.valueEras.map(v=>({label:v.label,low:v.lowPrice,high:v.highPrice,basis:v.basis||"Used complete-package screening estimate"}));const d=dm(i);return EF.flatMap(f=>{const x=moneyTokens(d.get(f));return x.length?[{label:f.replace(" Value",""),low:Math.min(...x),high:Math.max(...x),basis:"Legacy calendar-era market estimate"}]:[]})}'
+          new_eras = 'function eras(i){return Array.isArray(i.valueEras)?i.valueEras.map(v=>({label:v.label,low:v.lowPrice,high:v.highPrice,basis:v.basis||"Used complete-package screening estimate"})):[]}'
+          if old_eras not in text:
+              raise SystemExit("Legacy era fallback was not found")
+          text = text.replace(old_eras, new_eras, 1)
+
+          path.write_text(text)
+
+      - name: Validate application
+        run: |
+          node --check app.js
+          node --check data/boats.js
+          node --check data/equipment.js
+          node --check data/catalog.js
+          node --check tests/qa.mjs
+          node tests/qa.mjs
+
+      - name: Commit cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app.js
+          if git diff --cached --quiet; then
+            echo "Legacy fallback is already absent."
+          else
+            git commit -m "Remove legacy spreadsheet era fallback"
+            git push origin HEAD:main
+          fi
