@@ -1,0 +1,7 @@
+=== APPLY AUDIT ===
+Updated 28 Lund records; 8 multi-generation records; wrote research/audits/lund-app-model-audit-2026-07-28.md
+apply_status=0
+=== SYNTAX AND QA ===
+BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+Verified canonical app data, focused Lund generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
+qa_status=0
