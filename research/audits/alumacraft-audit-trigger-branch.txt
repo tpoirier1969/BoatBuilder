@@ -1,1 +1,1 @@
-Trigger the focused Alumacraft app-model audit batch for the 17 existing records.
+Trigger the Alumacraft-specific regression checks against the audited canonical data.
