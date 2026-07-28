@@ -1,1 +1,1 @@
-Trigger the focused Lund app-model audit workflow after updating canonical QA for the 28 in-app records.
+Trigger the focused Lund app-model audit after removing workflow-file mutations from the generated commit.
