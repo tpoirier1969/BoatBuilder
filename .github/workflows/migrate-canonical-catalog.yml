@@ -57,3 +57,5 @@ jobs:
             git commit -m "Move BoatBuilder data into canonical app files"
             git push origin HEAD:main
           fi
+
+# This workflow is temporary and will be removed after the migration commit is verified.
