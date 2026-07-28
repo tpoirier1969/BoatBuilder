@@ -1,151 +1,111 @@
-# BoatBuilder generation audit status — 2026-07-28
+# BoatBuilder generation audit status - 2026-07-28
 
-## Executive verdict
+## Current verdict
 
-The generation-aware catalog work is **not complete**. The production app is currently in an interim safety state:
+The app architecture has been repaired. The generation research itself is still incomplete.
 
-- it is better at refusing to apply one broad specification set across obviously uncertain production spans;
-- it is worse at giving useful model-specific answers because most records have not yet received researched hull-generation data;
-- the warning logic currently confuses price decades with possible hull redesigns;
-- the first Lund corrections were added as a runtime catalog overlay rather than being written back into the maintained Google Sheet.
+Accurate status:
 
-Do not describe the catalog as generation-audited. The accurate description is: **generation safeguards installed; research audit largely pending**.
+- canonical app-data migration complete
+- runtime corrections and overlays removed
+- price decades no longer automatically imply a hull redesign
+- first Lund generation batch preserved in canonical data
+- manufacturer-by-manufacturer research audit still largely pending
 
-## Production state
+Do not describe the boat catalog as fully generation-audited.
 
-Current production files:
+## Canonical production structure
 
-- `data/catalog.js` contains the generated spreadsheet snapshot.
-- `data/lund-corrections.js` mutates that snapshot at runtime with the first Lund correction batch.
-- `app.js` contains generation-aware selection logic.
-- `index.html` loads the spreadsheet snapshot, then the Lund correction overlay, then the controller.
+The repository on `main` is now the source of truth.
 
-The base snapshot contains:
+Production data files:
 
-- 348 total catalog items
-- 167 boat records
-- 181 equipment records
+- `data/boats.js` - 170 canonical boat records
+- `data/equipment.js` - 181 canonical equipment records
+- `data/catalog.js` - small assembler for the two data arrays
 
-The Lund overlay adds three boat records, producing an effective runtime total of 170 boats.
+Current total: 351 catalog records.
 
-## Quantitative audit
+`index.html` loads boat data, equipment data, the catalog assembler, and then `app.js`.
 
-Applying the current `app.js` warning test to the 167 base boat records gives:
+The former `data/lund-corrections.js` file has been deleted. The spreadsheet builder, spreadsheet refresh workflow, and one-time migration machinery have also been removed so they cannot overwrite canonical app data.
 
-- 114 records labeled or treated as generation-audit risks
-- 81 records with more than one decade value band
-- 84 records with one decade value band
-- 2 records with no decade value band
-- 1 model with a real selectable hull-generation definition in the controller: `MirroCraft | Dual Impact 176`
+## Generation and value behavior
 
-This is the core reason the app became less useful. Multiple decade value bands are not evidence of a hull redesign, but the current `risk()` function treats them as one. It also treats words such as `current`, `present`, `1990s`, `2000s`, and `representative` as automatic redesign-risk signals.
+The app now treats two timelines separately:
 
-## What the phone work actually completed
+- `designGenerations` controls physical specifications.
+- `valueEras` controls market estimates.
 
-Three changes were merged to `main` on 2026-07-28:
+Multiple value decades are not evidence of a redesign.
 
-1. Separate hull generations from age-based valuation.
-2. Add catalog-wide safeguards against applying unresolved generation data too broadly.
-3. Complete Lund audit batch one.
+An unchanged hull can keep one specification set while its value changes across several age periods. A new generation is created only when evidence shows a material physical, structural, capacity, horsepower, or propulsion change.
 
-The governing idea is correct:
+## Lund work preserved
 
-- a material hull/design change creates a specification generation;
-- calendar age changes value within a generation;
-- a decade boundary alone does not create a new hull generation.
+The first Lund batch remains in canonical boat data:
 
-The implementation and research are incomplete.
+- the documented 2003 Alaskan 1800 Sport was narrowed to its actual hull basis;
+- the 2024-plus Alaskan 1875 redesign was separated;
+- older Tyee outboards were separated from materially heavier I/O and ITS versions;
+- the current Tyee 1875 Sport was added;
+- incompatible propulsion and generation records no longer inherit one another's prices.
 
-## Lund work completed
+## Remaining Lund work
 
-Factory-backed work completed in batch one:
+Highest-risk unresolved Lund families include:
 
-- narrowed `Lund | Alaskan 1800 Sport` to the documented 2003 hull basis;
-- identified the redesigned 2024-plus Alaskan 1875 as a separate generation/record;
-- separated older Tyee outboards from I/O/ITS propulsion variants;
-- added a current Tyee 1875 factory-specification record;
-- stopped unsupported generations from inheriting values from unlike boats.
-
-Research files:
-
-- `research/lund-inventory.json`
-- `research/lund-source-map.md`
-- `research/lund-verified-findings.json`
-
-## Lund work still pending
-
-Highest-risk unresolved Lund records:
-
-- `Mr Pike 17`
-- `Pro-V 1775`
-- `Pro-V 1800 SE`
-- exact outboard generation boundaries inside the older Tyee family
+- Mr Pike 17
+- Pro-V 1775
+- Pro-V 1800 SE
+- exact outboard generation boundaries in the older Tyee family
 - intermediate Alaskan generations between the documented 2003 hull and the 2024 redesign
+- Explorer Sport, Fisherman, Crossover, Impact, and other long-running families that still need year-by-year factory comparison
 
-The 1997 Lund factory roster contains 59 official entries. Only five roster entries have a reconciled disposition in the audit ledger; 54 remain `Needs Reconciliation`.
+The existing 1997 Lund roster research remains an audit in progress, not a completed manufacturer audit.
 
-No other manufacturer has a complete factory-roster, model-year generation audit.
+## Remaining catalog work
 
-## Source-of-truth defect
+No manufacturer has yet received a complete all-years factory-roster and generation audit.
 
-The maintained Google Sheet `Aluminum boat model review` was last modified on 2026-07-23. It still contains the pre-batch broad Alaskan and Tyee records.
+Priority manufacturers for continued research are:
 
-The first Lund corrections therefore exist only in `data/lund-corrections.js`, after the generated catalog loads. This creates source drift:
+1. Lund
+2. Alumacraft
+3. Crestliner
+4. Smoker Craft
+5. Starcraft and Sylvan
+6. MirroCraft
+7. Sea Nymph
+8. Princecraft
 
-- the Google Sheet is not the complete maintained source;
-- the generated snapshot does not contain all production records;
-- a runtime patch is carrying permanent research data;
-- documentation counts are stale;
-- a future rebuild can create confusing overlap unless the source and builder are repaired first.
+Research should focus first on models that are common in the regional used market and relevant to 16-to-19-foot aluminum fishing boats.
 
-This conflicts with the canonical architecture in `ProjectRules.md`, which requires one maintained spreadsheet source, one generated catalog snapshot, and no runtime repair chain used to avoid fixing the canonical data.
+## Required update process
 
-## Correct architecture
+When research verifies a model or generation:
 
-Generation research should be stored in the maintained spreadsheet and emitted by `scripts/build_catalog.py`.
+1. Update the existing canonical record directly in `data/boats.js`.
+2. Add a new canonical record only when identity or capability is materially different.
+3. Store generation-specific specifications and compatible value eras in that record.
+4. Update the relevant research or audit file under `research/`.
+5. Preserve stable IDs unless identity genuinely changes.
+6. Run syntax checks and `node tests/qa.mjs`.
+7. Verify the deployed phone behavior.
 
-Each model needs:
+Do not create correction files, override files, runtime mutation layers, or spreadsheet rebuilds.
 
-- stable base boat ID;
-- generation ID;
-- generation label and exact start/end years;
-- generation-specific specifications;
-- factory/source URLs and specification basis;
-- confidence/research status;
-- decade or narrower value bands that belong to that generation.
-
-Required behavior:
-
-1. The user chooses a model.
-2. The user chooses the applicable model year or generation.
-3. The displayed hull specifications change to that generation.
-4. The value selector shows only age/value bands valid for that generation.
-5. If the hull stayed unchanged across several decades, the specifications stay fixed while value changes by decade.
-6. If a redesign occurred inside a decade, the design boundary controls instead of forcing a calendar-decade split.
-7. Unknown values remain explicitly unknown, but a broad global warning must not replace researched information that is available.
-
-## Immediate repair order
-
-1. Stop treating multiple value decades as proof of a hull-generation problem.
-2. Define generation data in the maintained spreadsheet and update the catalog builder.
-3. Move the verified Lund corrections out of `data/lund-corrections.js` and into the maintained source.
-4. Preserve stable IDs while migrating the old Tyee umbrella record.
-5. Rebuild `data/catalog.js`, remove the runtime correction overlay, update counts, and run QA.
-6. Finish Lund's high-risk 16–19 foot windshield families from factory catalogs.
-7. Continue manufacturer-by-manufacturer, prioritizing the largest unresolved groups relevant to the search: Alumacraft, Crestliner, Smoker Craft, Starcraft/Sylvan, MirroCraft, Sea Nymph, and Princecraft.
-8. Record every official model-year disposition in `Boat Audit Ledger`; do not declare a manufacturer complete while entries remain unresolved.
-
-## Definition of complete
+## Definition of generation-complete
 
 A model is generation-complete only when:
 
 - official production years are established;
 - material redesign boundaries are established or explicitly documented as unresolved;
-- each generation has its own specification set;
+- each verified generation has its own specification set;
 - price eras are assigned only within compatible generations;
-- layout/propulsion variants that materially change weight, capability, or value are separated;
+- layout and propulsion variants that materially change capability are separated or explicitly represented;
 - sources and confidence are recorded;
-- app selection changes both specifications and value correctly;
-- QA verifies that incompatible generations cannot inherit one another's data.
+- app selection changes specifications and values correctly;
+- QA prevents incompatible generations from inheriting one another's data.
 
-A manufacturer is audit-complete only when its factory roster has been reconciled in the ledger, not merely when the currently interesting models have been researched.
+A manufacturer is audit-complete only when every official roster entry in the defined scope has a documented disposition.
