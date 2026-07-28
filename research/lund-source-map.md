@@ -2,7 +2,7 @@
 
 ## Scope
 
-This file tracks source evidence for every Lund boat record in `data/catalog.js`. A model is not considered complete until its production years, material hull-generation boundaries, generation-specific specifications, and value eras are represented in the catalog.
+This file tracks source evidence for Lund boat records in the app. A model is not considered complete until its production years, material hull-generation boundaries, generation-specific specifications, and value eras are represented accurately.
 
 ## Source order
 
@@ -16,42 +16,30 @@ This file tracks source evidence for every Lund boat record in `data/catalog.js`
 
 | Event | Year | Evidence | Catalog implication |
 |---|---:|---|---|
-| Tyee family introduced | 1979 | Lund factory heritage timeline | Do not project later Tyee specifications back before 1979; research subsequent size-specific redesigns. |
-| Pro-V family introduced | 1988 | Lund factory heritage timeline | Establish an initial 1988 generation, then compare later IPS/IPS2 and 2023 redesigns by size. |
-| IPS hull identified as a 1990s innovation | 1990s | Lund factory heritage timeline | Treat adoption of IPS as a potential structural generation boundary where dimensions or ratings changed. |
-| SportTrak introduced | 2003 | Lund factory heritage timeline | Accessory-system change alone is not a hull generation unless structural dimensions also changed. |
-| Impact and Crossover families introduced | 2010s | Lund factory heritage timeline | Do not assign these names to earlier decades; determine first model year and redesigns by length. |
-| Pro-V redesigned | 2023 | Lund factory heritage timeline | Create a 2023 generation where the applicable Pro-V size appears in the app and factory specifications differ. |
+| Tyee family introduced | 1979 | Lund factory heritage timeline | Do not project later Tyee specifications back before 1979. |
+| Pro-V family introduced | 1988 | Lund factory heritage timeline | Establish size-specific generations rather than one Pro-V umbrella. |
+| IPS hull identified as a 1990s innovation | 1990s | Lund factory heritage timeline | Treat IPS adoption as a potential structural boundary where ratings changed. |
+| SportTrak introduced | 2003 | Lund factory heritage timeline | Accessory change alone is not a hull generation. |
+| Impact and Crossover families introduced | 2010s | Lund factory heritage timeline | Do not assign those names to earlier decades. |
+| Pro-V redesigned | 2023 | Lund factory heritage timeline | Separate applicable post-2023 Pro-V hulls from older records. |
+| Alaskan redesigned | 2024 | Lund factory model-year material | Separate the 2024-plus 1875 from the documented 2003 1800 hull. |
 
-## Public source leads
+## Batch one completed corrections
 
-- Lund factory heritage timeline: `https://www.lundboats.com/our-heritage.html`
-- Lund current catalog page: `https://www.lundboats.com/get-a-free-catalog.html`
-- Lund current performance/specification manual: `https://www.lundboats.com/performance-and-specs.html`
-- NauticExpo Lund catalog collection, including 2010 model sheets and a 2019 lineup
-- Boatbrochure Lund collection, with surviving brochures including 1985, 1989, 1990, 1997, and 2006
+- Narrowed the Alaskan 1800 Sport to its documented 2003 hull basis.
+- Removed unsupported 1990s, 2010s and 2020s values from that 2003 record.
+- Added the redesigned 2024-plus Alaskan 1875 Sport as a separate record.
+- Split older Tyee outboards from I/O/ITS variants so they cannot share weight, tow or value assumptions.
+- Added the current Tyee 1875 Sport as a separate factory-specification record.
+- Left unverified used prices unset rather than inferring them from new package prices.
+- Replaced stale QA tests with checks for the current v5 controller and correction load order.
 
 ## Generation decision rule
 
-Create a new generation when factory evidence shows a material change in one or more of:
+Create a new generation when factory evidence shows a material change in overall length, beam, bottom width, hull weight, hull depth, deadrise, transom, horsepower, capacity, fuel capacity, hull thickness, construction system or propulsion architecture.
 
-- overall length
-- beam or bottom width
-- hull weight
-- bow/cockpit depth
-- deadrise or hull form
-- transom height
-- maximum horsepower
-- persons or weight capacity
-- fuel capacity
-- hull thickness or construction system
+Do not create a generation solely for graphics, upholstery, electronics, carpet, SportTrak or accessory-package changes.
 
-Do not create a generation solely for graphics, upholstery, electronics, carpet, SportTrak, or accessory-package changes.
+## Remaining Lund work
 
-## Research status
-
-- Exact Lund inventory extraction: automated on this branch
-- Manufacturer-level timeline anchors: started
-- Model-family/year comparison: pending generated inventory
-- Catalog generation records: not yet written
-- Runtime/controller changes: none on this branch
+The highest-risk unresolved records are Mr Pike 17, Pro-V 1775, Pro-V 1800 SE and the exact outboard boundaries within the older Tyee family. Explorer Sport, Fisherman, Crossover, Impact and other long-running families also require year-by-year archive comparison.
