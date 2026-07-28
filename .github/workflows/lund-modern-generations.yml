@@ -1,0 +1,31 @@
+name: Targeted Lund modern generation extraction
+
+on:
+  push:
+    paths:
+      - '.github/workflows/lund-modern-generations.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Install PDF tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Extract modern Lund generations
+        run: bash scripts/extract_lund_modern_generations.sh
+      - name: Commit extracts and remove one-time machinery
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/sources/lund-modern-generations research/sources/lund-modern-generation-index-2012-2026.tsv research/sources/lund-modern-generation-extracts-2012-2026.md
+          git rm scripts/extract_lund_modern_generations.sh .github/workflows/lund-modern-generations.yml
+          git commit -m 'Extract Lund modern generation evidence'
+          git pull --rebase origin main
+          git push
