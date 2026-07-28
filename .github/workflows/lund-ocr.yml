@@ -27,4 +27,5 @@ jobs:
           git add research/sources/lund-ocr research/sources/lund-ocr-target-extracts-2026-07-28.md
           git rm scripts/ocr_lund_catalogs.sh .github/workflows/lund-ocr.yml
           git commit -m 'OCR scanned Lund factory catalogs'
+          git pull --rebase origin main
           git push
