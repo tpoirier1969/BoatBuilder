@@ -1,29 +1,33 @@
 {
   "manufacturer": "Lund",
   "status": "active-research",
-  "scope": "First evidence-backed generation findings for mixed or long-running Lund records in the app.",
+  "scope": "Evidence-backed generation findings for mixed or long-running Lund records in the app.",
   "findings": [
     {
       "catalogId": "boat:Lund | Alaskan 1800 Sport",
       "finding": "confirmed-generation-break",
       "existingBasis": {
         "year": 2003,
+        "model": "1800 Alaskan Sport",
         "length": "18'9\"",
         "beam": "83\"",
         "dryHullWeight": "1,030 lb",
         "maxHp": "90"
       },
       "laterFactoryBasis": {
+        "startYear": 2024,
         "model": "1875 Alaskan Sport",
         "length": "18'10\"",
         "beam": "90\"",
         "maxHp": "115",
-        "manufacturerLanguage": "newly redesigned Lund Boats Alaskan series"
+        "manufacturerLanguage": "2024 model-year page identifies a redesigned Alaskan"
       },
-      "decision": "Do not treat 1990s, 2000s and current Alaskan values as one unchanged hull. Preserve the 2003 1800 Sport as its own generation and create a separate redesigned 1875 generation when the exact introduction year is verified.",
-      "confidence": "factory-confirmed break; exact cutoff pending",
+      "decision": "Create separate pre-2024 and 2024-plus Alaskan generations. The 2003 1800 Sport specifications cannot be reused for the redesigned 1875. Research intermediate catalogs before assigning the exact end year of the 1800-style generation.",
+      "confidence": "factory-confirmed 2024 redesign boundary",
       "sources": [
         "https://www.lundboats.com/content/dam/lund/technical/documents/2003-Lund-Catalog.pdf",
+        "https://www.lundboats.com/model-year-24.html",
+        "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf",
         "https://www.lundboats.com/families/alaskan.html"
       ]
     },
