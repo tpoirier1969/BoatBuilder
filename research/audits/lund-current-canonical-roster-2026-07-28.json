@@ -1,0 +1,840 @@
+{
+  "generated": "2026-07-28",
+  "count": 28,
+  "records": [
+    {
+      "id": "boat:Lund | 1600 Angler",
+      "model": "1600 Angler",
+      "subtitle": "1997 factory model; 1997 catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 1500,
+      "highPrice": 4000,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
+      "modelYears": "1997 factory model; 1997 catalog basis",
+      "layout": "Available configurations: tiller; SS single side console with windshield",
+      "length": "16'3\"",
+      "beam": "76\"",
+      "weight": "712 lb tiller; 779 lb SS",
+      "maxHp": "50 tiller; 75 SS",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | 1600 Angler:value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 1500,
+          "highPrice": 4000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | 1600 Explorer",
+      "model": "1600 Explorer",
+      "subtitle": "1997 factory model; 1997 catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 1300,
+      "highPrice": 3800,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
+      "modelYears": "1997 factory model; 1997 catalog basis",
+      "layout": "Available configurations: tiller; SS single side console with windshield",
+      "length": "16'3\"",
+      "beam": "75\"",
+      "weight": "615 lb tiller; 680 lb SS",
+      "maxHp": "45 tiller; 60 SS",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | 1600 Explorer:value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 1300,
+          "highPrice": 3800,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | 1600 Pro Sport",
+      "model": "1600 Pro Sport",
+      "subtitle": "1997–2000 verified; 1997 factory-catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 2000,
+      "highPrice": 5500,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
+      "modelYears": "1997–2000 verified; 1997 factory-catalog basis",
+      "layout": "Factory twin-console full walk-through curved windshield with convertible bow ProDeck",
+      "length": "16'3\"",
+      "beam": "82\"",
+      "weight": "910 lb",
+      "maxHp": "90",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | 1600 Pro Sport:value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 2000,
+          "highPrice": 4500,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | 1600 Pro Sport:value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 3000,
+          "highPrice": 5500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Adventure Sport 1675",
+      "model": "Adventure Sport 1675",
+      "subtitle": "2021 factory Redbook basis",
+      "badge": "Secondary",
+      "lowPrice": 14000,
+      "highPrice": 20000,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/general/2021-Lund-Redbook.pdf",
+      "modelYears": "2021 factory Redbook basis",
+      "layout": "Factory twin-console walk-through/full windshield",
+      "length": "16'10\"",
+      "beam": "87\"",
+      "weight": "1,060 lb",
+      "maxHp": "90",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Adventure Sport 1675:value:2020s",
+          "label": "2020s",
+          "startYear": 2020,
+          "endYear": 2029,
+          "lowPrice": 14000,
+          "highPrice": 20000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Alaskan 1800 Sport",
+      "model": "Alaskan 1800 Sport",
+      "subtitle": "2003 factory hull specification basis",
+      "badge": "Secondary",
+      "lowPrice": 4000,
+      "highPrice": 7000,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2003-Lund-Catalog.pdf",
+      "modelYears": "2003 factory hull specification basis; adjacent years still under brochure review",
+      "layout": "Factory Sport/dual-console windshield configuration",
+      "length": "18'9\"",
+      "beam": "83\"",
+      "weight": "1,030 lb",
+      "maxHp": "90",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Alaskan 1800 Sport:value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 4000,
+          "highPrice": 7000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Alaskan 1875 Sport (2024 redesign)",
+      "model": "Alaskan 1875 Sport (2024 redesign)",
+      "subtitle": "2024–present redesigned factory hull",
+      "badge": "Secondary",
+      "lowPrice": null,
+      "highPrice": null,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf",
+      "modelYears": "2024–present; Lund's 2024 model-year page identifies a redesigned Alaskan",
+      "layout": "Factory Sport dual-console full walk-through windshield",
+      "length": "18'10\"",
+      "beam": "90\"",
+      "weight": "Current factory configuration varies; 1,127 lb published for 1875 tiller",
+      "maxHp": "115",
+      "generations": [],
+      "valueEras": []
+    },
+    {
+      "id": "boat:Lund | Alaskan 2000 Sport",
+      "model": "Alaskan 2000 Sport",
+      "subtitle": "2003 factory catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 3000,
+      "highPrice": 11000,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2003-Lund-Catalog.pdf",
+      "modelYears": "2003 factory catalog basis",
+      "layout": "Factory Sport/dual-console windshield configuration",
+      "length": "20'6\"",
+      "beam": "90.5\"",
+      "weight": "1,275 lb",
+      "maxHp": "125",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Alaskan 2000 Sport:value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 3000,
+          "highPrice": 5500,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Alaskan 2000 Sport:value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 4500,
+          "highPrice": 8000,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Alaskan 2000 Sport:value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 7000,
+          "highPrice": 11000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Angler Sport 1650",
+      "model": "Angler Sport 1650",
+      "subtitle": "2024 factory catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 16000,
+      "highPrice": 23000,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf",
+      "modelYears": "2024 factory catalog basis",
+      "layout": "Factory walk-through/full windshield",
+      "length": "16'5\"",
+      "beam": "80.5\"",
+      "weight": "Not published in cited catalog",
+      "maxHp": "60",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Angler Sport 1650:value:2020s",
+          "label": "2020s",
+          "startYear": 2020,
+          "endYear": 2029,
+          "lowPrice": 16000,
+          "highPrice": 23000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Crossover XS 1675",
+      "model": "Crossover XS 1675",
+      "subtitle": "2014 factory catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 8000,
+      "highPrice": 12500,
+      "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
+      "modelYears": "2014 factory catalog basis",
+      "layout": "Factory twin-console walk-through/full windshield",
+      "length": "16'10\"",
+      "beam": "92\"",
+      "weight": "1,389 lb",
+      "maxHp": "115",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Crossover XS 1675:value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 8000,
+          "highPrice": 12500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Crossover XS 1775",
+      "model": "Crossover XS 1775",
+      "subtitle": "2014 factory catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 8500,
+      "highPrice": 13000,
+      "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
+      "modelYears": "2014 factory catalog basis",
+      "layout": "Factory twin-console walk-through/full windshield",
+      "length": "17'10\"",
+      "beam": "95\"",
+      "weight": "1,450 lb",
+      "maxHp": "150",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Crossover XS 1775:value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 8500,
+          "highPrice": 13000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Crossover XS 1875",
+      "model": "Crossover XS 1875",
+      "subtitle": "2014 factory catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 9000,
+      "highPrice": 13500,
+      "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
+      "modelYears": "2014 factory catalog basis",
+      "layout": "Factory twin-console walk-through/full windshield",
+      "length": "18'10\"",
+      "beam": "95\"",
+      "weight": "1,558 lb",
+      "maxHp": "175",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Crossover XS 1875:value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 9000,
+          "highPrice": 13500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
+      "model": "Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
+      "subtitle": "2008–2012",
+      "badge": "Primary",
+      "lowPrice": 4500,
+      "highPrice": 8500,
+      "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
+      "modelYears": "2008–2012",
+      "layout": "Factory walk-through/full windshield",
+      "length": "17'10\"",
+      "beam": "87\"",
+      "weight": "1,135 lb",
+      "maxHp": "125",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 4500,
+          "highPrice": 7000,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 5500,
+          "highPrice": 8500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Explorer Sport 1825",
+      "model": "Explorer Sport 1825",
+      "subtitle": "2008–2012",
+      "badge": "Primary",
+      "lowPrice": 5000,
+      "highPrice": 10000,
+      "sourceUrl": "https://www.jdpower.com/boats/2008/lund-boat-co/1825-explorer-sport_/10267429/specs",
+      "modelYears": "2008–2012",
+      "layout": "Factory walk-through/full windshield",
+      "length": "18'4\"",
+      "beam": "96\"",
+      "weight": "1,450 lb",
+      "maxHp": "150–175",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Explorer Sport 1825:value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 5000,
+          "highPrice": 8000,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Explorer Sport 1825:value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 6500,
+          "highPrice": 10000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name)",
+      "model": "Fisherman 1750 (Pro Fisherman-era name)",
+      "subtitle": "2007–2012",
+      "badge": "Primary",
+      "lowPrice": 4500,
+      "highPrice": 9500,
+      "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
+      "modelYears": "2007–2012",
+      "layout": "Factory walk-through/full windshield",
+      "length": "17'10\"",
+      "beam": "About 93\"",
+      "weight": "1,345 lb",
+      "maxHp": "135",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 4500,
+          "highPrice": 7500,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 6000,
+          "highPrice": 9500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Fisherman 1800 OB / full-windshield",
+      "model": "Fisherman 1800 OB / full-windshield",
+      "subtitle": "2004–2009; 2004 basis",
+      "badge": "Primary",
+      "lowPrice": 5000,
+      "highPrice": 8500,
+      "sourceUrl": "https://library.rvusa.com/brochure/2004.pdf",
+      "modelYears": "2004–2009; 2004 basis",
+      "layout": "Factory walk-through/full windshield",
+      "length": "18'6\"",
+      "beam": "96\"",
+      "weight": "1,475 lb",
+      "maxHp": "175",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 5000,
+          "highPrice": 8500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Impact Sport 1775",
+      "model": "Impact Sport 1775",
+      "subtitle": "2014 factory catalog basis",
+      "badge": "Primary",
+      "lowPrice": 7000,
+      "highPrice": 11000,
+      "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
+      "modelYears": "2014 factory catalog basis",
+      "layout": "Factory twin-console walk-through/full windshield",
+      "length": "17'9\"",
+      "beam": "94\"",
+      "weight": "1,220 lb",
+      "maxHp": "125",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Impact Sport 1775:value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 7000,
+          "highPrice": 11000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Mr Pike 17",
+      "model": "Mr Pike 17",
+      "subtitle": "1999–2002 representative",
+      "badge": "Secondary",
+      "lowPrice": 3000,
+      "highPrice": 7000,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2002-Lund-Catalog.pdf",
+      "modelYears": "1999–2002 representative",
+      "layout": "Factory wraparound walk-through windshield on full-windshield versions; some listings are single-console",
+      "length": "About 17'3\"",
+      "beam": "About 89\"–92\" by year",
+      "weight": "About 1,100–1,300 lb",
+      "maxHp": "115–135 by year",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Mr Pike 17:value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 3000,
+          "highPrice": 5500,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Mr Pike 17:value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 4000,
+          "highPrice": 7000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations)",
+      "model": "Pro-V 1775 (non-walk-through configurations)",
+      "subtitle": "Late 1990s–2000s; configuration varies",
+      "badge": "Secondary",
+      "lowPrice": 4000,
+      "highPrice": 10000,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1998-Lund-Catalog.pdf",
+      "modelYears": "Late 1990s–2000s; configuration varies",
+      "layout": "Single/dual low-console configurations commonly advertised; model name alone does not establish a full walk-through windshield",
+      "length": "About 17'9\"",
+      "beam": "About 90\"–95\" by year",
+      "weight": "About 1,300–1,500 lb",
+      "maxHp": "150–175 by year",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 4000,
+          "highPrice": 7000,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 6000,
+          "highPrice": 10000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version)",
+      "model": "Pro-V 1800 SE (Primary; exact SE full-windshield version)",
+      "subtitle": "2000–2009; 2004 basis",
+      "badge": "Primary",
+      "lowPrice": 6000,
+      "highPrice": 10000,
+      "sourceUrl": "https://library.rvusa.com/brochure/2004.pdf",
+      "modelYears": "2000–2009; 2004 basis",
+      "layout": "Factory walk-through/full windshield",
+      "length": "18'4\"",
+      "beam": "2000s: 92–93\"",
+      "weight": "1,560 lb",
+      "maxHp": "175",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 6000,
+          "highPrice": 10000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Rebel XL Sport 1650",
+      "model": "Rebel XL Sport 1650",
+      "subtitle": "2014 factory catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 5000,
+      "highPrice": 8000,
+      "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
+      "modelYears": "2014 factory catalog basis",
+      "layout": "Factory twin-console walk-through/full windshield",
+      "length": "16'6\"",
+      "beam": "84\"",
+      "weight": "890 lb",
+      "maxHp": "90",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Rebel XL Sport 1650:value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 5000,
+          "highPrice": 8000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
+      "model": "Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
+      "subtitle": "late 1990s–2006",
+      "badge": "Primary",
+      "lowPrice": 3500,
+      "highPrice": 7500,
+      "sourceUrl": "https://pdf.nauticexpo.com/pdf/lund/1700-tyee/20027-35821.html",
+      "modelYears": "late 1990s–2006",
+      "layout": "Factory walk-through/full windshield",
+      "length": "17'0\"",
+      "beam": "88\"",
+      "weight": "1,200 lb",
+      "maxHp": "125",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 3500,
+          "highPrice": 6000,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 4500,
+          "highPrice": 7500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Tyee 1750",
+      "model": "Tyee 1750",
+      "subtitle": "2007–2013; 2012 basis",
+      "badge": "Primary",
+      "lowPrice": 5500,
+      "highPrice": 11500,
+      "sourceUrl": "https://www.jdpower.com/boats/2012/lund-boat-co/1750-tyee_/32026361/specs",
+      "modelYears": "2007–2013; 2012 basis",
+      "layout": "Factory walk-through/full windshield",
+      "length": "About 17'10\"",
+      "beam": "About 94\"",
+      "weight": "1,345 lb",
+      "maxHp": "150",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Tyee 1750:value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 5500,
+          "highPrice": 9000,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Tyee 1750:value:2010s",
+          "label": "2010s",
+          "startYear": 2010,
+          "endYear": 2019,
+          "lowPrice": 7500,
+          "highPrice": 11500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Tyee 1750 Outboard (1994 generation)",
+      "model": "Tyee 1750 Outboard (1994 generation)",
+      "subtitle": "1991–1996; 1994 factory catalog basis",
+      "badge": "Primary",
+      "lowPrice": 3000,
+      "highPrice": 6000,
+      "sourceUrl": "https://media.rvusa.com/library/1994.pdf",
+      "modelYears": "1991–1996; 1994 factory catalog basis",
+      "layout": "Factory twin-console walk-through/full windshield; Gran Sport trim also offered",
+      "length": "17'3\"",
+      "beam": "83½\"",
+      "weight": "1,233 lb",
+      "maxHp": "140",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 3000,
+          "highPrice": 6000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Tyee 1850 I/O / ITS (older generation)",
+      "model": "Tyee 1850 I/O / ITS (older generation)",
+      "subtitle": "Older I/O and ITS propulsion variants; separate heavy-package record",
+      "badge": "Secondary",
+      "lowPrice": null,
+      "highPrice": null,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1990-Lund-Catalog.pdf",
+      "modelYears": "Older I/O and ITS variants; exact years and drivetrain generations under catalog review",
+      "layout": "Factory walk-through/full windshield",
+      "length": "About 18'3\"–18'6\" by year",
+      "beam": "About 88\"–96\" by year",
+      "weight": "Some I/O versions exceed 2,300 lb before trailer, fuel and gear; verify exact year and drivetrain",
+      "maxHp": "Not comparable to outboard horsepower rating; verify installed sterndrive package",
+      "generations": [],
+      "valueEras": []
+    },
+    {
+      "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard",
+      "model": "Tyee 1850 outboard / older 18' Tyee outboard",
+      "subtitle": "Late 1980s–2000s outboard versions only; exact hull boundaries under catalog review",
+      "badge": "Primary",
+      "lowPrice": 2500,
+      "highPrice": 9000,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1990-Lund-Catalog.pdf",
+      "modelYears": "Late 1980s–2000s outboard versions only; multiple outboard hull generations remain under brochure comparison",
+      "layout": "Factory walk-through/full windshield",
+      "length": "About 18'3\"–18'6\" by year",
+      "beam": "About 88\"–96\" by year",
+      "weight": "About 1,500 lb representative outboard basis; verify exact model year and capacity plate",
+      "maxHp": "150–175 outboard representative by year",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1980s",
+          "label": "1980s",
+          "startYear": 1980,
+          "endYear": 1989,
+          "lowPrice": 2500,
+          "highPrice": 5000,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 3500,
+          "highPrice": 6500,
+          "basis": "Used complete-package screening estimate"
+        },
+        {
+          "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:2000s",
+          "label": "2000s",
+          "startYear": 2000,
+          "endYear": 2009,
+          "lowPrice": 5000,
+          "highPrice": 9000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Tyee 1875 Sport (current generation)",
+      "model": "Tyee 1875 Sport (current generation)",
+      "subtitle": "Current factory 1875 Tyee hull; not interchangeable with older 1850 records",
+      "badge": "Secondary",
+      "lowPrice": null,
+      "highPrice": null,
+      "sourceUrl": "https://www.lundboats.com/families/tyee.html",
+      "modelYears": "Current factory generation; exact introduction year under archive comparison",
+      "layout": "Factory Sport full walk-through windshield",
+      "length": "18'10\"",
+      "beam": "98\"",
+      "weight": null,
+      "maxHp": "200",
+      "generations": [],
+      "valueEras": []
+    },
+    {
+      "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\")",
+      "model": "Tyee 5.3 (Lund American-era 17'4\")",
+      "subtitle": "Early 1980s; 1981 factory-catalog basis",
+      "badge": "Secondary",
+      "lowPrice": 2000,
+      "highPrice": 4500,
+      "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1981-Lund-Catalog.pdf",
+      "modelYears": "Early 1980s; 1981 factory-catalog basis",
+      "layout": "Factory walk-through/full windshield with open bow seating",
+      "length": "17'4\"",
+      "beam": "82\"",
+      "weight": "950 lb",
+      "maxHp": "115",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):value:1980s",
+          "label": "1980s",
+          "startYear": 1980,
+          "endYear": 1989,
+          "lowPrice": 2000,
+          "highPrice": 4500,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    },
+    {
+      "id": "boat:Lund | Tyee II 1650",
+      "model": "Tyee II 1650",
+      "subtitle": "1991–1996; 1994 factory catalog basis",
+      "badge": "Primary",
+      "lowPrice": 2500,
+      "highPrice": 5000,
+      "sourceUrl": "https://media.rvusa.com/library/1994.pdf",
+      "modelYears": "1991–1996; 1994 factory catalog basis",
+      "layout": "Factory twin-console walk-through/full windshield",
+      "length": "16'3\"",
+      "beam": "80\"",
+      "weight": "975 lb",
+      "maxHp": "115",
+      "generations": [],
+      "valueEras": [
+        {
+          "id": "boat:Lund | Tyee II 1650:value:1990s",
+          "label": "1990s",
+          "startYear": 1990,
+          "endYear": 1999,
+          "lowPrice": 2500,
+          "highPrice": 5000,
+          "basis": "Used complete-package screening estimate"
+        }
+      ]
+    }
+  ]
+}
