@@ -1,1 +1,1 @@
-Trigger the targeted final-page OCR for the official 2006-2012 Alumacraft catalog specification tables.
+Trigger the seven-year parallel Alumacraft specification-page extraction.
