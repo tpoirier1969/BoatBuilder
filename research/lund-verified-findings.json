@@ -1,0 +1,78 @@
+{
+  "manufacturer": "Lund",
+  "status": "active-research",
+  "scope": "First evidence-backed generation findings for mixed or long-running Lund records in the app.",
+  "findings": [
+    {
+      "catalogId": "boat:Lund | Alaskan 1800 Sport",
+      "finding": "confirmed-generation-break",
+      "existingBasis": {
+        "year": 2003,
+        "length": "18'9\"",
+        "beam": "83\"",
+        "dryHullWeight": "1,030 lb",
+        "maxHp": "90"
+      },
+      "laterFactoryBasis": {
+        "model": "1875 Alaskan Sport",
+        "length": "18'10\"",
+        "beam": "90\"",
+        "maxHp": "115",
+        "manufacturerLanguage": "newly redesigned Lund Boats Alaskan series"
+      },
+      "decision": "Do not treat 1990s, 2000s and current Alaskan values as one unchanged hull. Preserve the 2003 1800 Sport as its own generation and create a separate redesigned 1875 generation when the exact introduction year is verified.",
+      "confidence": "factory-confirmed break; exact cutoff pending",
+      "sources": [
+        "https://www.lundboats.com/content/dam/lund/technical/documents/2003-Lund-Catalog.pdf",
+        "https://www.lundboats.com/families/alaskan.html"
+      ]
+    },
+    {
+      "catalogId": "boat:Lund | Tyee 1850 / older 18' Tyee",
+      "finding": "must-split-record",
+      "evidence": {
+        "catalogSpan": "Late 1980s–2000s",
+        "lengthRange": "about 18'3\"–18'6\"",
+        "beamRange": "about 88\"–96\"",
+        "weightDifference": "about 1,500 lb outboard versus more than 2,300 lb for some I/O versions",
+        "propulsion": "outboard and I/O/ITS variants combined"
+      },
+      "decision": "Separate propulsion architectures immediately. Outboard and I/O/ITS versions cannot share specifications, tow guidance or market values. Additional brochure comparison is required to divide the outboard record into exact hull generations.",
+      "confidence": "catalog-internal conflict confirmed",
+      "sources": [
+        "https://www.lundboats.com/content/dam/lund/technical/documents/1990-Lund-Catalog.pdf"
+      ]
+    },
+    {
+      "catalogId": "boat:Lund | Mr Pike 17",
+      "finding": "probable-multiple-generations-and-layouts",
+      "evidence": {
+        "catalogSpan": "1999–2002 representative",
+        "beamRange": "about 89\"–92\"",
+        "weightRange": "about 1,100–1,300 lb",
+        "maxHpRange": "115–135",
+        "layoutConflict": "single-console and full-windshield boats share the name"
+      },
+      "decision": "Do not retain one representative specification set. Research each model year and separate full-windshield and console layouts where structural ratings differ.",
+      "confidence": "material variation confirmed; boundaries pending",
+      "sources": [
+        "https://www.lundboats.com/content/dam/lund/technical/documents/2002-Lund-Catalog.pdf"
+      ]
+    },
+    {
+      "catalogId": "boat:Lund | Pro-V 1775 (non-walk-through configurations)",
+      "finding": "probable-multiple-generations",
+      "evidence": {
+        "catalogSpan": "late 1990s–2000s",
+        "beamRange": "about 90\"–95\"",
+        "weightRange": "about 1,300–1,500 lb",
+        "maxHpRange": "150–175"
+      },
+      "decision": "Split by verified brochure-year hull specifications. Keep non-walk-through configuration status separate from hull generation so layout and structure are not conflated.",
+      "confidence": "material variation confirmed; exact generations pending",
+      "sources": [
+        "https://www.lundboats.com/content/dam/lund/technical/documents/1998-Lund-Catalog.pdf"
+      ]
+    }
+  ]
+}
