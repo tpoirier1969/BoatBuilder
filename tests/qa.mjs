@@ -40,8 +40,11 @@ assert.ok(catalog.counts.equipment >= 181, "Equipment catalog shrank below the c
 
 const requiredIds = [
   "boat:Lund | 1600 Pro Sport",
+  "boat:Lund | Adventure Sport 1675",
   "boat:Lund | Alaskan 1800 Sport",
   "boat:Lund | Alaskan 1875 Sport (2024 redesign)",
+  "boat:Lund | Impact Sport 1775",
+  "boat:Lund | Pro-V 1775 (non-walk-through configurations)",
   "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard",
   "boat:Lund | Tyee 1850 I/O / ITS (older generation)",
   "boat:Lund | Tyee 1875 Sport (current generation)"
@@ -54,18 +57,50 @@ assert.ok(
   "Mixed-propulsion Tyee umbrella record still exists"
 );
 
-const oldAlaskan = catalog.items.find(item => item.id === "boat:Lund | Alaskan 1800 Sport");
-assert.match(oldAlaskan.subtitle, /2003 factory hull/i, "Old Alaskan was not narrowed to its documented hull");
-assert.equal(
-  oldAlaskan.valueEras.map(era => era.label).join(","),
-  "2000s",
-  "Old Alaskan retained unsupported value eras"
+const lund = catalog.items.filter(item => item.categoryId === "boats" && item.manufacturer === "Lund");
+assert.equal(lund.length, 28, "Focused Lund app-model scope changed without updating the audit");
+assert.ok(
+  lund.every(item => Array.isArray(item.designGenerations) && item.designGenerations.length >= 1),
+  "One or more Lund app records lacks canonical design-generation metadata"
 );
+
+const adventure = catalog.items.find(item => item.id === "boat:Lund | Adventure Sport 1675");
+assert.equal(adventure.designGenerations.length, 2, "Adventure 1675 redesign generations are not separated");
+assert.match(
+  adventure.designGenerations.map(g => g.label).join(" | "),
+  /2021[^|]*pre-redesign[^|]*\|[^|]*2024[^|]*wood-free/i,
+  "Adventure 1675 does not preserve the 2021 and 2024 redesign split"
+);
+
+const oldAlaskan = catalog.items.find(item => item.id === "boat:Lund | Alaskan 1800 Sport");
+assert.equal(oldAlaskan.designGenerations.length, 2, "Alaskan 1800 documented specification sets are not separated");
+assert.match(
+  oldAlaskan.designGenerations.map(g => g.label).join(" | "),
+  /2003[^|]*\|[^|]*2021/i,
+  "Alaskan 1800 does not expose its documented 2003 and 2021 specification sets"
+);
+assert.equal(oldAlaskan.valueEras.length, 0, "Multi-generation Alaskan retained unsafe top-level value eras");
+
+const impact = catalog.items.find(item => item.id === "boat:Lund | Impact Sport 1775");
+assert.equal(impact.designGenerations.length, 2, "Non-XS Impact 1775 generations are not separated");
+assert.match(impact.details.find(d => d.label === "Notes")?.value || "", /non-XS/i, "Historical Impact record is not protected from Impact XS substitution");
+
+const proV1775 = catalog.items.find(item => item.id === "boat:Lund | Pro-V 1775 (non-walk-through configurations)");
+assert.equal(proV1775.designGenerations.length, 2, "Pro-V 1775 2000 and 2002 specification sets are not separated");
+assert.match(proV1775.designGenerations.map(g => g.label).join(" | "), /2000[^|]*\|[^|]*2002/i, "Pro-V 1775 exact-year split is missing");
 
 const tyeeIo = catalog.items.find(item => item.id === "boat:Lund | Tyee 1850 I/O / ITS (older generation)");
 assert.equal(tyeeIo.lowPrice, null, "I/O Tyee inherited an unsupported low price");
 assert.equal(tyeeIo.highPrice, null, "I/O Tyee inherited an unsupported high price");
 assert.equal(tyeeIo.valueEras.length, 0, "I/O Tyee inherited outboard value eras");
+assert.equal(tyeeIo.designGenerations.length, 1, "I/O Tyee is not narrowed to one documented package basis");
+
+const currentTyee = catalog.items.find(item => item.id === "boat:Lund | Tyee 1875 Sport (current generation)");
+assert.match(
+  currentTyee.designGenerations[0].specs?.["Dry Hull Weight"]?.value || "",
+  /1,760 lb/i,
+  "Current Tyee 1875 factory hull weight is missing"
+);
 
 const dualImpact = catalog.items.find(item => item.id === "boat:MirroCraft | Dual Impact 176");
 assert.equal(dualImpact.designGenerations.length, 2, "Dual Impact generations are not stored with the boat data");
@@ -104,4 +139,4 @@ assert.match(
 console.log(
   `BoatBuilder QA passed: ${catalog.items.length} items, ${catalog.counts.boats} boats, ${catalog.counts.equipment} equipment records.`
 );
-console.log("Verified canonical app data, structured value eras, data-backed hull generations, and no runtime correction overlay.");
+console.log("Verified canonical app data, focused Lund generations, structured value eras, data-backed hull generations, and no runtime correction overlay.");
