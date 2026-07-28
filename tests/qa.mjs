@@ -127,8 +127,8 @@ const alumacraftUnresolved = alumacraft.flatMap(entry =>
 );
 assert.equal(alumacraftUnresolved.length, 11, "Alumacraft exact-plus-unresolved record count changed");
 for (const { entry, generation } of alumacraftUnresolved) {
-  assert.deepEqual(Object.keys(generation.specs || {}), [], `${entry.id} unresolved generation inherited specifications`);
-  assert.deepEqual(generation.eras || [], [], `${entry.id} unresolved generation inherited pricing`);
+  assert.equal(Object.keys(generation.specs || {}).length, 0, `${entry.id} unresolved generation inherited specifications`);
+  assert.equal((generation.eras || []).length, 0, `${entry.id} unresolved generation inherited pricing`);
   assert.ok(entry.designGenerations.some(candidate => candidate.status !== "unresolved"), `${entry.id} lacks its exact factory snapshot`);
 }
 
