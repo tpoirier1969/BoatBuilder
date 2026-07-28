@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
       - name: Install PDF tools
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
-      - name: Extract modern Lund generations
+      - name: Extract modern Lund generations for BoatBuilder models
         run: bash scripts/extract_lund_modern_generations.sh
       - name: Commit extracts and remove one-time machinery
         run: |
