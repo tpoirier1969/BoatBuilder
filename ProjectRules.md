@@ -1,13 +1,13 @@
-# ProjectRules.md — BoatBuilder
+# ProjectRules.md - BoatBuilder
 
-This file is the controlling project rule file for BoatBuilder.
+This is the controlling project rule file for BoatBuilder.
 
 Before any research, audit, design, coding, QA, repository change, deployment, or data migration, review and follow:
 
 1. The current ChatGPT project settings
 2. This `ProjectRules.md`
 
-If this file conflicts with older chats, stale handoffs, abandoned AppSheet assumptions, temporary prototypes, or outdated documentation, this file controls unless Tod explicitly says otherwise.
+If this file conflicts with older chats, spreadsheet workflows, AppSheet assumptions, temporary migration files, or stale documentation, this file controls unless Tod explicitly says otherwise.
 
 ## 1. Project purpose
 
@@ -17,22 +17,93 @@ The primary workflow is:
 
 1. Choose a category.
 2. Choose a manufacturer.
-3. Choose a specific model or major model variation.
+3. Choose a specific model or materially different variation.
 4. Review the complete detail record.
-5. Choose every required option and add the item to the current estimate from its detail screen.
-6. Review every selected item with package low and high totals.
+5. Choose every required option.
+6. Add the configured item to the estimate from its detail screen.
+7. Review the selected package with honest low and high totals.
 
-The app is not primarily a marketplace search tool. Do not make search the main organizing principle unless Tod asks for it.
+The app should help evaluate realistic Lake Superior fishing packages without making unsuitable boats or equipment look better than they are.
 
-The app should help evaluate realistic Lake Superior-capable fishing packages without making unsuitable boats or equipment look better than they are.
+The catalog is broader than the current purchase search. A legitimate model is not excluded merely because it lacks a walk-through windshield, is too small, too large, too expensive, or poorly suited to Lake Superior. Those limitations belong in the recommendation and suitability fields.
 
-### Catalog breadth
+## 2. Canonical source and file architecture
 
-Catalog breadth is broader than the current purchase search. Include relevant fishing, multispecies, fish-and-ski, side-console, tiller, windshield, and other materially distinct boat models even when they do not meet Tod and Donna's current preferred features. Recommendation, layout, and suitability fields explain fit; they are not inclusion gates. Do not omit a real model merely because it lacks a walk-through windshield, is too small, is too expensive, or is otherwise a poor current purchase candidate.
+The BoatBuilder GitHub repository on `main` is the source of truth.
 
-## 2. Core navigation and catalog behavior
+Canonical production files are:
 
-Main navigation must be category-first.
+- `index.html` - application shell and production script order
+- `styles.css` - application styles
+- `app.js` - interface, navigation, state, configuration, and estimating logic
+- `data/boats.js` - canonical boat records, design generations, value eras, sources, images, and recommendations
+- `data/equipment.js` - canonical motor and equipment records
+- `data/catalog.js` - small assembler that combines canonical data files into `window.BOATBUILDER_DATA`
+- `tests/qa.mjs` - repeatable integrity and behavior checks
+- `.github/workflows/qa.yml` - automated syntax and QA checks
+- `research/` - source maps, audit rosters, unresolved questions, and manufacturer research
+- `docs/` - durable schema and maintenance documentation
+
+The Google Sheet and former AppSheet work may be retained as historical references, but they are not production sources and must not overwrite repository data.
+
+Do not create:
+
+- runtime correction files
+- override files that mutate previously loaded records
+- patch chains
+- generated spreadsheet snapshots that replace app-maintained data
+- duplicate entry points
+- hidden data embedded in `app.js`
+
+Research corrections must be made directly in the appropriate canonical data record.
+
+If a canonical data file becomes too large to maintain comfortably, split it by a durable responsibility such as manufacturer or equipment category and update the catalog assembler. Do not solve size by adding overlays.
+
+## 3. Boat generations and value eras
+
+Boat specifications and market values use separate timelines.
+
+### Design generations
+
+A new design generation is required when verified evidence shows a material change in one or more of these:
+
+- overall length
+- beam or bottom width
+- deadrise, hull depth, freeboard, or cockpit depth
+- hull weight
+- construction system or plate thickness
+- transom height or propulsion architecture
+- horsepower, persons, or weight capacity
+- fuel capacity when tied to a structural redesign
+- deck or cockpit structure when practical capability changes materially
+
+Do not create a new design generation for graphics, upholstery, electronics packages, ordinary seating options, or calendar decade boundaries alone.
+
+Each researched generation should contain:
+
+- stable generation ID
+- human-readable label
+- start and end years when known
+- source and specification basis
+- research status or confidence
+- generation-specific specifications
+- value eras that are valid for that generation
+
+### Value eras
+
+Value eras account for age, motor technology, trailer age, condition, and market behavior. An unchanged design may span several value eras.
+
+A value-era boundary does not imply a hull redesign.
+
+When the design stayed unchanged across decades, the app must keep the same specifications while changing only the applicable value range.
+
+When a redesign happened inside a decade, the verified redesign year controls.
+
+Unknown values remain unknown. Do not borrow values or specifications from another length, trim, propulsion type, or generation merely to fill the screen.
+
+## 4. Navigation and catalog behavior
+
+Main navigation is category-first.
 
 Current categories are:
 
@@ -45,36 +116,53 @@ Current categories are:
 - Bimini, canvas, curtains, and covers
 - Electrical systems
 
-Most categories flow from category to manufacturer. Electronics & Navigation and Electrical Systems add one type layer before manufacturer:
+Most categories flow from category to manufacturer to model. Electronics and Electrical add an equipment-type layer before manufacturer.
 
-- Electronics & Navigation → equipment type → manufacturer → model
-- Electrical Systems → equipment type → manufacturer → component
+Model lists are navigation-only. Add-to-estimate controls appear on detail screens only.
 
-Within a manufacturer, show each relevant model and each materially different variation as its own list row.
+When an item has required configuration choices, all required choices must be selected before it can be added. Clearing a required option from an already selected item removes it from the estimate.
 
-Do not collapse:
+## 5. Official names, variants, and aliases
 
-- 16-foot and 18-foot versions
-- materially different hull layouts
-- walk-through and non-walk-through versions
-- different console configurations
-- different motor generations
-- other variations whose layout, capability, value, or appearance differs meaningfully
+Use verified official manufacturer, family, size, layout, and generation names as the primary catalog identity.
 
-Each detail screen must show all useful available details. When an exact matching image exists, place it above the details.
+Do not create a duplicate row merely because a seller abbreviated, misspelled, or incompletely named the boat.
 
-Model and component lists are navigation-only. They must not contain add-to-estimate checkboxes. The Add to estimate checkbox appears on the detail screen only. When an item has configurable options, all required options must be selected before the checkbox is enabled. Clearing a required option from an already selected item removes it from the estimate rather than preserving a broad or ambiguous value.
+Store seller shorthand, aliases, corporate wording, and suffix explanations as metadata or research notes.
 
-### Official names, aliases, and seller shorthand
+Create a separate catalog record only when length, hull, structure, propulsion architecture, value, or practical capability differs materially.
 
-- Use the verified official manufacturer, family, size, and layout name as the primary catalog name.
-- Do not create a second catalog row merely because a seller abbreviated, misspelled, or incompletely named the same boat.
-- Put common seller shorthand, aliases, corporate/manufacturer wording, and verified suffix explanations in a manufacturer naming note or alias metadata.
-- Manufacturer suffixes are brand-specific and may also be era-specific. Never assume one maker's abbreviation applies to another maker.
-- A separate catalog row is appropriate only when the underlying length, hull, console, windshield, generation, value, or capability is materially different and relevant to the project.
-- When a listing name is ambiguous, identify the likely official model but clearly state what evidence is still needed from the HIN, capacity plate, registration, decals, or year-specific brochure.
+Steering and console options may share one record when they use the same underlying hull and generation. Their configuration-specific weights, horsepower ratings, layouts, or capacities must remain visible inside that record.
 
-## 3. Mobile-first interface rules
+## 6. Stable identifiers
+
+Every catalog item and estimate line must have a stable unique ID.
+
+Rules:
+
+- Preserve existing boat and equipment IDs during ordinary corrections.
+- Never derive identity from array position or file order.
+- Never reuse a retired ID for another item.
+- Display names may change without changing identity.
+- References and saved selections store stable IDs.
+- QA must reject duplicate or blank IDs.
+
+Legacy IDs that originated in the spreadsheet remain valid identifiers. Their historical column names do not make the spreadsheet authoritative.
+
+## 7. Data honesty
+
+Accuracy beats visual completeness.
+
+- Use exact manufacturer, model, length, layout, and generation information whenever possible.
+- Do not substitute another size, console, windshield, material, propulsion type, or generation without explicit labeling.
+- A blank image is better than a persuasive but incorrect image.
+- Preserve warnings, inspection cautions, negative recommendations, and uncertainty.
+- Do not spin an unsuitable Lake Superior boat into an acceptable choice.
+- Keep price ranges honest and broad enough for actual used-market uncertainty.
+- Keep source URLs and evidence notes with the data.
+- Use factory catalogs and exact factory records first, then reliable secondary sources.
+
+## 8. Mobile-first interface rules
 
 BoatBuilder is primarily a phone app.
 
@@ -86,221 +174,115 @@ Requirements:
 - Avoid horizontal scrolling.
 - Avoid dense desktop tables in the primary interface.
 - Keep navigation obvious and reversible.
-- Preserve the user’s context when returning from a detail screen.
+- Preserve context when returning from a detail screen.
 - Keep the current estimate reachable from every major screen.
-- Show the selected-item count and current package range in the centered Estimate control.
-- Place the fully labeled Clear estimate control at the right side of the header, disable it when empty, and protect it with confirmation when populated.
-- Provide visible keyboard focus states on actual controls without programmatically focusing the main content container.
-- Do not use color as the only indicator of selection or status.
-- Respect `prefers-reduced-motion`.
+- Do not use color as the only status indicator.
+- Respect reduced-motion preferences.
 - Do not require sound.
 
-Desktop layouts may use available width more efficiently, but phone behavior controls the design.
+## 9. Estimate behavior
 
-## 4. Data honesty and model-specific accuracy
-
-Accuracy beats visual completeness.
-
-- Use an exact manufacturer, model, variation, length, layout, and generation image whenever possible.
-- Do not use a 16-foot boat image for an 18-foot version merely because the family name is similar.
-- Do not substitute another console, windshield, hull material, propulsion layout, or generation without explicit labeling.
-- A blank image is better than a persuasive but incorrect image.
-- The app may display a boat photo only when the `Boat Photos` record identifies the match as exact under the approved photo policy.
-- Preserve warnings, limitations, inspection cautions, and negative recommendations.
-- Do not spin an unsuitable Lake Superior boat into an acceptable choice.
-- Keep low and high estimates honest. Do not narrow ranges merely to make a package appear affordable.
-- Keep source URLs, match quality, and curation notes available in the data model.
-
-## 5. Stable identifiers
-
-Every catalog item and estimate line must have a stable unique ID.
-
-Current canonical source IDs are:
-
-- Boats: static `App Boats[AppSheet Key]`
-- Equipment: `App Equipment[Equipment ID]`
-
-`AppSheet Key` is only the name of a spreadsheet data column. BoatBuilder does not depend on AppSheet configuration or schema behavior.
-
-Rules:
-
-- Never use spreadsheet row numbers as identifiers.
-- Never derive identity from the current row position.
-- Do not reuse a retired ID for another item.
-- Display names may change without intentionally changing identity.
-- References and saved selections must store stable IDs, not row numbers.
-- Reject or flag duplicate and blank IDs during import or QA.
-
-## 6. Canonical application architecture
-
-Keep one clear source of truth for each responsibility.
-
-Canonical files and responsibilities:
-
-- `index.html` — application shell and production script order
-- `styles.css` — application styles
-- `app.js` — interface, navigation, state, selection, and estimating logic
-- `data/catalog.js` — generated production catalog snapshot
-- `scripts/build_catalog.py` — repeatable spreadsheet-to-catalog generator
-- `.github/workflows/build-catalog.yml` — automated snapshot generation on `main`
-- `ProjectRules.md` — controlling project rules
-- `README.md` — setup, deployment, data-source, and maintenance documentation
-
-The application is a static web app with no application server. Do not create chains of patch files, override stylesheets, duplicate entry points, or runtime repair scripts merely to avoid fixing the canonical file.
-
-New files must represent a real durable responsibility.
-
-## 7. Spreadsheet and production catalog contract
-
-The Google Sheet titled `Aluminum boat model review` is the maintained research and editing source.
-
-Authorized source tabs are:
-
-- `App Boats`
-- `App Equipment`
-- `Boat Photos`
-
-The production app must load the generated local snapshot at `data/catalog.js`. It must not depend on a live Google Visualization or Google Sheets request in the user’s browser.
-
-The snapshot builder may read the workbook and must:
-
-- query only the authorized source tabs;
-- ignore formula-generated blank rows;
-- ignore rows lacking the required stable ID;
-- validate uniqueness and required fields;
-- preserve source URLs, recommendation text, model variation, price guidance, photo match quality, and curation notes;
-- never silently merge materially different records;
-- fail rather than publish an empty catalog;
-- write the generated snapshot to `main`.
-
-The browser app remains read-only. It must not write to the spreadsheet.
-
-After spreadsheet changes, regenerate and validate `data/catalog.js` before treating the production catalog as current.
-
-## 8. Estimate behavior
-
-The current estimate is a package of selected catalog items.
-
-Each estimate line must include:
+Each estimate line includes:
 
 - stable item ID
 - category
 - manufacturer
-- model or variation display name
-- low value
-- high value
-- selected era when the item is age-sensitive
-- selected horsepower for gasoline main motors and kickers when the family includes more than one horsepower
+- model or variation
+- selected design generation when required
+- selected value era when required
+- selected horsepower when applicable
 - selected trailer assumption or upgrade for boats
-- optional quantity only when the category truly requires it
-- optional user note only when later authorized
+- low and high values
 
 Rules:
 
-- Totals must be recalculated from selected lines.
-- Removing an item must immediately remove its values from both totals.
-- Duplicate selection of a single-instance item is not allowed.
-- Do not invent quantity behavior for every category.
-- Display low and high totals clearly and label them as estimates.
-- Do not replace ranges with a midpoint unless Tod explicitly asks.
-- Missing configured prices must be shown honestly, not presented as a genuine zero-dollar value.
-- The current estimate may persist in browser `localStorage` in the first version.
-- Items may be added only from their detail screen after all displayed required options are selected.
-- Age-sensitive items require a specific era before selection; an all-era range is informational only.
-- Main-motor and kicker estimates must allow horsepower selection. Use a verified source price band when one exists.
-- When no horsepower-specific source band exists, any derived narrowing must be labeled as derived from the broader family range rather than represented as direct market data.
-- A main-motor estimate is not considered adequately narrowed until both era and horsepower are selected when those controls are available.
-- Boat values assume a standard factory or generic trailer is included. Do not add a second standard trailer line or double-count it.
-- Premium trailer construction or features may add an explicit upgrade range above the standard included trailer assumption.
+- Recalculate totals from selected lines.
+- Removing an item immediately removes its values.
+- Do not duplicate a single-instance item.
+- Do not replace ranges with a midpoint unless Tod asks.
+- Missing prices are disclosed and never presented as genuine zero-dollar values.
+- Boat values assume one standard factory or generic trailer is included.
+- Premium trailer choices add only the upgrade range.
+- Browser `localStorage` may retain the current estimate.
 
-## 9. Storage and Supabase safety
+## 10. Research and audit workflow
 
-Do not add Supabase merely because it is available.
+Audit work is stored in repository files under `research/`.
 
-Use Supabase only when a documented requirement needs shared, authenticated, cross-device, multi-user, or remotely editable application data.
+A manufacturer or year-range audit begins with a complete official factory roster. Every roster entry receives a documented disposition such as:
 
-If Supabase is added:
+- Present
+- Added
+- Alias of existing
+- Renamed or same hull
+- Missing - add
+- Insufficient evidence
+- Not a factory model
 
-- Inspect all existing Supabase projects and schemas first.
-- Never assume BoatBuilder is the only project.
-- Use a unique project-specific prefix or schema such as `boatbuilder_`.
-- Do not create generic shared-namespace objects such as `items`, `estimates`, `users`, or `settings`.
-- Do not alter, drop, rename, truncate, overwrite, or reuse objects belonging to another project.
-- Document every new object and naming convention before applying it.
-- Never commit service-role keys, database passwords, access tokens, or private credentials.
+Do not call a manufacturer or scope complete while unexplained roster entries remain.
 
-## 10. Scope and narrow-change rule
+A focused search of selected families or suspicious gaps is an audit in progress, not a completed audit.
+
+When research verifies a correction:
+
+1. Update the canonical record in `data/boats.js` or `data/equipment.js`.
+2. Update the relevant research or audit file.
+3. Preserve the stable ID unless identity genuinely changes.
+4. Run QA.
+5. Verify the deployed app behavior.
+
+## 11. Repository and branch rules
+
+The working and deployed application remains on `main`.
+
+Branches are for backups, recovery points, and isolated experiments. Completed production work must not remain only on a feature branch.
+
+Do not force-update `main` without explicit approval.
+
+Before committing:
+
+- confirm the target repository and branch
+- confirm only intended files changed
+- never commit credentials, tokens, private keys, authenticated URLs, or database passwords
+
+## 12. Scope and maintainability
 
 Make the narrowest safe change that completes the authorized work.
 
-Do not quietly bundle unrelated visual redesigns, schema changes, data reorganizations, backend changes, new categories, search systems, authentication, analytics, deployment changes, or cleanup work.
+Do not quietly bundle unrelated visual redesigns, authentication, analytics, backend systems, or new application concepts.
 
-If a useful unrelated improvement is found, report it separately and leave it unchanged unless Tod authorizes it.
+However, when an authorized change makes an obsolete pipeline dangerous, remove or disable that obsolete pipeline as part of the same work.
 
-## 11. Better-way challenge rule
+New files must represent a durable responsibility. Temporary migrations and diagnostics must be removed after successful use.
 
-Do not blindly implement a request without checking whether it creates problems with phone usability, data accuracy, model-specific representation, estimate integrity, maintainability, storage safety, accessibility, technical debt, or existing project data.
+## 13. Storage and Supabase safety
 
-If a better approach exists, state the concern clearly before implementing. Tod’s decision controls after the concern is explained unless the direction would violate safety, data integrity, source honesty, credential security, or project-integrity rules.
+Do not add Supabase merely because it is available.
 
-## 12. Repository and branch rules
+Use remote storage only when a documented requirement needs shared, authenticated, cross-device, multi-user, or remotely editable data.
 
-**The working and deployed application must always be on `main`.**
+Never commit service-role keys, passwords, access tokens, or private credentials.
 
-Branches are only for:
-
-- backups before risky work;
-- recovery points;
-- isolated sandbox experiments.
-
-Unless Tod explicitly establishes a different workflow:
-
-- do not use a feature branch as the working application;
-- do not leave completed, approved, or production-ready changes only on a branch;
-- apply working changes directly to `main`;
-- treat `main` as the authoritative current app;
-- use a clearly named backup branch before a substantial risky change to an established live app;
-- never force-update `main` without explicit approval;
-- confirm that only intended files changed;
-- never commit credentials, authenticated URLs, private keys, database passwords, or tokens.
-
-Questions and discussion alone do not authorize unrelated repository changes. When Tod explicitly asks to build, revise, fix, simplify, or redesign, do the work directly on `main` when the available files and instructions are sufficient.
-
-## 13. QA requirements
+## 14. QA requirements
 
 Before calling a version complete:
 
 - The app loads without console errors.
-- `data/catalog.js` exists and contains a nonzero catalog.
-- The generated item, boat, and equipment counts are validated.
+- Canonical boat and equipment files load before `data/catalog.js`.
+- The catalog contains nonzero and nonshrinking item counts.
 - No duplicate or blank stable IDs exist.
-- Standard categories follow category → manufacturer → model → detail navigation.
-- Electronics and Electrical follow category → type → manufacturer → model/component → detail navigation.
-- Princecraft Sport 167 / Sport 164 appears as one combined official-generation listing with both names visible.
-- Back navigation preserves useful context.
-- Images do not overflow the phone viewport.
-- Missing or non-exact images produce a clean image-free detail screen.
-- Model and component lists contain no add-to-estimate checkbox.
-- Detail-screen selection remains disabled until every required option is complete.
-- Clearing a required option removes an already selected item from the estimate.
-- The estimate contains exactly the configured items selected from detail screens.
-- Low and high totals are mathematically correct.
-- Motor era and horsepower selections persist and affect the correct estimate line.
-- Known horsepower-band tests pass, including 2010s Evinrude E-TEC 75–90 hp at $4,000–$6,500 and 115–150 hp at $5,500–$8,500.
-- Boat estimates include the standard trailer assumption exactly once and premium trailer adjustments add only the upgrade range.
-- Missing prices are disclosed honestly.
-- Estimate state survives a page reload.
-- The centered Estimate control shows the selected count and current package range.
-- The right-side Clear estimate control uses its full label, disables when empty, and confirms before clearing populated estimates.
-- No materially different model variations are silently merged.
-- Seller aliases do not create duplicate catalog rows without a material model difference.
-- Touch targets and focus states are usable.
-- The app works at common narrow phone widths.
-- The app does not depend on a live Google request from the browser.
-- The spreadsheet remains read-only from the application.
+- No runtime correction or overlay file is loaded.
+- `app.js` does not contain model-specific data tables.
+- Design-generation selection changes displayed specifications.
+- Value-era selection changes values without falsely implying a redesign.
+- Incompatible generations do not inherit one another's specifications or prices.
+- Navigation works at narrow phone widths.
+- Lists contain no add-to-estimate checkbox.
+- Required choices gate selection correctly.
+- Estimate totals and persistence work correctly.
+- Images do not overflow and unverified substitutes are not shown.
+- Known critical model splits remain present.
+- `node --check` passes for application and data files.
+- `node tests/qa.mjs` passes.
 
-## 14. Rules freshness
-
-When Tod and the assistant make a durable workflow, architecture, data-model, proof-standard, estimate, storage, branch, deployment, or QA decision, fold it into `ProjectRules.md` in the next authorized revision.
-
-Do not let stale AppSheet assumptions, old handoffs, or temporary prototypes override these current rules.
+Never summarize a partial research pass as a completed audit.
