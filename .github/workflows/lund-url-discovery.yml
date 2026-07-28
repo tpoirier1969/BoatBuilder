@@ -1,0 +1,28 @@
+name: One-time Lund catalog URL discovery
+
+on:
+  push:
+    paths:
+      - '.github/workflows/lund-url-discovery.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Discover accessible historical catalogs
+        run: bash scripts/discover_lund_catalogs.sh
+      - name: Commit discovery and remove one-time machinery
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/sources/lund-catalog-url-discovery-2026-07-28.tsv
+          git rm scripts/discover_lund_catalogs.sh .github/workflows/lund-url-discovery.yml
+          git commit -m 'Discover Lund historical catalog URLs'
+          git push
