@@ -1,1 +1,1 @@
-Trigger the Alumacraft-specific regression checks against the audited canonical data.
+Rerun the Alumacraft-specific regression checks after fixing the cross-realm empty-array assertion.
