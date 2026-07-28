@@ -2,176 +2,141 @@
 
 BoatBuilder is a phone-first boat package research and estimating app for Tod and Donna.
 
-It replaces the attempted AppSheet interface while continuing to use the existing Google Sheet as the maintained research source.
+The GitHub repository is the maintained source of truth. The production app does not depend on Google Sheets, AppSheet, a live data request, or a runtime correction layer.
 
 ## Current workflow
 
 1. Choose a category.
 2. Choose a manufacturer.
-3. Choose a model or major model variation.
-4. Open the item to see its complete details.
-5. Configure age, horsepower, or trailer options when applicable.
-6. Add the configured item to the estimate from its detail screen.
-7. Open **Estimate** to see every selected item and the package low/high totals.
+3. Choose a model or materially different variation.
+4. Review the complete detail record.
+5. Select the applicable hull generation, value era, horsepower, or trailer options when required.
+6. Add the configured item from its detail screen.
+7. Open **Estimate** to review the package low and high totals.
 
-The header Estimate control shows the current item count and live package range. There is intentionally no search-first home screen.
+## Canonical data files
 
-## Current categories
+- `data/boats.js` - boat records, generation-specific specifications, value eras, sources, images, and recommendations
+- `data/equipment.js` - motors, downriggers, electronics, canvas, and electrical equipment
+- `data/catalog.js` - small production assembler that combines the canonical data arrays
 
-- Boats
-- Main motors
-- Kicker motors
-- Bow trolling motors
-- Downriggers
-- Electronics and navigation
-- Bimini, canvas, and covers
-- Electrical systems
+`index.html` loads those files in this order:
 
-## Data source and production snapshot
+1. `data/boats.js`
+2. `data/equipment.js`
+3. `data/catalog.js`
+4. `app.js`
 
-The maintained Google Sheet **Aluminum boat model review** supplies three authorized production source tabs:
+Do not add `corrections.js`, overrides, runtime mutation layers, or spreadsheet-generated replacement snapshots. A researched correction belongs directly in the canonical record.
 
-- `App Boats`
-- `App Equipment`
-- `Boat Photos`
+If a data file becomes awkwardly large, split it by a durable responsibility such as manufacturer or equipment category and update the assembler.
 
-It also contains two audit-control tabs:
+## Design generations and values
 
-- `Boat Audit Ledger`
-- `Unmatched Listing Queue`
+Boat records separate physical design history from market value history.
 
-The deployed browser app does **not** query Google Sheets at runtime. It loads the generated local file `data/catalog.js` from the same GitHub Pages site.
+- `designGenerations` controls hull specifications.
+- `valueEras` controls used-package estimates.
 
-The generator is `scripts/build_catalog.py`. The GitHub Action in `.github/workflows/build-catalog.yml` downloads the workbook, validates the data, creates `data/catalog.js`, and commits an updated snapshot to `main`.
+A design generation changes only when factory or strong supporting evidence shows a material change in hull dimensions, weight, construction, transom, horsepower, capacity, fuel system, propulsion architecture, or usable cockpit/deck structure.
 
-Current validated snapshot counts:
+A calendar decade does not automatically create a hull generation. One unchanged hull may use several value eras as the boat, motor, and trailer age.
 
-- 345 total catalog items
-- 164 boats
-- 181 equipment records
+## Research and audits
 
-### Stable IDs
+Research lives under `research/` and durable schema documentation lives under `docs/`.
 
-- Boats use the static `AppSheet Key` value from `App Boats`.
-- Equipment uses `Equipment ID` from `App Equipment`.
-- Spreadsheet row numbers are never used as item identities.
+A completed manufacturer audit requires a full official factory roster and a documented disposition for every entry. Selected-model research or gap hunting is an audit in progress, not a completed audit.
 
-Despite its name, `AppSheet Key` is simply a spreadsheet data column. The custom app does not depend on AppSheet.
+When research verifies a change:
 
-## Controlled boat audit process
+1. Update `data/boats.js` or `data/equipment.js` directly.
+2. Preserve the stable item ID unless the identity genuinely changes.
+3. Update the relevant research file.
+4. Run QA.
+5. Verify the production behavior.
 
-Boat completeness work follows `AUDIT_WORKFLOW.md`.
+## Stable IDs
 
-A genuine audit starts by building a complete manufacturer/model-year factory roster and entering every official model in `Boat Audit Ledger`. Each row must receive a documented disposition such as Present, Added, Alias, Renamed / Same Hull, Insufficient Evidence, or Not Factory Model.
+Every boat and equipment record has a stable unique ID. Existing IDs are retained even when names or specifications are corrected.
 
-A manufacturer or year range is not complete while roster rows remain unreconciled. Searches limited to suspicious gaps, selected families, or Marketplace discoveries are described as focused gap passes, not full audits.
-
-Any listing name that cannot be matched confidently to the app is entered in `Unmatched Listing Queue` and remains open until it is resolved. This prevents discoveries such as the 1997 Lund 1600 Pro Sport from living only in chat history.
-
-## Updating the catalog
-
-After changing the spreadsheet, update `data/catalog-refresh.txt` on `main`. The **Build catalog snapshot** workflow then:
-
-1. downloads the current workbook;
-2. validates nonzero item, boat, and equipment counts;
-3. rebuilds `data/catalog.js`;
-4. commits the updated snapshot to `main`.
-
-The builder can also be run locally:
-
-```bash
-python -m pip install openpyxl
-python scripts/build_catalog.py --output data/catalog.js
-```
-
-## Photo policy
-
-Boat photos appear only when the `Boat Photos` tab identifies the image as an approved exact-model match.
-
-The app deliberately hides:
-
-- same-family substitutes
-- different-length substitutes
-- unverified exact-size substitutes
-- earlier- or later-generation stand-ins
-
-A missing picture is preferable to showing the wrong boat.
+Never use array position or file order as identity, and never reuse a retired ID for another item.
 
 ## Estimate storage
 
-The current estimate is stored in the phone or browser using `localStorage`.
+The current estimate is stored in browser `localStorage`.
 
-Saved estimate lines retain:
+Saved selections retain the stable item ID plus applicable generation, era, horsepower, and trailer choices. The estimate survives reloads on that browser but is not automatically shared between devices.
 
-- stable item ID
-- selected era
-- selected horsepower when applicable
-- selected trailer assumption or upgrade
+## Price behavior
 
-This means the estimate survives a reload on that browser, requires no account, is not automatically shared between devices, and is erased when browser site data is cleared.
+Price ranges are screening values, not automatic appraisals of a particular listing.
 
-Supabase is not used in the first version. It should be added only when cross-device or multi-user storage becomes a real requirement.
+- Age-sensitive items require a value era.
+- Generation-specific records cannot borrow values from incompatible hulls or propulsion types.
+- Main motors and kickers may require horsepower selection.
+- Boat values include one standard factory or generic trailer assumption.
+- Premium trailer choices add only an upgrade range.
+- Missing values remain visibly unset rather than becoming zero.
 
-## Price ranges
+## Photo policy
 
-Equipment records use `Est Low` and `Est High` when those fields are populated. Otherwise, the app derives a broad family/era range from the decade guidance columns.
+Use an exact manufacturer, model, size, layout, and generation image whenever possible.
 
-Main motors and kickers allow horsepower selection. When a verified horsepower-specific source band exists, that band controls the estimate. When no separate source band exists, the app labels the narrower horsepower result as derived from the broader family range.
+A missing image is preferable to a convincing but incorrect substitute.
 
-Boat values assume a standard factory or generic trailer is already included. Premium trailer selections add only the upgrade range, avoiding a second standard-trailer charge.
+## Main files
 
-Boat ranges are screening values, not a replacement for evaluating a particular listing's year, condition, motor, trailer, and included equipment.
-
-If a selected item has an incomplete price range, the estimate screen identifies it and excludes the missing value from the displayed total rather than presenting it as a genuine zero-dollar value.
-
-## Files
-
-- `index.html` — application shell and production script order
-- `styles.css` — phone-first presentation
-- `app.js` — navigation, item selection, configuration, and estimating
-- `data/catalog.js` — generated production catalog snapshot
-- `scripts/build_catalog.py` — snapshot generator
-- `tests/qa.mjs` — repeatable catalog, navigation, selection, and estimate checks
-- `.github/workflows/build-catalog.yml` — automated snapshot builder
-- `.github/workflows/qa.yml` — JavaScript syntax and application QA
-- `AUDIT_WORKFLOW.md` — controlled roster-reconciliation procedure
-- `ProjectRules.md` — controlling project rules
-- `README.md` — this documentation
+- `index.html` - application shell and script order
+- `styles.css` - phone-first presentation
+- `app.js` - navigation, configuration, selection, and estimating
+- `data/boats.js` - canonical boat data
+- `data/equipment.js` - canonical equipment data
+- `data/catalog.js` - canonical data assembler
+- `tests/qa.mjs` - repeatable integrity and behavior checks
+- `.github/workflows/qa.yml` - automated syntax and QA checks
+- `research/` - research findings and audit material
+- `docs/catalog-schema-v3.md` - design-generation and value-era schema
+- `AUDIT_WORKFLOW.md` - controlled roster-reconciliation procedure
+- `ProjectRules.md` - controlling project rules
 
 ## Deploy with GitHub Pages
 
-GitHub Pages deploys the working application from branch `main`, folder `/(root)`.
+GitHub Pages deploys from branch `main`, folder `/(root)`.
 
-The production app, working code, and completed fixes must remain on `main`. Branches are reserved for backup, recovery, and sandbox experiments unless Tod explicitly establishes another workflow.
+The working app and completed production changes remain on `main`. Other branches are reserved for backups, recovery, and isolated experiments unless Tod establishes another workflow.
 
 ## Local testing
 
-Start a simple local web server:
+Start a local server:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open:
+Open:
 
 ```text
 http://localhost:8000
 ```
 
-Run the repeatable QA checks with:
+Run QA:
 
 ```bash
 node --check app.js
+node --check data/boats.js
+node --check data/equipment.js
+node --check data/catalog.js
+node --check tests/qa.mjs
 node tests/qa.mjs
 ```
 
-## Current limitations
+## Current canonical baseline
 
-- The estimate is browser-local, not cross-device.
-- Equipment does not yet have a separate photo catalog.
-- Horsepower narrowing is derived and explicitly labeled when the source provides only a broad family range.
-- A final visual phone check still requires a real browser after deployment.
+At the app-data migration checkpoint, the catalog contains:
 
-## Project rules
+- 170 boat records
+- 181 equipment records
+- 351 total records
 
-`ProjectRules.md` is controlling. It includes mobile-first requirements, exact-photo rules, stable-ID rules, estimate behavior, official-name and alias rules, `main` branch discipline, catalog generation, QA, and Supabase collision protections. `AUDIT_WORKFLOW.md` supplies the required operational procedure for completeness audits.
+QA treats those numbers as minimum anti-regression baselines, not permanent maximums. Research should increase or refine the catalog without requiring a spreadsheet rebuild.
