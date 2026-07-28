@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - .github/workflows/extract-alumacraft-2006-2012.yml
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: write
@@ -16,6 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Install PDF and OCR tools
