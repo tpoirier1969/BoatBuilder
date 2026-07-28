@@ -1,1 +1,1 @@
-Trigger visual contact sheets for the final twelve pages of each official 2006-2012 Alumacraft catalog.
+Trigger high-resolution rendering of the located Alumacraft factory specification tables.
