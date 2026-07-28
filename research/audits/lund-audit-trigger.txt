@@ -1,1 +1,1 @@
-Trigger the focused Lund app-model audit workflow. This file is temporary and contains no production data.
+Trigger the focused Lund app-model audit workflow after updating canonical QA for the 28 in-app records.
