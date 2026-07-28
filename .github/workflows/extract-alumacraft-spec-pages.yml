@@ -1,0 +1,110 @@
+name: Extract Alumacraft 2006-2012 specification pages
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  extract-spec-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Install PDF and OCR tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
+
+      - name: OCR final specification pages from official catalogs
+        shell: bash
+        run: |
+          set -euo pipefail
+          work=/tmp/alumacraft-spec-pages
+          rm -rf "$work"
+          mkdir -p "$work" research/sources
+          printf 'year\turl\tpages\tfirst_ocr_page\ttext_bytes\tdominator_hits\tnavigator_hits\n' > research/sources/alumacraft-2006-2012-spec-pages-manifest.tsv
+          : > research/sources/alumacraft-2006-2012-spec-pages-ocr.txt
+
+          for year in 2006 2007 2008 2009 2010 2011 2012; do
+            yy=${year:2:2}
+            if [ "$year" -le 2009 ]; then decade=2000-2009; else decade=2010-2019; fi
+            url="https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/${decade}/Catalogs/ALUMA-MY${yy}-Catalog-ENUS.pdf"
+            dir="$work/$year"
+            mkdir -p "$dir/pages" "$dir/ocr"
+            pdf="$dir/catalog.pdf"
+            txt="$dir/year.txt"
+            curl -fL --retry 3 --connect-timeout 25 --max-time 600 -A 'Mozilla/5.0' "$url" -o "$pdf"
+            pages=$(pdfinfo "$pdf" | awk '/^Pages:/ {print $2}')
+            first=$((pages-11)); if [ "$first" -lt 1 ]; then first=1; fi
+            pdftoppm -f "$first" -l "$pages" -jpeg -r 135 -jpegopt quality=76 "$pdf" "$dir/pages/page" >/dev/null 2>&1
+            find "$dir/pages" -name '*.jpg' -print0 | sort -z | xargs -0 -n1 -P6 bash -c '
+              img="$1"
+              base=$(basename "$img" .jpg)
+              out="$(dirname "$(dirname "$img")")/ocr/$base"
+              tesseract "$img" "$out" -l eng --psm 6 >/dev/null 2>&1 || true
+            ' _
+            : > "$txt"
+            page=$first
+            for page_txt in $(find "$dir/ocr" -name '*.txt' | sort -V); do
+              printf '\n===== %s CATALOG PAGE %s =====\n' "$year" "$page" >> "$txt"
+              cat "$page_txt" >> "$txt"
+              page=$((page+1))
+            done
+            bytes=$(stat -c%s "$txt")
+            dh=$(grep -Eic 'dominator' "$txt" || true)
+            nh=$(grep -Eic 'navigator' "$txt" || true)
+            printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "$year" "$url" "$pages" "$first" "$bytes" "$dh" "$nh" >> research/sources/alumacraft-2006-2012-spec-pages-manifest.tsv
+            cat "$txt" >> research/sources/alumacraft-2006-2012-spec-pages-ocr.txt
+          done
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          source = Path('research/sources/alumacraft-2006-2012-spec-pages-ocr.txt').read_text(errors='replace').splitlines()
+          year_re = re.compile(r'^===== (20\d\d) CATALOG PAGE (\d+) =====$')
+          target_re = re.compile(r'\b(?:DOMINATOR|NAVIGATOR)\b|\b(?:165|175|185)\s+(?:CS\s+)?SPORT\b', re.I)
+          out = [
+            '# Alumacraft specification-page OCR contexts, 2006-2012',
+            '',
+            'Official Alumacraft catalog pages. Only the final twelve pages of each scan were OCRed. OCR is used to locate and compare factory tables; uncertain characters are not promoted to canonical specifications.',
+            ''
+          ]
+          current_year = None
+          current_page = None
+          hits = []
+          for i, line in enumerate(source):
+            m = year_re.match(line)
+            if m:
+              current_year, current_page = int(m.group(1)), int(m.group(2))
+            if target_re.search(line):
+              hits.append((i,current_year,current_page))
+          spans=[]
+          for i,year,page in hits:
+            a,b=max(0,i-16),min(len(source),i+42)
+            if spans and a <= spans[-1][1]+6 and year == spans[-1][2]:
+              spans[-1]=(spans[-1][0],max(spans[-1][1],b),year,spans[-1][3])
+            else:
+              spans.append((a,b,year,page))
+          for n,(a,b,year,page) in enumerate(spans,1):
+            out += [f'## {year} context {n} near catalog page {page}', '', '```text', *source[a:b], '```', '']
+          if not spans:
+            out += ['No target-family text survived the specification-page OCR.', '']
+          Path('research/sources/alumacraft-2006-2012-spec-page-contexts.md').write_text('\n'.join(out)+'\n')
+          PY
+
+          rm research/sources/alumacraft-2006-2012-spec-pages-ocr.txt
+
+      - name: Commit compact specification evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/sources/alumacraft-2006-2012-spec-pages-manifest.tsv research/sources/alumacraft-2006-2012-spec-page-contexts.md
+          git commit -m 'Extract Alumacraft specification-page evidence'
+          git pull --rebase origin main
+          git push
