@@ -1,4 +1,4 @@
-name: Apply Alumacraft app-model audit batch 1
+name: Verify Alumacraft app-model audit batch 1
 
 on:
   push:
@@ -9,48 +9,26 @@ on:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  audit:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
-          fetch-depth: 0
 
       - uses: actions/setup-node@v5
         with:
           node-version: "22"
 
-      - name: Apply Alumacraft batch and run QA
-        shell: bash
+      - name: Run syntax and catalog QA
         run: |
-          set -euo pipefail
-          mkdir -p research/audits
-          {
-            echo '=== APPLY ALUMACRAFT AUDIT BATCH 1 ==='
-            node --check scripts/apply_alumacraft_app_audit_batch1.mjs
-            node scripts/apply_alumacraft_app_audit_batch1.mjs
-            echo '=== SYNTAX AND QA ==='
-            node --check app.js
-            node --check data/boats.js
-            node --check data/equipment.js
-            node --check data/catalog.js
-            node --check tests/qa.mjs
-            node tests/qa.mjs
-            echo 'audit_status=0'
-          } 2>&1 | tee research/audits/alumacraft-app-model-audit-batch1-run.log
-
-      - name: Commit canonical Alumacraft data
-        shell: bash
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/boats.js research/audits/alumacraft-app-model-audit-batch1-2026-07-28.md research/audits/alumacraft-app-model-audit-batch1-run.log
-          git rm scripts/apply_alumacraft_app_audit_batch1.mjs
-          git commit -m 'Apply Alumacraft app-model audit batch 1'
-          git pull --rebase origin main
-          git push
+          node --check app.js
+          node --check data/boats.js
+          node --check data/equipment.js
+          node --check data/catalog.js
+          node --check tests/qa.mjs
+          node tests/qa.mjs
