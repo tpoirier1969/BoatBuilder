@@ -1,1 +1,1 @@
-Trigger high-resolution rendering of the located Alumacraft factory specification tables.
+Trigger full-catalog visual thumbnails to locate Dominator and Navigator model pages in the official 2006-2012 catalogs.
