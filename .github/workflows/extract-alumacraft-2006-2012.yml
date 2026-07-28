@@ -1,4 +1,4 @@
-name: Extract Alumacraft 2006-2012 catalog evidence
+name: OCR Alumacraft 2006-2012 catalog evidence
 
 on:
   push:
@@ -12,36 +12,52 @@ permissions:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - name: Install PDF text tools
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Install PDF and OCR tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
 
-      - name: Download official catalogs and extract target contexts
+      - name: OCR official catalogs and extract target contexts
         shell: bash
         run: |
           set -euo pipefail
           work=/tmp/alumacraft-catalogs
+          rm -rf "$work"
           mkdir -p "$work" research/sources
-          printf 'year\turl\tpages\ttext_bytes\tdominator_hits\tnavigator_hits\n' > research/sources/alumacraft-2006-2012-manifest.tsv
+          printf 'year\turl\tpages\tmethod\ttext_bytes\tdominator_hits\tnavigator_hits\n' > research/sources/alumacraft-2006-2012-manifest.tsv
 
           for year in 2006 2007 2008 2009 2010 2011 2012; do
             yy=${year:2:2}
             if [ "$year" -le 2009 ]; then decade=2000-2009; else decade=2010-2019; fi
             url="https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/${decade}/Catalogs/ALUMA-MY${yy}-Catalog-ENUS.pdf"
-            pdf="$work/$year.pdf"
+            dir="$work/$year"
+            mkdir -p "$dir/pages" "$dir/ocr"
+            pdf="$dir/catalog.pdf"
             txt="$work/$year.txt"
             curl -fL --retry 3 --connect-timeout 25 --max-time 600 -A 'Mozilla/5.0' "$url" -o "$pdf"
             pages=$(pdfinfo "$pdf" | awk '/^Pages:/ {print $2}')
-            pdftotext -layout "$pdf" "$txt"
+            pdftoppm -jpeg -r 110 -jpegopt quality=72 "$pdf" "$dir/pages/page" >/dev/null 2>&1
+            find "$dir/pages" -name '*.jpg' -print0 | sort -z | xargs -0 -n1 -P4 bash -c '
+              img="$1"
+              base=$(basename "$img" .jpg)
+              out="$(dirname "$(dirname "$img")")/ocr/$base"
+              tesseract "$img" "$out" -l eng --psm 6 >/dev/null 2>&1 || true
+            ' _
+            : > "$txt"
+            n=0
+            for page_txt in $(find "$dir/ocr" -name '*.txt' | sort -V); do
+              n=$((n+1))
+              printf '\n===== PAGE %s =====\n' "$n" >> "$txt"
+              cat "$page_txt" >> "$txt"
+            done
             bytes=$(stat -c%s "$txt")
             dh=$(grep -Eic 'dominator' "$txt" || true)
             nh=$(grep -Eic 'navigator' "$txt" || true)
-            printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$year" "$url" "$pages" "$bytes" "$dh" "$nh" >> research/sources/alumacraft-2006-2012-manifest.tsv
+            printf '%s\t%s\t%s\tocr-110dpi\t%s\t%s\t%s\n' "$year" "$url" "$pages" "$bytes" "$dh" "$nh" >> research/sources/alumacraft-2006-2012-manifest.tsv
           done
 
           python3 - <<'PY'
@@ -50,53 +66,47 @@ jobs:
 
           work = Path('/tmp/alumacraft-catalogs')
           terms = {
-              'Dominator 165': re.compile(r'\bDOMINATOR\b.{0,80}\b165\b|\b165\b.{0,80}\bDOMINATOR\b', re.I),
-              'Dominator 175': re.compile(r'\bDOMINATOR\b.{0,80}\b175\b|\b175\b.{0,80}\bDOMINATOR\b', re.I),
-              'Dominator 185': re.compile(r'\bDOMINATOR\b.{0,80}\b185\b|\b185\b.{0,80}\bDOMINATOR\b', re.I),
-              'Navigator 165': re.compile(r'\bNAVIGATOR\b.{0,80}\b165\b|\b165\b.{0,80}\bNAVIGATOR\b', re.I),
-              'Navigator 175': re.compile(r'\bNAVIGATOR\b.{0,80}\b175\b|\b175\b.{0,80}\bNAVIGATOR\b', re.I),
-              'Navigator family': re.compile(r'\bNAVIGATOR\b', re.I),
               'Dominator family': re.compile(r'\bDOMINATOR\b', re.I),
+              'Navigator family': re.compile(r'\bNAVIGATOR\b', re.I),
+              '165 Sport table lead': re.compile(r'\b165\s+(?:CS\s+)?SPORT\b|\bSPORT\s+165\b', re.I),
+              '175 Sport table lead': re.compile(r'\b175\s+(?:CS\s+)?SPORT\b|\bSPORT\s+175\b', re.I),
+              '185 Sport table lead': re.compile(r'\b185\s+(?:CS\s+)?SPORT\b|\bSPORT\s+185\b', re.I),
           }
           out = [
-              '# Alumacraft target-model factory-catalog extracts, 2006-2012',
+              '# Alumacraft target-model factory-catalog OCR extracts, 2006-2012',
               '',
-              'Source: official Alumacraft annual catalogs. Text is extracted with `pdftotext -layout`. These contexts are evidence-search aids; table columns must be interpreted against the exact catalog year and model heading.',
+              'Source: official Alumacraft annual catalogs. The PDFs have no usable embedded text, so pages were rendered at 110 dpi and OCRed once. OCR errors are search aids, not factory facts. Values must be reconciled against model headings and repeated across adjacent table lines before entering canonical data.',
               ''
           ]
           for year in range(2006, 2013):
               lines = (work / f'{year}.txt').read_text(errors='replace').splitlines()
               out += [f'## {year}', '']
-              seen = set()
-              hits_for_year = 0
+              spans = []
               for label, rx in terms.items():
-                  hits = [i for i, line in enumerate(lines) if rx.search(line)]
-                  if not hits:
-                      continue
-                  spans = []
-                  for i in hits:
-                      a, b = max(0, i-14), min(len(lines), i+28)
-                      if spans and a <= spans[-1][1] + 4:
-                          spans[-1] = (spans[-1][0], max(spans[-1][1], b))
-                      else:
-                          spans.append((a,b))
-                  for a,b in spans[:5]:
-                      key=(a,b)
-                      if key in seen:
-                          continue
-                      seen.add(key)
-                      hits_for_year += 1
-                      out += [f'### {label} context {hits_for_year}', '', f'Extracted text lines {a+1}-{b}.', '', '```text', *lines[a:b], '```', '']
-              if not hits_for_year:
-                  out += ['No target-model text hit was found in the embedded text layer.', '']
+                  for i, line in enumerate(lines):
+                      if rx.search(line):
+                          a, b = max(0, i-18), min(len(lines), i+38)
+                          spans.append((a,b,label))
+              spans.sort()
+              merged=[]
+              for a,b,label in spans:
+                  if merged and a <= merged[-1][1] + 8:
+                      merged[-1]=(merged[-1][0], max(merged[-1][1],b), merged[-1][2]+' / '+label)
+                  else:
+                      merged.append((a,b,label))
+              if not merged:
+                  out += ['No Dominator or Navigator target context survived OCR.', '']
+                  continue
+              for n,(a,b,label) in enumerate(merged[:12],1):
+                  out += [f'### Context {n}: {label}', '', f'OCR text lines {a+1}-{b}.', '', '```text', *lines[a:b], '```', '']
           Path('research/sources/alumacraft-target-extracts-2006-2012.md').write_text('\n'.join(out) + '\n')
           PY
 
-      - name: Commit compact evidence corpus
+      - name: Commit compact OCR evidence corpus
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add research/sources/alumacraft-2006-2012-manifest.tsv research/sources/alumacraft-target-extracts-2006-2012.md
-          git commit -m 'Extract Alumacraft 2006-2012 model evidence'
+          git commit -m 'OCR Alumacraft 2006-2012 model evidence'
           git pull --rebase origin main
           git push
