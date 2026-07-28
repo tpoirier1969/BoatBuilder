@@ -1,0 +1,30 @@
+name: One-time Lund catalog OCR
+
+on:
+  push:
+    paths:
+      - '.github/workflows/lund-ocr.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  ocr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Install OCR tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
+      - name: OCR scanned factory catalogs
+        run: bash scripts/ocr_lund_catalogs.sh
+      - name: Commit OCR evidence and remove one-time machinery
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/sources/lund-ocr research/sources/lund-ocr-target-extracts-2026-07-28.md
+          git rm scripts/ocr_lund_catalogs.sh .github/workflows/lund-ocr.yml
+          git commit -m 'OCR scanned Lund factory catalogs'
+          git push
