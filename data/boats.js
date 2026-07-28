@@ -6,7 +6,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Classic 165 Sport",
     "displayName": "Alumacraft | Classic 165 Sport",
-    "subtitle": "Current-generation; 2025 factory specification basis",
+    "subtitle": "2025 current-generation factory specification basis",
     "badge": "Secondary",
     "lowPrice": 13000,
     "highPrice": 20000,
@@ -21,7 +21,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "Current-generation; 2025 factory specification basis"
+        "value": "2025 current-generation factory specification basis"
       },
       {
         "label": "Recommendation",
@@ -126,17 +126,99 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "GOOD — Vinyl cockpit is easy to clean, but carpet remains on raised decks."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved as canonical generation data."
       }
     ],
-    "valueEras": [
+    "valueEras": [],
+    "designGenerations": [
       {
-        "id": "boat:Alumacraft | Classic 165 Sport:value:2020s",
-        "label": "2020s",
-        "startYear": 2020,
-        "endYear": 2029,
-        "lowPrice": 13000,
-        "highPrice": 20000,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Classic 165 Sport:gen:2025",
+        "label": "2025 current-generation factory specification",
+        "startYear": 2025,
+        "endYear": 2025,
+        "status": "factory-current",
+        "specificationBasis": "2025 Alumacraft factory model page and specification basis",
+        "sourceUrl": "https://www.alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",
+        "specs": {
+          "Length": {
+            "value": "16'4\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "955 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "82\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,300 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "17 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.145\" maximum hull",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.065\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Classic 165 Sport:value:2020s",
+            "label": "2020s",
+            "startYear": 2020,
+            "endYear": 2029,
+            "low": 13000,
+            "high": 20000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
       }
     ]
   },
@@ -147,7 +229,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Competitor 165 Sport",
     "displayName": "Alumacraft | Competitor 165 Sport",
-    "subtitle": "2012–present; budget focus early–mid 2010s",
+    "subtitle": "2016 exact factory specification; other advertised years unresolved",
     "badge": "Primary",
     "lowPrice": 6000,
     "highPrice": 9000,
@@ -157,7 +239,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012–present; budget focus early–mid 2010s"
+        "value": "2016 exact factory specification; other advertised years unresolved"
       },
       {
         "label": "Recommendation",
@@ -173,43 +255,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "16'7\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "87\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,040 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 35\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "20\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "87\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "90"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -217,27 +299,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "5"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "1,250 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "16 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" max / double-plated bow"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\" representative"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -249,7 +331,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "A compact, modern multispecies hull that was hidden by the 175 row. It is narrower and lighter than the Competitor 175, so it belongs in Primary as a compact option—not as an equivalent replacement for the 175 in rough water."
+        "value": "A compact, modern multispecies hull that was hidden by the 175 row. It is narrower and lighter than the Competitor 175, so it belongs in Primary as a compact option—not as an equivalent replacement for the 175 in rough water. The current 2026 Alumacraft lineup does not establish a continuing Competitor 165 Sport. Do not treat the 2016 hull as a present-day model."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -262,19 +344,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
     ],
-    "valueEras": [
+    "valueEras": [],
+    "designGenerations": [
       {
-        "id": "boat:Alumacraft | Competitor 165 Sport:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 6000,
-        "highPrice": 9000,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Competitor 165 Sport:gen:2016",
+        "label": "2016 factory catalog specification",
+        "startYear": 2016,
+        "endYear": 2016,
+        "status": "factory-exact",
+        "specificationBasis": "2016 Alumacraft factory catalog; exact Sport specification snapshot",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'7\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "87\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,040 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "About 35\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not stated",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "87\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,250 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "16 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" max / double-plated bow",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Competitor 165 Sport:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 6000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Competitor 165 Sport:gen:unresolved-other-years",
+        "label": "Other 2012-2019 advertised years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
       }
-    ]
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Competitor 175 Sport / FSX",
@@ -283,7 +459,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Competitor 175 Sport / FSX",
     "displayName": "Alumacraft | Competitor 175 Sport / FSX",
-    "subtitle": "2014–2019; budget focus 2014–2016",
+    "subtitle": "2016 exact pre-X factory specification; other 2014-2019 years unresolved",
     "badge": "Primary",
     "lowPrice": 7000,
     "highPrice": 11000,
@@ -293,7 +469,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2019; budget focus 2014–2016"
+        "value": "2016 exact pre-X factory specification; other 2014-2019 years unresolved"
       },
       {
         "label": "Recommendation",
@@ -309,43 +485,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17'8\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "95\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "About 80\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,375 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 41\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "About 25\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "About 95\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "150"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -353,27 +529,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "6"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "About 1,600 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "34 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" max / double-plated bow"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -385,7 +561,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Wide, substantial and well matched to the use. Under-$14k complete packages are most plausible at the very beginning of the run or with an older/less valuable motor."
+        "value": "Wide, substantial and well matched to the use. Under-$14k complete packages are most plausible at the very beginning of the run or with an older/less valuable motor. Do not substitute the current Competitor 175X/175 Sport platform. Alumacraft now lists the current boat at roughly 19 feet 2 inches, materially longer than this 17-foot-8-inch record."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -398,19 +574,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
     ],
-    "valueEras": [
+    "valueEras": [],
+    "designGenerations": [
       {
-        "id": "boat:Alumacraft | Competitor 175 Sport / FSX:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 7000,
-        "highPrice": 11000,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Competitor 175 Sport / FSX:gen:2016",
+        "label": "2016 pre-X factory specification",
+        "startYear": 2016,
+        "endYear": 2016,
+        "status": "factory-exact",
+        "specificationBasis": "2016 Alumacraft factory catalog; exact 17-foot-8-inch Competitor Sport/FSX snapshot",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'8\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "About 80\"",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,375 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "About 41\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 25\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "About 95\"",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "About 1,600 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "34 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" max / double-plated bow",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Competitor 175 Sport / FSX:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 7000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Competitor 175 Sport / FSX:gen:unresolved-other-years",
+        "label": "Other 2014-2019 advertised years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
       }
-    ]
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary)",
@@ -419,7 +689,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Competitor 185 Sport (Secondary; 175 is Primary)",
     "displayName": "Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary)",
-    "subtitle": "2010s",
+    "subtitle": "2016 exact pre-X factory specification; other 2010s years unresolved",
     "badge": "Secondary",
     "lowPrice": 8500,
     "highPrice": 13000,
@@ -429,7 +699,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2010s"
+        "value": "2016 exact pre-X factory specification; other 2010s years unresolved"
       },
       {
         "label": "Recommendation",
@@ -445,43 +715,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "18'8\" representative"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "95\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "About 1,550 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 43\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "About 26\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "175"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -489,27 +759,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "7"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "About 1,800 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "34–40 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" max"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -521,7 +791,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Excellent boat, but the 185's complete package is usually above the price cap and near the upper practical tow limit."
+        "value": "Excellent boat, but the 185's complete package is usually above the price cap and near the upper practical tow limit. Do not substitute the current Competitor 185 platform. Alumacraft now lists the current model at roughly 20 feet 2 inches, materially longer than the older 18-foot-8-inch boat represented here."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -534,19 +804,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
     ],
-    "valueEras": [
+    "valueEras": [],
+    "designGenerations": [
       {
-        "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 8500,
-        "highPrice": 13000,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):gen:2016",
+        "label": "2016 pre-X factory specification",
+        "startYear": 2016,
+        "endYear": 2016,
+        "status": "factory-exact",
+        "specificationBasis": "2016 Alumacraft factory catalog; exact older Competitor 185 Sport snapshot",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'8\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,550 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "About 43\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 26\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "About 1,800 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "34–40 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" max",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 8500,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):gen:unresolved-other-years",
+        "label": "Other advertised 2010s years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
       }
-    ]
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Dominator 165 Sport",
@@ -555,7 +919,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Dominator 165 Sport",
     "displayName": "Alumacraft | Dominator 165 Sport",
-    "subtitle": "2000s–2012; 2012 basis",
+    "subtitle": "2012 exact factory specification; earlier 2000s-2011 boats unresolved",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 8500,
@@ -565,7 +929,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000s–2012; 2012 basis"
+        "value": "2012 exact factory specification; earlier 2000s-2011 boats unresolved"
       },
       {
         "label": "Recommendation",
@@ -581,43 +945,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "16'8\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "91\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,250 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "42\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "22\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "20\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "91\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "90"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -625,27 +989,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "6"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "1,100 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Not stated in cited table"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" max / 2XB bow"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\" representative"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -670,28 +1034,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Dominator 165 Sport:value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 3500,
-        "highPrice": 6000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Dominator 165 Sport:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 5500,
-        "highPrice": 8500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
-    ]
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Dominator 165 Sport:gen:2012",
+        "label": "2012 factory catalog specification",
+        "startYear": 2012,
+        "endYear": 2012,
+        "status": "factory-exact",
+        "specificationBasis": "2012 Alumacraft factory catalog; exact Dominator 165 Sport specification snapshot",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY12-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'8\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,250 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "42\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "22\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,100 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "Not stated in cited table",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" max / 2XB bow",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Dominator 165 Sport:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 5500,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Dominator 165 Sport:gen:unresolved-other-years",
+        "label": "Earlier advertised 2000s-2011 years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Dominator 175 Sport",
@@ -700,7 +1149,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Dominator 175 Sport",
     "displayName": "Alumacraft | Dominator 175 Sport",
-    "subtitle": "2000s–2012; 2012 basis",
+    "subtitle": "2012 exact factory specification; earlier 2000s-2011 boats unresolved",
     "badge": "Primary",
     "lowPrice": 5000,
     "highPrice": 11000,
@@ -710,7 +1159,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000s–2012; 2012 basis"
+        "value": "2012 exact factory specification; earlier 2000s-2011 boats unresolved"
       },
       {
         "label": "Recommendation",
@@ -726,43 +1175,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17'9\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "94\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,482 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "43\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "23\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "94\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "150"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -770,27 +1219,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "6"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "1,370 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "About 34 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" max / 2XB bow"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -815,28 +1264,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Dominator 175 Sport:value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 5000,
-        "highPrice": 8500,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Dominator 175 Sport:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 7000,
-        "highPrice": 11000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
-    ]
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Dominator 175 Sport:gen:2012",
+        "label": "2012 factory catalog specification",
+        "startYear": 2012,
+        "endYear": 2012,
+        "status": "factory-exact",
+        "specificationBasis": "2012 Alumacraft factory catalog; exact Dominator 175 Sport specification snapshot",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY12-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'9\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "94\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,482 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "43\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "23\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "94\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,370 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "About 34 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" max / 2XB bow",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Dominator 175 Sport:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 7000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Dominator 175 Sport:gen:unresolved-other-years",
+        "label": "Earlier advertised 2000s-2011 years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary)",
@@ -845,7 +1379,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Dominator 185 Sport (Secondary; 175 is Primary)",
     "displayName": "Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary)",
-    "subtitle": "2000s–2010s",
+    "subtitle": "2012 exact factory specification; other 2000s-2010s boats unresolved",
     "badge": "Secondary",
     "lowPrice": 6000,
     "highPrice": 12500,
@@ -855,7 +1389,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000s–2010s"
+        "value": "2012 exact factory specification; other 2000s-2010s boats unresolved"
       },
       {
         "label": "Recommendation",
@@ -871,43 +1405,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "About 18'9\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "95\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "About 1,600 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 44\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "About 25\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "175"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -915,27 +1449,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "7"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "About 1,800 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "34–40 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" max"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -960,28 +1494,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary):value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 6000,
-        "highPrice": 10000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary):value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 8000,
-        "highPrice": 12500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
-    ]
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary):gen:2012",
+        "label": "2012 factory catalog specification",
+        "startYear": 2012,
+        "endYear": 2012,
+        "status": "factory-exact",
+        "specificationBasis": "2012 Alumacraft factory catalog; exact Dominator 185 Sport specification snapshot",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY12-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "About 18'9\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,600 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "About 44\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 25\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "About 1,800 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "34–40 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" max",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary):value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 8000,
+            "high": 12500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary):gen:unresolved-other-years",
+        "label": "Other advertised 2000s-2010s years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Edge Sport 175",
@@ -990,7 +1609,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Edge Sport 175",
     "displayName": "Alumacraft | Edge Sport 175",
-    "subtitle": "2016 factory catalog basis",
+    "subtitle": "2016 exact factory catalog specification basis",
     "badge": "Secondary",
     "lowPrice": 6500,
     "highPrice": 16000,
@@ -1000,7 +1619,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 factory catalog basis"
+        "value": "2016 exact factory catalog specification basis"
       },
       {
         "label": "Recommendation",
@@ -1105,26 +1724,99 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Edge Sport 175:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 6500,
-        "highPrice": 10500,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Edge Sport 175:value:2020s",
-        "label": "2020s",
-        "startYear": 2020,
-        "endYear": 2029,
-        "lowPrice": 10000,
-        "highPrice": 16000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved as canonical generation data."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Edge Sport 175:gen:2016",
+        "label": "2016 factory catalog specification",
+        "startYear": 2016,
+        "endYear": 2016,
+        "status": "factory-exact",
+        "specificationBasis": "2016 Alumacraft factory catalog; exact Edge Sport 175 specification",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'8\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,488 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "45\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,820 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "34 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" maximum hull",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Edge Sport 175:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 6500,
+            "high": 10500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
       }
     ]
   },
@@ -1135,7 +1827,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Edge Sport 185",
     "displayName": "Alumacraft | Edge Sport 185",
-    "subtitle": "2016 factory catalog basis",
+    "subtitle": "2016 exact factory catalog specification basis",
     "badge": "Secondary",
     "lowPrice": 7500,
     "highPrice": 17000,
@@ -1145,7 +1837,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 factory catalog basis"
+        "value": "2016 exact factory catalog specification basis"
       },
       {
         "label": "Recommendation",
@@ -1250,26 +1942,99 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Edge Sport 185:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 7500,
-        "highPrice": 12000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Edge Sport 185:value:2020s",
-        "label": "2020s",
-        "startYear": 2020,
-        "endYear": 2029,
-        "lowPrice": 11000,
-        "highPrice": 17000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved as canonical generation data."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Edge Sport 185:gen:2016",
+        "label": "2016 factory catalog specification",
+        "startYear": 2016,
+        "endYear": 2016,
+        "status": "factory-exact",
+        "specificationBasis": "2016 Alumacraft factory catalog; exact Edge Sport 185 specification",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'9\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,579 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "45\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,990 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "34 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" maximum hull",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Edge Sport 185:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 7500,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
       }
     ]
   },
@@ -1280,17 +2045,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Magnum CS (side-console series; no walk-through windshield)",
     "displayName": "Alumacraft | Magnum CS (side-console series; no walk-through windshield)",
-    "subtitle": "1990s–2000s; multiple sizes",
+    "subtitle": "Family-level rejection row; multiple CS sizes and years",
     "badge": "Secondary",
-    "lowPrice": 2500,
-    "highPrice": 6500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": null,
+    "highPrice": null,
+    "priceBasis": "Deliberate rejection row; package pricing is not used.",
     "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/1990-1999/Catalogs/ALUMA-MY95-Catalog-ENUS.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1990s–2000s; multiple sizes"
+        "value": "Family-level rejection row; multiple CS sizes and years"
       },
       {
         "label": "Recommendation",
@@ -1395,28 +2160,92 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Magnum CS (side-console series; no walk-through windshield):value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 2500,
-        "highPrice": 5000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Magnum CS (side-console series; no walk-through windshield):value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 3500,
-        "highPrice": 6500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Retained only so listings can be rejected for side-console layout. Not treated as one hull generation."
       }
-    ]
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Magnum CS (side-console series; no walk-through windshield):gen:family-rejection",
+        "label": "Family-level rejection row; multiple CS sizes and years",
+        "startYear": null,
+        "endYear": null,
+        "status": "family-umbrella-rejection",
+        "specificationBasis": "1995 Alumacraft factory catalog and family identification. CS denotes side-console configurations; this row is retained only to reject the layout from the required full-windshield search.",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/1990-1999/Catalogs/ALUMA-MY95-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "16–18 ft by model/year",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "Varies",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "Varies",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "Varies",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": []
+      }
+    ],
+    "generationWarning": "This is not one exact boat model. CS is a side-console family label and does not meet the required full walk-through windshield layout."
   },
   {
     "id": "boat:Alumacraft | Navigator Sport 165",
@@ -1425,7 +2254,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Navigator Sport 165",
     "displayName": "Alumacraft | Navigator Sport 165",
-    "subtitle": "2010 factory catalog basis",
+    "subtitle": "2010 exact factory catalog specification basis",
     "badge": "Primary",
     "lowPrice": 5500,
     "highPrice": 9500,
@@ -1435,7 +2264,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2010 factory catalog basis"
+        "value": "2010 exact factory catalog specification basis"
       },
       {
         "label": "Recommendation",
@@ -1540,17 +2369,99 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved as canonical generation data."
       }
     ],
-    "valueEras": [
+    "valueEras": [],
+    "designGenerations": [
       {
-        "id": "boat:Alumacraft | Navigator Sport 165:value:2010s",
-        "label": "2010s",
+        "id": "boat:Alumacraft | Navigator Sport 165:gen:2010",
+        "label": "2010 factory catalog specification",
         "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 5500,
-        "highPrice": 9500,
-        "basis": "Used complete-package screening estimate"
+        "endYear": 2010,
+        "status": "factory-exact",
+        "specificationBasis": "2010 Alumacraft factory catalog; exact Navigator Sport 165 specification",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY10-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'8\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published in cited table",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,050 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "Not published in cited table",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published in cited table",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published in cited table",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published in cited table",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Navigator Sport 165:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 5500,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
       }
     ]
   },
@@ -1561,7 +2472,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Navigator Sport 175",
     "displayName": "Alumacraft | Navigator Sport 175",
-    "subtitle": "2006–2011; 2009–2011 specification basis",
+    "subtitle": "2011 factory catalog snapshot; 2006-2010 generation boundaries unresolved",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 9500,
@@ -1576,7 +2487,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006–2011; 2009–2011 specification basis"
+        "value": "2011 factory catalog snapshot; 2006-2010 generation boundaries unresolved"
       },
       {
         "label": "Recommendation",
@@ -1592,43 +2503,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "About 18'0\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "95\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "About 1,350 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "20\"–25\" by year"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "150"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -1636,27 +2547,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "6–7 by year"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "About 34 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" maximum / 2XB bow"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\" representative"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -1681,28 +2592,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Navigator Sport 175:value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 4500,
-        "highPrice": 7500,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Navigator Sport 175:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 6000,
-        "highPrice": 9500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
-    ]
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Navigator Sport 175:gen:2011",
+        "label": "2011 factory catalog snapshot",
+        "startYear": 2011,
+        "endYear": 2011,
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "2011 Alumacraft factory catalog; representative exact-year snapshot with some unpublished dimensions",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY11-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "About 18'0\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,350 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "20\"–25\" by year",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6–7 by year",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "About 34 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" maximum / 2XB bow",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Navigator Sport 175:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 6000,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Navigator Sport 175:gen:unresolved-other-years",
+        "label": "2006-2010 advertised years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Tournament Pro 185",
@@ -1711,7 +2707,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Tournament Pro 185",
     "displayName": "Alumacraft | Tournament Pro 185",
-    "subtitle": "2016 factory catalog basis",
+    "subtitle": "2016 exact factory catalog specification basis",
     "badge": "Secondary",
     "lowPrice": 9000,
     "highPrice": 13500,
@@ -1721,7 +2717,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 factory catalog basis"
+        "value": "2016 exact factory catalog specification basis"
       },
       {
         "label": "Recommendation",
@@ -1818,17 +2814,91 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved as canonical generation data."
       }
     ],
-    "valueEras": [
+    "valueEras": [],
+    "designGenerations": [
       {
-        "id": "boat:Alumacraft | Tournament Pro 185:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 9000,
-        "highPrice": 13500,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Tournament Pro 185:gen:2016",
+        "label": "2016 factory catalog specification",
+        "startYear": 2016,
+        "endYear": 2016,
+        "status": "factory-exact",
+        "specificationBasis": "2016 Alumacraft factory catalog; exact Tournament Pro 185 specification",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'3\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "97\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,680 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "43\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "22\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "96\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,600 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "34 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted heavy-gauge 2XB hull",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Tournament Pro 185:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 9000,
+            "high": 13500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
       }
     ]
   },
@@ -1839,7 +2909,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Trophy 170 (Secondary; 81-inch beam)",
     "displayName": "Alumacraft | Trophy 170 (Secondary; 81-inch beam)",
-    "subtitle": "late 1980s–1990s; 1995 basis",
+    "subtitle": "1995 exact factory specification; other late-1980s/1990s years unresolved",
     "badge": "Secondary",
     "lowPrice": 1500,
     "highPrice": 4500,
@@ -1849,7 +2919,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "late 1980s–1990s; 1995 basis"
+        "value": "1995 exact factory specification; other late-1980s/1990s years unresolved"
       },
       {
         "label": "Recommendation",
@@ -1865,43 +2935,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17'4\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "81\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,049 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "32\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "20\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "78\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "135"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -1909,27 +2979,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "6"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "1,365 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.100\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -1954,28 +3024,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Primarily carpet; not a washdown-friendly factory interior."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1980s",
-        "label": "1980s",
-        "startYear": 1980,
-        "endYear": 1989,
-        "lowPrice": 1500,
-        "highPrice": 3000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 2500,
-        "highPrice": 4500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
-    ]
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1995",
+        "label": "1995 factory catalog specification",
+        "startYear": 1995,
+        "endYear": 1995,
+        "status": "factory-exact",
+        "specificationBasis": "1995 Alumacraft factory catalog; exact Trophy 170 specification",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/1990-1999/Catalogs/ALUMA-MY95-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "81\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,049 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "32\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not stated",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "78\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "135",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,365 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "Not stated",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1990s",
+            "label": "1990s",
+            "startYear": 1990,
+            "endYear": 1999,
+            "low": 2500,
+            "high": 4500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:unresolved-other-years",
+        "label": "Other advertised late-1980s and 1990s years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Trophy 175 Sport",
@@ -1984,7 +3139,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Trophy 175 Sport",
     "displayName": "Alumacraft | Trophy 175 Sport",
-    "subtitle": "1990s–2016; 2014 basis",
+    "subtitle": "2014 exact pre-X factory specification; other advertised 1990s-2016 years unresolved",
     "badge": "Primary",
     "lowPrice": 4000,
     "highPrice": 12000,
@@ -1994,7 +3149,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1990s–2016; 2014 basis"
+        "value": "2014 exact pre-X factory specification; other advertised 1990s-2016 years unresolved"
       },
       {
         "label": "Recommendation",
@@ -2010,43 +3165,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17'8\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "94\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,550 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 44\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "About 27\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "About 94\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "150"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -2054,27 +3209,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "7"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "About 1,600 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "34 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" max / 2XB bow"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -2086,7 +3241,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Excellent comfort and weather protection. This is one of the heavier 17-foot Primary boats; actual trailer and fuel weight matter."
+        "value": "Excellent comfort and weather protection. This is one of the heavier 17-foot Primary boats; actual trailer and fuel weight matter. Do not substitute the 2025-present Trophy 175X platform. Alumacraft lists the redesigned current boat at roughly 19 feet 1-2 inches and about 1,845 pounds, materially different from this 17-foot-8-inch, 1,550-pound hull."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -2099,37 +3254,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
     ],
-    "valueEras": [
+    "valueEras": [],
+    "designGenerations": [
       {
-        "id": "boat:Alumacraft | Trophy 175 Sport:value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 4000,
-        "highPrice": 7000,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Trophy 175 Sport:gen:2014",
+        "label": "2014 pre-X factory specification",
+        "startYear": 2014,
+        "endYear": 2014,
+        "status": "factory-exact",
+        "specificationBasis": "2014 Alumacraft factory catalog; exact 17-foot-8-inch Trophy 175 Sport snapshot",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY14-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'8\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "94\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,550 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "About 44\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 27\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "About 94\"",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "About 1,600 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "34 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" max / 2XB bow",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Trophy 175 Sport:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 7500,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
       },
       {
-        "id": "boat:Alumacraft | Trophy 175 Sport:value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 5500,
-        "highPrice": 9500,
-        "basis": "Used complete-package screening estimate"
-      },
-      {
-        "id": "boat:Alumacraft | Trophy 175 Sport:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 7500,
-        "highPrice": 12000,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Trophy 175 Sport:gen:unresolved-other-years",
+        "label": "Other advertised 1990s-2016 years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
       }
-    ]
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary)",
@@ -2138,7 +3369,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Trophy 185 Sport (Secondary; 175 is Primary)",
     "displayName": "Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary)",
-    "subtitle": "1990s–2010s",
+    "subtitle": "2014 exact pre-X factory specification; other advertised 1990s-2010s years unresolved",
     "badge": "Secondary",
     "lowPrice": 4500,
     "highPrice": 13000,
@@ -2148,7 +3379,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1990s–2010s"
+        "value": "2014 exact pre-X factory specification; other advertised 1990s-2010s years unresolved"
       },
       {
         "label": "Recommendation",
@@ -2164,43 +3395,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "About 18'10\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "95–96\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "About 1,700–1,850 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 45\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "About 28\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "175–200"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -2208,27 +3439,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "8"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "About 1,900 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "40 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.160\" max"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB aluminum"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -2240,7 +3471,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Deep and comfortable but commonly pushes the loaded package above the preferred 3,000-lb zone."
+        "value": "Deep and comfortable but commonly pushes the loaded package above the preferred 3,000-lb zone. Do not substitute the current Trophy 185X platform. Alumacraft now lists the current model at roughly 20 feet 2 inches, materially longer than the 2014 boat represented here."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -2253,37 +3484,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
     ],
-    "valueEras": [
+    "valueEras": [],
+    "designGenerations": [
       {
-        "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 4500,
-        "highPrice": 7500,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):gen:2014",
+        "label": "2014 pre-X factory specification",
+        "startYear": 2014,
+        "endYear": 2014,
+        "status": "factory-exact",
+        "specificationBasis": "2014 Alumacraft factory specification and Yamaha performance bulletin; 18 feet 8 inches, 98-inch beam, 1,780 pounds, 175 HP, 34 gallons",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY14-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'8\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "98\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,780 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "About 45\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 28\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "About 1,900 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "34 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.160\" max",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 8500,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
       },
       {
-        "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 6000,
-        "highPrice": 10000,
-        "basis": "Used complete-package screening estimate"
-      },
-      {
-        "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 8500,
-        "highPrice": 13000,
-        "basis": "Used complete-package screening estimate"
+        "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):gen:unresolved-other-years",
+        "label": "Other advertised 1990s-2010s years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
       }
-    ]
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Alumacraft | Voyageur 175 Sport",
@@ -2292,7 +3599,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Voyageur 175 Sport",
     "displayName": "Alumacraft | Voyageur 175 Sport",
-    "subtitle": "2016–present; used–budget examples uncommon",
+    "subtitle": "2025 current factory specification; 2016-2024 generation boundaries unresolved",
     "badge": "Secondary",
     "lowPrice": 6500,
     "highPrice": 16000,
@@ -2307,7 +3614,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016–present; used–budget examples uncommon"
+        "value": "2025 current factory specification; 2016-2024 generation boundaries unresolved"
       },
       {
         "label": "Recommendation",
@@ -2323,43 +3630,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17' 10\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Beam",
-        "value": "87\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,070 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Deadrise",
-        "value": "Not published"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Height",
-        "value": "20\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Transom Width",
-        "value": "86\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Max HP",
-        "value": "125"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Practical Working HP",
@@ -2367,27 +3674,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "6"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Capacity Weight",
-        "value": "1,480 lb"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Fuel Capacity",
-        "value": "17 gal"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.145\" max"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.065\""
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Construction",
-        "value": "Riveted 2XB bow"
+        "value": "Varies by selected hull generation"
       },
       {
         "label": "Availability Under $14k",
@@ -2412,28 +3719,113 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "GOOD — Vinyl cockpit is easy to clean, but carpet remains on raised decks."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Alumacraft | Voyageur 175 Sport:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 6500,
-        "highPrice": 10500,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Alumacraft | Voyageur 175 Sport:value:2020s",
-        "label": "2020s",
-        "startYear": 2020,
-        "endYear": 2029,
-        "lowPrice": 10000,
-        "highPrice": 16000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Exact cited factory snapshot preserved; all other advertised years remain unresolved and cannot inherit its specifications or price."
       }
-    ]
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Alumacraft | Voyageur 175 Sport:gen:2025",
+        "label": "2025 current-generation factory specification",
+        "startYear": 2025,
+        "endYear": 2025,
+        "status": "factory-current",
+        "specificationBasis": "2025 Alumacraft factory model page; exact current Voyageur 175 Sport specification",
+        "sourceUrl": "https://www.alumacraft.com/Alumacraft-Boat.php?action=view&id=982",
+        "specs": {
+          "Length": {
+            "value": "17' 10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "87\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,070 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "86\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,480 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "17 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.145\" max",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.065\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 2XB bow",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Voyageur 175 Sport:value:2020s",
+            "label": "2020s",
+            "startYear": 2020,
+            "endYear": 2029,
+            "low": 10000,
+            "high": 16000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected factory hull snapshot"
+          }
+        ]
+      },
+      {
+        "id": "boat:Alumacraft | Voyageur 175 Sport:gen:unresolved-other-years",
+        "label": "2016-2024 advertised years, design generation unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set is assigned to this option. Research must establish the exact model year and redesign generation before specifications or price are used.",
+        "sourceUrl": "https://www.alumacraft.com/About-Alumacraft.php?content=explore_owner-zone_catalog-archive&og=1",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the exact factory snapshot only when the listing matches the cited model year. The unresolved option intentionally has no specifications or price."
   },
   {
     "id": "boat:Crestliner | Fish Hawk 1700 WT",

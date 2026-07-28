@@ -1,0 +1,6 @@
+=== APPLY ALUMACRAFT AUDIT BATCH 1 ===
+Updated 17 Alumacraft records; 11 exact-plus-unresolved records; wrote research/audits/alumacraft-app-model-audit-batch1-2026-07-28.md
+=== SYNTAX AND QA ===
+BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+Verified canonical app data, focused Lund generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
+audit_status=0
