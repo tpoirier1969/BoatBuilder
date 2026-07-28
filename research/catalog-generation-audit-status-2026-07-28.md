@@ -2,7 +2,7 @@
 
 ## Current verdict
 
-The canonical app architecture is complete, and the focused Lund audit requested for the models already in BoatBuilder is complete.
+The canonical app architecture is complete. The focused Lund app-model audit is complete, and Alumacraft audit batch 1 has made every existing Alumacraft record generation-safe. Alumacraft's unresolved production years still require deeper factory-catalog comparison.
 
 Accurate status:
 
@@ -10,11 +10,12 @@ Accurate status:
 - runtime corrections and overlays removed;
 - price decades no longer automatically imply a hull redesign;
 - all 28 Lund records currently in BoatBuilder have an explicit audit disposition and canonical generation metadata;
-- 8 Lund records expose more than one documented physical specification set;
-- broad or blended Lund records were narrowed when the evidence did not support one specification across the advertised span;
-- the remaining manufacturer-by-manufacturer app-model audit is still incomplete.
+- all 17 Alumacraft records currently in BoatBuilder have explicit canonical generation metadata;
+- 11 broad Alumacraft records expose a verified catalog snapshot plus an unresolved-years option with no inherited specifications or price;
+- current X-generation Trophy and Competitor boats cannot inherit older same-numbered hull data;
+- the remaining manufacturer-by-manufacturer app-model audit is incomplete.
 
-Do not describe the entire boat catalog as generation-audited. Do not describe this work as a complete catalog of every Lund model ever built.
+Do not describe the entire boat catalog as generation-audited. Do not describe this work as a complete catalog of every Lund or Alumacraft model ever built.
 
 ## Canonical production structure
 
@@ -30,7 +31,7 @@ Current total: 351 catalog records.
 
 `index.html` loads boat data, equipment data, the catalog assembler, and then `app.js`.
 
-The former Lund correction layer, spreadsheet builder, spreadsheet refresh workflow, and one-time migration machinery have been removed so they cannot overwrite canonical app data.
+Correction layers, spreadsheet builders, spreadsheet refresh workflows, and one-time migration machinery are not part of the production architecture.
 
 ## Generation and value behavior
 
@@ -60,11 +61,31 @@ The detailed disposition ledger is `research/audits/lund-app-model-audit-2026-07
 
 This completes the Lund app-model scope. It is not a full all-model Lund manufacturer roster audit.
 
+## Alumacraft app-model audit batch 1 completed
+
+Scope: the 17 Alumacraft records already present in BoatBuilder.
+
+Batch 1 results:
+
+- 17 of 17 records have explicit canonical generation metadata;
+- 11 broad records have one exact factory snapshot plus an unresolved-years option;
+- unresolved options contain no hull specifications and no price eras;
+- 5 exact-year/current records are represented by one factory-backed generation;
+- Magnum CS is explicitly a family-level side-console rejection row, not one fake hull model;
+- the 2014 Trophy 185 Sport record was corrected to 18'8", 98-inch beam, 1,780-pound hull, 175 HP, and 34-gallon fuel capacity;
+- older Trophy and Competitor records explicitly block substitution of the materially larger current X-generation platforms;
+- Alumacraft-specific QA now protects the 17-record scope, the 11 unresolved safeguards, exact Trophy 185 specifications, X-generation exclusions, and Magnum CS rejection behavior;
+- syntax and catalog QA passed with 351 catalog items, 170 boats, and 181 equipment records.
+
+The detailed ledger is `research/audits/alumacraft-app-model-audit-batch1-2026-07-28.md`.
+
+Alumacraft is not yet generation-complete. The unresolved years still need catalog-by-catalog comparison, especially Dominator, Navigator, Trophy, and early Competitor production.
+
 ## Remaining catalog work
 
-The next manufacturer app-model audits are:
+Current order:
 
-1. Alumacraft
+1. Continue Alumacraft unresolved-year research
 2. Crestliner
 3. Smoker Craft
 4. Starcraft and Sylvan
