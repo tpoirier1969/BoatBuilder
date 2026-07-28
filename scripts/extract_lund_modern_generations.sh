@@ -19,7 +19,7 @@ for year in $(seq 2012 2026); do
 done
 python3 - <<'PY'
 from pathlib import Path
-import re,csv,json
+import re,csv
 root=Path('research/sources/lund-modern-generations')
 patterns={
  'Adventure 1675':r'\b1675\s+ADVENTURE\b',
@@ -52,12 +52,13 @@ fields={
  'transom':re.compile(r'Transom\s+Height\s+([^\n]{1,20})',re.I),
 }
 rows=[]; extracts=[]
-for p in sorted(root.glob('20[12][0-9].txt'))+sorted(root.glob('202[0-6].txt')):
-    year=int(p.stem); lines=p.read_text(errors='replace').splitlines()
+for p in sorted(root.glob('20??.txt')):
+    year=int(p.stem)
+    if not 2012 <= year <= 2026: continue
+    lines=p.read_text(errors='replace').splitlines()
     for model,rx in compiled.items():
         hits=[i for i,l in enumerate(lines) if rx.search(l)]
         if not hits: continue
-        # Prefer occurrence followed by a specification table in the next 180 lines.
         best=None
         for i in hits:
             a=max(0,i-5); b=min(len(lines),i+190); block='\n'.join(lines[a:b])
