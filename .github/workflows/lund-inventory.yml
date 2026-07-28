@@ -1,0 +1,46 @@
+name: Lund Research Inventory
+
+on:
+  push:
+    branches:
+      - research/lund-generation-audit
+    paths:
+      - scripts/export-lund-inventory.js
+      - .github/workflows/lund-inventory.yml
+      - data/catalog.js
+  pull_request:
+    branches:
+      - main
+    paths:
+      - scripts/export-lund-inventory.js
+      - .github/workflows/lund-inventory.yml
+      - data/catalog.js
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Export Lund inventory
+        run: node scripts/export-lund-inventory.js
+      - name: Commit generated inventory
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/lund-inventory.json
+          git diff --cached --quiet || git commit -m "Generate Lund research inventory [skip ci]"
+          git push
+      - name: Upload inventory artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lund-inventory
+          path: research/lund-inventory.json
