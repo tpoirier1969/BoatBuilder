@@ -1,0 +1,102 @@
+name: Extract Alumacraft 2006-2012 catalog evidence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/extract-alumacraft-2006-2012.yml
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Install PDF text tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Download official catalogs and extract target contexts
+        shell: bash
+        run: |
+          set -euo pipefail
+          work=/tmp/alumacraft-catalogs
+          mkdir -p "$work" research/sources
+          printf 'year\turl\tpages\ttext_bytes\tdominator_hits\tnavigator_hits\n' > research/sources/alumacraft-2006-2012-manifest.tsv
+
+          for year in 2006 2007 2008 2009 2010 2011 2012; do
+            yy=${year:2:2}
+            if [ "$year" -le 2009 ]; then decade=2000-2009; else decade=2010-2019; fi
+            url="https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/${decade}/Catalogs/ALUMA-MY${yy}-Catalog-ENUS.pdf"
+            pdf="$work/$year.pdf"
+            txt="$work/$year.txt"
+            curl -fL --retry 3 --connect-timeout 25 --max-time 600 -A 'Mozilla/5.0' "$url" -o "$pdf"
+            pages=$(pdfinfo "$pdf" | awk '/^Pages:/ {print $2}')
+            pdftotext -layout "$pdf" "$txt"
+            bytes=$(stat -c%s "$txt")
+            dh=$(grep -Eic 'dominator' "$txt" || true)
+            nh=$(grep -Eic 'navigator' "$txt" || true)
+            printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$year" "$url" "$pages" "$bytes" "$dh" "$nh" >> research/sources/alumacraft-2006-2012-manifest.tsv
+          done
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          work = Path('/tmp/alumacraft-catalogs')
+          terms = {
+              'Dominator 165': re.compile(r'\bDOMINATOR\b.{0,80}\b165\b|\b165\b.{0,80}\bDOMINATOR\b', re.I),
+              'Dominator 175': re.compile(r'\bDOMINATOR\b.{0,80}\b175\b|\b175\b.{0,80}\bDOMINATOR\b', re.I),
+              'Dominator 185': re.compile(r'\bDOMINATOR\b.{0,80}\b185\b|\b185\b.{0,80}\bDOMINATOR\b', re.I),
+              'Navigator 165': re.compile(r'\bNAVIGATOR\b.{0,80}\b165\b|\b165\b.{0,80}\bNAVIGATOR\b', re.I),
+              'Navigator 175': re.compile(r'\bNAVIGATOR\b.{0,80}\b175\b|\b175\b.{0,80}\bNAVIGATOR\b', re.I),
+              'Navigator family': re.compile(r'\bNAVIGATOR\b', re.I),
+              'Dominator family': re.compile(r'\bDOMINATOR\b', re.I),
+          }
+          out = [
+              '# Alumacraft target-model factory-catalog extracts, 2006-2012',
+              '',
+              'Source: official Alumacraft annual catalogs. Text is extracted with `pdftotext -layout`. These contexts are evidence-search aids; table columns must be interpreted against the exact catalog year and model heading.',
+              ''
+          ]
+          for year in range(2006, 2013):
+              lines = (work / f'{year}.txt').read_text(errors='replace').splitlines()
+              out += [f'## {year}', '']
+              seen = set()
+              hits_for_year = 0
+              for label, rx in terms.items():
+                  hits = [i for i, line in enumerate(lines) if rx.search(line)]
+                  if not hits:
+                      continue
+                  spans = []
+                  for i in hits:
+                      a, b = max(0, i-14), min(len(lines), i+28)
+                      if spans and a <= spans[-1][1] + 4:
+                          spans[-1] = (spans[-1][0], max(spans[-1][1], b))
+                      else:
+                          spans.append((a,b))
+                  for a,b in spans[:5]:
+                      key=(a,b)
+                      if key in seen:
+                          continue
+                      seen.add(key)
+                      hits_for_year += 1
+                      out += [f'### {label} context {hits_for_year}', '', f'Extracted text lines {a+1}-{b}.', '', '```text', *lines[a:b], '```', '']
+              if not hits_for_year:
+                  out += ['No target-model text hit was found in the embedded text layer.', '']
+          Path('research/sources/alumacraft-target-extracts-2006-2012.md').write_text('\n'.join(out) + '\n')
+          PY
+
+      - name: Commit compact evidence corpus
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/sources/alumacraft-2006-2012-manifest.tsv research/sources/alumacraft-target-extracts-2006-2012.md
+          git commit -m 'Extract Alumacraft 2006-2012 model evidence'
+          git pull --rebase origin main
+          git push
