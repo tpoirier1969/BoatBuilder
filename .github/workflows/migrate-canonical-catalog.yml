@@ -33,6 +33,26 @@ jobs:
       - name: Build canonical app data
         run: node scripts/migrate-catalog-to-canonical.mjs
 
+      - name: Normalize generated QA files
+        shell: python
+        run: |
+          from pathlib import Path
+
+          workflow = Path(".github/workflows/qa.yml")
+          text = workflow.read_text()
+          text = text.replace("actions/checkout@v4", "actions/checkout@v5")
+          text = text.replace("actions/setup-node@v4", "actions/setup-node@v5")
+          text = text.replace('          package-manager-cache: false\n', '')
+          workflow.write_text(text)
+
+          qa = Path("tests/qa.mjs")
+          text = qa.read_text()
+          text = text.replace(
+              'assert.deepEqual(oldAlaskan.valueEras.map(era => era.label), ["2000s"], "Old Alaskan retained unsupported value eras");',
+              'assert.equal(oldAlaskan.valueEras.map(era => era.label).join(","), "2000s", "Old Alaskan retained unsupported value eras");'
+          )
+          qa.write_text(text)
+
       - name: Remove runtime correction file
         run: git rm data/lund-corrections.js
 
