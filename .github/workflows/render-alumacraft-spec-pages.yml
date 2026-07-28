@@ -1,0 +1,90 @@
+name: Render targeted Alumacraft specification pages
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  render-year:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - year: 2006
+            pages: "36 37"
+          - year: 2007
+            pages: "35 36"
+          - year: 2008
+            pages: "33 34"
+          - year: 2009
+            pages: "33"
+          - year: 2010
+            pages: "34"
+          - year: 2011
+            pages: "25 26"
+          - year: 2012
+            pages: "26 27"
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Install PDF renderer
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Render selected factory pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          year=${{ matrix.year }}
+          yy=${year:2:2}
+          if [ "$year" -le 2009 ]; then decade=2000-2009; else decade=2010-2019; fi
+          url="https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/${decade}/Catalogs/ALUMA-MY${yy}-Catalog-ENUS.pdf"
+          work="/tmp/alumacraft-$year"
+          mkdir -p "$work" artifact
+          pdf="$work/catalog.pdf"
+          curl -fL --retry 3 --connect-timeout 25 --max-time 120 -A 'Mozilla/5.0' "$url" -o "$pdf"
+          for page in ${{ matrix.pages }}; do
+            pdftoppm -f "$page" -l "$page" -singlefile -jpeg -scale-to 2600 -jpegopt quality=88 "$pdf" "artifact/alumacraft-$year-page-$page" >/dev/null 2>&1
+          done
+          printf 'year\turl\tpages_rendered\n%s\t%s\t%s\n' "$year" "$url" "${{ matrix.pages }}" > "artifact/alumacraft-$year-pages.tsv"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: alumacraft-spec-pages-${{ matrix.year }}
+          path: artifact
+          retention-days: 1
+
+  merge:
+    needs: render-year
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: alumacraft-spec-pages-*
+          path: artifacts
+          merge-multiple: true
+
+      - name: Commit targeted specification pages
+        run: |
+          mkdir -p research/sources/alumacraft-spec-pages
+          cp artifacts/*.jpg research/sources/alumacraft-spec-pages/
+          head -n 1 artifacts/alumacraft-2006-pages.tsv > research/sources/alumacraft-spec-pages/manifest.tsv
+          for year in 2006 2007 2008 2009 2010 2011 2012; do tail -n 1 "artifacts/alumacraft-$year-pages.tsv"; done >> research/sources/alumacraft-spec-pages/manifest.tsv
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/sources/alumacraft-spec-pages
+          git commit -m 'Render Alumacraft specification pages'
+          git pull --rebase origin main
+          git push
