@@ -1,0 +1,59 @@
+name: Migrate catalog to canonical app data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/migrate-catalog-to-canonical.mjs
+      - .github/workflows/migrate-canonical-catalog.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: boatbuilder-canonical-migration
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          package-manager-cache: false
+
+      - name: Build canonical app data
+        run: node scripts/migrate-catalog-to-canonical.mjs
+
+      - name: Remove runtime correction file
+        run: git rm data/lund-corrections.js
+
+      - name: Validate migrated application
+        run: |
+          node --check app.js
+          node --check data/boats.js
+          node --check data/equipment.js
+          node --check data/catalog.js
+          node --check tests/qa.mjs
+          node tests/qa.mjs
+
+      - name: Commit canonical catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Canonical migration is already applied."
+          else
+            git commit -m "Move BoatBuilder data into canonical app files"
+            git push origin HEAD:main
+          fi
