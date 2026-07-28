@@ -80,6 +80,18 @@ jobs:
               'assert.deepEqual(oldAlaskan.valueEras.map(era => era.label), ["2000s"], "Old Alaskan retained unsupported value eras");',
               'assert.equal(oldAlaskan.valueEras.map(era => era.label).join(","), "2000s", "Old Alaskan retained unsupported value eras");'
           )
+          text = text.replace(
+              'assert.match(appSource, /function gens(/, "Generation resolver is missing");',
+              'assert.ok(appSource.includes("function gens("), "Generation resolver is missing");'
+          )
+          text = text.replace(
+              'assert.match(appSource, /function missing(/, "Required generation and era gate is missing");',
+              'assert.ok(appSource.includes("function missing("), "Required generation and era gate is missing");'
+          )
+          text = text.replace(
+              'assert.match(appSource, /function controls(/, "Generation, era and trailer controls are missing");',
+              'assert.ok(appSource.includes("function controls("), "Generation, era and trailer controls are missing");'
+          )
           qa.write_text(text)
 
       - name: Remove runtime correction file
