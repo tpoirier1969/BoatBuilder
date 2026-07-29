@@ -1,0 +1,7 @@
+Validation:
+- tests/qa.mjs syntax: PASS
+- Live batch data contains 10 Alumacraft unresolved generation rows.
+- Original QA result: FAIL, expected 11 and found 10.
+- Corrected QA result: PASS, 351 catalog items, 170 boats, 181 equipment records.
+
+The corrected QA was exercised against the current boat catalog with unchanged application/equipment behavior represented locally. No boat data was changed.

@@ -1,0 +1,12 @@
+BoatBuilder QA failure fix — 2026-07-29
+
+Replace:
+- tests/qa.mjs
+
+Change:
+- Update the expected Alumacraft unresolved-generation count from 11 to 10.
+
+Reason:
+- The Dominator/Navigator repair resolved one formerly unresolved Alumacraft record.
+- The canonical data is correct at 10 unresolved Alumacraft generation rows.
+- The stale assertion at 11 causes BoatBuilder QA to fail on every push.
