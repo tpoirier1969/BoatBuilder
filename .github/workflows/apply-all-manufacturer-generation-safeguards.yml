@@ -1,0 +1,35 @@
+name: Apply all-manufacturer generation safeguards
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/apply-all-manufacturer-generation-safeguards.yml
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Apply safeguards
+        run: node scripts/apply_all_manufacturer_generation_safeguards.mjs
+      - name: Run QA
+        run: node tests/qa.mjs
+      - name: Commit canonical data and audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/boats.js tests/qa.mjs research/catalog-generation-audit-status-2026-07-29.md
+          git commit -m 'Safeguard generations across all boat manufacturers'
+          git pull --rebase origin main
+          git push
