@@ -168,6 +168,24 @@ assert.equal(magnumCs.designGenerations.length, 1, "Magnum CS rejection row has 
 assert.equal(magnumCs.designGenerations[0].status, "family-umbrella-rejection", "Magnum CS is not explicitly a family-level rejection row");
 assert.match(magnumCs.generationWarning || "", /not one exact boat model/i, "Magnum CS rejection warning is missing");
 
+// All-manufacturer generation-safety audit.
+const allBoats = catalog.items.filter(entry => entry.categoryId === "boats");
+assert.ok(
+  allBoats.every(entry => Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1),
+  "One or more app boat records lacks canonical design-generation metadata"
+);
+for (const entry of allBoats) {
+  for (const generation of entry.designGenerations) {
+    if (generation.status !== "unresolved") continue;
+    assert.equal(Object.keys(generation.specs || {}).length, 0, `${entry.id} unresolved generation inherited specifications`);
+    assert.equal((generation.eras || []).length, 0, `${entry.id} unresolved generation inherited pricing`);
+  }
+}
+assert.ok(
+  allBoats.filter(entry => entry.manufacturer !== "Lund" && entry.manufacturer !== "Alumacraft").every(entry => entry.valueEras.length === 0),
+  "A newly safeguarded manufacturer retained unsafe top-level value eras"
+);
+
 const dualImpact = item("boat:MirroCraft | Dual Impact 176");
 assert.equal(dualImpact.designGenerations.length, 2, "Dual Impact generations are not stored with the boat data");
 assert.doesNotMatch(appSource, /const DD=|,DD=/, "Model-generation data remains embedded in the controller");
