@@ -311,6 +311,34 @@ const ultima182Audit = item("boat:Smoker Craft | Ultima 182 (Secondary; 172 is P
 assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2016-2018-standard"))?.specs?.Length?.value, "18'5\"", "Standard Ultima 182 length is wrong");
 assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2016-se"))?.specs?.Length?.value, "18'2\"", "Ultima 182SE configuration is missing");
 
+// Focused Sylvan, Starcraft and Starweld app-model audit.
+const nextMakers = new Map([["Sylvan",16],["Starcraft",14],["Starweld",3]]);
+for (const [maker,count] of nextMakers) {
+  const rows = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === maker);
+  assert.equal(rows.length,count,"Focused " + maker + " app-model scope changed without updating the audit");
+  assert.ok(rows.every(entry => Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1),maker + " record lacks generation metadata");
+  assert.ok(rows.every(entry => Array.isArray(entry.valueEras) && entry.valueEras.length === 0),maker + " retained unsafe top-level value eras");
+  for (const entry of rows) for (const generation of entry.designGenerations) if (generation.status === "unresolved") {
+    assert.equal(Object.keys(generation.specs || {}).length,0,entry.id + " unresolved generation inherited specs");
+    assert.equal((generation.eras || []).length,0,entry.id + " unresolved generation inherited price");
+  }
+}
+const sylTroller = item("boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport)");
+assert.equal(sylTroller.designGenerations.find(g=>g.startYear===2008)?.specs?.Beam?.value,"69\"","2008 Sport Troller beam is wrong");
+assert.equal(sylTroller.designGenerations.find(g=>g.startYear===2009)?.specs?.Beam?.value,"81\"","2009 Sport Troller redesign is missing");
+const sylAdv = item("boat:Sylvan | Adventurer 1700 DC");
+assert.equal(sylAdv.designGenerations.find(g=>g.startYear===2011)?.specs?.["Dry Hull Weight"]?.value,"1,325 lb","2011 Adventurer weight change is missing");
+const sylViper = item("boat:Sylvan | Viper (bass-boat series; no walk-through windshield)");
+assert.equal(sylViper.lowPrice,null,"Viper family rejection retained a price");
+assert.equal(sylViper.designGenerations[0].status,"family-umbrella-rejection","Viper is not a family rejection");
+const sc186 = item("boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)");
+assert.equal(sc186.designGenerations.find(g=>g.startYear===2014)?.specs?.["Dry Hull Weight"]?.value,"1,333 lb","2014 Superfisherman 186 exact weight is missing");
+const stx2050 = item("boat:Starcraft | STX 2050 Aluminum");
+assert.equal(stx2050.designGenerations.find(g=>g.startYear===2014)?.specs?.["Dry Hull Weight"]?.value,"1,535 lb","2014 STX weight is wrong");
+assert.equal(stx2050.designGenerations.find(g=>g.startYear===2015)?.specs?.["Dry Hull Weight"]?.value,"1,650 lb","2015 STX weight change is missing");
+const sw16 = item("boat:Starweld | Fusion 16 DC");
+assert.ok(sw16.designGenerations.find(g=>g.startYear===2021)?.eras.every(e=>e.startYear===2021),"Fusion 16 inherited pre-2021 pricing");
+
 // All-manufacturer generation-safety audit.
 const allBoats = catalog.items.filter(entry => entry.categoryId === "boats");
 assert.ok(

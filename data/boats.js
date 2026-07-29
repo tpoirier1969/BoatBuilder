@@ -29218,11 +29218,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary)",
     "displayName": "Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary)",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2014 and 2015 factory snapshots; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 6500,
     "highPrice": 10500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
       "url": "https://images.craigslist.org/00303_SgmCv3EGzR_0lM0t2_600x450.jpg",
@@ -29233,7 +29233,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2014 and 2015 factory snapshots; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -29325,7 +29325,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Value multispecies. Inland fishing and fair-weather nearshore use. 19° deadrise is favorable, but 82\" beam and 21\" interior depth are meaningful limitations. Closest comparisons: Lund Angler; Alumacraft Classic; Crestliner Vision. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
+        "value": "The 2015 table increases DC dry weight from 900 to 935 pounds, so the years are not merged."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -29341,110 +29341,180 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
         "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2014",
-        "label": "2014 cited specification snapshot",
+        "label": "2014 factory specification",
         "startYear": 2014,
         "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-exact",
+        "specificationBasis": "2014 factory table.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
         "specs": {
           "Length": {
-            "value": "16' 2\"",
-            "confidence": "cited-source-exact"
+            "value": "16'2\"",
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "82\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "900-935 lb",
-            "confidence": "cited-source-exact"
+            "value": "900 lb",
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "33\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "21\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "19°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "20\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "75",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "5",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,275 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "24 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.080\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.070\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted Deep-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted aluminum",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
+            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):value:2014",
+            "label": "2014",
+            "startYear": 2014,
+            "endYear": 2014,
             "low": 6500,
-            "high": 10500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "high": 9500,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2014–2015 verified",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2015",
+        "label": "2015 factory specification",
+        "startYear": 2015,
+        "endYear": 2015,
+        "status": "factory-exact",
+        "specificationBasis": "2015 factory table increases dry weight to 935 pounds.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'2\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "935 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "33\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "21\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,275 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.070\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):value:2015",
+            "label": "2015",
+            "startYear": 2015,
+            "endYear": 2015,
+            "low": 7000,
+            "high": 10500,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Starcraft | Fishmaster 170",
@@ -29576,7 +29646,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
       }
     ],
     "valueEras": [],
@@ -29586,8 +29656,8 @@ window.BOATBUILDER_BOATS = [
         "label": "1998 cited specification snapshot",
         "startYear": 1998,
         "endYear": 1998,
-        "status": "cited-snapshot",
-        "specificationBasis": "1998 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "secondary-verified",
+        "specificationBasis": "Year-specific secondary specification; official archive confirms the model-era catalog exists.",
         "sourceUrl": "https://www.jdpower.com/boats/1998/starcraft-marine",
         "specs": {
           "Length": {
@@ -29657,30 +29727,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 170:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Starcraft | Fishmaster 170:value:1998",
+            "label": "1998",
+            "startYear": 1998,
+            "endYear": 1998,
             "low": 3000,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Starcraft | Fishmaster 170:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4500,
             "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Fishmaster 170:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2009,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1998 specification basis",
         "sourceUrl": "https://www.jdpower.com/boats/1998/starcraft-marine",
@@ -29697,11 +29758,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Fishmaster 196",
     "displayName": "Starcraft | Fishmaster 196",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2014 and 2015 factory snapshots plus current-generation reference; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 8000,
     "highPrice": 13000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2017_04/IMG_4174.thumb.JPG.18e7b3cd4fcfae9f07bd945e2ac28feb.JPG",
@@ -29712,7 +29773,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2014 and 2015 factory snapshots plus current-generation reference; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -29804,7 +29865,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact 196 model. Very capable, but nearly 20 feet with a 200-hp/52-gallon package; too large and heavy to be a normal target here."
+        "value": "The 2015 factory table changes bottom gauge from 0.100 to 0.125 inch. The current same-name boat is much heavier and carries different capacity/fuel data, so it is isolated without used pricing."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -29820,110 +29881,240 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Starcraft | Fishmaster 196:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
         "id": "boat:Starcraft | Fishmaster 196:gen:2014",
-        "label": "2014 cited specification snapshot",
+        "label": "2014 factory specification",
         "startYear": 2014,
         "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-exact",
+        "specificationBasis": "2014 factory table.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
         "specs": {
           "Length": {
             "value": "19'9\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "100\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,430 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "49\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "31\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "19°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not stated",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "200",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "9",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "2,050 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "52 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.100\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.080\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 196:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
+            "id": "boat:Starcraft | Fishmaster 196:value:2014",
+            "label": "2014",
+            "startYear": 2014,
+            "endYear": 2014,
             "low": 8000,
             "high": 13000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | Fishmaster 196:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2014 factory catalog basis",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
+        "id": "boat:Starcraft | Fishmaster 196:gen:2015",
+        "label": "2015 factory specification",
+        "startYear": 2015,
+        "endYear": 2015,
+        "status": "factory-exact",
+        "specificationBasis": "2015 table lists 0.125-inch bottom.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
+        "specs": {
+          "Length": {
+            "value": "19'9\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "100\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,430 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "49\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "31\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "9",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "2,050 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "52 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.125\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:value:2015",
+            "label": "2015",
+            "startYear": 2015,
+            "endYear": 2015,
+            "low": 9000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ]
+      },
+      {
+        "id": "boat:Starcraft | Fishmaster 196:gen:2026-current",
+        "label": "Current factory generation reference",
+        "startYear": 2026,
+        "endYear": 2026,
+        "status": "factory-current",
+        "specificationBasis": "Current factory page; included only to block substitution with the lighter 2014–2015 boat.",
+        "sourceUrl": "https://starcraftmarine.com/series/fishmaster/",
+        "specs": {
+          "Length": {
+            "value": "19'9\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "100\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,785 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "49\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "31\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "9",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,250 lb passenger rating",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "48 gal",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Current riveted aluminum Fishmaster",
+            "confidence": "factory-exact"
+          }
+        },
         "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Starcraft | SFM 160 Superfisherman",
@@ -30055,7 +30246,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
       }
     ],
     "valueEras": [],
@@ -30065,8 +30256,8 @@ window.BOATBUILDER_BOATS = [
         "label": "1986 cited specification snapshot",
         "startYear": 1986,
         "endYear": 1986,
-        "status": "cited-snapshot",
-        "specificationBasis": "1986 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
         "specs": {
           "Length": {
@@ -30136,21 +30327,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | SFM 160 Superfisherman:value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
-            "endYear": 1989,
+            "id": "boat:Starcraft | SFM 160 Superfisherman:value:1986",
+            "label": "1986",
+            "startYear": 1986,
+            "endYear": 1986,
             "low": 1500,
             "high": 3500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | SFM 160 Superfisherman:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1980,
-        "endYear": 1989,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1986 factory basis; SFM 160 continued in the late 1980s",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
@@ -30290,7 +30481,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
       }
     ],
     "valueEras": [],
@@ -30300,8 +30491,8 @@ window.BOATBUILDER_BOATS = [
         "label": "1986 cited specification snapshot",
         "startYear": 1986,
         "endYear": 1986,
-        "status": "cited-snapshot",
-        "specificationBasis": "1986 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
         "specs": {
           "Length": {
@@ -30371,21 +30562,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | SFM 180 Superfisherman:value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
-            "endYear": 1989,
+            "id": "boat:Starcraft | SFM 180 Superfisherman:value:1986",
+            "label": "1986",
+            "startYear": 1986,
+            "endYear": 1986,
             "low": 2000,
             "high": 4000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | SFM 180 Superfisherman:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1980,
-        "endYear": 1989,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1986 factory basis; SFM 180 continued in the late 1980s",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
@@ -30402,11 +30593,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Starfish 176 DC / WT",
     "displayName": "Starcraft | Starfish 176 DC / WT",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2014–2015 documented factory generation; other years unresolved",
     "badge": "Primary",
     "lowPrice": 4000,
     "highPrice": 11000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
       "url": "https://images.craigslist.org/00303_SgmCv3EGzR_0lM0t2_600x450.jpg",
@@ -30417,7 +30608,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2014–2015 documented factory generation; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -30509,7 +30700,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exactly the kind of listing the sheet should surface: broad, deep, weather-protected and towable. Confirm 176 DC/WT because Starfish also names other layouts and pontoons."
+        "value": "2014 and 2015 official tables repeat the same DC specification. Older Starfish boats do not inherit this generation or its value."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -30525,128 +30716,106 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2014-2015",
+        "label": "2014–2015 factory generation",
+        "startYear": 2014,
+        "endYear": 2015,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2014 and 2015 factory tables repeat this specification.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
         "specs": {
           "Length": {
             "value": "17'8\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "92\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,176 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "44\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "27\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "17°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "20\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "150",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "7",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,700 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "32 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.100\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.080\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted Power-Trac deep-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Starfish 176 DC / WT:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Starcraft | Starfish 176 DC / WT:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Starcraft | Starfish 176 DC / WT:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
+            "id": "boat:Starcraft | Starfish 176 DC / WT:value:2014-2015",
+            "label": "2014–2015",
+            "startYear": 2014,
+            "endYear": 2015,
             "low": 7000,
             "high": 11000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+          "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf"
         ]
-      },
-      {
-        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1990s–2015; 176 DC verified 2012–2015",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Starcraft | STX 2050 Aluminum",
@@ -30655,11 +30824,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "STX 2050 Aluminum",
     "displayName": "Starcraft | STX 2050 Aluminum",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2014 and 2015 factory snapshots; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 8000,
     "highPrice": 13000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2017_04/IMG_4174.thumb.JPG.18e7b3cd4fcfae9f07bd945e2ac28feb.JPG",
@@ -30670,7 +30839,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2014 and 2015 factory snapshots; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -30762,7 +30931,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact aluminum STX; do not mix with the fiberglass STX Viper rows in the same catalog."
+        "value": "The 2015 table increases dry weight from 1,535 to 1,650 pounds."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -30778,110 +30947,180 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Starcraft | STX 2050 Aluminum:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
         "id": "boat:Starcraft | STX 2050 Aluminum:gen:2014",
-        "label": "2014 cited specification snapshot",
+        "label": "2014 factory specification",
         "startYear": 2014,
         "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-exact",
+        "specificationBasis": "2014 factory table.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
         "specs": {
           "Length": {
             "value": "20'2\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "100\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,535 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "42.5\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "24\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "19°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
-            "value": "25\" (XLS)",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "value": "25\"",
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "250",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "10",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "2,300 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "52 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
-            "value": ".125\"",
-            "confidence": "cited-source-exact"
+            "value": "0.125\"",
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": ".080\"",
-            "confidence": "cited-source-exact"
+            "value": "0.080\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
             "value": "Riveted aluminum deep-V",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Starcraft | STX 2050 Aluminum:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
+            "id": "boat:Starcraft | STX 2050 Aluminum:value:2014",
+            "label": "2014",
+            "startYear": 2014,
+            "endYear": 2014,
             "low": 8000,
             "high": 13000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | STX 2050 Aluminum:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2014 factory catalog basis",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | STX 2050 Aluminum:gen:2015",
+        "label": "2015 factory specification",
+        "startYear": 2015,
+        "endYear": 2015,
+        "status": "factory-exact",
+        "specificationBasis": "2015 factory table increases dry weight.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
+        "specs": {
+          "Length": {
+            "value": "20'2\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "100\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,650 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "42.5\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "24\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "250",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "10",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "2,300 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "52 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.125\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | STX 2050 Aluminum:value:2015",
+            "label": "2015",
+            "startYear": 2015,
+            "endYear": 2015,
+            "low": 9000,
+            "high": 14500,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Starcraft | Superfisherman 170",
@@ -31013,7 +31252,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
       }
     ],
     "valueEras": [],
@@ -31023,8 +31262,8 @@ window.BOATBUILDER_BOATS = [
         "label": "1998 cited specification snapshot",
         "startYear": 1998,
         "endYear": 1998,
-        "status": "cited-snapshot",
-        "specificationBasis": "1998 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
         "specs": {
           "Length": {
@@ -31094,21 +31333,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 170:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Starcraft | Superfisherman 170:value:1998",
+            "label": "1998",
+            "startYear": 1998,
+            "endYear": 1998,
             "low": 3000,
             "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Superfisherman 170:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 1999,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s; 1998 catalog basis",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
@@ -31125,11 +31364,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Superfisherman 176",
     "displayName": "Starcraft | Superfisherman 176",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2014–2015 documented factory generation; other years unresolved",
     "badge": "Primary",
     "lowPrice": 7500,
     "highPrice": 12000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2017_04/IMG_4174.thumb.JPG.18e7b3cd4fcfae9f07bd945e2ac28feb.JPG",
@@ -31140,7 +31379,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2014–2015 documented factory generation; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -31232,7 +31471,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "One of the strongest compact hulls in the sheet: unusually wide and deep with 19° deadrise. Complete packages below $14k will be bargains and may carry an older two-stroke."
+        "value": "2014 and 2015 official tables repeat the same 176 specification."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -31248,110 +31487,106 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | Superfisherman 176:gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Starcraft | Superfisherman 176:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Starcraft | Superfisherman 176:gen:2014-2015",
+        "label": "2014–2015 factory generation",
+        "startYear": 2014,
+        "endYear": 2015,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2014 and 2015 factory tables repeat this specification.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
         "specs": {
           "Length": {
             "value": "17'8\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "100\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,248 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "49\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "29\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "19°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "150",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "8",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,800 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "32 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.100\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.080\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted Power-Trac deep-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 176:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
+            "id": "boat:Starcraft | Superfisherman 176:value:2014-2015",
+            "label": "2014–2015",
+            "startYear": 2014,
+            "endYear": 2015,
             "low": 7500,
             "high": 12000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+          "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf"
         ]
-      },
-      {
-        "id": "boat:Starcraft | Superfisherman 176:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2012–2015 verified",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
@@ -31360,11 +31595,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Superfisherman 186 (Secondary; 176 is Primary)",
     "displayName": "Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2014–2015 documented factory generation plus current-generation reference; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 9000,
     "highPrice": 14000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2017_04/IMG_4174.thumb.JPG.18e7b3cd4fcfae9f07bd945e2ac28feb.JPG",
@@ -31375,7 +31610,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2014–2015 documented factory generation plus current-generation reference; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -31467,7 +31702,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "A formidable boat, but 200-hp power, large fuel load and price move it outside the normal target."
+        "value": "The former approximate values are replaced by the exact 2014–2015 table. The current boat is much heavier and is isolated without used pricing."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -31483,110 +31718,166 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2014-2015",
+        "label": "2014–2015 factory generation",
+        "startYear": 2014,
+        "endYear": 2015,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2014 and 2015 factory tables repeat this specification.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
         "specs": {
           "Length": {
-            "value": "About 18'10\"",
-            "confidence": "catalog-representative"
+            "value": "18'7\"",
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "100\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "About 1,500–1,650 lb",
-            "confidence": "catalog-representative"
+            "value": "1,333 lb",
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "About 49\"",
-            "confidence": "catalog-representative"
+            "value": "49\"",
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
-            "value": "About 29\"",
-            "confidence": "catalog-representative"
+            "value": "29\"",
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "19°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "200",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
-            "value": "8",
-            "confidence": "cited-source-exact"
+            "value": "9",
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
-            "value": "About 2,000 lb",
-            "confidence": "catalog-representative"
+            "value": "1,985 lb",
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
-            "value": "About 40–52 gal",
-            "confidence": "catalog-representative"
+            "value": "32 gal",
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.100\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.080\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted Power-Trac deep-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):value:2014-2015",
+            "label": "2014–2015",
+            "startYear": 2014,
+            "endYear": 2015,
             "low": 9000,
             "high": 14000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+          "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf"
         ]
       },
       {
-        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
+        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2026-current",
+        "label": "Current factory generation reference",
+        "startYear": 2026,
+        "endYear": 2026,
+        "status": "factory-current",
+        "specificationBasis": "Current factory page; no used-package value assigned.",
+        "sourceUrl": "https://starcraftmarine.com/series/superfisherman/",
+        "specs": {
+          "Length": {
+            "value": "18'7\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "100\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,985 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "49\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "29\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "9",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,215 lb passenger rating",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Current riveted aluminum Superfisherman",
+            "confidence": "factory-exact"
+          }
+        },
         "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Starcraft | Superfisherman 190",
@@ -31718,7 +32009,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
       }
     ],
     "valueEras": [],
@@ -31728,8 +32019,8 @@ window.BOATBUILDER_BOATS = [
         "label": "1998 cited specification snapshot",
         "startYear": 1998,
         "endYear": 1998,
-        "status": "cited-snapshot",
-        "specificationBasis": "1998 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
         "specs": {
           "Length": {
@@ -31799,21 +32090,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 190:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Starcraft | Superfisherman 190:value:1998",
+            "label": "1998",
+            "startYear": 1998,
+            "endYear": 1998,
             "low": 3500,
             "high": 6500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Superfisherman 190:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 1999,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s; 1998 catalog basis",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
@@ -31953,7 +32244,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
       }
     ],
     "valueEras": [],
@@ -31963,8 +32254,8 @@ window.BOATBUILDER_BOATS = [
         "label": "1995 cited specification snapshot",
         "startYear": 1995,
         "endYear": 1995,
-        "status": "cited-snapshot",
-        "specificationBasis": "1995 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1995-Starcraft-Catalog.pdf",
         "specs": {
           "Length": {
@@ -32034,21 +32325,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):value:1995",
+            "label": "1995",
+            "startYear": 1995,
+            "endYear": 1995,
             "low": 2500,
             "high": 5000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 1999,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Mid–late 1990s; 1995–1997 catalog basis",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1995-Starcraft-Catalog.pdf",
@@ -32188,7 +32479,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
       }
     ],
     "valueEras": [],
@@ -32198,8 +32489,8 @@ window.BOATBUILDER_BOATS = [
         "label": "1995 cited specification snapshot",
         "startYear": 1995,
         "endYear": 1995,
-        "status": "cited-snapshot",
-        "specificationBasis": "1995 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1995-Starcraft-Catalog.pdf",
         "specs": {
           "Length": {
@@ -32269,21 +32560,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):value:1995",
+            "label": "1995",
+            "startYear": 1995,
+            "endYear": 1995,
             "low": 3000,
             "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 1999,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Mid–late 1990s; 1995–1997 catalog basis",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1995-Starcraft-Catalog.pdf",
@@ -32300,12 +32591,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starweld",
     "model": "Fusion 16 DC",
     "displayName": "Starweld | Fusion 16 DC",
-    "subtitle": "2021 exact cited specification; other advertised years unresolved",
+    "subtitle": "2021 factory snapshot; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 8000,
     "highPrice": 18000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented 2021 snapshot before pricing.",
+    "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
     "image": {
       "url": "https://cdnmedia.endeavorsuite.com/images/organizations/9fd415bc-59d6-490b-8260-92a16761632c/inventory/13708439/017e94fcc8389892f9c320a09d49a96def2240f00a.jpg",
       "source": "https://www.townemarine.com/inventory/2025-starweld-16-fusion-dc-in-stock-bloomsburg-pa-17815-13708439i",
@@ -32315,7 +32606,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2021 exact cited specification; other advertised years unresolved"
+        "value": "2021 factory snapshot; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -32423,7 +32714,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "2021 factory-catalog snapshot retained from the prior canonical source; the retired direct PDF link is replaced by the manufacturer owner-resource archive. Decade-spanning inherited price removed."
       }
     ],
     "valueEras": [],
@@ -32433,9 +32724,9 @@ window.BOATBUILDER_BOATS = [
         "label": "2021 cited specification snapshot",
         "startYear": 2021,
         "endYear": 2021,
-        "status": "cited-snapshot",
-        "specificationBasis": "2021 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "2021 Starweld factory catalog snapshot retained from the prior canonical source; the manufacturer legacy archive remains available, but the old direct PDF URL is retired. Current SXF/SXT names are not treated as the same model.",
+        "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
         "specs": {
           "Length": {
             "value": "16'6\"",
@@ -32504,38 +32795,33 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | Fusion 16 DC:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 8000,
-            "high": 12000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Starweld | Fusion 16 DC:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
+            "id": "boat:Starweld | Fusion 16 DC:value:2021",
+            "label": "2021",
+            "startYear": 2021,
+            "endYear": 2021,
             "low": 12000,
             "high": 18000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
+          "https://starcraftstarweld.com/owner-resources/"
         ]
       },
       {
         "id": "boat:Starweld | Fusion 16 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 2010s–2020s; 2021 basis",
-        "sourceUrl": "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
+        "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
         "specs": {},
         "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Do not substitute current SXF/SXT specifications for a Fusion listing. Confirm the exact model year."
   },
   {
     "id": "boat:Starweld | Fusion 18 DC",
@@ -32544,12 +32830,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starweld",
     "model": "Fusion 18 DC",
     "displayName": "Starweld | Fusion 18 DC",
-    "subtitle": "2021 exact cited specification; other advertised years unresolved",
+    "subtitle": "2021 factory snapshot; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 9000,
     "highPrice": 22000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented 2021 snapshot before pricing.",
+    "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
     "image": {
       "url": "https://cdnmedia.endeavorsuite.com/images/organizations/9fd415bc-59d6-490b-8260-92a16761632c/inventory/13323896/013e962c1f0185b55ac220fb9b286075202de156b0.jpg",
       "source": "https://www.townemarine.com/inventory/2026-starweld-fusion-pro-18-dc-bloomsburg-pa-17815-14053284i",
@@ -32559,7 +32845,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2021 exact cited specification; other advertised years unresolved"
+        "value": "2021 factory snapshot; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -32667,7 +32953,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "2021 factory-catalog snapshot retained from the prior canonical source; the retired direct PDF link is replaced by the manufacturer owner-resource archive. Decade-spanning inherited price removed."
       }
     ],
     "valueEras": [],
@@ -32677,9 +32963,9 @@ window.BOATBUILDER_BOATS = [
         "label": "2021 cited specification snapshot",
         "startYear": 2021,
         "endYear": 2021,
-        "status": "cited-snapshot",
-        "specificationBasis": "2021 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "2021 Starweld factory catalog snapshot retained from the prior canonical source; the manufacturer legacy archive remains available, but the old direct PDF URL is retired. Current SXF/SXT names are not treated as the same model.",
+        "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
         "specs": {
           "Length": {
             "value": "17'4\"",
@@ -32748,38 +33034,33 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | Fusion 18 DC:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 9000,
-            "high": 13500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Starweld | Fusion 18 DC:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
+            "id": "boat:Starweld | Fusion 18 DC:value:2021",
+            "label": "2021",
+            "startYear": 2021,
+            "endYear": 2021,
             "low": 14000,
             "high": 22000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
+          "https://starcraftstarweld.com/owner-resources/"
         ]
       },
       {
         "id": "boat:Starweld | Fusion 18 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 2010s–2020s; 2021 basis",
-        "sourceUrl": "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
+        "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
         "specs": {},
         "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Do not substitute current SXF/SXT specifications for a Fusion listing. Confirm the exact model year."
   },
   {
     "id": "boat:Sylvan | Adventurer 1700 DC",
@@ -32788,12 +33069,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Adventurer 1700 DC",
     "displayName": "Sylvan | Adventurer 1700 DC",
-    "subtitle": "2008 exact cited specification; other advertised years unresolved",
+    "subtitle": "2007, 2008, 2009–2010 and 2011–2012 factory generations; other years unresolved",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 7500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images2.marinesource.com/resize/1/46/19/2007-sylvan-1700-explorer-dc-power-9824619-980941778-0-030620250421-16.jpg",
       "source": "https://marinesource.com/boat/sylvan-1700-explorer-dc-2007-bismarck-9824619-for-sale",
@@ -32803,7 +33084,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact cited specification; other advertised years unresolved"
+        "value": "2007, 2008, 2009–2010 and 2011–2012 factory generations; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -32895,7 +33176,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact 1700 DC family/fishing configuration with two livewells and in-floor rod storage."
+        "value": "The factory tables do not support one Adventurer 1700 specification across the run. Depth changes in 2008, horsepower and side gauge change in 2009, and weight/capacity certification changes in 2011."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -32911,110 +33192,348 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official Sylvan annual tables reconciled for 2007–2012."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Adventurer 1700 DC:gen:2008",
-        "label": "2008 cited specification snapshot",
-        "startYear": 2008,
-        "endYear": 2008,
-        "status": "cited-snapshot",
-        "specificationBasis": "2008 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+        "id": "boat:Sylvan | Adventurer 1700 DC:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Sylvan | Adventurer 1700 DC:gen:2007",
+        "label": "2007 factory specification",
+        "startYear": 2007,
+        "endYear": 2007,
+        "status": "factory-exact",
+        "specificationBasis": "2007 factory table.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "17'1\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "91\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,220 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "33\"",
-            "confidence": "cited-source-exact"
+            "value": "35\"",
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
-            "value": "20\" (LS)",
-            "confidence": "cited-source-exact"
+            "value": "20\" LS",
+            "confidence": "factory-exact"
           },
           "Transom Width": {
             "value": "90\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "135",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "5",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,350 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "24 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
-            "value": ".100\"",
-            "confidence": "cited-source-exact"
+            "value": "0.100\"",
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": ".086\"",
-            "confidence": "cited-source-exact"
+            "value": "0.086\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted; .100 ribs",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Adventurer 1700 DC:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Adventurer 1700 DC:value:2007",
+            "label": "2007",
+            "startYear": 2007,
+            "endYear": 2007,
             "low": 4500,
             "high": 7500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
-        "id": "boat:Sylvan | Adventurer 1700 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2008 factory catalog basis",
+        "id": "boat:Sylvan | Adventurer 1700 DC:gen:2008",
+        "label": "2008 factory specification",
+        "startYear": 2008,
+        "endYear": 2008,
+        "status": "factory-exact",
+        "specificationBasis": "2008 table changes maximum depth to 33 inches.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Length": {
+            "value": "17'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,220 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "33\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\" LS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "135",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,350 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.086\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Adventurer 1700 DC:value:2008",
+            "label": "2008",
+            "startYear": 2008,
+            "endYear": 2008,
+            "low": 4500,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Adventurer 1700 DC:gen:2009-2010",
+        "label": "2009–2010 factory generation",
+        "startYear": 2009,
+        "endYear": 2010,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2009 and 2010 tables repeat the same core specification.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,220 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\" LS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "140",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,350 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Adventurer 1700 DC:value:2009-2010",
+            "label": "2009–2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 5500,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Adventurer 1700 DC:gen:2011-2012",
+        "label": "2011–2012 factory generation",
+        "startYear": 2011,
+        "endYear": 2012,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2011 and 2012 tables document the heavier six-person generation; 2012 also publishes 16-degree deadrise.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,325 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\" LS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "140",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,425 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "16°",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Adventurer 1700 DC:value:2011-2012",
+            "label": "2011–2012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 6500,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2011-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Sylvan | Expedition Sport 1700 DC",
@@ -33023,12 +33542,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Expedition Sport 1700 DC",
     "displayName": "Sylvan | Expedition Sport 1700 DC",
-    "subtitle": "2008 exact cited specification; other advertised years unresolved",
+    "subtitle": "2007–2008, 2009–2010 and 2011–2012 factory generations; other years unresolved",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 7500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/sylvan/w700/Sylvan-Expedition-Sport-1800-Top.jpg",
       "source": "https://www.boatdealers.ca/boat-reviews/2011/sylvan/expedition-sport-1800-dc",
@@ -33038,7 +33557,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact cited specification; other advertised years unresolved"
+        "value": "2007–2008, 2009–2010 and 2011–2012 factory generations; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -33130,7 +33649,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact 1700 DC Expedition Sport; deeper than the same-year Adventurer 1700 DC."
+        "value": "The 1700 keeps its principal dimensions but changes horsepower/side gauge in 2009 and weight, persons and capacity certification in 2011."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -33146,110 +33665,274 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official Sylvan annual tables reconciled for 2007–2012."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:2008",
-        "label": "2008 cited specification snapshot",
-        "startYear": 2008,
+        "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:2007-2008",
+        "label": "2007–2008 factory generation",
+        "startYear": 2007,
         "endYear": 2008,
-        "status": "cited-snapshot",
-        "specificationBasis": "2008 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-documented-generation",
+        "specificationBasis": "2007 and 2008 tables repeat this specification.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "17'1\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "91\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,220 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "35\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
-            "value": "20\" (LS)",
-            "confidence": "cited-source-exact"
+            "value": "20\" LS",
+            "confidence": "factory-exact"
           },
           "Transom Width": {
             "value": "90\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "135",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "5",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,350 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "24 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
-            "value": ".100\"",
-            "confidence": "cited-source-exact"
+            "value": "0.100\"",
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": ".086\"",
-            "confidence": "cited-source-exact"
+            "value": "0.086\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted; .100 ribs",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Expedition Sport 1700 DC:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Expedition Sport 1700 DC:value:2007-2008",
+            "label": "2007–2008",
+            "startYear": 2007,
+            "endYear": 2008,
             "low": 4500,
             "high": 7500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf"
         ]
       },
       {
-        "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2008 factory catalog basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:2009-2010",
+        "label": "2009–2010 factory generation",
+        "startYear": 2009,
+        "endYear": 2010,
+        "status": "factory-documented-generation",
+        "specificationBasis": "Horsepower rises to 140 and side gauge is listed as 0.080 inch.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,220 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\" LS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "140",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,350 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Expedition Sport 1700 DC:value:2009-2010",
+            "label": "2009–2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 5500,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:2011-2012",
+        "label": "2011–2012 factory generation",
+        "startYear": 2011,
+        "endYear": 2012,
+        "status": "factory-documented-generation",
+        "specificationBasis": "Heavier six-person generation; 2012 publishes 16-degree deadrise.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,325 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\" LS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "140",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,425 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "16°",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Expedition Sport 1700 DC:value:2011-2012",
+            "label": "2011–2012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 6500,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2011-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Sylvan | Expedition Sport 1800 DC",
@@ -33258,12 +33941,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Expedition Sport 1800 DC",
     "displayName": "Sylvan | Expedition Sport 1800 DC",
-    "subtitle": "2008 exact cited specification; other advertised years unresolved",
+    "subtitle": "2007–2008, 2009, 2010 published snapshot and 2011–2012 factory generations; other years unresolved",
     "badge": "Primary",
     "lowPrice": 5000,
     "highPrice": 8500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/sylvan/w700/Sylvan-Expedition-Sport-1800-Top.jpg",
       "source": "https://www.boatdealers.ca/boat-reviews/2011/sylvan/expedition-sport-1800-dc",
@@ -33273,7 +33956,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact cited specification; other advertised years unresolved"
+        "value": "2007–2008, 2009, 2010 published snapshot and 2011–2012 factory generations; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -33365,7 +34048,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact 1800 DC Expedition Sport with rear convert-a-bench and walk-in bow seating."
+        "value": "Sylvan published materially different 1800 tables. The 2010 length/beam entry is retained as a separate published snapshot rather than silently blended, because it conflicts with the surrounding annual tables."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -33381,110 +34064,348 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official annual tables reconciled for 2007–2012; the anomalous 2010 table is intentionally isolated."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2008",
-        "label": "2008 cited specification snapshot",
-        "startYear": 2008,
+        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2007-2008",
+        "label": "2007–2008 factory generation",
+        "startYear": 2007,
         "endYear": 2008,
-        "status": "cited-snapshot",
-        "specificationBasis": "2008 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-documented-generation",
+        "specificationBasis": "2007 and 2008 tables repeat this specification.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "18'1\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "91\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,250 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "35\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
-            "value": "25\" (XLS)",
-            "confidence": "cited-source-exact"
+            "value": "25\" XLS",
+            "confidence": "factory-exact"
           },
           "Transom Width": {
             "value": "90\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "150",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "7",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,625 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "31 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
-            "value": ".100\"",
-            "confidence": "cited-source-exact"
+            "value": "0.100\"",
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": ".086\"",
-            "confidence": "cited-source-exact"
+            "value": "0.086\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted; .100 ribs",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2007-2008",
+            "label": "2007–2008",
+            "startYear": 2007,
+            "endYear": 2008,
             "low": 5000,
             "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf"
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2009",
+        "label": "2009 factory specification",
+        "startYear": 2009,
+        "endYear": 2009,
+        "status": "factory-exact",
+        "specificationBasis": "2009 keeps the principal hull but lists 0.080-inch sides.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,250 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\" XLS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,625 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "31 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2009",
+            "label": "2009",
+            "startYear": 2009,
+            "endYear": 2009,
+            "low": 5500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
-        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2008 factory catalog basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2010-published",
+        "label": "2010 published factory table",
+        "startYear": 2010,
+        "endYear": 2010,
+        "status": "factory-published-anomaly",
+        "specificationBasis": "The 2010 table publishes 18 feet 10 inches and 96-inch beam with the earlier 1,250-pound weight. Keep isolated pending further factory clarification.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,250 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\" XLS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,625 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "31 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2010",
+            "label": "2010",
+            "startYear": 2010,
+            "endYear": 2010,
+            "low": 6000,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2011-2012",
+        "label": "2011–2012 factory generation",
+        "startYear": 2011,
+        "endYear": 2012,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2011 and 2012 tables repeat the 18-foot-1-inch, 96-inch-beam, 1,400-pound generation; 2012 publishes 16-degree deadrise.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,400 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\" XLS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,625 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "31 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "16°",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2011-2012",
+            "label": "2011–2012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 7000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2011-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Sylvan | Fish and Ski (seller description; identify exact model)",
@@ -33493,7 +34414,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Fish and Ski (seller description; identify exact model)",
     "displayName": "Sylvan | Fish and Ski (seller description; identify exact model)",
-    "subtitle": "Not a reliable factory model name",
+    "subtitle": "Seller description only — exact factory model required",
     "badge": "Secondary",
     "lowPrice": null,
     "highPrice": null,
@@ -33508,7 +34429,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "Not a reliable factory model name"
+        "value": "Seller description only — exact factory model required"
       },
       {
         "label": "Recommendation",
@@ -33616,89 +34537,24 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Alias-only rejection; no specifications or price."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Fish and Ski (seller description; identify exact model):gen:1997",
-        "label": "1997 cited specification snapshot",
-        "startYear": 1997,
-        "endYear": 1997,
-        "status": "cited-snapshot",
-        "specificationBasis": "1997 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Sylvan | Fish and Ski (seller description; identify exact model):gen:alias",
+        "label": "Seller-description rejection",
+        "startYear": null,
+        "endYear": null,
+        "status": "alias-only",
+        "specificationBasis": "“Fish and Ski” spans many incompatible Sylvan models and is not one exact factory identity.",
         "sourceUrl": "https://sylvanmarine.com/resources/catalog-archive/",
-        "specs": {
-          "Length": {
-            "value": "Unknown",
-            "confidence": "cited-source-exact"
-          },
-          "Beam": {
-            "value": "Unknown",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Dry Hull Weight": {
-            "value": "Unknown",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Max HP": {
-            "value": "Unknown",
-            "confidence": "cited-source-exact"
-          },
-          "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Construction": {
-            "value": "Unknown until exact model is identified",
-            "confidence": "cited-source-exact"
-          }
-        },
+        "specs": {},
         "eras": []
       }
     ],
-    "generationWarning": "This record is limited to the cited specification snapshot; do not assume adjacent model years are identical."
+    "generationWarning": "Do not estimate this row. Identify the HIN/model plate or exact factory model first."
   },
   {
     "id": "boat:Sylvan | Pro Select Dual 16",
@@ -33707,7 +34563,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Select Dual 16",
     "displayName": "Sylvan | Pro Select Dual 16",
-    "subtitle": "1997 exact cited specification; other advertised years unresolved",
+    "subtitle": "1996 official archive-catalog snapshot; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 2500,
     "highPrice": 5000,
@@ -33722,7 +34578,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 exact cited specification; other advertised years unresolved"
+        "value": "1996 official archive-catalog snapshot; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -33830,18 +34686,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official 1996 archive snapshot retained; other years remain no-spec/no-price."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Select Dual 16:gen:1997",
-        "label": "1997 cited specification snapshot",
-        "startYear": 1997,
-        "endYear": 1997,
-        "status": "cited-snapshot",
-        "specificationBasis": "1997 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Sylvan | Pro Select Dual 16:gen:1996-catalog",
+        "label": "1996 archive-catalog specification snapshot",
+        "startYear": 1996,
+        "endYear": 1996,
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official Sylvan 1996 aluminum-boats archive catalog; no adjacent year is inferred.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
         "specs": {
           "Length": {
@@ -33911,21 +34767,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Select Dual 16:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Sylvan | Pro Select Dual 16:value:1996",
+            "label": "1996",
+            "startYear": 1996,
+            "endYear": 1996,
             "low": 2500,
             "high": 5000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Sylvan | Pro Select Dual 16:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 1999,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1996 factory catalog basis",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
@@ -33942,7 +34798,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Select Dual 17",
     "displayName": "Sylvan | Pro Select Dual 17",
-    "subtitle": "1997 exact cited specification; other advertised years unresolved",
+    "subtitle": "1996 official archive-catalog snapshot; other years unresolved",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 6000,
@@ -33957,7 +34813,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 exact cited specification; other advertised years unresolved"
+        "value": "1996 official archive-catalog snapshot; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -34065,18 +34921,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official 1996 archive snapshot retained; other years remain no-spec/no-price."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Select Dual 17:gen:1997",
-        "label": "1997 cited specification snapshot",
-        "startYear": 1997,
-        "endYear": 1997,
-        "status": "cited-snapshot",
-        "specificationBasis": "1997 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Sylvan | Pro Select Dual 17:gen:1996-catalog",
+        "label": "1996 archive-catalog specification snapshot",
+        "startYear": 1996,
+        "endYear": 1996,
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official Sylvan 1996 aluminum-boats archive catalog; no adjacent year is inferred.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
         "specs": {
           "Length": {
@@ -34146,21 +35002,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Select Dual 17:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Sylvan | Pro Select Dual 17:value:1996",
+            "label": "1996",
+            "startYear": 1996,
+            "endYear": 1996,
             "low": 3000,
             "high": 6000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Sylvan | Pro Select Dual 17:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 1999,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1996 factory catalog basis",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
@@ -34177,12 +35033,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Sport 1600 DC",
     "displayName": "Sylvan | Pro Sport 1600 DC",
-    "subtitle": "2007 exact cited specification; other advertised years unresolved",
+    "subtitle": "2007–2010 documented factory generation; other years unresolved",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 6500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
       "source": "https://www.craigslist.org/view/d/eveleth-1997-sylvan-17-pro-select-boat/ftBQBFgfbNAWprbFjiMFCe",
@@ -34192,7 +35048,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007 exact cited specification; other advertised years unresolved"
+        "value": "2007–2010 documented factory generation; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -34284,7 +35140,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 1600 was missing while the 1700 and 1900 were represented. It is a legitimate compact full-windshield boat with better depth and beam than many 16-foot boats. Still, it has less reserve and working room than the 1700."
+        "value": "The 2007–2010 factory tables repeat the same core specification set."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -34300,110 +35156,108 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official Sylvan annual tables reconciled for the documented years."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Sport 1600 DC:gen:2007",
-        "label": "2007 cited specification snapshot",
+        "id": "boat:Sylvan | Pro Sport 1600 DC:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Sylvan | Pro Sport 1600 DC:gen:2007-2010",
+        "label": "2007–2010 factory generation",
         "startYear": 2007,
-        "endYear": 2007,
-        "status": "cited-snapshot",
-        "specificationBasis": "2007 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+        "endYear": 2010,
+        "status": "factory-documented-generation",
+        "specificationBasis": "The 2007, 2008, 2009 and 2010 tables repeat the core specification.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "16'6\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "88\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,080 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "35\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "Deep-V; angle not stated",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "20\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Width": {
             "value": "85\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "90",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "5",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,300 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "24 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.080\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.076\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Gull Wing deep-V; 0.080-inch ribs",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Sport 1600 DC:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Pro Sport 1600 DC:value:2007-2010",
+            "label": "2007–2010",
+            "startYear": 2007,
+            "endYear": 2010,
             "low": 3500,
             "high": 6500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
         ]
-      },
-      {
-        "id": "boat:Sylvan | Pro Sport 1600 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2006–2008; 2007 basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller)",
@@ -34412,12 +35266,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Sport 1700 DC (Primary; not Sport Troller)",
     "displayName": "Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller)",
-    "subtitle": "2008 exact cited specification; other advertised years unresolved",
+    "subtitle": "2007–2008 and 2009–2010 factory generations; other years unresolved",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 7500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
       "source": "https://www.craigslist.org/view/d/eveleth-1997-sylvan-17-pro-select-boat/ftBQBFgfbNAWprbFjiMFCe",
@@ -34427,7 +35281,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact cited specification; other advertised years unresolved"
+        "value": "2007–2008 and 2009–2010 factory generations; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -34519,7 +35373,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Good comfort/fishing balance and a real full windshield. Do not confuse it with the much smaller open Sport Troller."
+        "value": "Factory tables show a 2009 horsepower or side-gauge change; the two specification sets are separated."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -34535,110 +35389,188 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official Sylvan annual tables reconciled for the documented years."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:2008",
-        "label": "2008 cited specification snapshot",
-        "startYear": 2008,
+        "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:2007-2008",
+        "label": "2007–2008 factory generation",
+        "startYear": 2007,
         "endYear": 2008,
-        "status": "cited-snapshot",
-        "specificationBasis": "2008 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-documented-generation",
+        "specificationBasis": "2007 and 2008 factory tables.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "17'1\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "91\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,220 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "35\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "Gull Wing deep-V; angle not stated",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "20\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Width": {
             "value": "90\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "135",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "5",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,350 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "31 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.100\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.086\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):value:2007-2008",
+            "label": "2007–2008",
+            "startYear": 2007,
+            "endYear": 2008,
             "low": 4500,
             "high": 7500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf"
         ]
       },
       {
-        "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2007–2009 verified",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:2009-2010",
+        "label": "2009–2010 factory generation",
+        "startYear": 2009,
+        "endYear": 2010,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2009 and 2010 factory tables.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,220 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "140",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,350 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "31 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.100-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):value:2009-2010",
+            "label": "2009–2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 5500,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary)",
@@ -34647,12 +35579,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Sport 1900 DC (Secondary; 1700 is Primary)",
     "displayName": "Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary)",
-    "subtitle": "2008 exact cited specification; other advertised years unresolved",
+    "subtitle": "2007–2008 and 2009–2010 factory generations; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 5500,
     "highPrice": 9000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
       "source": "https://www.craigslist.org/view/d/eveleth-1997-sylvan-17-pro-select-boat/ftBQBFgfbNAWprbFjiMFCe",
@@ -34662,7 +35594,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact cited specification; other advertised years unresolved"
+        "value": "2007–2008 and 2009–2010 factory generations; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -34754,7 +35686,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Strong big-water geometry but outside the preferred size/budget sweet spot."
+        "value": "Factory tables show a 2009 horsepower or side-gauge change; the two specification sets are separated."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -34770,110 +35702,188 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official Sylvan annual tables reconciled for the documented years."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:2008",
-        "label": "2008 cited specification snapshot",
-        "startYear": 2008,
+        "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:2007-2008",
+        "label": "2007–2008 factory generation",
+        "startYear": 2007,
         "endYear": 2008,
-        "status": "cited-snapshot",
-        "specificationBasis": "2008 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-documented-generation",
+        "specificationBasis": "2007 and 2008 factory tables.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "18'10\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "96\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,450 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "38\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "27\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Width": {
             "value": "96\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "175",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "8",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,750 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "40 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.125\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.086\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Gull Wing deep-V; 0.125-inch ribs",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):value:2007-2008",
+            "label": "2007–2008",
+            "startYear": 2007,
+            "endYear": 2008,
             "low": 5500,
             "high": 9000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf"
         ]
       },
       {
-        "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2007–2009",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:2009-2010",
+        "label": "2009–2010 factory generation",
+        "startYear": 2009,
+        "endYear": 2010,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2009 and 2010 factory tables.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,450 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "38\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "27\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "96\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,750 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.125\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Gull Wing deep-V; 0.125-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):value:2009-2010",
+            "label": "2009–2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 6500,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport)",
@@ -34882,12 +35892,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport)",
     "displayName": "Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport)",
-    "subtitle": "2008 exact cited specification; other advertised years unresolved",
+    "subtitle": "2008 narrow hull and 2009–2010 wide-hull generations; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 1200,
     "highPrice": 2500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2023_09/IMG_1493.thumb.jpeg.cb9000e8aaef7fe03fe7ba9c0e3c80fd.jpeg",
       "source": "https://www.lakeontariounited.com/fishing-hunting/topic/101628-sylvan-sea-troller-165%E2%80%99/",
@@ -34897,7 +35907,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact cited specification; other advertised years unresolved"
+        "value": "2008 narrow hull and 2009–2010 wide-hull generations; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -34989,7 +35999,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The brochure resolves the confusion: the 1600 Sport Troller is narrow, light and tiller-operated. The 81-inch/700-lb figures belong to the Select, not the Sport Troller."
+        "value": "This is not a minor annual revision: the 2009 Sport Troller changes from a 69-inch, 555-pound, 40-hp boat to an 81-inch, 700-pound, 60-hp boat."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -35005,110 +36015,184 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official 2008–2010 tables establish a complete hull redesign."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
         "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:2008",
-        "label": "2008 cited specification snapshot",
+        "label": "2008 narrow factory specification",
         "startYear": 2008,
         "endYear": 2008,
-        "status": "cited-snapshot",
-        "specificationBasis": "2008 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-exact",
+        "specificationBasis": "2008 narrow semi-V factory table.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "16'10\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "69\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "555 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "33\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "22\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "20\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Width": {
             "value": "59\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "40",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "5",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,100 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "Portable tank",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.064\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.060\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
             "value": "Riveted semi-V aluminum",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:2008",
+            "label": "2008",
+            "startYear": 2008,
+            "endYear": 2008,
             "low": 1200,
             "high": 2500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
-        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s; 2008 basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:2009-2010",
+        "label": "2009–2010 wide-hull factory generation",
+        "startYear": 2009,
+        "endYear": 2010,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2009 and 2010 tables repeat the redesigned wider hull.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "81\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "700 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "33\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "74\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "60",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,250 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "Portable tank",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.064\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted semi-V aluminum; 0.080-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:2009-2010",
+            "label": "2009–2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 1800,
+            "high": 3200,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Sylvan | Super Sportster 16 OB",
@@ -35117,7 +36201,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Super Sportster 16 OB",
     "displayName": "Sylvan | Super Sportster 16 OB",
-    "subtitle": "1997 exact cited specification; other advertised years unresolved",
+    "subtitle": "1989 official factory-catalog snapshot; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 1500,
     "highPrice": 3500,
@@ -35132,7 +36216,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 exact cited specification; other advertised years unresolved"
+        "value": "1989 official factory-catalog snapshot; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -35240,18 +36324,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "False 1997 attribution removed; 1989 official snapshot retained."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Super Sportster 16 OB:gen:1997",
-        "label": "1997 cited specification snapshot",
-        "startYear": 1997,
-        "endYear": 1997,
-        "status": "cited-snapshot",
-        "specificationBasis": "1997 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Sylvan | Super Sportster 16 OB:gen:1989",
+        "label": "1989 factory catalog specification",
+        "startYear": 1989,
+        "endYear": 1989,
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official 1989 Sylvan catalog. The prior 1997 label was unsupported by its cited source.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
         "specs": {
           "Length": {
@@ -35321,21 +36405,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Super Sportster 16 OB:value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
+            "id": "boat:Sylvan | Super Sportster 16 OB:value:1989",
+            "label": "1989",
+            "startYear": 1989,
             "endYear": 1989,
             "low": 1500,
             "high": 3500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Sylvan | Super Sportster 16 OB:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1980,
-        "endYear": 1989,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989 factory basis",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
@@ -35352,7 +36436,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Super Sportster 17 OB",
     "displayName": "Sylvan | Super Sportster 17 OB",
-    "subtitle": "1997 exact cited specification; other advertised years unresolved",
+    "subtitle": "1989 official factory-catalog snapshot; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 1800,
     "highPrice": 3800,
@@ -35367,7 +36451,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 exact cited specification; other advertised years unresolved"
+        "value": "1989 official factory-catalog snapshot; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -35475,18 +36559,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "False 1997 attribution removed; 1989 official snapshot retained."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Super Sportster 17 OB:gen:1997",
-        "label": "1997 cited specification snapshot",
-        "startYear": 1997,
-        "endYear": 1997,
-        "status": "cited-snapshot",
-        "specificationBasis": "1997 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Sylvan | Super Sportster 17 OB:gen:1989",
+        "label": "1989 factory catalog specification",
+        "startYear": 1989,
+        "endYear": 1989,
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official 1989 Sylvan catalog. The prior 1997 label was unsupported by its cited source.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
         "specs": {
           "Length": {
@@ -35556,21 +36640,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Super Sportster 17 OB:value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
+            "id": "boat:Sylvan | Super Sportster 17 OB:value:1989",
+            "label": "1989",
+            "startYear": 1989,
             "endYear": 1989,
             "low": 1800,
             "high": 3800,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Sylvan | Super Sportster 17 OB:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1980,
-        "endYear": 1989,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989 factory basis",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
@@ -35587,7 +36671,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Super Sportster 18 OB",
     "displayName": "Sylvan | Super Sportster 18 OB",
-    "subtitle": "1997 exact cited specification; other advertised years unresolved",
+    "subtitle": "1989 official factory-catalog snapshot; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 2000,
     "highPrice": 4200,
@@ -35602,7 +36686,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 exact cited specification; other advertised years unresolved"
+        "value": "1989 official factory-catalog snapshot; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -35710,18 +36794,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "False 1997 attribution removed; 1989 official snapshot retained."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Super Sportster 18 OB:gen:1997",
-        "label": "1997 cited specification snapshot",
-        "startYear": 1997,
-        "endYear": 1997,
-        "status": "cited-snapshot",
-        "specificationBasis": "1997 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Sylvan | Super Sportster 18 OB:gen:1989",
+        "label": "1989 factory catalog specification",
+        "startYear": 1989,
+        "endYear": 1989,
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official 1989 Sylvan catalog. The prior 1997 label was unsupported by its cited source.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
         "specs": {
           "Length": {
@@ -35791,21 +36875,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Super Sportster 18 OB:value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
+            "id": "boat:Sylvan | Super Sportster 18 OB:value:1989",
+            "label": "1989",
+            "startYear": 1989,
             "endYear": 1989,
             "low": 2000,
             "high": 4200,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Sylvan | Super Sportster 18 OB:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1980,
-        "endYear": 1989,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989 factory basis",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
@@ -35822,12 +36906,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Viper (bass-boat series; no walk-through windshield)",
     "displayName": "Sylvan | Viper (bass-boat series; no walk-through windshield)",
-    "subtitle": "Multiple 1990s–2020s generations",
+    "subtitle": "Family name spanning multiple bass-boat models; not a walk-through model",
     "badge": "Secondary",
-    "lowPrice": 2500,
-    "highPrice": 11000,
+    "lowPrice": null,
+    "highPrice": null,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
+    "sourceUrl": "https://sylvanmarine.com/resources/catalog-archive/",
     "image": {
       "url": "https://i.ytimg.com/vi/3bN8sprHamY/hqdefault.jpg",
       "source": "https://www.youtube.com/watch?v=3bN8sprHamY",
@@ -35837,7 +36921,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "Multiple 1990s–2020s generations"
+        "value": "Family name spanning multiple bass-boat models; not a walk-through model"
       },
       {
         "label": "Recommendation",
@@ -35945,24 +37029,24 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "No exact cited model-year snapshot could be established automatically; specifications and pricing are withheld pending research."
+        "value": "Family-level rejection; no specifications or price."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Viper (bass-boat series; no walk-through windshield):gen:unresolved",
-        "label": "Production years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Multiple 1990s–2020s generations",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
+        "id": "boat:Sylvan | Viper (bass-boat series; no walk-through windshield):gen:family-rejection",
+        "label": "Viper family rejection",
+        "startYear": null,
+        "endYear": null,
+        "status": "family-umbrella-rejection",
+        "specificationBasis": "Viper is not one exact hull and does not meet the required walk-through-windshield layout.",
+        "sourceUrl": "https://sylvanmarine.com/resources/catalog-archive/",
         "specs": {},
         "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Do not use a blended family value or specification. This row is retained only to reject seller shorthand."
   },
   {
     "id": "boat:Tracker | Pro Guide V-175 WT",
@@ -38104,7 +39188,7 @@ window.BOATBUILDER_BOATS = [
     "lowPrice": 5000,
     "highPrice": 8500,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://paperzz.com/doc/9019180/2013-starweld-fishing-catalog",
+    "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
     "image": null,
     "details": [
       {
@@ -38217,7 +39301,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "2013 snapshot retained as secondary-verified; no adjacent year or current model substitution."
       }
     ],
     "valueEras": [],
@@ -38227,8 +39311,8 @@ window.BOATBUILDER_BOATS = [
         "label": "2013 cited specification snapshot",
         "startYear": 2013,
         "endYear": 2013,
-        "status": "cited-snapshot",
-        "specificationBasis": "2013 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "secondary-verified",
+        "specificationBasis": "2013 model-specific catalog transcription; official Starweld archive confirms legacy catalogs exist, but the current archive file was not machine-readable in this pass.",
         "sourceUrl": "https://paperzz.com/doc/9019180/2013-starweld-fishing-catalog",
         "specs": {
           "Length": {
@@ -38298,21 +39382,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | 1700 DC / WT:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
+            "id": "boat:Starweld | 1700 DC / WT:value:2013",
+            "label": "2013",
+            "startYear": 2013,
+            "endYear": 2013,
             "low": 5000,
             "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starweld | 1700 DC / WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010–2017; 2013–2014 factory-catalog basis",
         "sourceUrl": "https://paperzz.com/doc/9019180/2013-starweld-fishing-catalog",
@@ -39941,7 +41025,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
       }
     ],
     "valueEras": [],
@@ -39951,8 +41035,8 @@ window.BOATBUILDER_BOATS = [
         "label": "2006 cited specification snapshot",
         "startYear": 2006,
         "endYear": 2006,
-        "status": "cited-snapshot",
-        "specificationBasis": "2006 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -40022,30 +41106,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 176 DC:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Starcraft | Fishmaster 176 DC:value:2006",
+            "label": "2006",
+            "startYear": 2006,
+            "endYear": 2006,
             "low": 3500,
-            "high": 6000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Starcraft | Fishmaster 176 DC:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 5000,
             "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Fishmaster 176 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2009,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1999–2006 verified; 2006 specification basis",
         "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
@@ -40062,17 +41137,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Explorer 1600 DC",
     "displayName": "Sylvan | Explorer 1600 DC",
-    "subtitle": "2007 exact cited specification; other advertised years unresolved",
+    "subtitle": "2007–2010 and 2011–2012 factory generations; other years unresolved",
     "badge": "Secondary",
     "lowPrice": 2500,
     "highPrice": 7000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://sylvanmarine.com/sites/sylvanmarine.com/files/2007-Sylvan-Fishing-Catalog.pdf",
+    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007 exact cited specification; other advertised years unresolved"
+        "value": "2007–2010 and 2011–2012 factory generations; other years unresolved"
       },
       {
         "label": "Recommendation",
@@ -40164,7 +41239,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Confirmed omitted compact Explorer dual-console model. It is a genuine full-windshield boat, but the 82-inch beam, 880-pound hull and 21-inch interior depth provide less Lake Superior reserve than the wider 17-foot Primary boats. Do not merge it with Explorer side-console models or the larger Explorer Sport families."
+        "value": "The 2011 hull table increases DC dry weight from 880 to 900 pounds; 2012 also publishes 19-degree deadrise."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -40180,119 +41255,194 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Official Sylvan annual tables reconciled for 2007–2012."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Explorer 1600 DC:gen:2007",
-        "label": "2007 cited specification snapshot",
+        "id": "boat:Sylvan | Explorer 1600 DC:gen:other-years",
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
+        "status": "unresolved",
+        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
+        "specs": {},
+        "eras": []
+      },
+      {
+        "id": "boat:Sylvan | Explorer 1600 DC:gen:2007-2010",
+        "label": "2007–2010 factory generation",
         "startYear": 2007,
-        "endYear": 2007,
-        "status": "cited-snapshot",
-        "specificationBasis": "2007 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://sylvanmarine.com/sites/sylvanmarine.com/files/2007-Sylvan-Fishing-Catalog.pdf",
+        "endYear": 2010,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2007 through 2010 factory tables repeat the 880-pound DC specification.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "16'2\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "82\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "880 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "33\" maximum depth",
-            "confidence": "cited-source-exact"
+            "value": "33\"",
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
-            "value": "21\" interior depth",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "Modified-V; angle not published",
-            "confidence": "catalog-representative"
+            "value": "21\"",
+            "confidence": "factory-exact"
           },
           "Transom Height": {
-            "value": "20\" long-shaft transom",
-            "confidence": "cited-source-exact"
+            "value": "20\"",
+            "confidence": "factory-exact"
           },
           "Transom Width": {
             "value": "77\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "75",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "5",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,275 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "24 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": "0.080\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": "0.070\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted aluminum modified-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted modified-V aluminum; 0.080-inch ribs",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Explorer 1600 DC:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Explorer 1600 DC:value:2007-2010",
+            "label": "2007–2010",
+            "startYear": 2007,
+            "endYear": 2010,
             "low": 2500,
             "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Sylvan | Explorer 1600 DC:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
         ]
       },
       {
-        "id": "boat:Sylvan | Explorer 1600 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2004–2012 verified; 2007 factory-catalog basis",
-        "sourceUrl": "https://sylvanmarine.com/sites/sylvanmarine.com/files/2007-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Explorer 1600 DC:gen:2011-2012",
+        "label": "2011–2012 factory generation",
+        "startYear": 2011,
+        "endYear": 2012,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2011 and 2012 list 900 pounds; 2012 publishes 19-degree deadrise.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'2\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "900 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "33\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "21\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "77\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,275 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.070\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted modified-V aluminum; 0.080-inch ribs",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Explorer 1600 DC:value:2011-2012",
+            "label": "2011–2012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 4500,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2011-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
   },
   {
     "id": "boat:Sylvan | Pro Fish 1700 DC",
@@ -40419,7 +41569,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "2005 official archive snapshot retained; no adjacent year is inferred."
       }
     ],
     "valueEras": [],
@@ -40429,8 +41579,8 @@ window.BOATBUILDER_BOATS = [
         "label": "2005 cited specification snapshot",
         "startYear": 2005,
         "endYear": 2005,
-        "status": "cited-snapshot",
-        "specificationBasis": "2005 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-catalog-snapshot",
+        "specificationBasis": "2005 official Sylvan archive-catalog snapshot.",
         "sourceUrl": "https://sylvanmarine.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -40500,21 +41650,21 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Fish 1700 DC:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Sylvan | Pro Fish 1700 DC:value:2005",
+            "label": "2005",
+            "startYear": 2005,
+            "endYear": 2005,
             "low": 4000,
             "high": 7500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
           }
         ]
       },
       {
         "id": "boat:Sylvan | Pro Fish 1700 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
+        "label": "Other production years — unresolved",
+        "startYear": null,
+        "endYear": null,
         "status": "unresolved",
         "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2003–2005 verified; 2005 specification basis",
         "sourceUrl": "https://sylvanmarine.com/resources/legacy-catalogs/",

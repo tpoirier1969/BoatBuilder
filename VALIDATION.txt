@@ -1,0 +1,16 @@
+Validation performed locally against the repaired 2026-07-29 baseline:
+- data/boats.js JavaScript syntax: PASS
+- tests/qa.mjs JavaScript syntax: PASS
+- 170 boat records present: PASS
+- 170 unique stable boat IDs: PASS
+- 351 unique generation IDs: PASS
+- Sylvan record count 16: PASS
+- Starcraft record count 14: PASS
+- Starweld record count 3: PASS
+- 81 generation rows across the three target manufacturers
+- 33 semantic boat-record changes, all confined to Sylvan, Starcraft, and Starweld: PASS
+- Every unresolved generation in the entire catalog has zero specifications and zero pricing: PASS
+- Every target generation-specific price era stays within its generation years: PASS
+- Focused checks for Sylvan Sport Troller, Sylvan Adventurer, Sylvan Viper, Starcraft Superfisherman 186, Starcraft STX 2050, and Starweld Fusion 16: PASS
+
+The complete repository QA command was not run because this handoff workspace contains only the changed files, not the full repository. The updated tests/qa.mjs passes syntax checking and the batch-specific data assertions were executed independently.

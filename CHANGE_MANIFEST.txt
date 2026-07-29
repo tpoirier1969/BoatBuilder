@@ -1,15 +1,30 @@
-BoatBuilder handoff repair package — 2026-07-29
+BoatBuilder Sylvan / Starcraft / Starweld batch — 2026-07-29
 
-Files to copy over the repository root:
+Copy these repository files over the repository root:
 - data/boats.js
 - tests/qa.mjs
 - research/catalog-generation-audit-status-2026-07-29.md
-- research/handoff-audit-2026-07-29.md (new)
+- research/audits/sylvan-app-model-audit-2026-07-29.md
+- research/audits/starcraft-starweld-app-model-audit-2026-07-29.md
 
-Purpose:
-- Restore the un-applied Alumacraft Dominator/Navigator 2006–2012 generation work.
-- Add QA coverage that would catch that regression.
-- Correct stale/contradictory manufacturer progress notes.
-- Record the handoff findings.
+Handoff documentation included in the ZIP:
+- CHANGE_MANIFEST.txt
+- VALIDATION.txt
 
-No repository files were changed directly.
+Scope:
+- 16 Sylvan app records
+- 14 Starcraft app records
+- 3 Starweld app records
+
+Key changes:
+- Split documented Sylvan 2007–2012 generations.
+- Expose the complete 2009 Sport Troller hull redesign.
+- Correct false 1997 labels attached to 1989/1996 Sylvan archive sources.
+- Convert Sylvan seller/family shorthand to no-spec/no-price rejection rows.
+- Split documented 2014/2015 Starcraft changes.
+- Replace approximate Superfisherman 186 data with exact factory values.
+- Remove cross-decade price inheritance from Starcraft and Starweld snapshots.
+- Downgrade retired-link Starweld 2021 records to conservative factory-catalog snapshots and point the app to the live owner-resource archive.
+- Add focused regression checks.
+
+No repository writes were performed by ChatGPT.
