@@ -113,7 +113,7 @@ const alumacraft = catalog.items.filter(entry => entry.categoryId === "boats" &&
 assert.equal(alumacraft.length, 17, "Focused Alumacraft app-model scope changed without updating the audit");
 assert.ok(
   alumacraft.every(entry => Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1),
-  "One or more Alumacraft app records lacks canonical design-generation metadata"
+  "One or more Alumacraft app record lacks canonical design-generation metadata"
 );
 assert.ok(
   alumacraft.every(entry => Array.isArray(entry.valueEras) && entry.valueEras.length === 0),
@@ -172,7 +172,7 @@ assert.match(magnumCs.generationWarning || "", /not one exact boat model/i, "Mag
 const allBoats = catalog.items.filter(entry => entry.categoryId === "boats");
 assert.ok(
   allBoats.every(entry => Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1),
-  "One or more app boat records lacks canonical design-generation metadata"
+  "One or more app boat record lacks canonical design-generation metadata"
 );
 for (const entry of allBoats) {
   for (const generation of entry.designGenerations) {
