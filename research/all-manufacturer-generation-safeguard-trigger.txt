@@ -1,0 +1,1 @@
+Run the catalog-wide generation safeguard migration against canonical main data.
