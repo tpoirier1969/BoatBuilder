@@ -1,1 +1,1 @@
-Run the catalog-wide generation safeguard migration against canonical main data, including existing-generation value-era normalization.
+Run the detailed Alumacraft Dominator and Navigator 2006-2012 generation reconciliation against canonical main data.
