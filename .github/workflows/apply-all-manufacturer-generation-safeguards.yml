@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - .github/workflows/apply-all-manufacturer-generation-safeguards.yml
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: write
@@ -33,5 +35,3 @@ jobs:
           git commit -m 'Safeguard generations across all boat manufacturers'
           git pull --rebase origin main
           git push
-
-# Triggered 2026-07-29
