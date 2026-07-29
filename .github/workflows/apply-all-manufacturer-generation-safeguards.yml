@@ -25,6 +25,8 @@ jobs:
           node-version: 22
       - name: Apply safeguards
         run: node scripts/apply_all_manufacturer_generation_safeguards.mjs
+      - name: Normalize existing generation value eras
+        run: node scripts/normalize_existing_generation_value_eras.mjs
       - name: Run QA
         run: node tests/qa.mjs
       - name: Commit canonical data and audit
