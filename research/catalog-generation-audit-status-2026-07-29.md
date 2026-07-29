@@ -40,12 +40,27 @@ This batch is a catalog-wide safety correction, not a claim that every historica
 | Triton | 2 |
 | Ultracraft (Misty Harbor) | 2 |
 
+## Detailed manufacturer passes completed
+
+- Lund: 28 app records dispositioned and generation-coded.
+- Alumacraft: 17 app records safeguarded; Dominator 165/175/185 and Navigator 175 reconciled through the documented 2006–2012 catalogs.
+- Crestliner: 15 app records audited; source-year errors and major same-name hull substitutions corrected.
+
 ## Next research order
 
-1. Finish Alumacraft Dominator and Navigator year-by-year reconciliation.
-2. Crestliner app models.
-3. Smoker Craft, Starcraft, and Sylvan app models.
+1. Smoker Craft app models.
+2. Sylvan app models.
+3. Starcraft and Starweld app models.
 4. MirroCraft and Sea Nymph app models.
-5. Princecraft and remaining regional manufacturers.
+5. Princecraft, Lowe, Tracker, G3, Polar Kraft, and remaining regional manufacturers.
 
 Each detailed pass replaces unresolved spans with verified generation boundaries and compatible market eras. Stable record IDs remain unchanged unless the record itself proves to be a mixed model identity.
+
+## Detailed manufacturer audit progress
+
+- Lund: 28 app records dispositioned.
+- Alumacraft: 17 app records dispositioned; detailed Dominator/Navigator year work preserved.
+- Crestliner: 15 app records fully audited in the current local batch.
+- Smoker Craft: 18 app records fully audited in the current local batch.
+
+**Current completed local handoff batch: 33 records across Crestliner and Smoker Craft.**
