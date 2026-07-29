@@ -1,66 +1,55 @@
 # BoatBuilder all-manufacturer generation audit status — 2026-07-29
 
-## Scope completed in this batch
+## Current canonical state
 
-- Canonical boat records checked: **170**.
-- Existing researched generation records preserved: **45**.
-- New exact cited snapshots created: **120**.
-- New unresolved no-spec/no-price spans created: **123**.
-- Every boat record now has canonical design-generation metadata.
-- Unresolved generations contain neither inherited hull specifications nor inherited price ranges.
+- Canonical boat records: **170**.
+- Every boat record has canonical `designGenerations` metadata.
+- Every unresolved generation is specification-free and price-free.
+- Detailed app-record passes completed: **Lund (28), Alumacraft (17), Crestliner (15), and Smoker Craft (18)**.
+- “Completed” means every record currently present in the app has a researched disposition. It does not mean every historical model or every production year has been cataloged.
 
-This batch is a catalog-wide safety correction, not a claim that every historical redesign boundary has been researched. It prevents the app from presenting one cited model-year specification as fact for every year in a broad record while detailed factory-catalog reconciliation continues.
+## Detailed work preserved
+
+- **Lund:** documented redesigns and materially different factory snapshots are separated; unresolved transition years do not inherit specifications or prices.
+- **Alumacraft:** all 17 app records are safeguarded. Dominator 165/175/185 and Navigator 175 are reconciled against the 2006–2012 factory catalogs, including the 2011 Dominator 185 introduction and the 2012 change to the Competitor name.
+- **Crestliner:** all 15 app records are dispositioned; source-year errors, false model identities, and major same-name hull substitutions are corrected.
+- **Smoker Craft:** all 18 app records are dispositioned; aliases and unsupported exact-year claims are rejected or narrowed, and documented redesigns are split.
 
 ## Manufacturer coverage
 
-| Manufacturer | App records |
-|---|---:|
-| Alumacraft | 17 |
-| Crestliner | 15 |
-| Fish-Rite | 1 |
-| Fisher | 3 |
-| G3 | 3 |
-| Hewescraft | 1 |
-| Legend | 3 |
-| Lowe | 6 |
-| Lund | 28 |
-| MirroCraft | 7 |
-| MonArk | 2 |
-| North River | 1 |
-| Northwood | 1 |
-| Polar Kraft | 4 |
-| Princecraft | 9 |
-| Sea Nymph | 5 |
-| Smoker Craft | 18 |
-| Spectrum / Blue Fin | 1 |
-| Starcraft | 14 |
-| Starweld | 3 |
-| Sylvan | 16 |
-| Tracker | 8 |
-| Triton | 2 |
-| Ultracraft (Misty Harbor) | 2 |
-
-## Detailed manufacturer passes completed
-
-- Lund: 28 app records dispositioned and generation-coded.
-- Alumacraft: 17 app records safeguarded; Dominator 165/175/185 and Navigator 175 reconciled through the documented 2006–2012 catalogs.
-- Crestliner: 15 app records audited; source-year errors and major same-name hull substitutions corrected.
+| Manufacturer | App records | Detailed pass |
+|---|---:|---|
+| Alumacraft | 17 | Complete for current app records |
+| Crestliner | 15 | Complete for current app records |
+| Fish-Rite | 1 | Safety pass only |
+| Fisher | 3 | Safety pass only |
+| G3 | 3 | Safety pass only |
+| Hewescraft | 1 | Safety pass only |
+| Legend | 3 | Safety pass only |
+| Lowe | 6 | Safety pass only |
+| Lund | 28 | Complete for current app records |
+| MirroCraft | 7 | Safety pass only |
+| MonArk | 2 | Safety pass only |
+| North River | 1 | Safety pass only |
+| Northwood | 1 | Safety pass only |
+| Polar Kraft | 4 | Safety pass only |
+| Princecraft | 9 | Safety pass only |
+| Sea Nymph | 5 | Safety pass only |
+| Smoker Craft | 18 | Complete for current app records |
+| Spectrum / Blue Fin | 1 | Safety pass only |
+| Starcraft | 14 | Safety pass only |
+| Starweld | 3 | Safety pass only |
+| Sylvan | 16 | Safety pass only |
+| Tracker | 8 | Safety pass only |
+| Triton | 2 | Safety pass only |
+| Ultracraft (Misty Harbor) | 2 | Safety pass only |
 
 ## Next research order
 
-1. Smoker Craft app models.
-2. Sylvan app models.
-3. Starcraft and Starweld app models.
-4. MirroCraft and Sea Nymph app models.
-5. Princecraft, Lowe, Tracker, G3, Polar Kraft, and remaining regional manufacturers.
+1. Sylvan app models.
+2. Starcraft and Starweld app models.
+3. MirroCraft and Sea Nymph app models.
+4. Princecraft, Lowe, Tracker, G3, and Polar Kraft app models.
+5. Remaining regional manufacturers.
 
-Each detailed pass replaces unresolved spans with verified generation boundaries and compatible market eras. Stable record IDs remain unchanged unless the record itself proves to be a mixed model identity.
-
-## Detailed manufacturer audit progress
-
-- Lund: 28 app records dispositioned.
-- Alumacraft: 17 app records dispositioned; detailed Dominator/Navigator year work preserved.
-- Crestliner: 15 app records fully audited in the current local batch.
-- Smoker Craft: 18 app records fully audited in the current local batch.
-
-**Current completed local handoff batch: 33 records across Crestliner and Smoker Craft.**
+Each detailed pass should replace unresolved spans only when factory catalogs establish defensible generation boundaries. Stable record IDs should remain unchanged unless the record itself proves to combine incompatible model identities.

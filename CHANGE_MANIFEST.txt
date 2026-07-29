@@ -1,0 +1,15 @@
+BoatBuilder handoff repair package — 2026-07-29
+
+Files to copy over the repository root:
+- data/boats.js
+- tests/qa.mjs
+- research/catalog-generation-audit-status-2026-07-29.md
+- research/handoff-audit-2026-07-29.md (new)
+
+Purpose:
+- Restore the un-applied Alumacraft Dominator/Navigator 2006–2012 generation work.
+- Add QA coverage that would catch that regression.
+- Correct stale/contradictory manufacturer progress notes.
+- Record the handoff findings.
+
+No repository files were changed directly.

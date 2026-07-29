@@ -132,6 +132,31 @@ for (const { entry, generation } of alumacraftUnresolved) {
   assert.ok(entry.designGenerations.some(candidate => candidate.status !== "unresolved"), `${entry.id} lacks its exact factory snapshot`);
 }
 
+// Alumacraft Dominator/Navigator detailed factory audit.
+const dom165Audit = item("boat:Alumacraft | Dominator 165 Sport");
+assert.equal(dom165Audit.designGenerations.length, 4, "Dominator 165 factory snapshots are incomplete");
+assert.equal(dom165Audit.designGenerations.find(g => g.startYear === 2006)?.specs?.Length?.value, "16'7\"", "2006 Dominator 165 length is wrong");
+assert.equal(dom165Audit.designGenerations.find(g => g.startYear === 2007)?.specs?.["Bottom Thickness"]?.value, "0.100\"", "2007 Dominator 165 plating is wrong");
+assert.equal(dom165Audit.designGenerations.find(g => g.startYear === 2008)?.endYear, 2011, "Dominator 165 2008-2011 span is missing");
+
+const dom175Audit = item("boat:Alumacraft | Dominator 175 Sport");
+assert.equal(dom175Audit.designGenerations.length, 5, "Dominator 175 factory snapshots are incomplete");
+assert.equal(dom175Audit.designGenerations.find(g => g.startYear === 2006)?.specs?.Length?.value, "17'5\"", "2006 Dominator 175 length is wrong");
+assert.equal(dom175Audit.designGenerations.find(g => g.startYear === 2007)?.specs?.["Max / Bow Depth"]?.value, "44\"", "2007 Dominator 175 depth is wrong");
+assert.equal(dom175Audit.designGenerations.find(g => g.startYear === 2011)?.specs?.Persons?.value, "6", "2011 Dominator 175 capacity change is missing");
+
+const dom185Audit = item("boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary)");
+assert.equal(dom185Audit.designGenerations.length, 1, "Dominator 185 should be limited to its 2011 factory model");
+assert.equal(dom185Audit.designGenerations[0].startYear, 2011, "Dominator 185 does not start in 2011");
+assert.doesNotMatch(dom185Audit.subtitle, /2000s/i, "Dominator 185 retained the false 2000s identity");
+
+const nav175Audit = item("boat:Alumacraft | Navigator Sport 175");
+assert.equal(nav175Audit.designGenerations.length, 5, "Navigator 175 factory snapshots are incomplete");
+assert.equal(nav175Audit.designGenerations.find(g => g.startYear === 2006)?.specs?.Beam?.value, "93\"", "2006 Navigator beam is wrong");
+assert.equal(nav175Audit.designGenerations.find(g => g.startYear === 2007)?.specs?.Beam?.value, "95\"", "2007 Navigator redesign beam is wrong");
+assert.equal(nav175Audit.designGenerations.find(g => g.startYear === 2011)?.specs?.["Capacity Weight"]?.value, "1,370 lb", "2011 Navigator capacity change is missing");
+assert.ok(nav175Audit.designGenerations.every(g => g.startYear !== 2012), "Navigator incorrectly inherited 2012 Competitor specifications");
+
 const competitor175 = item("boat:Alumacraft | Competitor 175 Sport / FSX");
 assert.equal(competitor175.designGenerations.length, 2, "Competitor 175 exact and unresolved generations are not separated");
 assert.match(
