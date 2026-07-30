@@ -4569,13 +4569,13 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Crestliner",
-    "model": "Fish Hawk 1700 WT",
-    "displayName": "Crestliner | Fish Hawk 1700 WT",
-    "subtitle": "2007–2008 factory-documented compact Fish Hawk hull; other years unresolved",
+    "model": "*Fish Hawk 1700 WT",
+    "displayName": "*Crestliner | Fish Hawk 1700 WT",
+    "subtitle": "2007–2010 documented Fish Hawk 1700 generation",
     "badge": "Primary",
     "lowPrice": 4000,
-    "highPrice": 7000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "highPrice": 8500,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2024-05/30/286040/crestliner-efi-four-stroke-3345992.jpg?itok=RbNd_rmi",
@@ -4586,7 +4586,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2008 factory-documented compact Fish Hawk hull; other years unresolved"
+        "value": "2007–2010 documented Fish Hawk 1700 generation"
       },
       {
         "label": "Recommendation",
@@ -4678,7 +4678,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Crestliner introduced the 1700 Fish Hawk for 2007. The 2007 and 2008 factory tables agree on the 17'2-inch, 91-inch-beam hull. This is a compact 12-degree fishing hull, not the same boat as later 1750 Fish Hawks."
+        "value": "The broad “other years” placeholder is removed. Surviving annual rosters close this 1700 generation at 2010."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -4694,18 +4694,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 2007 and 2008 Crestliner catalogs reconciled; unsupported adjacent years remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Fish Hawk 1700 WT:gen:2007-2008",
-        "label": "2007–2008 factory specification",
+        "id": "boat:Crestliner | Fish Hawk 1700 WT:gen:2007-2010",
+        "label": "2007–2010 factory-supported Fish Hawk 1700 generation",
         "startYear": 2007,
-        "endYear": 2008,
-        "status": "factory-documented-generation",
-        "specificationBasis": "2007 and 2008 Crestliner factory tables repeat the same core 1700 Fish Hawk dimensions, capacities and aluminum gauges.",
+        "endYear": 2010,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2007–2008 factory tables and 2009–2010 annual rosters repeat the 1,100-lb console / 1,050-lb tiller generation.",
         "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
         "specs": {
           "Length": {
@@ -4775,46 +4775,36 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Fish Hawk 1700 WT:value:2007-2008",
-            "label": "2007–2008",
+            "id": "boat:Crestliner | Fish Hawk 1700 WT:value:2007-2010",
+            "label": "2007-2010",
             "startYear": 2007,
-            "endYear": 2008,
+            "endYear": 2010,
             "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "high": 8500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ],
         "evidenceUrls": [
           "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2007.pdf",
           "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf"
         ]
-      },
-      {
-        "id": "boat:Crestliner | Fish Hawk 1700 WT:gen:other-years",
-        "label": "Other advertised years — exact hull generation unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
-        "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": true
   },
   {
     "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Crestliner",
-    "model": "Fish Hawk 1750 WT / full-windshield DC",
-    "displayName": "Crestliner | Fish Hawk 1750 WT / full-windshield DC",
-    "subtitle": "2007 factory full-windshield-capable 1750 hull; other years unresolved",
+    "model": "*Fish Hawk 1750 WT / full-windshield DC",
+    "displayName": "*Crestliner | Fish Hawk 1750 WT / full-windshield DC",
+    "subtitle": "2002–2026 documented model line; early, 2014 redesign and current AP-X generations separated",
     "badge": "Primary",
-    "lowPrice": 3000,
-    "highPrice": 9500,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "lowPrice": 3500,
+    "highPrice": 50000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2007.pdf",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2024-05/30/286040/crestliner-efi-four-stroke-3345992.jpg?itok=RbNd_rmi",
@@ -4825,7 +4815,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007 factory full-windshield-capable 1750 hull; other years unresolved"
+        "value": "2002–2026 documented model line; early, 2014 redesign and current AP-X generations separated"
       },
       {
         "label": "Recommendation",
@@ -4917,7 +4907,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2007 dual-console 1750 could be ordered with a full walk-through windshield. Do not assume every Fish Hawk 1750 had that windshield or that later same-name boats retained this 17'6-inch, 95-inch hull."
+        "value": "A core project target in the older generations. Verify the actual walk-through windshield and flooring package; later AP-X examples are usually far above budget."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -4933,19 +4923,40 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 2007 factory specification and full-windshield option verified; other model years remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2007",
-        "label": "2007 factory specification",
+        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2002-2006",
+        "label": "2002–2006 early Fish Hawk 1750 DC identity; detailed tables source-exhausted",
+        "startYear": 2002,
+        "endYear": 2006,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment establishes the 1750 Fish Hawk dual-console line by 2002. Complete early factory tables were not recovered; windshield configuration must be verified.",
+        "sourceUrl": "https://rnr-marine.com/Crestliner.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2002-2006",
+            "label": "2002-2006",
+            "startYear": 2002,
+            "endYear": 2006,
+            "low": 3500,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2007-2010",
+        "label": "2007–2010 1,100-lb factory-supported generation",
         "startYear": 2007,
-        "endYear": 2007,
-        "status": "factory-exact",
-        "specificationBasis": "2007 Crestliner factory catalog; dual-console configuration could be ordered with full walk-through windshield.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2007.pdf",
+        "endYear": 2010,
+        "status": "factory-supported-generation",
+        "specificationBasis": "The 2007 factory table and 2008–2010 annual rosters support the 1,100-lb full-windshield/console generation.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "17'6\"",
@@ -5014,29 +5025,275 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2007",
-            "label": "2007",
+            "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2007-2010",
+            "label": "2007-2010",
             "startYear": 2007,
-            "endYear": 2007,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "endYear": 2010,
+            "low": 4500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:other-years",
-        "label": "Other advertised Fish Hawk 1750 years — specifications, windshield and pricing unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
+        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2011-2013",
+        "label": "2011–2013 continuing 1,100-lb generation",
+        "startYear": 2011,
+        "endYear": 2013,
+        "status": "factory-supported-generation",
+        "specificationBasis": "Annual model rosters and model-specific references continue the 1,100-lb Fish Hawk 1750 WT through 2013. The compatible factory table remains the physical basis.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Length": {
+            "value": "17'6\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,100 lb console / 1,050 lb tiller",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "24\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "12°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "125 console / 90 tiller",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,360 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.090\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Welded Uni-Weld aluminum; 0.125-inch transom",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2011-2013",
+            "label": "2011-2013",
+            "startYear": 2011,
+            "endYear": 2013,
+            "low": 7000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2014-2017",
+        "label": "2014–2017 17-foot-6-inch / 1,480-lb generation",
+        "startYear": 2014,
+        "endYear": 2017,
+        "status": "secondary-supported-generation",
+        "specificationBasis": "2014 year-specific specifications and subsequent annual rosters establish the heavier 17-foot-6-inch generation.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {
+          "Length": {
+            "value": "17'6\"",
+            "confidence": "secondary-year-specific"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "secondary-year-specific"
+          },
+          "Dry Hull Weight": {
+            "value": "1,480 lb",
+            "confidence": "secondary-year-specific"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "secondary-year-specific"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "secondary-year-specific"
+          },
+          "Fuel Capacity": {
+            "value": "27 gal",
+            "confidence": "secondary-year-specific"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "factory-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2014-2017",
+            "label": "2014-2017",
+            "startYear": 2014,
+            "endYear": 2017,
+            "low": 13000,
+            "high": 24000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2018-2023",
+        "label": "2018–2023 carryover 1,480-lb generation; full annual tables source-exhausted",
+        "startYear": 2018,
+        "endYear": 2023,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters continue the 1,480-lb Fish Hawk 1750 WT. Complete annual option and certification tables were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {
+          "Length": {
+            "value": "17'6\"",
+            "confidence": "secondary-year-roster"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "model-family-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,480 lb",
+            "confidence": "secondary-year-roster"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "model-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2018-2023",
+            "label": "2018-2023",
+            "startYear": 2018,
+            "endYear": 2023,
+            "low": 19000,
+            "high": 36000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2024-2026",
+        "label": "2024–2026 current AP-X factory generation",
+        "startYear": 2024,
+        "endYear": 2026,
+        "status": "factory-current",
+        "specificationBasis": "Current Crestliner factory specification page; dry hull weight varies by console/windshield configuration.",
+        "sourceUrl": "https://www.crestliner.com/deep-v/fish-sport/fish-hawk/1750-fish-hawk.html",
+        "specs": {
+          "Length": {
+            "value": "17'7\"",
+            "confidence": "factory-current"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-current"
+          },
+          "Chine / Bottom Width": {
+            "value": "79\"",
+            "confidence": "factory-current"
+          },
+          "Dry Hull Weight": {
+            "value": "1,463–1,625 lb by SC/WT configuration",
+            "confidence": "factory-current"
+          },
+          "Max / Bow Depth": {
+            "value": "41\"",
+            "confidence": "factory-current"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "23\"",
+            "confidence": "factory-current"
+          },
+          "Deadrise": {
+            "value": "15°",
+            "confidence": "factory-current"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-current"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-current"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-current"
+          },
+          "Capacity Weight": {
+            "value": "1,710 lb",
+            "confidence": "factory-current"
+          },
+          "Fuel Capacity": {
+            "value": "27 gal",
+            "confidence": "factory-current"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-current"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.090\"",
+            "confidence": "factory-current"
+          },
+          "Construction": {
+            "value": "All-welded aluminum AP-X deep-V",
+            "confidence": "factory-current"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2024-2026",
+            "label": "2024-2026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 34000,
+            "high": 50000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": true
   },
   {
     "id": "boat:Crestliner | Fish Hawk 1850 WT",
@@ -5045,11 +5302,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Fish Hawk 1850 WT",
     "displayName": "Crestliner | Fish Hawk 1850 WT",
-    "subtitle": "2007 and 2014 documented Fish Hawk 1850 snapshots; transition years unresolved",
+    "subtitle": "2004–2026 documented model line; early, heavier carryover and current AP-X generations separated",
     "badge": "Primary",
     "lowPrice": 5500,
-    "highPrice": 12000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "highPrice": 60000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2007.pdf",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2024-05/30/286040/crestliner-efi-four-stroke-3345992.jpg?itok=RbNd_rmi",
@@ -5060,7 +5317,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007 and 2014 documented Fish Hawk 1850 snapshots; transition years unresolved"
+        "value": "2004–2026 documented model line; early, heavier carryover and current AP-X generations separated"
       },
       {
         "label": "Recommendation",
@@ -5152,7 +5409,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2007 factory boat is 18'6 inches by 95.5 inches and 1,300 pounds in console form. The 2014 cited boat keeps the nominal dimensions but is about 200 pounds heavier and has a shallower listed cockpit. Treat them as separate snapshots."
+        "value": "Excellent Superior capability, but newer generations and 150–200-hp packages are usually heavier and more expensive than the project target."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -5168,19 +5425,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 2007 factory table and cited 2014 exact-model specification separated; transition years remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:2007",
-        "label": "2007 factory specification",
-        "startYear": 2007,
-        "endYear": 2007,
-        "status": "factory-exact",
-        "specificationBasis": "2007 Crestliner factory catalog.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2007.pdf",
+        "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:2004-2013",
+        "label": "2004–2013 early Fish Hawk 1850 generation",
+        "startYear": 2004,
+        "endYear": 2013,
+        "status": "factory-supported-generation",
+        "specificationBasis": "Year/model records establish the 1850 Fish Hawk by 2004; 2007 factory data and 2006–2013 rosters support the 18-foot-6-inch, 1,250–1,300-lb generation. Early exact options remain year-specific.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "18'6\"",
@@ -5195,8 +5452,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "1,300 lb console / 1,250 lb tiller",
-            "confidence": "factory-exact"
+            "value": "1,250 lb tiller / 1,300 lb console in documented factory generation",
+            "confidence": "factory-supported"
           },
           "Max / Bow Depth": {
             "value": "35\"",
@@ -5249,24 +5506,24 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Fish Hawk 1850 WT:value:2007",
-            "label": "2007",
-            "startYear": 2007,
-            "endYear": 2007,
+            "id": "boat:Crestliner | Fish Hawk 1850 WT:value:2004-2013",
+            "label": "2004-2013",
+            "startYear": 2004,
+            "endYear": 2013,
             "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "high": 14000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:2014",
-        "label": "2014 cited specification snapshot",
+        "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:2014-2023",
+        "label": "2014–2023 heavier 18-foot-6-inch generation",
         "startYear": 2014,
-        "endYear": 2014,
-        "status": "secondary-verified",
-        "specificationBasis": "2014 exact-model dealer specification; retained as a separate later snapshot rather than backfilled across the family.",
-        "sourceUrl": "https://www.leadersrpm.com/default.asp?fr=xShowroomDetailsXml&page=xCompareModels&trimid=1578231&vehyear=2014",
+        "endYear": 2023,
+        "status": "secondary-supported-generation",
+        "specificationBasis": "2014 year-specific specifications and 2016–2023 annual rosters establish the heavier approximately 1,500-lb generation.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "18'6\"",
@@ -5281,8 +5538,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "secondary-verified"
           },
           "Dry Hull Weight": {
-            "value": "1,500 lb",
-            "confidence": "secondary-verified"
+            "value": "1,500–1,510 lb by configuration/year",
+            "confidence": "secondary-year-roster"
           },
           "Max / Bow Depth": {
             "value": "35\"",
@@ -5335,29 +5592,101 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Fish Hawk 1850 WT:value:2014",
-            "label": "2014",
+            "id": "boat:Crestliner | Fish Hawk 1850 WT:value:2014-2023",
+            "label": "2014-2023",
             "startYear": 2014,
-            "endYear": 2014,
-            "low": 7500,
-            "high": 12000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "endYear": 2023,
+            "low": 10000,
+            "high": 30000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:other-years",
-        "label": "Other advertised Fish Hawk 1850 years — redesign boundaries unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
-        "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
+        "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:2024-2026",
+        "label": "2024–2026 current AP-X factory generation",
+        "startYear": 2024,
+        "endYear": 2026,
+        "status": "factory-current",
+        "specificationBasis": "Current Crestliner factory specification page; dry hull weight varies by SC/WT configuration.",
+        "sourceUrl": "https://www.crestliner.com/deep-v/fish-sport/fish-hawk/1850-fish-hawk.html",
+        "specs": {
+          "Length": {
+            "value": "18'7\"",
+            "confidence": "factory-current"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-current"
+          },
+          "Chine / Bottom Width": {
+            "value": "79\"",
+            "confidence": "factory-current"
+          },
+          "Dry Hull Weight": {
+            "value": "1,527–1,689 lb by SC/WT configuration",
+            "confidence": "factory-current"
+          },
+          "Max / Bow Depth": {
+            "value": "41\"",
+            "confidence": "factory-current"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "23\"",
+            "confidence": "factory-current"
+          },
+          "Deadrise": {
+            "value": "15°",
+            "confidence": "factory-current"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-current"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "factory-current"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-current"
+          },
+          "Capacity Weight": {
+            "value": "1,810 lb",
+            "confidence": "factory-current"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "factory-current"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-current"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.090\"",
+            "confidence": "factory-current"
+          },
+          "Construction": {
+            "value": "All-welded aluminum AP-X deep-V",
+            "confidence": "factory-current"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Fish Hawk 1850 WT:value:2024-2026",
+            "label": "2024-2026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 40000,
+            "high": 60000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Phantom Sportfish V160",
@@ -5370,7 +5699,7 @@ window.BOATBUILDER_BOATS = [
     "badge": "Secondary",
     "lowPrice": 2000,
     "highPrice": 4000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.boatingworld.com/boats/crestliner-boats/1992-crestliner-phantom-sportfish-v160",
     "image": {
       "url": "https://prod.pictures.autoscout24.net/listing-images/6f2722f5-8643-4ba6-94d2-7519ec6e321a_c89270a0-c14a-43e6-a016-77a6e6e0bc9b.jpg/720x540.webp",
@@ -5473,7 +5802,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Period model listings support the V160 identity and corrected principal dimensions. Horsepower and capacity are intentionally withheld because the official 1992 capacity table has not been read reliably."
+        "value": "Documented 1991–1993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -5489,7 +5818,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "1991–1993 model identity and principal dimensions are corroborated by year-specific reference listings; safety ratings still require the boat's capacity plate."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
@@ -5581,7 +5910,8 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Use the capacity plate for horsepower and load limits. The principal dimensions are secondary-verified, not a substitute for the factory certification label."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Phantom Sportfish V170",
@@ -5594,7 +5924,7 @@ window.BOATBUILDER_BOATS = [
     "badge": "Primary",
     "lowPrice": 2500,
     "highPrice": 4800,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.boatingworld.com/boats/crestliner-boats/1991-crestliner-phantom-v170-sportfish",
     "image": {
       "url": "https://prod.pictures.autoscout24.net/listing-images/6f2722f5-8643-4ba6-94d2-7519ec6e321a_c89270a0-c14a-43e6-a016-77a6e6e0bc9b.jpg/720x540.webp",
@@ -5697,7 +6027,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Period model listings support the V170 identity and corrected principal dimensions. Horsepower and capacity are intentionally withheld because the official 1992 capacity table has not been read reliably."
+        "value": "Documented 1991–1993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -5713,7 +6043,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "1991–1993 model identity and principal dimensions are corroborated by year-specific reference listings; safety ratings still require the boat's capacity plate."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
@@ -5805,7 +6135,8 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Use the capacity plate for horsepower and load limits. The principal dimensions are secondary-verified, not a substitute for the factory certification label."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Phantom Sportfish V180",
@@ -5818,7 +6149,7 @@ window.BOATBUILDER_BOATS = [
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 5500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.boatingworld.com/boats/crestliner-boats/1993-crestliner-phantom-sportfish-v180",
     "image": {
       "url": "https://prod.pictures.autoscout24.net/listing-images/6f2722f5-8643-4ba6-94d2-7519ec6e321a_c89270a0-c14a-43e6-a016-77a6e6e0bc9b.jpg/720x540.webp",
@@ -5921,7 +6252,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Period model listings support the V180 identity and corrected principal dimensions. Horsepower and capacity are intentionally withheld because the official 1992 capacity table has not been read reliably."
+        "value": "Documented 1991–1993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -5937,7 +6268,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "1991–1993 model identity and principal dimensions are corroborated by year-specific reference listings; safety ratings still require the boat's capacity plate."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
@@ -6029,7 +6360,8 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Use the capacity plate for horsepower and load limits. The principal dimensions are secondary-verified, not a substitute for the factory certification label."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Sport Angler 1650",
@@ -6038,11 +6370,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Sport Angler 1650",
     "displayName": "Crestliner | Sport Angler 1650",
-    "subtitle": "2008 exact factory specification; other production years unresolved",
+    "subtitle": "2005–2010 documented production with annual horsepower certification changes",
     "badge": "Secondary",
-    "lowPrice": 4500,
-    "highPrice": 10000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "lowPrice": 3500,
+    "highPrice": 8500,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
     "image": {
       "url": "https://img.itboat.com/YBfIy9GaJml-Qj6D3lIgjlzLb8FN_1J5YLAwT6mBFxU/rs:fit:3840:0:0/q:90/czM6Ly9pdGJvYXQvaXRib2F0Lzk1MzgvNzJkNTA1NDhjODM0LmpwZw.webp",
@@ -6053,7 +6385,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact factory specification; other production years unresolved"
+        "value": "2005–2010 documented production with annual horsepower certification changes"
       },
       {
         "label": "Recommendation",
@@ -6145,7 +6477,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2008 factory table is preserved exactly. The same family name appears in adjacent years, but this audit does not invent an unchanged production span."
+        "value": "Compact and towable but not as roomy or confidence-inspiring for four-person Superior use as the 1750."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -6161,11 +6493,45 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 2008 factory specification and aluminum gauges verified; other years remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Crestliner | Sport Angler 1650:gen:2005-2007",
+        "label": "2005–2007 early Sport Angler 1650 generation; complete tables source-exhausted",
+        "startYear": 2005,
+        "endYear": 2007,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Year/model references establish the Sport Angler 1650 from 2005. Surviving records show horsepower and weight changes, but complete compatible tables were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {
+          "Beam": {
+            "value": "87\"",
+            "confidence": "model-family-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,000 lb by 2007",
+            "confidence": "secondary-year-roster"
+          },
+          "Max HP": {
+            "value": "90–115 by model year",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Sport Angler 1650:value:2005-2007",
+            "label": "2005-2007",
+            "startYear": 2005,
+            "endYear": 2007,
+            "low": 3500,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
       {
         "id": "boat:Crestliner | Sport Angler 1650:gen:2008",
         "label": "2008 factory specification",
@@ -6248,36 +6614,112 @@ window.BOATBUILDER_BOATS = [
             "endYear": 2008,
             "low": 4500,
             "high": 7500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Crestliner | Sport Angler 1650:gen:other-years",
-        "label": "Other advertised Sport Angler years — exact generation unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
+        "id": "boat:Crestliner | Sport Angler 1650:gen:2009-2010",
+        "label": "2009–2010 carryover factory-supported generation",
+        "startYear": 2009,
+        "endYear": 2010,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2009–2010 annual rosters repeat the 1,000-lb Sport Angler 1650; the 2008 factory table supplies the physical specification.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Length": {
+            "value": "16'3\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "87\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,000 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "26\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "12°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,295 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "17 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.090\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.090\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Welded Uni-Weld aluminum; 0.125-inch transom",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Sport Angler 1650:value:2009-2010",
+            "label": "2009-2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Sport Angler 1750",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Crestliner",
-    "model": "Sport Angler 1750",
-    "displayName": "Crestliner | Sport Angler 1750",
-    "subtitle": "2008 exact factory specification; other production years unresolved",
+    "model": "*Sport Angler 1750",
+    "displayName": "*Crestliner | Sport Angler 1750",
+    "subtitle": "2006–2010 documented production; 2008 exact factory table",
     "badge": "Primary",
-    "lowPrice": 5500,
-    "highPrice": 12000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "lowPrice": 4500,
+    "highPrice": 10000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
     "image": {
       "url": "https://img.itboat.com/YBfIy9GaJml-Qj6D3lIgjlzLb8FN_1J5YLAwT6mBFxU/rs:fit:3840:0:0/q:90/czM6Ly9pdGJvYXQvaXRib2F0Lzk1MzgvNzJkNTA1NDhjODM0LmpwZw.webp",
@@ -6288,7 +6730,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact factory specification; other production years unresolved"
+        "value": "2006–2010 documented production; 2008 exact factory table"
       },
       {
         "label": "Recommendation",
@@ -6380,7 +6822,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2008 factory table is preserved exactly. The same family name appears in adjacent years, but this audit does not invent an unchanged production span."
+        "value": "A strong older-budget target: full-windshield configuration, 89-inch beam, 26-inch cockpit depth and manageable 125-hp package. Verify vinyl-floor option."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -6396,11 +6838,49 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 2008 factory specification and aluminum gauges verified; other years remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Crestliner | Sport Angler 1750:gen:2006-2007",
+        "label": "2006–2007 early Sport Angler 1750 generation; full tables source-exhausted",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Year/model records establish the 1750 Sport Angler by 2006. Core 17-foot-1-inch/89-inch dimensions survive, but complete annual factory tables were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {
+          "Length": {
+            "value": "17'1\"",
+            "confidence": "secondary-year-specific"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "secondary-year-specific"
+          },
+          "Dry Hull Weight": {
+            "value": "1,300 lb",
+            "confidence": "secondary-year-specific"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "secondary-year-specific"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Sport Angler 1750:value:2006-2007",
+            "label": "2006-2007",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
       {
         "id": "boat:Crestliner | Sport Angler 1750:gen:2008",
         "label": "2008 factory specification",
@@ -6483,23 +6963,99 @@ window.BOATBUILDER_BOATS = [
             "endYear": 2008,
             "low": 5500,
             "high": 9000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Crestliner | Sport Angler 1750:gen:other-years",
-        "label": "Other advertised Sport Angler years — exact generation unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
+        "id": "boat:Crestliner | Sport Angler 1750:gen:2009-2010",
+        "label": "2009–2010 carryover factory-supported generation",
+        "startYear": 2009,
+        "endYear": 2010,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2009–2010 annual rosters repeat the 1,300-lb Sport Angler 1750; the 2008 factory table supplies the physical specification.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Length": {
+            "value": "17'1\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,300 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "41\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "26\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "17°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,305 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "33 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.090\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Welded Uni-Weld aluminum; 0.125-inch transom",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Sport Angler 1750:value:2009-2010",
+            "label": "2009-2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 6000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": true
   },
   {
     "id": "boat:Crestliner | Sportfish 1750",
@@ -6508,11 +7064,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Sportfish 1750",
     "displayName": "Crestliner | Sportfish 1750",
-    "subtitle": "2004 secondary-verified Sportfish 1750 snapshot; other years unresolved",
+    "subtitle": "2000–2005 documented 1750 outboard model; older V175 Sportfish I/O excluded",
     "badge": "Primary",
     "lowPrice": 3500,
-    "highPrice": 8500,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "highPrice": 9000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.boatingworld.com/boats/crestliner-boats/2004-crestliner-1750-sportfish",
     "image": {
       "url": "https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Inventory/3A/E2/3AE23C37-CDCB-4B74-BE46-191FBE65B03F.jpg",
@@ -6523,7 +7079,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2004 secondary-verified Sportfish 1750 snapshot; other years unresolved"
+        "value": "2000–2005 documented 1750 outboard model; older V175 Sportfish I/O excluded"
       },
       {
         "label": "Recommendation",
@@ -6615,7 +7171,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 1992 attribution was incorrect. Year-specific references place this 17-foot Sportfish identity in the 1990s and early 2000s; the displayed snapshot is limited to 2004 because published beam data changes in nearby years."
+        "value": "The former 1990–2005 unresolved span incorrectly mixed this later 1750 outboard with the materially different 1990s V175 Sportfish sterndrive. That older boat is excluded from this record."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -6631,16 +7187,42 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Incorrect 1992 source removed. A 2004 exact-year secondary snapshot is preserved; all other years remain unpriced and unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Sportfish 1750:gen:2004",
-        "label": "2004 secondary-verified specification",
+        "id": "boat:Crestliner | Sportfish 1750:gen:2000-2003",
+        "label": "2000–2003 1750 Sportfish outboard identity; detailed tables source-exhausted",
+        "startYear": 2000,
+        "endYear": 2003,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual valuation/model records establish the 1750 Sportfish outboard by 2000. Complete compatible factory tables were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "About 1,300 lb in 2000 roster",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Sportfish 1750:value:2000-2003",
+            "label": "2000-2003",
+            "startYear": 2000,
+            "endYear": 2003,
+            "low": 3500,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Sportfish 1750:gen:2004-2005",
+        "label": "2004–2005 later outboard generation",
         "startYear": 2004,
-        "endYear": 2004,
+        "endYear": 2005,
         "status": "secondary-verified",
         "specificationBasis": "2004 year-specific references agree on 17'1-inch length, 89-inch beam, 1,300-pound dry weight and 33-gallon fuel capacity; horsepower transcription is unreliable and withheld.",
         "sourceUrl": "https://www.boatingworld.com/boats/crestliner-boats/2004-crestliner-1750-sportfish",
@@ -6712,32 +7294,22 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Sportfish 1750:value:2004",
-            "label": "2004",
+            "id": "boat:Crestliner | Sportfish 1750:value:2004-2005",
+            "label": "2004-2005",
             "startYear": 2004,
-            "endYear": 2004,
+            "endYear": 2005,
             "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "high": 9000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ],
         "evidenceUrls": [
           "https://www.boats.za.net/crestliner/sportfish-1750-o-b/crestliner-sportfish-1750-o-b-2004"
         ]
-      },
-      {
-        "id": "boat:Crestliner | Sportfish 1750:gen:other-years",
-        "label": "Other 1990s–2005 Sportfish 1750 years — dimensions, ratings and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2005,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
-        "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Sportfish 1850",
@@ -6746,11 +7318,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Sportfish 1850",
     "displayName": "Crestliner | Sportfish 1850",
-    "subtitle": "2007–2008 and 2017 factory-documented Sportfish 1850 generations; other years unresolved",
+    "subtitle": "2000–2026 documented outboard line; 18-foot-2-inch, 18-foot-9-inch and current AP-X generations separated",
     "badge": "Primary",
-    "lowPrice": 3500,
-    "highPrice": 10000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "lowPrice": 4500,
+    "highPrice": 68000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
     "image": {
       "url": "https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Inventory/3A/E2/3AE23C37-CDCB-4B74-BE46-191FBE65B03F.jpg",
@@ -6761,7 +7333,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2008 and 2017 factory-documented Sportfish 1850 generations; other years unresolved"
+        "value": "2000–2026 documented outboard line; 18-foot-2-inch, 18-foot-9-inch and current AP-X generations separated"
       },
       {
         "label": "Recommendation",
@@ -6853,7 +7425,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The early outboard boat is 18'2 inches and about 1,470 pounds. By 2017, the same-name outboard is 18'9 inches, 1,700 pounds, rated for 200 hp and carries 37 gallons. These are materially different boats."
+        "value": "Very capable, but the 18-foot Sportfish line is a heavier, costlier fish-and-sport package than the project needs. The record now excludes sterndrive variants unless explicitly identified."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -6869,19 +7441,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official early and later factory specification sets separated; no pricing or specifications are inherited across the undocumented transition."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Sportfish 1850:gen:2007-2008",
-        "label": "2007–2008 early outboard factory generation",
-        "startYear": 2007,
-        "endYear": 2008,
-        "status": "factory-documented-generation",
-        "specificationBasis": "2007 and 2008 Crestliner factory catalogs repeat the early 18'2-inch outboard specification.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
+        "id": "boat:Crestliner | Sportfish 1850:gen:2000-2014",
+        "label": "2000–2014 early 18-foot-2-inch outboard line",
+        "startYear": 2000,
+        "endYear": 2014,
+        "status": "factory-supported-generation",
+        "specificationBasis": "Annual rosters establish the 1850 Sportfish outboard from 2000 through 2014. Factory 2007–2008 data and 2013 year-specific specifications support the 18-foot-2-inch generation; weight and horsepower changed during the span.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "18'2\"",
@@ -6896,8 +7468,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "1,470 lb",
-            "confidence": "factory-exact"
+            "value": "1,400–1,470 lb by model year",
+            "confidence": "year-specific-secondary"
           },
           "Max / Bow Depth": {
             "value": "41\"",
@@ -6920,8 +7492,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Max HP": {
-            "value": "175",
-            "confidence": "factory-exact"
+            "value": "150 early; 175 in documented later years",
+            "confidence": "year-specific-secondary"
           },
           "Persons": {
             "value": "7",
@@ -6950,13 +7522,13 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Sportfish 1850:value:2007-2008",
-            "label": "2007–2008",
-            "startYear": 2007,
-            "endYear": 2008,
-            "low": 6000,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "id": "boat:Crestliner | Sportfish 1850:value:2000-2014",
+            "label": "2000-2014",
+            "startYear": 2000,
+            "endYear": 2014,
+            "low": 4500,
+            "high": 18000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ],
         "evidenceUrls": [
@@ -6965,24 +7537,13 @@ window.BOATBUILDER_BOATS = [
         ]
       },
       {
-        "id": "boat:Crestliner | Sportfish 1850:gen:transition",
-        "label": "Other Sportfish 1850 years — redesign boundary unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
+        "id": "boat:Crestliner | Sportfish 1850:gen:2015-2023",
+        "label": "2015–2023 18-foot-9-inch / 1,700-lb generation",
+        "startYear": 2015,
+        "endYear": 2023,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2016–2018 year-specific records and annual rosters support the 18-foot-9-inch, 1,700-lb outboard generation. Production continuation is established through the pre-AP-X years.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
-      },
-      {
-        "id": "boat:Crestliner | Sportfish 1850:gen:2017",
-        "label": "2017 later outboard factory specification",
-        "startYear": 2017,
-        "endYear": 2017,
-        "status": "factory-exact",
-        "specificationBasis": "2017 Crestliner Deep-V factory catalog; materially longer, heavier and more powerful than the 2007–2008 boat.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner_2017_Deep-V_Catalog.pdf",
         "specs": {
           "Length": {
             "value": "18'9\" outboard",
@@ -7049,23 +7610,116 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           }
         },
-        "eras": []
+        "eras": [
+          {
+            "id": "boat:Crestliner | Sportfish 1850:value:2015-2023",
+            "label": "2015-2023",
+            "startYear": 2015,
+            "endYear": 2023,
+            "low": 17000,
+            "high": 40000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Sportfish 1850:gen:2024-2026",
+        "label": "2024–2026 current AP-X factory generation",
+        "startYear": 2024,
+        "endYear": 2026,
+        "status": "factory-current",
+        "specificationBasis": "Current Crestliner factory specification page.",
+        "sourceUrl": "https://www.crestliner.com/deep-v/fish-sport/sportfish/1850-sportfish.html",
+        "specs": {
+          "Length": {
+            "value": "18'11\"",
+            "confidence": "factory-current"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-current"
+          },
+          "Chine / Bottom Width": {
+            "value": "79\"",
+            "confidence": "factory-current"
+          },
+          "Dry Hull Weight": {
+            "value": "1,700 lb",
+            "confidence": "factory-current"
+          },
+          "Max / Bow Depth": {
+            "value": "43.25\"",
+            "confidence": "factory-current"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "26.25\"",
+            "confidence": "factory-current"
+          },
+          "Deadrise": {
+            "value": "15°",
+            "confidence": "factory-current"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-current"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "factory-current"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "factory-current"
+          },
+          "Capacity Weight": {
+            "value": "1,850 lb",
+            "confidence": "factory-current"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "factory-current"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-current"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.090\"",
+            "confidence": "factory-current"
+          },
+          "Construction": {
+            "value": "All-welded aluminum AP-X deep-V",
+            "confidence": "factory-current"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Sportfish 1850:value:2024-2026",
+            "label": "2024-2026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 50000,
+            "high": 68000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Super Hawk 1700 WT",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Crestliner",
-    "model": "Super Hawk 1700 WT",
-    "displayName": "Crestliner | Super Hawk 1700 WT",
-    "subtitle": "2008 exact outboard factory specification; other years unresolved",
+    "model": "*Super Hawk 1700 WT",
+    "displayName": "*Crestliner | Super Hawk 1700 WT",
+    "subtitle": "2000–2012 documented production; 2008–2012 later 1,300-lb generation preserved",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 10500,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "lowPrice": 3000,
+    "highPrice": 9500,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2025-09/07/328149/crestliner-super-hawk-3532962.jpg?itok=5BMqDbNn",
@@ -7076,7 +7730,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact outboard factory specification; other years unresolved"
+        "value": "2000–2012 documented production; 2008–2012 later 1,300-lb generation preserved"
       },
       {
         "label": "Recommendation",
@@ -7168,7 +7822,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2008 outboard specification is stored directly. Do not substitute the heavier 1800 I/O package or later redesigned Super Hawk families."
+        "value": "A strong older-project target when equipped with the full windshield and vinyl-floor option. Confirm outboard rather than sterndrive configuration."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -7184,19 +7838,45 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 2008 outboard factory table and aluminum gauges verified; other years remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Super Hawk 1700 WT:gen:2008",
-        "label": "2008 outboard factory specification",
+        "id": "boat:Crestliner | Super Hawk 1700 WT:gen:2000-2007",
+        "label": "2000–2007 early Super Hawk 1700 line; detailed tables source-exhausted",
+        "startYear": 2000,
+        "endYear": 2007,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual records establish a 1700 Super Hawk by 2000. Complete early factory tables and exact windshield/propulsion configurations were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "About 1,125 lb in 2000 roster",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Super Hawk 1700 WT:value:2000-2007",
+            "label": "2000-2007",
+            "startYear": 2000,
+            "endYear": 2007,
+            "low": 3000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Super Hawk 1700 WT:gen:2008-2012",
+        "label": "2008–2012 1,300-lb factory-supported generation",
         "startYear": 2008,
-        "endYear": 2008,
-        "status": "factory-exact",
-        "specificationBasis": "2008 Crestliner factory catalog; outboard configuration.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
+        "endYear": 2012,
+        "status": "factory-supported-generation",
+        "specificationBasis": "The 2008 factory table and 2009–2012 annual records support the later 1,300-lb outboard generation.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "17'1\"",
@@ -7265,29 +7945,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Super Hawk 1700 WT:value:2008",
-            "label": "2008",
+            "id": "boat:Crestliner | Super Hawk 1700 WT:value:2008-2012",
+            "label": "2008-2012",
             "startYear": 2008,
-            "endYear": 2008,
+            "endYear": 2012,
             "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "high": 9500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
-      },
-      {
-        "id": "boat:Crestliner | Super Hawk 1700 WT:gen:other-years",
-        "label": "Other advertised Super Hawk years — exact generation and propulsion layout unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
-        "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": true
   },
   {
     "id": "boat:Crestliner | Super Hawk 1800 WT",
@@ -7296,11 +7966,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Super Hawk 1800 WT",
     "displayName": "Crestliner | Super Hawk 1800 WT",
-    "subtitle": "2008 exact outboard factory specification; other years unresolved",
+    "subtitle": "2004–2012 documented production; replaced by the 1850 Super Hawk for 2013",
     "badge": "Primary",
-    "lowPrice": 5500,
-    "highPrice": 9000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "lowPrice": 4500,
+    "highPrice": 12000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2025-09/07/328149/crestliner-super-hawk-3532962.jpg?itok=5BMqDbNn",
@@ -7311,7 +7981,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact outboard factory specification; other years unresolved"
+        "value": "2004–2012 documented production; replaced by the 1850 Super Hawk for 2013"
       },
       {
         "label": "Recommendation",
@@ -7403,7 +8073,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2008 outboard specification is stored directly. Do not substitute the heavier 1800 I/O package or later redesigned Super Hawk families."
+        "value": "Good Superior capability but less attractive than the 17-foot choices for towing, fuel use and four-person maneuvering."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -7419,19 +8089,40 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 2008 outboard factory table and aluminum gauges verified; other years remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Super Hawk 1800 WT:gen:2008",
-        "label": "2008 outboard factory specification",
+        "id": "boat:Crestliner | Super Hawk 1800 WT:gen:2004-2007",
+        "label": "2004–2007 early Super Hawk 1800 line; exact propulsion tables source-exhausted",
+        "startYear": 2004,
+        "endYear": 2007,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual model references establish the 1800 Super Hawk before the exact 2008 table. Outboard and sterndrive configurations existed and must not be mixed.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Crestliner | Super Hawk 1800 WT:value:2004-2007",
+            "label": "2004-2007",
+            "startYear": 2004,
+            "endYear": 2007,
+            "low": 4500,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Super Hawk 1800 WT:gen:2008-2012",
+        "label": "2008–2012 later outboard factory-supported generation",
         "startYear": 2008,
-        "endYear": 2008,
-        "status": "factory-exact",
-        "specificationBasis": "2008 Crestliner factory catalog; outboard configuration.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
+        "endYear": 2012,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2008 factory data and 2009–2012 annual rosters support the 1,470-lb outboard generation. The line was replaced by the 1850 Super Hawk for 2013.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "18'2\"",
@@ -7500,29 +8191,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Super Hawk 1800 WT:value:2008",
-            "label": "2008",
+            "id": "boat:Crestliner | Super Hawk 1800 WT:value:2008-2012",
+            "label": "2008-2012",
             "startYear": 2008,
-            "endYear": 2008,
+            "endYear": 2012,
             "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "high": 12000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
-      },
-      {
-        "id": "boat:Crestliner | Super Hawk 1800 WT:gen:other-years",
-        "label": "Other advertised Super Hawk years — exact generation and propulsion layout unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
-        "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Vision 1600 WT",
@@ -7531,11 +8212,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Vision 1600 WT",
     "displayName": "Crestliner | Vision 1600 WT",
-    "subtitle": "2017 exact factory specification; other production years unresolved",
+    "subtitle": "2014–2018 documented model line; 2016–2018 factory-supported generation",
     "badge": "Secondary",
-    "lowPrice": 6000,
-    "highPrice": 9000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "lowPrice": 6500,
+    "highPrice": 15000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner_2017_Deep-V_Catalog.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2015/crestliner/w700/Crestliner_Vision_1700_1.jpg",
@@ -7546,7 +8227,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2017 exact factory specification; other production years unresolved"
+        "value": "2014–2018 documented model line; 2016–2018 factory-supported generation"
       },
       {
         "label": "Recommendation",
@@ -7638,7 +8319,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The previous record mislabeled a 2017 catalog source as 2015. The displayed specifications are now correctly limited to model year 2017."
+        "value": "A manageable inland/nearshore boat, but the 81-inch beam and 60-hp ceiling make it less ideal for four-person Lake Superior use."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -7654,19 +8335,40 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Source-year mismatch corrected. Official 2017 factory specification preserved; other years remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Vision 1600 WT:gen:2017",
-        "label": "2017 factory specification",
-        "startYear": 2017,
-        "endYear": 2017,
-        "status": "factory-exact",
-        "specificationBasis": "2017 Crestliner Deep-V factory catalog.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner_2017_Deep-V_Catalog.pdf",
+        "id": "boat:Crestliner | Vision 1600 WT:gen:2014-2015",
+        "label": "2014–2015 early Vision 1600 identity; complete tables source-exhausted",
+        "startYear": 2014,
+        "endYear": 2015,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Market and model-year records establish the Vision 1600 by 2014. Complete early factory tables were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Crestliner | Vision 1600 WT:value:2014-2015",
+            "label": "2014-2015",
+            "startYear": 2014,
+            "endYear": 2015,
+            "low": 6500,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Vision 1600 WT:gen:2016-2018",
+        "label": "2016–2018 factory-supported Vision 1600 generation",
+        "startYear": 2016,
+        "endYear": 2018,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2016–2018 annual records and the 2017 factory table support the 935-lb Vision 1600 generation.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "16'4\"",
@@ -7735,29 +8437,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Vision 1600 WT:value:2017",
-            "label": "2017",
-            "startYear": 2017,
-            "endYear": 2017,
-            "low": 6000,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "id": "boat:Crestliner | Vision 1600 WT:value:2016-2018",
+            "label": "2016-2018",
+            "startYear": 2016,
+            "endYear": 2018,
+            "low": 8000,
+            "high": 15000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
-      },
-      {
-        "id": "boat:Crestliner | Vision 1600 WT:gen:other-years",
-        "label": "Other advertised Vision years — exact generation unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
-        "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Crestliner | Vision 1700 WT",
@@ -7766,11 +8458,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Vision 1700 WT",
     "displayName": "Crestliner | Vision 1700 WT",
-    "subtitle": "2017 exact factory specification; other production years unresolved",
+    "subtitle": "2015–2018 documented model line; 2016–2018 factory-supported generation",
     "badge": "Primary",
-    "lowPrice": 7000,
-    "highPrice": 11000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "lowPrice": 8000,
+    "highPrice": 17000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner_2017_Deep-V_Catalog.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2015/crestliner/w700/Crestliner_Vision_1700_1.jpg",
@@ -7781,7 +8473,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2017 exact factory specification; other production years unresolved"
+        "value": "2015–2018 documented model line; 2016–2018 factory-supported generation"
       },
       {
         "label": "Recommendation",
@@ -7873,7 +8565,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The previous record mislabeled a 2017 catalog source as 2015. The displayed specifications are now correctly limited to model year 2017."
+        "value": "A useful compact/value option with an available walk-through windshield and vinyl packages, but the 88-inch beam leaves less reserve than the starred 1750-class boats."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -7889,19 +8581,40 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Source-year mismatch corrected. Official 2017 factory specification preserved; other years remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Vision 1700 WT:gen:2017",
-        "label": "2017 factory specification",
-        "startYear": 2017,
-        "endYear": 2017,
-        "status": "factory-exact",
-        "specificationBasis": "2017 Crestliner Deep-V factory catalog.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner_2017_Deep-V_Catalog.pdf",
+        "id": "boat:Crestliner | Vision 1700 WT:gen:2015",
+        "label": "2015 Vision 1700 identity; complete factory table source-exhausted",
+        "startYear": 2015,
+        "endYear": 2015,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "A year-specific review and model identity establish the Vision 1700 in 2015. Complete factory certification data were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Crestliner | Vision 1700 WT:value:2015",
+            "label": "2015",
+            "startYear": 2015,
+            "endYear": 2015,
+            "low": 8000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Vision 1700 WT:gen:2016-2018",
+        "label": "2016–2018 factory-supported Vision 1700 generation",
+        "startYear": 2016,
+        "endYear": 2018,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2016–2018 annual records, exact model fitment and the 2017 factory table support the 17-foot-6-inch / 1,190-lb generation.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "17'6\"",
@@ -7970,29 +8683,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Vision 1700 WT:value:2017",
-            "label": "2017",
-            "startYear": 2017,
-            "endYear": 2017,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "id": "boat:Crestliner | Vision 1700 WT:value:2016-2018",
+            "label": "2016-2018",
+            "startYear": 2016,
+            "endYear": 2018,
+            "low": 9000,
+            "high": 17000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
-      },
-      {
-        "id": "boat:Crestliner | Vision 1700 WT:gen:other-years",
-        "label": "Other advertised Vision years — exact generation unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
-        "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Fish-Rite | Stalker 17'6\"",
@@ -23260,11 +23963,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Fazer 172",
     "displayName": "Smoker Craft | Fazer 172",
-    "subtitle": "1995 exact factory specification; later Fazer 172 years unresolved",
+    "subtitle": "1989–1995 documented production; 1995 exact factory table",
     "badge": "Secondary",
-    "lowPrice": 2500,
-    "highPrice": 6000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 1800,
+    "highPrice": 4500,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2019_08/IMG_3268.thumb.JPG.58422ef399d810c800e083fb929f8815.JPG",
@@ -23275,7 +23978,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995 exact factory specification; later Fazer 172 years unresolved"
+        "value": "1989–1995 documented production; 1995 exact factory table"
       },
       {
         "label": "Recommendation",
@@ -23367,7 +24070,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 1998 snapshot was unsupported. The 1995 factory table establishes a 17'5-inch, 80.5-inch-beam, 910-pound hull. Later same-name boats require exact-year confirmation."
+        "value": "The former 1996–1999 placeholder was incorrect. Independent model-fitment evidence closes the Fazer 172/F&S at 1995; the later Fazer 178 and 192 are separate records."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -23383,11 +24086,32 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Fazer 172:gen:1989-1994",
+        "label": "1989–1994 model identity; detailed tables source-exhausted",
+        "startYear": 1989,
+        "endYear": 1994,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Cover-fit records establish the Fazer 172/F&S production interval. Available factory archive covers and year rosters did not yield a complete compatible specification table for 1989–1994; no 1995 figures are inherited.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Fazer 172:value:1989-1994",
+            "label": "1989-1994",
+            "startYear": 1989,
+            "endYear": 1994,
+            "low": 1800,
+            "high": 4000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
       {
         "id": "boat:Smoker Craft | Fazer 172:gen:1995",
         "label": "1995 factory specification",
@@ -23446,23 +24170,13 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1995,
             "low": 2500,
             "high": 4500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
-      },
-      {
-        "id": "boat:Smoker Craft | Fazer 172:gen:post-1995",
-        "label": "1996–1999 advertised years unresolved",
-        "startYear": 1996,
-        "endYear": 1999,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Fazer 178",
@@ -23471,11 +24185,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Fazer 178",
     "displayName": "Smoker Craft | Fazer 178",
-    "subtitle": "1997–1999 model identity; principal dimensions secondary-verified",
+    "subtitle": "1998–1999 documented model span",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 5500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2019_08/IMG_3268.thumb.JPG.58422ef399d810c800e083fb929f8815.JPG",
@@ -23486,7 +24200,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997–1999 model identity; principal dimensions secondary-verified"
+        "value": "1998–1999 documented model span"
       },
       {
         "label": "Recommendation",
@@ -23578,7 +24292,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The model span is supported, but a complete factory specification table was not recovered. Do not treat the former 1998 values as factory exact."
+        "value": "The prior 1997 start was not supported by the surviving exact-model records. The Fazer 178 appears as a 1998–1999 model."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -23594,18 +24308,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "1997–1999 identity and principal dimensions corroborated; exact capacity-plate ratings remain listing-specific."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Smoker Craft | Fazer 178:gen:1997-1999",
-        "label": "1997–1999 model identity and principal dimensions",
-        "startYear": 1997,
+        "id": "boat:Smoker Craft | Fazer 178:gen:1998-1999",
+        "label": "1998–1999 model identity and principal dimensions",
+        "startYear": 1998,
         "endYear": 1999,
         "status": "secondary-verified",
-        "specificationBasis": "Factory-fit cover data identifies the 1997–1999 178 hull at 17'8 inches by 91 inches; period specification references report roughly 1,180 pounds. Horsepower must be verified from the capacity plate.",
+        "specificationBasis": "Year/model valuation records and exact model-fitment references establish 1998–1999. Principal dimensions remain secondary evidence; verify the capacity plate.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -23631,18 +24345,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Fazer 178:value:1997-1999",
-            "label": "1997–1999",
-            "startYear": 1997,
+            "id": "boat:Smoker Craft | Fazer 178:value:1998-1999",
+            "label": "1998-1999",
+            "startYear": 1998,
             "endYear": 1999,
             "low": 3000,
             "high": 5500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Fazer 192",
@@ -23651,11 +24366,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Fazer 192",
     "displayName": "Smoker Craft | Fazer 192",
-    "subtitle": "1995 exact factory specification; later Fazer 192 years unresolved",
+    "subtitle": "1993–1999 documented production; 1995 exact factory table",
     "badge": "Primary",
-    "lowPrice": 3500,
-    "highPrice": 8500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 2500,
+    "highPrice": 7000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2019_08/IMG_3268.thumb.JPG.58422ef399d810c800e083fb929f8815.JPG",
@@ -23666,7 +24381,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995 exact factory specification; later Fazer 192 years unresolved"
+        "value": "1993–1999 documented production; 1995 exact factory table"
       },
       {
         "label": "Recommendation",
@@ -23758,7 +24473,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 1998 snapshot was unsupported. The 1995 table verifies the 18'10-inch, 87-inch-beam, 1,375-pound hull; later same-name examples still need exact-year matching."
+        "value": "The 1995 factory table is preserved as a one-year snapshot. Surrounding years are closed as source-exhausted instead of being assumed identical."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -23774,11 +24489,32 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Fazer 192:gen:1993-1994",
+        "label": "1993–1994 model identity; detailed tables source-exhausted",
+        "startYear": 1993,
+        "endYear": 1994,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model cover fitment and annual references establish the early Fazer 192 span. Complete compatible factory tables were not recovered for 1993–1994.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Fazer 192:value:1993-1994",
+            "label": "1993-1994",
+            "startYear": 1993,
+            "endYear": 1994,
+            "low": 2500,
+            "high": 5200,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
       {
         "id": "boat:Smoker Craft | Fazer 192:gen:1995",
         "label": "1995 factory specification",
@@ -23837,36 +24573,47 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1995,
             "low": 3500,
             "high": 6000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Fazer 192:gen:post-1995",
-        "label": "1996–1999 advertised years unresolved",
+        "id": "boat:Smoker Craft | Fazer 192:gen:1996-1999",
+        "label": "1996–1999 continuing model identity; detailed tables source-exhausted",
         "startYear": 1996,
         "endYear": 1999,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model cover fitment and annual model records establish continuation through 1999. Complete post-1995 specifications were not recovered, so the 1995 table is not carried forward.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {},
-        "eras": []
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Fazer 192:value:1996-1999",
+            "label": "1996-1999",
+            "startYear": 1996,
+            "endYear": 1999,
+            "low": 3500,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Millentia 172 WT",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Smoker Craft",
-    "model": "Millentia 172 WT",
-    "displayName": "Smoker Craft | Millentia 172 WT",
-    "subtitle": "2007, 2011, 2012–2013, 2014, and 2016 factory snapshots; other years unresolved",
+    "model": "*Millentia 172 WT",
+    "displayName": "*Smoker Craft | Millentia 172 WT",
+    "subtitle": "2002–2016 documented production across early, 2006–2010, and annual certification variations",
     "badge": "Primary",
-    "lowPrice": 5000,
-    "highPrice": 11000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 3500,
+    "highPrice": 13500,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2014-Smokercraft-Brochure.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2015/smoker-craft/w700/IMG_6885.jpg",
@@ -23877,7 +24624,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007, 2011, 2012–2013, 2014, and 2016 factory snapshots; other years unresolved"
+        "value": "2002–2016 documented production across early, 2006–2010, and annual certification variations"
       },
       {
         "label": "Recommendation",
@@ -23969,7 +24716,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 172 retained its 17'2-inch by 91-inch principal hull while horsepower, certified capacity, side gauge, and published weight changed. Select the exact catalog year."
+        "value": "The long-running 172 retained its basic 17-foot/91-inch role, but annual weight, horsepower, side gauge and capacity certifications are not treated as interchangeable."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -23985,29 +24732,48 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Smoker Craft | Millentia 172 WT:gen:pre-2007",
-        "label": "Earlier advertised years unresolved",
-        "startYear": null,
-        "endYear": 2006,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
+        "id": "boat:Smoker Craft | Millentia 172 WT:gen:2002-2005",
+        "label": "2002–2005 early 1,260-lb generation; complete tables source-exhausted",
+        "startYear": 2002,
+        "endYear": 2005,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual valuation rosters establish the 172 Millentia by 2002 and list a 1,260-lb hull through 2005. Complete factory tables were not recovered for this interval.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,260 lb",
+            "confidence": "secondary-year-roster"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V; exact gauges not recovered",
+            "confidence": "model-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Millentia 172 WT:value:2002-2005",
+            "label": "2002-2005",
+            "startYear": 2002,
+            "endYear": 2005,
+            "low": 3500,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
-        "id": "boat:Smoker Craft | Millentia 172 WT:gen:2007",
-        "label": "2007 factory specification",
-        "startYear": 2007,
-        "endYear": 2007,
-        "status": "factory-exact",
-        "specificationBasis": "2007 Smoker Craft factory catalog table.",
+        "id": "boat:Smoker Craft | Millentia 172 WT:gen:2006-2010",
+        "label": "2006–2010 1,325-lb factory-supported generation",
+        "startYear": 2006,
+        "endYear": 2010,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2006–2010 annual model rosters repeat the 1,325-lb hull; the 2007 factory table supplies the exact physical specification. Horsepower certification changed by year.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -24039,8 +24805,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Max HP": {
-            "value": "135",
-            "confidence": "factory-exact"
+            "value": "130–140 by model year",
+            "confidence": "year-specific-secondary"
           },
           "Persons": {
             "value": "5",
@@ -24069,13 +24835,13 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Millentia 172 WT:value:2007",
-            "label": "2007",
-            "startYear": 2007,
-            "endYear": 2007,
-            "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "id": "boat:Smoker Craft | Millentia 172 WT:value:2006-2010",
+            "label": "2006-2010",
+            "startYear": 2006,
+            "endYear": 2010,
+            "low": 4500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -24157,7 +24923,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 2011,
             "low": 7000,
             "high": 11000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -24234,12 +25000,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Millentia 172 WT:value:2012-2013",
-            "label": "2012–2013",
+            "label": "2012-2013",
             "startYear": 2012,
             "endYear": 2013,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 7500,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -24319,9 +25085,39 @@ window.BOATBUILDER_BOATS = [
             "label": "2014",
             "startYear": 2014,
             "endYear": 2014,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 8000,
+            "high": 12500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Millentia 172 WT:gen:2015",
+        "label": "2015 carryover identity; exact certification table source-exhausted",
+        "startYear": 2015,
+        "endYear": 2015,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "The 2015 annual roster confirms the 1,325-lb Millentia 172 between exact 2014 and 2016 tables. The complete 2015 certification table was not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Length": {
+            "value": "17-foot class",
+            "confidence": "model-identity-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,325 lb",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Millentia 172 WT:value:2015",
+            "label": "2015",
+            "startYear": 2015,
+            "endYear": 2015,
+            "low": 8000,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -24401,14 +25197,15 @@ window.BOATBUILDER_BOATS = [
             "label": "2016",
             "startYear": 2016,
             "endYear": 2016,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 8500,
+            "high": 13500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": true
   },
   {
     "id": "boat:Smoker Craft | Millentia 182 WT",
@@ -24417,11 +25214,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Millentia 182 WT (misidentified listing alias)",
     "displayName": "Smoker Craft | Millentia 182 WT (misidentified listing alias)",
-    "subtitle": "No verified factory model; identify the actual 182 family",
+    "subtitle": "No verified factory Millentia 182 model; listing-alias rejection",
     "badge": "Secondary",
     "lowPrice": null,
     "highPrice": null,
-    "priceBasis": "Alias-only rejection row; pricing is withheld until the actual factory model is identified.",
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2015/smoker-craft/w700/IMG_6885.jpg",
@@ -24432,7 +25229,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "No verified factory model; identify the actual 182 family"
+        "value": "No verified factory Millentia 182 model; listing-alias rejection"
       },
       {
         "label": "Recommendation",
@@ -24524,7 +25321,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "This row is retained only to catch seller misidentification. Do not apply Millentia 172 or 192 specifications. Confirm the HIN, capacity plate, and factory model graphics."
+        "value": "Keep this row only to catch seller misidentification. Do not assign specifications or value until the HIN/capacity plate identifies the actual model."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24540,7 +25337,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Converted to an alias-only rejection row; no hull specifications or price are presented."
+        "value": "Factory archive and year/model rosters did not establish a Millentia 182. This is a nonphysical alias row and is intentionally unpriced."
       }
     ],
     "valueEras": [],
@@ -24557,7 +25354,8 @@ window.BOATBUILDER_BOATS = [
         "eras": []
       }
     ],
-    "generationWarning": "This is not a verified factory model. Identify whether the listing is a Pro Mag 182, Pro Angler XL 182, Ultima 182, or another model before evaluating it."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes)",
@@ -24566,11 +25364,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Millentia 192 (Secondary; 172 is the target size)",
     "displayName": "Smoker Craft | Millentia 192 (Secondary; 172 is the target size)",
-    "subtitle": "2007, 2011–2014, and 2016 factory snapshots; other years unresolved",
+    "subtitle": "2005–2016 documented production with 2006 weight step and later certification changes",
     "badge": "Secondary",
-    "lowPrice": 5500,
-    "highPrice": 12500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 5000,
+    "highPrice": 16000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2014-Smokercraft-Brochure.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2015/smoker-craft/w700/IMG_6885.jpg",
@@ -24581,7 +25379,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007, 2011–2014, and 2016 factory snapshots; other years unresolved"
+        "value": "2005–2016 documented production with 2006 weight step and later certification changes"
       },
       {
         "label": "Recommendation",
@@ -24673,7 +25471,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former note incorrectly treated a nonexistent Millentia 182 as a target. The 192 is the verified larger family member and is generally beyond the preferred tow/budget sweet spot."
+        "value": "The 19-foot Millentia is excellent big-water hardware but generally heavier and more expensive than the project’s preferred 17-foot packages."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24689,29 +25487,44 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):gen:pre-2007",
-        "label": "Earlier advertised years unresolved",
-        "startYear": null,
-        "endYear": 2006,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
+        "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):gen:2005",
+        "label": "2005 early 1,450-lb generation; complete table source-exhausted",
+        "startYear": 2005,
+        "endYear": 2005,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "The 2005 annual roster identifies the Millentia 192 at 1,450 lb. The complete factory specification table was not recovered.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,450 lb",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):value:2005",
+            "label": "2005",
+            "startYear": 2005,
+            "endYear": 2005,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
-        "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):gen:2007",
-        "label": "2007 factory specification",
-        "startYear": 2007,
-        "endYear": 2007,
-        "status": "factory-exact",
-        "specificationBasis": "2007 Smoker Craft factory catalog table.",
+        "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):gen:2006-2010",
+        "label": "2006–2010 1,575-lb factory-supported generation",
+        "startYear": 2006,
+        "endYear": 2010,
+        "status": "factory-supported-generation",
+        "specificationBasis": "Annual rosters list the 1,575-lb Millentia 192 from 2006 through 2010; the 2007 factory table supplies the physical specification.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -24777,13 +25590,13 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):value:2007",
-            "label": "2007",
-            "startYear": 2007,
-            "endYear": 2007,
+            "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):value:2006-2010",
+            "label": "2006-2010",
+            "startYear": 2006,
+            "endYear": 2010,
             "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 11000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -24860,12 +25673,38 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):value:2011-2014",
-            "label": "2011–2014",
+            "label": "2011-2014",
             "startYear": 2011,
             "endYear": 2014,
-            "low": 8000,
-            "high": 12500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 8500,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):gen:2015",
+        "label": "2015 carryover identity; exact certification table source-exhausted",
+        "startYear": 2015,
+        "endYear": 2015,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "The 2015 roster confirms the 1,575-lb Millentia 192 between exact factory snapshots. Complete 2015 capacity/certification details were not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,575 lb",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):value:2015",
+            "label": "2015",
+            "startYear": 2015,
+            "endYear": 2015,
+            "low": 9500,
+            "high": 15000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -24945,14 +25784,15 @@ window.BOATBUILDER_BOATS = [
             "label": "2016",
             "startYear": 2016,
             "endYear": 2016,
-            "low": 8000,
-            "high": 12500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 10000,
+            "high": 16000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)",
@@ -24961,11 +25801,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Osprey 162 WT (Secondary; wide WT version is 2020s)",
     "displayName": "Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)",
-    "subtitle": "2017–2018 and 2025-current factory generations",
+    "subtitle": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved",
     "badge": "Secondary",
-    "lowPrice": 13000,
-    "highPrice": 18000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 6000,
+    "highPrice": 36000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/model/osprey-162/",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
@@ -24976,7 +25816,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2017–2018 and 2025-current factory generations"
+        "value": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved"
       },
       {
         "label": "Recommendation",
@@ -25068,7 +25908,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2017–2018 boat was already a 90-inch-beam walk-through model, so the former claim that the qualifying WT began only in the 2020s was wrong. Current horsepower, weight, fuel, and certified load differ."
+        "value": "A capable and deep compact boat, but examples from the verified WT years are generally above the project’s ideal budget."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -25084,11 +25924,37 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2009-2016",
+        "label": "2009–2016 Osprey 162 identity; layout/specification tables source-exhausted",
+        "startYear": 2009,
+        "endYear": 2016,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters establish the Osprey 162 through this interval, but surviving evidence does not prove that every early configuration was the same walk-through hull represented by this app record.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,050–1,165 lb in surviving annual rosters",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2009-2016",
+            "label": "2009-2016",
+            "startYear": 2009,
+            "endYear": 2016,
+            "low": 6000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
       {
         "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2017-2018",
         "label": "2017–2018 factory specification",
@@ -25162,31 +26028,46 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2017-2018",
-            "label": "2017–2018",
+            "label": "2017-2018",
             "startYear": 2017,
             "endYear": 2018,
             "low": 13000,
-            "high": 18000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 19000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
         "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2019-2024",
-        "label": "2019–2024 transition years unresolved",
+        "label": "2019–2024 continuing Osprey 162 WT fitment; full annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Exact-model cover fitment and annual rosters confirm the 2019–2024 Osprey 162. Complete annual factory tables were not recovered; 2017–2018 or current specifications are not inherited.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {
+          "Layout": {
+            "value": "Dual-console / walk-through fitment documented",
+            "confidence": "exact-model-fitment"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2019-2024",
+            "label": "2019-2024",
+            "startYear": 2019,
+            "endYear": 2024,
+            "low": 15000,
+            "high": 28000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
-        "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2025-current",
-        "label": "2025 catalog / current factory specification",
+        "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2025-2026",
+        "label": "2025–2026 current factory generation",
         "startYear": 2025,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-current",
         "specificationBasis": "2025 factory catalog and current model page. The current web page displays an implausible 69-inch depth entry; that field is intentionally not treated as a valid hull depth.",
         "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
@@ -25250,13 +26131,13 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2025-current",
-            "label": "2025–current",
+            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2025-2026",
+            "label": "2025-2026",
             "startYear": 2025,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Current used-package pricing pending; new-package pricing is not substituted for used value."
+            "endYear": 2026,
+            "low": 25000,
+            "high": 36000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ],
         "evidenceUrls": [
@@ -25264,7 +26145,8 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s)",
@@ -25273,11 +26155,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Osprey 172 WT (Secondary; qualifying WT is 2020s)",
     "displayName": "Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s)",
-    "subtitle": "2017–2018 and 2025-current factory generations",
+    "subtitle": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved",
     "badge": "Secondary",
-    "lowPrice": 14000,
-    "highPrice": 19000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 7000,
+    "highPrice": 40000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/model/osprey-172/",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
@@ -25288,7 +26170,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2017–2018 and 2025-current factory generations"
+        "value": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved"
       },
       {
         "label": "Recommendation",
@@ -25380,7 +26262,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former claim that the qualifying walk-through version began only in the 2020s was wrong. The 2017–2018 catalog already shows the WT hull; the current boat is narrower and has different horsepower, weight, and fuel specifications."
+        "value": "Deep and weather-protective, but verified WT packages are usually newer and above the $14,000 ceiling."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -25396,11 +26278,37 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2009-2016",
+        "label": "2009–2016 Osprey 172 identity; full configuration tables source-exhausted",
+        "startYear": 2009,
+        "endYear": 2016,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters establish the Osprey 172 through this interval. Complete compatible walk-through specification tables were not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,150–1,225 lb in surviving annual rosters",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):value:2009-2016",
+            "label": "2009-2016",
+            "startYear": 2009,
+            "endYear": 2016,
+            "low": 7000,
+            "high": 15000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
       {
         "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2017-2018",
         "label": "2017–2018 factory specification",
@@ -25474,31 +26382,50 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):value:2017-2018",
-            "label": "2017–2018",
+            "label": "2017-2018",
             "startYear": 2017,
             "endYear": 2018,
             "low": 14000,
-            "high": 19000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 20000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
         "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2019-2024",
-        "label": "2019–2024 transition years unresolved",
+        "label": "2019–2024 Osprey 172 WT fitment; full annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Exact-model fitment and annual rosters confirm the 2019–2024 Osprey 172. The later 90-inch-beam table is not backfilled without the annual factory sheets.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {
+          "Layout": {
+            "value": "Dual-console / walk-through fitment documented",
+            "confidence": "exact-model-fitment"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,150–1,165 lb in surviving rosters",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):value:2019-2024",
+            "label": "2019-2024",
+            "startYear": 2019,
+            "endYear": 2024,
+            "low": 17000,
+            "high": 30000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
-        "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2025-current",
-        "label": "2025 catalog / current factory specification",
+        "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2025-2026",
+        "label": "2025–2026 current factory generation",
         "startYear": 2025,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-current",
         "specificationBasis": "2025 factory catalog and current model page.",
         "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
@@ -25562,13 +26489,13 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):value:2025-current",
-            "label": "2025–current",
+            "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):value:2025-2026",
+            "label": "2025-2026",
             "startYear": 2025,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Current used-package pricing pending; new-package pricing is not substituted for used value."
+            "endYear": 2026,
+            "low": 28000,
+            "high": 40000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ],
         "evidenceUrls": [
@@ -25576,7 +26503,8 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Phantom 170 DC",
@@ -25585,11 +26513,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Phantom 170 DC",
     "displayName": "Smoker Craft | Phantom 170 DC",
-    "subtitle": "1996–1997 model identity verified; complete factory table pending",
+    "subtitle": "1996–1997 exact model identity; detailed factory table source-exhausted",
     "badge": "Primary",
     "lowPrice": 3000,
-    "highPrice": 5500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "highPrice": 6000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2019_08/IMG_3268.thumb.JPG.58422ef399d810c800e083fb929f8815.JPG",
@@ -25600,7 +26528,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1996–1997 model identity verified; complete factory table pending"
+        "value": "1996–1997 exact model identity; detailed factory table source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -25692,7 +26620,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 1998 exact snapshot and all-welded claim were not supported. The dual-console walk-through identity is verified, but dimensions, weight, construction method, and horsepower still require the actual capacity plate."
+        "value": "Exact-model fitment confirms a dual-console walk-through layout. Capacity-plate ratings remain necessary because a complete factory table was not recovered."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -25708,7 +26636,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Period model identity and walk-through layout verified; detailed factory specifications remain deliberately qualified."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
@@ -25746,17 +26674,18 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Phantom 170 DC:value:1996-1997",
-            "label": "1996–1997",
+            "label": "1996-1997",
             "startYear": 1996,
             "endYear": 1997,
             "low": 3000,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 6000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Phaser (seller spelling; likely Fazer)",
@@ -25765,11 +26694,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Phaser (seller spelling; likely Fazer)",
     "displayName": "Smoker Craft | Phaser (seller spelling; likely Fazer)",
-    "subtitle": "Alias-only rejection row; identify exact Fazer model and year",
+    "subtitle": "No verified factory Phaser model; seller-spelling alias rejection",
     "badge": "Secondary",
     "lowPrice": null,
     "highPrice": null,
-    "priceBasis": "Alias-only rejection row; pricing is withheld until the factory model is identified.",
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2019_08/IMG_3268.thumb.JPG.58422ef399d810c800e083fb929f8815.JPG",
@@ -25780,7 +26709,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "Alias-only rejection row; identify exact Fazer model and year"
+        "value": "No verified factory Phaser model; seller-spelling alias rejection"
       },
       {
         "label": "Recommendation",
@@ -25872,7 +26801,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Smoker Craft factory catalogs use Fazer. A seller calling a boat “Phaser” has not identified a valid factory model; match HIN, capacity plate, length, and graphics before using Fazer 172, 178, or 192 data."
+        "value": "Treat “Phaser” as a listing typo until the capacity plate or HIN identifies the actual Fazer or another model."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -25888,7 +26817,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Converted to an alias-only rejection row with no inherited specifications or price."
+        "value": "Factory archive and year/model rosters did not establish a Smoker Craft Phaser. This nonphysical alias is intentionally unpriced."
       }
     ],
     "valueEras": [],
@@ -25905,20 +26834,21 @@ window.BOATBUILDER_BOATS = [
         "eras": []
       }
     ],
-    "generationWarning": "“Phaser” is not a verified Smoker Craft factory model. Do not price or spec it until the actual model is identified."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Smoker Craft",
-    "model": "Pro Angler 172 (Primary; not Lund Pro Angler)",
-    "displayName": "Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler)",
-    "subtitle": "2007, 2010, 2014, and 2018 factory snapshots; other years unresolved",
+    "model": "*Pro Angler 172 (Primary; not Lund Pro Angler)",
+    "displayName": "*Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler)",
+    "subtitle": "2004–2024 documented production; four physical/certification eras",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 9000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 3500,
+    "highPrice": 19000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
@@ -25929,7 +26859,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007, 2010, 2014, and 2018 factory snapshots; other years unresolved"
+        "value": "2004–2024 documented production; four physical/certification eras"
       },
       {
         "label": "Recommendation",
@@ -26021,7 +26951,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 172 is 16'8 inches, not a true 17-footer. It remains a useful compact exception, but the 172 XL is the materially wider and deeper Lake Superior option. Published weight, horsepower, side gauge, and capacity entries changed."
+        "value": "Older full-windshield examples combine a 92-inch beam, useful depth and realistic sub-$14,000 pricing. Later model names also covered console variants, so verify the actual windshield."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -26037,29 +26967,44 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:other-years",
-        "label": "Other advertised years unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
+        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2004-2006",
+        "label": "2004–2006 early Pro Angler 172 identity; complete tables source-exhausted",
+        "startYear": 2004,
+        "endYear": 2006,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters establish the 172 Pro Angler from 2004. Surviving 2004–2006 references do not provide a complete compatible table.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,200–1,225 lb in annual rosters",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2004-2006",
+            "label": "2004-2006",
+            "startYear": 2004,
+            "endYear": 2006,
+            "low": 3500,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
-        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2007",
-        "label": "2007 factory specification",
+        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2007-2011",
+        "label": "2007–2011 1,225-lb factory-supported generation",
         "startYear": 2007,
-        "endYear": 2007,
-        "status": "factory-exact",
-        "specificationBasis": "2007 factory specification table.",
+        "endYear": 2011,
+        "status": "factory-supported-generation",
+        "specificationBasis": "Factory 2007 and 2010 tables plus annual rosters support the 1,225-lb, 92-inch-beam hull through 2011; horsepower certification changed by year.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -26095,8 +27040,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Max HP": {
-            "value": "135",
-            "confidence": "factory-exact"
+            "value": "135–140 by year",
+            "confidence": "year-specific-factory"
           },
           "Persons": {
             "value": "5",
@@ -26125,106 +27070,24 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2007",
-            "label": "2007",
+            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2007-2011",
+            "label": "2007-2011",
             "startYear": 2007,
-            "endYear": 2007,
+            "endYear": 2011,
             "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 8500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2010",
-        "label": "2010 factory specification",
-        "startYear": 2010,
-        "endYear": 2010,
-        "status": "factory-exact",
-        "specificationBasis": "2010 factory specification table.",
+        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2012-2016",
+        "label": "2012–2016 1,180-lb factory-supported generation",
+        "startYear": 2012,
+        "endYear": 2016,
+        "status": "factory-supported-generation",
+        "specificationBasis": "Annual rosters repeat the 1,180-lb Pro Angler 172 from 2012 through 2016; the 2014 factory table supplies the physical specification.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {
-          "Length": {
-            "value": "16'8\"",
-            "confidence": "factory-exact"
-          },
-          "Beam": {
-            "value": "92\"",
-            "confidence": "factory-exact"
-          },
-          "Dry Hull Weight": {
-            "value": "1,225 lb",
-            "confidence": "factory-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "34\"",
-            "confidence": "factory-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "24\"",
-            "confidence": "factory-exact"
-          },
-          "Deadrise": {
-            "value": "14°",
-            "confidence": "factory-exact"
-          },
-          "Transom Height": {
-            "value": "LS",
-            "confidence": "factory-exact"
-          },
-          "Transom Width": {
-            "value": "91\"",
-            "confidence": "factory-exact"
-          },
-          "Max HP": {
-            "value": "140",
-            "confidence": "factory-exact"
-          },
-          "Persons": {
-            "value": "5",
-            "confidence": "factory-exact"
-          },
-          "Capacity Weight": {
-            "value": "1,400 lb",
-            "confidence": "factory-exact"
-          },
-          "Fuel Capacity": {
-            "value": "24 gal",
-            "confidence": "factory-exact"
-          },
-          "Bottom Thickness": {
-            "value": "0.100\"",
-            "confidence": "factory-exact"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "0.076\"",
-            "confidence": "factory-exact"
-          },
-          "Construction": {
-            "value": "Riveted aluminum deep-V",
-            "confidence": "factory-exact"
-          }
-        },
-        "eras": [
-          {
-            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2010",
-            "label": "2010",
-            "startYear": 2010,
-            "endYear": 2010,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
-          }
-        ]
-      },
-      {
-        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2014",
-        "label": "2014 factory specification",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "factory-exact",
-        "specificationBasis": "2014 factory specification table.",
-        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2014-Smokercraft-Brochure.pdf",
         "specs": {
           "Length": {
             "value": "16'8\"",
@@ -26289,24 +27152,24 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2014",
-            "label": "2014",
-            "startYear": 2014,
-            "endYear": 2014,
+            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2012-2016",
+            "label": "2012-2016",
+            "startYear": 2012,
+            "endYear": 2016,
             "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 10000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2018",
-        "label": "2018 factory specification",
-        "startYear": 2018,
+        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2017-2018",
+        "label": "2017–2018 later certification generation",
+        "startYear": 2017,
         "endYear": 2018,
-        "status": "factory-exact",
-        "specificationBasis": "2018 factory specification table.",
-        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf",
+        "status": "factory-supported-generation",
+        "specificationBasis": "2017 annual roster and 2018 factory table support the later 1,225-lb certification.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
             "value": "16'8\"",
@@ -26371,31 +27234,62 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2018",
-            "label": "2018",
-            "startYear": 2018,
+            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2017-2018",
+            "label": "2017-2018",
+            "startYear": 2017,
             "endYear": 2018,
-            "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 6500,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2019-2024",
+        "label": "2019–2024 continued 172 Pro Angler; exact annual tables source-exhausted",
+        "startYear": 2019,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual valuation rosters confirm the 172 Pro Angler through 2024 at 1,225 lb. Complete annual factory tables were not recovered, so dimensions and fuel/capacity details are not backfilled.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,225 lb",
+            "confidence": "secondary-year-roster"
+          },
+          "Layout": {
+            "value": "Console variants documented; verify walk-through windshield on the individual boat",
+            "confidence": "model-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):value:2019-2024",
+            "label": "2019-2024",
+            "startYear": 2019,
+            "endYear": 2024,
+            "low": 9000,
+            "high": 19000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": true
   },
   {
     "id": "boat:Smoker Craft | Pro Angler 172 XL",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Smoker Craft",
-    "model": "Pro Angler 172 XL",
-    "displayName": "Smoker Craft | Pro Angler 172 XL",
-    "subtitle": "2012–2013, 2014, 2018, and 2025-current factory generations",
+    "model": "*Pro Angler 172 XL",
+    "displayName": "*Smoker Craft | Pro Angler 172 XL",
+    "subtitle": "2012–2026 documented production; 2019 weight/fuel transition and 2025 Gen 2 retained",
     "badge": "Primary",
     "lowPrice": 7000,
-    "highPrice": 11000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "highPrice": 46000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
@@ -26406,7 +27300,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012–2013, 2014, 2018, and 2025-current factory generations"
+        "value": "2012–2026 documented production; 2019 weight/fuel transition and 2025 Gen 2 retained"
       },
       {
         "label": "Recommendation",
@@ -26498,7 +27392,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The same 17'3-inch by 96-inch hull name spans changes in published weight, capacity certification, rib gauge, and fuel capacity. This is a strong fit for the intended use when price and total trailer load cooperate."
+        "value": "One of the strongest project fits: full windshield, 96-inch beam, 25-inch interior, easy-clean vinyl cockpit, and older generations that can still appear near the budget ceiling."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -26514,22 +27408,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
-      {
-        "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:other-years",
-        "label": "Other advertised years unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
-      },
       {
         "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2012-2013",
         "label": "2012–2013 repeated factory specification",
@@ -26603,12 +27486,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Pro Angler 172 XL:value:2012-2013",
-            "label": "2012–2013 repeated",
+            "label": "2012-2013",
             "startYear": 2012,
             "endYear": 2013,
             "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 11500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -26688,9 +27571,91 @@ window.BOATBUILDER_BOATS = [
             "label": "2014",
             "startYear": 2014,
             "endYear": 2014,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 7500,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2015-2017",
+        "label": "2015–2017 1,350-lb carryover generation",
+        "startYear": 2015,
+        "endYear": 2017,
+        "status": "factory-supported-generation",
+        "specificationBasis": "2015–2017 annual rosters repeat the 1,350-lb Pro Angler XL 172; the 2014 factory table supplies the compatible physical specification.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Length": {
+            "value": "17'3\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,350 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "40\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "17°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "XLS",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "96\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,750 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Angler 172 XL:value:2015-2017",
+            "label": "2015-2017",
+            "startYear": 2015,
+            "endYear": 2017,
+            "low": 8000,
+            "high": 13500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -26770,17 +27735,59 @@ window.BOATBUILDER_BOATS = [
             "label": "2018",
             "startYear": 2018,
             "endYear": 2018,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 10000,
+            "high": 15000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2025-current",
-        "label": "2025 catalog / current factory specification",
+        "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2019-2024",
+        "label": "2019–2024 1,305-lb generation; complete annual tables source-exhausted",
+        "startYear": 2019,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters and exact-model market/fitment records establish the 1,305-lb Pro Angler XL 172 through 2024. Complete annual capacity and fuel tables were not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Length": {
+            "value": "17'3\"",
+            "confidence": "secondary-year-roster"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "model-family-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,305 lb",
+            "confidence": "secondary-year-roster"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "model-family-verified"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "model-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Angler 172 XL:value:2019-2024",
+            "label": "2019-2024",
+            "startYear": 2019,
+            "endYear": 2024,
+            "low": 12000,
+            "high": 24000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2025-2026",
+        "label": "2025–2026 current Gen 2 factory generation",
         "startYear": 2025,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-current",
         "specificationBasis": "2025 catalog / current factory specification; capacity certification, weight, fuel, or structure is kept specific to this snapshot.",
         "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
@@ -26848,18 +27855,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Pro Angler 172 XL:value:2025-current",
-            "label": "2025 catalog / current",
+            "id": "boat:Smoker Craft | Pro Angler 172 XL:value:2025-2026",
+            "label": "2025-2026",
             "startYear": 2025,
-            "endYear": null,
-            "low": null,
-            "high": null,
-            "basis": "Current used-package pricing pending; new-package pricing is not substituted for used value."
+            "endYear": 2026,
+            "low": 34000,
+            "high": 46000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": true
   },
   {
     "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary)",
@@ -26868,11 +27876,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Pro Angler 182 XL (Secondary; 172/172 XL are Primary)",
     "displayName": "Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary)",
-    "subtitle": "2018 and 2025-current materially different factory specifications",
+    "subtitle": "2015–2026 documented production; 2019 shorter-hull transition and 2025 Gen 2 retained",
     "badge": "Secondary",
     "lowPrice": 9000,
-    "highPrice": 18000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "highPrice": 55000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
@@ -26883,7 +27891,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2018 and 2025-current materially different factory specifications"
+        "value": "2015–2026 documented production; 2019 shorter-hull transition and 2025 Gen 2 retained"
       },
       {
         "label": "Recommendation",
@@ -26975,7 +27983,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2018 boat is listed at 18'5 inches and 27 gallons; the current factory boat is 18'2 inches and 25 gallons. Do not blend them. Either package is capable, but the 172 XL is the better tow and budget target."
+        "value": "A capable Superior boat, but its package size, motor and typical price are less compatible with the project than the 172 XL."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -26991,30 +27999,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:pre-2018",
-        "label": "Earlier Pro Angler XL 182 years unresolved",
-        "startYear": null,
-        "endYear": 2017,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
-      },
-      {
-        "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:2018",
-        "label": "2018 factory specification",
-        "startYear": 2018,
+        "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:2015-2018",
+        "label": "2015–2018 18-foot-5-inch factory-supported generation",
+        "startYear": 2015,
         "endYear": 2018,
-        "status": "factory-exact",
-        "specificationBasis": "2018 Smoker Craft factory catalog table.",
-        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf",
+        "status": "factory-supported-generation",
+        "specificationBasis": "Exact-model fitment, annual rosters and the 2018 factory table establish this 18-foot-5-inch generation from 2015 through 2018.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
             "value": "18'5\"",
@@ -27079,32 +28076,59 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):value:2018",
-            "label": "2018",
-            "startYear": 2018,
+            "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):value:2015-2018",
+            "label": "2015-2018",
+            "startYear": 2015,
             "endYear": 2018,
             "low": 9000,
-            "high": 13000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 16000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:2019-2024",
-        "label": "2019–2024 transition years unresolved",
+        "label": "2019–2024 18-foot-2-inch generation; complete annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Exact-model fitment and annual rosters establish the 182 XL DC from 2019 through 2024. Core current-family dimensions are supported, but complete annual tables were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {
+          "Length": {
+            "value": "18'2\"",
+            "confidence": "model-family-verified"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "model-family-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,425 lb",
+            "confidence": "secondary-year-roster"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "model-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):value:2019-2024",
+            "label": "2019-2024",
+            "startYear": 2019,
+            "endYear": 2024,
+            "low": 15000,
+            "high": 30000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
-        "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:2025-current",
-        "label": "2025 catalog / current factory specification",
+        "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:2025-2026",
+        "label": "2025–2026 current Gen 2 factory generation",
         "startYear": 2025,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-current",
         "specificationBasis": "Current factory table documents a shorter 18'2-inch specification, lower fuel capacity, and different certified persons load than 2018.",
         "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
@@ -27172,18 +28196,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):value:2025-current",
-            "label": "2025–current",
+            "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):value:2025-2026",
+            "label": "2025-2026",
             "startYear": 2025,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Current used-package pricing pending; new-package pricing is not substituted for used value."
+            "endYear": 2026,
+            "low": 40000,
+            "high": 55000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
@@ -27192,11 +28217,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
     "displayName": "Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
-    "subtitle": "2011, 2013–2014, 2016, and 2018 factory generations",
+    "subtitle": "1994–2020 documented production across early, 18-foot-2-inch, and 18-foot-5-inch eras",
     "badge": "Secondary",
-    "lowPrice": 6500,
-    "highPrice": 13000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 3000,
+    "highPrice": 19000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
@@ -27207,7 +28232,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2011, 2013–2014, 2016, and 2018 factory generations"
+        "value": "1994–2020 documented production across early, 18-foot-2-inch, and 18-foot-5-inch eras"
       },
       {
         "label": "Recommendation",
@@ -27299,7 +28324,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2018 Pro Mag is materially longer, deeper, and rated for more horsepower than the 2011–2016 boat. This is a capable 18-footer, but complete 150–175 hp packages need careful tow-weight screening."
+        "value": "The name spans materially different hull eras. The 18-foot package is big-water capable but usually a poorer tow and budget fit than the 172-size boats."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -27315,21 +28340,57 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:other-years",
-        "label": "Other advertised years unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:1994-1999",
+        "label": "1994–1999 early Pro Mag 182 identity; detailed tables source-exhausted",
+        "startYear": 1994,
+        "endYear": 1999,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment establishes the 1994–1999 production interval. Complete factory tables were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {},
-        "eras": []
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:1994-1999",
+            "label": "1994-1999",
+            "startYear": 1994,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2000-2010",
+        "label": "2000–2010 later 18-foot-class generation; complete tables source-exhausted",
+        "startYear": 2000,
+        "endYear": 2010,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Exact-model fitment and annual rosters establish a later Pro Mag 182 line. Rosters list approximately 1,425 lb in the late 2000s; full annual tables remain incomplete.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "About 1,425 lb in late-2000s rosters",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:2000-2010",
+            "label": "2000-2010",
+            "startYear": 2000,
+            "endYear": 2010,
+            "low": 4500,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
         "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2011",
@@ -27409,7 +28470,33 @@ window.BOATBUILDER_BOATS = [
             "endYear": 2011,
             "low": 6500,
             "high": 10500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2012",
+        "label": "2012 carryover identity; exact certification table source-exhausted",
+        "startYear": 2012,
+        "endYear": 2012,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "The 2012 roster confirms the 1,425-lb Pro Mag 182 between exact factory snapshots. Complete 2012 certification details were not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,425 lb",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:2012",
+            "label": "2012",
+            "startYear": 2012,
+            "endYear": 2012,
+            "low": 7000,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -27486,22 +28573,22 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:2013-2014",
-            "label": "2013–2014 repeated",
+            "label": "2013-2014",
             "startYear": 2013,
             "endYear": 2014,
-            "low": 6500,
-            "high": 10500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 7500,
+            "high": 12500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2016",
-        "label": "2016 factory specification",
-        "startYear": 2016,
+        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2015-2016",
+        "label": "2015–2016 factory-supported generation",
+        "startYear": 2015,
         "endYear": 2016,
-        "status": "factory-exact",
-        "specificationBasis": "2016 factory specification table.",
+        "status": "factory-supported-generation",
+        "specificationBasis": "2015 annual roster and 2016 factory table support the 18-foot-2-inch, 1,425-lb configuration.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -27567,24 +28654,24 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:2016",
-            "label": "2016",
-            "startYear": 2016,
+            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:2015-2016",
+            "label": "2015-2016",
+            "startYear": 2015,
             "endYear": 2016,
-            "low": 6500,
-            "high": 10500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 8000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2018",
-        "label": "2018 redesigned factory specification",
-        "startYear": 2018,
+        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2017-2018",
+        "label": "2017–2018 18-foot-5-inch factory-supported generation",
+        "startYear": 2017,
         "endYear": 2018,
-        "status": "factory-exact",
-        "specificationBasis": "2018 redesigned factory specification table.",
-        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf",
+        "status": "factory-supported-generation",
+        "specificationBasis": "2017 roster and 2018 factory table support the later 18-foot-5-inch configuration.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
             "value": "18'5\"",
@@ -27649,31 +28736,58 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:2018",
-            "label": "2018 redesigned",
-            "startYear": 2018,
+            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:2017-2018",
+            "label": "2017-2018",
+            "startYear": 2017,
             "endYear": 2018,
-            "low": 9000,
-            "high": 13000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 9500,
+            "high": 16500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2019-2020",
+        "label": "2019–2020 final Pro Mag 182 identity; complete tables source-exhausted",
+        "startYear": 2019,
+        "endYear": 2020,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Exact-model fitment closes production at 2020. Complete final-year factory tables were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,425 lb in 2019 roster",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:2019-2020",
+            "label": "2019-2020",
+            "startYear": 2019,
+            "endYear": 2020,
+            "low": 11000,
+            "high": 19000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Ultima 172",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Smoker Craft",
-    "model": "Ultima 172",
-    "displayName": "Smoker Craft | Ultima 172",
-    "subtitle": "2012, 2014, 2016, 2018, and 2025-current factory generations",
+    "model": "*Ultima 172",
+    "displayName": "*Smoker Craft | Ultima 172",
+    "subtitle": "2005–2026 documented production; 2014 wide-hull redesign and 2019 Legacy era retained",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 10000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 4000,
+    "highPrice": 46000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
     "image": {
       "url": "https://seo-images.gumlet.io/smk_my17_ultima172_0_3f401ec4b5.png?q=75&w=3840",
@@ -27684,7 +28798,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012, 2014, 2016, 2018, and 2025-current factory generations"
+        "value": "2005–2026 documented production; 2014 wide-hull redesign and 2019 Legacy era retained"
       },
       {
         "label": "Recommendation",
@@ -27776,7 +28890,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 2017-only framing hid the major 2014 redesign from 17'2 by 91 inches to 17'3 by 96 inches. Weight, capacity entries, rib gauge, and fuel then changed again."
+        "value": "A strong project fit in the wide-hull generations. Older examples can combine full windshield, 96-inch beam, washable vinyl cockpit and realistic budget pricing; verify carpet on the raised decks."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -27792,21 +28906,66 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Smoker Craft | Ultima 172:gen:other-years",
-        "label": "Other advertised years unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
+        "id": "boat:Smoker Craft | Ultima 172:gen:2005",
+        "label": "2005 early 1,260-lb generation; complete table source-exhausted",
+        "startYear": 2005,
+        "endYear": 2005,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "The 2005 annual roster identifies the Ultima 172 at 1,260 lb. Complete factory specifications were not recovered.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,260 lb",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 172:value:2005",
+            "label": "2005",
+            "startYear": 2005,
+            "endYear": 2005,
+            "low": 4000,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Ultima 172:gen:2006-2011",
+        "label": "2006–2011 91-inch-beam-era identity; complete annual tables source-exhausted",
+        "startYear": 2006,
+        "endYear": 2011,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters identify a 1,325–1,330-lb Ultima 172 before the later 96-inch-beam redesign. Complete compatible annual tables were not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Beam": {
+            "value": "91\" era; verify exact year",
+            "confidence": "catalog-family-evidence"
+          },
+          "Dry Hull Weight": {
+            "value": "1,325–1,330 lb",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 172:value:2006-2011",
+            "label": "2006-2011",
+            "startYear": 2006,
+            "endYear": 2011,
+            "low": 4500,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
         "id": "boat:Smoker Craft | Ultima 172:gen:2012",
@@ -27881,12 +29040,38 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Ultima 172:value:2012",
-            "label": "2012 pre-redesign factory specification",
+            "label": "2012",
             "startYear": 2012,
             "endYear": 2012,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 6000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Ultima 172:gen:2013",
+        "label": "2013 transition/carryover identity; exact table source-exhausted",
+        "startYear": 2013,
+        "endYear": 2013,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "The 2013 roster confirms an Ultima 172 between exact 2012 and redesigned 2014 tables. Exact 2013 dimensions/certification were not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,325 lb",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 172:value:2013",
+            "label": "2013",
+            "startYear": 2013,
+            "endYear": 2013,
+            "low": 6500,
+            "high": 10500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -27963,22 +29148,22 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Ultima 172:value:2014",
-            "label": "2014 redesigned factory specification",
+            "label": "2014",
             "startYear": 2014,
             "endYear": 2014,
-            "low": 6500,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 7000,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Ultima 172:gen:2016",
-        "label": "2016 factory specification",
-        "startYear": 2016,
+        "id": "boat:Smoker Craft | Ultima 172:gen:2015-2016",
+        "label": "2015–2016 96-inch-beam factory-supported generation",
+        "startYear": 2015,
         "endYear": 2016,
-        "status": "factory-exact",
-        "specificationBasis": "2016 factory specification; exact table kept separate where dimensions, certification, weight, structure, or fuel changed.",
+        "status": "factory-supported-generation",
+        "specificationBasis": "2015 roster and 2016 factory table support the 96-inch-beam, 1,325-lb configuration.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -28044,24 +29229,24 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Ultima 172:value:2016",
-            "label": "2016 factory specification",
-            "startYear": 2016,
+            "id": "boat:Smoker Craft | Ultima 172:value:2015-2016",
+            "label": "2015-2016",
+            "startYear": 2015,
             "endYear": 2016,
-            "low": 6500,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 7500,
+            "high": 13500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Ultima 172:gen:2018",
-        "label": "2018 factory specification",
-        "startYear": 2018,
+        "id": "boat:Smoker Craft | Ultima 172:gen:2017-2018",
+        "label": "2017–2018 later certification generation",
+        "startYear": 2017,
         "endYear": 2018,
-        "status": "factory-exact",
-        "specificationBasis": "2018 factory specification; exact table kept separate where dimensions, certification, weight, structure, or fuel changed.",
-        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf",
+        "status": "factory-supported-generation",
+        "specificationBasis": "2017 roster and 2018 factory table support the later 1,305–1,325-lb configuration.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
             "value": "17'3\"",
@@ -28126,21 +29311,59 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Ultima 172:value:2018",
-            "label": "2018 factory specification",
-            "startYear": 2018,
+            "id": "boat:Smoker Craft | Ultima 172:value:2017-2018",
+            "label": "2017-2018",
+            "startYear": 2017,
             "endYear": 2018,
-            "low": 6500,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "low": 9000,
+            "high": 15500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
-        "id": "boat:Smoker Craft | Ultima 172:gen:2025-current",
-        "label": "2025 catalog / current factory specification",
+        "id": "boat:Smoker Craft | Ultima 172:gen:2019-2024",
+        "label": "2019–2024 Ultima / Legacy generation; complete annual tables source-exhausted",
+        "startYear": 2019,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters and exact-model fitment establish the standard and Legacy Ultima 172 through 2024. Core 1,305-lb/96-inch dimensions are supported; complete annual option and certification tables were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {
+          "Length": {
+            "value": "17'3\"",
+            "confidence": "model-family-verified"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "model-family-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,305 lb",
+            "confidence": "secondary-year-roster"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "model-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 172:value:2019-2024",
+            "label": "2019-2024",
+            "startYear": 2019,
+            "endYear": 2024,
+            "low": 12000,
+            "high": 25000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Ultima 172:gen:2025-2026",
+        "label": "2025–2026 current Gen 2 factory generation",
         "startYear": 2025,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-current",
         "specificationBasis": "2025 catalog / current factory specification; exact table kept separate where dimensions, certification, weight, structure, or fuel changed.",
         "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
@@ -28208,18 +29431,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Ultima 172:value:2025-current",
-            "label": "2025 catalog / current factory specification",
+            "id": "boat:Smoker Craft | Ultima 172:value:2025-2026",
+            "label": "2025-2026",
             "startYear": 2025,
-            "endYear": null,
-            "low": null,
-            "high": null,
-            "basis": "Current used-package pricing pending; new-package pricing is not substituted for used value."
+            "endYear": 2026,
+            "low": 34000,
+            "high": 46000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": true
   },
   {
     "id": "boat:Smoker Craft | Ultima 175",
@@ -28228,11 +29452,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Ultima 175",
     "displayName": "Smoker Craft | Ultima 175",
-    "subtitle": "1995 exact factory specification",
+    "subtitle": "1994–1999 documented production; 1995 exact factory table",
     "badge": "Primary",
-    "lowPrice": 3000,
-    "highPrice": 5500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 2500,
+    "highPrice": 6500,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
     "image": {
       "url": "https://seo-images.gumlet.io/smk_my17_ultima172_0_3f401ec4b5.png?q=75&w=3840",
@@ -28243,7 +29467,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995 exact factory specification"
+        "value": "1994–1999 documented production; 1995 exact factory table"
       },
       {
         "label": "Recommendation",
@@ -28335,7 +29559,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 2017 attribution was wrong. The factory-verified Ultima 175 record is a 1995 17'8-inch, 85.5-inch-beam, 1,120-pound boat."
+        "value": "The old one-year record understated the model run. Only 1995 retains exact factory specifications; surrounding years are closed honestly without borrowed figures."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -28351,11 +29575,32 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "1995 factory model and specification verified; no later same-name span is asserted."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Ultima 175:gen:1994",
+        "label": "1994 model identity; detailed table source-exhausted",
+        "startYear": 1994,
+        "endYear": 1994,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment and annual records establish the 1994 start. Complete 1994 factory specifications were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 175:value:1994",
+            "label": "1994",
+            "startYear": 1994,
+            "endYear": 1994,
+            "low": 2500,
+            "high": 5000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
       {
         "id": "boat:Smoker Craft | Ultima 175:gen:1995",
         "label": "1995 factory specification",
@@ -28414,12 +29659,34 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1995,
             "low": 3000,
             "high": 5500,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Ultima 175:gen:1996-1999",
+        "label": "1996–1999 continuation; detailed tables source-exhausted",
+        "startYear": 1996,
+        "endYear": 1999,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment establishes continuation through 1999. The 1995 table is not assumed unchanged.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 175:value:1996-1999",
+            "label": "1996-1999",
+            "startYear": 1996,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Ultima 178",
@@ -28428,11 +29695,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Ultima 178",
     "displayName": "Smoker Craft | Ultima 178",
-    "subtitle": "2001 model identity only; specifications and pricing unresolved",
+    "subtitle": "2001 documented model identity; specification table source-exhausted",
     "badge": "Primary",
-    "lowPrice": null,
-    "highPrice": null,
-    "priceBasis": "Factory specification and generation-specific used-market research pending.",
+    "lowPrice": 3000,
+    "highPrice": 6500,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
     "image": {
       "url": "https://seo-images.gumlet.io/smk_my17_ultima172_0_3f401ec4b5.png?q=75&w=3840",
@@ -28443,7 +29710,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2001 model identity only; specifications and pricing unresolved"
+        "value": "2001 documented model identity; specification table source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -28535,7 +29802,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 2017 snapshot was unsupported. Keep this searchable, but do not infer dimensions or price from Ultima 172, 175, or 182."
+        "value": "This remains a one-year identity-only record. Price is a screening range for complete packages, not a hull-spec inference."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -28551,7 +29818,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Model identity retained; no specifications or pricing assigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
@@ -28561,14 +29828,25 @@ window.BOATBUILDER_BOATS = [
         "label": "2001 model identity; specifications unresolved",
         "startYear": 2001,
         "endYear": 2001,
-        "status": "model-identity-only",
-        "specificationBasis": "Period model references establish an Ultima 178 for 2001, but an exact factory specification table has not been recovered.",
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "The 2001 factory archive and annual model identity survive, but a complete compatible specification table was not recovered.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {},
-        "eras": []
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 178:value:2001",
+            "label": "2001",
+            "startYear": 2001,
+            "endYear": 2001,
+            "low": 3000,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       }
     ],
-    "generationWarning": "The Ultima 178 model identity is supported for 2001, but hull specifications and price are intentionally withheld until the factory table is recovered."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)",
@@ -28577,11 +29855,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Ultima 182 (Secondary; 172 is Primary)",
     "displayName": "Smoker Craft | Ultima 182 (Secondary; 172 is Primary)",
-    "subtitle": "2016–2018 standard, 2016 182SE, and 2025-current factory configurations",
+    "subtitle": "2001–2002 and 2015–2026 documented production; standard, SE, Legacy and Gen 2 configurations separated",
     "badge": "Secondary",
-    "lowPrice": 9000,
-    "highPrice": 18000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Select the documented hull/configuration before using price guidance.",
+    "lowPrice": 4000,
+    "highPrice": 55000,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
     "image": {
       "url": "https://seo-images.gumlet.io/smk_my17_ultima172_0_3f401ec4b5.png?q=75&w=3840",
@@ -28592,7 +29870,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016–2018 standard, 2016 182SE, and 2025-current factory configurations"
+        "value": "2001–2002 and 2015–2026 documented production; standard, SE, Legacy and Gen 2 configurations separated"
       },
       {
         "label": "Recommendation",
@@ -28684,7 +29962,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "“Ultima 182” is not one unchanged hull entry. The standard 2016–2018 boat is 18'5 inches, the 2016 182SE is 18'2 inches, and the current specification is also 18'2 inches but differs in depth, fuel, and certified load."
+        "value": "Strong big-water hardware, but generally too expensive and heavy to be an ideal project target compared with the Ultima 172."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -28700,21 +29978,57 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Smoker Craft catalog evidence reconciled for the documented snapshots; unverified spans remain specification- and price-free."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:pre-2016",
-        "label": "Earlier advertised years unresolved",
-        "startYear": null,
-        "endYear": 2015,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2001-2002",
+        "label": "2001–2002 early Ultima 182 identity; detailed tables source-exhausted",
+        "startYear": 2001,
+        "endYear": 2002,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment establishes the early 2001–2002 Ultima 182. Complete factory tables were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {},
-        "eras": []
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2001-2002",
+            "label": "2001-2002",
+            "startYear": 2001,
+            "endYear": 2002,
+            "low": 4000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2015",
+        "label": "2015 reintroduced Ultima 182 identity; exact table source-exhausted",
+        "startYear": 2015,
+        "endYear": 2015,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual roster and fitment evidence establish the 2015 reintroduction. Complete 2015 certification details were not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,425 lb",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2015",
+            "label": "2015",
+            "startYear": 2015,
+            "endYear": 2015,
+            "low": 8000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
         "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2016-2018-standard",
@@ -28789,12 +30103,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2016-2018-standard",
-            "label": "2016–2018 standard",
+            "label": "2016-2018-standard",
             "startYear": 2016,
             "endYear": 2018,
             "low": 9000,
-            "high": 13000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 16000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
@@ -28871,31 +30185,58 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2016-se",
-            "label": "2016 182SE",
+            "label": "2016-se",
             "startYear": 2016,
             "endYear": 2016,
             "low": 9000,
-            "high": 13000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull/configuration"
+            "high": 15000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       },
       {
         "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2019-2024",
-        "label": "2019–2024 transition years unresolved",
+        "label": "2019–2024 standard / Legacy 18-foot-2-inch generation; full tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
-        "status": "unresolved",
-        "specificationBasis": "Factory tables for this span have not yet been reconciled. No specifications or prices are inherited from another model year.",
-        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Exact-model fitment and annual rosters establish standard and Legacy Ultima 182 configurations through 2024. Core dimensions are supported; complete annual feature/certification tables were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {
+          "Length": {
+            "value": "18'2\"",
+            "confidence": "model-family-verified"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "model-family-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,425 lb",
+            "confidence": "secondary-year-roster"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "model-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2019-2024",
+            "label": "2019-2024",
+            "startYear": 2019,
+            "endYear": 2024,
+            "low": 14000,
+            "high": 30000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
       },
       {
-        "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2025-current",
-        "label": "2025 catalog / current factory specification",
+        "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2025-2026",
+        "label": "2025–2026 current Gen 2 factory generation",
         "startYear": 2025,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-current",
         "specificationBasis": "Current factory table uses an 18'2-inch specification with lower fuel capacity and different depth/capacity entries.",
         "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf",
@@ -28963,18 +30304,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2025-current",
-            "label": "2025–current",
+            "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2025-2026",
+            "label": "2025-2026",
             "startYear": 2025,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Current used-package pricing pending; new-package pricing is not substituted for used value."
+            "endYear": 2026,
+            "low": 40000,
+            "high": 55000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented factory year/configuration. Smoker Craft reused model names while changing dimensions, ratings, capacities, or configuration identity."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Spectrum / Blue Fin | 1906",
@@ -41889,17 +43231,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Super Hawk 1600 WT",
     "displayName": "Crestliner | Super Hawk 1600 WT",
-    "subtitle": "2009 exact model-year specification; earlier same-name boats unresolved",
+    "subtitle": "2000–2012 documented production; 2009–2012 later generation preserved",
     "badge": "Secondary",
     "lowPrice": 2500,
-    "highPrice": 6000,
-    "priceBasis": "Generation-specific used-package estimate. Choose a documented hull generation and compatible price era.",
+    "highPrice": 7500,
+    "priceBasis": "Generation-specific used complete-package screening ranges. Select the applicable physical/evidence generation before judging a listing.",
     "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2009.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2009 exact model-year specification; earlier same-name boats unresolved"
+        "value": "2000–2012 documented production; 2009–2012 later generation preserved"
       },
       {
         "label": "Recommendation",
@@ -41991,7 +43333,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2009 compact Super Hawk is a 16'3-inch, 85.75-inch-beam, 1,000-pound boat. Earlier 1600 Super Hawks existed with different dimensions and equipment, so the 2009 data is not backfilled."
+        "value": "Compact and affordable, but 85.75-inch beam and 90-hp capacity make it a secondary Superior choice rather than an ideal four-person target."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -42007,19 +43349,45 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2009 exact-model specification corroborated; earlier same-name generations remain unassigned."
+        "value": "Full known production span for this existing app model was investigated. Surviving exact factory tables are preserved; remaining intervals are explicitly source-exhausted rather than inheriting adjacent specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Crestliner | Super Hawk 1600 WT:gen:2009",
-        "label": "2009 exact model-year specification",
+        "id": "boat:Crestliner | Super Hawk 1600 WT:gen:2000-2008",
+        "label": "2000–2008 early Super Hawk 1600 line; detailed tables source-exhausted",
+        "startYear": 2000,
+        "endYear": 2008,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual records establish the 1600 Super Hawk from 2000. Complete early factory tables and exact windshield/propulsion configurations were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "About 1,000 lb in later early-era rosters",
+            "confidence": "secondary-year-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Crestliner | Super Hawk 1600 WT:value:2000-2008",
+            "label": "2000-2008",
+            "startYear": 2000,
+            "endYear": 2008,
+            "low": 2500,
+            "high": 6000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Crestliner | Super Hawk 1600 WT:gen:2009-2012",
+        "label": "2009–2012 later factory-supported generation",
         "startYear": 2009,
-        "endYear": 2009,
-        "status": "secondary-verified",
-        "specificationBasis": "2009 Crestliner model-year data corroborated by exact-model specification references.",
-        "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2009.pdf",
+        "endYear": 2012,
+        "status": "factory-supported-generation",
+        "specificationBasis": "The 2009 exact-year specification and 2010–2012 annual records support the 16-foot-3-inch, approximately 1,000-lb generation.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
             "value": "16'3\"",
@@ -42088,32 +43456,22 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Crestliner | Super Hawk 1600 WT:value:2009",
-            "label": "2009",
+            "id": "boat:Crestliner | Super Hawk 1600 WT:value:2009-2012",
+            "label": "2009-2012",
             "startYear": 2009,
-            "endYear": 2009,
+            "endYear": 2012,
             "low": 3500,
-            "high": 6000,
-            "basis": "Used complete-package screening estimate; limited to the selected documented hull generation"
+            "high": 7500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
         ],
         "evidenceUrls": [
           "https://www.boats.za.net/crestliner/super-hawk-series-1600/crestliner-super-hawk-series-1600-2009"
         ]
-      },
-      {
-        "id": "boat:Crestliner | Super Hawk 1600 WT:gen:earlier-years",
-        "label": "Earlier advertised 1600 Super Hawk generations — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2008,
-        "status": "unresolved",
-        "specificationBasis": "Crestliner model-year catalogs have not yet established a compatible specification set for this span. No specifications or prices are inherited.",
-        "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Select the exact documented hull generation. Crestliner reused several family names across materially different hulls, so dimensions, ratings and prices must not be transferred between generations."
+    "generationWarning": "Select the correct model-year generation. Source-exhausted rows intentionally show only facts surviving in year rosters, cover-fit records, archived listings or factory material; adjacent specifications are not borrowed.",
+    "idealMatch": false
   },
   {
     "id": "boat:Starcraft | Fishmaster 176 DC",

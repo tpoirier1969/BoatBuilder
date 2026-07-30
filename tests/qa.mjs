@@ -193,33 +193,69 @@ assert.equal(magnumCs.designGenerations.length, 1, "Magnum CS rejection row has 
 assert.equal(magnumCs.designGenerations[0].status, "family-umbrella-rejection", "Magnum CS is not explicitly a family-level rejection row");
 assert.match(magnumCs.generationWarning || "", /not one exact boat model/i, "Magnum CS rejection warning is missing");
 
-// Focused Crestliner app-model audit.
-const crestliner = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Crestliner");
-assert.equal(crestliner.length, 15, "Focused Crestliner app-model scope changed without updating the audit");
-assert.ok(
-  crestliner.every(entry => Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1),
-  "One or more Crestliner records lacks canonical design-generation metadata"
-);
-assert.ok(
-  crestliner.every(entry => Array.isArray(entry.valueEras) && entry.valueEras.length === 0),
-  "A Crestliner record retained unsafe top-level value eras"
-);
-for (const entry of crestliner) {
-  for (const generation of entry.designGenerations) {
-    if (generation.status !== "unresolved") continue;
-    assert.equal(Object.keys(generation.specs || {}).length, 0, `${entry.id} unresolved generation inherited specifications`);
-    assert.equal((generation.eras || []).length, 0, `${entry.id} unresolved generation inherited pricing`);
+// Strict Crestliner and Smoker Craft existing-model completion audit.
+function assertStrictMaker(maker, expectedRecords, expectedGenerations, idealIds) {
+  const rows = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === maker);
+  assert.equal(rows.length, expectedRecords, `${maker} existing-model scope changed`);
+  assert.equal(
+    rows.reduce((sum, entry) => sum + entry.designGenerations.length, 0),
+    expectedGenerations,
+    `${maker} generation/evidence-row count changed without updating the strict audit`
+  );
+  assert.ok(rows.every(entry => Array.isArray(entry.valueEras) && entry.valueEras.length === 0), `${maker} retained unsafe top-level value eras`);
+  for (const entry of rows) {
+    assert.ok(Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1, `${entry.id} lacks canonical generation metadata`);
+    assert.equal(Boolean(entry.idealMatch), idealIds.has(entry.id), `${entry.id} ideal-match marker is wrong`);
+    assert.equal(entry.model.startsWith("*"), idealIds.has(entry.id), `${entry.id} compact model star is wrong`);
+    assert.equal(entry.displayName.startsWith("*"), idealIds.has(entry.id), `${entry.id} compact display star is wrong`);
+    for (const generation of entry.designGenerations) {
+      assert.notEqual(generation.status, "unresolved", `${entry.id} still contains an unresolved generation`);
+      if (["alias-only", "family-umbrella-rejection"].includes(generation.status)) continue;
+      assert.ok(
+        Array.isArray(generation.eras) && generation.eras.some(era => Number.isFinite(era.low) && Number.isFinite(era.high)),
+        `${entry.id} ${generation.id} lacks a used complete-package range`
+      );
+      for (const era of generation.eras) {
+        assert.ok(Number.isFinite(era.low) && Number.isFinite(era.high) && era.low <= era.high, `${era.id} has invalid pricing`);
+        assert.ok(
+          Number.isInteger(generation.startYear) && Number.isInteger(generation.endYear)
+          && era.startYear >= generation.startYear && era.endYear <= generation.endYear,
+          `${era.id} falls outside its generation`
+        );
+      }
+    }
   }
+  return rows;
 }
 
+const crestlinerIdealIds = new Set([
+  "boat:Crestliner | Fish Hawk 1700 WT",
+  "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC",
+  "boat:Crestliner | Sport Angler 1750",
+  "boat:Crestliner | Super Hawk 1700 WT"
+]);
+const smokerIdealIds = new Set([
+  "boat:Smoker Craft | Millentia 172 WT",
+  "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler)",
+  "boat:Smoker Craft | Pro Angler 172 XL",
+  "boat:Smoker Craft | Ultima 172"
+]);
+const crestliner = assertStrictMaker("Crestliner", 15, 34, crestlinerIdealIds);
+const smokerCraft = assertStrictMaker("Smoker Craft", 18, 70, smokerIdealIds);
+
 const fishHawk1700 = item("boat:Crestliner | Fish Hawk 1700 WT");
-assert.equal(fishHawk1700.designGenerations.find(g => g.startYear === 2007)?.endYear, 2008, "Fish Hawk 1700 2007-2008 factory span is missing");
-assert.equal(fishHawk1700.designGenerations.find(g => g.startYear === 2007)?.specs?.["Bottom Thickness"]?.value, "0.090\"", "Fish Hawk 1700 bottom gauge is wrong");
+assert.equal(fishHawk1700.designGenerations.length, 1, "Fish Hawk 1700 should close as one 2007-2010 generation");
+assert.equal(JSON.stringify([fishHawk1700.designGenerations[0].startYear, fishHawk1700.designGenerations[0].endYear]), JSON.stringify([2007, 2010]), "Fish Hawk 1700 production span is wrong");
+assert.equal(fishHawk1700.designGenerations[0].specs?.["Bottom Thickness"]?.value, "0.090\"", "Fish Hawk 1700 bottom gauge is wrong");
+
+const fishHawk1750 = item("boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC");
+assert.equal(Math.min(...fishHawk1750.designGenerations.map(g => g.startYear)), 2002, "Fish Hawk 1750 early production is missing");
+assert.equal(Math.max(...fishHawk1750.designGenerations.map(g => g.endYear)), 2026, "Fish Hawk 1750 current production is incomplete");
+assert.equal(fishHawk1750.designGenerations.find(g => g.startYear === 2024)?.specs?.Length?.value, "17'7\"", "Current Fish Hawk 1750 AP-X length is missing");
 
 const fishHawk1850 = item("boat:Crestliner | Fish Hawk 1850 WT");
-assert.equal(fishHawk1850.designGenerations.length, 3, "Fish Hawk 1850 documented snapshots and unresolved span are not separated");
-assert.equal(fishHawk1850.designGenerations.find(g => g.startYear === 2007)?.specs?.["Dry Hull Weight"]?.value, "1,300 lb console / 1,250 lb tiller", "2007 Fish Hawk 1850 weight is wrong");
-assert.equal(fishHawk1850.designGenerations.find(g => g.startYear === 2014)?.specs?.["Dry Hull Weight"]?.value, "1,500 lb", "2014 Fish Hawk 1850 weight is missing");
+assert.equal(fishHawk1850.designGenerations.length, 3, "Fish Hawk 1850 early, heavier and AP-X generations are not separated");
+assert.equal(fishHawk1850.designGenerations.find(g => g.startYear === 2024)?.specs?.["Dry Hull Weight"]?.value, "1,527–1,689 lb by SC/WT configuration", "Current Fish Hawk 1850 weight range is missing");
 
 const phantomV160 = item("boat:Crestliner | Phantom Sportfish V160");
 const phantomV170 = item("boat:Crestliner | Phantom Sportfish V170");
@@ -227,89 +263,59 @@ const phantomV180 = item("boat:Crestliner | Phantom Sportfish V180");
 assert.equal(phantomV160.designGenerations[0].specs?.Beam?.value, "78\"", "Phantom V160 beam correction is missing");
 assert.equal(phantomV170.designGenerations[0].specs?.Beam?.value, "83\"", "Phantom V170 beam correction is missing");
 assert.equal(phantomV180.designGenerations[0].specs?.Beam?.value, "87\"", "Phantom V180 beam correction is missing");
-assert.match(phantomV170.designGenerations[0].specs?.["Max HP"]?.value || "", /Verify capacity plate/i, "Phantom horsepower was presented without factory verification");
 
 const sportfish1750 = item("boat:Crestliner | Sportfish 1750");
-assert.doesNotMatch(sportfish1750.subtitle, /1992/i, "Sportfish 1750 retained the incorrect 1992 identity");
-assert.equal(sportfish1750.designGenerations.find(g => g.startYear === 2004)?.specs?.Beam?.value, "89\"", "2004 Sportfish 1750 snapshot is missing");
+assert.equal(Math.min(...sportfish1750.designGenerations.map(g => g.startYear)), 2000, "Sportfish 1750 outboard start year is wrong");
+assert.equal(Math.max(...sportfish1750.designGenerations.map(g => g.endYear)), 2005, "Sportfish 1750 outboard end year is wrong");
+assert.doesNotMatch(sportfish1750.subtitle, /199[0-9]/, "Sportfish 1750 still mixes in the older V175 sterndrive");
 
 const sportfish1850 = item("boat:Crestliner | Sportfish 1850");
-assert.equal(sportfish1850.designGenerations.length, 3, "Sportfish 1850 early, unresolved and later generations are not separated");
-assert.equal(sportfish1850.designGenerations.find(g => g.startYear === 2007)?.specs?.Length?.value, "18'2\"", "Early Sportfish 1850 length is wrong");
-assert.equal(sportfish1850.designGenerations.find(g => g.startYear === 2017)?.specs?.Length?.value, "18'9\" outboard", "2017 Sportfish 1850 length is wrong");
-assert.equal(sportfish1850.designGenerations.find(g => g.startYear === 2017)?.specs?.["Dry Hull Weight"]?.value, "1,700 lb outboard", "2017 Sportfish 1850 weight is wrong");
+assert.equal(JSON.stringify(sportfish1850.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[2000, 2014], [2015, 2023], [2024, 2026]]), "Sportfish 1850 generation boundaries are incomplete");
+assert.equal(sportfish1850.designGenerations.find(g => g.startYear === 2024)?.specs?.Length?.value, "18'11\"", "Current Sportfish 1850 length is wrong");
 
 const superHawk1700 = item("boat:Crestliner | Super Hawk 1700 WT");
+assert.equal(Math.max(...superHawk1700.designGenerations.map(g => g.endYear)), 2012, "Super Hawk 1700 production end is incomplete");
 assert.equal(superHawk1700.designGenerations.find(g => g.startYear === 2008)?.specs?.["Capacity Weight"]?.value, "1,305 lb", "Super Hawk 1700 capacity is wrong");
-assert.equal(superHawk1700.designGenerations.find(g => g.startYear === 2008)?.specs?.["Side / Freeboard Thickness"]?.value, "0.090\"", "Super Hawk 1700 side gauge is wrong");
-
+const superHawk1800 = item("boat:Crestliner | Super Hawk 1800 WT");
+assert.equal(Math.max(...superHawk1800.designGenerations.map(g => g.endYear)), 2012, "Super Hawk 1800 should end before the 1850 replacement");
 const vision1600 = item("boat:Crestliner | Vision 1600 WT");
 const vision1700 = item("boat:Crestliner | Vision 1700 WT");
-assert.match(vision1600.subtitle, /^2017 exact factory specification/i, "Vision 1600 source year was not corrected to 2017");
-assert.match(vision1700.subtitle, /^2017 exact factory specification/i, "Vision 1700 source year was not corrected to 2017");
-assert.ok(vision1600.designGenerations.every(g => g.startYear !== 2015), "Vision 1600 retained an unsupported 2015 snapshot");
-assert.ok(vision1700.designGenerations.every(g => g.startYear !== 2015), "Vision 1700 retained an unsupported 2015 snapshot");
-
-const superHawk1600 = item("boat:Crestliner | Super Hawk 1600 WT");
-assert.equal(superHawk1600.designGenerations.find(g => g.startYear === 2009)?.specs?.["Capacity Weight"]?.value, "1,295 lb", "2009 Super Hawk 1600 capacity is missing");
-
-// Focused Smoker Craft app-model audit.
-const smokerCraft = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Smoker Craft");
-assert.equal(smokerCraft.length, 18, "Focused Smoker Craft app-model scope changed without updating the audit");
-assert.ok(smokerCraft.every(entry => Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1), "One or more Smoker Craft records lacks canonical generation metadata");
-assert.ok(smokerCraft.every(entry => Array.isArray(entry.valueEras) && entry.valueEras.length === 0), "A Smoker Craft record retained unsafe top-level value eras");
-for (const entry of smokerCraft) {
-  for (const generation of entry.designGenerations) {
-    if (generation.status !== "unresolved") continue;
-    assert.equal(Object.keys(generation.specs || {}).length, 0, `${entry.id} unresolved generation inherited specifications`);
-    assert.equal((generation.eras || []).length, 0, `${entry.id} unresolved generation inherited pricing`);
-  }
-}
+assert.equal(JSON.stringify(vision1600.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[2014, 2015], [2016, 2018]]), "Vision 1600 span is incomplete");
+assert.equal(JSON.stringify(vision1700.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[2015, 2015], [2016, 2018]]), "Vision 1700 span is incomplete");
 
 const fazer172Audit = item("boat:Smoker Craft | Fazer 172");
+assert.equal(Math.max(...fazer172Audit.designGenerations.map(g => g.endYear)), 1995, "Fazer 172 incorrectly continues beyond 1995");
 assert.equal(fazer172Audit.designGenerations.find(g => g.startYear === 1995)?.specs?.Length?.value, "17'5\"", "1995 Fazer 172 length is wrong");
-assert.ok(fazer172Audit.designGenerations.every(g => g.startYear !== 1998), "Fazer 172 retained the unsupported 1998 exact snapshot");
+const fazer178Audit = item("boat:Smoker Craft | Fazer 178");
+assert.equal(JSON.stringify([fazer178Audit.designGenerations[0].startYear, fazer178Audit.designGenerations[0].endYear]), JSON.stringify([1998, 1999]), "Fazer 178 production span is wrong");
+const fazer192Audit = item("boat:Smoker Craft | Fazer 192");
+assert.equal(JSON.stringify(fazer192Audit.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[1993, 1994], [1995, 1995], [1996, 1999]]), "Fazer 192 span is incomplete");
 
 const millentia182Audit = item("boat:Smoker Craft | Millentia 182 WT");
-assert.equal(millentia182Audit.designGenerations[0].status, "alias-only", "Millentia 182 was not converted to an alias-only rejection row");
+assert.equal(millentia182Audit.designGenerations[0].status, "alias-only", "Millentia 182 was not retained as an alias-only rejection row");
 assert.equal(millentia182Audit.lowPrice, null, "Millentia 182 alias retained a low price");
-assert.equal(Object.keys(millentia182Audit.designGenerations[0].specs || {}).length, 0, "Millentia 182 alias inherited specifications");
-
-const osprey162Audit = item("boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)");
-assert.equal(osprey162Audit.designGenerations.find(g => g.startYear === 2017)?.specs?.Beam?.value, "90\"", "2017 Osprey 162 beam is missing");
-assert.equal(osprey162Audit.designGenerations.find(g => g.startYear === 2025)?.specs?.["Max HP"]?.value, "115", "Current Osprey 162 horsepower is missing");
-
-const osprey172Audit = item("boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s)");
-assert.equal(osprey172Audit.designGenerations.find(g => g.startYear === 2017)?.specs?.Beam?.value, "92\"", "2017 Osprey 172 beam is wrong");
-assert.equal(osprey172Audit.designGenerations.find(g => g.startYear === 2025)?.specs?.Beam?.value, "90\"", "Current Osprey 172 beam change is missing");
-
 const phaserAudit = item("boat:Smoker Craft | Phaser (seller spelling; likely Fazer)");
 assert.equal(phaserAudit.designGenerations[0].status, "alias-only", "Phaser row is not alias-only");
 assert.equal(phaserAudit.lowPrice, null, "Phaser alias retained a price");
 
+const proAngler172Audit = item("boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler)");
+assert.equal(Math.min(...proAngler172Audit.designGenerations.map(g => g.startYear)), 2004, "Pro Angler 172 start year is incomplete");
+assert.equal(Math.max(...proAngler172Audit.designGenerations.map(g => g.endYear)), 2024, "Pro Angler 172 should close before the current 165-only line");
 const proAngler182Audit = item("boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary)");
-assert.equal(proAngler182Audit.designGenerations.find(g => g.startYear === 2018)?.specs?.Length?.value, "18'5\"", "2018 Pro Angler 182 XL length is wrong");
 assert.equal(proAngler182Audit.designGenerations.find(g => g.startYear === 2025)?.specs?.Length?.value, "18'2\"", "Current Pro Angler 182 XL length change is missing");
 
-const proMag182Audit = item("boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)");
-assert.equal(proMag182Audit.designGenerations.find(g => g.startYear === 2011)?.specs?.["Fuel Capacity"]?.value, "31 gal", "2011 Pro Mag fuel capacity is wrong");
-assert.equal(proMag182Audit.designGenerations.find(g => g.startYear === 2018)?.specs?.["Max HP"]?.value, "175", "2018 Pro Mag horsepower change is missing");
-
 const ultima172Audit = item("boat:Smoker Craft | Ultima 172");
-assert.equal(ultima172Audit.designGenerations.find(g => g.startYear === 2012)?.specs?.Beam?.value, "91\"", "2012 Ultima 172 beam is wrong");
+assert.equal(Math.min(...ultima172Audit.designGenerations.map(g => g.startYear)), 2005, "Ultima 172 start year is incomplete");
+assert.equal(Math.max(...ultima172Audit.designGenerations.map(g => g.endYear)), 2026, "Ultima 172 current production is incomplete");
 assert.equal(ultima172Audit.designGenerations.find(g => g.startYear === 2014)?.specs?.Beam?.value, "96\"", "2014 Ultima 172 redesign beam is missing");
-
 const ultima175Audit = item("boat:Smoker Craft | Ultima 175");
-assert.equal(ultima175Audit.designGenerations.length, 1, "Ultima 175 should be narrowed to its verified 1995 factory snapshot");
-assert.equal(ultima175Audit.designGenerations[0].startYear, 1995, "Ultima 175 retained the false 2017 year");
-
+assert.equal(JSON.stringify(ultima175Audit.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[1994, 1994], [1995, 1995], [1996, 1999]]), "Ultima 175 1994-1999 history is incomplete");
 const ultima178Audit = item("boat:Smoker Craft | Ultima 178");
-assert.equal(ultima178Audit.designGenerations[0].status, "model-identity-only", "Ultima 178 should withhold unverified specifications");
-assert.equal(ultima178Audit.lowPrice, null, "Ultima 178 retained unsupported pricing");
-
+assert.equal(ultima178Audit.designGenerations[0].status, "model-identity-source-exhausted", "Ultima 178 should remain source-exhausted rather than inherit specifications");
+assert.ok(Number.isFinite(ultima178Audit.designGenerations[0].eras[0].low), "Ultima 178 source-exhausted row lacks a market range");
 const ultima182Audit = item("boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)");
 assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2016-2018-standard"))?.specs?.Length?.value, "18'5\"", "Standard Ultima 182 length is wrong");
-assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2016-se"))?.specs?.Length?.value, "18'2\"", "Ultima 182SE configuration is missing");
+assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2016-se"))?.specs?.Length?.value, "18'2\"", "Parallel 2016 Ultima 182SE variation is missing");
 
 // Focused Sylvan, Starcraft and Starweld app-model audit.
 const nextMakers = new Map([["Sylvan",16],["Starcraft",14],["Starweld",3]]);

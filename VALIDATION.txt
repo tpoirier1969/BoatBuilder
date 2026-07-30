@@ -2,28 +2,28 @@ VALIDATION RESULTS
 Date: 2026-07-30
 
 Syntax
+- node --check app.js: PASS
 - node --check data/boats.js: PASS
+- node --check data/catalog.js: PASS
+- node --check data/equipment.js: PASS
 - node --check tests/qa.mjs: PASS
 
 Production QA assertion suite
-- tests/qa.mjs: PASS
-- Output: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
-- The exact replacement data/boats.js and tests/qa.mjs were exercised with repository-compatible unchanged-file fixtures for app/index/styles/catalog/equipment because those unchanged files are not included in this patch.
+BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+Verified canonical app data, focused Lund and Alumacraft generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
 
 Data integrity
 - Boat records before/after: 170 / 170
 - Stable ID set unchanged: PASS
-- Records changed: exactly 17 Starcraft/Starweld records
+- Semantic records changed: 33, all Smoker Craft/Crestliner
 - Non-target boat records unchanged: PASS
-- Starcraft generations: 38
-- Starweld generations: 7
-- Target unresolved generations: 0
-- Target physical generations without numeric used-package pricing: 0
-- Target generation-year overlaps: 0
-- Compact ideal-match stars: exactly 3
-  * Starcraft Starfish 176 DC / WT
-  * Starcraft Superfisherman 176
-  * Starweld 1700 DC / WT
-
-Known evidence limitation
-Source-exhausted rows deliberately withhold complete specifications where surviving annual records could establish model identity or production span but could not prove an unchanged exact hull table. These rows are closed dispositions, not guesses.
+- Smoker Craft records/generation rows: 18 / 70
+- Crestliner records/generation rows: 15 / 34
+- Target unresolved rows: 0
+- Target physical/evidence rows with numeric package ranges: 102 / 102
+- Nonphysical aliases intentionally unpriced: 2
+- Compact ideal-match stars added: 8
+- Remaining literal unresolved rows across the app: 69
+- Generation IDs globally unique: PASS
+- Generation price eras stay inside their parent year spans: PASS
+- Parallel 2016 Ultima 182 standard and 182SE variations are intentionally represented as same-year alternatives.
