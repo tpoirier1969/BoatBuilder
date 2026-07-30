@@ -382,12 +382,69 @@ const sylViper = item("boat:Sylvan | Viper (bass-boat series; no walk-through wi
 assert.equal(sylViper.lowPrice, null, "Viper family rejection retained a price");
 assert.equal(sylViper.designGenerations[0].status, "family-umbrella-rejection", "Viper is not a family rejection");
 const sc186 = item("boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)");
-assert.equal(sc186.designGenerations.find(g=>g.startYear===2014)?.specs?.["Dry Hull Weight"]?.value,"1,333 lb","2014 Superfisherman 186 exact weight is missing");
+assert.equal(sc186.designGenerations.find(g=>g.startYear===2011)?.specs?.["Dry Hull Weight"]?.value,"1,333 lb","2011-2016 Superfisherman 186 exact weight is missing");
 const stx2050 = item("boat:Starcraft | STX 2050 Aluminum");
-assert.equal(stx2050.designGenerations.find(g=>g.startYear===2014)?.specs?.["Dry Hull Weight"]?.value,"1,535 lb","2014 STX weight is wrong");
+assert.equal(stx2050.designGenerations.find(g=>g.startYear===2010)?.specs?.["Dry Hull Weight"]?.value,"1,535 lb","2010-2014 STX weight is wrong");
 assert.equal(stx2050.designGenerations.find(g=>g.startYear===2015)?.specs?.["Dry Hull Weight"]?.value,"1,650 lb","2015 STX weight change is missing");
 const sw16 = item("boat:Starweld | Fusion 16 DC");
 assert.ok(sw16.designGenerations.find(g=>g.startYear===2021)?.eras.every(e=>e.startYear===2021),"Fusion 16 inherited pre-2021 pricing");
+
+// Strict Starcraft and Starweld completion pass.
+const starcraftRows = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Starcraft");
+const starweldRows = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Starweld");
+for (const [maker, rows, expected] of [["Starcraft", starcraftRows, 14], ["Starweld", starweldRows, 3]]) {
+  assert.equal(rows.length, expected, `${maker} existing-model scope changed`);
+  const unresolved = rows.flatMap(entry => entry.designGenerations.filter(generation => generation.status === "unresolved"));
+  assert.equal(unresolved.length, 0, `${maker} still contains unresolved generation rows`);
+  for (const entry of rows) {
+    for (const generation of entry.designGenerations) {
+      assert.ok(
+        Array.isArray(generation.eras)
+        && generation.eras.some(era => Number.isFinite(era.low) && Number.isFinite(era.high)),
+        `${entry.id} ${generation.id} lacks a used complete-package range`
+      );
+      for (const era of generation.eras) {
+        assert.ok(era.startYear >= generation.startYear && era.endYear <= generation.endYear, `${era.id} falls outside its generation`);
+        assert.ok(Number.isFinite(era.low) && Number.isFinite(era.high) && era.low <= era.high, `${era.id} has invalid pricing`);
+      }
+    }
+  }
+}
+assert.equal(
+  starcraftRows.reduce((sum, entry) => sum + entry.designGenerations.length, 0),
+  38,
+  "Starcraft generation count changed without updating the strict audit"
+);
+assert.equal(
+  starweldRows.reduce((sum, entry) => sum + entry.designGenerations.length, 0),
+  7,
+  "Starweld generation count changed without updating the strict audit"
+);
+const idealStarIds = new Set([
+  "boat:Starcraft | Starfish 176 DC / WT",
+  "boat:Starcraft | Superfisherman 176",
+  "boat:Starweld | 1700 DC / WT"
+]);
+for (const entry of [...starcraftRows, ...starweldRows]) {
+  assert.equal(Boolean(entry.idealMatch), idealStarIds.has(entry.id), `${entry.id} ideal-match marker is wrong`);
+  assert.equal(entry.model.startsWith("*"), idealStarIds.has(entry.id), `${entry.id} compact model star is wrong`);
+  assert.equal(entry.displayName.startsWith("*"), idealStarIds.has(entry.id), `${entry.id} compact display star is wrong`);
+}
+const sc176Strict = item("boat:Starcraft | Superfisherman 176");
+assert.equal(sc176Strict.designGenerations.length, 1, "Superfisherman 176 should close as one 2011-2016 physical generation");
+assert.equal(sc176Strict.designGenerations[0].startYear, 2011, "Superfisherman 176 start year is wrong");
+assert.equal(sc176Strict.designGenerations[0].endYear, 2016, "Superfisherman 176 end year is wrong");
+assert.equal(sc176Strict.designGenerations[0].specs.Beam.value, '100"', "Superfisherman 176 beam is wrong");
+const sc186Strict = item("boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)");
+assert.equal(sc186Strict.designGenerations.find(g => g.startYear === 2025)?.status, "factory-current-conflicted", "Current Superfisherman 186 conflict is not documented");
+assert.ok(!sc186Strict.designGenerations.find(g => g.startYear === 2025)?.specs?.["Dry Hull Weight"], "Conflicted current Superfisherman 186 dry weight leaked into specs");
+const scExplorerStrict = item("boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary)");
+assert.equal(scExplorerStrict.designGenerations.find(g => g.startYear === 2013)?.endYear, 2014, "Explorer 160 2013-2014 generation is incomplete");
+assert.equal(scExplorerStrict.designGenerations.find(g => g.startYear === 2015)?.specs?.["Dry Hull Weight"]?.value, "935 lb", "Explorer 160 2015 revision is missing");
+const sw1700Strict = item("boat:Starweld | 1700 DC / WT");
+assert.equal(sw1700Strict.designGenerations.length, 1, "Starweld 1700 should close as one 2013-2016 generation");
+assert.equal(sw1700Strict.designGenerations[0].endYear, 2016, "Starweld 1700 production end is incomplete");
+assert.equal(sw1700Strict.designGenerations[0].specs?.Beam?.value, '90"', "Starweld 1700 beam is missing");
 
 // All-manufacturer generation-safety audit.
 const allBoats = catalog.items.filter(entry => entry.categoryId === "boats");

@@ -1,27 +1,19 @@
-BoatBuilder Sylvan generation/value completion — 2026-07-29
+BoatBuilder Starcraft + Starweld strict completion patch
+Date: 2026-07-30
 
-Copy these files over the repository root:
+FULL REPLACEMENT FILES
 - data/boats.js
 - tests/qa.mjs
-- research/catalog-generation-audit-status-2026-07-29.md
-- research/audits/sylvan-app-model-audit-2026-07-29.md
+- research/audits/starcraft-starweld-app-model-audit-2026-07-30.md
+- research/catalog-generation-audit-status-2026-07-30.md
 
-Scope:
-- Existing Sylvan records only; no full-manufacturer roster expansion.
-- 16 Sylvan app records reviewed.
-- 39 physical Sylvan generations/annual variations represented.
-- Zero Sylvan unresolved generation rows remain.
-- Every physical Sylvan variation has a used complete-package screening range.
-- Fish and Ski and Viper remain intentionally unpriced non-model dispositions.
+DATA CHANGES
+- Updated only the 14 existing Starcraft and 3 existing Starweld records.
+- Removed all 17 unresolved rows previously present in these manufacturers.
+- Replaced them with 45 closed physical/evidence generations.
+- Added at least one numeric used complete-package range to every physical generation.
+- Added compact ideal-match stars to three visible model names.
+- Preserved all 170 stable boat IDs and all non-Starcraft/Starweld records.
 
-High-impact changes:
-- Split the 2000 18-foot Adventurer 1700 from the returned 2006-2012 17-foot line.
-- Closed Expedition Sport 1700 and 1800 production histories through 2012.
-- Closed Pro Select Dual 16 and 17 annual weight/certification variations.
-- Closed the Sport Troller 1985-2012 history across four physical generations.
-- Closed Super Sportster 16, 17 and 18 production spans and the 18-foot weight change.
-- Closed Explorer 1600 DC from 2002-2012 across three weight generations.
-- Closed Pro Fish 1700 as 2003-2005 and protected it from later Pro Sport aliasing.
-- Added generation-specific package values and QA checks that reject future unresolved or unpriced Sylvan physical rows.
-
-No GitHub repository writes were performed by ChatGPT.
+UPLOAD
+Copy the contents of this patch folder over the repository root. Do not upload the outer folder as a nested directory.

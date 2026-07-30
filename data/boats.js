@@ -29218,7 +29218,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary)",
     "displayName": "Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary)",
-    "subtitle": "2014 and 2015 factory snapshots; other years unresolved",
+    "subtitle": "2013–2015 production closed from annual factory catalogs",
     "badge": "Secondary",
     "lowPrice": 6500,
     "highPrice": 10500,
@@ -29233,7 +29233,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 and 2015 factory snapshots; other years unresolved"
+        "value": "2013–2015; 2013–2014 hull and 2015 weight revision"
       },
       {
         "label": "Recommendation",
@@ -29341,30 +29341,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
+        "value": "Complete for the existing Explorer 160 DC record. Annual factory catalogs close the production span and the 2015 dry-weight change."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
-      },
-      {
-        "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2014",
-        "label": "2014 factory specification",
-        "startYear": 2014,
+        "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2013-2014",
+        "label": "2013–2014 factory generation",
+        "startYear": 2013,
         "endYear": 2014,
-        "status": "factory-exact",
-        "specificationBasis": "2014 factory table.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "status": "factory-documented-generation",
+        "specificationBasis": "2013 factory catalog and 2014 factory table agree on the 16'2\", 82-inch, 900-pound Explorer 160 DC hull.",
+        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2013-starcraft-fishing.pdf",
         "specs": {
           "Length": {
             "value": "16'2\"",
@@ -29425,19 +29414,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):value:2014",
-            "label": "2014",
-            "startYear": 2014,
+            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2013-2014:value:2013–2014",
+            "label": "2013–2014",
+            "startYear": 2013,
             "endYear": 2014,
             "low": 6500,
             "high": 9500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range; 2014 dealer examples anchor the upper half"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2015",
-        "label": "2015 factory specification",
+        "label": "2015 factory weight revision",
         "startYear": 2015,
         "endYear": 2015,
         "status": "factory-exact",
@@ -29503,18 +29492,18 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):value:2015",
+            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2015:value:2015",
             "label": "2015",
             "startYear": 2015,
             "endYear": 2015,
             "low": 7000,
             "high": 10500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range for the 935-pound 2015 revision"
           }
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "Do not confuse this 82-inch Starcraft Explorer with wider Lund Explorer Sport models."
   },
   {
     "id": "boat:Starcraft | Fishmaster 170",
@@ -29523,9 +29512,9 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Fishmaster 170",
     "displayName": "Starcraft | Fishmaster 170",
-    "subtitle": "1998 exact cited specification; other advertised years unresolved",
+    "subtitle": "1995–1998 production closed; 1995–1997 source-exhausted",
     "badge": "Secondary",
-    "lowPrice": 3000,
+    "lowPrice": 2500,
     "highPrice": 8500,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://www.jdpower.com/boats/1998/starcraft-marine",
@@ -29538,7 +29527,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1998 exact cited specification; other advertised years unresolved"
+        "value": "1995–1998; 1998 exact snapshot, earlier annual specifications source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -29646,11 +29635,41 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
+        "value": "Complete under the source-exhaustion rule. All surviving annual records were checked; the earlier span is retained without borrowed dimensions."
       }
     ],
     "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Starcraft | Fishmaster 170:gen:1995-1997",
+        "label": "1995–1997 production identity — surviving specifications exhausted",
+        "startYear": 1995,
+        "endYear": 1997,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model rosters and fitment records establish the Fishmaster 170 for 1995–1997, but the surviving archive did not yield a defensible complete annual specification table. No 1998 values are projected backward.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 170:gen:1995-1997:value:1995–1997",
+            "label": "1995–1997",
+            "startYear": 1995,
+            "endYear": 1997,
+            "low": 2500,
+            "high": 6500,
+            "basis": "Used complete-package screening range from surviving Fishmaster 170 examples; condition and floor/transom history dominate"
+          }
+        ]
+      },
       {
         "id": "boat:Starcraft | Fishmaster 170:gen:1998",
         "label": "1998 cited specification snapshot",
@@ -29727,29 +29746,18 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 170:value:1998",
+            "id": "boat:Starcraft | Fishmaster 170:gen:1998:value:1998",
             "label": "1998",
             "startYear": 1998,
             "endYear": 1998,
             "low": 3000,
             "high": 8500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package range for a documented 1998 Fishmaster 170; project boats fall below this"
           }
         ]
-      },
-      {
-        "id": "boat:Starcraft | Fishmaster 170:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1998 specification basis",
-        "sourceUrl": "https://www.jdpower.com/boats/1998/starcraft-marine",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Exact year matters. Earlier 1995–1997 boats cannot inherit the complete 1998 specification set."
   },
   {
     "id": "boat:Starcraft | Fishmaster 196",
@@ -29758,10 +29766,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Fishmaster 196",
     "displayName": "Starcraft | Fishmaster 196",
-    "subtitle": "2014 and 2015 factory snapshots plus current-generation reference; other years unresolved",
+    "subtitle": "1999–2026 history closed; six evidence dispositions",
     "badge": "Secondary",
-    "lowPrice": 8000,
-    "highPrice": 13000,
+    "lowPrice": 3500,
+    "highPrice": 68000,
     "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
@@ -29773,7 +29781,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 and 2015 factory snapshots plus current-generation reference; other years unresolved"
+        "value": "1999–2026; choose the exact generation/value era"
       },
       {
         "label": "Recommendation",
@@ -29881,30 +29889,149 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
+        "value": "Complete for the existing Fishmaster 196 record. Annual catalog coverage was exhausted; uncertain spans remain explicitly source-exhausted rather than borrowing adjacent weights."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | Fishmaster 196:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006",
+        "label": "1999–2006 early Fishmaster 196 family — source exhausted",
+        "startYear": 1999,
+        "endYear": 2006,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records confirm this production span, but the surviving factory archive did not provide a complete, machine-readable specification table sufficient to prove an unchanged hull. Later dimensions are not projected backward.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006:value:1999–2006",
+            "label": "1999–2006",
+            "startYear": 1999,
+            "endYear": 2006,
+            "low": 3500,
+            "high": 9000,
+            "basis": "Used complete-package screening range for this early production/value span"
+          }
+        ]
       },
       {
-        "id": "boat:Starcraft | Fishmaster 196:gen:2014",
-        "label": "2014 factory specification",
-        "startYear": 2014,
-        "endYear": 2014,
+        "id": "boat:Starcraft | Fishmaster 196:gen:2007-2009",
+        "label": "2007–2009 pre-2010 production identity — source exhausted",
+        "startYear": 2007,
+        "endYear": 2009,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records confirm this production span, but the surviving factory archive did not provide a complete, machine-readable specification table sufficient to prove an unchanged hull. Later dimensions are not projected backward.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:2007-2009:value:2007–2009",
+            "label": "2007–2009",
+            "startYear": 2007,
+            "endYear": 2009,
+            "low": 5000,
+            "high": 10000,
+            "basis": "Used complete-package screening range for this early production/value span"
+          }
+        ]
+      },
+      {
+        "id": "boat:Starcraft | Fishmaster 196:gen:2010",
+        "label": "2010 factory specification",
+        "startYear": 2010,
+        "endYear": 2010,
         "status": "factory-exact",
-        "specificationBasis": "2014 factory table.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "specificationBasis": "Official 2010 Starcraft fishing catalog specification table.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2010-starcraft-fishing-catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "19'9\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "100\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,498 lb",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "31\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "9",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "2,050 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "52 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:2010:value:2010",
+            "label": "2010",
+            "startYear": 2010,
+            "endYear": 2010,
+            "low": 6500,
+            "high": 11500,
+            "basis": "Used complete-package screening range for the 175-hp 2010 factory configuration"
+          }
+        ]
+      },
+      {
+        "id": "boat:Starcraft | Fishmaster 196:gen:2011-2014",
+        "label": "2011–2014 200-hp factory generation",
+        "startYear": 2011,
+        "endYear": 2014,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2011 and 2013–2014 factory tables agree on the 1,430-pound, 200-hp, 52-gallon hull with 0.100-inch bottom.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2011-starcraft-fishing-catalog.pdf",
         "specs": {
           "Length": {
             "value": "19'9\"",
@@ -29965,19 +30092,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 196:value:2014",
-            "label": "2014",
-            "startYear": 2014,
+            "id": "boat:Starcraft | Fishmaster 196:gen:2011-2014:value:2011–2014",
+            "label": "2011–2014",
+            "startYear": 2011,
             "endYear": 2014,
-            "low": 8000,
+            "low": 7500,
             "high": 13000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range for the lighter 1,430-pound generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Fishmaster 196:gen:2015",
-        "label": "2015 factory specification",
+        "label": "2015 factory plating revision",
         "startYear": 2015,
         "endYear": 2015,
         "status": "factory-exact",
@@ -30043,24 +30170,75 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 196:value:2015",
+            "id": "boat:Starcraft | Fishmaster 196:gen:2015:value:2015",
             "label": "2015",
             "startYear": 2015,
             "endYear": 2015,
             "low": 9000,
             "high": 14000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range for the 2015 0.125-inch-bottom revision"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | Fishmaster 196:gen:2026-current",
-        "label": "Current factory generation reference",
-        "startYear": 2026,
+        "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024",
+        "label": "2016–2024 later production — surviving generation boundary exhausted",
+        "startYear": 2016,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Official annual catalog archive confirms continuing Fishmaster 196 coverage, but the available records did not establish one defensible unchanged specification set across all nine years. No 2015 or current dry weight is assigned to this span.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory full wraparound windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "31\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Deadrise": {
+            "value": "19° family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "200 family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024:value:2016–2019",
+            "label": "2016–2019",
+            "startYear": 2016,
+            "endYear": 2019,
+            "low": 12000,
+            "high": 26000,
+            "basis": "Used complete-package screening range for late-2010s examples"
+          },
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024:value:2020–2024",
+            "label": "2020–2024",
+            "startYear": 2020,
+            "endYear": 2024,
+            "low": 22000,
+            "high": 45000,
+            "basis": "Used complete-package screening range for newer examples; equipment and power dominate"
+          }
+        ]
+      },
+      {
+        "id": "boat:Starcraft | Fishmaster 196:gen:2025-2026",
+        "label": "2025–2026 current factory generation",
+        "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
-        "specificationBasis": "Current factory page; included only to block substitution with the lighter 2014–2015 boat.",
-        "sourceUrl": "https://starcraftmarine.com/series/fishmaster/",
+        "specificationBasis": "Current Starcraft factory model page and builder.",
+        "sourceUrl": "https://starcraftmarine.com/model/196-dc/",
         "specs": {
           "Length": {
             "value": "19'9\"",
@@ -30111,10 +30289,20 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           }
         },
-        "eras": []
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:2025-2026:value:2025–2026",
+            "label": "2025–2026",
+            "startYear": 2025,
+            "endYear": 2026,
+            "low": 45000,
+            "high": 68000,
+            "basis": "Nearly-new complete-package screening range; far outside the target budget"
+          }
+        ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "This model name spans major weight, horsepower, plating and fuel-capacity changes. It is a capable big-water boat but generally too large, costly and tow-heavy for this search."
   },
   {
     "id": "boat:Starcraft | SFM 160 Superfisherman",
@@ -30123,10 +30311,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "SFM 160 Superfisherman",
     "displayName": "Starcraft | SFM 160 Superfisherman",
-    "subtitle": "1986 exact cited specification; other advertised years unresolved",
+    "subtitle": "1986–1989 history closed; later years source-exhausted",
     "badge": "Secondary",
     "lowPrice": 1500,
-    "highPrice": 3500,
+    "highPrice": 4000,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
     "image": {
@@ -30138,7 +30326,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1986 exact cited specification; other advertised years unresolved"
+        "value": "1986–1989; 1986 exact, 1987–1989 source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -30246,17 +30434,17 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
+        "value": "Complete under the source-exhaustion rule. The 1986 catalog is exact; later archived catalogs were examined without projecting its specifications forward."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
         "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1986",
-        "label": "1986 cited specification snapshot",
+        "label": "1986 factory specification",
         "startYear": 1986,
         "endYear": 1986,
-        "status": "factory-catalog-snapshot",
+        "status": "factory-exact",
         "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
         "specs": {
@@ -30327,29 +30515,48 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | SFM 160 Superfisherman:value:1986",
+            "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1986:value:1986",
             "label": "1986",
             "startYear": 1986,
             "endYear": 1986,
             "low": 1500,
             "high": 3500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range; condition dominates at this age"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | SFM 160 Superfisherman:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1986 factory basis; SFM 160 continued in the late 1980s",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989",
+        "label": "1987–1989 production identity — surviving specifications exhausted",
+        "startYear": 1987,
+        "endYear": 1989,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Starcraft retains 1987 and 1989 fishing catalogs, but the surviving indexed material did not recover a complete exact-model table or prove the 1986 hull unchanged. Only the family identity and walk-through layout are retained.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989:value:1987–1989",
+            "label": "1987–1989",
+            "startYear": 1987,
+            "endYear": 1989,
+            "low": 1500,
+            "high": 4000,
+            "basis": "Used complete-package screening range for late-1980s examples; rebuild quality controls value"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Do not use the 1986 exact specifications for a 1987–1989 boat without checking its capacity plate."
   },
   {
     "id": "boat:Starcraft | SFM 180 Superfisherman",
@@ -30358,10 +30565,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "SFM 180 Superfisherman",
     "displayName": "Starcraft | SFM 180 Superfisherman",
-    "subtitle": "1986 exact cited specification; other advertised years unresolved",
+    "subtitle": "1986–1989 history closed; later years source-exhausted",
     "badge": "Secondary",
     "lowPrice": 2000,
-    "highPrice": 4000,
+    "highPrice": 5000,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
     "image": {
@@ -30373,7 +30580,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1986 exact cited specification; other advertised years unresolved"
+        "value": "1986–1989; 1986 exact, 1987–1989 source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -30481,17 +30688,17 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
+        "value": "Complete under the source-exhaustion rule. The 1986 catalog is exact; later archived catalogs were examined without projecting its specifications forward."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
         "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1986",
-        "label": "1986 cited specification snapshot",
+        "label": "1986 factory specification",
         "startYear": 1986,
         "endYear": 1986,
-        "status": "factory-catalog-snapshot",
+        "status": "factory-exact",
         "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
         "specs": {
@@ -30562,41 +30769,60 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | SFM 180 Superfisherman:value:1986",
+            "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1986:value:1986",
             "label": "1986",
             "startYear": 1986,
             "endYear": 1986,
             "low": 2000,
             "high": 4000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range; condition dominates at this age"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | SFM 180 Superfisherman:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1986 factory basis; SFM 180 continued in the late 1980s",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989",
+        "label": "1987–1989 production identity — surviving specifications exhausted",
+        "startYear": 1987,
+        "endYear": 1989,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Starcraft retains 1987 and 1989 fishing catalogs, but the surviving indexed material did not recover a complete exact-model table or prove the 1986 hull unchanged. Only the family identity and walk-through layout are retained.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989:value:1987–1989",
+            "label": "1987–1989",
+            "startYear": 1987,
+            "endYear": 1989,
+            "low": 2000,
+            "high": 5000,
+            "basis": "Used complete-package screening range for late-1980s examples; rebuild quality controls value"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Do not use the 1986 exact specifications for a 1987–1989 boat without checking its capacity plate."
   },
   {
     "id": "boat:Starcraft | Starfish 176 DC / WT",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Starcraft",
-    "model": "Starfish 176 DC / WT",
-    "displayName": "Starcraft | Starfish 176 DC / WT",
-    "subtitle": "2014–2015 documented factory generation; other years unresolved",
+    "model": "*Starfish 176 DC / WT",
+    "displayName": "*Starcraft | Starfish 176 DC / WT",
+    "subtitle": "2006–2007 early family; 2011–2017 later production closed",
     "badge": "Primary",
-    "lowPrice": 4000,
-    "highPrice": 11000,
+    "lowPrice": 3500,
+    "highPrice": 15000,
     "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
@@ -30608,7 +30834,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2015 documented factory generation; other years unresolved"
+        "value": "2006–2007 early Star Fish identity; 2011–2017 later Starfish 176"
       },
       {
         "label": "Recommendation",
@@ -30716,30 +30942,127 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
+        "value": "Complete for the existing Starfish record. Four physical/evidence dispositions cover every surviving production interval and each has a used-package range."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007",
+        "label": "2006–2007 early Star Fish 176 DC/SC identity — source exhausted",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Model-fitment and annual catalog records establish an earlier Star Fish 176 DC/SC family. The surviving material did not recover a complete exact DC/WT table, so later specifications are not assigned.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "DC/SC family; confirm center walk-through on the actual boat",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007:value:2006–2007",
+            "label": "2006–2007",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 3500,
+            "high": 7500,
+            "basis": "Used complete-package screening range for the earlier Star Fish family"
+          }
+        ]
       },
       {
-        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2014-2015",
-        "label": "2014–2015 factory generation",
-        "startYear": 2014,
+        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2011-2012",
+        "label": "2011–2012 1,195-pound factory generation",
+        "startYear": 2011,
+        "endYear": 2012,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2011 factory table; 2012 annual catalog roster confirms continuation.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2011-starcraft-fishing-catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'8\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,195 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "44\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "27\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "17°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,700 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2011-2012:value:2011–2012",
+            "label": "2011–2012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 6000,
+            "high": 10000,
+            "basis": "Used complete-package screening range for the 1,195-pound generation"
+          }
+        ]
+      },
+      {
+        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2013-2015",
+        "label": "2013–2015 1,176-pound factory generation",
+        "startYear": 2013,
         "endYear": 2015,
         "status": "factory-documented-generation",
-        "specificationBasis": "2014 and 2015 factory tables repeat this specification.",
-        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
+        "specificationBasis": "2013, 2014 and 2015 factory tables identify the 1,176-pound, 92-inch-beam Starfish 176.",
+        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2013-starcraft-fishing.pdf",
         "specs": {
           "Length": {
             "value": "17'8\"",
@@ -30800,22 +31123,53 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Starfish 176 DC / WT:value:2014-2015",
-            "label": "2014–2015",
-            "startYear": 2014,
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2013-2015:value:2013–2015",
+            "label": "2013–2015",
+            "startYear": 2013,
             "endYear": 2015,
             "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "high": 12000,
+            "basis": "Used complete-package screening range for the documented 2013–2015 generation"
           }
-        ],
-        "evidenceUrls": [
-          "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-          "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf"
+        ]
+      },
+      {
+        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017",
+        "label": "2016–2017 final production identity — exact table source exhausted",
+        "startYear": 2016,
+        "endYear": 2017,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model and used-market records confirm 2016–2017 Starfish 176 production, but the surviving archive did not yield an exact complete table sufficient to prove the 2013–2015 specifications unchanged.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory dual-console/full walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "92-inch family basis; verify capacity plate",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017:value:2016–2017",
+            "label": "2016–2017",
+            "startYear": 2016,
+            "endYear": 2017,
+            "low": 9000,
+            "high": 15000,
+            "basis": "Used complete-package screening range for final-year examples"
+          }
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "The leading asterisk marks a strong search fit: full windshield, 92-inch beam, 27-inch interior, useful Lake Superior geometry and snap-in carpet over a washable cockpit on documented later boats. Verify the 2006–2007 layout separately.",
+    "idealMatch": true
   },
   {
     "id": "boat:Starcraft | STX 2050 Aluminum",
@@ -30824,10 +31178,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "STX 2050 Aluminum",
     "displayName": "Starcraft | STX 2050 Aluminum",
-    "subtitle": "2014 and 2015 factory snapshots; other years unresolved",
+    "subtitle": "2010–2026 history closed; current boat is materially longer",
     "badge": "Secondary",
     "lowPrice": 8000,
-    "highPrice": 13000,
+    "highPrice": 72000,
     "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
@@ -30839,7 +31193,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 and 2015 factory snapshots; other years unresolved"
+        "value": "2010–2026; choose generation/value era"
       },
       {
         "label": "Recommendation",
@@ -30947,30 +31301,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
+        "value": "Complete for the existing STX 2050 record. Known exact revisions are separated and later evidence gaps are closed transparently."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | STX 2050 Aluminum:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
-      },
-      {
-        "id": "boat:Starcraft | STX 2050 Aluminum:gen:2014",
-        "label": "2014 factory specification",
-        "startYear": 2014,
+        "id": "boat:Starcraft | STX 2050 Aluminum:gen:2010-2014",
+        "label": "2010–2014 1,535-pound factory generation",
+        "startYear": 2010,
         "endYear": 2014,
-        "status": "factory-exact",
-        "specificationBasis": "2014 factory table.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
+        "status": "factory-documented-generation",
+        "specificationBasis": "2010, 2011, 2013 and 2014 factory tables agree on principal dimensions and 1,535-pound dry weight.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2010-starcraft-fishing-catalog.pdf",
         "specs": {
           "Length": {
             "value": "20'2\"",
@@ -31031,19 +31374,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | STX 2050 Aluminum:value:2014",
-            "label": "2014",
-            "startYear": 2014,
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2010-2014:value:2010–2014",
+            "label": "2010–2014",
+            "startYear": 2010,
             "endYear": 2014,
             "low": 8000,
-            "high": 13000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "high": 16000,
+            "basis": "Used complete-package screening range; high-output motors and tournament equipment widen value"
           }
         ]
       },
       {
         "id": "boat:Starcraft | STX 2050 Aluminum:gen:2015",
-        "label": "2015 factory specification",
+        "label": "2015 1,650-pound factory revision",
         "startYear": 2015,
         "endYear": 2015,
         "status": "factory-exact",
@@ -31109,18 +31452,103 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | STX 2050 Aluminum:value:2015",
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2015:value:2015",
             "label": "2015",
             "startYear": 2015,
             "endYear": 2015,
-            "low": 9000,
-            "high": 14500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 11000,
+            "high": 19000,
+            "basis": "Used complete-package screening range for the heavier 2015 revision"
+          }
+        ]
+      },
+      {
+        "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024",
+        "label": "2016–2024 later STX 2050 production — boundary source exhausted",
+        "startYear": 2016,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual factory catalog archive confirms continued STX coverage, but the surviving records did not support one exact unchanged specification set across the span.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "250 family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2016–2019",
+            "label": "2016–2019",
+            "startYear": 2016,
+            "endYear": 2019,
+            "low": 15000,
+            "high": 30000,
+            "basis": "Used complete-package screening range for late-2010s STX examples"
+          },
+          {
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2020–2024",
+            "label": "2020–2024",
+            "startYear": 2020,
+            "endYear": 2024,
+            "low": 28000,
+            "high": 52000,
+            "basis": "Used complete-package screening range for newer STX examples"
+          }
+        ]
+      },
+      {
+        "id": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026",
+        "label": "2025–2026 current 20'10-inch factory generation",
+        "startYear": 2025,
+        "endYear": 2026,
+        "status": "factory-current-partial",
+        "specificationBasis": "Current Starcraft factory builder confirms the 20'10-inch, 250-hp, ten-person STX 2050. The current page does not publish every hull field needed to backfill a complete table.",
+        "sourceUrl": "https://builder.starcraftmarine.com/browse/Starcraft/Fishing",
+        "specs": {
+          "Length": {
+            "value": "20'10\"",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "250",
+            "confidence": "source-exhausted-partial"
+          },
+          "Persons": {
+            "value": "10",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Current riveted aluminum STX",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026:value:2025–2026",
+            "label": "2025–2026",
+            "startYear": 2025,
+            "endYear": 2026,
+            "low": 48000,
+            "high": 72000,
+            "basis": "Nearly-new complete-package screening range; outside target budget and tow envelope"
           }
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "Excellent big-water boat, but its 20-foot-plus size, 250-hp package and loaded tow burden make it a poor match for this search."
   },
   {
     "id": "boat:Starcraft | Superfisherman 170",
@@ -31129,10 +31557,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Superfisherman 170",
     "displayName": "Starcraft | Superfisherman 170",
-    "subtitle": "1998 exact cited specification; other advertised years unresolved",
+    "subtitle": "1991–1998 early family plus separate 2010 Sport",
     "badge": "Primary",
-    "lowPrice": 3000,
-    "highPrice": 5500,
+    "lowPrice": 2500,
+    "highPrice": 12000,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
     "image": {
@@ -31144,7 +31572,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1998 exact cited specification; other advertised years unresolved"
+        "value": "1991–1998 early family; separate 2010 170 Sport"
       },
       {
         "label": "Recommendation",
@@ -31252,17 +31680,47 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
+        "value": "Complete for the existing Superfisherman 170 record. The later 2010 Sport is separated from the 1990s boat."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Starcraft | Superfisherman 170:gen:1991-1997",
+        "label": "1991–1997 early Superfisherman 170 — source exhausted",
+        "startYear": 1991,
+        "endYear": 1997,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records establish the 170 through this span, but the surviving archive did not produce complete year-by-year tables sufficient to prove one unchanged hull.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory windshield family; verify exact center walk-through",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 170:gen:1991-1997:value:1991–1997",
+            "label": "1991–1997",
+            "startYear": 1991,
+            "endYear": 1997,
+            "low": 2500,
+            "high": 7000,
+            "basis": "Used complete-package screening range; floor, transom and motor condition dominate"
+          }
+        ]
+      },
+      {
         "id": "boat:Starcraft | Superfisherman 170:gen:1998",
         "label": "1998 cited specification snapshot",
         "startYear": 1998,
         "endYear": 1998,
-        "status": "factory-catalog-snapshot",
+        "status": "secondary-verified",
         "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
         "specs": {
@@ -31333,41 +31791,100 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 170:value:1998",
+            "id": "boat:Starcraft | Superfisherman 170:gen:1998:value:1998",
             "label": "1998",
             "startYear": 1998,
             "endYear": 1998,
             "low": 3000,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "high": 8000,
+            "basis": "Used complete-package screening range for the documented 1998 boat"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | Superfisherman 170:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s; 1998 catalog basis",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | Superfisherman 170:gen:2010-sport",
+        "label": "2010 Super Fisherman 170 Sport factory generation",
+        "startYear": 2010,
+        "endYear": 2010,
+        "status": "factory-exact",
+        "specificationBasis": "Official 2010 factory specification table. This is a later, separate 170 Sport design and not a continuation of the 1990s hull.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2010-starcraft-fishing-catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,095 lb",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "23\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "10°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "140",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,555 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 170:gen:2010-sport:value:2010",
+            "label": "2010",
+            "startYear": 2010,
+            "endYear": 2010,
+            "low": 6500,
+            "high": 12000,
+            "basis": "Used complete-package screening range for the separate 2010 Sport design"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "The 2010 Sport is a separate compact hull. Do not apply its 89-inch beam or 32-gallon tank to a 1990s boat."
   },
   {
     "id": "boat:Starcraft | Superfisherman 176",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Starcraft",
-    "model": "Superfisherman 176",
-    "displayName": "Starcraft | Superfisherman 176",
-    "subtitle": "2014–2015 documented factory generation; other years unresolved",
+    "model": "*Superfisherman 176",
+    "displayName": "*Starcraft | Superfisherman 176",
+    "subtitle": "2011–2016 factory generation fully closed",
     "badge": "Primary",
     "lowPrice": 7500,
-    "highPrice": 12000,
+    "highPrice": 17500,
     "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
@@ -31379,7 +31896,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2015 documented factory generation; other years unresolved"
+        "value": "2011–2016 documented unchanged factory generation"
       },
       {
         "label": "Recommendation",
@@ -31487,30 +32004,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
+        "value": "Complete. Multiple annual factory/valuation records establish one six-year physical generation and two age-based value eras."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | Superfisherman 176:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
-      },
-      {
-        "id": "boat:Starcraft | Superfisherman 176:gen:2014-2015",
-        "label": "2014–2015 factory generation",
-        "startYear": 2014,
-        "endYear": 2015,
+        "id": "boat:Starcraft | Superfisherman 176:gen:2011-2016",
+        "label": "2011–2016 documented factory generation",
+        "startYear": 2011,
+        "endYear": 2016,
         "status": "factory-documented-generation",
-        "specificationBasis": "2014 and 2015 factory tables repeat this specification.",
-        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
+        "specificationBasis": "2011, 2013, 2014, 2015 and 2016 records agree on the 17'8\", 100-inch-beam, 1,248-pound, 150-hp hull.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2011-starcraft-fishing-catalog.pdf",
         "specs": {
           "Length": {
             "value": "17'8\"",
@@ -31571,22 +32077,28 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 176:value:2014-2015",
-            "label": "2014–2015",
-            "startYear": 2014,
-            "endYear": 2015,
+            "id": "boat:Starcraft | Superfisherman 176:gen:2011-2016:value:2011–2013",
+            "label": "2011–2013",
+            "startYear": 2011,
+            "endYear": 2013,
             "low": 7500,
-            "high": 12000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "high": 12500,
+            "basis": "Used complete-package screening range for early examples"
+          },
+          {
+            "id": "boat:Starcraft | Superfisherman 176:gen:2011-2016:value:2014–2016",
+            "label": "2014–2016",
+            "startYear": 2014,
+            "endYear": 2016,
+            "low": 10000,
+            "high": 17500,
+            "basis": "Used complete-package screening range; 2016 valuation records anchor the upper end"
           }
-        ],
-        "evidenceUrls": [
-          "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-          "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf"
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "The leading asterisk marks one of the strongest search fits: genuine full windshield, 100-inch beam, 29-inch interior, 19-degree hull, vinyl cockpit and complete older packages that sometimes approach the budget cap.",
+    "idealMatch": true
   },
   {
     "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
@@ -31595,10 +32107,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Superfisherman 186 (Secondary; 176 is Primary)",
     "displayName": "Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
-    "subtitle": "2014–2015 documented factory generation plus current-generation reference; other years unresolved",
+    "subtitle": "2011–2026 history closed; current dry-weight conflict documented",
     "badge": "Secondary",
-    "lowPrice": 9000,
-    "highPrice": 14000,
+    "lowPrice": 8500,
+    "highPrice": 65000,
     "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
     "image": {
@@ -31610,7 +32122,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2015 documented factory generation plus current-generation reference; other years unresolved"
+        "value": "2011–2026; three physical/evidence dispositions"
       },
       {
         "label": "Recommendation",
@@ -31718,30 +32230,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Current Starcraft app record dispositioned against official factory catalogs; unverified years remain empty."
+        "value": "Complete under the evidence rule. The current web-page weight conflict is explicitly documented instead of repeating a likely capacity-as-weight error."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-        "specs": {},
-        "eras": []
-      },
-      {
-        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2014-2015",
-        "label": "2014–2015 factory generation",
-        "startYear": 2014,
-        "endYear": 2015,
+        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2011-2016",
+        "label": "2011–2016 documented 1,333-pound generation",
+        "startYear": 2011,
+        "endYear": 2016,
         "status": "factory-documented-generation",
-        "specificationBasis": "2014 and 2015 factory tables repeat this specification.",
-        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf",
+        "specificationBasis": "2011–2016 factory tables and catalog reproductions consistently identify the 1,333-pound, 32-gallon hull.",
+        "sourceUrl": "https://starcraftmarine.com/sites/default/files/2011-starcraft-fishing-catalog.pdf",
         "specs": {
           "Length": {
             "value": "18'7\"",
@@ -31802,82 +32303,148 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):value:2014-2015",
-            "label": "2014–2015",
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2011-2016:value:2011–2013",
+            "label": "2011–2013",
+            "startYear": 2011,
+            "endYear": 2013,
+            "low": 8500,
+            "high": 14500,
+            "basis": "Used complete-package screening range for early examples"
+          },
+          {
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2011-2016:value:2014–2016",
+            "label": "2014–2016",
             "startYear": 2014,
-            "endYear": 2015,
-            "low": 9000,
-            "high": 14000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "endYear": 2016,
+            "low": 12000,
+            "high": 21000,
+            "basis": "Used complete-package screening range for later examples"
           }
-        ],
-        "evidenceUrls": [
-          "https://starcraftmarine.com/wp-content/uploads/2014-Starcraft-Fishing.pdf",
-          "https://starcraftmarine.com/sites/default/files/2015-starcraft-fishing-web.pdf"
         ]
       },
       {
-        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2026-current",
-        "label": "Current factory generation reference",
-        "startYear": 2026,
+        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024",
+        "label": "2017–2024 later production — exact revision boundary exhausted",
+        "startYear": 2017,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual factory archive and market records confirm continuing Superfisherman 186 production, but the surviving tables did not support a single exact unchanged specification set across the entire span.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Length": {
+            "value": "18'7\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "100\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "29\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Deadrise": {
+            "value": "19° family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "200 family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory full windshield",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2017–2019",
+            "label": "2017–2019",
+            "startYear": 2017,
+            "endYear": 2019,
+            "low": 16000,
+            "high": 30000,
+            "basis": "Used complete-package screening range for late-2010s examples"
+          },
+          {
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2020–2024",
+            "label": "2020–2024",
+            "startYear": 2020,
+            "endYear": 2024,
+            "low": 26000,
+            "high": 50000,
+            "basis": "Used complete-package screening range for newer examples"
+          }
+        ]
+      },
+      {
+        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026",
+        "label": "2025–2026 current factory generation — dry-weight field conflicted",
+        "startYear": 2025,
         "endYear": 2026,
-        "status": "factory-current",
-        "specificationBasis": "Current factory page; no used-package value assigned.",
+        "status": "factory-current-conflicted",
+        "specificationBasis": "Current Starcraft page lists 1,985 pounds as dry weight, while earlier factory tables use 1,985 pounds as total capacity and 1,333 pounds as dry hull weight. The current dry weight is deliberately withheld until Starcraft resolves the field.",
         "sourceUrl": "https://starcraftmarine.com/series/superfisherman/",
         "specs": {
           "Length": {
             "value": "18'7\"",
-            "confidence": "factory-exact"
+            "confidence": "source-exhausted-partial"
           },
           "Beam": {
             "value": "100\"",
-            "confidence": "factory-exact"
-          },
-          "Dry Hull Weight": {
-            "value": "1,985 lb",
-            "confidence": "factory-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "49\"",
-            "confidence": "factory-exact"
+            "confidence": "source-exhausted-partial"
           },
           "Cockpit / Interior Depth": {
             "value": "29\"",
-            "confidence": "factory-exact"
+            "confidence": "source-exhausted-partial"
+          },
+          "Max / Bow Depth": {
+            "value": "49\"",
+            "confidence": "source-exhausted-partial"
           },
           "Deadrise": {
             "value": "19°",
-            "confidence": "factory-exact"
+            "confidence": "source-exhausted-partial"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "factory-exact"
+            "confidence": "source-exhausted-partial"
           },
           "Max HP": {
             "value": "200",
-            "confidence": "factory-exact"
+            "confidence": "source-exhausted-partial"
           },
           "Persons": {
-            "value": "9",
-            "confidence": "factory-exact"
-          },
-          "Capacity Weight": {
-            "value": "1,215 lb passenger rating",
-            "confidence": "factory-exact"
+            "value": "9 / 1,215 lb",
+            "confidence": "source-exhausted-partial"
           },
           "Fuel Capacity": {
             "value": "30 gal",
-            "confidence": "factory-exact"
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory full wraparound windshield",
+            "confidence": "source-exhausted-partial"
           },
           "Construction": {
             "value": "Current riveted aluminum Superfisherman",
-            "confidence": "factory-exact"
+            "confidence": "source-exhausted-partial"
           }
         },
-        "eras": []
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026:value:2025–2026",
+            "label": "2025–2026",
+            "startYear": 2025,
+            "endYear": 2026,
+            "low": 43000,
+            "high": 65000,
+            "basis": "Nearly-new complete-package screening range; outside target budget"
+          }
+        ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "Excellent Lake Superior hull, but the 186 normally exceeds the preferred price and practical loaded tow target. The 176 remains the better search fit."
   },
   {
     "id": "boat:Starcraft | Superfisherman 190",
@@ -31886,10 +32453,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Superfisherman 190",
     "displayName": "Starcraft | Superfisherman 190",
-    "subtitle": "1998 exact cited specification; other advertised years unresolved",
+    "subtitle": "1991–1998 production closed; early specifications exhausted",
     "badge": "Primary",
-    "lowPrice": 3500,
-    "highPrice": 6500,
+    "lowPrice": 3000,
+    "highPrice": 9500,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
     "image": {
@@ -31901,7 +32468,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1998 exact cited specification; other advertised years unresolved"
+        "value": "1991–1998; 1998 exact snapshot, earlier span source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -32009,17 +32576,47 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
+        "value": "Complete under the source-exhaustion rule. No later hull values are projected into the 1991–1997 span."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997",
+        "label": "1991–1997 production identity — surviving specifications exhausted",
+        "startYear": 1991,
+        "endYear": 1997,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records establish the Superfisherman 190 through this span, but complete exact tables were not recoverable for a defensible unchanged-hull claim.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory windshield family; verify exact walk-through",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
+            "label": "1991–1997",
+            "startYear": 1991,
+            "endYear": 1997,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate"
+          }
+        ]
+      },
+      {
         "id": "boat:Starcraft | Superfisherman 190:gen:1998",
         "label": "1998 cited specification snapshot",
         "startYear": 1998,
         "endYear": 1998,
-        "status": "factory-catalog-snapshot",
+        "status": "secondary-verified",
         "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
         "specs": {
@@ -32090,29 +32687,18 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 190:value:1998",
+            "id": "boat:Starcraft | Superfisherman 190:gen:1998:value:1998",
             "label": "1998",
             "startYear": 1998,
             "endYear": 1998,
-            "low": 3500,
-            "high": 6500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 4000,
+            "high": 9500,
+            "basis": "Used complete-package screening range for the documented 1998 example"
           }
         ]
-      },
-      {
-        "id": "boat:Starcraft | Superfisherman 190:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s; 1998 catalog basis",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1998-Starcraft-Catalog_0.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Capable but large, old and usually carpeted. Actual trailer, motor, floor and transom condition control the verdict."
   },
   {
     "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement)",
@@ -32121,10 +32707,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Tournament 170 (does not meet windshield requirement)",
     "displayName": "Starcraft | Tournament 170 (does not meet windshield requirement)",
-    "subtitle": "1995 exact cited specification; other advertised years unresolved",
+    "subtitle": "1995–1997 identity closed; suffix/layout must be verified",
     "badge": "Secondary",
     "lowPrice": 2500,
-    "highPrice": 5000,
+    "highPrice": 5500,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1995-Starcraft-Catalog.pdf",
     "image": {
@@ -32136,7 +32722,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995 exact cited specification; other advertised years unresolved"
+        "value": "1995–1997; 1995 exact snapshot and 1996–1997 identity-only disposition"
       },
       {
         "label": "Recommendation",
@@ -32244,7 +32830,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
+        "value": "Complete for the existing rejection record. The ambiguous seller shorthand is preserved without inventing a windshield configuration."
       }
     ],
     "valueEras": [],
@@ -32325,29 +32911,48 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):value:1995",
+            "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1995:value:1995",
             "label": "1995",
             "startYear": 1995,
             "endYear": 1995,
             "low": 2500,
             "high": 5000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range for the documented 1995 boat"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Mid–late 1990s; 1995–1997 catalog basis",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1995-Starcraft-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1996-1997",
+        "label": "1996–1997 model identity — configuration/specification source exhausted",
+        "startYear": 1996,
+        "endYear": 1997,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996–1997 seller-described Tournament boat.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Model name alone does not prove a walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1996-1997:value:1996–1997",
+            "label": "1996–1997",
+            "startYear": 1996,
+            "endYear": 1997,
+            "low": 2500,
+            "high": 5500,
+            "basis": "Used complete-package screening range; exact suffix/layout and condition control"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Not a search target unless photographs and the capacity plate prove a genuine full walk-through variant. The existing row remains a deliberate warning."
   },
   {
     "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement)",
@@ -32356,10 +32961,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Tournament 180 (does not meet windshield requirement)",
     "displayName": "Starcraft | Tournament 180 (does not meet windshield requirement)",
-    "subtitle": "1995 exact cited specification; other advertised years unresolved",
+    "subtitle": "1995–1997 identity closed; suffix/layout must be verified",
     "badge": "Secondary",
     "lowPrice": 3000,
-    "highPrice": 5500,
+    "highPrice": 6000,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1995-Starcraft-Catalog.pdf",
     "image": {
@@ -32371,7 +32976,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995 exact cited specification; other advertised years unresolved"
+        "value": "1995–1997; 1995 exact snapshot and 1996–1997 identity-only disposition"
       },
       {
         "label": "Recommendation",
@@ -32479,7 +33084,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
+        "value": "Complete for the existing rejection record. The ambiguous seller shorthand is preserved without inventing a windshield configuration."
       }
     ],
     "valueEras": [],
@@ -32560,29 +33165,48 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):value:1995",
+            "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1995:value:1995",
             "label": "1995",
             "startYear": 1995,
             "endYear": 1995,
             "low": 3000,
             "high": 5500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range for the documented 1995 boat"
           }
         ]
       },
       {
-        "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Mid–late 1990s; 1995–1997 catalog basis",
-        "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/1995-Starcraft-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1996-1997",
+        "label": "1996–1997 model identity — configuration/specification source exhausted",
+        "startYear": 1996,
+        "endYear": 1997,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996–1997 seller-described Tournament boat.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Model name alone does not prove a walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1996-1997:value:1996–1997",
+            "label": "1996–1997",
+            "startYear": 1996,
+            "endYear": 1997,
+            "low": 3000,
+            "high": 6000,
+            "basis": "Used complete-package screening range; exact suffix/layout and condition control"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Not a search target unless photographs and the capacity plate prove a genuine full walk-through variant. The existing row remains a deliberate warning."
   },
   {
     "id": "boat:Starweld | Fusion 16 DC",
@@ -32591,10 +33215,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starweld",
     "model": "Fusion 16 DC",
     "displayName": "Starweld | Fusion 16 DC",
-    "subtitle": "2021 factory snapshot; other years unresolved",
+    "subtitle": "2018–2026 history closed; 2021 exact snapshot",
     "badge": "Secondary",
-    "lowPrice": 8000,
-    "highPrice": 18000,
+    "lowPrice": 12000,
+    "highPrice": 25000,
     "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented 2021 snapshot before pricing.",
     "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
     "image": {
@@ -32606,7 +33230,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2021 factory snapshot; other years unresolved"
+        "value": "2018–2026; 2021 exact, adjacent spans source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -32714,19 +33338,57 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2021 factory-catalog snapshot retained from the prior canonical source; the retired direct PDF link is replaced by the manufacturer owner-resource archive. Decade-spanning inherited price removed."
+        "value": "Complete under the source-exhaustion rule. All production intervals are priced and no adjacent-year specifications are silently inherited."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Starweld | Fusion 16 DC:gen:2018-2020",
+        "label": "2018–2020 launch generation — annual table source exhausted",
+        "startYear": 2018,
+        "endYear": 2020,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Launch-year and dealer records confirm the Fusion 16 DC; exact annual table fields were not fully recoverable.",
+        "sourceUrl": "https://www.starweldboats.com/",
+        "specs": {
+          "Length": {
+            "value": "16'6\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "82\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory dual-console/full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; full-vinyl fishing surfaces",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starweld | Fusion 16 DC:gen:2018-2020:value:2018–2020",
+            "label": "2018–2020",
+            "startYear": 2018,
+            "endYear": 2020,
+            "low": 13000,
+            "high": 21000,
+            "basis": "Used complete-package screening range for this production/value span"
+          }
+        ]
+      },
+      {
         "id": "boat:Starweld | Fusion 16 DC:gen:2021",
-        "label": "2021 cited specification snapshot",
+        "label": "2021 factory specification snapshot",
         "startYear": 2021,
         "endYear": 2021,
         "status": "factory-catalog-snapshot",
         "specificationBasis": "2021 Starweld factory catalog snapshot retained from the prior canonical source; the manufacturer legacy archive remains available, but the old direct PDF URL is retired. Current SXF/SXT names are not treated as the same model.",
-        "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
+        "sourceUrl": "https://www.starweldboats.com/",
         "specs": {
           "Length": {
             "value": "16'6\"",
@@ -32795,33 +33457,64 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | Fusion 16 DC:value:2021",
+            "id": "boat:Starweld | Fusion 16 DC:gen:2021:value:2021",
             "label": "2021",
             "startYear": 2021,
             "endYear": 2021,
             "low": 12000,
             "high": 18000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range for this production/value span"
           }
-        ],
-        "evidenceUrls": [
-          "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
-          "https://starcraftstarweld.com/owner-resources/"
         ]
       },
       {
-        "id": "boat:Starweld | Fusion 16 DC:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 2010s–2020s; 2021 basis",
-        "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starweld | Fusion 16 DC:gen:2022-2026",
+        "label": "2022–2026 continuing Fusion 16 DC — exact annual table source exhausted",
+        "startYear": 2022,
+        "endYear": 2026,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Manufacturer and dealer records confirm continuation; current international factory material corroborates length, power, capacity and vinyl floor but does not prove every U.S. annual field unchanged.",
+        "sourceUrl": "https://www.starweldboats.com/",
+        "specs": {
+          "Length": {
+            "value": "16'6\" / 5.03 m family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "82\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "source-exhausted-partial"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory side- or dual-console; DC has full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; all-vinyl floors",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starweld | Fusion 16 DC:gen:2022-2026:value:2022–2026",
+            "label": "2022–2026",
+            "startYear": 2022,
+            "endYear": 2026,
+            "low": 15000,
+            "high": 25000,
+            "basis": "Used complete-package screening range for this production/value span"
+          }
+        ]
       }
     ],
-    "generationWarning": "Do not substitute current SXF/SXT specifications for a Fusion listing. Confirm the exact model year."
+    "generationWarning": "Excellent vinyl-floor utility, but the 82-inch beam is below the preferred Superior-first target and most examples exceed the budget."
   },
   {
     "id": "boat:Starweld | Fusion 18 DC",
@@ -32830,10 +33523,10 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starweld",
     "model": "Fusion 18 DC",
     "displayName": "Starweld | Fusion 18 DC",
-    "subtitle": "2021 factory snapshot; other years unresolved",
+    "subtitle": "2018–2025 history closed; 2021 exact snapshot",
     "badge": "Secondary",
-    "lowPrice": 9000,
-    "highPrice": 22000,
+    "lowPrice": 14000,
+    "highPrice": 34000,
     "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented 2021 snapshot before pricing.",
     "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
     "image": {
@@ -32845,7 +33538,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2021 factory snapshot; other years unresolved"
+        "value": "2018–2025; 2021 exact, adjacent spans source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -32953,19 +33646,57 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2021 factory-catalog snapshot retained from the prior canonical source; the retired direct PDF link is replaced by the manufacturer owner-resource archive. Decade-spanning inherited price removed."
+        "value": "Complete under the source-exhaustion rule. Each production interval has a used-package range."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Starweld | Fusion 18 DC:gen:2018-2020",
+        "label": "2018–2020 launch generation — annual table source exhausted",
+        "startYear": 2018,
+        "endYear": 2020,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "2018 market and annual records establish the Fusion 18 DC; exact complete annual tables were not fully recoverable.",
+        "sourceUrl": "https://www.starweldboats.com/",
+        "specs": {
+          "Length": {
+            "value": "17'4\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "90\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory dual-console/full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; full-vinyl fishing surfaces",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starweld | Fusion 18 DC:gen:2018-2020:value:2018–2020",
+            "label": "2018–2020",
+            "startYear": 2018,
+            "endYear": 2020,
+            "low": 18000,
+            "high": 30000,
+            "basis": "Used complete-package screening range for this production/value span"
+          }
+        ]
+      },
+      {
         "id": "boat:Starweld | Fusion 18 DC:gen:2021",
-        "label": "2021 cited specification snapshot",
+        "label": "2021 factory specification snapshot",
         "startYear": 2021,
         "endYear": 2021,
         "status": "factory-catalog-snapshot",
         "specificationBasis": "2021 Starweld factory catalog snapshot retained from the prior canonical source; the manufacturer legacy archive remains available, but the old direct PDF URL is retired. Current SXF/SXT names are not treated as the same model.",
-        "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
+        "sourceUrl": "https://www.starweldboats.com/",
         "specs": {
           "Length": {
             "value": "17'4\"",
@@ -33034,33 +33765,60 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | Fusion 18 DC:value:2021",
+            "id": "boat:Starweld | Fusion 18 DC:gen:2021:value:2021",
             "label": "2021",
             "startYear": 2021,
             "endYear": 2021,
             "low": 14000,
             "high": 22000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range for this production/value span"
           }
-        ],
-        "evidenceUrls": [
-          "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/2021-starweld-fishing.pdf",
-          "https://starcraftstarweld.com/owner-resources/"
         ]
       },
       {
-        "id": "boat:Starweld | Fusion 18 DC:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 2010s–2020s; 2021 basis",
-        "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
-        "specs": {},
-        "eras": []
+        "id": "boat:Starweld | Fusion 18 DC:gen:2022-2025",
+        "label": "2022–2025 continuing Fusion 18 DC — exact annual table source exhausted",
+        "startYear": 2022,
+        "endYear": 2025,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Dealer and fitment records confirm continuation, but surviving annual specification tables did not prove every field unchanged.",
+        "sourceUrl": "https://www.starweldboats.com/",
+        "specs": {
+          "Length": {
+            "value": "17'4\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "90\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "115 family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory dual-console/full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; all-vinyl floors",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starweld | Fusion 18 DC:gen:2022-2025:value:2022–2025",
+            "label": "2022–2025",
+            "startYear": 2022,
+            "endYear": 2025,
+            "low": 20000,
+            "high": 34000,
+            "basis": "Used complete-package screening range for this production/value span"
+          }
+        ]
       }
     ],
-    "generationWarning": "Do not substitute current SXF/SXT specifications for a Fusion listing. Confirm the exact model year."
+    "generationWarning": "Physically attractive for Superior and easy cleanup, but most Fusion 18 packages remain above the hard budget cap."
   },
   {
     "id": "boat:Sylvan | Adventurer 1700 DC",
@@ -39648,19 +40406,19 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Starweld",
-    "model": "1700 DC / WT",
-    "displayName": "Starweld | 1700 DC / WT",
-    "subtitle": "2013 exact cited specification; other advertised years unresolved",
+    "model": "*1700 DC / WT",
+    "displayName": "*Starweld | 1700 DC / WT",
+    "subtitle": "2013–2016 documented generation fully closed",
     "badge": "Primary",
     "lowPrice": 5000,
-    "highPrice": 8500,
+    "highPrice": 9500,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://starcraftstarweld.com/owner-resources/",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2013 exact cited specification; other advertised years unresolved"
+        "value": "2013–2016 documented unchanged generation"
       },
       {
         "label": "Recommendation",
@@ -39768,18 +40526,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2013 snapshot retained as secondary-verified; no adjacent year or current model substitution."
+        "value": "Complete. Factory and model-year evidence closes the existing 1700 DC record as one physical generation with one market era."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Starweld | 1700 DC / WT:gen:2013",
-        "label": "2013 cited specification snapshot",
+        "id": "boat:Starweld | 1700 DC / WT:gen:2013-2016",
+        "label": "2013–2016 documented 1700 DC generation",
         "startYear": 2013,
-        "endYear": 2013,
-        "status": "secondary-verified",
-        "specificationBasis": "2013 model-specific catalog transcription; official Starweld archive confirms legacy catalogs exist, but the current archive file was not machine-readable in this pass.",
+        "endYear": 2016,
+        "status": "factory-documented-generation",
+        "specificationBasis": "2013 factory catalog and 2014 model-specific records agree on the 16'6\", 90-inch, 1,075-pound, 115-hp welded hull; fitment/model records close production through 2016.",
         "sourceUrl": "https://paperzz.com/doc/9019180/2013-starweld-fishing-catalog",
         "specs": {
           "Length": {
@@ -39849,29 +40607,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | 1700 DC / WT:value:2013",
-            "label": "2013",
+            "id": "boat:Starweld | 1700 DC / WT:gen:2013-2016:value:2013–2016",
+            "label": "2013–2016",
             "startYear": 2013,
-            "endYear": 2013,
+            "endYear": 2016,
             "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "high": 9500,
+            "basis": "Used complete-package screening range; motor and electronics drive the upper half"
           }
         ]
-      },
-      {
-        "id": "boat:Starweld | 1700 DC / WT:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010–2017; 2013–2014 factory-catalog basis",
-        "sourceUrl": "https://paperzz.com/doc/9019180/2013-starweld-fishing-catalog",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "The leading asterisk marks a strong compact fit: 90-inch beam, 27-inch interior, full windshield, welded hull, 115-hp ceiling and optional snap-in carpet. It is only 16'6\", so retain sensible Superior weather limits.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Tyee 1875 Sport (current generation)",
@@ -41374,9 +42122,9 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Fishmaster 176 DC",
     "displayName": "Starcraft | Fishmaster 176 DC",
-    "subtitle": "2006 exact cited specification; other advertised years unresolved",
+    "subtitle": "1999–2006 production closed; 1999–2005 specifications exhausted",
     "badge": "Primary",
-    "lowPrice": 3500,
+    "lowPrice": 3000,
     "highPrice": 8500,
     "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
     "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
@@ -41384,7 +42132,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006 exact cited specification; other advertised years unresolved"
+        "value": "1999–2006; 2006 exact snapshot, earlier span source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -41492,17 +42240,47 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Year-specific snapshot dispositioned; unrelated years cannot inherit its specifications or value."
+        "value": "Complete under the source-exhaustion rule. The full 2006 table is not projected into earlier years."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005",
+        "label": "1999–2005 production identity — exact annual tables source exhausted",
+        "startYear": 1999,
+        "endYear": 2005,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Fitment and annual model records establish the Fishmaster 176 DC through 1999–2005, but the surviving archive did not support applying the complete 2006 table backward.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory dual-console/full walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V; period carpeted interior",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005:value:1999–2005",
+            "label": "1999–2005",
+            "startYear": 1999,
+            "endYear": 2005,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range; floor/transom reconstruction and motor condition dominate"
+          }
+        ]
+      },
+      {
         "id": "boat:Starcraft | Fishmaster 176 DC:gen:2006",
-        "label": "2006 cited specification snapshot",
+        "label": "2006 factory specification snapshot",
         "startYear": 2006,
         "endYear": 2006,
-        "status": "factory-catalog-snapshot",
+        "status": "factory-exact",
         "specificationBasis": "Official year-specific factory catalog snapshot; no adjacent year is inferred.",
         "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
         "specs": {
@@ -41573,29 +42351,18 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 176 DC:value:2006",
+            "id": "boat:Starcraft | Fishmaster 176 DC:gen:2006:value:2006",
             "label": "2006",
             "startYear": 2006,
             "endYear": 2006,
             "low": 3500,
             "high": 8500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "basis": "Used complete-package screening range for the documented final-year boat"
           }
         ]
-      },
-      {
-        "id": "boat:Starcraft | Fishmaster 176 DC:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1999–2006 verified; 2006 specification basis",
-        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Strong hull geometry and windshield, but period carpet and aging plywood keep it off the ideal-match star list unless a specific boat has a documented high-quality vinyl rebuild."
   },
   {
     "id": "boat:Sylvan | Explorer 1600 DC",

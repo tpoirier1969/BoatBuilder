@@ -1,25 +1,29 @@
-BoatBuilder Sylvan generation/value completion validation — 2026-07-29
+VALIDATION RESULTS
+Date: 2026-07-30
 
-Data validation:
-- data/boats.js JavaScript syntax: PASS
-- tests/qa.mjs JavaScript syntax: PASS
-- Canonical boat records: 170
-- Unique stable boat IDs: 170
-- Design generation rows: 350
-- Unique design generation IDs: 350
-- Semantic boat-record changes: 16
-- Non-Sylvan semantic boat-record changes: 0
-- Sylvan app records: 16
-- Sylvan unresolved generation rows: 0
-- Sylvan physical generations/annual variations: 39
-- Sylvan physical variations with numeric used-package ranges: 39 of 39
-- Sylvan top-level value eras: 0
-- Generation-specific price eras outside their generation years: 0
+Syntax
+- node --check data/boats.js: PASS
+- node --check tests/qa.mjs: PASS
 
-Regression validation:
-- Complete tests/qa.mjs assertion file executed against the production data/boats.js and representative unchanged-file fixtures: PASS
-- Result: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
-- Focused assertions cover Adventurer, Explorer, Pro Fish, Pro Select, Sport Troller, Super Sportster 18, Viper, zero unresolved Sylvan rows, and value coverage on every physical Sylvan variation.
+Production QA assertion suite
+- tests/qa.mjs: PASS
+- Output: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+- The exact replacement data/boats.js and tests/qa.mjs were exercised with repository-compatible unchanged-file fixtures for app/index/styles/catalog/equipment because those unchanged files are not included in this patch.
 
-Production workflow note:
-- The handoff contains only changed repository files. GitHub Actions will run the same tests/qa.mjs against the actual unchanged app, equipment, catalog, HTML and CSS files after upload.
+Data integrity
+- Boat records before/after: 170 / 170
+- Stable ID set unchanged: PASS
+- Records changed: exactly 17 Starcraft/Starweld records
+- Non-target boat records unchanged: PASS
+- Starcraft generations: 38
+- Starweld generations: 7
+- Target unresolved generations: 0
+- Target physical generations without numeric used-package pricing: 0
+- Target generation-year overlaps: 0
+- Compact ideal-match stars: exactly 3
+  * Starcraft Starfish 176 DC / WT
+  * Starcraft Superfisherman 176
+  * Starweld 1700 DC / WT
+
+Known evidence limitation
+Source-exhausted rows deliberately withhold complete specifications where surviving annual records could establish model identity or production span but could not prove an unchanged exact hull table. These rows are closed dispositions, not guesses.
