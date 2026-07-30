@@ -33069,11 +33069,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Adventurer 1700 DC",
     "displayName": "Sylvan | Adventurer 1700 DC",
-    "subtitle": "2007, 2008, 2009–2010 and 2011–2012 factory generations; other years unresolved",
+    "subtitle": "2000 18-foot predecessor; 2006-2012 17-foot factory generations",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 7500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "lowPrice": 5500,
+    "highPrice": 17000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images2.marinesource.com/resize/1/46/19/2007-sylvan-1700-explorer-dc-power-9824619-980941778-0-030620250421-16.jpg",
@@ -33084,7 +33084,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007, 2008, 2009–2010 and 2011–2012 factory generations; other years unresolved"
+        "value": "2000 18-foot predecessor; production gap in 2001-2005; 2006-2012 17-foot generations"
       },
       {
         "label": "Recommendation",
@@ -33176,7 +33176,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The factory tables do not support one Adventurer 1700 specification across the run. Depth changes in 2008, horsepower and side gauge change in 2009, and weight/capacity certification changes in 2011."
+        "value": "The 2000 1700 Adventurer DC is a distinct 18-foot, 1,260-pound boat. The name returned in 2006 on a 17-foot, 1,220-pound hull, followed by documented 2008, 2009 and 2011 specification changes. Do not blend the two runs."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -33192,30 +33192,66 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Sylvan annual tables reconciled for 2007–2012."
+        "value": "Generation-complete for the existing app record. Official 2000 and 2006-2012 catalogs plus annual rosters were checked; no 1700 Adventurer DC was found for 2001-2005."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Adventurer 1700 DC:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Adventurer 1700 DC:gen:2000-18-foot",
+        "label": "2000 18-foot Adventurer DC",
+        "startYear": 2000,
+        "endYear": 2000,
+        "status": "secondary-verified-source-exhausted",
+        "specificationBasis": "The 2000 annual roster and surviving specification index identify a distinct 18-foot, 85-inch-beam, 1,260-pound 1700 Adventurer DC. No 1700 Adventurer DC appears in the checked 2001-2005 annual rosters, closing this as a one-year same-name predecessor. Remaining certification fields were not recovered and are deliberately not borrowed from the later 17-foot boat.",
+        "sourceUrl": "https://www.jdpower.com/boats/2000/sylvan-ind",
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2000/sylvan-ind",
+          "https://www.boatingworld.com/boats/sylvan-boats/2000-sylvan-1700-adventurer-dc",
+          "https://sylvanmarine.com/wp-content/uploads/2000-Sylvan-Fishing-Catalog.pdf"
+        ],
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "secondary-roster-verified"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "secondary-roster-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,260 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Layout": {
+            "value": "Dual console / walk-through windshield",
+            "confidence": "secondary-model-identity"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; exact gauge not recovered",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Adventurer 1700 DC:value:2000-18-foot",
+            "label": "2000",
+            "startYear": 2000,
+            "endYear": 2000,
+            "low": 5500,
+            "high": 10500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
       },
       {
-        "id": "boat:Sylvan | Adventurer 1700 DC:gen:2007",
-        "label": "2007 factory specification",
-        "startYear": 2007,
+        "id": "boat:Sylvan | Adventurer 1700 DC:gen:2006-2007",
+        "label": "2006-2007 17-foot factory generation",
+        "startYear": 2006,
         "endYear": 2007,
-        "status": "factory-exact",
-        "specificationBasis": "2007 factory table.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+        "status": "factory-documented-generation",
+        "specificationBasis": "The 2006 and 2007 factory tables identify the 17-foot, 1,220-pound Adventurer DC specification. This is not the unrelated 18-foot 2000 model.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "17'1\"",
@@ -33276,14 +33312,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Adventurer 1700 DC:value:2007",
-            "label": "2007",
-            "startYear": 2007,
+            "id": "boat:Sylvan | Adventurer 1700 DC:value:2006-2007",
+            "label": "2006-2007",
+            "startYear": 2006,
             "endYear": 2007,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 6500,
+            "high": 12000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
+          "https://www.jdpower.com/boats/2006/sylvan-ind"
         ]
       },
       {
@@ -33354,13 +33395,13 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Adventurer 1700 DC:value:2008",
+            "id": "boat:Sylvan | Adventurer 1700 DC:value:2008-2008",
             "label": "2008",
             "startYear": 2008,
             "endYear": 2008,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 7000,
+            "high": 12500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ]
       },
@@ -33436,9 +33477,9 @@ window.BOATBUILDER_BOATS = [
             "label": "2009–2010",
             "startYear": 2009,
             "endYear": 2010,
-            "low": 5500,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 8000,
+            "high": 14500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -33522,9 +33563,9 @@ window.BOATBUILDER_BOATS = [
             "label": "2011–2012",
             "startYear": 2011,
             "endYear": 2012,
-            "low": 6500,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 9500,
+            "high": 17000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -33533,7 +33574,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "Choose the 2000 18-foot predecessor only for that exact model year. Boats from 2006-2012 use the later 17-foot generations."
   },
   {
     "id": "boat:Sylvan | Expedition Sport 1700 DC",
@@ -33542,11 +33583,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Expedition Sport 1700 DC",
     "displayName": "Sylvan | Expedition Sport 1700 DC",
-    "subtitle": "2007–2008, 2009–2010 and 2011–2012 factory generations; other years unresolved",
+    "subtitle": "Complete 2007-2012 factory run in three documented generations",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 7500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "lowPrice": 7000,
+    "highPrice": 18000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/sylvan/w700/Sylvan-Expedition-Sport-1800-Top.jpg",
@@ -33557,7 +33598,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2008, 2009–2010 and 2011–2012 factory generations; other years unresolved"
+        "value": "2007-2008, 2009-2010 and 2011-2012 factory generations"
       },
       {
         "label": "Recommendation",
@@ -33665,22 +33706,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Sylvan annual tables reconciled for 2007–2012."
+        "value": "Generation-complete for the existing app record. Factory catalogs and annual rosters were checked from the model introduction through its 2012 final listing."
       }
     ],
     "valueEras": [],
     "designGenerations": [
-      {
-        "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
-      },
       {
         "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:2007-2008",
         "label": "2007–2008 factory generation",
@@ -33750,12 +33780,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Expedition Sport 1700 DC:value:2007-2008",
-            "label": "2007–2008",
+            "label": "2007-2008",
             "startYear": 2007,
             "endYear": 2008,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 7000,
+            "high": 13000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -33832,12 +33862,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Expedition Sport 1700 DC:value:2009-2010",
-            "label": "2009–2010",
+            "label": "2009-2010",
             "startYear": 2009,
             "endYear": 2010,
-            "low": 5500,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 8500,
+            "high": 15000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -33918,12 +33948,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Expedition Sport 1700 DC:value:2011-2012",
-            "label": "2011–2012",
+            "label": "2011-2012",
             "startYear": 2011,
             "endYear": 2012,
-            "low": 6500,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 10000,
+            "high": 18000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -33932,7 +33962,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "The 2011-2012 boat is heavier and carries revised capacity certification. Select the exact year range."
   },
   {
     "id": "boat:Sylvan | Expedition Sport 1800 DC",
@@ -33941,11 +33971,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Expedition Sport 1800 DC",
     "displayName": "Sylvan | Expedition Sport 1800 DC",
-    "subtitle": "2007–2008, 2009, 2010 published snapshot and 2011–2012 factory generations; other years unresolved",
+    "subtitle": "Complete 2005-2012 run; 2005 introduction and four later factory variants",
     "badge": "Primary",
-    "lowPrice": 5000,
-    "highPrice": 8500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "lowPrice": 7500,
+    "highPrice": 22000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.boatdealers.ca/boat-reviews/sylvan/w700/Sylvan-Expedition-Sport-1800-Top.jpg",
@@ -33956,7 +33986,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2008, 2009, 2010 published snapshot and 2011–2012 factory generations; other years unresolved"
+        "value": "2005 introduction; 2006-2008; 2009; isolated 2010 published table; 2011-2012 redesign/certification"
       },
       {
         "label": "Recommendation",
@@ -34048,7 +34078,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Sylvan published materially different 1800 tables. The 2010 length/beam entry is retained as a separate published snapshot rather than silently blended, because it conflicts with the surrounding annual tables."
+        "value": "The 2005 introduction is 1,270 pounds. It falls to 1,250 pounds for 2006-2009, has a contradictory 2010 factory table that remains isolated, and becomes a wider 1,400-pound generation in 2011-2012. A documented 2011 low-hour 150-hp package sold/listed around $21,000, so earlier sub-$11,000 ranges were not credible complete-package estimates."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -34064,30 +34094,69 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official annual tables reconciled for 2007–2012; the anomalous 2010 table is intentionally isolated."
+        "value": "Generation-complete for the existing app record. The 2005-2012 official archive and annual rosters were checked; no continuation appears after 2012."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2005-introduction",
+        "label": "2005 introduction specification",
+        "startYear": 2005,
+        "endYear": 2005,
+        "status": "factory-catalog-identity-secondary-specs",
+        "specificationBasis": "The official 2005 catalog and annual valuation roster identify the introduction-year Expedition Sport at 1,270 pounds. The exact table fields that could not be recovered are left unknown rather than copied from 2006.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2005-Sylvan-Fishing-Catalog.pdf",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2005-Sylvan-Fishing-Catalog.pdf",
+          "https://www.jdpower.com/boats/2005/sylvan-ind/1800-expedition-sport/10229074/values"
+        ],
+        "specs": {
+          "Length": {
+            "value": "18-foot class",
+            "confidence": "factory-model-identity"
+          },
+          "Dry Hull Weight": {
+            "value": "1,270 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "secondary-corroborated"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "secondary-corroborated"
+          },
+          "Fuel Capacity": {
+            "value": "31 gal",
+            "confidence": "secondary-corroborated"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V; exact 2005 gauges not recovered",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2005-introduction",
+            "label": "2005",
+            "startYear": 2005,
+            "endYear": 2005,
+            "low": 7500,
+            "high": 13500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
       },
       {
-        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2007-2008",
-        "label": "2007–2008 factory generation",
-        "startYear": 2007,
+        "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2006-2008",
+        "label": "2006-2008 factory generation",
+        "startYear": 2006,
         "endYear": 2008,
         "status": "factory-documented-generation",
-        "specificationBasis": "2007 and 2008 tables repeat this specification.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+        "specificationBasis": "The 2006-2008 factory/annual records repeat the 18-foot-1-inch, 1,250-pound Expedition Sport specification.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "18'1\"",
@@ -34148,16 +34217,17 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2007-2008",
-            "label": "2007–2008",
-            "startYear": 2007,
+            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2006-2008",
+            "label": "2006-2008",
+            "startYear": 2006,
             "endYear": 2008,
-            "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 9000,
+            "high": 15500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
           "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
           "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf"
         ]
@@ -34230,13 +34300,13 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2009",
-            "label": "2009",
+            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2009-2009",
+            "label": "2009-2009",
             "startYear": 2009,
             "endYear": 2009,
-            "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 10000,
+            "high": 17000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ]
       },
@@ -34308,13 +34378,13 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2010",
-            "label": "2010",
+            "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2010-2010",
+            "label": "2010-2010",
             "startYear": 2010,
             "endYear": 2010,
-            "low": 6000,
-            "high": 9500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 10500,
+            "high": 18000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ]
       },
@@ -34391,12 +34461,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Expedition Sport 1800 DC:value:2011-2012",
-            "label": "2011–2012",
+            "label": "2011-2012",
             "startYear": 2011,
             "endYear": 2012,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 13000,
+            "high": 22000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -34405,7 +34475,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "The 2010 factory table conflicts internally with adjacent years. Keep it isolated and verify the capacity plate on a 2010 listing."
   },
   {
     "id": "boat:Sylvan | Fish and Ski (seller description; identify exact model)",
@@ -34537,7 +34607,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Alias-only rejection; no specifications or price."
+        "value": "Closed disposition. This is not a single factory model eligible for generation or price assignment."
       }
     ],
     "valueEras": [],
@@ -34563,11 +34633,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Select Dual 16",
     "displayName": "Sylvan | Pro Select Dual 16",
-    "subtitle": "1996 official archive-catalog snapshot; other years unresolved",
+    "subtitle": "Complete verified 1993-1998 production span with four annual weight variants",
     "badge": "Secondary",
-    "lowPrice": 2500,
-    "highPrice": 5000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 3500,
+    "highPrice": 9000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
@@ -34578,7 +34648,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1996 official archive-catalog snapshot; other years unresolved"
+        "value": "1993-1998 verified; 860- and 890-pound annual variants"
       },
       {
         "label": "Recommendation",
@@ -34670,7 +34740,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact Dual model; separate from the lighter single-console 16 Pro Select in the same catalog."
+        "value": "The hull family remains visually consistent, but published dry weight alternates between 860 and 890 pounds. BoatBuilder keeps those annual certification variants separate rather than pretending the 1996 table applies unchanged to every year."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -34686,18 +34756,60 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 1996 archive snapshot retained; other years remain no-spec/no-price."
+        "value": "Generation/variation-complete for the existing app record. Official archive years and annual model rosters were checked; the dual-console 16 first appears in 1993 and is absent after 1998."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Select Dual 16:gen:1996-catalog",
-        "label": "1996 archive-catalog specification snapshot",
-        "startYear": 1996,
+        "id": "boat:Sylvan | Pro Select Dual 16:gen:1993-1994",
+        "label": "1993-1994 annual specification variant",
+        "startYear": 1993,
+        "endYear": 1994,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "Annual rosters list the 16 Pro Select D/C at 860 pounds in 1993 and 1994. The checked factory archive does not provide a recoverable complete table for those exact years, so only verified fields are shown.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/sylvan-ind/power-boats",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1993/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "16-foot factory model designation",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "860 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Layout": {
+            "value": "Dual console / walk-through wraparound windshield",
+            "confidence": "factory-family-confirmed"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; un-recovered annual dimensions are not copied from 1996",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Select Dual 16:value:1993-1994",
+            "label": "1993-1994",
+            "startYear": 1993,
+            "endYear": 1994,
+            "low": 3500,
+            "high": 7000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Pro Select Dual 16:gen:1995-1996",
+        "label": "1995-1996 890-pound factory variant",
+        "startYear": 1995,
         "endYear": 1996,
-        "status": "factory-catalog-snapshot",
-        "specificationBasis": "Official Sylvan 1996 aluminum-boats archive catalog; no adjacent year is inferred.",
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 1996 factory table gives the complete 890-pound specification; the 1995 annual roster repeats the same dry weight and model identity.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
         "specs": {
           "Length": {
@@ -34767,29 +34879,106 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Select Dual 16:value:1996",
-            "label": "1996",
-            "startYear": 1996,
+            "id": "boat:Sylvan | Pro Select Dual 16:value:1995-1996",
+            "label": "1995-1996",
+            "startYear": 1995,
             "endYear": 1996,
-            "low": 2500,
-            "high": 5000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 4500,
+            "high": 8500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
+          "https://www.jdpower.com/boats/1995/sylvan-ind/power-boats"
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Pro Select Dual 16:gen:1997",
+        "label": "1997-1997 annual specification variant",
+        "startYear": 1997,
+        "endYear": 1997,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "The 1997 annual roster lists the dual-console boat at 860 pounds. Complete annual dimensions were not recovered, so the 1996 table is not silently reused.",
+        "sourceUrl": "https://www.jdpower.com/boats/1997/sylvan-ind/power-boats",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1997/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "16-foot factory model designation",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "860 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Layout": {
+            "value": "Dual console / walk-through wraparound windshield",
+            "confidence": "factory-family-confirmed"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; un-recovered annual dimensions are not copied from 1996",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Select Dual 16:value:1997",
+            "label": "1997-1997",
+            "startYear": 1997,
+            "endYear": 1997,
+            "low": 4000,
+            "high": 8000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ]
       },
       {
-        "id": "boat:Sylvan | Pro Select Dual 16:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1996 factory catalog basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Pro Select Dual 16:gen:1998",
+        "label": "1998-1998 annual specification variant",
+        "startYear": 1998,
+        "endYear": 1998,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "The 1998 annual roster lists the renamed 1600 Pro Select D/C at 890 pounds. Complete annual dimensions were not recovered, so the 1996 table is not silently reused.",
+        "sourceUrl": "https://www.jdpower.com/boats/1998/sylvan-ind/power-boats",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1998/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "16-foot factory model designation",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "890 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Layout": {
+            "value": "Dual console / walk-through wraparound windshield",
+            "confidence": "factory-family-confirmed"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; un-recovered annual dimensions are not copied from 1996",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Select Dual 16:value:1998",
+            "label": "1998-1998",
+            "startYear": 1998,
+            "endYear": 1998,
+            "low": 4500,
+            "high": 9000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Only the 1995-1996 selection carries the complete 1996 factory table. Other year selections show the fields actually recovered for those annual variants."
   },
   {
     "id": "boat:Sylvan | Pro Select Dual 17",
@@ -34798,11 +34987,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Select Dual 17",
     "displayName": "Sylvan | Pro Select Dual 17",
-    "subtitle": "1996 official archive-catalog snapshot; other years unresolved",
+    "subtitle": "Complete verified 1993-1999 production span with 930- and 960-pound variants",
     "badge": "Primary",
-    "lowPrice": 3000,
-    "highPrice": 6000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 4000,
+    "highPrice": 11000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
@@ -34813,7 +35002,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1996 official archive-catalog snapshot; other years unresolved"
+        "value": "1993-1999 verified; 930- and 960-pound annual variants"
       },
       {
         "label": "Recommendation",
@@ -34905,7 +35094,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact Dual model; factory standard walk-through wraparound windshield and two livewells."
+        "value": "Published dry weight alternates between 930 and 960 pounds. The 1996 factory table is exact for the 960-pound configuration, while other annual variants expose only recovered fields. A highly equipped 1999 package at $10,500 supports a wider package-value range than the earlier flat estimate."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -34921,18 +35110,102 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 1996 archive snapshot retained; other years remain no-spec/no-price."
+        "value": "Generation/variation-complete for the existing app record. Official archive years and annual model rosters were checked; the 17/1700 dual-console run ends after 1999."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Select Dual 17:gen:1996-catalog",
-        "label": "1996 archive-catalog specification snapshot",
-        "startYear": 1996,
+        "id": "boat:Sylvan | Pro Select Dual 17:gen:1993",
+        "label": "1993 annual specification variant",
+        "startYear": 1993,
+        "endYear": 1993,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "The 1993 annual roster lists the 17 Pro Select D/C at 960 pounds.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/sylvan-ind/power-boats",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1993/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "17-foot factory model designation",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "960 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Layout": {
+            "value": "Dual console / walk-through wraparound windshield",
+            "confidence": "factory-family-confirmed"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; un-recovered annual dimensions are not copied from 1996",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Select Dual 17:value:1993",
+            "label": "1993",
+            "startYear": 1993,
+            "endYear": 1993,
+            "low": 4000,
+            "high": 8000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Pro Select Dual 17:gen:1994",
+        "label": "1994 annual specification variant",
+        "startYear": 1994,
+        "endYear": 1994,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "The 1994 annual roster lists the 17 Pro Select D/C at 930 pounds.",
+        "sourceUrl": "https://www.jdpower.com/boats/1994/sylvan-ind/power-boats",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1994/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "17-foot factory model designation",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "930 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Layout": {
+            "value": "Dual console / walk-through wraparound windshield",
+            "confidence": "factory-family-confirmed"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; un-recovered annual dimensions are not copied from 1996",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Select Dual 17:value:1994",
+            "label": "1994",
+            "startYear": 1994,
+            "endYear": 1994,
+            "low": 4000,
+            "high": 8000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Pro Select Dual 17:gen:1995-1996",
+        "label": "1995-1996 960-pound factory variant",
+        "startYear": 1995,
         "endYear": 1996,
-        "status": "factory-catalog-snapshot",
-        "specificationBasis": "Official Sylvan 1996 aluminum-boats archive catalog; no adjacent year is inferred.",
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 1996 factory table gives the complete 960-pound specification; the 1995 annual roster repeats the same dry weight and model identity.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
         "specs": {
           "Length": {
@@ -35002,29 +35275,106 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Select Dual 17:value:1996",
-            "label": "1996",
-            "startYear": 1996,
+            "id": "boat:Sylvan | Pro Select Dual 17:value:1995-1996",
+            "label": "1995-1996",
+            "startYear": 1995,
             "endYear": 1996,
-            "low": 3000,
-            "high": 6000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 5000,
+            "high": 9500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
+          "https://www.jdpower.com/boats/1995/sylvan-ind/power-boats"
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Pro Select Dual 17:gen:1997",
+        "label": "1997 annual specification variant",
+        "startYear": 1997,
+        "endYear": 1997,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "The 1997 annual roster lists the 17 Pro Select D/C at 930 pounds.",
+        "sourceUrl": "https://www.jdpower.com/boats/1997/sylvan-ind/power-boats",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1997/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "17-foot factory model designation",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "930 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Layout": {
+            "value": "Dual console / walk-through wraparound windshield",
+            "confidence": "factory-family-confirmed"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; un-recovered annual dimensions are not copied from 1996",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Select Dual 17:value:1997",
+            "label": "1997",
+            "startYear": 1997,
+            "endYear": 1997,
+            "low": 4500,
+            "high": 9000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ]
       },
       {
-        "id": "boat:Sylvan | Pro Select Dual 17:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1996 factory catalog basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanAluminumBoats1996_web.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Pro Select Dual 17:gen:1998-1999",
+        "label": "1998-1999 annual specification variant",
+        "startYear": 1998,
+        "endYear": 1999,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "The 1998 and 1999 annual rosters list the 1700 Pro Select D/C at 960 pounds. A current 1999 package advertised with 125 hp, 10 hp kicker, electronics and trailer at $10,500 anchors the upper end.",
+        "sourceUrl": "https://www.jdpower.com/boats/1998/sylvan-ind/power-boats",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1998/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "17-foot factory model designation",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "960 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Layout": {
+            "value": "Dual console / walk-through wraparound windshield",
+            "confidence": "factory-family-confirmed"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; un-recovered annual dimensions are not copied from 1996",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Pro Select Dual 17:value:1998-1999",
+            "label": "1998-1999",
+            "startYear": 1998,
+            "endYear": 1999,
+            "low": 5500,
+            "high": 11000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Only the 1995-1996 selection carries the complete 1996 factory table. Other annual selections deliberately avoid borrowed dimensions."
   },
   {
     "id": "boat:Sylvan | Pro Sport 1600 DC",
@@ -35033,11 +35383,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Sport 1600 DC",
     "displayName": "Sylvan | Pro Sport 1600 DC",
-    "subtitle": "2007–2010 documented factory generation; other years unresolved",
+    "subtitle": "Complete 2007-2010 factory generation",
     "badge": "Primary",
-    "lowPrice": 3500,
-    "highPrice": 6500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "lowPrice": 6500,
+    "highPrice": 12000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
@@ -35048,7 +35398,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2010 documented factory generation; other years unresolved"
+        "value": "2007-2010 documented factory generation"
       },
       {
         "label": "Recommendation",
@@ -35140,7 +35490,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2007–2010 factory tables repeat the same core specification set."
+        "value": "Some valuation rosters call this 1600 Pro Fish, while Sylvan factory catalogs use Pro Sport. Treat the alternate wording as an alias, not a second hull."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -35156,22 +35506,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Sylvan annual tables reconciled for the documented years."
+        "value": "Generation-complete for the existing app record. Adjacent official catalogs and annual rosters show no 1600 Pro Sport DC before 2007 or after 2010."
       }
     ],
     "valueEras": [],
     "designGenerations": [
-      {
-        "id": "boat:Sylvan | Pro Sport 1600 DC:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
-      },
       {
         "id": "boat:Sylvan | Pro Sport 1600 DC:gen:2007-2010",
         "label": "2007–2010 factory generation",
@@ -35241,12 +35580,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Pro Sport 1600 DC:value:2007-2010",
-            "label": "2007–2010",
+            "label": "2007-2010",
             "startYear": 2007,
             "endYear": 2010,
-            "low": 3500,
-            "high": 6500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 6500,
+            "high": 12000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -35257,7 +35596,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "Seller and valuation listings may say Pro Fish. Match the year, 1,080-pound DC hull and factory layout rather than the shorthand name."
   },
   {
     "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller)",
@@ -35266,11 +35605,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Sport 1700 DC (Primary; not Sport Troller)",
     "displayName": "Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller)",
-    "subtitle": "2007–2008 and 2009–2010 factory generations; other years unresolved",
+    "subtitle": "Complete 2006-2010 factory run in two generations",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 7500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "lowPrice": 7500,
+    "highPrice": 16000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
@@ -35281,7 +35620,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2008 and 2009–2010 factory generations; other years unresolved"
+        "value": "2006-2008 and 2009-2010 factory generations"
       },
       {
         "label": "Recommendation",
@@ -35373,7 +35712,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Factory tables show a 2009 horsepower or side-gauge change; the two specification sets are separated."
+        "value": "Sylvan factory catalogs use Pro Sport, while J.D. Power and some seller ads continue the Pro Fish wording through 2009. The 2006-2009 Pro Fish label is an alias for this 1,220-pound factory Pro Sport hull, not the earlier 2003-2005 1,140-pound Pro Fish."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -35389,30 +35728,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Sylvan annual tables reconciled for the documented years."
+        "value": "Generation-complete for the existing app record. Official factory tables cover 2006-2010; annual valuation rosters using the Pro Fish alias were reconciled rather than duplicated."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
-      },
-      {
-        "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:2007-2008",
-        "label": "2007–2008 factory generation",
-        "startYear": 2007,
+        "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:2006-2008",
+        "label": "2006-2008 factory generation",
+        "startYear": 2006,
         "endYear": 2008,
         "status": "factory-documented-generation",
-        "specificationBasis": "2007 and 2008 factory tables.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+        "specificationBasis": "The 2006-2008 Sylvan factory tables identify the same 17-foot-1-inch, 1,220-pound Pro Sport DC hull.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "17'1\"",
@@ -35473,16 +35801,17 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):value:2007-2008",
-            "label": "2007–2008",
-            "startYear": 2007,
+            "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):value:2006-2008",
+            "label": "2006-2008",
+            "startYear": 2006,
             "endYear": 2008,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 7500,
+            "high": 14000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
           "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
           "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf"
         ]
@@ -35556,12 +35885,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):value:2009-2010",
-            "label": "2009–2010",
+            "label": "2009-2010",
             "startYear": 2009,
             "endYear": 2010,
-            "low": 5500,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 9000,
+            "high": 16000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -35570,7 +35899,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "Do not confuse this full-windshield multispecies boat with the narrow Sport Troller. Pro Fish wording in 2006-2009 listings may refer to this same Pro Sport hull."
   },
   {
     "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary)",
@@ -35579,11 +35908,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Sport 1900 DC (Secondary; 1700 is Primary)",
     "displayName": "Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary)",
-    "subtitle": "2007–2008 and 2009–2010 factory generations; other years unresolved",
+    "subtitle": "Complete 2006-2010 factory run in two generations",
     "badge": "Secondary",
-    "lowPrice": 5500,
-    "highPrice": 9000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "lowPrice": 9000,
+    "highPrice": 18500,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
@@ -35594,7 +35923,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2008 and 2009–2010 factory generations; other years unresolved"
+        "value": "2006-2008 and 2009-2010 factory generations"
       },
       {
         "label": "Recommendation",
@@ -35686,7 +36015,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Factory tables show a 2009 horsepower or side-gauge change; the two specification sets are separated."
+        "value": "Annual valuation rosters may use the Pro Fish name. The official Pro Sport tables control. Complete 175-hp-class packages can sit well above the project budget even when the bare-hull book value is modest."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -35702,30 +36031,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Sylvan annual tables reconciled for the documented years."
+        "value": "Generation-complete for the existing app record. Official factory catalogs were reconciled from the 2006 introduction through the 2010 final year."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
-      },
-      {
-        "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:2007-2008",
-        "label": "2007–2008 factory generation",
-        "startYear": 2007,
+        "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:2006-2008",
+        "label": "2006-2008 factory generation",
+        "startYear": 2006,
         "endYear": 2008,
         "status": "factory-documented-generation",
-        "specificationBasis": "2007 and 2008 factory tables.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+        "specificationBasis": "The 2006-2008 factory tables identify the same 18-foot-10-inch, 1,450-pound Pro Sport DC specification.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "18'10\"",
@@ -35786,16 +36104,17 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):value:2007-2008",
-            "label": "2007–2008",
-            "startYear": 2007,
+            "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):value:2006-2008",
+            "label": "2006-2008",
+            "startYear": 2006,
             "endYear": 2008,
-            "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 9000,
+            "high": 16000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
           "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
           "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf"
         ]
@@ -35869,12 +36188,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):value:2009-2010",
-            "label": "2009–2010",
+            "label": "2009-2010",
             "startYear": 2009,
             "endYear": 2010,
-            "low": 6500,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 10500,
+            "high": 18500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -35883,7 +36202,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "This is a 19-foot, 175-hp-class package. Loaded tow weight and market price can exceed the useful range for Tod and Donna."
   },
   {
     "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport)",
@@ -35892,11 +36211,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport)",
     "displayName": "Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport)",
-    "subtitle": "2008 narrow hull and 2009–2010 wide-hull generations; other years unresolved",
+    "subtitle": "Complete 1985-2012 history: 420-, 540-, 555- and 700-pound variants",
     "badge": "Secondary",
-    "lowPrice": 1200,
-    "highPrice": 2500,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "lowPrice": 1500,
+    "highPrice": 11500,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2023_09/IMG_1493.thumb.jpeg.cb9000e8aaef7fe03fe7ba9c0e3c80fd.jpeg",
@@ -35907,7 +36226,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 narrow hull and 2009–2010 wide-hull generations; other years unresolved"
+        "value": "1985-1993 early 420 lb; 1994-2005 540 lb; 2006-2008 555 lb; 2009-2012 wide 700 lb"
       },
       {
         "label": "Recommendation",
@@ -35999,7 +36318,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "This is not a minor annual revision: the 2009 Sport Troller changes from a 69-inch, 555-pound, 40-hp boat to an 81-inch, 700-pound, 60-hp boat."
+        "value": "The Sport Troller is not one unchanged 16-footer. It begins as a 420-pound boat, becomes a 540-pound narrow hull in 1994, gains weight in 2006, then is completely redesigned for 2009 at 81 inches wide and 700 pounds. Sylvan renames the unchanged wide generation 168 Sport Troller in 2011."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -36015,29 +36334,146 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official 2008–2010 tables establish a complete hull redesign."
+        "value": "Generation/variation-complete for the existing app record. Official archive material and annual rosters were checked across the full verified 1985-2012 run."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:1985-1993-420",
+        "label": "1985-1993 420-pound early Sport Troller",
+        "startYear": 1985,
+        "endYear": 1993,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "Annual model rosters list the 16/17 Sport Troller at 420 pounds from 1985 through 1993. The 16-foot model is absent from the checked 1984 roster. Complete annual factory dimensions were not recoverable, so later specifications are not projected backward.",
+        "sourceUrl": "https://www.jdpower.com/boats/1985/sylvan-ind",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1985/sylvan-ind",
+          "https://www.jdpower.com/boats/1991/sylvan-ind/power-boats",
+          "https://www.jdpower.com/boats/1993/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "16- to 17-foot advertised class by year",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "420 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Max HP": {
+            "value": "Not recovered; verify capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "Light riveted aluminum fishing hull; exact dimensions/gauges not recovered",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:1985-1993-420",
+            "label": "1985-1993",
+            "startYear": 1985,
+            "endYear": 1993,
+            "low": 1500,
+            "high": 4500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
       },
       {
-        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:2008",
-        "label": "2008 narrow factory specification",
-        "startYear": 2008,
+        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:1994-2005-540",
+        "label": "1994-2005 540-pound narrow-hull generation",
+        "startYear": 1994,
+        "endYear": 2005,
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 2005 factory table supplies the complete 540-pound narrow-hull specification. Annual rosters repeat the 540-pound Sport Troller from 1994 through 2005.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2005-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "69\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "540 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "33\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "22\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "59\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "40",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "4",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,100 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "Portable tank",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.064\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.064\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted semi-V aluminum",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:1994-2005-540",
+            "label": "1994-2005",
+            "startYear": 1994,
+            "endYear": 2005,
+            "low": 2500,
+            "high": 7500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2005-Sylvan-Fishing-Catalog.pdf",
+          "https://www.jdpower.com/boats/1994/sylvan-ind/power-boats",
+          "https://www.jdpower.com/boats/1998/sylvan-ind/power-boats",
+          "https://www.jdpower.com/boats/2002/sylvan-ind/power-boats"
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:2006-2008",
+        "label": "2006-2008 555-pound narrow-hull revision",
+        "startYear": 2006,
         "endYear": 2008,
-        "status": "factory-exact",
-        "specificationBasis": "2008 narrow semi-V factory table.",
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 2008 factory table gives the complete narrow-hull specification; 2006 and 2007 annual rosters repeat the 555-pound model.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
@@ -36099,23 +36535,28 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:2008",
-            "label": "2008",
-            "startYear": 2008,
+            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:2006-2008",
+            "label": "2006-2008",
+            "startYear": 2006,
             "endYear": 2008,
-            "low": 1200,
-            "high": 2500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 4000,
+            "high": 9000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
+          "https://www.jdpower.com/boats/2006/sylvan-ind",
+          "https://www.jdpower.com/boats/2007/sylvan-ind/power-boats"
         ]
       },
       {
-        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:2009-2010",
-        "label": "2009–2010 wide-hull factory generation",
+        "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):gen:2009-2012-wide",
+        "label": "2009-2012 wide-hull 1600 / 168 generation",
         "startYear": 2009,
-        "endYear": 2010,
+        "endYear": 2012,
         "status": "factory-documented-generation",
-        "specificationBasis": "2009 and 2010 tables repeat the redesigned wider hull.",
+        "specificationBasis": "The 2009-2012 tables/rosters repeat the redesigned 81-inch, 700-pound hull. The model is renamed 168 Sport Troller for 2011-2012 without a material specification change.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
@@ -36177,22 +36618,24 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:2009-2010",
-            "label": "2009–2010",
+            "id": "boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport):value:2009-2012-wide",
+            "label": "2009-2012",
             "startYear": 2009,
-            "endYear": 2010,
-            "low": 1800,
-            "high": 3200,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "endYear": 2012,
+            "low": 6000,
+            "high": 11500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
           "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
-          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
+          "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2011-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf"
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "The 2009 redesign is enormous relative to the earlier boat. Confirm year and beam before using any specification or value."
   },
   {
     "id": "boat:Sylvan | Super Sportster 16 OB",
@@ -36201,11 +36644,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Super Sportster 16 OB",
     "displayName": "Sylvan | Super Sportster 16 OB",
-    "subtitle": "1989 official factory-catalog snapshot; other years unresolved",
+    "subtitle": "Complete verified 1983-1993 690-pound run; 1989 factory table basis",
     "badge": "Secondary",
-    "lowPrice": 1500,
-    "highPrice": 3500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 2000,
+    "highPrice": 6000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
@@ -36216,7 +36659,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1989 official factory-catalog snapshot; other years unresolved"
+        "value": "1983-1993 verified production span"
       },
       {
         "label": "Recommendation",
@@ -36308,7 +36751,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The exact 16-ft Super Sportster is real and factory full-windshield, but it is narrow and light. Strong inland/family candidate; Lake Superior use should be conservative and nearshore."
+        "value": "The 690-pound published weight remains stable across the verified run. The complete dimensions shown are the 1989 factory table; inspect the capacity plate on another year if exact certification matters."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -36324,18 +36767,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "False 1997 attribution removed; 1989 official snapshot retained."
+        "value": "Generation-complete for the existing app record. Annual rosters from introduction through disappearance were reconciled with the 1989 factory table."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Super Sportster 16 OB:gen:1989",
-        "label": "1989 factory catalog specification",
-        "startYear": 1989,
-        "endYear": 1989,
-        "status": "factory-catalog-snapshot",
-        "specificationBasis": "Official 1989 Sylvan catalog. The prior 1997 label was unsupported by its cited source.",
+        "id": "boat:Sylvan | Super Sportster 16 OB:gen:1983-1993",
+        "label": "1983-1993 verified 690-pound generation",
+        "startYear": 1983,
+        "endYear": 1993,
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 1989 factory table gives the complete specification. Annual rosters list the 16 Super Sportster at the same 690-pound weight from 1983 through 1993; it is absent from the 1994 roster.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
         "specs": {
           "Length": {
@@ -36405,29 +36848,24 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Super Sportster 16 OB:value:1989",
-            "label": "1989",
-            "startYear": 1989,
-            "endYear": 1989,
-            "low": 1500,
-            "high": 3500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "id": "boat:Sylvan | Super Sportster 16 OB:value:1983-1993",
+            "label": "1983-1993",
+            "startYear": 1983,
+            "endYear": 1993,
+            "low": 2000,
+            "high": 6000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
+          "https://www.jdpower.com/boats/1983/sylvan-ind",
+          "https://www.jdpower.com/boats/1993/sylvan-ind/power-boats",
+          "https://www.jdpower.com/boats/1994/sylvan-ind/power-boats"
         ]
-      },
-      {
-        "id": "boat:Sylvan | Super Sportster 16 OB:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989 factory basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "1989 supplies the complete factory table; the broader 1983-1993 span is supported by consistent annual model/weight rosters."
   },
   {
     "id": "boat:Sylvan | Super Sportster 17 OB",
@@ -36436,11 +36874,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Super Sportster 17 OB",
     "displayName": "Sylvan | Super Sportster 17 OB",
-    "subtitle": "1989 official factory-catalog snapshot; other years unresolved",
+    "subtitle": "Complete verified 1988-1993 800-pound run; 1989 factory table basis",
     "badge": "Secondary",
-    "lowPrice": 1800,
-    "highPrice": 3800,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 2500,
+    "highPrice": 7000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
@@ -36451,7 +36889,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1989 official factory-catalog snapshot; other years unresolved"
+        "value": "1988-1993 verified production span"
       },
       {
         "label": "Recommendation",
@@ -36543,7 +36981,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 17 OB is materially wider/deeper than the 16 and is the strongest compact Super Sportster fit, but its 83-in beam remains just below the sheet’s 84-in preference."
+        "value": "The 800-pound published weight remains stable across the verified run. The complete dimensions shown are the 1989 factory table; inspect the capacity plate on another year if exact certification matters."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -36559,18 +36997,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "False 1997 attribution removed; 1989 official snapshot retained."
+        "value": "Generation-complete for the existing app record. Annual rosters from first appearance through disappearance were reconciled with the 1989 factory table."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Super Sportster 17 OB:gen:1989",
-        "label": "1989 factory catalog specification",
-        "startYear": 1989,
-        "endYear": 1989,
-        "status": "factory-catalog-snapshot",
-        "specificationBasis": "Official 1989 Sylvan catalog. The prior 1997 label was unsupported by its cited source.",
+        "id": "boat:Sylvan | Super Sportster 17 OB:gen:1988-1993",
+        "label": "1988-1993 verified 800-pound generation",
+        "startYear": 1988,
+        "endYear": 1993,
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 1989 factory table gives the complete specification. Annual rosters first list the 17 Super Sportster in 1988 and repeat the 800-pound weight through 1993; it is absent in 1994.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
         "specs": {
           "Length": {
@@ -36640,29 +37078,24 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Super Sportster 17 OB:value:1989",
-            "label": "1989",
-            "startYear": 1989,
-            "endYear": 1989,
-            "low": 1800,
-            "high": 3800,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "id": "boat:Sylvan | Super Sportster 17 OB:value:1988-1993",
+            "label": "1988-1993",
+            "startYear": 1988,
+            "endYear": 1993,
+            "low": 2500,
+            "high": 7000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
+          "https://www.jdpower.com/boats/1988/sylvan-ind/power-boats",
+          "https://www.jdpower.com/boats/1993/sylvan-ind/power-boats",
+          "https://www.jdpower.com/boats/1994/sylvan-ind/power-boats"
         ]
-      },
-      {
-        "id": "boat:Sylvan | Super Sportster 17 OB:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989 factory basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "1989 supplies the complete factory table; the broader 1988-1993 span is supported by consistent annual model/weight rosters."
   },
   {
     "id": "boat:Sylvan | Super Sportster 18 OB",
@@ -36671,11 +37104,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Super Sportster 18 OB",
     "displayName": "Sylvan | Super Sportster 18 OB",
-    "subtitle": "1989 official factory-catalog snapshot; other years unresolved",
+    "subtitle": "Complete verified 1983-1993 run; 1,020- and 990-pound variants",
     "badge": "Secondary",
-    "lowPrice": 2000,
-    "highPrice": 4200,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 2500,
+    "highPrice": 8000,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
     "image": {
       "url": "https://images.craigslist.org/00e0e_1DBUD8U1V4y_0CI0s4_600x450.jpg",
@@ -36686,7 +37119,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1989 official factory-catalog snapshot; other years unresolved"
+        "value": "1983-1987 1,020 lb; 1988-1993 990 lb"
       },
       {
         "label": "Recommendation",
@@ -36778,7 +37211,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Longer hull and good capacity, but the 18 is actually one inch narrower than the 17. Do not infer that the larger model is automatically the wider or more stable trailer package."
+        "value": "The 18-foot Super Sportster sheds 30 pounds for 1988. The late variant has a complete 1989 factory table; the early variant contains only recovered fields rather than borrowed late specifications."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -36794,18 +37227,58 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "False 1997 attribution removed; 1989 official snapshot retained."
+        "value": "Generation/variation-complete for the existing app record. Annual rosters establish the 1988 weight boundary and the 1993 end of this size."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Super Sportster 18 OB:gen:1989",
-        "label": "1989 factory catalog specification",
-        "startYear": 1989,
-        "endYear": 1989,
-        "status": "factory-catalog-snapshot",
-        "specificationBasis": "Official 1989 Sylvan catalog. The prior 1997 label was unsupported by its cited source.",
+        "id": "boat:Sylvan | Super Sportster 18 OB:gen:1983-1987-1020",
+        "label": "1983-1987 1,020-pound early variant",
+        "startYear": 1983,
+        "endYear": 1987,
+        "status": "secondary-roster-verified-source-exhausted",
+        "specificationBasis": "Annual rosters identify the 18 Super Sportster outboard at 1,020 pounds from 1983 through 1987. The 1988 roster drops to 990 pounds. A complete early-year factory table was not recovered, so 1989 dimensions are not projected backward.",
+        "sourceUrl": "https://www.jdpower.com/boats/1983/sylvan-ind",
+        "evidenceUrls": [
+          "https://sylvanmarine.com/resources/legacy-catalogs/",
+          "https://www.jdpower.com/boats/1983/sylvan-ind",
+          "https://www.jdpower.com/boats/1984/sylvan-ind/power-boats",
+          "https://www.jdpower.com/boats/1988/sylvan-ind/power-boats"
+        ],
+        "specs": {
+          "Length": {
+            "value": "18-foot factory model designation",
+            "confidence": "secondary-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,020 lb",
+            "confidence": "secondary-roster-verified"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; exact early dimensions/gauges not recovered",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Super Sportster 18 OB:value:1983-1987-1020",
+            "label": "1983-1987",
+            "startYear": 1983,
+            "endYear": 1987,
+            "low": 2500,
+            "high": 7000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sylvan | Super Sportster 18 OB:gen:1988-1993-990",
+        "label": "1988-1993 990-pound generation",
+        "startYear": 1988,
+        "endYear": 1993,
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 1989 factory table gives the complete 990-pound specification. The 1988 and 1990-1993 annual rosters repeat the same outboard weight.",
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
         "specs": {
           "Length": {
@@ -36875,29 +37348,23 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Super Sportster 18 OB:value:1989",
-            "label": "1989",
-            "startYear": 1989,
-            "endYear": 1989,
-            "low": 2000,
-            "high": 4200,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "id": "boat:Sylvan | Super Sportster 18 OB:value:1988-1993-990",
+            "label": "1988-1993",
+            "startYear": 1988,
+            "endYear": 1993,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
+          "https://www.jdpower.com/boats/1988/sylvan-ind/power-boats",
+          "https://www.jdpower.com/boats/1993/sylvan-ind/power-boats"
         ]
-      },
-      {
-        "id": "boat:Sylvan | Super Sportster 18 OB:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989 factory basis",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Do not use the 1989 dimensions for the 1983-1987 1,020-pound variant without checking its capacity plate."
   },
   {
     "id": "boat:Sylvan | Viper (bass-boat series; no walk-through windshield)",
@@ -37029,7 +37496,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Family-level rejection; no specifications or price."
+        "value": "Closed disposition. This is not a single factory model eligible for generation or price assignment."
       }
     ],
     "valueEras": [],
@@ -41137,17 +41604,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Explorer 1600 DC",
     "displayName": "Sylvan | Explorer 1600 DC",
-    "subtitle": "2007–2010 and 2011–2012 factory generations; other years unresolved",
+    "subtitle": "Complete 2002-2012 run: 785-, 880- and 900-pound generations",
     "badge": "Secondary",
-    "lowPrice": 2500,
-    "highPrice": 7000,
-    "priceBasis": "Generation-specific used complete-package screening estimate. Choose the documented factory year range before pricing.",
+    "lowPrice": 5500,
+    "highPrice": 14500,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2010 and 2011–2012 factory generations; other years unresolved"
+        "value": "2002-2005 785 lb; 2006-2010 880 lb; 2011-2012 900 lb"
       },
       {
         "label": "Recommendation",
@@ -41239,7 +41706,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2011 hull table increases DC dry weight from 880 to 900 pounds; 2012 also publishes 19-degree deadrise."
+        "value": "The DC did not exist in the checked 2000-2001 rosters. It begins at 785 pounds, rises to 880 pounds in 2006 and to 900 pounds in 2011. A documented 2004 dealer listing at $10,995 and a 2002 listing around $6,495 support wider complete-package ranges than the former hull-only-like values."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -41255,30 +41722,101 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Official Sylvan annual tables reconciled for 2007–2012."
+        "value": "Generation-complete for the existing app record. The dual-console model first appears in 2002; annual catalogs/rosters were reconciled through its 2012 final year."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Explorer 1600 DC:gen:other-years",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "No factory specification set or used-package value is assigned. Confirm the exact model year and generation before using specifications or price.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2012-Sylvan-Fishing-Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sylvan | Explorer 1600 DC:gen:2002-2005",
+        "label": "2002-2005 785-pound factory generation",
+        "startYear": 2002,
+        "endYear": 2005,
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 2005 factory table supplies the complete 785-pound DC specification. Annual rosters repeat the same model and dry weight from its 2002 introduction through 2005.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2005-Sylvan-Fishing-Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'2\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "785 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "21\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "77\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,275 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.070\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted modified-V aluminum; 0.080-inch ribs",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sylvan | Explorer 1600 DC:value:2002-2005",
+            "label": "2002-2005",
+            "startYear": 2002,
+            "endYear": 2005,
+            "low": 5500,
+            "high": 11000,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2005-Sylvan-Fishing-Catalog.pdf",
+          "https://www.jdpower.com/boats/2002/sylvan-ind/power-boats"
+        ]
       },
       {
-        "id": "boat:Sylvan | Explorer 1600 DC:gen:2007-2010",
-        "label": "2007–2010 factory generation",
-        "startYear": 2007,
+        "id": "boat:Sylvan | Explorer 1600 DC:gen:2006-2010",
+        "label": "2006-2010 880-pound factory generation",
+        "startYear": 2006,
         "endYear": 2010,
         "status": "factory-documented-generation",
-        "specificationBasis": "2007 through 2010 factory tables repeat the 880-pound DC specification.",
-        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf",
+        "specificationBasis": "The 2006-2010 factory/annual records repeat the 880-pound Explorer DC specification.",
+        "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
         "specs": {
           "Length": {
             "value": "16'2\"",
@@ -41339,19 +41877,18 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Explorer 1600 DC:value:2007-2010",
-            "label": "2007–2010",
-            "startYear": 2007,
+            "id": "boat:Sylvan | Explorer 1600 DC:value:2006-2010",
+            "label": "2006-2010",
+            "startYear": 2006,
             "endYear": 2010,
-            "low": 2500,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 6500,
+            "high": 12500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2006-Sylvan-Fishing-Catalog.pdf",
           "https://sylvanmarine.com/wp-content/uploads/2007-Sylvan-Fishing-Catalog.pdf",
-          "https://sylvanmarine.com/wp-content/uploads/2008-Sylvan-Fishing-Catalog.pdf",
-          "https://sylvanmarine.com/wp-content/uploads/2009-Sylvan-Fishing-Catalog.pdf",
           "https://sylvanmarine.com/wp-content/uploads/2010-Sylvan-Fishing-Catalog.pdf"
         ]
       },
@@ -41428,12 +41965,12 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Explorer 1600 DC:value:2011-2012",
-            "label": "2011–2012",
+            "label": "2011-2012",
             "startYear": 2011,
             "endYear": 2012,
-            "low": 4500,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 8000,
+            "high": 14500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
         ],
         "evidenceUrls": [
@@ -41442,7 +41979,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Same or similar model names changed specifications across production. Select only a documented year range; unresolved years intentionally have no specifications or price."
+    "generationWarning": "The 2002-2005 boat is 95 pounds lighter than the 2006-2010 generation. Select the exact year range."
   },
   {
     "id": "boat:Sylvan | Pro Fish 1700 DC",
@@ -41451,17 +41988,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Pro Fish 1700 DC",
     "displayName": "Sylvan | Pro Fish 1700 DC",
-    "subtitle": "2005 exact cited specification; other advertised years unresolved",
+    "subtitle": "Complete 2003-2005 1,140-pound factory generation",
     "badge": "Primary",
-    "lowPrice": 4000,
-    "highPrice": 7500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 6500,
+    "highPrice": 12500,
+    "priceBasis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range.",
     "sourceUrl": "https://sylvanmarine.com/resources/legacy-catalogs/",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2005 exact cited specification; other advertised years unresolved"
+        "value": "2003-2005 factory generation"
       },
       {
         "label": "Recommendation",
@@ -41553,7 +42090,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Confirmed omitted Pro Fish 1700 dual-console generation. It is materially larger and more capable than the Explorer 1600 DC and must remain separate from Pro Sport, Expedition Sport and Adventurer families. The 17'10\" hull, 91-inch beam, 25-inch interior and 135-hp ceiling make it a strong older big-water candidate."
+        "value": "This record ends with the 2005 1,140-pound Pro Fish. J.D. Power and sellers sometimes continue the Pro Fish name for the 2006-2009 1,220-pound boat, but Sylvan factory catalogs identify that later hull as Pro Sport. BoatBuilder resolves the later wording to the Pro Sport 1700 record."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -41569,18 +42106,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2005 official archive snapshot retained; no adjacent year is inferred."
+        "value": "Generation-complete for the existing app record. The 2003-2005 factory/roster run was reconciled; later Pro Fish wording is documented as an alias of the heavier Pro Sport record, not an unresolved continuation."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sylvan | Pro Fish 1700 DC:gen:2005",
-        "label": "2005 cited specification snapshot",
-        "startYear": 2005,
+        "id": "boat:Sylvan | Pro Fish 1700 DC:gen:2003-2005",
+        "label": "2003-2005 1,140-pound Pro Fish generation",
+        "startYear": 2003,
         "endYear": 2005,
-        "status": "factory-catalog-snapshot",
-        "specificationBasis": "2005 official Sylvan archive-catalog snapshot.",
+        "status": "factory-snapshot-with-roster-verified-span",
+        "specificationBasis": "The 2005 factory table supplies the complete 1,140-pound specification. Annual rosters repeat the same model and weight in 2003 and 2004. From 2006 the Sylvan factory tables use Pro Sport for the heavier 1,220-pound hull.",
         "sourceUrl": "https://sylvanmarine.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -41650,29 +42187,23 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sylvan | Pro Fish 1700 DC:value:2005",
-            "label": "2005",
-            "startYear": 2005,
+            "id": "boat:Sylvan | Pro Fish 1700 DC:value:2003-2005",
+            "label": "2003-2005",
+            "startYear": 2003,
             "endYear": 2005,
-            "low": 4000,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; use only with this documented hull generation"
+            "low": 6500,
+            "high": 12500,
+            "basis": "Used complete-package screening range informed by surviving same-model listings, J.D. Power hull values, and period motor/trailer packages. Exceptional low-hour four-strokes, kickers, electronics, canvas, or rebuilt structure can exceed the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://sylvanmarine.com/wp-content/uploads/2003-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2004-Sylvan-Fishing-Catalog.pdf",
+          "https://sylvanmarine.com/wp-content/uploads/2005-Sylvan-Fishing-Catalog.pdf"
         ]
-      },
-      {
-        "id": "boat:Sylvan | Pro Fish 1700 DC:gen:unresolved",
-        "label": "Other production years — unresolved",
-        "startYear": null,
-        "endYear": null,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2003–2005 verified; 2005 specification basis",
-        "sourceUrl": "https://sylvanmarine.com/resources/legacy-catalogs/",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "A 2006-2009 ad saying Pro Fish may actually be the 1,220-pound Pro Sport hull. Use year, weight and capacity plate to choose the record."
   },
   {
     "id": "boat:Lowe | FM Pro 165 WT",

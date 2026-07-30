@@ -1,16 +1,25 @@
-Validation performed locally against the repaired 2026-07-29 baseline:
+BoatBuilder Sylvan generation/value completion validation — 2026-07-29
+
+Data validation:
 - data/boats.js JavaScript syntax: PASS
 - tests/qa.mjs JavaScript syntax: PASS
-- 170 boat records present: PASS
-- 170 unique stable boat IDs: PASS
-- 351 unique generation IDs: PASS
-- Sylvan record count 16: PASS
-- Starcraft record count 14: PASS
-- Starweld record count 3: PASS
-- 81 generation rows across the three target manufacturers
-- 33 semantic boat-record changes, all confined to Sylvan, Starcraft, and Starweld: PASS
-- Every unresolved generation in the entire catalog has zero specifications and zero pricing: PASS
-- Every target generation-specific price era stays within its generation years: PASS
-- Focused checks for Sylvan Sport Troller, Sylvan Adventurer, Sylvan Viper, Starcraft Superfisherman 186, Starcraft STX 2050, and Starweld Fusion 16: PASS
+- Canonical boat records: 170
+- Unique stable boat IDs: 170
+- Design generation rows: 350
+- Unique design generation IDs: 350
+- Semantic boat-record changes: 16
+- Non-Sylvan semantic boat-record changes: 0
+- Sylvan app records: 16
+- Sylvan unresolved generation rows: 0
+- Sylvan physical generations/annual variations: 39
+- Sylvan physical variations with numeric used-package ranges: 39 of 39
+- Sylvan top-level value eras: 0
+- Generation-specific price eras outside their generation years: 0
 
-The complete repository QA command was not run because this handoff workspace contains only the changed files, not the full repository. The updated tests/qa.mjs passes syntax checking and the batch-specific data assertions were executed independently.
+Regression validation:
+- Complete tests/qa.mjs assertion file executed against the production data/boats.js and representative unchanged-file fixtures: PASS
+- Result: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+- Focused assertions cover Adventurer, Explorer, Pro Fish, Pro Select, Sport Troller, Super Sportster 18, Viper, zero unresolved Sylvan rows, and value coverage on every physical Sylvan variation.
+
+Production workflow note:
+- The handoff contains only changed repository files. GitHub Actions will run the same tests/qa.mjs against the actual unchanged app, equipment, catalog, HTML and CSS files after upload.

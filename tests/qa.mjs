@@ -125,7 +125,7 @@ const alumacraftUnresolved = alumacraft.flatMap(entry =>
     .filter(generation => generation.status === "unresolved")
     .map(generation => ({ entry, generation }))
 );
-assert.equal(alumacraftUnresolved.length, 11, "Alumacraft exact-plus-unresolved record count changed");
+assert.equal(alumacraftUnresolved.length, 10, "Alumacraft exact-plus-unresolved record count changed");
 for (const { entry, generation } of alumacraftUnresolved) {
   assert.equal(Object.keys(generation.specs || {}).length, 0, `${entry.id} unresolved generation inherited specifications`);
   assert.equal((generation.eras || []).length, 0, `${entry.id} unresolved generation inherited pricing`);
@@ -323,14 +323,64 @@ for (const [maker,count] of nextMakers) {
     assert.equal((generation.eras || []).length,0,entry.id + " unresolved generation inherited price");
   }
 }
+const sylvanRows = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Sylvan");
+const sylvanUnresolved = sylvanRows.flatMap(entry =>
+  entry.designGenerations.filter(generation => generation.status === "unresolved").map(generation => ({ entry, generation }))
+);
+assert.equal(sylvanUnresolved.length, 0, "Sylvan still contains unresolved generation rows");
+for (const entry of sylvanRows) {
+  const closedWithoutPricing = entry.designGenerations.every(generation =>
+    ["alias-only", "family-umbrella-rejection"].includes(generation.status)
+  );
+  if (!closedWithoutPricing) {
+    assert.ok(
+      entry.designGenerations.every(generation =>
+        Array.isArray(generation.eras)
+        && generation.eras.some(era => Number.isFinite(era.low) && Number.isFinite(era.high))
+      ),
+      `${entry.id} has a physical generation without a used-package value range`
+    );
+  }
+}
+
 const sylTroller = item("boat:Sylvan | Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport)");
-assert.equal(sylTroller.designGenerations.find(g=>g.startYear===2008)?.specs?.Beam?.value,"69\"","2008 Sport Troller beam is wrong");
-assert.equal(sylTroller.designGenerations.find(g=>g.startYear===2009)?.specs?.Beam?.value,"81\"","2009 Sport Troller redesign is missing");
+assert.equal(
+  JSON.stringify(sylTroller.designGenerations.map(g => [g.startYear, g.endYear])),
+  JSON.stringify([[1985, 1993], [1994, 2005], [2006, 2008], [2009, 2012]]),
+  "Sport Troller production span or redesign boundaries are incomplete"
+);
+assert.equal(sylTroller.designGenerations.find(g => g.startYear === 2006)?.specs?.Beam?.value, "69\"", "2006-2008 Sport Troller beam is wrong");
+assert.equal(sylTroller.designGenerations.find(g => g.startYear === 2009)?.specs?.Beam?.value, "81\"", "2009 Sport Troller redesign is missing");
+
+const sylExplorer = item("boat:Sylvan | Explorer 1600 DC");
+assert.equal(sylExplorer.designGenerations.find(g => g.startYear === 2002)?.specs?.["Dry Hull Weight"]?.value, "785 lb", "2002-2005 Explorer weight is missing");
+assert.equal(sylExplorer.designGenerations.find(g => g.startYear === 2006)?.specs?.["Dry Hull Weight"]?.value, "880 lb", "2006 Explorer revision is missing");
+assert.equal(sylExplorer.designGenerations.find(g => g.startYear === 2011)?.specs?.["Dry Hull Weight"]?.value, "900 lb", "2011 Explorer revision is missing");
+
+const sylSS18 = item("boat:Sylvan | Super Sportster 18 OB");
+assert.equal(sylSS18.designGenerations.find(g => g.startYear === 1983)?.specs?.["Dry Hull Weight"]?.value, "1,020 lb", "Early Super Sportster 18 weight is missing");
+assert.equal(sylSS18.designGenerations.find(g => g.startYear === 1988)?.specs?.["Dry Hull Weight"]?.value, "990 lb", "1988 Super Sportster 18 revision is missing");
+
 const sylAdv = item("boat:Sylvan | Adventurer 1700 DC");
-assert.equal(sylAdv.designGenerations.find(g=>g.startYear===2011)?.specs?.["Dry Hull Weight"]?.value,"1,325 lb","2011 Adventurer weight change is missing");
+assert.equal(sylAdv.designGenerations.find(g => g.startYear === 2000)?.specs?.["Dry Hull Weight"]?.value, "1,260 lb", "2000 18-foot Adventurer predecessor is missing");
+assert.equal(sylAdv.designGenerations.find(g => g.startYear === 2006)?.specs?.["Dry Hull Weight"]?.value, "1,220 lb", "2006 17-foot Adventurer return is missing");
+assert.equal(sylAdv.designGenerations.find(g => g.startYear === 2011)?.specs?.["Dry Hull Weight"]?.value, "1,325 lb", "2011 Adventurer weight change is missing");
+
+const sylProFish = item("boat:Sylvan | Pro Fish 1700 DC");
+assert.equal(sylProFish.designGenerations.length, 1, "Pro Fish 1700 should close as the 2003-2005 generation");
+assert.equal(sylProFish.designGenerations[0].startYear, 2003, "Pro Fish 1700 start year is wrong");
+assert.equal(sylProFish.designGenerations[0].endYear, 2005, "Pro Fish 1700 inherited later Pro Sport years");
+
+const sylSelect16 = item("boat:Sylvan | Pro Select Dual 16");
+assert.equal(Math.min(...sylSelect16.designGenerations.map(g => g.startYear)), 1993, "Pro Select Dual 16 start year is incomplete");
+assert.equal(Math.max(...sylSelect16.designGenerations.map(g => g.endYear)), 1998, "Pro Select Dual 16 end year is incomplete");
+const sylSelect17 = item("boat:Sylvan | Pro Select Dual 17");
+assert.equal(Math.min(...sylSelect17.designGenerations.map(g => g.startYear)), 1993, "Pro Select Dual 17 start year is incomplete");
+assert.equal(Math.max(...sylSelect17.designGenerations.map(g => g.endYear)), 1999, "Pro Select Dual 17 end year is incomplete");
+
 const sylViper = item("boat:Sylvan | Viper (bass-boat series; no walk-through windshield)");
-assert.equal(sylViper.lowPrice,null,"Viper family rejection retained a price");
-assert.equal(sylViper.designGenerations[0].status,"family-umbrella-rejection","Viper is not a family rejection");
+assert.equal(sylViper.lowPrice, null, "Viper family rejection retained a price");
+assert.equal(sylViper.designGenerations[0].status, "family-umbrella-rejection", "Viper is not a family rejection");
 const sc186 = item("boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)");
 assert.equal(sc186.designGenerations.find(g=>g.startYear===2014)?.specs?.["Dry Hull Weight"]?.value,"1,333 lb","2014 Superfisherman 186 exact weight is missing");
 const stx2050 = item("boat:Starcraft | STX 2050 Aluminum");

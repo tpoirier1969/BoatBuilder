@@ -1,30 +1,27 @@
-BoatBuilder Sylvan / Starcraft / Starweld batch — 2026-07-29
+BoatBuilder Sylvan generation/value completion — 2026-07-29
 
-Copy these repository files over the repository root:
+Copy these files over the repository root:
 - data/boats.js
 - tests/qa.mjs
 - research/catalog-generation-audit-status-2026-07-29.md
 - research/audits/sylvan-app-model-audit-2026-07-29.md
-- research/audits/starcraft-starweld-app-model-audit-2026-07-29.md
-
-Handoff documentation included in the ZIP:
-- CHANGE_MANIFEST.txt
-- VALIDATION.txt
 
 Scope:
-- 16 Sylvan app records
-- 14 Starcraft app records
-- 3 Starweld app records
+- Existing Sylvan records only; no full-manufacturer roster expansion.
+- 16 Sylvan app records reviewed.
+- 39 physical Sylvan generations/annual variations represented.
+- Zero Sylvan unresolved generation rows remain.
+- Every physical Sylvan variation has a used complete-package screening range.
+- Fish and Ski and Viper remain intentionally unpriced non-model dispositions.
 
-Key changes:
-- Split documented Sylvan 2007–2012 generations.
-- Expose the complete 2009 Sport Troller hull redesign.
-- Correct false 1997 labels attached to 1989/1996 Sylvan archive sources.
-- Convert Sylvan seller/family shorthand to no-spec/no-price rejection rows.
-- Split documented 2014/2015 Starcraft changes.
-- Replace approximate Superfisherman 186 data with exact factory values.
-- Remove cross-decade price inheritance from Starcraft and Starweld snapshots.
-- Downgrade retired-link Starweld 2021 records to conservative factory-catalog snapshots and point the app to the live owner-resource archive.
-- Add focused regression checks.
+High-impact changes:
+- Split the 2000 18-foot Adventurer 1700 from the returned 2006-2012 17-foot line.
+- Closed Expedition Sport 1700 and 1800 production histories through 2012.
+- Closed Pro Select Dual 16 and 17 annual weight/certification variations.
+- Closed the Sport Troller 1985-2012 history across four physical generations.
+- Closed Super Sportster 16, 17 and 18 production spans and the 18-foot weight change.
+- Closed Explorer 1600 DC from 2002-2012 across three weight generations.
+- Closed Pro Fish 1700 as 2003-2005 and protected it from later Pro Sport aliasing.
+- Added generation-specific package values and QA checks that reject future unresolved or unpriced Sylvan physical rows.
 
-No repository writes were performed by ChatGPT.
+No GitHub repository writes were performed by ChatGPT.
