@@ -1,29 +1,30 @@
-VALIDATION RESULTS
+BoatBuilder cumulative strict completion validation
 Date: 2026-07-30
 
 Syntax
-- node --check app.js: PASS
 - node --check data/boats.js: PASS
-- node --check data/catalog.js: PASS
-- node --check data/equipment.js: PASS
 - node --check tests/qa.mjs: PASS
 
 Production QA assertion suite
-BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
-Verified canonical app data, focused Lund and Alumacraft generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
+- tests/qa.mjs: PASS
+- Output: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+- The exact replacement data/boats.js and tests/qa.mjs were exercised with repository-compatible unchanged-file fixtures for app.js, index.html, styles.css, data/equipment.js and data/catalog.js.
+- GitHub Actions will exercise the replacement files against the actual unchanged repository files after upload.
 
 Data integrity
 - Boat records before/after: 170 / 170
 - Stable ID set unchanged: PASS
-- Semantic records changed: 33, all Smoker Craft/Crestliner
-- Non-target boat records unchanged: PASS
-- Smoker Craft records/generation rows: 18 / 70
-- Crestliner records/generation rows: 15 / 34
-- Target unresolved rows: 0
-- Target physical/evidence rows with numeric package ranges: 102 / 102
-- Nonphysical aliases intentionally unpriced: 2
-- Compact ideal-match stars added: 8
-- Remaining literal unresolved rows across the app: 69
-- Generation IDs globally unique: PASS
-- Generation price eras stay inside their parent year spans: PASS
-- Parallel 2016 Ultima 182 standard and 182SE variations are intentionally represented as same-year alternatives.
+- Records changed relative to the cumulative Smoker Craft/Crestliner base: exactly 17 Alumacraft records
+- Non-Alumacraft boat records changed in this step: 0
+- Alumacraft records: 17
+- Alumacraft generation/evidence rows: 52
+- Alumacraft unresolved rows: 0
+- Alumacraft physical/evidence rows with numeric used-package pricing: 51 of 51
+- Alumacraft family-level rejection rows intentionally unpriced: 1
+- Alumacraft generation IDs unique: PASS
+- Generation price eras outside parent years: 0
+- Compact Alumacraft ideal-match stars: exactly 7
+- App-wide remaining unresolved rows: 59
+
+Evidence limitation
+Source-exhausted rows contain only facts supported by surviving annual records. Exact dimensions, capacities or construction details from adjacent years are not copied into those rows. Current combined boat/motor/trailer marketing weights are not presented as dry hull weights.

@@ -1,21 +1,34 @@
-BoatBuilder Smoker Craft + Crestliner strict completion patch
+BoatBuilder cumulative Smoker Craft + Crestliner + Alumacraft strict completion patch
 Date: 2026-07-30
+
+UPLOAD
+Copy the files and folders shown at the top level of this ZIP over the repository root.
+The ZIP is flat. It does not contain an outer wrapper folder.
 
 FULL REPLACEMENT FILES
 - data/boats.js
 - tests/qa.mjs
 - research/audits/smoker-craft-app-model-completion-2026-07-30.md
 - research/audits/crestliner-app-model-completion-2026-07-30.md
+- research/audits/alumacraft-app-model-completion-2026-07-30.md
 - research/catalog-generation-audit-status-2026-07-30.md
+- CHANGE_MANIFEST.txt
+- VALIDATION.txt
 
-DATA CHANGES
-- Updated only the 18 existing Smoker Craft and 15 existing Crestliner records.
-- Removed all 26 unresolved rows previously present in these manufacturers.
-- Replaced them with 104 closed physical/evidence/alias rows.
-- Added numeric used complete-package ranges to all 102 physical/evidence rows.
-- Preserved 2 nonphysical Smoker Craft alias rows as intentionally unpriced.
-- Added compact ideal-match stars to 8 visible model names.
-- Preserved all 170 stable boat IDs and all non-target boat records.
+CUMULATIVE BASE
+The Smoker Craft/Crestliner completion ZIP had not yet appeared on GitHub main when this patch was built. Therefore data/boats.js and tests/qa.mjs include:
+- the completed Smoker Craft work
+- the completed Crestliner work
+- the new completed Alumacraft work
 
-UPLOAD
-The ZIP is intentionally flat. Open it and upload its data, tests, research, CHANGE_MANIFEST.txt and VALIDATION.txt entries directly over the repository root. There is no outer wrapper folder.
+ALUMACRAFT DATA CHANGES
+- Updated only the 17 existing Alumacraft records relative to the previous cumulative patch.
+- Replaced all 10 Alumacraft unresolved rows.
+- Closed 52 Alumacraft generation/evidence rows.
+- Added numeric complete-package ranges to all 51 physical/evidence rows.
+- Left the Magnum CS family rejection intentionally unpriced.
+- Preserved all 170 stable boat IDs.
+- Added compact ideal-match stars to seven visible Alumacraft model names.
+- Separated current X-platform Competitor and Trophy boats from the older same-numbered hulls.
+
+No GitHub repository writes were performed by ChatGPT.

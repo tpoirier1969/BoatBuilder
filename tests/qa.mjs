@@ -108,90 +108,132 @@ assert.match(
   "Current Tyee 1875 factory hull weight is missing"
 );
 
-// Alumacraft app-model audit batch 1.
+// Strict Alumacraft existing-model completion audit.
 const alumacraft = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Alumacraft");
 assert.equal(alumacraft.length, 17, "Focused Alumacraft app-model scope changed without updating the audit");
-assert.ok(
-  alumacraft.every(entry => Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1),
-  "One or more Alumacraft app record lacks canonical design-generation metadata"
+assert.equal(
+  alumacraft.reduce((sum, entry) => sum + entry.designGenerations.length, 0),
+  52,
+  "Alumacraft generation/evidence-row count changed without updating the strict audit"
 );
-assert.ok(
-  alumacraft.every(entry => Array.isArray(entry.valueEras) && entry.valueEras.length === 0),
-  "An Alumacraft record retained unsafe top-level value eras"
-);
-
-const alumacraftUnresolved = alumacraft.flatMap(entry =>
-  entry.designGenerations
-    .filter(generation => generation.status === "unresolved")
-    .map(generation => ({ entry, generation }))
-);
-assert.equal(alumacraftUnresolved.length, 10, "Alumacraft exact-plus-unresolved record count changed");
-for (const { entry, generation } of alumacraftUnresolved) {
-  assert.equal(Object.keys(generation.specs || {}).length, 0, `${entry.id} unresolved generation inherited specifications`);
-  assert.equal((generation.eras || []).length, 0, `${entry.id} unresolved generation inherited pricing`);
-  assert.ok(entry.designGenerations.some(candidate => candidate.status !== "unresolved"), `${entry.id} lacks its exact factory snapshot`);
+assert.ok(alumacraft.every(entry => Array.isArray(entry.valueEras) && entry.valueEras.length === 0), "An Alumacraft record retained unsafe top-level value eras");
+const alumacraftIdealIds = new Set([
+  "boat:Alumacraft | Competitor 165 Sport",
+  "boat:Alumacraft | Competitor 175 Sport / FSX",
+  "boat:Alumacraft | Dominator 165 Sport",
+  "boat:Alumacraft | Dominator 175 Sport",
+  "boat:Alumacraft | Navigator Sport 165",
+  "boat:Alumacraft | Navigator Sport 175",
+  "boat:Alumacraft | Trophy 175 Sport"
+]);
+for (const entry of alumacraft) {
+  assert.ok(Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1, `${entry.id} lacks canonical generations`);
+  assert.equal(Boolean(entry.idealMatch), alumacraftIdealIds.has(entry.id), `${entry.id} ideal-match marker is wrong`);
+  assert.equal(entry.model.startsWith("*"), alumacraftIdealIds.has(entry.id), `${entry.id} compact model star is wrong`);
+  assert.equal(entry.displayName.startsWith("*"), alumacraftIdealIds.has(entry.id), `${entry.id} compact display star is wrong`);
+  for (const generation of entry.designGenerations) {
+    assert.notEqual(generation.status, "unresolved", `${entry.id} still contains an unresolved generation`);
+    if (["alias-only", "family-umbrella-rejection"].includes(generation.status)) continue;
+    assert.ok(
+      Array.isArray(generation.eras) && generation.eras.some(era => Number.isFinite(era.low) && Number.isFinite(era.high)),
+      `${entry.id} ${generation.id} lacks a used complete-package range`
+    );
+    for (const era of generation.eras) {
+      assert.ok(Number.isFinite(era.low) && Number.isFinite(era.high) && era.low <= era.high, `${era.id} has invalid pricing`);
+      assert.ok(
+        Number.isInteger(generation.startYear) && Number.isInteger(generation.endYear)
+        && era.startYear >= generation.startYear && era.endYear <= generation.endYear,
+        `${era.id} falls outside its generation`
+      );
+    }
+  }
 }
 
-// Alumacraft Dominator/Navigator detailed factory audit.
+const alumacraftGenerationIds = alumacraft.flatMap(entry => entry.designGenerations.map(generation => generation.id));
+assert.equal(new Set(alumacraftGenerationIds).size, alumacraftGenerationIds.length, "Alumacraft generation IDs are not unique");
+
 const dom165Audit = item("boat:Alumacraft | Dominator 165 Sport");
-assert.equal(dom165Audit.designGenerations.length, 4, "Dominator 165 factory snapshots are incomplete");
+assert.equal(dom165Audit.designGenerations.length, 3, "Dominator 165 evidence ranges are incomplete");
 assert.equal(dom165Audit.designGenerations.find(g => g.startYear === 2006)?.specs?.Length?.value, "16'7\"", "2006 Dominator 165 length is wrong");
 assert.equal(dom165Audit.designGenerations.find(g => g.startYear === 2007)?.specs?.["Bottom Thickness"]?.value, "0.100\"", "2007 Dominator 165 plating is wrong");
-assert.equal(dom165Audit.designGenerations.find(g => g.startYear === 2008)?.endYear, 2011, "Dominator 165 2008-2011 span is missing");
+assert.equal(dom165Audit.designGenerations.find(g => g.startYear === 2008)?.endYear, 2013, "Dominator 165 roster continuity through 2013 is missing");
 
 const dom175Audit = item("boat:Alumacraft | Dominator 175 Sport");
-assert.equal(dom175Audit.designGenerations.length, 5, "Dominator 175 factory snapshots are incomplete");
+assert.equal(dom175Audit.designGenerations.length, 5, "Dominator 175 evidence ranges are incomplete");
 assert.equal(dom175Audit.designGenerations.find(g => g.startYear === 2006)?.specs?.Length?.value, "17'5\"", "2006 Dominator 175 length is wrong");
 assert.equal(dom175Audit.designGenerations.find(g => g.startYear === 2007)?.specs?.["Max / Bow Depth"]?.value, "44\"", "2007 Dominator 175 depth is wrong");
 assert.equal(dom175Audit.designGenerations.find(g => g.startYear === 2011)?.specs?.Persons?.value, "6", "2011 Dominator 175 capacity change is missing");
+assert.equal(dom175Audit.designGenerations.find(g => g.startYear === 2012)?.endYear, 2015, "Dominator 175 production through 2015 is missing");
 
 const dom185Audit = item("boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary)");
-assert.equal(dom185Audit.designGenerations.length, 1, "Dominator 185 should be limited to its 2011 factory model");
+assert.equal(dom185Audit.designGenerations.length, 2, "Dominator 185 production run is incomplete");
 assert.equal(dom185Audit.designGenerations[0].startYear, 2011, "Dominator 185 does not start in 2011");
-assert.doesNotMatch(dom185Audit.subtitle, /2000s/i, "Dominator 185 retained the false 2000s identity");
+assert.equal(dom185Audit.designGenerations.at(-1).endYear, 2015, "Dominator 185 production through 2015 is missing");
+
+const nav165Audit = item("boat:Alumacraft | Navigator Sport 165");
+assert.equal(nav165Audit.designGenerations[0].startYear, 2005, "Navigator 165 early production is missing");
+assert.equal(nav165Audit.designGenerations.at(-1).endYear, 2013, "Navigator 165 production through 2013 is missing");
+assert.equal(nav165Audit.designGenerations.find(g => g.startYear === 2010)?.specs?.Beam?.value, "91\"", "Navigator 165 exact beam is wrong");
 
 const nav175Audit = item("boat:Alumacraft | Navigator Sport 175");
-assert.equal(nav175Audit.designGenerations.length, 5, "Navigator 175 factory snapshots are incomplete");
+assert.equal(nav175Audit.designGenerations.length, 6, "Navigator 175 evidence ranges are incomplete");
+assert.equal(nav175Audit.designGenerations[0].startYear, 2004, "Navigator 175 early production is missing");
 assert.equal(nav175Audit.designGenerations.find(g => g.startYear === 2006)?.specs?.Beam?.value, "93\"", "2006 Navigator beam is wrong");
 assert.equal(nav175Audit.designGenerations.find(g => g.startYear === 2007)?.specs?.Beam?.value, "95\"", "2007 Navigator redesign beam is wrong");
 assert.equal(nav175Audit.designGenerations.find(g => g.startYear === 2011)?.specs?.["Capacity Weight"]?.value, "1,370 lb", "2011 Navigator capacity change is missing");
-assert.ok(nav175Audit.designGenerations.every(g => g.startYear !== 2012), "Navigator incorrectly inherited 2012 Competitor specifications");
+assert.equal(nav175Audit.designGenerations.at(-1).endYear, 2013, "Navigator 175 production through 2013 is missing");
+
+const competitor165 = item("boat:Alumacraft | Competitor 165 Sport");
+assert.equal(competitor165.designGenerations[0].startYear, 2012, "Competitor 165 start year is wrong");
+assert.equal(competitor165.designGenerations.at(-1).endYear, 2019, "Competitor 165 end year is wrong");
+assert.equal(competitor165.designGenerations.find(g => g.startYear === 2016)?.specs?.Beam?.value, "87\"", "Competitor 165 exact 2016 beam is missing");
 
 const competitor175 = item("boat:Alumacraft | Competitor 175 Sport / FSX");
-assert.equal(competitor175.designGenerations.length, 2, "Competitor 175 exact and unresolved generations are not separated");
-assert.match(
-  competitor175.details.find(d => d.label === "Notes")?.value || "",
-  /Do not substitute the current Competitor 175X/i,
-  "Older Competitor 175 is not protected from current X-generation substitution"
-);
-assert.equal(
-  competitor175.designGenerations.find(g => g.status !== "unresolved")?.specs?.Length?.value,
-  "17'8\"",
-  "Competitor 175 exact 2016 length is missing"
-);
+assert.equal(competitor175.designGenerations.find(g => g.startYear === 2016)?.specs?.Length?.value, "17'8\"", "Competitor 175 exact 2016 length is missing");
+assert.equal(competitor175.designGenerations.find(g => g.startYear === 2017)?.endYear, 2024, "Competitor 175 pre-X continuity is incomplete");
+assert.equal(competitor175.designGenerations.find(g => g.startYear === 2025)?.specs?.Length?.value, "19'2\"", "Competitor 175 X redesign is missing");
+assert.match(competitor175.details.find(d => d.label === "Notes")?.value || "", /materially larger/i, "Competitor 175 X-platform warning is missing");
+
+const competitor185 = item("boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary)");
+assert.equal(competitor185.designGenerations.find(g => g.startYear === 2015)?.specs?.["Dry Hull Weight"]?.value, "1,500 lb", "Competitor 185 pre-X weight is missing");
+assert.equal(competitor185.designGenerations.find(g => g.startYear === 2025)?.specs?.Length?.value, "20'2\"", "Competitor 185 X redesign is missing");
+
+const edge175 = item("boat:Alumacraft | Edge Sport 175");
+assert.equal(edge175.designGenerations[0].startYear, 2016, "Edge 175 start year is wrong");
+assert.equal(edge175.designGenerations[0].endYear, 2021, "Edge 175 production through 2021 is missing");
+assert.equal(edge175.designGenerations[0].specs?.["Dry Hull Weight"]?.value, "1,488 lb", "Edge 175 dry weight is wrong");
+
+const tournament185 = item("boat:Alumacraft | Tournament Pro 185");
+assert.equal(JSON.stringify(tournament185.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[2002, 2006], [2007, 2010], [2015, 2021]]), "Tournament Pro 185 production identities are not separated");
+assert.equal(tournament185.designGenerations.find(g => g.startYear === 2015)?.specs?.Beam?.value, "97\"", "Modern Tournament Pro 185 exact beam is missing");
+
+const trophy170 = item("boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam)");
+assert.equal(trophy170.designGenerations.find(g => g.startYear === 1988)?.status, "model-identity-source-exhausted", "Conflicting early Trophy 170 evidence is not withheld");
+assert.equal(trophy170.designGenerations.find(g => g.startYear === 1995)?.specs?.Beam?.value, "81\"", "1995 Trophy 170 exact beam is missing");
+assert.equal(trophy170.designGenerations.find(g => g.startYear === 1996)?.specs?.["Dry Hull Weight"]?.value, "1,084 lb", "1996 Trophy 170 roster variation is missing");
 
 const trophy175 = item("boat:Alumacraft | Trophy 175 Sport");
-assert.equal(trophy175.designGenerations.length, 2, "Trophy 175 exact and unresolved generations are not separated");
-assert.match(
-  trophy175.details.find(d => d.label === "Notes")?.value || "",
-  /Do not substitute the 2025-present Trophy 175X/i,
-  "Older Trophy 175 is not protected from current X-generation substitution"
-);
+assert.equal(trophy175.designGenerations.find(g => g.startYear === 2007)?.endYear, 2024, "Trophy 175 pre-X generation is incomplete");
+assert.equal(trophy175.designGenerations.find(g => g.startYear === 2007)?.specs?.Beam?.value, "94\"", "Trophy 175 pre-X beam is missing");
+assert.equal(trophy175.designGenerations.find(g => g.startYear === 2025)?.specs?.Length?.value, "19'2\"", "Trophy 175X redesign is missing");
 
 const trophy185 = item("boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary)");
-const trophy185Exact = trophy185.designGenerations.find(g => g.status !== "unresolved");
-assert.equal(trophy185Exact?.specs?.Length?.value, "18'8\"", "Trophy 185 exact length is wrong");
-assert.equal(trophy185Exact?.specs?.Beam?.value, "98\"", "Trophy 185 exact beam is wrong");
-assert.equal(trophy185Exact?.specs?.["Dry Hull Weight"]?.value, "1,780 lb", "Trophy 185 exact hull weight is wrong");
-assert.equal(trophy185Exact?.specs?.["Max HP"]?.value, "175", "Trophy 185 exact horsepower is wrong");
-assert.equal(trophy185Exact?.specs?.["Fuel Capacity"]?.value, "34 gal", "Trophy 185 exact fuel capacity is wrong");
+assert.equal(trophy185.designGenerations.find(g => g.startYear === 2007)?.specs?.Length?.value, "18'8\"", "Trophy 185 pre-X length is wrong");
+assert.equal(trophy185.designGenerations.find(g => g.startYear === 2007)?.specs?.Beam?.value, "98\"", "Trophy 185 pre-X beam is wrong");
+assert.equal(trophy185.designGenerations.find(g => g.startYear === 2007)?.specs?.["Dry Hull Weight"]?.value, "1,780 lb", "Trophy 185 pre-X hull weight is wrong");
+assert.equal(trophy185.designGenerations.find(g => g.startYear === 2025)?.specs?.Length?.value, "20'2\"", "Trophy 185X redesign is missing");
+
+const voyageur175 = item("boat:Alumacraft | Voyageur 175 Sport");
+assert.equal(voyageur175.designGenerations.length, 1, "Voyageur 175 should close as one documented generation");
+assert.equal(voyageur175.designGenerations[0].startYear, 2014, "Voyageur 175 start year is wrong");
+assert.equal(voyageur175.designGenerations[0].endYear, 2026, "Voyageur 175 current continuity is incomplete");
+assert.equal(voyageur175.designGenerations[0].specs?.["Dry Hull Weight"]?.value, "1,070 lb", "Voyageur 175 dry weight is wrong");
 
 const magnumCs = item("boat:Alumacraft | Magnum CS (side-console series; no walk-through windshield)");
 assert.equal(magnumCs.lowPrice, null, "Magnum CS rejection row retained a blended low price");
 assert.equal(magnumCs.highPrice, null, "Magnum CS rejection row retained a blended high price");
 assert.equal(magnumCs.designGenerations.length, 1, "Magnum CS rejection row has unexpected generations");
 assert.equal(magnumCs.designGenerations[0].status, "family-umbrella-rejection", "Magnum CS is not explicitly a family-level rejection row");
-assert.match(magnumCs.generationWarning || "", /not one exact boat model/i, "Magnum CS rejection warning is missing");
 
 // Strict Crestliner and Smoker Craft existing-model completion audit.
 function assertStrictMaker(maker, expectedRecords, expectedGenerations, idealIds) {

@@ -9,18 +9,18 @@ Date: 2026-07-30
 | Sylvan | 16 | 0 | all | Completed under strict workflow |
 | Starcraft | 14 | 0 | all | Completed under strict workflow |
 | Starweld | 3 | 0 | all | Completed under strict workflow |
-| Smoker Craft | 18 | 0 | 68 of 68 | Completed under strict workflow; 2 aliases intentionally unpriced |
-| Crestliner | 15 | 0 | 34 of 34 | Completed under strict workflow |
+| Smoker Craft | 18 | 0 | 68 of 68 | Completed; 2 aliases intentionally unpriced |
+| Crestliner | 15 | 0 | 34 of 34 | Completed |
+| Alumacraft | 17 | 0 | 51 of 51 | Completed; 1 family rejection intentionally unpriced |
 
 “Completed” means the existing app records have no unresolved generation rows, all known production intervals were investigated, source-exhausted intervals are explicitly labeled, and every physical/evidence row has a used-package screening range.
 
 ## Remaining literal unresolved rows after this patch
 
-Total: **69**
+Total: **59**
 
 | Manufacturer | Unresolved rows |
 |---|---:|
-| Alumacraft | 10 |
 | Princecraft | 9 |
 | Tracker | 8 |
 | MirroCraft | 7 |
@@ -39,12 +39,12 @@ Total: **69**
 | Northwood | 1 |
 | Spectrum / Blue Fin | 1 |
 
-Lund has no row literally marked `unresolved`, but long-running Lund records still require a strict review for hidden source gaps and complete generation-level market values.
+Lund has no row literally marked `unresolved`, but its long-running records still require the strict hidden-gap review for unsupported production spans and incomplete generation-level values.
 
 ## Next repair order
 
-1. Alumacraft
-2. Lund strict review
-3. Princecraft
-4. Tracker
+1. Lund strict hidden-gap review
+2. Princecraft
+3. Tracker
+4. MirroCraft
 5. Remaining manufacturers in descending unresolved count
