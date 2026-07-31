@@ -742,6 +742,25 @@ assert.equal(JSON.stringify(item("boat:Sea Nymph | FM161 Fishing Machine").desig
 assert.equal(JSON.stringify(item("boat:Sea Nymph | SS175 Fish & Ski").designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[1982,1991],[1992,1992],[1993,1994]]), "SS175 production chronology changed");
 assert.equal(item("boat:Sea Nymph | SS195 Fish & Ski").designGenerations.some(g => /sterndrive/i.test(g.label)), true, "SS195 sterndrive configuration is not separated");
 assert.equal(item("boat:Sea Nymph | GLS195 Great Lakes Special").designGenerations.some(g => /sterndrive/i.test(g.label)), true, "GLS195 sterndrive configuration is not separated");
+
+// Strict Northwood existing-model generation completion.
+const northwoodBoats = allBoats.filter(entry => entry.manufacturer === "Northwood");
+assert.equal(northwoodBoats.length, 1, "Northwood focused record count changed");
+const northwood170 = item("boat:Northwood | 170 Pro Tourney");
+assert.equal(northwood170.idealMatch, false, "Northwood 170 was incorrectly marked as an ideal match");
+assert.equal(northwood170.model.startsWith("*"), false, "Northwood 170 received a compact ideal-match star");
+assert.equal(JSON.stringify(northwood170.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[1994,1994],[1995,1997],[1998,1998]]), "Northwood evidence chronology changed");
+assert.equal(northwood170.valueEras.length, 0, "Northwood retained unsafe top-level value eras");
+for (const generation of northwood170.designGenerations) {
+  assert.notEqual(generation.status, "unresolved", `${generation.id} remains unresolved`);
+  assert.ok(generation.eras.length >= 1, `${generation.id} lacks package pricing`);
+  for (const valueEra of generation.eras) {
+    assert.ok(Number.isFinite(valueEra.low) && Number.isFinite(valueEra.high) && valueEra.low <= valueEra.high, `${valueEra.id} has invalid pricing`);
+    assert.ok(valueEra.startYear >= generation.startYear && valueEra.endYear <= generation.endYear, `${valueEra.id} crosses its Northwood evidence row`);
+  }
+}
+assert.match(northwood170.designGenerations[1].specs.Layout.value, /dual console \/ windshield/i, "Northwood DC/windshield configuration is missing");
+assert.match(northwood170.details.find(detail => detail.label === "Notes").value, /171 SC and 172 DC/, "Conflicting Northwood fitment nomenclature is not disclosed");
 assert.doesNotMatch(appSource, /const DD=|,DD=/, "Model-generation data remains embedded in the controller");
 assert.match(appSource, /i\.designGenerations/, "Controller does not read canonical design generations");
 assert.match(appSource, /i\.valueEras/, "Controller does not read canonical value eras");

@@ -1,19 +1,26 @@
-BoatBuilder Sea Nymph generation completion — 2026-07-31
+BoatBuilder Sea Nymph + Northwood generation completion — 2026-07-31
 
 Replace these repository files:
 - data/boats.js
 - tests/qa.mjs
 
-Add this research file:
+Add these research files:
 - research/sea-nymph-generation-completion-2026-07-31.md
+- research/northwood-generation-completion-2026-07-31.md
 
-Scope:
-- 5 existing Sea Nymph records only
-- 24 closed physical/evidence/configuration rows
-- 0 Sea Nymph unresolved rows
-- every Sea Nymph row has generation-contained used-package pricing
-- outboard and sterndrive GLS195/SS195 choices separated
-- 1 compact ideal-match star: GLS195 Great Lakes Special
-- all 170 stable boat IDs preserved
+New Northwood scope:
+- 1 existing Northwood record only
+- 3 closed physical/evidence rows
+- 0 Northwood unresolved rows
+- every Northwood row has generation-contained used-package pricing
+- SC and DC/windshield configurations retained inside one stable app record
+- conflicting 170 SC/DC versus 171 SC/172 DC fitment nomenclature disclosed
+- 0 compact ideal-match stars
 
-The ZIP is cumulative with the uploaded MirroCraft baseline. No application controller or non-MirroCraft/non-Sea-Nymph boat data was changed.
+Cumulative scope:
+- Includes the completed Sea Nymph batch
+- All 170 stable boat IDs preserved
+- No application controller changes
+- App-wide literal unresolved rows reduced to 29
+
+The ZIP is flat. Upload the visible files and folders directly over the repository root.

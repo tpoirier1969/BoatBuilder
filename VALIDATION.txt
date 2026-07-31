@@ -1,25 +1,30 @@
-BoatBuilder Sea Nymph completion validation
+BoatBuilder Sea Nymph + Northwood completion validation
 Date: 2026-07-31
 
 PASS  node --check data/boats.js
 PASS  node --check tests/qa.mjs
 PASS  node tests/qa.mjs
+PASS  git diff --check
 
 QA totals:
 - 351 catalog items
 - 170 boats
 - 181 equipment records
 
+Northwood assertions:
+- 1 stable record
+- 3 closed physical/evidence rows: 1994, 1995–1997, 1998
+- 0 unresolved generation rows
+- every row has at least one generation-contained value era
+- 1995–1997 SC and DC/windshield configurations remain visible
+- conflicting fitment nomenclature remains disclosed
+- no ideal-match star
+
 Sea Nymph assertions:
 - 5 stable records
 - 24 closed physical/evidence/configuration rows
 - 0 unresolved generation rows
 - every row has at least one value era
-- every value era remains within its row years
-- FM161 chronology remains 1981–1997
-- SS175 ends in 1994 rather than inheriting SS165 data
-- SS195 ends in 1993
-- GLS175 and GLS195 continue through 1997
 - sterndrive configurations remain separate
 - exact one-record ideal-match star set preserved
 

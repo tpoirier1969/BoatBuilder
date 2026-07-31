@@ -51957,11 +51957,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Northwood",
     "model": "170 Pro Tourney",
     "displayName": "Northwood | 170 Pro Tourney",
-    "subtitle": "1994\u20131997 verified; configuration fitment basis 1995\u20131997",
+    "subtitle": "1994\u20131998 seller evidence; SC/DC configuration fitment verified 1995\u20131997",
     "badge": "Secondary",
     "lowPrice": 2500,
     "highPrice": 5500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Used complete-package screening ranges based on exact-model listings and auction evidence. Choose the listing year/configuration; condition, motor and trailer dominate value.",
     "sourceUrl": "https://yachtsboatslist.com/other-makes/66414-northwood-170-pro-tourney-aluminum-boat-with-load-rite-trailer.html",
     "image": {
       "url": "https://yachtsboatslist.com/ybphotos/big/northwood-170-pro-tourney-aluminum-boat-with-load-rite-trailer-1.jpg",
@@ -51972,7 +51972,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1994\u20131997 verified; configuration fitment basis 1995\u20131997"
+        "value": "1994\u20131998 seller evidence; SC/DC configuration fitment verified 1995\u20131997"
       },
       {
         "label": "Recommendation",
@@ -51984,7 +51984,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Layout",
-        "value": "Available configurations: 171 SC single side console; 172 DC dual console / windshield"
+        "value": "Available configurations: SC single side console and DC dual console / windshield. Surviving fitment sources conflict between 170 SC/DC and 171 SC / 172 DC naming."
       },
       {
         "label": "Length",
@@ -52064,7 +52064,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Real Northwood factory model family. Sellers commonly use \u201c170 Pro Tourney,\u201d while surviving cover-fitment records distinguish 171 SC and 172 DC configurations. Keep one app row and list both configurations rather than duplicating the hull family."
+        "value": "Real Northwood factory model family. Sellers commonly use \u201c170 Pro Tourney.\u201d ShoreTex fitment records call the two versions 170 SC and 170 DC for 1995\u20131997; Carver fitment records instead use 171 SC and 172 DC. Keep one app row, disclose both naming systems and do not fabricate separate hull specifications."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -52080,23 +52080,119 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "No exact cited model-year snapshot could be established automatically; specifications and pricing are withheld pending research."
+        "value": "Focused existing-model completion finished. The 1995\u20131997 SC/DC configuration span is supported by exact fitment records; 1994 and 1998 remain source-exhausted seller-evidence rows and do not inherit adjacent-year dimensions."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Northwood | 170 Pro Tourney:gen:unresolved",
-        "label": "Production years \u2014 specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 1999,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1994\u20131997 verified; configuration fitment basis 1995\u20131997",
+        "id": "boat:Northwood | 170 Pro Tourney:gen:1994-seller-evidence",
+        "label": "1994 seller-labeled 170 Pro Tourney \u2014 source-exhausted",
+        "startYear": 1994,
+        "endYear": 1994,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "An exact 1994 seller listing verifies the Northwood 170 Pro Tourney identity and aluminum fishing layout. No surviving year-specific factory table was found, so dimensions, capacity and structural specifications remain unknown rather than being copied from the later SC/DC fitment span.",
         "sourceUrl": "https://yachtsboatslist.com/other-makes/66414-northwood-170-pro-tourney-aluminum-boat-with-load-rite-trailer.html",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Length": {
+            "value": "Seller-labeled 17-foot class; exact factory LOA not recovered",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "Aluminum V-hull",
+            "confidence": "listing-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Northwood | 170 Pro Tourney:value:1994-seller-evidence",
+            "label": "1994 complete used package",
+            "startYear": 1994,
+            "endYear": 1994,
+            "low": 2500,
+            "high": 4500,
+            "basis": "Screening range for a complete running aluminum fishing package, calibrated from surviving exact-family listings and auction results; motor, floor and trailer condition control."
+          }
+        ]
+      },
+      {
+        "id": "boat:Northwood | 170 Pro Tourney:gen:1995-1997-sc-dc",
+        "label": "1995\u20131997 170 Pro Tourney \u2014 SC or DC / windshield",
+        "startYear": 1995,
+        "endYear": 1997,
+        "status": "closed-partial-specification",
+        "specificationBasis": "Exact ShoreTex custom-cover records identify both 170 Pro Tourney SC and 170 Pro Tourney DC for 1995\u20131997; Carver bimini records call the configurations 171 SC and 172 DC. Surviving specification evidence documents the SC at 16 ft 9 in and 83 in beam. The DC/windshield option is verified, but its exact factory dimensions were not recovered and are not assumed identical.",
+        "sourceUrl": "https://www.boatcovers.com/custom/northwood-boat-covers",
+        "specs": {
+          "Length": {
+            "value": "16'9\" documented for SC; DC exact factory LOA not recovered",
+            "confidence": "configuration-specific-partial"
+          },
+          "Beam": {
+            "value": "83\" documented for SC; DC exact factory beam not recovered",
+            "confidence": "configuration-specific-partial"
+          },
+          "Layout": {
+            "value": "SC side console or DC dual console / windshield",
+            "confidence": "fitment-verified"
+          },
+          "Construction": {
+            "value": "Aluminum V-hull; seam method not verified",
+            "confidence": "listing-verified"
+          },
+          "Max HP": {
+            "value": "Not recovered; verify capacity plate (surviving packages use 50\u2013120 hp)",
+            "confidence": "unknown"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Northwood | 170 Pro Tourney:value:1995-1997-sc-dc",
+            "label": "1995\u20131997 complete used package",
+            "startYear": 1995,
+            "endYear": 1997,
+            "low": 2800,
+            "high": 5500,
+            "basis": "Exact-model auction and listing evidence ranges from roughly low-$2,000 auction outcomes to $5,500 asking packages. This screening band assumes a running motor and usable trailer; soft floors, leaking trim systems and neglected trailers move the boat to manual evaluation."
+          }
+        ]
+      },
+      {
+        "id": "boat:Northwood | 170 Pro Tourney:gen:1998-seller-evidence",
+        "label": "1998 seller-labeled 170 Pro Tourney \u2014 source-exhausted",
+        "startYear": 1998,
+        "endYear": 1998,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "A surviving 1998 owner listing identifies a Northwoods 170 Pro Tourney with 90 hp Mariner and reports an owner-measured 17 ft 8 in overall length. Cover-fitment records end the formal 170 SC/DC span in 1997 and introduce the 175 Supreme DC for 1998, so this row preserves the seller evidence without treating the measurement as a verified factory redesign.",
+        "sourceUrl": "https://www.kelolandautomall.com/inventory/details/used/NORTHWOODS-FISHING-BOAT/170-PRO-TOURNEY/1998/sioux-falls/South-Dakota/3465672",
+        "specs": {
+          "Length": {
+            "value": "17'8\" owner-measured; factory LOA not recovered",
+            "confidence": "seller-reported"
+          },
+          "Layout": {
+            "value": "Fishing layout with Bimini; exact SC/DC factory designation not recovered",
+            "confidence": "seller-reported"
+          },
+          "Construction": {
+            "value": "Aluminum V-hull",
+            "confidence": "listing-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Northwood | 170 Pro Tourney:value:1998-seller-evidence",
+            "label": "1998 complete used package",
+            "startYear": 1998,
+            "endYear": 1998,
+            "low": 3000,
+            "high": 6000,
+            "basis": "Screening range for a complete running late-1990s Northwood fishing package, calibrated from exact-family asking and auction evidence. Verify the capacity plate and actual model identity before relying on this row."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and configuration. The verified SC/DC fitment span is 1995\u20131997; the 1994 and 1998 rows are source-exhausted seller evidence and do not inherit adjacent-year dimensions.",
+    "idealMatch": false
   }
 ];
