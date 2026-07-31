@@ -531,6 +531,73 @@ assert.equal(sw1700Strict.designGenerations.length, 1, "Starweld 1700 should clo
 assert.equal(sw1700Strict.designGenerations[0].endYear, 2016, "Starweld 1700 production end is incomplete");
 assert.equal(sw1700Strict.designGenerations[0].specs?.Beam?.value, '90"', "Starweld 1700 beam is missing");
 
+// Strict Princecraft existing-model completion audit.
+const princecraftRows = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Princecraft");
+assert.equal(princecraftRows.length, 9, "Focused Princecraft app-model scope changed without updating the audit");
+assert.equal(
+  princecraftRows.reduce((sum, entry) => sum + entry.designGenerations.length, 0),
+  19,
+  "Princecraft generation/evidence-row count changed without updating the strict audit"
+);
+assert.equal(
+  princecraftRows.flatMap(entry => entry.designGenerations.flatMap(generation => generation.eras || [])).length,
+  28,
+  "Princecraft value-era count changed without updating the strict audit"
+);
+const princecraftIdealIds = new Set([
+  "boat:Princecraft | Nanook 168 DLX WS",
+  "boat:Princecraft | Pro 179 WS",
+  "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim)",
+  "boat:Princecraft | Super Pro 176",
+  "boat:Princecraft | Sport 167 / Sport 164",
+  "boat:Princecraft | Xpedition 170 WS"
+]);
+for (const entry of princecraftRows) {
+  assert.ok(Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1, `${entry.id} lacks Princecraft generations`);
+  assert.equal(entry.valueEras.length, 0, `${entry.id} retained unsafe top-level value eras`);
+  assert.equal(Boolean(entry.idealMatch), princecraftIdealIds.has(entry.id), `${entry.id} ideal-match marker is wrong`);
+  assert.equal(entry.model.startsWith("*"), princecraftIdealIds.has(entry.id), `${entry.id} compact model star is wrong`);
+  assert.equal(entry.displayName.startsWith("*"), princecraftIdealIds.has(entry.id), `${entry.id} compact display star is wrong`);
+  for (const generation of entry.designGenerations) {
+    assert.notEqual(generation.status, "unresolved", `${entry.id} still has an unresolved generation`);
+    assert.ok(
+      Array.isArray(generation.eras) && generation.eras.some(era => Number.isFinite(era.low) && Number.isFinite(era.high)),
+      `${generation.id} lacks numeric complete-package pricing`
+    );
+    for (const era of generation.eras) {
+      assert.ok(era.startYear >= generation.startYear && era.endYear <= generation.endYear, `${era.id} falls outside its Princecraft generation`);
+      assert.ok(Number.isFinite(era.low) && Number.isFinite(era.high) && era.low <= era.high, `${era.id} has invalid Princecraft pricing`);
+    }
+  }
+}
+const pcHoliday = item("boat:Princecraft | Holiday 162 WS");
+assert.equal(JSON.stringify(pcHoliday.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[2012,2012],[2013,2016],[2017,2019],[2020,2024]]), "Holiday 162 WS boundaries are incomplete");
+assert.equal(pcHoliday.designGenerations.find(g => g.startYear === 2012)?.specs?.["Max HP"]?.value, "60", "2012 Holiday lower horsepower certification is missing");
+assert.equal(pcHoliday.designGenerations.find(g => g.startYear === 2020)?.specs?.Beam?.value, '85"', "2020 Holiday wider hull is missing");
+assert.equal(pcHoliday.designGenerations.find(g => g.startYear === 2020)?.specs?.["Dry Hull Weight"]?.value, "960 lb", "2020 Holiday weight change is missing");
+const pcNanook = item("boat:Princecraft | Nanook 168 DLX WS");
+assert.equal(pcNanook.designGenerations.find(g => g.startYear === 2017)?.specs?.["Bottom Thickness"]?.value, '.087"', "Nanook 2017 plating revision is missing");
+assert.equal(Math.max(...pcNanook.designGenerations.map(g => g.endYear)), 2023, "Nanook production end is incomplete");
+const pcPlatinum = item("boat:Princecraft | Platinum SE 176");
+assert.equal(Math.max(...pcPlatinum.designGenerations.map(g => g.endYear)), 2019, "Platinum SE 176 production end is incomplete");
+assert.equal(pcPlatinum.designGenerations.find(g => g.startYear === 2018)?.specs?.["Fuel Capacity"]?.value, "37 gal", "Platinum 2018 fuel revision is missing");
+const pcPro179 = item("boat:Princecraft | Pro 179 WS");
+assert.equal(JSON.stringify(pcPro179.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2009,2011]]), "Pro 179 WS short production lineage is wrong");
+const pcSport172 = item("boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim)");
+assert.equal(pcSport172.designGenerations.length, 4, "Sport 172 redesign/certification rows are incomplete");
+assert.equal(pcSport172.designGenerations.find(g => g.startYear === 2010)?.specs?.Beam?.value, '92"', "Early Sport 172 beam is missing");
+assert.equal(pcSport172.designGenerations.find(g => g.startYear === 2012)?.specs?.["Dry Hull Weight"]?.value, "1,255 lb", "2012 Sport 172 hull change is missing");
+assert.equal(pcSport172.designGenerations.find(g => g.startYear === 2017)?.specs?.["Dry Hull Weight"]?.value, "1,377 lb", "2017 Sport 172 weight change is missing");
+assert.equal(pcSport172.designGenerations.find(g => g.startYear === 2023)?.specs?.["Max HP"]?.value, "150", "2023 Sport 172 horsepower certification is missing");
+const pcSport187 = item("boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary)");
+assert.equal(Math.max(...pcSport187.designGenerations.map(g => g.endYear)), 2021, "Sport 187 should end before the Sport 182 replacement");
+const pcSuperPro = item("boat:Princecraft | Super Pro 176");
+assert.equal(JSON.stringify(pcSuperPro.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2011,2015]]), "Super Pro 176 production span is wrong");
+const pcSport164 = item("boat:Princecraft | Sport 167 / Sport 164");
+assert.equal(pcSport164.designGenerations.find(g => g.startYear === 2017)?.endYear, 2021, "Sport 164 continuation through 2021 is missing");
+const pcXpedition = item("boat:Princecraft | Xpedition 170 WS");
+assert.equal(JSON.stringify(pcXpedition.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2014,2016]]), "Xpedition 170 WS exact production span is wrong");
+
 // All-manufacturer generation-safety audit.
 const allBoats = catalog.items.filter(entry => entry.categoryId === "boats");
 assert.ok(

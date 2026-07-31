@@ -1,4 +1,4 @@
-BoatBuilder Lund strict hidden-gap completion validation
+BoatBuilder Princecraft strict completion validation
 Date: 2026-07-31
 
 Syntax
@@ -8,24 +8,34 @@ Syntax
 Production-compatible QA
 - tests/qa.mjs: PASS
 - Output: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
-- The exact replacement data/boats.js and tests/qa.mjs were exercised with the current app.js and repository-compatible unchanged-file fixtures for index.html, styles.css, data/equipment.js and data/catalog.js.
+- The exact replacement data/boats.js and tests/qa.mjs were exercised with the current pricing-selection app.js and repository-compatible unchanged-file fixtures for index.html, styles.css, data/equipment.js and data/catalog.js.
 
 Data integrity
 - Boat records before/after: 170 / 170
 - Stable boat ID set unchanged: PASS
-- Changed records: exactly 28 Lund records
-- Non-Lund records changed: 0
-- Lund records: 28
-- Lund generation/evidence rows: 55
-- Lund generation-contained value eras: 83
-- Lund unresolved rows: 0
-- Lund physical/evidence rows with numeric package pricing: 55 of 55
-- Global generation IDs: 411, all unique
-- Generation price eras outside parent years: 0
-- Compact Lund ideal-match stars: exactly 8
-- App-wide remaining literal unresolved rows: 59
+- Changed records: exactly 9 Princecraft records
+- Non-Princecraft records changed: 0
+- Princecraft records: 9
+- Princecraft physical/evidence rows: 19
+- Princecraft generation-contained price eras: 28
+- Princecraft unresolved rows: 0
+- Princecraft physical/evidence rows with numeric package pricing: 19 of 19
+- Global generation IDs: 412, all unique
+- Princecraft price eras outside parent rows: 0
+- Compact Princecraft ideal-match stars: exactly 6
+- App-wide remaining literal unresolved rows: 50
 
-Critical factual regression
-- Current Tyee 1875 standard boat weight: 1,760 lb
-- Current Tyee 1875 maximum weight capacity: 1,950 lb
-- Current Tyee is one 2021-2026 physical generation with two value eras, not a false 2024 redesign.
+Critical regressions checked
+- Holiday 162 WS: 2012 60-hp row remains separate from 2013-2016 75-hp row.
+- Holiday 162 WS: 2020 wider/heavier hull is 85 inches and 960 lb.
+- Holiday 162 WS standard record stops at 2024 and does not inherit the 2025-2026 MAX package.
+- Platinum SE 176 continues through 2019 but does not inherit the 2020 Platinum SE 186.
+- Sport 172 separates 2010-2011, 2012-2016, 2017-2022 and 2023 certification rows.
+- Sport 187 stops at 2021 before Sport 182/185/188 successors.
+- Sport 164 continuation through 2021 is retained.
+- Xpedition 170 WS remains limited to the exact 2014-2016 walk-through model.
+
+Interface compatibility
+- No app.js changes are included.
+- Each price era remains inside one physical/evidence row, so the current combined Year / hull selector cannot cross a hull boundary.
+- The existing package-condition pricing flow consumes all 28 new Princecraft eras without top-level fallback pricing.

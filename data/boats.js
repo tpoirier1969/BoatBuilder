@@ -23603,12 +23603,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "Holiday 162 WS",
     "displayName": "Princecraft | Holiday 162 WS",
-    "subtitle": "2016 exact cited specification; other advertised years unresolved",
+    "subtitle": "2012–2024 standard Holiday DLX/162 WS; four documented specification rows",
     "badge": "Secondary",
     "lowPrice": 4500,
-    "highPrice": 9000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
+    "highPrice": 22000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
+    "sourceUrl": "https://2024.princecraft.com/us/en/products/Fishing-Boats/2024/Holiday-Series/Holiday-162-WS.aspx",
     "image": {
       "url": "https://2016.princecraft.com/upload/Attach/2016Sport172-DessTech.gif",
       "source": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2016/Sport-Series/Sport-172.aspx",
@@ -23618,7 +23618,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 exact cited specification; other advertised years unresolved"
+        "value": "2012–2024 standard Holiday DLX/162 WS; four documented specification rows"
       },
       {
         "label": "Recommendation",
@@ -23634,43 +23634,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -23678,27 +23678,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -23710,7 +23710,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Canadian-market model that may be advertised with abbreviated WS/DLX naming. Verify year and exact capacity plate."
+        "value": "The 2012 boat is limited to 60 hp. The rating rises to 75 hp for 2013. Bottom plating and fuel change for 2017, and the hull becomes 85 inches wide and 960 lb for 2020. The standard 75-hp model ends after 2024; 2025–2026 listings are the distinct 60-hp MAX package."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -23726,133 +23726,357 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Holiday 162 WS:gen:2016",
-        "label": "2016 cited specification snapshot",
-        "startYear": 2016,
-        "endYear": 2016,
-        "status": "cited-snapshot",
-        "specificationBasis": "2016 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
+        "id": "boat:Princecraft | Holiday 162 WS:gen:2012",
+        "label": "2012 Holiday DLX WS, 60-hp certification",
+        "startYear": 2012,
+        "endYear": 2012,
+        "status": "factory-documented",
+        "specificationBasis": "2012 factory catalog table; same 16-foot-2-inch core dimensions but lower horsepower certification than 2013 onward.",
+        "sourceUrl": "https://www.princecraft.com/openfile.aspx?file=Princecraft_Boats_2012_Catalogue.pdf",
         "specs": {
           "Length": {
-            "value": "About 16'2\"",
-            "confidence": "catalog-representative"
+            "value": "16'2\"",
+            "confidence": "factory-exact"
           },
           "Beam": {
-            "value": "About 84\"",
-            "confidence": "catalog-representative"
+            "value": "84\"",
+            "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "69\"",
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "About 850 lb",
-            "confidence": "catalog-representative"
+            "value": "834 lb",
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "30\"",
+            "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "10°",
+            "confidence": "factory-exact"
           },
           "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "20\"",
+            "confidence": "factory-exact"
           },
           "Max HP": {
-            "value": "90",
-            "confidence": "cited-source-exact"
+            "value": "60",
+            "confidence": "factory-exact"
           },
           "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "4 Canada / 5 USA",
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,166 lb",
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "20 gal",
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": ".090\"",
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": ".072\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted marine-grade aluminum deep-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Holiday 162 WS:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Princecraft | Holiday 162 WS:value:2012",
+            "label": "2012",
+            "startYear": 2012,
+            "endYear": 2012,
             "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Princecraft | Holiday 162 WS:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6000,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "high": 7000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Princecraft | Holiday 162 WS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
+        "id": "boat:Princecraft | Holiday 162 WS:gen:2013-2016",
+        "label": "2013–2016 Holiday DLX WS, 75-hp certification",
+        "startYear": 2013,
+        "endYear": 2016,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual factory pages preserve the 84-inch, 834-lb hull while documenting the 75-hp rating and 0.090-inch bottom.",
+        "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2013/DLX-Series/Holiday-DLX-WS.aspx",
+        "specs": {
+          "Length": {
+            "value": "16'2\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "84\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "69\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "834 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "30\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "10°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "4 Canada / 5 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,201 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "20 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".090\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Holiday 162 WS:value:2013-2014",
+            "label": "2013–2014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 5000,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Holiday 162 WS:value:2015-2016",
+            "label": "2015–2016",
+            "startYear": 2015,
+            "endYear": 2016,
+            "low": 6000,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Princecraft | Holiday 162 WS:gen:2017-2019",
+        "label": "2017–2019 Holiday 162 DLX WS plating/fuel revision",
+        "startYear": 2017,
         "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s–2010s; exact year varies",
-        "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
-        "specs": {},
-        "eras": []
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Factory pages retain the 84-inch, 834-lb hull but change bottom plating to 0.087 inch and fuel to 19 gallons.",
+        "sourceUrl": "https://2017.princecraft.com/us/en/products/Fishing-Boats/2017/DLX-Series/Holiday-DLX-WS.aspx",
+        "specs": {
+          "Length": {
+            "value": "16'2\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "84\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "69\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "834 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "30\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "10°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "4 Canada / 5 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,201 lb Canada / 1,169 lb USA",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "19 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".087\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Holiday 162 WS:value:2017-2019",
+            "label": "2017–2019",
+            "startYear": 2017,
+            "endYear": 2019,
+            "low": 7000,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Princecraft | Holiday 162 WS:gen:2020-2024",
+        "label": "2020–2024 wider/heavier standard Holiday 162 WS",
+        "startYear": 2020,
+        "endYear": 2024,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "2020–2024 annual factory material documents the 85-inch, 960-lb standard WS hull with 75-hp certification. The later MAX package is not folded into this row.",
+        "sourceUrl": "https://2024.princecraft.com/us/en/products/Fishing-Boats/2024/Holiday-Series/Holiday-162-WS.aspx",
+        "specs": {
+          "Length": {
+            "value": "16'2\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "69\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "960 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "30\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "10°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "4 Canada / 5 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,201 lb Canada / 1,169 lb USA",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "19 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".087\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 reverse-chine aluminum; aluminum-clad transom and twin-plated bow",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Holiday 162 WS:value:2020-2022",
+            "label": "2020–2022",
+            "startYear": 2020,
+            "endYear": 2022,
+            "low": 10000,
+            "high": 16000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Holiday 162 WS:value:2023-2024",
+            "label": "2023–2024",
+            "startYear": 2023,
+            "endYear": 2024,
+            "low": 14000,
+            "high": 22000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable."
   },
   {
     "id": "boat:Princecraft | Nanook 168 DLX WS",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Princecraft",
-    "model": "Nanook 168 DLX WS",
-    "displayName": "Princecraft | Nanook 168 DLX WS",
-    "subtitle": "2016 exact cited specification; other advertised years unresolved",
+    "model": "*Nanook 168 DLX WS",
+    "displayName": "*Princecraft | Nanook 168 DLX WS",
+    "subtitle": "2014–2023 Nanook 168 DLX WS; 2017 plating/fuel revision",
     "badge": "Secondary",
-    "lowPrice": 6000,
-    "highPrice": 11000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
+    "lowPrice": 7000,
+    "highPrice": 20000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
+    "sourceUrl": "https://2023.princecraft.com/us/en/products/Fishing-Boats/2023/DLX-Series/Nanook-168-DLX-WS.aspx",
     "image": {
       "url": "https://2016.princecraft.com/upload/Attach/2016Sport172-DessTech.gif",
       "source": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2016/Sport-Series/Sport-172.aspx",
@@ -23862,7 +24086,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 exact cited specification; other advertised years unresolved"
+        "value": "2014–2023 Nanook 168 DLX WS; 2017 plating/fuel revision"
       },
       {
         "label": "Recommendation",
@@ -23878,43 +24102,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -23922,27 +24146,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -23954,7 +24178,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Canadian-market model that may be advertised with abbreviated WS/DLX naming. Verify year and exact capacity plate."
+        "value": "The core 16-foot-6-inch, 88-inch, 1,044-lb hull remains stable. Princecraft changes the published bottom thickness from .090 to .087 inch and fuel from 20 to 19 gallons for 2017. Nanook disappears after the 2023 lineup."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -23970,119 +24194,179 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Nanook 168 DLX WS:gen:2016",
-        "label": "2016 cited specification snapshot",
-        "startYear": 2016,
+        "id": "boat:Princecraft | Nanook 168 DLX WS:gen:2014-2016",
+        "label": "2014–2016 Nanook 168 DLX WS",
+        "startYear": 2014,
         "endYear": 2016,
-        "status": "cited-snapshot",
-        "specificationBasis": "2016 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual factory pages repeat the core hull and 0.090-inch bottom/20-gallon specification.",
+        "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2016/DLX-Series/Nanook-DLX-WS.aspx",
         "specs": {
           "Length": {
-            "value": "About 16'8\"",
-            "confidence": "catalog-representative"
+            "value": "16'6\"",
+            "confidence": "factory-exact"
           },
           "Beam": {
-            "value": "About 87\"",
-            "confidence": "catalog-representative"
+            "value": "88\"",
+            "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "71\"",
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "About 1,050 lb",
-            "confidence": "catalog-representative"
+            "value": "1,044 lb",
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "33\"",
+            "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "13°",
+            "confidence": "factory-exact"
           },
           "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "20\"",
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "115",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "4 Canada / 5 USA",
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,323 lb",
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": ".072\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted marine-grade aluminum deep-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "20 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".090\"",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Nanook 168 DLX WS:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 6000,
-            "high": 9500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Princecraft | Nanook 168 DLX WS:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
+            "id": "boat:Princecraft | Nanook 168 DLX WS:value:2014-2016",
+            "label": "2014–2016",
+            "startYear": 2014,
+            "endYear": 2016,
             "low": 7000,
             "high": 11000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Princecraft | Nanook 168 DLX WS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s–2010s; exact year varies",
-        "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
-        "specs": {},
-        "eras": []
+        "id": "boat:Princecraft | Nanook 168 DLX WS:gen:2017-2023",
+        "label": "2017–2023 Nanook 168 DLX WS plating/fuel revision",
+        "startYear": 2017,
+        "endYear": 2023,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual factory pages retain the dimensions, weight and ratings while publishing a 0.087-inch bottom and 19-gallon tank.",
+        "sourceUrl": "https://2023.princecraft.com/us/en/products/Fishing-Boats/2023/DLX-Series/Nanook-168-DLX-WS.aspx",
+        "specs": {
+          "Length": {
+            "value": "16'6\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "88\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "71\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,044 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "33\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "13°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "4 Canada / 5 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,323 lb",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "19 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".087\"",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Nanook 168 DLX WS:value:2017-2019",
+            "label": "2017–2019",
+            "startYear": 2017,
+            "endYear": 2019,
+            "low": 8500,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Nanook 168 DLX WS:value:2020-2023",
+            "label": "2020–2023",
+            "startYear": 2020,
+            "endYear": 2023,
+            "low": 12000,
+            "high": 20000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable.",
+    "idealMatch": true
   },
   {
     "id": "boat:Princecraft | Platinum SE 176",
@@ -24091,12 +24375,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "Platinum SE 176",
     "displayName": "Princecraft | Platinum SE 176",
-    "subtitle": "2018 exact cited specification; other advertised years unresolved",
+    "subtitle": "2014–2019 Platinum SE 176; 2018 fuel-capacity revision",
     "badge": "Secondary",
-    "lowPrice": 9000,
-    "highPrice": 13500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://2018.princecraft.com/1/en/products/Fishing-Boats/2018/Platinum-SE-Series/Platinum-SE-176.aspx",
+    "lowPrice": 10000,
+    "highPrice": 20000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
+    "sourceUrl": "https://2019.princecraft.com/ca/en/products/Fishing-Boats/2019/Platinum-SE-Series/Platinum-SE-176.aspx",
     "image": {
       "url": "https://2016.princecraft.com/upload/Attach/2014SuperPro176-DessTech.gif",
       "source": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2014/Super-Pro-Series/Super-Pro-176.aspx",
@@ -24106,7 +24390,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2018 exact cited specification; other advertised years unresolved"
+        "value": "2014–2019 Platinum SE 176; 2018 fuel-capacity revision"
       },
       {
         "label": "Recommendation",
@@ -24122,43 +24406,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -24166,27 +24450,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -24198,7 +24482,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact premium 17'6\" Platinum SE; strong geometry but premium used-package pricing."
+        "value": "Factory pages preserve the 17-foot-6-inch, 92-inch, 1,435-lb hull through 2019. The published tank changes from 40 to 37 gallons for 2018–2019. The 176 leaves the lineup for 2020."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24214,123 +24498,182 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Platinum SE 176:gen:2018",
-        "label": "2018 cited specification snapshot",
-        "startYear": 2018,
-        "endYear": 2018,
-        "status": "cited-snapshot",
-        "specificationBasis": "2018 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://2018.princecraft.com/1/en/products/Fishing-Boats/2018/Platinum-SE-Series/Platinum-SE-176.aspx",
+        "id": "boat:Princecraft | Platinum SE 176:gen:2014-2017",
+        "label": "2014–2017 Platinum SE 176, 40-gallon tank",
+        "startYear": 2014,
+        "endYear": 2017,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual factory pages repeat the core hull, certification and 40-gallon tank.",
+        "sourceUrl": "https://2017.princecraft.com/us/en/products/Fishing-Boats/2017/Platinum-SE-Series/Platinum-SE-176.aspx",
         "specs": {
           "Length": {
             "value": "17'6\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "92\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
             "value": "80\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,435 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "41\"",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "15°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "150",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "6 Canada / 7 USA",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,736 lb",
-            "confidence": "cited-source-exact"
-          },
-          "Fuel Capacity": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": ".100\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": ".072\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted 5052-H36; double-reverse-chine hull",
-            "confidence": "cited-source-exact"
+            "value": "Riveted 5052-H36 double-reverse-chine aluminum",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Platinum SE 176:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 9000,
-            "high": 13500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Princecraft | Platinum SE 176:value:2014-2017",
+            "label": "2014–2017",
+            "startYear": 2014,
+            "endYear": 2017,
+            "low": 10000,
+            "high": 16000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Princecraft | Platinum SE 176:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
+        "id": "boat:Princecraft | Platinum SE 176:gen:2018-2019",
+        "label": "2018–2019 Platinum SE 176, 37-gallon tank",
+        "startYear": 2018,
         "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2018 factory specification basis; similar 2010s generation",
-        "sourceUrl": "https://2018.princecraft.com/1/en/products/Fishing-Boats/2018/Platinum-SE-Series/Platinum-SE-176.aspx",
-        "specs": {},
-        "eras": []
+        "status": "factory-documented-continuity",
+        "specificationBasis": "The 2018 and 2019 pages retain the hull and ratings while reducing published fuel capacity to 37 gallons.",
+        "sourceUrl": "https://2019.princecraft.com/ca/en/products/Fishing-Boats/2019/Platinum-SE-Series/Platinum-SE-176.aspx",
+        "specs": {
+          "Length": {
+            "value": "17'6\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "80\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,435 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "41\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "15°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6 Canada / 7 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,736 lb",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 double-reverse-chine aluminum",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "37 gal",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Platinum SE 176:value:2018-2019",
+            "label": "2018–2019",
+            "startYear": 2018,
+            "endYear": 2019,
+            "low": 13000,
+            "high": 20000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable."
   },
   {
     "id": "boat:Princecraft | Pro 179 WS",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Princecraft",
-    "model": "Pro 179 WS",
-    "displayName": "Princecraft | Pro 179 WS",
-    "subtitle": "2016 exact cited specification; other advertised years unresolved",
+    "model": "*Pro 179 WS",
+    "displayName": "*Princecraft | Pro 179 WS",
+    "subtitle": "2009–2011 Pro 179 WS factory lineage",
     "badge": "Primary",
-    "lowPrice": 6500,
-    "highPrice": 10500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 6000,
+    "highPrice": 11000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2011/Pro-Series/Pro-179-WS.aspx",
     "image": {
       "url": "https://2016.princecraft.com/upload/Attach/Pro179WS-DesTech.gif",
@@ -24341,7 +24684,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 exact cited specification; other advertised years unresolved"
+        "value": "2009–2011 Pro 179 WS factory lineage"
       },
       {
         "label": "Recommendation",
@@ -24357,43 +24700,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -24401,27 +24744,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -24433,7 +24776,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact WS full-windshield model with twin plating and two 20-gallon livewells."
+        "value": "The factory 2009–2011 Pro 179 WS is a short-lived 17-foot-4-inch, 92-inch, 1,299-lb walk-through model. It is not extended into later Princecraft Sport or Xperience names."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24449,124 +24792,111 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Pro 179 WS:gen:2016",
-        "label": "2016 cited specification snapshot",
-        "startYear": 2016,
-        "endYear": 2016,
-        "status": "cited-snapshot",
-        "specificationBasis": "2016 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Princecraft | Pro 179 WS:gen:2009-2011",
+        "label": "2009–2011 Pro 179 WS",
+        "startYear": 2009,
+        "endYear": 2011,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Factory 2009–2011 catalog tables establish one core model lineage.",
         "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2011/Pro-Series/Pro-179-WS.aspx",
         "specs": {
           "Length": {
             "value": "17'4\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "92\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
             "value": "80\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,299 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "37\"",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "—",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "135",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "4 Canada / 5 USA",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,410 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "40 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": ".100\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": ".072\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted 5052-H36 reverse-chine hull",
-            "confidence": "cited-source-exact"
+            "value": "Riveted 5052-H36 deep-V aluminum; walk-through windshield",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Pro 179 WS:value:2010s",
-            "label": "2010s",
+            "id": "boat:Princecraft | Pro 179 WS:value:2009",
+            "label": "2009",
+            "startYear": 2009,
+            "endYear": 2009,
+            "low": 6000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Pro 179 WS:value:2010-2011",
+            "label": "2010–2011",
             "startYear": 2010,
-            "endYear": 2019,
-            "low": 6500,
-            "high": 10500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "endYear": 2011,
+            "low": 7000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
-      },
-      {
-        "id": "boat:Princecraft | Pro 179 WS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2011 factory specification basis",
-        "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2011/Pro-Series/Pro-179-WS.aspx",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable.",
+    "idealMatch": true
   },
   {
     "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Princecraft",
-    "model": "Sport 172 (Primary; Princecraft model, not a generic Sport trim)",
-    "displayName": "Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim)",
-    "subtitle": "2011 exact cited specification; other advertised years unresolved",
+    "model": "*Sport 172 (Primary; Princecraft model, not a generic Sport trim)",
+    "displayName": "*Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim)",
+    "subtitle": "2010–2023 Sport 172; four documented hull/certification rows",
     "badge": "Primary",
     "lowPrice": 6500,
-    "highPrice": 10500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://www.jdpower.com/boats/2011/princecraft/sport-172_/32019238/specs",
+    "highPrice": 32000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
+    "sourceUrl": "https://2023.princecraft.com/1/en/products/Fishing-Boats/2023/Sport-Series/Sport-172.aspx",
     "image": {
       "url": "https://2016.princecraft.com/upload/Attach/2016Sport172-DessTech.gif",
       "source": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2016/Sport-Series/Sport-172.aspx",
@@ -24576,7 +24906,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2011 exact cited specification; other advertised years unresolved"
+        "value": "2010–2023 Sport 172; four documented hull/certification rows"
       },
       {
         "label": "Recommendation",
@@ -24592,43 +24922,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -24636,27 +24966,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -24668,7 +24998,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The early-2010s 172 is the budget target. Late-2010s examples are usually over the complete-package cap."
+        "value": "The 2010–2011 boat is 92 inches wide and 1,225 lb. The 2012 hull narrows to 91 inches and weighs 1,255 lb. Weight rises to 1,377 lb for 2017. The same 1,377-lb hull receives a 150-hp/1,572-lb certification for 2023 before the Sport 175 name replaces it in 2024."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24684,110 +25014,308 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:2011",
-        "label": "2011 cited specification snapshot",
-        "startYear": 2011,
+        "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:2010-2011",
+        "label": "2010–2011 Sport 172, early 92-inch hull",
+        "startYear": 2010,
         "endYear": 2011,
-        "status": "cited-snapshot",
-        "specificationBasis": "2011 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/2011/princecraft/sport-172_/32019238/specs",
+        "status": "factory-supported-partial",
+        "specificationBasis": "Contemporary specification records establish the 92-inch beam and 1,225-lb early Sport 172. Only surviving published fields are carried here.",
+        "sourceUrl": "https://www.boats.za.net/princecraft/sport-172",
         "specs": {
           "Length": {
-            "value": "2010s: 17'5\"",
-            "confidence": "cited-source-exact"
+            "value": "17'5\"",
+            "confidence": "factory-exact"
           },
           "Beam": {
-            "value": "2010s: 91–92\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "2010s: about 75\"",
-            "confidence": "catalog-representative"
+            "value": "92\"",
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "2011: 1,225 lb; late 2010s: 1,377 lb",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "39\" late-2010s",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "About 25\"",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "15° representative",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "About 91\"",
-            "confidence": "catalog-representative"
+            "value": "1,225 lb",
+            "confidence": "factory-exact"
           },
           "Max HP": {
-            "value": "2010s: 115–125",
-            "confidence": "cited-source-exact"
-          },
-          "Persons": {
-            "value": "6–7",
-            "confidence": "cited-source-exact"
-          },
-          "Capacity Weight": {
-            "value": "About 1,550 lb",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "24 gal",
-            "confidence": "cited-source-exact"
-          },
-          "Bottom Thickness": {
-            "value": "0.100\"",
-            "confidence": "cited-source-exact"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "0.072\"",
-            "confidence": "cited-source-exact"
+            "value": "115",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Welded H36 aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted Princecraft aluminum; full walk-through windshield",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2010s",
-            "label": "2010s",
+            "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2010-2011",
+            "label": "2010–2011",
             "startYear": 2010,
-            "endYear": 2019,
+            "endYear": 2011,
             "low": 6500,
-            "high": 10500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "high": 10000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
+        "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:2012-2016",
+        "label": "2012–2016 Sport 172, 1,255-lb hull",
+        "startYear": 2012,
+        "endYear": 2016,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "2012–2016 factory tables repeat the 91-inch, 1,255-lb, 125-hp hull.",
+        "sourceUrl": "https://2016.princecraft.com/ca/en/products/Fishing-Boats/2016/Sport-Series/Sport-172.aspx",
+        "specs": {
+          "Length": {
+            "value": "17'5\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "75\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,255 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "39\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "15°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5 Canada / 6 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,570 lb Canada / 1,553 lb USA",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "26 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow and chine",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2012-2014",
+            "label": "2012–2014",
+            "startYear": 2012,
+            "endYear": 2014,
+            "low": 7500,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2015-2016",
+            "label": "2015–2016",
+            "startYear": 2015,
+            "endYear": 2016,
+            "low": 9000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:2017-2022",
+        "label": "2017–2022 Sport 172, 1,377-lb hull",
+        "startYear": 2017,
         "endYear": 2022,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010–2022; budget focus 2010–2014",
-        "sourceUrl": "https://www.jdpower.com/boats/2011/princecraft/sport-172_/32019238/specs",
-        "specs": {},
-        "eras": []
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual factory pages repeat the 91-inch, 1,377-lb, 125-hp hull through 2022.",
+        "sourceUrl": "https://2022.princecraft.com/1/en/products/Fishing-Boats/2022/Sport-Series/Sport-172.aspx",
+        "specs": {
+          "Length": {
+            "value": "17'5\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "75\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,377 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "39\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "15°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6 Canada / 7 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,549 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow and chine",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2017-2019",
+            "label": "2017–2019",
+            "startYear": 2017,
+            "endYear": 2019,
+            "low": 11000,
+            "high": 17000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2020-2022",
+            "label": "2020–2022",
+            "startYear": 2020,
+            "endYear": 2022,
+            "low": 16000,
+            "high": 25000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:2023",
+        "label": "2023 Sport 172, 150-hp certification",
+        "startYear": 2023,
+        "endYear": 2023,
+        "status": "factory-exact",
+        "specificationBasis": "The 2023 factory page retains the 1,377-lb hull but raises maximum horsepower to 150 and maximum capacity to 1,572 lb.",
+        "sourceUrl": "https://2023.princecraft.com/1/en/products/Fishing-Boats/2023/Sport-Series/Sport-172.aspx",
+        "specs": {
+          "Length": {
+            "value": "17'5\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "75\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,377 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "39\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "15°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6 Canada / 7 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,572 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow and chine",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2023",
+            "label": "2023",
+            "startYear": 2023,
+            "endYear": 2023,
+            "low": 22000,
+            "high": 32000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable.",
+    "idealMatch": true
   },
   {
     "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary)",
@@ -24796,12 +25324,12 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "Sport 187 (Secondary; Sport 172 is Primary)",
     "displayName": "Princecraft | Sport 187 (Secondary; Sport 172 is Primary)",
-    "subtitle": "2016 exact cited specification; other advertised years unresolved",
+    "subtitle": "2014–2021 Sport 187; 2017 fuel-capacity revision",
     "badge": "Secondary",
-    "lowPrice": 9000,
-    "highPrice": 18000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
+    "lowPrice": 12000,
+    "highPrice": 30000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
+    "sourceUrl": "https://2021.princecraft.com/us/en/products/Fishing-Boats/2021/Sport-Series/Sport-187.aspx",
     "image": {
       "url": "https://2016.princecraft.com/upload/Attach/2016Sport172-DessTech.gif",
       "source": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2016/Sport-Series/Sport-172.aspx",
@@ -24811,7 +25339,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 exact cited specification; other advertised years unresolved"
+        "value": "2014–2021 Sport 187; 2017 fuel-capacity revision"
       },
       {
         "label": "Recommendation",
@@ -24827,43 +25355,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -24871,27 +25399,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -24903,7 +25431,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Excellent family fishing boat, but the 172 is the budget and towing sweet spot."
+        "value": "The 18-foot-6-inch, 95-inch, 1,500-lb hull remains stable. Fuel changes from 40 to 37 gallons for 2017. The Sport 187 is replaced by the Sport 182 for 2022 and is not blended with the later Sport 185/188 boats."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24919,132 +25447,191 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):gen:2016",
-        "label": "2016 cited specification snapshot",
-        "startYear": 2016,
+        "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):gen:2014-2016",
+        "label": "2014–2016 Sport 187, 40-gallon tank",
+        "startYear": 2014,
         "endYear": 2016,
-        "status": "cited-snapshot",
-        "specificationBasis": "2016 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual factory pages repeat the hull and 40-gallon fuel specification.",
+        "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2016/Sport-Series/Sport-187.aspx",
         "specs": {
           "Length": {
-            "value": "About 18'7\"",
-            "confidence": "catalog-representative"
+            "value": "18'6\"",
+            "confidence": "factory-exact"
           },
           "Beam": {
-            "value": "96\"",
-            "confidence": "cited-source-exact"
+            "value": "95\"",
+            "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "value": "80\"",
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "About 1,600 lb",
-            "confidence": "catalog-representative"
+            "value": "1,500 lb",
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "About 42\"",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "About 27\"",
-            "confidence": "catalog-representative"
+            "value": "46\"",
+            "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "15–17°",
-            "confidence": "cited-source-exact"
+            "value": "17°",
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "175",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
-            "value": "7",
-            "confidence": "cited-source-exact"
+            "value": "7 Canada / 8 USA",
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
-            "value": "About 1,800 lb",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "About 34 gal",
-            "confidence": "catalog-representative"
+            "value": "1,800 lb",
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
-            "value": "0.100\"",
-            "confidence": "cited-source-exact"
+            "value": ".110\"",
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "0.072\"",
-            "confidence": "cited-source-exact"
+            "value": ".072\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Welded H36 aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted 5052-H36 double-reverse-chine aluminum; twin-plated bow and chine",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 9000,
-            "high": 13500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 13000,
-            "high": 18000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):value:2014-2016",
+            "label": "2014–2016",
+            "startYear": 2014,
+            "endYear": 2016,
+            "low": 12000,
+            "high": 19000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s–2020s",
-        "sourceUrl": "https://www.princecraft.com/us/en/Dealers/Product-and-Catalog-Archives.aspx",
-        "specs": {},
-        "eras": []
+        "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):gen:2017-2021",
+        "label": "2017–2021 Sport 187, 37-gallon tank",
+        "startYear": 2017,
+        "endYear": 2021,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual factory pages retain the hull and ratings while publishing a 37-gallon tank.",
+        "sourceUrl": "https://2021.princecraft.com/us/en/products/Fishing-Boats/2021/Sport-Series/Sport-187.aspx",
+        "specs": {
+          "Length": {
+            "value": "18'6\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "80\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,500 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "46\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "17°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7 Canada / 8 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,800 lb",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".110\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 double-reverse-chine aluminum; twin-plated bow and chine",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "37 gal",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):value:2017-2019",
+            "label": "2017–2019",
+            "startYear": 2017,
+            "endYear": 2019,
+            "low": 15000,
+            "high": 23000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):value:2020-2021",
+            "label": "2020–2021",
+            "startYear": 2020,
+            "endYear": 2021,
+            "low": 20000,
+            "high": 30000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable."
   },
   {
     "id": "boat:Princecraft | Super Pro 176",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Princecraft",
-    "model": "Super Pro 176",
-    "displayName": "Princecraft | Super Pro 176",
-    "subtitle": "2016 exact cited specification; other advertised years unresolved",
+    "model": "*Super Pro 176",
+    "displayName": "*Princecraft | Super Pro 176",
+    "subtitle": "2011–2015 Super Pro 176 factory lineage",
     "badge": "Primary",
-    "lowPrice": 7000,
-    "highPrice": 11000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 8000,
+    "highPrice": 16000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2011/Super-Pro-Series/Super-Pro-176.aspx",
     "image": {
       "url": "https://2016.princecraft.com/upload/Attach/2014SuperPro176-DessTech.gif",
@@ -25055,7 +25642,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 exact cited specification; other advertised years unresolved"
+        "value": "2011–2015 Super Pro 176 factory lineage"
       },
       {
         "label": "Recommendation",
@@ -25071,43 +25658,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -25115,27 +25702,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -25147,7 +25734,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact Super Pro 176 with twin plating and premium fishing equipment."
+        "value": "Annual factory pages preserve one 17-foot-6-inch, 92-inch, 1,400-lb premium fishing hull. The Super Pro 176 leaves the lineup after 2015."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -25163,110 +25750,97 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Super Pro 176:gen:2016",
-        "label": "2016 cited specification snapshot",
-        "startYear": 2016,
-        "endYear": 2016,
-        "status": "cited-snapshot",
-        "specificationBasis": "2016 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Princecraft | Super Pro 176:gen:2011-2015",
+        "label": "2011–2015 Super Pro 176",
+        "startYear": 2011,
+        "endYear": 2015,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual Princecraft factory pages repeat the core hull, capacity, plating and fuel table.",
         "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2011/Super-Pro-Series/Super-Pro-176.aspx",
         "specs": {
           "Length": {
             "value": "17'6\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "92\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
             "value": "80\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,400 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
             "value": "41\"",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "—",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "150",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "6 Canada / 7 USA",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,736 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "40 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
             "value": ".100\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
             "value": ".072\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "Riveted 5052-H36 double-reverse-chine hull",
-            "confidence": "cited-source-exact"
+            "value": "Riveted 5052-H36 double-reverse-chine aluminum; full walk-through windshield",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Super Pro 176:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Princecraft | Super Pro 176:value:2011-2013",
+            "label": "2011–2013",
+            "startYear": 2011,
+            "endYear": 2013,
+            "low": 8000,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Super Pro 176:value:2014-2015",
+            "label": "2014–2015",
+            "startYear": 2014,
+            "endYear": 2015,
+            "low": 10000,
+            "high": 16000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
-      },
-      {
-        "id": "boat:Princecraft | Super Pro 176:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2011 factory specification basis",
-        "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2011/Super-Pro-Series/Super-Pro-176.aspx",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable.",
+    "idealMatch": true
   },
   {
     "id": "boat:Sea Nymph | FM161 Fishing Machine",
@@ -47339,19 +47913,19 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Princecraft",
-    "model": "Sport 167 / Sport 164",
-    "displayName": "Princecraft | Sport 167 / Sport 164",
-    "subtitle": "2016 exact cited specification; other advertised years unresolved",
+    "model": "*Sport 167 / Sport 164",
+    "displayName": "*Princecraft | Sport 167 / Sport 164",
+    "subtitle": "2014–2016 Sport 167; 2017–2021 Sport 164 continuation",
     "badge": "Primary",
-    "lowPrice": 6000,
-    "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://2016.princecraft.com/ca/en/products/Fishing-Boats/2016/Sport-Series/Sport-167.aspx",
+    "lowPrice": 7000,
+    "highPrice": 17000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
+    "sourceUrl": "https://2021.princecraft.com/2/en/products/Fishing-Boats/2021/Sport-Series/Sport-164.aspx",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 exact cited specification; other advertised years unresolved"
+        "value": "2014–2016 Sport 167; 2017–2021 Sport 164 continuation"
       },
       {
         "label": "Recommendation",
@@ -47367,43 +47941,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -47411,27 +47985,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -47443,7 +48017,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Confirmed omitted compact Sport generation. Princecraft used the official Sport 167 name in 2014–2016 and Sport 164 in 2017–2018 for essentially the same 16'6\" × 90\" hull. Keep one catalog row with both official names rather than duplicating the boat. It is a fish-and-sport crossover, not the larger Sport 172."
+        "value": "Princecraft changes the model number from Sport 167 to Sport 164 for 2017 while retaining the 16-foot-6-inch, 90-inch, 1,090-lb core hull. The later name carries the .087-inch bottom and 19-gallon tank through 2021."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -47459,129 +48033,198 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Sport 167 / Sport 164:gen:2016",
-        "label": "2016 cited specification snapshot",
-        "startYear": 2016,
+        "id": "boat:Princecraft | Sport 167 / Sport 164:gen:2014-2016-sport167",
+        "label": "2014–2016 Sport 167",
+        "startYear": 2014,
         "endYear": 2016,
-        "status": "cited-snapshot",
-        "specificationBasis": "2016 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://2016.princecraft.com/ca/en/products/Fishing-Boats/2016/Sport-Series/Sport-167.aspx",
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Factory pages repeat the Sport 167 hull with 0.090-inch bottom and 20-gallon tank.",
+        "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2016/Sport-Series/Sport-167.aspx",
         "specs": {
           "Length": {
             "value": "16'6\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "90\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "71\" chine width",
-            "confidence": "cited-source-exact"
+            "value": "71\"",
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,090 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "34\" maximum depth",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "34\"",
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "13°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "20\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "115",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "5 Canada / 6 USA",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,389 lb",
-            "confidence": "cited-source-exact"
-          },
-          "Fuel Capacity": {
-            "value": "19–20 gal by year",
-            "confidence": "cited-source-exact"
-          },
-          "Bottom Thickness": {
-            "value": "0.087–0.090\" by year",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "0.072\"",
-            "confidence": "cited-source-exact"
+            "value": ".072\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "5052-H36 riveted reverse-chine aluminum with twin plating from bow to midship",
-            "confidence": "cited-source-exact"
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "20 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".090\"",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Sport 167 / Sport 164:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6000,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Princecraft | Sport 167 / Sport 164:value:2014-2016",
+            "label": "2014–2016",
+            "startYear": 2014,
+            "endYear": 2016,
+            "low": 7000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Princecraft | Sport 167 / Sport 164:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2014–2018 verified; Sport 167 in 2014–2016, Sport 164 in 2017–2018",
-        "sourceUrl": "https://2016.princecraft.com/ca/en/products/Fishing-Boats/2016/Sport-Series/Sport-167.aspx",
-        "specs": {},
-        "eras": []
+        "id": "boat:Princecraft | Sport 167 / Sport 164:gen:2017-2021-sport164",
+        "label": "2017–2021 Sport 164",
+        "startYear": 2017,
+        "endYear": 2021,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "The renamed Sport 164 retains the core hull while using 0.087-inch bottom plating and a 19-gallon tank.",
+        "sourceUrl": "https://2021.princecraft.com/2/en/products/Fishing-Boats/2021/Sport-Series/Sport-164.aspx",
+        "specs": {
+          "Length": {
+            "value": "16'6\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "90\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "71\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,090 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "34\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "13°",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5 Canada / 6 USA",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,389 lb",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".072\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "19 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".087\"",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Princecraft | Sport 167 / Sport 164:value:2017-2019",
+            "label": "2017–2019",
+            "startYear": 2017,
+            "endYear": 2019,
+            "low": 8000,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Princecraft | Sport 167 / Sport 164:value:2020-2021",
+            "label": "2020–2021",
+            "startYear": 2020,
+            "endYear": 2021,
+            "low": 11000,
+            "high": 17000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable.",
+    "idealMatch": true
   },
   {
     "id": "boat:Princecraft | Xpedition 170 WS",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Princecraft",
-    "model": "Xpedition 170 WS",
-    "displayName": "Princecraft | Xpedition 170 WS",
-    "subtitle": "2016 exact cited specification; other advertised years unresolved",
+    "model": "*Xpedition 170 WS",
+    "displayName": "*Princecraft | Xpedition 170 WS",
+    "subtitle": "2014–2016 exact Xpedition 170 WS generation",
     "badge": "Primary",
-    "lowPrice": 6000,
-    "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 8000,
+    "highPrice": 13000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://2016.princecraft.com/ca/en/products/Fishing-Boats/2016/Xpedition-Series/Xpedition-170-WS.aspx",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016 exact cited specification; other advertised years unresolved"
+        "value": "2014–2016 exact Xpedition 170 WS generation"
       },
       {
         "label": "Recommendation",
@@ -47597,43 +48240,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -47641,27 +48284,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -47673,7 +48316,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Confirmed omitted fishing-first Princecraft windshield model. It is materially different from the Sport 167/164 crossover and the later configurable Xpedition 170. The 91-inch beam, 78-inch chine, 1,185-pound hull and two livewells make it a strong compact multispecies package."
+        "value": "The exact WS model is documented for 2014–2016. Later Xpedition 170 records do not preserve the same WS model identity and are not inherited."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -47689,110 +48332,92 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Princecraft factory archive and annual model pages reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Princecraft | Xpedition 170 WS:gen:2016",
-        "label": "2016 cited specification snapshot",
-        "startYear": 2016,
+        "id": "boat:Princecraft | Xpedition 170 WS:gen:2014-2016",
+        "label": "2014–2016 Xpedition 170 WS",
+        "startYear": 2014,
         "endYear": 2016,
-        "status": "cited-snapshot",
-        "specificationBasis": "2016 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual factory model pages establish this exact walk-through model and specification set.",
         "sourceUrl": "https://2016.princecraft.com/ca/en/products/Fishing-Boats/2016/Xpedition-Series/Xpedition-170-WS.aspx",
         "specs": {
           "Length": {
             "value": "16'11\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "91\"",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "78\" chine width",
-            "confidence": "cited-source-exact"
+            "value": "78\"",
+            "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
             "value": "1,185 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "35\" maximum depth",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "35\"",
+            "confidence": "factory-exact"
           },
           "Deadrise": {
             "value": "13°",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Transom Height": {
             "value": "20\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "confidence": "factory-exact"
           },
           "Max HP": {
             "value": "115",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Persons": {
             "value": "4 Canada / 5 USA",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Capacity Weight": {
             "value": "1,415 lb Canada / 1,398 lb USA",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "20 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-exact"
           },
           "Bottom Thickness": {
-            "value": "0.100\"",
-            "confidence": "cited-source-exact"
+            "value": ".100\"",
+            "confidence": "factory-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "0.072\"",
-            "confidence": "cited-source-exact"
+            "value": ".072\"",
+            "confidence": "factory-exact"
           },
           "Construction": {
-            "value": "5052-H36 riveted reverse-chine aluminum with twin plating from bow to midship",
-            "confidence": "cited-source-exact"
+            "value": "Riveted 5052-H36 reverse-chine aluminum; twin-plated bow",
+            "confidence": "factory-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Princecraft | Xpedition 170 WS:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6000,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Princecraft | Xpedition 170 WS:value:2014-2016",
+            "label": "2014–2016",
+            "startYear": 2014,
+            "endYear": 2016,
+            "low": 8000,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
-      },
-      {
-        "id": "boat:Princecraft | Xpedition 170 WS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2014–2016 verified; exact WS generation",
-        "sourceUrl": "https://2016.princecraft.com/ca/en/products/Fishing-Boats/2016/Xpedition-Series/Xpedition-170-WS.aspx",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year and hull row. Princecraft changed ratings, plating, fuel capacity, model names or hull weight across these lineages; adjacent-year specifications are not automatically interchangeable.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | 1600 Pro Sport",

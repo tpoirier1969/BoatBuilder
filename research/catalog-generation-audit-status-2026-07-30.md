@@ -13,16 +13,16 @@ Updated: 2026-07-31
 | Crestliner | 15 | 0 | 34 of 34 | Completed |
 | Alumacraft | 17 | 0 | 51 of 51 | Completed; 1 family rejection intentionally unpriced |
 | Lund | 28 | 0 | 55 of 55 | Hidden-gap review completed; 83 price eras |
+| Princecraft | 9 | 0 | 19 of 19 | Completed; 28 price eras |
 
 “Completed” means the existing app records have no unresolved generation rows, known production intervals were investigated, source-exhausted intervals are explicit, and every physical/evidence row has a used-package screening range.
 
 ## Remaining literal unresolved rows
 
-Total: **59**
+Total: **50**
 
 | Manufacturer | Unresolved rows |
 |---|---:|
-| Princecraft | 9 |
 | Tracker | 8 |
 | MirroCraft | 7 |
 | Lowe | 6 |
@@ -42,9 +42,9 @@ Total: **59**
 
 ## Next repair order
 
-1. Princecraft
-2. Tracker
-3. MirroCraft
-4. Lowe
-5. Sea Nymph
+1. Tracker
+2. MirroCraft
+3. Lowe
+4. Sea Nymph
+5. Polar Kraft
 6. Remaining manufacturers in descending unresolved count
