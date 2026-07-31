@@ -598,6 +598,75 @@ assert.equal(pcSport164.designGenerations.find(g => g.startYear === 2017)?.endYe
 const pcXpedition = item("boat:Princecraft | Xpedition 170 WS");
 assert.equal(JSON.stringify(pcXpedition.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2014,2016]]), "Xpedition 170 WS exact production span is wrong");
 
+// Strict Tracker existing-model completion audit.
+const trackerRows = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Tracker");
+assert.equal(trackerRows.length, 8, "Focused Tracker app-model scope changed without updating the audit");
+assert.equal(
+  trackerRows.reduce((sum, entry) => sum + entry.designGenerations.length, 0),
+  29,
+  "Tracker generation/evidence-row count changed without updating the strict audit"
+);
+assert.equal(
+  trackerRows.reduce((sum, entry) => sum + entry.designGenerations.reduce((n, generation) => n + generation.eras.length, 0), 0),
+  34,
+  "Tracker value-era count changed without updating the strict audit"
+);
+const trackerIdealIds = new Set([
+  "boat:Tracker | Pro Guide V-175 WT",
+  "boat:Tracker | Targa 17 WT (early generation)",
+  "boat:Tracker | Targa 17 WT (2003–2005 redesign)",
+  "boat:Tracker | Targa V-17 WT",
+  "boat:Tracker | Pro Guide V-17 WT"
+]);
+for (const entry of trackerRows) {
+  assert.ok(Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1, `${entry.id} lacks Tracker generations`);
+  assert.equal(entry.valueEras.length, 0, `${entry.id} retained unsafe top-level value eras`);
+  assert.equal(Boolean(entry.idealMatch), trackerIdealIds.has(entry.id), `${entry.id} ideal-match marker is wrong`);
+  assert.equal(entry.model.startsWith("*"), trackerIdealIds.has(entry.id), `${entry.id} compact model star is wrong`);
+  assert.equal(entry.displayName.startsWith("*"), trackerIdealIds.has(entry.id), `${entry.id} compact display star is wrong`);
+  for (const generation of entry.designGenerations) {
+    assert.notEqual(generation.status, "unresolved", `${entry.id} still has an unresolved generation`);
+    assert.ok(Number.isInteger(generation.startYear) && Number.isInteger(generation.endYear), `${generation.id} lacks closed years`);
+    assert.ok(generation.startYear <= generation.endYear, `${generation.id} has reversed years`);
+    assert.ok(Array.isArray(generation.eras) && generation.eras.length >= 1, `${generation.id} lacks package pricing`);
+    for (const era of generation.eras) {
+      assert.ok(Number.isFinite(era.low) && Number.isFinite(era.high) && era.low <= era.high, `${era.id} has invalid Tracker pricing`);
+      assert.ok(era.startYear >= generation.startYear && era.endYear <= generation.endYear, `${era.id} falls outside its Tracker generation`);
+    }
+  }
+}
+const trackerPg175 = item("boat:Tracker | Pro Guide V-175 WT");
+assert.equal(JSON.stringify(trackerPg175.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2010,2010],[2011,2011],[2012,2012],[2013,2017],[2018,2026]]), "Pro Guide V-175 history remains compressed");
+assert.equal(trackerPg175.designGenerations.at(-1).specs?.["Dry Hull Weight"]?.value, "1,525 lb", "Current Pro Guide V-175 weight is wrong");
+assert.equal(trackerPg175.designGenerations.at(-1).specs?.["Average Package Weight"]?.value, "2,985 lb", "Current Pro Guide package weight is missing");
+const trackerV18 = item("boat:Tracker | Targa V-18 WT");
+assert.equal(JSON.stringify(trackerV18.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2010,2011],[2012,2014],[2015,2016],[2017,2019],[2020,2020],[2021,2026]]), "Targa V-18 weight/construction changes are incomplete");
+assert.equal(trackerV18.designGenerations.find(g => g.startYear === 2019 || (g.startYear === 2017 && g.endYear === 2019))?.specs?.["Average Package Weight"]?.value, "3,704 lb in 2019", "2019 Targa V-18 package weight is missing");
+assert.equal(trackerV18.designGenerations.find(g => g.startYear === 2020)?.specs?.["Bottom Thickness"]?.value, '.125"', "2020 Targa V-18 plating revision is missing");
+const trackerV19 = item("boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating)");
+assert.equal(JSON.stringify(trackerV19.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2018,2019],[2020,2022],[2023,2026]]), "Targa V-19 weight rows are incomplete");
+assert.equal(trackerV19.designGenerations.at(-1).specs?.["Average Package Weight"]?.value, "4,245 lb", "Current Targa V-19 overweight package is missing");
+assert.match(trackerV19.details.find(d => d.label === "Placement Reason")?.value || "", /too heavy|4,019|4,245/i, "Targa V-19 tow rejection is missing");
+const trackerTundra = item("boat:Tracker | Tundra 18 DC / WT");
+assert.equal(trackerTundra.designGenerations.length, 6, "Tundra DC/WT variations are incomplete");
+assert.equal(trackerTundra.designGenerations.filter(g => g.startYear === 2006 && g.endYear === 2007).length, 2, "Tundra 2006-2007 parallel DC/WT rows are missing");
+assert.equal(new Set(trackerTundra.designGenerations.filter(g => g.startYear === 2006).map(g => g.specs?.["Dry Hull Weight"]?.value)).size, 2, "Tundra parallel layouts lost their distinct weights");
+const trackerEarly17 = item("boat:Tracker | Targa 17 WT (early generation)");
+assert.equal(JSON.stringify(trackerEarly17.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2000,2000],[2001,2001],[2002,2002]]), "Early Targa 17 year evidence is incomplete");
+assert.equal(trackerEarly17.designGenerations.at(-1).specs?.["Dry Hull Weight"]?.value, "1,370 lb", "2002 early Targa weight change is missing");
+const trackerRedesign17 = item("boat:Tracker | Targa 17 WT (2003–2005 redesign)");
+assert.equal(JSON.stringify(trackerRedesign17.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2003,2003],[2004,2005]]), "Targa 17 redesign certification rows are incomplete");
+assert.match(trackerRedesign17.designGenerations[0].specs?.["Max HP"]?.value || "", /verify capacity plate/i, "2003 Targa horsepower conflict warning is missing");
+assert.equal(trackerRedesign17.designGenerations[1].specs?.["Max HP"]?.value, "125", "2004-2005 Targa certification is wrong");
+const trackerV17 = item("boat:Tracker | Targa V-17 WT");
+assert.equal(JSON.stringify(trackerV17.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2009,2009],[2010,2010]]), "Targa V-17 annual weight rows are incomplete");
+assert.equal(trackerV17.designGenerations[0].specs?.["Dry Hull Weight"]?.value, "1,375 lb", "2009 Targa V-17 weight is wrong");
+assert.equal(trackerV17.designGenerations[1].specs?.["Dry Hull Weight"]?.value, "1,401 lb", "2010 Targa V-17 weight is wrong");
+const trackerPg17 = item("boat:Tracker | Pro Guide V-17 WT");
+assert.equal(JSON.stringify(trackerPg17.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2006,2006],[2007,2008]]), "Pro Guide V-17 weight rows are incomplete");
+assert.equal(trackerPg17.designGenerations[0].specs?.["Dry Hull Weight"]?.value, "1,450 lb", "2006 Pro Guide V-17 weight is wrong");
+assert.equal(trackerPg17.designGenerations[1].specs?.["Dry Hull Weight"]?.value, "1,325 lb", "2007-2008 Pro Guide V-17 weight is wrong");
+
 // All-manufacturer generation-safety audit.
 const allBoats = catalog.items.filter(entry => entry.categoryId === "boats");
 assert.ok(

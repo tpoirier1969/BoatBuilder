@@ -1,41 +1,43 @@
-BoatBuilder Princecraft strict completion validation
+BoatBuilder cumulative Princecraft + Tracker completion validation
 Date: 2026-07-31
 
 Syntax
+- node --check app.js: PASS
 - node --check data/boats.js: PASS
+- node --check data/catalog.js: PASS
+- node --check data/equipment.js: PASS
 - node --check tests/qa.mjs: PASS
 
 Production-compatible QA
 - tests/qa.mjs: PASS
 - Output: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
-- The exact replacement data/boats.js and tests/qa.mjs were exercised with the current pricing-selection app.js and repository-compatible unchanged-file fixtures for index.html, styles.css, data/equipment.js and data/catalog.js.
+- The exact replacement data/boats.js and tests/qa.mjs were exercised with the current app.js and repository-compatible unchanged files for index.html, styles.css, data/equipment.js and data/catalog.js.
 
 Data integrity
 - Boat records before/after: 170 / 170
 - Stable boat ID set unchanged: PASS
-- Changed records: exactly 9 Princecraft records
-- Non-Princecraft records changed: 0
-- Princecraft records: 9
-- Princecraft physical/evidence rows: 19
-- Princecraft generation-contained price eras: 28
-- Princecraft unresolved rows: 0
-- Princecraft physical/evidence rows with numeric package pricing: 19 of 19
-- Global generation IDs: 412, all unique
-- Princecraft price eras outside parent rows: 0
-- Compact Princecraft ideal-match stars: exactly 6
-- App-wide remaining literal unresolved rows: 50
+- Records changed relative to completed Princecraft base: exactly 8 Tracker records
+- Non-Tracker records changed: 0
+- Tracker records: 8
+- Tracker generation/evidence rows: 29
+- Tracker value eras: 34
+- Tracker unresolved rows: 0
+- Tracker physical/evidence rows with numeric package pricing: 29 of 29
+- Tracker compact ideal-match stars: exactly 5
+- Global generation IDs: 426, all unique
+- Tracker price eras outside parent generation years: 0
+- App-wide remaining literal unresolved rows: 42
+- Tundra 2006–2007 DC/WT parallel rows: intentional and separately weighted
 
-Critical regressions checked
-- Holiday 162 WS: 2012 60-hp row remains separate from 2013-2016 75-hp row.
-- Holiday 162 WS: 2020 wider/heavier hull is 85 inches and 960 lb.
-- Holiday 162 WS standard record stops at 2024 and does not inherit the 2025-2026 MAX package.
-- Platinum SE 176 continues through 2019 but does not inherit the 2020 Platinum SE 186.
-- Sport 172 separates 2010-2011, 2012-2016, 2017-2022 and 2023 certification rows.
-- Sport 187 stops at 2021 before Sport 182/185/188 successors.
-- Sport 164 continuation through 2021 is retained.
-- Xpedition 170 WS remains limited to the exact 2014-2016 walk-through model.
+Browser interaction validation
+- Headless Chromium with the exact current app/data scripts: PASS
+- Tracker manufacturer list shows 8 records and no Price pending or false generation-audit-pending labels.
+- Targa V-17 WT exposes one combined Year / hull selector with separate 2009 and 2010 choices.
+- Targa V-17 WT 2009, Good condition: $6,900–$8,300.
+- Project condition: Manual evaluation required and Add to estimate disabled.
+- Route rendering resets scroll position to the top.
 
-Interface compatibility
-- No app.js changes are included.
-- Each price era remains inside one physical/evidence row, so the current combined Year / hull selector cannot cross a hull boundary.
-- The existing package-condition pricing flow consumes all 28 new Princecraft eras without top-level fallback pricing.
+Evidence limitation
+- Source-exhausted rows contain only surviving model-identity facts.
+- Published conflicts, especially the 2003 Targa 17 horsepower figure, are exposed with a capacity-plate warning rather than silently resolved by guessing.
+- Price ranges are screening guidance, not formal appraisals.

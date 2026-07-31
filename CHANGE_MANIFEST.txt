@@ -1,4 +1,4 @@
-BoatBuilder Princecraft strict completion patch
+BoatBuilder cumulative Princecraft + Tracker strict completion patch
 Date: 2026-07-31
 
 UPLOAD
@@ -9,18 +9,25 @@ FULL REPLACEMENT FILES
 - data/boats.js
 - tests/qa.mjs
 - research/audits/princecraft-existing-model-completion-2026-07-31.md
+- research/audits/tracker-existing-model-completion-2026-07-31.md
 - research/catalog-generation-audit-status-2026-07-30.md
 - CHANGE_MANIFEST.txt
 - VALIDATION.txt
 
-DATA CHANGES
-- Updated only the 9 existing Princecraft records.
-- Replaced all 9 Princecraft unresolved rows.
-- Closed 19 Princecraft physical/evidence rows.
-- Added 28 generation-contained complete-package price eras.
-- Added numeric package ranges to all 19 physical/evidence rows.
+CUMULATIVE BASE
+The completed Princecraft patch had not yet appeared on GitHub main when Tracker work began. Therefore this replacement includes:
+- the completed Princecraft data and QA assertions
+- the new completed Tracker data and QA assertions
+
+TRACKER DATA CHANGES
+- Updated only the 8 existing Tracker records relative to the completed Princecraft base.
+- Replaced all 8 Tracker unresolved rows.
+- Closed 29 Tracker generation/evidence rows.
+- Added 34 generation-contained price eras.
+- Added numeric complete-package screening ranges to all 29 physical/evidence rows.
 - Preserved all 170 stable boat IDs.
-- Added compact ideal-match stars to six Princecraft model names.
-- Preserved successor-name boundaries instead of blending Holiday/MAX, Sport 172/175, Sport 187/182/185/188 or Xpedition variants.
+- Added compact ideal-match stars to five visible Tracker model names.
+- Preserved the Tundra 2006–2007 DC and WT boats as parallel same-year layout/weight variations.
+- Corrected the Targa V-19 with official package weights that exceed the Maverick tow rating.
 
 No GitHub repository writes were performed by ChatGPT.

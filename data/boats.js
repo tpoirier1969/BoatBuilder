@@ -6,7 +6,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Classic 165 Sport",
     "displayName": "Alumacraft | Classic 165 Sport",
-    "subtitle": "2025–2026 current factory generation",
+    "subtitle": "2025\u20132026 current factory generation",
     "badge": "Secondary",
     "lowPrice": 13000,
     "highPrice": 20000,
@@ -21,7 +21,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2025–2026 current factory generation"
+        "value": "2025\u20132026 current factory generation"
       },
       {
         "label": "Recommendation",
@@ -77,7 +77,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "60–75"
+        "value": "60\u201375"
       },
       {
         "label": "Persons",
@@ -125,7 +125,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is easy to clean, but carpet remains on raised decks."
+        "value": "GOOD \u2014 Vinyl cockpit is easy to clean, but carpet remains on raised decks."
       },
       {
         "label": "Research Status",
@@ -136,7 +136,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Classic 165 Sport:gen:2025-2026",
-        "label": "2025–2026 current factory generation",
+        "label": "2025\u20132026 current factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -211,7 +211,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Classic 165 Sport:value:2025-2026",
-            "label": "2025–2026",
+            "label": "2025\u20132026",
             "startYear": 2025,
             "endYear": 2026,
             "low": 13000,
@@ -235,7 +235,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "*Competitor 165 Sport",
     "displayName": "*Alumacraft | Competitor 165 Sport",
-    "subtitle": "2012–2019 production; 2016 exact factory snapshot",
+    "subtitle": "2012\u20132019 production; 2016 exact factory snapshot",
     "badge": "Primary",
     "lowPrice": 5000,
     "highPrice": 14000,
@@ -245,12 +245,12 @@ window.BOATBUILDER_BOATS = [
       "url": "https://alumacraft.com/images/inventoryImages/inv67b357b088dbb/400px/ALUMA-MY26-COMP-175-SPORT-OE115HP-2XB-Shadow-Flex50-OutboardDeck-Studio-Rside-NA.png",
       "source": "https://alumacraft.com/Alumacraft-Boat.php?action=view&id=1000",
       "matchQuality": "Same family; 175 used for 165",
-      "note": "Factory above-side deck view. Useful layout reference, but this is the larger 175—not an exact 165 photo."
+      "note": "Factory above-side deck view. Useful layout reference, but this is the larger 175\u2014not an exact 165 photo."
     },
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012–2019 production; 2016 exact factory snapshot"
+        "value": "2012\u20132019 production; 2016 exact factory snapshot"
       },
       {
         "label": "Recommendation",
@@ -306,7 +306,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -354,7 +354,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -365,7 +365,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Competitor 165 Sport:gen:2012-2015",
-        "label": "2012–2015 production identity and dry-weight continuity",
+        "label": "2012\u20132015 production identity and dry-weight continuity",
         "startYear": 2012,
         "endYear": 2015,
         "status": "source-exhausted-partial",
@@ -388,7 +388,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Competitor 165 Sport:value:2012-2015",
-            "label": "2012–2015",
+            "label": "2012\u20132015",
             "startYear": 2012,
             "endYear": 2015,
             "low": 5000,
@@ -491,7 +491,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Competitor 165 Sport:gen:2017-2019",
-        "label": "2017–2019 production identity and dry-weight continuity",
+        "label": "2017\u20132019 production identity and dry-weight continuity",
         "startYear": 2017,
         "endYear": 2019,
         "status": "source-exhausted-partial",
@@ -514,7 +514,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Competitor 165 Sport:value:2017-2019",
-            "label": "2017–2019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 8000,
@@ -539,7 +539,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "*Competitor 175 Sport / FSX",
     "displayName": "*Alumacraft | Competitor 175 Sport / FSX",
-    "subtitle": "2011–2024 17-foot-8-inch generation; 2025–2026 X redesign",
+    "subtitle": "2011\u20132024 17-foot-8-inch generation; 2025\u20132026 X redesign",
     "badge": "Primary",
     "lowPrice": 6000,
     "highPrice": 40000,
@@ -549,12 +549,12 @@ window.BOATBUILDER_BOATS = [
       "url": "https://alumacraft.com/images/inventoryImages/inv67b357b088dbb/400px/ALUMA-MY26-COMP-175-SPORT-OE115HP-2XB-Shadow-Flex50-OutboardDeck-Studio-Rside-NA.png",
       "source": "https://alumacraft.com/Alumacraft-Boat.php?action=view&id=1000",
       "matchQuality": "Exact model; later generation",
-      "note": "Factory above-side deck view of the current 175 Sport; older 2014–2019 details may differ."
+      "note": "Factory above-side deck view of the current 175 Sport; older 2014\u20132019 details may differ."
     },
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2011–2024 17-foot-8-inch generation; 2025–2026 X redesign"
+        "value": "2011\u20132024 17-foot-8-inch generation; 2025\u20132026 X redesign"
       },
       {
         "label": "Recommendation",
@@ -610,7 +610,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -642,7 +642,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -658,7 +658,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -669,7 +669,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Competitor 175 Sport / FSX:gen:2011-2015",
-        "label": "2011–2015 pre-X hull; roster-confirmed",
+        "label": "2011\u20132015 pre-X hull; roster-confirmed",
         "startYear": 2011,
         "endYear": 2015,
         "status": "factory-roster-continuity",
@@ -700,7 +700,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Competitor 175 Sport / FSX:value:2011-2015",
-            "label": "2011–2015",
+            "label": "2011\u20132015",
             "startYear": 2011,
             "endYear": 2015,
             "low": 6000,
@@ -804,7 +804,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Competitor 175 Sport / FSX:gen:2017-2024",
-        "label": "2017–2024 pre-X factory continuity",
+        "label": "2017\u20132024 pre-X factory continuity",
         "startYear": 2017,
         "endYear": 2024,
         "status": "factory-documented-continuity",
@@ -835,7 +835,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Competitor 175 Sport / FSX:value:2017-2020",
-            "label": "2017–2020",
+            "label": "2017\u20132020",
             "startYear": 2017,
             "endYear": 2020,
             "low": 10000,
@@ -844,7 +844,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Competitor 175 Sport / FSX:value:2021-2024",
-            "label": "2021–2024",
+            "label": "2021\u20132024",
             "startYear": 2021,
             "endYear": 2024,
             "low": 14000,
@@ -859,7 +859,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Competitor 175 Sport / FSX:gen:2025-2026-x",
-        "label": "2025–2026 X-platform redesign",
+        "label": "2025\u20132026 X-platform redesign",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -894,7 +894,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Competitor 175 Sport / FSX:value:2025-2026-x",
-            "label": "2025–2026 X platform",
+            "label": "2025\u20132026 X platform",
             "startYear": 2025,
             "endYear": 2026,
             "low": 25000,
@@ -914,7 +914,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Competitor 185 Sport (Secondary; 175 is Primary)",
     "displayName": "Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary)",
-    "subtitle": "2011–2024 pre-X hull; 2025–2026 X redesign",
+    "subtitle": "2011\u20132024 pre-X hull; 2025\u20132026 X redesign",
     "badge": "Secondary",
     "lowPrice": 8000,
     "highPrice": 46000,
@@ -929,7 +929,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2011–2024 pre-X hull; 2025–2026 X redesign"
+        "value": "2011\u20132024 pre-X hull; 2025\u20132026 X redesign"
       },
       {
         "label": "Recommendation",
@@ -985,7 +985,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -1033,7 +1033,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -1044,7 +1044,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):gen:2011-2014",
-        "label": "2011–2014 pre-X production identity",
+        "label": "2011\u20132014 pre-X production identity",
         "startYear": 2011,
         "endYear": 2014,
         "status": "source-exhausted-partial",
@@ -1063,7 +1063,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):value:2011-2014",
-            "label": "2011–2014",
+            "label": "2011\u20132014",
             "startYear": 2011,
             "endYear": 2014,
             "low": 8000,
@@ -1074,7 +1074,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):gen:2015-2024",
-        "label": "2015–2024 pre-X factory generation",
+        "label": "2015\u20132024 pre-X factory generation",
         "startYear": 2015,
         "endYear": 2024,
         "status": "factory-documented-continuity",
@@ -1113,7 +1113,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):value:2015-2020",
-            "label": "2015–2020",
+            "label": "2015\u20132020",
             "startYear": 2015,
             "endYear": 2020,
             "low": 11000,
@@ -1122,7 +1122,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):value:2021-2024",
-            "label": "2021–2024",
+            "label": "2021\u20132024",
             "startYear": 2021,
             "endYear": 2024,
             "low": 16000,
@@ -1137,7 +1137,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):gen:2025-2026-x",
-        "label": "2025–2026 X-platform redesign",
+        "label": "2025\u20132026 X-platform redesign",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -1172,7 +1172,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Competitor 185 Sport (Secondary; 175 is Primary):value:2025-2026-x",
-            "label": "2025–2026 X platform",
+            "label": "2025\u20132026 X platform",
             "startYear": 2025,
             "endYear": 2026,
             "low": 28000,
@@ -1192,7 +1192,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "*Dominator 165 Sport",
     "displayName": "*Alumacraft | Dominator 165 Sport",
-    "subtitle": "2006, 2007, and 2008–2013 factory/roster generations",
+    "subtitle": "2006, 2007, and 2008\u20132013 factory/roster generations",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 9000,
@@ -1207,7 +1207,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006, 2007, and 2008–2013 factory/roster generations"
+        "value": "2006, 2007, and 2008\u20132013 factory/roster generations"
       },
       {
         "label": "Recommendation",
@@ -1263,7 +1263,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -1299,7 +1299,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "No matching Dominator Sport 165 was found in the 2000–2005 annual rosters. The old open-ended pre-2006 placeholder was removed rather than pretending the earlier 16-foot Dominator was the same boat."
+        "value": "No matching Dominator Sport 165 was found in the 2000\u20132005 annual rosters. The old open-ended pre-2006 placeholder was removed rather than pretending the earlier 16-foot Dominator was the same boat."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -1311,7 +1311,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -1484,11 +1484,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Dominator 165 Sport:gen:2008-2013",
-        "label": "2008–2013 documented core-hull continuity",
+        "label": "2008\u20132013 documented core-hull continuity",
         "startYear": 2008,
         "endYear": 2013,
         "status": "factory-documented-continuity",
-        "specificationBasis": "Factory tables document the full core specification through 2011; 2012–2013 annual rosters continue the same 1,250-lb Sport identity. Equipment details can vary.",
+        "specificationBasis": "Factory tables document the full core specification through 2011; 2012\u20132013 annual rosters continue the same 1,250-lb Sport identity. Equipment details can vary.",
         "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY11-Catalog-ENUS.pdf",
         "evidenceUrls": [
           "https://www.jdpower.com/boats/2008/alumacraft-boat-co",
@@ -1559,7 +1559,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Dominator 165 Sport:value:2008-2009",
-            "label": "2008–2009",
+            "label": "2008\u20132009",
             "startYear": 2008,
             "endYear": 2009,
             "low": 3500,
@@ -1568,7 +1568,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Dominator 165 Sport:value:2010-2013",
-            "label": "2010–2013",
+            "label": "2010\u20132013",
             "startYear": 2010,
             "endYear": 2013,
             "low": 5500,
@@ -1588,7 +1588,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "*Dominator 175 Sport",
     "displayName": "*Alumacraft | Dominator 175 Sport",
-    "subtitle": "2006–2015 production across five documented evidence ranges",
+    "subtitle": "2006\u20132015 production across five documented evidence ranges",
     "badge": "Primary",
     "lowPrice": 5000,
     "highPrice": 14000,
@@ -1603,7 +1603,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006–2015 production across five documented evidence ranges"
+        "value": "2006\u20132015 production across five documented evidence ranges"
       },
       {
         "label": "Recommendation",
@@ -1659,7 +1659,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -1707,7 +1707,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -1880,7 +1880,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Dominator 175 Sport:gen:2008-2010",
-        "label": "2008–2010 documented hull specification",
+        "label": "2008\u20132010 documented hull specification",
         "startYear": 2008,
         "endYear": 2010,
         "status": "factory-documented-snapshot",
@@ -1952,7 +1952,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Dominator 175 Sport:value:2008-2009",
-            "label": "2008–2009",
+            "label": "2008\u20132009",
             "startYear": 2008,
             "endYear": 2009,
             "low": 5000,
@@ -1976,7 +1976,7 @@ window.BOATBUILDER_BOATS = [
         "startYear": 2011,
         "endYear": 2011,
         "status": "factory-documented-snapshot",
-        "specificationBasis": "2011 factory table retains the 2008–2010 hull dimensions but changes certified capacity from five persons/1,245 lb to six persons/1,370 lb.",
+        "specificationBasis": "2011 factory table retains the 2008\u20132010 hull dimensions but changes certified capacity from five persons/1,245 lb to six persons/1,370 lb.",
         "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY11-Catalog-ENUS.pdf",
         "evidenceUrls": [
           "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY11-Catalog-ENUS.pdf"
@@ -2053,7 +2053,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Dominator 175 Sport:gen:2012-2015",
-        "label": "2012–2015 model identity and dry-weight continuity",
+        "label": "2012\u20132015 model identity and dry-weight continuity",
         "startYear": 2012,
         "endYear": 2015,
         "status": "source-exhausted-partial",
@@ -2076,7 +2076,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Dominator 175 Sport:value:2012-2015",
-            "label": "2012–2015",
+            "label": "2012\u20132015",
             "startYear": 2012,
             "endYear": 2015,
             "low": 8000,
@@ -2102,7 +2102,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Dominator 185 Sport (Secondary; 175 is Primary)",
     "displayName": "Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary)",
-    "subtitle": "2011–2015 production; 2011 exact factory introduction",
+    "subtitle": "2011\u20132015 production; 2011 exact factory introduction",
     "badge": "Secondary",
     "lowPrice": 8000,
     "highPrice": 16500,
@@ -2117,7 +2117,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2011–2015 production; 2011 exact factory introduction"
+        "value": "2011\u20132015 production; 2011 exact factory introduction"
       },
       {
         "label": "Recommendation",
@@ -2173,7 +2173,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -2221,7 +2221,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -2310,7 +2310,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary):gen:2012-2015",
-        "label": "2012–2015 production identity and dry-weight continuity",
+        "label": "2012\u20132015 production identity and dry-weight continuity",
         "startYear": 2012,
         "endYear": 2015,
         "status": "source-exhausted-partial",
@@ -2333,7 +2333,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary):value:2012-2013",
-            "label": "2012–2013",
+            "label": "2012\u20132013",
             "startYear": 2012,
             "endYear": 2013,
             "low": 8500,
@@ -2342,7 +2342,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Dominator 185 Sport (Secondary; 175 is Primary):value:2014-2015",
-            "label": "2014–2015",
+            "label": "2014\u20132015",
             "startYear": 2014,
             "endYear": 2015,
             "low": 10000,
@@ -2368,7 +2368,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Edge Sport 175",
     "displayName": "Alumacraft | Edge Sport 175",
-    "subtitle": "2016–2021 documented production generation",
+    "subtitle": "2016\u20132021 documented production generation",
     "badge": "Secondary",
     "lowPrice": 10000,
     "highPrice": 23500,
@@ -2383,7 +2383,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016–2021 documented production generation"
+        "value": "2016\u20132021 documented production generation"
       },
       {
         "label": "Recommendation",
@@ -2439,7 +2439,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -2487,7 +2487,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -2498,7 +2498,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Edge Sport 175:gen:2016-2021",
-        "label": "2016–2021 factory/roster generation",
+        "label": "2016\u20132021 factory/roster generation",
         "startYear": 2016,
         "endYear": 2021,
         "status": "factory-documented-continuity",
@@ -2573,7 +2573,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Edge Sport 175:value:2016-2018",
-            "label": "2016–2018",
+            "label": "2016\u20132018",
             "startYear": 2016,
             "endYear": 2018,
             "low": 10000,
@@ -2582,7 +2582,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Edge Sport 175:value:2019-2021",
-            "label": "2019–2021",
+            "label": "2019\u20132021",
             "startYear": 2019,
             "endYear": 2021,
             "low": 14000,
@@ -2610,7 +2610,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Edge Sport 185",
     "displayName": "Alumacraft | Edge Sport 185",
-    "subtitle": "2016–2021 documented production generation",
+    "subtitle": "2016\u20132021 documented production generation",
     "badge": "Secondary",
     "lowPrice": 12000,
     "highPrice": 28000,
@@ -2625,7 +2625,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2016–2021 documented production generation"
+        "value": "2016\u20132021 documented production generation"
       },
       {
         "label": "Recommendation",
@@ -2681,7 +2681,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "150–175"
+        "value": "150\u2013175"
       },
       {
         "label": "Persons",
@@ -2729,7 +2729,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -2740,7 +2740,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Edge Sport 185:gen:2016-2021",
-        "label": "2016–2021 factory/roster generation",
+        "label": "2016\u20132021 factory/roster generation",
         "startYear": 2016,
         "endYear": 2021,
         "status": "factory-documented-continuity",
@@ -2815,7 +2815,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Edge Sport 185:value:2016-2018",
-            "label": "2016–2018",
+            "label": "2016\u20132018",
             "startYear": 2016,
             "endYear": 2018,
             "low": 12000,
@@ -2824,7 +2824,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Edge Sport 185:value:2019-2021",
-            "label": "2019–2021",
+            "label": "2019\u20132021",
             "startYear": 2019,
             "endYear": 2021,
             "low": 16000,
@@ -2883,7 +2883,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "16–18 ft by model/year"
+        "value": "16\u201318 ft by model/year"
       },
       {
         "label": "Beam",
@@ -2971,7 +2971,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -2990,7 +2990,7 @@ window.BOATBUILDER_BOATS = [
         "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/1990-1999/Catalogs/ALUMA-MY95-Catalog-ENUS.pdf",
         "specs": {
           "Length": {
-            "value": "16–18 ft by model/year",
+            "value": "16\u201318 ft by model/year",
             "confidence": "catalog-representative"
           },
           "Beam": {
@@ -3067,7 +3067,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "*Navigator Sport 165",
     "displayName": "*Alumacraft | Navigator Sport 165",
-    "subtitle": "2005–2013 production; 2010 exact factory snapshot",
+    "subtitle": "2005\u20132013 production; 2010 exact factory snapshot",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 10500,
@@ -3082,7 +3082,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2005–2013 production; 2010 exact factory snapshot"
+        "value": "2005\u20132013 production; 2010 exact factory snapshot"
       },
       {
         "label": "Recommendation",
@@ -3138,7 +3138,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -3186,7 +3186,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -3197,7 +3197,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Navigator Sport 165:gen:2005-2009",
-        "label": "2005–2009 model identity and dry-weight continuity",
+        "label": "2005\u20132009 model identity and dry-weight continuity",
         "startYear": 2005,
         "endYear": 2009,
         "status": "source-exhausted-partial",
@@ -3224,7 +3224,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Navigator Sport 165:value:2005-2009",
-            "label": "2005–2009",
+            "label": "2005\u20132009",
             "startYear": 2005,
             "endYear": 2009,
             "low": 3500,
@@ -3328,7 +3328,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Navigator Sport 165:gen:2011-2013",
-        "label": "2011–2013 production identity and dry-weight continuity",
+        "label": "2011\u20132013 production identity and dry-weight continuity",
         "startYear": 2011,
         "endYear": 2013,
         "status": "source-exhausted-partial",
@@ -3355,7 +3355,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Navigator Sport 165:value:2011-2013",
-            "label": "2011–2013",
+            "label": "2011\u20132013",
             "startYear": 2011,
             "endYear": 2013,
             "low": 6000,
@@ -3380,7 +3380,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "*Navigator Sport 175",
     "displayName": "*Alumacraft | Navigator Sport 175",
-    "subtitle": "2004–2013 production across six evidence ranges",
+    "subtitle": "2004\u20132013 production across six evidence ranges",
     "badge": "Primary",
     "lowPrice": 4000,
     "highPrice": 11500,
@@ -3395,7 +3395,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2004–2013 production across six evidence ranges"
+        "value": "2004\u20132013 production across six evidence ranges"
       },
       {
         "label": "Recommendation",
@@ -3451,7 +3451,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -3499,7 +3499,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -3510,7 +3510,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Navigator Sport 175:gen:2004-2005",
-        "label": "2004–2005 production identity",
+        "label": "2004\u20132005 production identity",
         "startYear": 2004,
         "endYear": 2005,
         "status": "source-exhausted-partial",
@@ -3533,7 +3533,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Navigator Sport 175:value:2004-2005",
-            "label": "2004–2005",
+            "label": "2004\u20132005",
             "startYear": 2004,
             "endYear": 2005,
             "low": 4000,
@@ -3710,7 +3710,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Navigator Sport 175:gen:2008-2010",
-        "label": "2008–2010 documented hull specification",
+        "label": "2008\u20132010 documented hull specification",
         "startYear": 2008,
         "endYear": 2010,
         "status": "factory-documented-snapshot",
@@ -3782,7 +3782,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Navigator Sport 175:value:2008-2009",
-            "label": "2008–2009",
+            "label": "2008\u20132009",
             "startYear": 2008,
             "endYear": 2009,
             "low": 4500,
@@ -3806,7 +3806,7 @@ window.BOATBUILDER_BOATS = [
         "startYear": 2011,
         "endYear": 2011,
         "status": "factory-documented-snapshot",
-        "specificationBasis": "2011 factory table retains the 2008–2010 core hull but changes certified load capacity to 1,370 lb.",
+        "specificationBasis": "2011 factory table retains the 2008\u20132010 core hull but changes certified load capacity to 1,370 lb.",
         "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY11-Catalog-ENUS.pdf",
         "evidenceUrls": [
           "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY11-Catalog-ENUS.pdf"
@@ -3883,7 +3883,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Navigator Sport 175:gen:2012-2013",
-        "label": "2012–2013 production identity and dry-weight continuity",
+        "label": "2012\u20132013 production identity and dry-weight continuity",
         "startYear": 2012,
         "endYear": 2013,
         "status": "source-exhausted-partial",
@@ -3906,7 +3906,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Navigator Sport 175:value:2012-2013",
-            "label": "2012–2013",
+            "label": "2012\u20132013",
             "startYear": 2012,
             "endYear": 2013,
             "low": 7000,
@@ -3930,7 +3930,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Tournament Pro 185",
     "displayName": "Alumacraft | Tournament Pro 185",
-    "subtitle": "2002–2010 earlier identities; 2015–2021 modern generation",
+    "subtitle": "2002\u20132010 earlier identities; 2015\u20132021 modern generation",
     "badge": "Secondary",
     "lowPrice": 5000,
     "highPrice": 21000,
@@ -3945,7 +3945,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2002–2010 earlier identities; 2015–2021 modern generation"
+        "value": "2002\u20132010 earlier identities; 2015\u20132021 modern generation"
       },
       {
         "label": "Recommendation",
@@ -4001,7 +4001,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -4049,7 +4049,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -4060,7 +4060,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Tournament Pro 185:gen:2002-2006",
-        "label": "2002–2006 earlier Tournament Pro 185 identity",
+        "label": "2002\u20132006 earlier Tournament Pro 185 identity",
         "startYear": 2002,
         "endYear": 2006,
         "status": "source-exhausted-partial",
@@ -4083,7 +4083,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Tournament Pro 185:value:2002-2006",
-            "label": "2002–2006",
+            "label": "2002\u20132006",
             "startYear": 2002,
             "endYear": 2006,
             "low": 5000,
@@ -4101,7 +4101,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Tournament Pro 185:gen:2007-2010",
-        "label": "2007–2010 lighter Tournament Pro 185 identity",
+        "label": "2007\u20132010 lighter Tournament Pro 185 identity",
         "startYear": 2007,
         "endYear": 2010,
         "status": "source-exhausted-partial",
@@ -4124,7 +4124,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Tournament Pro 185:value:2007-2010",
-            "label": "2007–2010",
+            "label": "2007\u20132010",
             "startYear": 2007,
             "endYear": 2010,
             "low": 6000,
@@ -4141,11 +4141,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Tournament Pro 185:gen:2015-2021",
-        "label": "2015–2021 modern Sport/CS generation",
+        "label": "2015\u20132021 modern Sport/CS generation",
         "startYear": 2015,
         "endYear": 2021,
         "status": "factory-documented-continuity",
-        "specificationBasis": "2016 exact factory table plus annual rosters at 1,680 lb through 2021. No matching 185 production is assigned to the 2011–2014 gap.",
+        "specificationBasis": "2016 exact factory table plus annual rosters at 1,680 lb through 2021. No matching 185 production is assigned to the 2011\u20132014 gap.",
         "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
         "specs": {
           "Length": {
@@ -4157,7 +4157,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -4173,7 +4173,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -4216,7 +4216,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Tournament Pro 185:value:2015-2018",
-            "label": "2015–2018",
+            "label": "2015\u20132018",
             "startYear": 2015,
             "endYear": 2018,
             "low": 9000,
@@ -4225,7 +4225,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Tournament Pro 185:value:2019-2021",
-            "label": "2019–2021",
+            "label": "2019\u20132021",
             "startYear": 2019,
             "endYear": 2021,
             "low": 12000,
@@ -4254,7 +4254,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Trophy 170 (Secondary; 81-inch beam)",
     "displayName": "Alumacraft | Trophy 170 (Secondary; 81-inch beam)",
-    "subtitle": "1988–1996 production across four evidence ranges",
+    "subtitle": "1988\u20131996 production across four evidence ranges",
     "badge": "Secondary",
     "lowPrice": 1500,
     "highPrice": 5000,
@@ -4269,7 +4269,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1988–1996 production across four evidence ranges"
+        "value": "1988\u20131996 production across four evidence ranges"
       },
       {
         "label": "Recommendation",
@@ -4325,7 +4325,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -4361,7 +4361,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Capable older deep-V, but the 81-inch beam, carpeted interior and age make it a Secondary choice. Conflicting 1988–1989 weight records are withheld rather than guessed."
+        "value": "Capable older deep-V, but the 81-inch beam, carpeted interior and age make it a Secondary choice. Conflicting 1988\u20131989 weight records are withheld rather than guessed."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -4373,7 +4373,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet; not a washdown-friendly factory interior."
+        "value": "POOR \u2014 Primarily carpet; not a washdown-friendly factory interior."
       },
       {
         "label": "Research Status",
@@ -4384,7 +4384,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1988-1989",
-        "label": "1988–1989 early Trophy 170 identity",
+        "label": "1988\u20131989 early Trophy 170 identity",
         "startYear": 1988,
         "endYear": 1989,
         "status": "model-identity-source-exhausted",
@@ -4394,7 +4394,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1988-1989",
-            "label": "1988–1989",
+            "label": "1988\u20131989",
             "startYear": 1988,
             "endYear": 1989,
             "low": 1500,
@@ -4439,7 +4439,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1991-1992",
-        "label": "1991–1992 published-weight variation",
+        "label": "1991\u20131992 published-weight variation",
         "startYear": 1991,
         "endYear": 1992,
         "status": "source-exhausted-partial",
@@ -4458,7 +4458,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1991-1992",
-            "label": "1991–1992",
+            "label": "1991\u20131992",
             "startYear": 1991,
             "endYear": 1992,
             "low": 2000,
@@ -4473,7 +4473,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1993-1994",
-        "label": "1993–1994 1,084-lb roster variation",
+        "label": "1993\u20131994 1,084-lb roster variation",
         "startYear": 1993,
         "endYear": 1994,
         "status": "source-exhausted-partial",
@@ -4492,7 +4492,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1993-1994",
-            "label": "1993–1994",
+            "label": "1993\u20131994",
             "startYear": 1993,
             "endYear": 1994,
             "low": 2500,
@@ -4628,7 +4628,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "*Trophy 175 Sport",
     "displayName": "*Alumacraft | Trophy 175 Sport",
-    "subtitle": "1998–2024 legacy/pre-X generations; 2025–2026 X redesign",
+    "subtitle": "1998\u20132024 legacy/pre-X generations; 2025\u20132026 X redesign",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 46000,
@@ -4643,7 +4643,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1998–2024 legacy/pre-X generations; 2025–2026 X redesign"
+        "value": "1998\u20132024 legacy/pre-X generations; 2025\u20132026 X redesign"
       },
       {
         "label": "Recommendation",
@@ -4699,7 +4699,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -4735,7 +4735,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2007–2024 17-foot-8-inch Trophy is the desirable generation for this search and could be ordered with all-vinyl flooring. The current 19-foot-2-inch X platform is a different, substantially more expensive boat."
+        "value": "The 2007\u20132024 17-foot-8-inch Trophy is the desirable generation for this search and could be ordered with all-vinyl flooring. The current 19-foot-2-inch X platform is a different, substantially more expensive boat."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -4747,7 +4747,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -4758,7 +4758,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Trophy 175 Sport:gen:1998-2000",
-        "label": "1998–2000 early Trophy 175 Sport",
+        "label": "1998\u20132000 early Trophy 175 Sport",
         "startYear": 1998,
         "endYear": 2000,
         "status": "source-exhausted-partial",
@@ -4781,7 +4781,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 175 Sport:value:1998-2000",
-            "label": "1998–2000",
+            "label": "1998\u20132000",
             "startYear": 1998,
             "endYear": 2000,
             "low": 3000,
@@ -4831,7 +4831,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Trophy 175 Sport:gen:2002-2006",
-        "label": "2002–2006 1,215-lb Trophy 175 identity",
+        "label": "2002\u20132006 1,215-lb Trophy 175 identity",
         "startYear": 2002,
         "endYear": 2006,
         "status": "source-exhausted-partial",
@@ -4854,7 +4854,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 175 Sport:value:2002-2006",
-            "label": "2002–2006",
+            "label": "2002\u20132006",
             "startYear": 2002,
             "endYear": 2006,
             "low": 4000,
@@ -4872,7 +4872,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Trophy 175 Sport:gen:2007-2024",
-        "label": "2007–2024 pre-X 17-foot-8-inch generation",
+        "label": "2007\u20132024 pre-X 17-foot-8-inch generation",
         "startYear": 2007,
         "endYear": 2024,
         "status": "factory-documented-continuity",
@@ -4947,7 +4947,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 175 Sport:value:2007-2012",
-            "label": "2007–2012",
+            "label": "2007\u20132012",
             "startYear": 2007,
             "endYear": 2012,
             "low": 6000,
@@ -4956,7 +4956,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Trophy 175 Sport:value:2013-2018",
-            "label": "2013–2018",
+            "label": "2013\u20132018",
             "startYear": 2013,
             "endYear": 2018,
             "low": 8000,
@@ -4965,7 +4965,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Trophy 175 Sport:value:2019-2024",
-            "label": "2019–2024",
+            "label": "2019\u20132024",
             "startYear": 2019,
             "endYear": 2024,
             "low": 14000,
@@ -4981,7 +4981,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Trophy 175 Sport:gen:2025-2026-x",
-        "label": "2025–2026 Trophy 175X redesign",
+        "label": "2025\u20132026 Trophy 175X redesign",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -5016,7 +5016,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 175 Sport:value:2025-2026-x",
-            "label": "2025–2026 X platform",
+            "label": "2025\u20132026 X platform",
             "startYear": 2025,
             "endYear": 2026,
             "low": 28000,
@@ -5036,7 +5036,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Trophy 185 Sport (Secondary; 175 is Primary)",
     "displayName": "Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary)",
-    "subtitle": "1997–2024 legacy/pre-X identities; 2025–2026 X redesign",
+    "subtitle": "1997\u20132024 legacy/pre-X identities; 2025\u20132026 X redesign",
     "badge": "Secondary",
     "lowPrice": 4000,
     "highPrice": 50000,
@@ -5051,7 +5051,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997–2024 legacy/pre-X identities; 2025–2026 X redesign"
+        "value": "1997\u20132024 legacy/pre-X identities; 2025\u20132026 X redesign"
       },
       {
         "label": "Recommendation",
@@ -5107,7 +5107,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "150–175"
+        "value": "150\u2013175"
       },
       {
         "label": "Persons",
@@ -5155,7 +5155,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Full-vinyl factory packages existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Full-vinyl factory packages existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -5166,7 +5166,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):gen:1997-2001",
-        "label": "1997–2001 early Trophy 185 identity",
+        "label": "1997\u20132001 early Trophy 185 identity",
         "startYear": 1997,
         "endYear": 2001,
         "status": "source-exhausted-partial",
@@ -5189,7 +5189,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:1997-2001",
-            "label": "1997–2001",
+            "label": "1997\u20132001",
             "startYear": 1997,
             "endYear": 2001,
             "low": 4000,
@@ -5207,7 +5207,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):gen:2002-2006",
-        "label": "2002–2006 intermediate Trophy 185 identity",
+        "label": "2002\u20132006 intermediate Trophy 185 identity",
         "startYear": 2002,
         "endYear": 2006,
         "status": "source-exhausted-partial",
@@ -5230,7 +5230,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:2002-2006",
-            "label": "2002–2006",
+            "label": "2002\u20132006",
             "startYear": 2002,
             "endYear": 2006,
             "low": 5000,
@@ -5248,7 +5248,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):gen:2007-2024",
-        "label": "2007–2024 pre-X 18-foot-8-inch generation",
+        "label": "2007\u20132024 pre-X 18-foot-8-inch generation",
         "startYear": 2007,
         "endYear": 2024,
         "status": "factory-documented-continuity",
@@ -5323,7 +5323,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:2007-2012",
-            "label": "2007–2012",
+            "label": "2007\u20132012",
             "startYear": 2007,
             "endYear": 2012,
             "low": 7000,
@@ -5332,7 +5332,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:2013-2018",
-            "label": "2013–2018",
+            "label": "2013\u20132018",
             "startYear": 2013,
             "endYear": 2018,
             "low": 10000,
@@ -5341,7 +5341,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:2019-2024",
-            "label": "2019–2024",
+            "label": "2019\u20132024",
             "startYear": 2019,
             "endYear": 2024,
             "low": 16000,
@@ -5352,7 +5352,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):gen:2025-2026-x",
-        "label": "2025–2026 Trophy 185X redesign",
+        "label": "2025\u20132026 Trophy 185X redesign",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -5387,7 +5387,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 185 Sport (Secondary; 175 is Primary):value:2025-2026-x",
-            "label": "2025–2026 X platform",
+            "label": "2025\u20132026 X platform",
             "startYear": 2025,
             "endYear": 2026,
             "low": 30000,
@@ -5407,7 +5407,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Alumacraft",
     "model": "Voyageur 175 Sport",
     "displayName": "Alumacraft | Voyageur 175 Sport",
-    "subtitle": "2014–2026 documented factory/roster generation",
+    "subtitle": "2014\u20132026 documented factory/roster generation",
     "badge": "Secondary",
     "lowPrice": 7000,
     "highPrice": 26000,
@@ -5422,7 +5422,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2026 documented factory/roster generation"
+        "value": "2014\u20132026 documented factory/roster generation"
       },
       {
         "label": "Recommendation",
@@ -5526,7 +5526,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is easy to clean, but carpet remains on raised decks."
+        "value": "GOOD \u2014 Vinyl cockpit is easy to clean, but carpet remains on raised decks."
       },
       {
         "label": "Research Status",
@@ -5537,7 +5537,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Alumacraft | Voyageur 175 Sport:gen:2014-2026",
-        "label": "2014–2026 documented 1,070-lb generation",
+        "label": "2014\u20132026 documented 1,070-lb generation",
         "startYear": 2014,
         "endYear": 2026,
         "status": "factory-documented-continuity",
@@ -5612,7 +5612,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Voyageur 175 Sport:value:2014-2018",
-            "label": "2014–2018",
+            "label": "2014\u20132018",
             "startYear": 2014,
             "endYear": 2018,
             "low": 7000,
@@ -5621,7 +5621,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Voyageur 175 Sport:value:2019-2022",
-            "label": "2019–2022",
+            "label": "2019\u20132022",
             "startYear": 2019,
             "endYear": 2022,
             "low": 11000,
@@ -5630,7 +5630,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Alumacraft | Voyageur 175 Sport:value:2023-2026",
-            "label": "2023–2026",
+            "label": "2023\u20132026",
             "startYear": 2023,
             "endYear": 2026,
             "low": 15000,
@@ -5664,7 +5664,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "*Fish Hawk 1700 WT",
     "displayName": "*Crestliner | Fish Hawk 1700 WT",
-    "subtitle": "2007–2010 documented Fish Hawk 1700 generation",
+    "subtitle": "2007\u20132010 documented Fish Hawk 1700 generation",
     "badge": "Primary",
     "lowPrice": 4000,
     "highPrice": 8500,
@@ -5679,7 +5679,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2010 documented Fish Hawk 1700 generation"
+        "value": "2007\u20132010 documented Fish Hawk 1700 generation"
       },
       {
         "label": "Recommendation",
@@ -5735,7 +5735,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -5767,11 +5767,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
-        "value": "The broad “other years” placeholder is removed. Surviving annual rosters close this 1700 generation at 2010."
+        "value": "The broad \u201cother years\u201d placeholder is removed. Surviving annual rosters close this 1700 generation at 2010."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -5783,7 +5783,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -5794,11 +5794,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Fish Hawk 1700 WT:gen:2007-2010",
-        "label": "2007–2010 factory-supported Fish Hawk 1700 generation",
+        "label": "2007\u20132010 factory-supported Fish Hawk 1700 generation",
         "startYear": 2007,
         "endYear": 2010,
         "status": "factory-supported-generation",
-        "specificationBasis": "2007–2008 factory tables and 2009–2010 annual rosters repeat the 1,100-lb console / 1,050-lb tiller generation.",
+        "specificationBasis": "2007\u20132008 factory tables and 2009\u20132010 annual rosters repeat the 1,100-lb console / 1,050-lb tiller generation.",
         "sourceUrl": "https://www.crestliner.com/content/dam/crestliner/promotions/catalogs/CL_Crestliner-Catalog-2008.pdf",
         "specs": {
           "Length": {
@@ -5826,7 +5826,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "12°",
+            "value": "12\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -5893,7 +5893,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "*Fish Hawk 1750 WT / full-windshield DC",
     "displayName": "*Crestliner | Fish Hawk 1750 WT / full-windshield DC",
-    "subtitle": "2002–2026 documented model line; early, 2014 redesign and current AP-X generations separated",
+    "subtitle": "2002\u20132026 documented model line; early, 2014 redesign and current AP-X generations separated",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 50000,
@@ -5908,7 +5908,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2002–2026 documented model line; early, 2014 redesign and current AP-X generations separated"
+        "value": "2002\u20132026 documented model line; early, 2014 redesign and current AP-X generations separated"
       },
       {
         "label": "Recommendation",
@@ -5964,7 +5964,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -6012,7 +6012,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -6023,7 +6023,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2002-2006",
-        "label": "2002–2006 early Fish Hawk 1750 DC identity; detailed tables source-exhausted",
+        "label": "2002\u20132006 early Fish Hawk 1750 DC identity; detailed tables source-exhausted",
         "startYear": 2002,
         "endYear": 2006,
         "status": "model-identity-source-exhausted",
@@ -6044,11 +6044,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2007-2010",
-        "label": "2007–2010 1,100-lb factory-supported generation",
+        "label": "2007\u20132010 1,100-lb factory-supported generation",
         "startYear": 2007,
         "endYear": 2010,
         "status": "factory-supported-generation",
-        "specificationBasis": "The 2007 factory table and 2008–2010 annual rosters support the 1,100-lb full-windshield/console generation.",
+        "specificationBasis": "The 2007 factory table and 2008\u20132010 annual rosters support the 1,100-lb full-windshield/console generation.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -6076,7 +6076,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "12°",
+            "value": "12\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -6130,7 +6130,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2011-2013",
-        "label": "2011–2013 continuing 1,100-lb generation",
+        "label": "2011\u20132013 continuing 1,100-lb generation",
         "startYear": 2011,
         "endYear": 2013,
         "status": "factory-supported-generation",
@@ -6162,7 +6162,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "12°",
+            "value": "12\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -6216,7 +6216,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2014-2017",
-        "label": "2014–2017 17-foot-6-inch / 1,480-lb generation",
+        "label": "2014\u20132017 17-foot-6-inch / 1,480-lb generation",
         "startYear": 2014,
         "endYear": 2017,
         "status": "secondary-supported-generation",
@@ -6266,7 +6266,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2018-2023",
-        "label": "2018–2023 carryover 1,480-lb generation; full annual tables source-exhausted",
+        "label": "2018\u20132023 carryover 1,480-lb generation; full annual tables source-exhausted",
         "startYear": 2018,
         "endYear": 2023,
         "status": "source-exhausted-partial",
@@ -6304,7 +6304,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2024-2026",
-        "label": "2024–2026 current AP-X factory generation",
+        "label": "2024\u20132026 current AP-X factory generation",
         "startYear": 2024,
         "endYear": 2026,
         "status": "factory-current",
@@ -6324,7 +6324,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-current"
           },
           "Dry Hull Weight": {
-            "value": "1,463–1,625 lb by SC/WT configuration",
+            "value": "1,463\u20131,625 lb by SC/WT configuration",
             "confidence": "factory-current"
           },
           "Max / Bow Depth": {
@@ -6336,7 +6336,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-current"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "factory-current"
           },
           "Transom Height": {
@@ -6395,7 +6395,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Fish Hawk 1850 WT",
     "displayName": "Crestliner | Fish Hawk 1850 WT",
-    "subtitle": "2004–2026 documented model line; early, heavier carryover and current AP-X generations separated",
+    "subtitle": "2004\u20132026 documented model line; early, heavier carryover and current AP-X generations separated",
     "badge": "Primary",
     "lowPrice": 5500,
     "highPrice": 60000,
@@ -6410,7 +6410,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2004–2026 documented model line; early, heavier carryover and current AP-X generations separated"
+        "value": "2004\u20132026 documented model line; early, heavier carryover and current AP-X generations separated"
       },
       {
         "label": "Recommendation",
@@ -6466,7 +6466,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -6502,7 +6502,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Excellent Superior capability, but newer generations and 150–200-hp packages are usually heavier and more expensive than the project target."
+        "value": "Excellent Superior capability, but newer generations and 150\u2013200-hp packages are usually heavier and more expensive than the project target."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -6514,7 +6514,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -6525,11 +6525,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:2004-2013",
-        "label": "2004–2013 early Fish Hawk 1850 generation",
+        "label": "2004\u20132013 early Fish Hawk 1850 generation",
         "startYear": 2004,
         "endYear": 2013,
         "status": "factory-supported-generation",
-        "specificationBasis": "Year/model records establish the 1850 Fish Hawk by 2004; 2007 factory data and 2006–2013 rosters support the 18-foot-6-inch, 1,250–1,300-lb generation. Early exact options remain year-specific.",
+        "specificationBasis": "Year/model records establish the 1850 Fish Hawk by 2004; 2007 factory data and 2006\u20132013 rosters support the 18-foot-6-inch, 1,250\u20131,300-lb generation. Early exact options remain year-specific.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -6557,7 +6557,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "12°",
+            "value": "12\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -6611,11 +6611,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:2014-2023",
-        "label": "2014–2023 heavier 18-foot-6-inch generation",
+        "label": "2014\u20132023 heavier 18-foot-6-inch generation",
         "startYear": 2014,
         "endYear": 2023,
         "status": "secondary-supported-generation",
-        "specificationBasis": "2014 year-specific specifications and 2016–2023 annual rosters establish the heavier approximately 1,500-lb generation.",
+        "specificationBasis": "2014 year-specific specifications and 2016\u20132023 annual rosters establish the heavier approximately 1,500-lb generation.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -6631,7 +6631,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "secondary-verified"
           },
           "Dry Hull Weight": {
-            "value": "1,500–1,510 lb by configuration/year",
+            "value": "1,500\u20131,510 lb by configuration/year",
             "confidence": "secondary-year-roster"
           },
           "Max / Bow Depth": {
@@ -6643,7 +6643,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "secondary-verified"
           },
           "Deadrise": {
-            "value": "12°",
+            "value": "12\u00b0",
             "confidence": "secondary-verified"
           },
           "Transom Height": {
@@ -6697,7 +6697,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Fish Hawk 1850 WT:gen:2024-2026",
-        "label": "2024–2026 current AP-X factory generation",
+        "label": "2024\u20132026 current AP-X factory generation",
         "startYear": 2024,
         "endYear": 2026,
         "status": "factory-current",
@@ -6717,7 +6717,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-current"
           },
           "Dry Hull Weight": {
-            "value": "1,527–1,689 lb by SC/WT configuration",
+            "value": "1,527\u20131,689 lb by SC/WT configuration",
             "confidence": "factory-current"
           },
           "Max / Bow Depth": {
@@ -6729,7 +6729,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-current"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "factory-current"
           },
           "Transom Height": {
@@ -6788,7 +6788,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Phantom Sportfish V160",
     "displayName": "Crestliner | Phantom Sportfish V160",
-    "subtitle": "1991–1993 secondary-documented Phantom Sportfish identity",
+    "subtitle": "1991\u20131993 secondary-documented Phantom Sportfish identity",
     "badge": "Secondary",
     "lowPrice": 2000,
     "highPrice": 4000,
@@ -6803,7 +6803,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1993 secondary-documented Phantom Sportfish identity"
+        "value": "1991\u20131993 secondary-documented Phantom Sportfish identity"
       },
       {
         "label": "Recommendation",
@@ -6859,7 +6859,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -6895,7 +6895,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Documented 1991–1993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
+        "value": "Documented 1991\u20131993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -6907,7 +6907,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -6918,7 +6918,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Phantom Sportfish V160:gen:1991-1993",
-        "label": "1991–1993 Phantom Sportfish documented identity",
+        "label": "1991\u20131993 Phantom Sportfish documented identity",
         "startYear": 1991,
         "endYear": 1993,
         "status": "secondary-verified",
@@ -6993,7 +6993,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Crestliner | Phantom Sportfish V160:value:1991-1993",
-            "label": "1991–1993",
+            "label": "1991\u20131993",
             "startYear": 1991,
             "endYear": 1993,
             "low": 2000,
@@ -7013,7 +7013,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Phantom Sportfish V170",
     "displayName": "Crestliner | Phantom Sportfish V170",
-    "subtitle": "1991–1993 secondary-documented Phantom Sportfish identity",
+    "subtitle": "1991\u20131993 secondary-documented Phantom Sportfish identity",
     "badge": "Primary",
     "lowPrice": 2500,
     "highPrice": 4800,
@@ -7028,7 +7028,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1993 secondary-documented Phantom Sportfish identity"
+        "value": "1991\u20131993 secondary-documented Phantom Sportfish identity"
       },
       {
         "label": "Recommendation",
@@ -7084,7 +7084,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -7120,7 +7120,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Documented 1991–1993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
+        "value": "Documented 1991\u20131993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -7132,7 +7132,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -7143,7 +7143,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Phantom Sportfish V170:gen:1991-1993",
-        "label": "1991–1993 Phantom Sportfish documented identity",
+        "label": "1991\u20131993 Phantom Sportfish documented identity",
         "startYear": 1991,
         "endYear": 1993,
         "status": "secondary-verified",
@@ -7218,7 +7218,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Crestliner | Phantom Sportfish V170:value:1991-1993",
-            "label": "1991–1993",
+            "label": "1991\u20131993",
             "startYear": 1991,
             "endYear": 1993,
             "low": 2500,
@@ -7238,7 +7238,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Phantom Sportfish V180",
     "displayName": "Crestliner | Phantom Sportfish V180",
-    "subtitle": "1991–1993 secondary-documented Phantom Sportfish identity",
+    "subtitle": "1991\u20131993 secondary-documented Phantom Sportfish identity",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 5500,
@@ -7253,7 +7253,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1993 secondary-documented Phantom Sportfish identity"
+        "value": "1991\u20131993 secondary-documented Phantom Sportfish identity"
       },
       {
         "label": "Recommendation",
@@ -7309,7 +7309,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -7345,7 +7345,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Documented 1991–1993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
+        "value": "Documented 1991\u20131993 Phantom Sportfish identity. Verify capacity plate, propulsion and windshield configuration; incomplete factory tables are not supplemented from neighboring models."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -7357,7 +7357,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -7368,7 +7368,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Phantom Sportfish V180:gen:1991-1993",
-        "label": "1991–1993 Phantom Sportfish documented identity",
+        "label": "1991\u20131993 Phantom Sportfish documented identity",
         "startYear": 1991,
         "endYear": 1993,
         "status": "secondary-verified",
@@ -7443,7 +7443,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Crestliner | Phantom Sportfish V180:value:1991-1993",
-            "label": "1991–1993",
+            "label": "1991\u20131993",
             "startYear": 1991,
             "endYear": 1993,
             "low": 3000,
@@ -7463,7 +7463,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Sport Angler 1650",
     "displayName": "Crestliner | Sport Angler 1650",
-    "subtitle": "2005–2010 documented production with annual horsepower certification changes",
+    "subtitle": "2005\u20132010 documented production with annual horsepower certification changes",
     "badge": "Secondary",
     "lowPrice": 3500,
     "highPrice": 8500,
@@ -7478,7 +7478,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2005–2010 documented production with annual horsepower certification changes"
+        "value": "2005\u20132010 documented production with annual horsepower certification changes"
       },
       {
         "label": "Recommendation",
@@ -7534,7 +7534,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -7582,7 +7582,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -7593,7 +7593,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Sport Angler 1650:gen:2005-2007",
-        "label": "2005–2007 early Sport Angler 1650 generation; complete tables source-exhausted",
+        "label": "2005\u20132007 early Sport Angler 1650 generation; complete tables source-exhausted",
         "startYear": 2005,
         "endYear": 2007,
         "status": "source-exhausted-partial",
@@ -7609,7 +7609,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "secondary-year-roster"
           },
           "Max HP": {
-            "value": "90–115 by model year",
+            "value": "90\u2013115 by model year",
             "confidence": "secondary-year-roster"
           }
         },
@@ -7659,7 +7659,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "12°",
+            "value": "12\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -7713,11 +7713,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Sport Angler 1650:gen:2009-2010",
-        "label": "2009–2010 carryover factory-supported generation",
+        "label": "2009\u20132010 carryover factory-supported generation",
         "startYear": 2009,
         "endYear": 2010,
         "status": "factory-supported-generation",
-        "specificationBasis": "2009–2010 annual rosters repeat the 1,000-lb Sport Angler 1650; the 2008 factory table supplies the physical specification.",
+        "specificationBasis": "2009\u20132010 annual rosters repeat the 1,000-lb Sport Angler 1650; the 2008 factory table supplies the physical specification.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -7745,7 +7745,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "12°",
+            "value": "12\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -7808,7 +7808,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "*Sport Angler 1750",
     "displayName": "*Crestliner | Sport Angler 1750",
-    "subtitle": "2006–2010 documented production; 2008 exact factory table",
+    "subtitle": "2006\u20132010 documented production; 2008 exact factory table",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 10000,
@@ -7823,7 +7823,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006–2010 documented production; 2008 exact factory table"
+        "value": "2006\u20132010 documented production; 2008 exact factory table"
       },
       {
         "label": "Recommendation",
@@ -7879,7 +7879,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -7927,7 +7927,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -7938,7 +7938,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Sport Angler 1750:gen:2006-2007",
-        "label": "2006–2007 early Sport Angler 1750 generation; full tables source-exhausted",
+        "label": "2006\u20132007 early Sport Angler 1750 generation; full tables source-exhausted",
         "startYear": 2006,
         "endYear": 2007,
         "status": "source-exhausted-partial",
@@ -8008,7 +8008,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -8062,11 +8062,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Sport Angler 1750:gen:2009-2010",
-        "label": "2009–2010 carryover factory-supported generation",
+        "label": "2009\u20132010 carryover factory-supported generation",
         "startYear": 2009,
         "endYear": 2010,
         "status": "factory-supported-generation",
-        "specificationBasis": "2009–2010 annual rosters repeat the 1,300-lb Sport Angler 1750; the 2008 factory table supplies the physical specification.",
+        "specificationBasis": "2009\u20132010 annual rosters repeat the 1,300-lb Sport Angler 1750; the 2008 factory table supplies the physical specification.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -8094,7 +8094,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -8157,7 +8157,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Sportfish 1750",
     "displayName": "Crestliner | Sportfish 1750",
-    "subtitle": "2000–2005 documented 1750 outboard model; older V175 Sportfish I/O excluded",
+    "subtitle": "2000\u20132005 documented 1750 outboard model; older V175 Sportfish I/O excluded",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 9000,
@@ -8172,7 +8172,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000–2005 documented 1750 outboard model; older V175 Sportfish I/O excluded"
+        "value": "2000\u20132005 documented 1750 outboard model; older V175 Sportfish I/O excluded"
       },
       {
         "label": "Recommendation",
@@ -8228,7 +8228,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -8264,7 +8264,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 1990–2005 unresolved span incorrectly mixed this later 1750 outboard with the materially different 1990s V175 Sportfish sterndrive. That older boat is excluded from this record."
+        "value": "The former 1990\u20132005 unresolved span incorrectly mixed this later 1750 outboard with the materially different 1990s V175 Sportfish sterndrive. That older boat is excluded from this record."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -8276,7 +8276,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -8287,7 +8287,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Sportfish 1750:gen:2000-2003",
-        "label": "2000–2003 1750 Sportfish outboard identity; detailed tables source-exhausted",
+        "label": "2000\u20132003 1750 Sportfish outboard identity; detailed tables source-exhausted",
         "startYear": 2000,
         "endYear": 2003,
         "status": "model-identity-source-exhausted",
@@ -8313,7 +8313,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Sportfish 1750:gen:2004-2005",
-        "label": "2004–2005 later outboard generation",
+        "label": "2004\u20132005 later outboard generation",
         "startYear": 2004,
         "endYear": 2005,
         "status": "secondary-verified",
@@ -8411,7 +8411,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Sportfish 1850",
     "displayName": "Crestliner | Sportfish 1850",
-    "subtitle": "2000–2026 documented outboard line; 18-foot-2-inch, 18-foot-9-inch and current AP-X generations separated",
+    "subtitle": "2000\u20132026 documented outboard line; 18-foot-2-inch, 18-foot-9-inch and current AP-X generations separated",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 68000,
@@ -8426,7 +8426,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000–2026 documented outboard line; 18-foot-2-inch, 18-foot-9-inch and current AP-X generations separated"
+        "value": "2000\u20132026 documented outboard line; 18-foot-2-inch, 18-foot-9-inch and current AP-X generations separated"
       },
       {
         "label": "Recommendation",
@@ -8482,7 +8482,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "135–175"
+        "value": "135\u2013175"
       },
       {
         "label": "Persons",
@@ -8530,7 +8530,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -8541,11 +8541,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Sportfish 1850:gen:2000-2014",
-        "label": "2000–2014 early 18-foot-2-inch outboard line",
+        "label": "2000\u20132014 early 18-foot-2-inch outboard line",
         "startYear": 2000,
         "endYear": 2014,
         "status": "factory-supported-generation",
-        "specificationBasis": "Annual rosters establish the 1850 Sportfish outboard from 2000 through 2014. Factory 2007–2008 data and 2013 year-specific specifications support the 18-foot-2-inch generation; weight and horsepower changed during the span.",
+        "specificationBasis": "Annual rosters establish the 1850 Sportfish outboard from 2000 through 2014. Factory 2007\u20132008 data and 2013 year-specific specifications support the 18-foot-2-inch generation; weight and horsepower changed during the span.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -8561,7 +8561,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
-            "value": "1,400–1,470 lb by model year",
+            "value": "1,400\u20131,470 lb by model year",
             "confidence": "year-specific-secondary"
           },
           "Max / Bow Depth": {
@@ -8573,7 +8573,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -8631,11 +8631,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Sportfish 1850:gen:2015-2023",
-        "label": "2015–2023 18-foot-9-inch / 1,700-lb generation",
+        "label": "2015\u20132023 18-foot-9-inch / 1,700-lb generation",
         "startYear": 2015,
         "endYear": 2023,
         "status": "factory-supported-generation",
-        "specificationBasis": "2016–2018 year-specific records and annual rosters support the 18-foot-9-inch, 1,700-lb outboard generation. Production continuation is established through the pre-AP-X years.",
+        "specificationBasis": "2016\u20132018 year-specific records and annual rosters support the 18-foot-9-inch, 1,700-lb outboard generation. Production continuation is established through the pre-AP-X years.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -8717,7 +8717,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Sportfish 1850:gen:2024-2026",
-        "label": "2024–2026 current AP-X factory generation",
+        "label": "2024\u20132026 current AP-X factory generation",
         "startYear": 2024,
         "endYear": 2026,
         "status": "factory-current",
@@ -8749,7 +8749,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-current"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "factory-current"
           },
           "Transom Height": {
@@ -8808,7 +8808,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "*Super Hawk 1700 WT",
     "displayName": "*Crestliner | Super Hawk 1700 WT",
-    "subtitle": "2000–2012 documented production; 2008–2012 later 1,300-lb generation preserved",
+    "subtitle": "2000\u20132012 documented production; 2008\u20132012 later 1,300-lb generation preserved",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 9500,
@@ -8823,7 +8823,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000–2012 documented production; 2008–2012 later 1,300-lb generation preserved"
+        "value": "2000\u20132012 documented production; 2008\u20132012 later 1,300-lb generation preserved"
       },
       {
         "label": "Recommendation",
@@ -8879,7 +8879,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -8911,7 +8911,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -8927,7 +8927,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -8938,7 +8938,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Super Hawk 1700 WT:gen:2000-2007",
-        "label": "2000–2007 early Super Hawk 1700 line; detailed tables source-exhausted",
+        "label": "2000\u20132007 early Super Hawk 1700 line; detailed tables source-exhausted",
         "startYear": 2000,
         "endYear": 2007,
         "status": "model-identity-source-exhausted",
@@ -8964,11 +8964,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Super Hawk 1700 WT:gen:2008-2012",
-        "label": "2008–2012 1,300-lb factory-supported generation",
+        "label": "2008\u20132012 1,300-lb factory-supported generation",
         "startYear": 2008,
         "endYear": 2012,
         "status": "factory-supported-generation",
-        "specificationBasis": "The 2008 factory table and 2009–2012 annual records support the later 1,300-lb outboard generation.",
+        "specificationBasis": "The 2008 factory table and 2009\u20132012 annual records support the later 1,300-lb outboard generation.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -8996,7 +8996,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -9059,7 +9059,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Super Hawk 1800 WT",
     "displayName": "Crestliner | Super Hawk 1800 WT",
-    "subtitle": "2004–2012 documented production; replaced by the 1850 Super Hawk for 2013",
+    "subtitle": "2004\u20132012 documented production; replaced by the 1850 Super Hawk for 2013",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 12000,
@@ -9074,7 +9074,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2004–2012 documented production; replaced by the 1850 Super Hawk for 2013"
+        "value": "2004\u20132012 documented production; replaced by the 1850 Super Hawk for 2013"
       },
       {
         "label": "Recommendation",
@@ -9130,7 +9130,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -9178,7 +9178,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -9189,7 +9189,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Super Hawk 1800 WT:gen:2004-2007",
-        "label": "2004–2007 early Super Hawk 1800 line; exact propulsion tables source-exhausted",
+        "label": "2004\u20132007 early Super Hawk 1800 line; exact propulsion tables source-exhausted",
         "startYear": 2004,
         "endYear": 2007,
         "status": "model-identity-source-exhausted",
@@ -9210,11 +9210,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Super Hawk 1800 WT:gen:2008-2012",
-        "label": "2008–2012 later outboard factory-supported generation",
+        "label": "2008\u20132012 later outboard factory-supported generation",
         "startYear": 2008,
         "endYear": 2012,
         "status": "factory-supported-generation",
-        "specificationBasis": "2008 factory data and 2009–2012 annual rosters support the 1,470-lb outboard generation. The line was replaced by the 1850 Super Hawk for 2013.",
+        "specificationBasis": "2008 factory data and 2009\u20132012 annual rosters support the 1,470-lb outboard generation. The line was replaced by the 1850 Super Hawk for 2013.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -9242,7 +9242,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -9305,7 +9305,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Vision 1600 WT",
     "displayName": "Crestliner | Vision 1600 WT",
-    "subtitle": "2014–2018 documented model line; 2016–2018 factory-supported generation",
+    "subtitle": "2014\u20132018 documented model line; 2016\u20132018 factory-supported generation",
     "badge": "Secondary",
     "lowPrice": 6500,
     "highPrice": 15000,
@@ -9320,7 +9320,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2018 documented model line; 2016–2018 factory-supported generation"
+        "value": "2014\u20132018 documented model line; 2016\u20132018 factory-supported generation"
       },
       {
         "label": "Recommendation",
@@ -9376,7 +9376,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "50–60"
+        "value": "50\u201360"
       },
       {
         "label": "Persons",
@@ -9424,7 +9424,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -9435,7 +9435,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Vision 1600 WT:gen:2014-2015",
-        "label": "2014–2015 early Vision 1600 identity; complete tables source-exhausted",
+        "label": "2014\u20132015 early Vision 1600 identity; complete tables source-exhausted",
         "startYear": 2014,
         "endYear": 2015,
         "status": "model-identity-source-exhausted",
@@ -9456,11 +9456,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Vision 1600 WT:gen:2016-2018",
-        "label": "2016–2018 factory-supported Vision 1600 generation",
+        "label": "2016\u20132018 factory-supported Vision 1600 generation",
         "startYear": 2016,
         "endYear": 2018,
         "status": "factory-supported-generation",
-        "specificationBasis": "2016–2018 annual records and the 2017 factory table support the 935-lb Vision 1600 generation.",
+        "specificationBasis": "2016\u20132018 annual records and the 2017 factory table support the 935-lb Vision 1600 generation.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -9551,7 +9551,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Vision 1700 WT",
     "displayName": "Crestliner | Vision 1700 WT",
-    "subtitle": "2015–2018 documented model line; 2016–2018 factory-supported generation",
+    "subtitle": "2015\u20132018 documented model line; 2016\u20132018 factory-supported generation",
     "badge": "Primary",
     "lowPrice": 8000,
     "highPrice": 17000,
@@ -9566,7 +9566,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2015–2018 documented model line; 2016–2018 factory-supported generation"
+        "value": "2015\u20132018 documented model line; 2016\u20132018 factory-supported generation"
       },
       {
         "label": "Recommendation",
@@ -9622,7 +9622,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -9670,7 +9670,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl cockpit/full-vinyl packages existed; verify the exact package."
+        "value": "POSSIBLE \u2014 Vinyl cockpit/full-vinyl packages existed; verify the exact package."
       },
       {
         "label": "Research Status",
@@ -9702,11 +9702,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Vision 1700 WT:gen:2016-2018",
-        "label": "2016–2018 factory-supported Vision 1700 generation",
+        "label": "2016\u20132018 factory-supported Vision 1700 generation",
         "startYear": 2016,
         "endYear": 2018,
         "status": "factory-supported-generation",
-        "specificationBasis": "2016–2018 annual records, exact model fitment and the 2017 factory table support the 17-foot-6-inch / 1,190-lb generation.",
+        "specificationBasis": "2016\u20132018 annual records, exact model fitment and the 2017 factory table support the 17-foot-6-inch / 1,190-lb generation.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -9868,7 +9868,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -9916,7 +9916,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Prefer bare/vinyl welded interior; removable carpet is manageable."
+        "value": "GOOD \u2014 Prefer bare/vinyl welded interior; removable carpet is manageable."
       },
       {
         "label": "Research Status",
@@ -9939,7 +9939,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Beam": {
-            "value": "About 88\"–92\" by build",
+            "value": "About 88\"\u201392\" by build",
             "confidence": "catalog-representative"
           },
           "Chine / Bottom Width": {
@@ -9947,7 +9947,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "About 1,100–1,300 lb",
+            "value": "About 1,100\u20131,300 lb",
             "confidence": "catalog-representative"
           },
           "Max / Bow Depth": {
@@ -9971,7 +9971,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "115–150 representative",
+            "value": "115\u2013150 representative",
             "confidence": "catalog-representative"
           },
           "Persons": {
@@ -10022,11 +10022,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Fish-Rite | Stalker 17'6\":gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2019,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s–2010s; exact build varies",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s\u20132010s; exact build varies",
         "sourceUrl": "https://fishrite.com/",
         "specs": {},
         "eras": []
@@ -10112,7 +10112,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -10160,7 +10160,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -10266,11 +10266,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Fisher | Hawk 170 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1990,
         "endYear": 2009,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s\u20132000s; 2000\u20132002 representative",
         "sourceUrl": "https://www.boats.com/bird-of-prey/",
         "specs": {},
         "eras": []
@@ -10356,7 +10356,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -10404,7 +10404,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -10510,11 +10510,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Fisher | Hawk 186 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1990,
         "endYear": 2009,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s\u20132000s; 2000\u20132002 representative",
         "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
         "specs": {},
         "eras": []
@@ -10600,7 +10600,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "150–200"
+        "value": "150\u2013200"
       },
       {
         "label": "Persons",
@@ -10648,7 +10648,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -10754,11 +10754,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Fisher | Hawk 200 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1990,
         "endYear": 2009,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s\u20132000s; 2000\u20132002 representative",
         "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
         "specs": {},
         "eras": []
@@ -10844,7 +10844,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -10876,7 +10876,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -10892,7 +10892,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl packages existed; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl packages existed; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -10923,7 +10923,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "1,440–1,460 lb",
+            "value": "1,440\u20131,460 lb",
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
@@ -10998,11 +10998,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:G3 | Angler V172 FS / WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2019,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2009–2015; 2010/2013 basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2009\u20132015; 2010/2013 basis",
         "sourceUrl": "https://yamahaoutboards.com/getmedia/87968a24-1ac5-4281-9282-a4a9a487ed3f/pb_g3b_anglerv172f_f90la_2013-06-26_alm",
         "specs": {},
         "eras": []
@@ -11088,7 +11088,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -11136,7 +11136,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -11242,11 +11242,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:G3 | Angler V175 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2019,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2006–2015; 2013 performance-bulletin basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2006\u20132015; 2013 performance-bulletin basis",
         "sourceUrl": "https://yamahaoutboards.com/getmedia/98584d01-282d-4195-ab24-ef68129bf468/pb_g3b_anglerv175fs_f150xa_2013-06-26_alm",
         "specs": {},
         "eras": []
@@ -11332,7 +11332,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -11380,7 +11380,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl packages existed; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl packages existed; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -11477,7 +11477,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2019,
         "status": "unresolved",
@@ -11567,7 +11567,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -11615,7 +11615,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "EXCELLENT — Fishing-first welded interior; avoid permanently carpeted add-ons."
+        "value": "EXCELLENT \u2014 Fishing-first welded interior; avoid permanently carpeted add-ons."
       },
       {
         "label": "Research Status",
@@ -11658,7 +11658,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "31° forward / 11° amidships / 10° aft",
+            "value": "31\u00b0 forward / 11\u00b0 amidships / 10\u00b0 aft",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
@@ -11730,11 +11730,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Hewescraft | Sportsman 180:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2029,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s–present; 2024 specification basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s\u2013present; 2024 specification basis",
         "sourceUrl": "https://hewescraft.com/wp-content/uploads/2014/10/2024-Sportsman-Spreads.pdf",
         "specs": {},
         "eras": []
@@ -11868,7 +11868,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable, but raised decks remain carpeted."
+        "value": "GOOD \u2014 Vinyl cockpit is washable, but raised decks remain carpeted."
       },
       {
         "label": "Research Status",
@@ -11911,7 +11911,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Deadrise": {
-            "value": "10° representative",
+            "value": "10\u00b0 representative",
             "confidence": "catalog-representative"
           },
           "Transom Height": {
@@ -11974,7 +11974,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Legend | 16 Xcalibur full-windshield:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
@@ -12112,7 +12112,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable, but raised decks remain carpeted."
+        "value": "GOOD \u2014 Vinyl cockpit is washable, but raised decks remain carpeted."
       },
       {
         "label": "Research Status",
@@ -12143,7 +12143,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
-            "value": "1,175–1,225 lb representative",
+            "value": "1,175\u20131,225 lb representative",
             "confidence": "catalog-representative"
           },
           "Max / Bow Depth": {
@@ -12155,7 +12155,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
@@ -12218,7 +12218,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Legend | 18 Xcalibur full-windshield:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
@@ -12308,7 +12308,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -12356,7 +12356,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl factory option existed; reject carpet-package listings."
+        "value": "POSSIBLE \u2014 Vinyl factory option existed; reject carpet-package listings."
       },
       {
         "label": "Research Status",
@@ -12391,23 +12391,23 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Cockpit / Interior Depth": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Transom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Max HP": {
@@ -12427,11 +12427,11 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Construction": {
@@ -12453,7 +12453,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lowe | Fish & Ski 175:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2019,
         "status": "unresolved",
@@ -12543,7 +12543,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -12591,7 +12591,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -12688,7 +12688,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lowe | Fish & Ski FS165:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2019,
         "status": "unresolved",
@@ -12778,7 +12778,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -12826,7 +12826,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -12923,7 +12923,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lowe | Fish & Ski FS185:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2019,
         "status": "unresolved",
@@ -13013,7 +13013,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -13061,7 +13061,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit/main floor; carpet remains on raised fishing decks."
+        "value": "GOOD \u2014 Vinyl cockpit/main floor; carpet remains on raised fishing decks."
       },
       {
         "label": "Research Status",
@@ -13096,7 +13096,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Cockpit / Interior Depth": {
@@ -13104,7 +13104,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
@@ -13112,7 +13112,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Transom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Max HP": {
@@ -13136,7 +13136,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Construction": {
@@ -13158,7 +13158,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lowe | Fishing Machine 1775 WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2020,
         "endYear": 2029,
         "status": "unresolved",
@@ -13177,7 +13177,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Adventure Sport 1675",
     "displayName": "Lund | Adventure Sport 1675",
-    "subtitle": "2020–2023 plywood generation; 2024–2026 wood-free redesign",
+    "subtitle": "2020\u20132023 plywood generation; 2024\u20132026 wood-free redesign",
     "badge": "Secondary",
     "lowPrice": 16000,
     "highPrice": 36000,
@@ -13192,7 +13192,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2020–2023 plywood generation; 2024–2026 wood-free redesign"
+        "value": "2020\u20132023 plywood generation; 2024\u20132026 wood-free redesign"
       },
       {
         "label": "Recommendation",
@@ -13248,7 +13248,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -13280,11 +13280,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: exact factory full-windshield compact with manageable tow weight, but 2021 packages are normally above $14,000 and it has less rough-water reserve than wider 17–18 ft Primary choices."
+        "value": "Secondary: exact factory full-windshield compact with manageable tow weight, but 2021 packages are normally above $14,000 and it has less rough-water reserve than wider 17\u201318 ft Primary choices."
       },
       {
         "label": "Notes",
-        "value": "Compact full-windshield Adventure. The 2024 redesign is materially heavier and wood-free; it should not inherit 2020–2023 weight or value assumptions."
+        "value": "Compact full-windshield Adventure. The 2024 redesign is materially heavier and wood-free; it should not inherit 2020\u20132023 weight or value assumptions."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -13296,7 +13296,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor; seek the complete-vinyl option to eliminate deck carpet."
+        "value": "GOOD \u2014 Vinyl main floor; seek the complete-vinyl option to eliminate deck carpet."
       },
       {
         "label": "Research Status",
@@ -13307,11 +13307,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Adventure Sport 1675:gen:2020-2023",
-        "label": "2020–2023 pre-redesign plywood generation",
+        "label": "2020\u20132023 pre-redesign plywood generation",
         "startYear": 2020,
         "endYear": 2023,
         "status": "factory-generation",
-        "specificationBasis": "2021 factory table plus annual 2020–2023 model continuity; 2024 factory catalog explicitly announces redesign",
+        "specificationBasis": "2021 factory table plus annual 2020\u20132023 model continuity; 2024 factory catalog explicitly announces redesign",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/general/2021-Lund-Redbook.pdf",
         "specs": {
           "Length": {
@@ -13331,7 +13331,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Max / Bow Depth": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
@@ -13347,7 +13347,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Transom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Max HP": {
@@ -13382,7 +13382,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Adventure Sport 1675:value:2020-2021",
-            "label": "2020–2021",
+            "label": "2020\u20132021",
             "startYear": 2020,
             "endYear": 2021,
             "low": 16000,
@@ -13391,7 +13391,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Adventure Sport 1675:value:2022-2023",
-            "label": "2022–2023",
+            "label": "2022\u20132023",
             "startYear": 2022,
             "endYear": 2023,
             "low": 19000,
@@ -13402,7 +13402,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Adventure Sport 1675:gen:2024-2026",
-        "label": "2024–2026 wood-free redesign",
+        "label": "2024\u20132026 wood-free redesign",
         "startYear": 2024,
         "endYear": 2026,
         "status": "factory-generation",
@@ -13461,7 +13461,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Adventure Sport 1675:value:2024-2026",
-            "label": "2024–2026",
+            "label": "2024\u20132026",
             "startYear": 2024,
             "endYear": 2026,
             "low": 25000,
@@ -13481,7 +13481,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Alaskan 1800 Sport",
     "displayName": "Lund | Alaskan 1800 Sport",
-    "subtitle": "2003 Sport snapshot; modern Sport return 2019–2023",
+    "subtitle": "2003 Sport snapshot; modern Sport return 2019\u20132023",
     "badge": "Secondary",
     "lowPrice": 5000,
     "highPrice": 24000,
@@ -13496,7 +13496,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2003 Sport snapshot; modern Sport return 2019–2023"
+        "value": "2003 Sport snapshot; modern Sport return 2019\u20132023"
       },
       {
         "label": "Recommendation",
@@ -13552,7 +13552,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -13588,7 +13588,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The Sport name is not treated as continuously produced from 2003 through the 2010s. Seller listings from intervening years may instead be SS, DC, or informal “sport” descriptions."
+        "value": "The Sport name is not treated as continuously produced from 2003 through the 2010s. Seller listings from intervening years may instead be SS, DC, or informal \u201csport\u201d descriptions."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -13600,7 +13600,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; some carpet remains by package."
       },
       {
         "label": "Research Status",
@@ -13697,7 +13697,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Alaskan 1800 Sport:gen:2019-2020",
-        "label": "2019–2020 modern Sport identity",
+        "label": "2019\u20132020 modern Sport identity",
         "startYear": 2019,
         "endYear": 2020,
         "status": "source-exhausted-partial",
@@ -13728,7 +13728,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Alaskan 1800 Sport:value:2019-2020",
-            "label": "2019–2020",
+            "label": "2019\u20132020",
             "startYear": 2019,
             "endYear": 2020,
             "low": 12000,
@@ -13739,7 +13739,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Alaskan 1800 Sport:gen:2021-2023",
-        "label": "2021–2023 documented modern Sport/DC hull",
+        "label": "2021\u20132023 documented modern Sport/DC hull",
         "startYear": 2021,
         "endYear": 2023,
         "status": "factory-generation",
@@ -13798,7 +13798,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Alaskan 1800 Sport:value:2021-2023",
-            "label": "2021–2023",
+            "label": "2021\u20132023",
             "startYear": 2021,
             "endYear": 2023,
             "low": 16000,
@@ -13818,7 +13818,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Alaskan 1875 Sport (2024 redesign)",
     "displayName": "Lund | Alaskan 1875 Sport (2024 redesign)",
-    "subtitle": "2024–2026 redesigned wood-free platform",
+    "subtitle": "2024\u20132026 redesigned wood-free platform",
     "badge": "Secondary",
     "lowPrice": 24000,
     "highPrice": 34000,
@@ -13828,7 +13828,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2024–2026 redesigned wood-free platform"
+        "value": "2024\u20132026 redesigned wood-free platform"
       },
       {
         "label": "Recommendation",
@@ -13876,7 +13876,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–115"
+        "value": "75\u2013115"
       },
       {
         "label": "Persons",
@@ -13908,7 +13908,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Capable but normally above this project’s target budget. The redesigned 90-inch-beam hull is distinct from the old 83-inch 1800 Alaskan."
+        "value": "Capable but normally above this project\u2019s target budget. The redesigned 90-inch-beam hull is distinct from the old 83-inch 1800 Alaskan."
       },
       {
         "label": "Research Status",
@@ -13935,7 +13935,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Alaskan 1875 Sport (2024 redesign):gen:2024-2026",
-        "label": "2024–2026 wood-free Alaskan redesign",
+        "label": "2024\u20132026 wood-free Alaskan redesign",
         "startYear": 2024,
         "endYear": 2026,
         "status": "factory-generation",
@@ -14002,7 +14002,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Alaskan 1875 Sport (2024 redesign):value:2024-2026",
-            "label": "2024–2026",
+            "label": "2024\u20132026",
             "startYear": 2024,
             "endYear": 2026,
             "low": 24000,
@@ -14022,7 +14022,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Alaskan 2000 Sport",
     "displayName": "Lund | Alaskan 2000 Sport",
-    "subtitle": "2003 Sport snapshot; modern Sport return 2019–2023",
+    "subtitle": "2003 Sport snapshot; modern Sport return 2019\u20132023",
     "badge": "Secondary",
     "lowPrice": 6000,
     "highPrice": 28000,
@@ -14037,7 +14037,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2003 Sport snapshot; modern Sport return 2019–2023"
+        "value": "2003 Sport snapshot; modern Sport return 2019\u20132023"
       },
       {
         "label": "Recommendation",
@@ -14093,7 +14093,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–125"
+        "value": "115\u2013125"
       },
       {
         "label": "Persons",
@@ -14129,7 +14129,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Twenty-foot Alaskan packages are strong big-water boats but are normally a weaker fit for the Maverick and budget than 17–18-foot walk-through choices."
+        "value": "Twenty-foot Alaskan packages are strong big-water boats but are normally a weaker fit for the Maverick and budget than 17\u201318-foot walk-through choices."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -14141,7 +14141,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; some carpet remains by package."
       },
       {
         "label": "Research Status",
@@ -14238,7 +14238,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Alaskan 2000 Sport:gen:2019-2020",
-        "label": "2019–2020 modern Sport identity",
+        "label": "2019\u20132020 modern Sport identity",
         "startYear": 2019,
         "endYear": 2020,
         "status": "source-exhausted-partial",
@@ -14269,7 +14269,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Alaskan 2000 Sport:value:2019-2020",
-            "label": "2019–2020",
+            "label": "2019\u20132020",
             "startYear": 2019,
             "endYear": 2020,
             "low": 15000,
@@ -14280,7 +14280,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Alaskan 2000 Sport:gen:2021-2023",
-        "label": "2021–2023 documented modern Sport/DC hull",
+        "label": "2021\u20132023 documented modern Sport/DC hull",
         "startYear": 2021,
         "endYear": 2023,
         "status": "factory-generation",
@@ -14339,7 +14339,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Alaskan 2000 Sport:value:2021-2023",
-            "label": "2021–2023",
+            "label": "2021\u20132023",
             "startYear": 2021,
             "endYear": 2023,
             "low": 19000,
@@ -14359,7 +14359,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Angler Sport 1650",
     "displayName": "Lund | Angler Sport 1650",
-    "subtitle": "2021–2024 865-pound Sport; 2025–2026 heavier current configuration",
+    "subtitle": "2021\u20132024 865-pound Sport; 2025\u20132026 heavier current configuration",
     "badge": "Secondary",
     "lowPrice": 12000,
     "highPrice": 24000,
@@ -14374,7 +14374,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2021–2024 865-pound Sport; 2025–2026 heavier current configuration"
+        "value": "2021\u20132024 865-pound Sport; 2025\u20132026 heavier current configuration"
       },
       {
         "label": "Recommendation",
@@ -14430,7 +14430,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "50–60"
+        "value": "50\u201360"
       },
       {
         "label": "Persons",
@@ -14478,7 +14478,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor; seek the complete-vinyl option to eliminate deck carpet."
+        "value": "GOOD \u2014 Vinyl main floor; seek the complete-vinyl option to eliminate deck carpet."
       },
       {
         "label": "Research Status",
@@ -14489,7 +14489,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Angler Sport 1650:gen:2021-2024",
-        "label": "2021–2024 Angler Sport configuration",
+        "label": "2021\u20132024 Angler Sport configuration",
         "startYear": 2021,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -14564,7 +14564,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Angler Sport 1650:value:2021-2022",
-            "label": "2021–2022",
+            "label": "2021\u20132022",
             "startYear": 2021,
             "endYear": 2022,
             "low": 12000,
@@ -14573,7 +14573,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Angler Sport 1650:value:2023-2024",
-            "label": "2023–2024",
+            "label": "2023\u20132024",
             "startYear": 2023,
             "endYear": 2024,
             "low": 14000,
@@ -14584,7 +14584,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Angler Sport 1650:gen:2025-2026",
-        "label": "2025–2026 current heavier Sport configuration",
+        "label": "2025\u20132026 current heavier Sport configuration",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-generation",
@@ -14659,7 +14659,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Angler Sport 1650:value:2025-2026",
-            "label": "2025–2026",
+            "label": "2025\u20132026",
             "startYear": 2025,
             "endYear": 2026,
             "low": 17000,
@@ -14679,7 +14679,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Crossover XS 1675",
     "displayName": "Lund | Crossover XS 1675",
-    "subtitle": "2014–2017 production; published weight revision by 2017",
+    "subtitle": "2014\u20132017 production; published weight revision by 2017",
     "badge": "Secondary",
     "lowPrice": 12000,
     "highPrice": 21000,
@@ -14694,7 +14694,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2017 production; published weight revision by 2017"
+        "value": "2014\u20132017 production; published weight revision by 2017"
       },
       {
         "label": "Recommendation",
@@ -14750,7 +14750,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -14782,11 +14782,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: excellent compact geometry, but early Crossover packages below $14,000 are uncommon and the 16'10\" hull gives less working room than Primary 17–18 ft targets."
+        "value": "Secondary: excellent compact geometry, but early Crossover packages below $14,000 are uncommon and the 16'10\" hull gives less working room than Primary 17\u201318 ft targets."
       },
       {
         "label": "Notes",
-        "value": "A strong compact walk-through design, but clean packages generally sit above the project’s preferred price band."
+        "value": "A strong compact walk-through design, but clean packages generally sit above the project\u2019s preferred price band."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -14798,7 +14798,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; some carpet remains by package."
       },
       {
         "label": "Research Status",
@@ -14809,11 +14809,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Crossover XS 1675:gen:2014-2016",
-        "label": "2014–2016 original Crossover XS 1675 hull",
+        "label": "2014\u20132016 original Crossover XS 1675 hull",
         "startYear": 2014,
         "endYear": 2016,
         "status": "factory-generation",
-        "specificationBasis": "2014 factory table; 2015–2016 annual records repeat 16'10\", 92-inch core hull",
+        "specificationBasis": "2014 factory table; 2015\u20132016 annual records repeat 16'10\", 92-inch core hull",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
         "specs": {
           "Length": {
@@ -14825,7 +14825,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
@@ -14841,7 +14841,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "catalog-representative"
           },
           "Transom Height": {
@@ -14884,7 +14884,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Crossover XS 1675:value:2014-2016",
-            "label": "2014–2016",
+            "label": "2014\u20132016",
             "startYear": 2014,
             "endYear": 2016,
             "low": 12000,
@@ -14911,7 +14911,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
@@ -14927,7 +14927,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "catalog-representative"
           },
           "Transom Height": {
@@ -14990,7 +14990,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Crossover XS 1775",
     "displayName": "Lund | Crossover XS 1775",
-    "subtitle": "2013–2025 established 1,450-pound platform; 2026 redesign",
+    "subtitle": "2013\u20132025 established 1,450-pound platform; 2026 redesign",
     "badge": "Secondary",
     "lowPrice": 13000,
     "highPrice": 49000,
@@ -15005,7 +15005,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2013–2025 established 1,450-pound platform; 2026 redesign"
+        "value": "2013\u20132025 established 1,450-pound platform; 2026 redesign"
       },
       {
         "label": "Recommendation",
@@ -15061,7 +15061,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -15109,7 +15109,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; some carpet remains by package."
       },
       {
         "label": "Research Status",
@@ -15120,7 +15120,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Crossover XS 1775:gen:2013-2016",
-        "label": "2013–2016 original 1775 Crossover XS platform",
+        "label": "2013\u20132016 original 1775 Crossover XS platform",
         "startYear": 2013,
         "endYear": 2016,
         "status": "factory-generation",
@@ -15136,7 +15136,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -15152,7 +15152,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -15195,7 +15195,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Crossover XS 1775:value:2013-2014",
-            "label": "2013–2014",
+            "label": "2013\u20132014",
             "startYear": 2013,
             "endYear": 2014,
             "low": 13000,
@@ -15204,7 +15204,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Crossover XS 1775:value:2015-2016",
-            "label": "2015–2016",
+            "label": "2015\u20132016",
             "startYear": 2015,
             "endYear": 2016,
             "low": 15000,
@@ -15215,7 +15215,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Crossover XS 1775:gen:2017-2021",
-        "label": "2017–2021 carryover 1,450-pound platform",
+        "label": "2017\u20132021 carryover 1,450-pound platform",
         "startYear": 2017,
         "endYear": 2021,
         "status": "annual-record-continuity",
@@ -15231,7 +15231,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -15247,7 +15247,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -15290,7 +15290,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Crossover XS 1775:value:2017-2019",
-            "label": "2017–2019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 17000,
@@ -15299,7 +15299,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Crossover XS 1775:value:2020-2021",
-            "label": "2020–2021",
+            "label": "2020\u20132021",
             "startYear": 2020,
             "endYear": 2021,
             "low": 20000,
@@ -15310,7 +15310,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Crossover XS 1775:gen:2022-2025",
-        "label": "2022–2025 late carryover platform",
+        "label": "2022\u20132025 late carryover platform",
         "startYear": 2022,
         "endYear": 2025,
         "status": "annual-record-continuity",
@@ -15326,7 +15326,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -15342,7 +15342,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -15385,7 +15385,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Crossover XS 1775:value:2022-2023",
-            "label": "2022–2023",
+            "label": "2022\u20132023",
             "startYear": 2022,
             "endYear": 2023,
             "low": 22000,
@@ -15394,7 +15394,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Crossover XS 1775:value:2024-2025",
-            "label": "2024–2025",
+            "label": "2024\u20132025",
             "startYear": 2024,
             "endYear": 2025,
             "low": 25000,
@@ -15488,7 +15488,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Crossover XS 1875",
     "displayName": "Lund | Crossover XS 1875",
-    "subtitle": "2012–2025 established 1,558-pound platform; 2026 redesign",
+    "subtitle": "2012\u20132025 established 1,558-pound platform; 2026 redesign",
     "badge": "Secondary",
     "lowPrice": 14000,
     "highPrice": 54000,
@@ -15503,7 +15503,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012–2025 established 1,558-pound platform; 2026 redesign"
+        "value": "2012\u20132025 established 1,558-pound platform; 2026 redesign"
       },
       {
         "label": "Recommendation",
@@ -15559,7 +15559,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "150–175"
+        "value": "150\u2013175"
       },
       {
         "label": "Persons",
@@ -15595,7 +15595,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Excellent water capability, but price, size and package weight make it a poor “ideal” marker for this particular search."
+        "value": "Excellent water capability, but price, size and package weight make it a poor \u201cideal\u201d marker for this particular search."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -15607,7 +15607,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; some carpet remains by package."
       },
       {
         "label": "Research Status",
@@ -15618,7 +15618,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Crossover XS 1875:gen:2012-2016",
-        "label": "2012–2016 original 1875 Crossover XS platform",
+        "label": "2012\u20132016 original 1875 Crossover XS platform",
         "startYear": 2012,
         "endYear": 2016,
         "status": "factory-generation",
@@ -15634,7 +15634,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -15650,7 +15650,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -15693,7 +15693,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Crossover XS 1875:value:2012-2014",
-            "label": "2012–2014",
+            "label": "2012\u20132014",
             "startYear": 2012,
             "endYear": 2014,
             "low": 14000,
@@ -15702,7 +15702,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Crossover XS 1875:value:2015-2016",
-            "label": "2015–2016",
+            "label": "2015\u20132016",
             "startYear": 2015,
             "endYear": 2016,
             "low": 16000,
@@ -15713,7 +15713,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Crossover XS 1875:gen:2017-2021",
-        "label": "2017–2021 carryover 1,558-pound platform",
+        "label": "2017\u20132021 carryover 1,558-pound platform",
         "startYear": 2017,
         "endYear": 2021,
         "status": "annual-record-continuity",
@@ -15729,7 +15729,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -15745,7 +15745,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -15788,7 +15788,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Crossover XS 1875:value:2017-2019",
-            "label": "2017–2019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 18000,
@@ -15797,7 +15797,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Crossover XS 1875:value:2020-2021",
-            "label": "2020–2021",
+            "label": "2020\u20132021",
             "startYear": 2020,
             "endYear": 2021,
             "low": 21000,
@@ -15808,7 +15808,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Crossover XS 1875:gen:2022-2025",
-        "label": "2022–2025 late carryover platform",
+        "label": "2022\u20132025 late carryover platform",
         "startYear": 2022,
         "endYear": 2025,
         "status": "annual-record-continuity",
@@ -15824,7 +15824,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -15840,7 +15840,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -15883,7 +15883,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Crossover XS 1875:value:2022-2023",
-            "label": "2022–2023",
+            "label": "2022\u20132023",
             "startYear": 2022,
             "endYear": 2023,
             "low": 24000,
@@ -15892,7 +15892,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Crossover XS 1875:value:2024-2025",
-            "label": "2024–2025",
+            "label": "2024\u20132025",
             "startYear": 2024,
             "endYear": 2025,
             "low": 27000,
@@ -15986,7 +15986,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "*Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
     "displayName": "Lund | *Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
-    "subtitle": "2008–2012 documented 17-foot-4-inch platform",
+    "subtitle": "2008\u20132012 documented 17-foot-4-inch platform",
     "badge": "Primary",
     "lowPrice": 7000,
     "highPrice": 13000,
@@ -16001,7 +16001,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008–2012 documented 17-foot-4-inch platform"
+        "value": "2008\u20132012 documented 17-foot-4-inch platform"
       },
       {
         "label": "Recommendation",
@@ -16057,7 +16057,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -16089,7 +16089,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -16105,7 +16105,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl main-floor packages existed on some years; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -16116,7 +16116,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):gen:2008-2012",
-        "label": "2008–2012 Explorer Sport 1725 platform",
+        "label": "2008\u20132012 Explorer Sport 1725 platform",
         "startYear": 2008,
         "endYear": 2012,
         "status": "factory-generation",
@@ -16191,7 +16191,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2008-2009",
-            "label": "2008–2009",
+            "label": "2008\u20132009",
             "startYear": 2008,
             "endYear": 2009,
             "low": 7000,
@@ -16200,7 +16200,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2010-2012",
-            "label": "2010–2012",
+            "label": "2010\u20132012",
             "startYear": 2010,
             "endYear": 2012,
             "low": 8500,
@@ -16220,7 +16220,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "*Explorer Sport 1825",
     "displayName": "Lund | *Explorer Sport 1825",
-    "subtitle": "2008–2012 documented 18-foot-4-inch platform",
+    "subtitle": "2008\u20132012 documented 18-foot-4-inch platform",
     "badge": "Primary",
     "lowPrice": 8000,
     "highPrice": 15500,
@@ -16235,7 +16235,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008–2012 documented 18-foot-4-inch platform"
+        "value": "2008\u20132012 documented 18-foot-4-inch platform"
       },
       {
         "label": "Recommendation",
@@ -16291,7 +16291,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -16327,7 +16327,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "A strong Superior-capable layout with a wide hull. Verify loaded trailer weight and motor size, but ordinary packages remain within the Maverick’s limit."
+        "value": "A strong Superior-capable layout with a wide hull. Verify loaded trailer weight and motor size, but ordinary packages remain within the Maverick\u2019s limit."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -16339,7 +16339,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl main-floor packages existed on some years; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -16350,7 +16350,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Explorer Sport 1825:gen:2008-2012",
-        "label": "2008–2012 Explorer Sport 1825 platform",
+        "label": "2008\u20132012 Explorer Sport 1825 platform",
         "startYear": 2008,
         "endYear": 2012,
         "status": "factory-generation",
@@ -16425,7 +16425,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Explorer Sport 1825:value:2008-2009",
-            "label": "2008–2009",
+            "label": "2008\u20132009",
             "startYear": 2008,
             "endYear": 2009,
             "low": 8000,
@@ -16434,7 +16434,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Explorer Sport 1825:value:2010-2012",
-            "label": "2010–2012",
+            "label": "2010\u20132012",
             "startYear": 2010,
             "endYear": 2012,
             "low": 10000,
@@ -16454,7 +16454,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "*Fisherman 1750 (Pro Fisherman-era name)",
     "displayName": "Lund | *Fisherman 1750 (Pro Fisherman-era name)",
-    "subtitle": "2007–2010 documented 1,345-pound Fisherman platform",
+    "subtitle": "2007\u20132010 documented 1,345-pound Fisherman platform",
     "badge": "Primary",
     "lowPrice": 7500,
     "highPrice": 14000,
@@ -16469,7 +16469,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2010 documented 1,345-pound Fisherman platform"
+        "value": "2007\u20132010 documented 1,345-pound Fisherman platform"
       },
       {
         "label": "Recommendation",
@@ -16525,7 +16525,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -16557,7 +16557,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -16573,7 +16573,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl main-floor packages existed on some years; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -16584,11 +16584,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):gen:2007-2010",
-        "label": "2007–2010 Fisherman 1750 platform",
+        "label": "2007\u20132010 Fisherman 1750 platform",
         "startYear": 2007,
         "endYear": 2010,
         "status": "factory-generation",
-        "specificationBasis": "2008 factory table plus annual 2007–2010 rosters; the model is absent from the 2012 roster",
+        "specificationBasis": "2008 factory table plus annual 2007\u20132010 rosters; the model is absent from the 2012 roster",
         "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
         "specs": {
           "Length": {
@@ -16659,7 +16659,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2007-2008",
-            "label": "2007–2008",
+            "label": "2007\u20132008",
             "startYear": 2007,
             "endYear": 2008,
             "low": 7500,
@@ -16668,7 +16668,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2009-2010",
-            "label": "2009–2010",
+            "label": "2009\u20132010",
             "startYear": 2009,
             "endYear": 2010,
             "low": 9000,
@@ -16688,7 +16688,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "*Fisherman 1800 OB / full-windshield",
     "displayName": "Lund | *Fisherman 1800 OB / full-windshield",
-    "subtitle": "1997–1999 light hull; 2000–2002 revision; 2003–2006 1,475-pound platform",
+    "subtitle": "1997\u20131999 light hull; 2000\u20132002 revision; 2003\u20132006 1,475-pound platform",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 13500,
@@ -16703,7 +16703,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997–1999 light hull; 2000–2002 revision; 2003–2006 1,475-pound platform"
+        "value": "1997\u20131999 light hull; 2000\u20132002 revision; 2003\u20132006 1,475-pound platform"
       },
       {
         "label": "Recommendation",
@@ -16759,7 +16759,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -16807,7 +16807,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl main-floor packages existed on some years; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -16818,7 +16818,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Fisherman 1800 OB / full-windshield:gen:1997-1999",
-        "label": "1997–1999 early 1800 Fisherman outboard",
+        "label": "1997\u20131999 early 1800 Fisherman outboard",
         "startYear": 1997,
         "endYear": 1999,
         "status": "source-exhausted-partial",
@@ -16893,7 +16893,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:1997-1999",
-            "label": "1997–1999",
+            "label": "1997\u20131999",
             "startYear": 1997,
             "endYear": 1999,
             "low": 4500,
@@ -16904,7 +16904,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Fisherman 1800 OB / full-windshield:gen:2000-2002",
-        "label": "2000–2002 1,455-pound revision",
+        "label": "2000\u20132002 1,455-pound revision",
         "startYear": 2000,
         "endYear": 2002,
         "status": "source-exhausted-partial",
@@ -16979,7 +16979,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2000-2002",
-            "label": "2000–2002",
+            "label": "2000\u20132002",
             "startYear": 2000,
             "endYear": 2002,
             "low": 5500,
@@ -16990,11 +16990,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Fisherman 1800 OB / full-windshield:gen:2003-2006",
-        "label": "2003–2006 1,475-pound outboard platform",
+        "label": "2003\u20132006 1,475-pound outboard platform",
         "startYear": 2003,
         "endYear": 2006,
         "status": "factory-generation",
-        "specificationBasis": "2004 exact factory table supported by annual 2003–2006 model records",
+        "specificationBasis": "2004 exact factory table supported by annual 2003\u20132006 model records",
         "sourceUrl": "https://library.rvusa.com/brochure/2004.pdf",
         "specs": {
           "Length": {
@@ -17065,7 +17065,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2003-2004",
-            "label": "2003–2004",
+            "label": "2003\u20132004",
             "startYear": 2003,
             "endYear": 2004,
             "low": 7000,
@@ -17074,7 +17074,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2005-2006",
-            "label": "2005–2006",
+            "label": "2005\u20132006",
             "startYear": 2005,
             "endYear": 2006,
             "low": 8500,
@@ -17094,7 +17094,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "*Impact Sport 1775",
     "displayName": "Lund | *Impact Sport 1775",
-    "subtitle": "2012–2017 17-foot-9-inch platform; 2018–2021 deeper/wider revision",
+    "subtitle": "2012\u20132017 17-foot-9-inch platform; 2018\u20132021 deeper/wider revision",
     "badge": "Primary",
     "lowPrice": 8500,
     "highPrice": 22500,
@@ -17109,7 +17109,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012–2017 17-foot-9-inch platform; 2018–2021 deeper/wider revision"
+        "value": "2012\u20132017 17-foot-9-inch platform; 2018\u20132021 deeper/wider revision"
       },
       {
         "label": "Recommendation",
@@ -17165,7 +17165,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -17213,7 +17213,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; some carpet remains by package."
       },
       {
         "label": "Research Status",
@@ -17224,11 +17224,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Impact Sport 1775:gen:2012-2017",
-        "label": "2012–2017 original non-XS Impact Sport 1775",
+        "label": "2012\u20132017 original non-XS Impact Sport 1775",
         "startYear": 2012,
         "endYear": 2017,
         "status": "factory-generation",
-        "specificationBasis": "2012–2017 annual records and 2014 factory table repeat the 17'9\", 94-inch, 1,220-pound Sport identity",
+        "specificationBasis": "2012\u20132017 annual records and 2014 factory table repeat the 17'9\", 94-inch, 1,220-pound Sport identity",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
         "specs": {
           "Length": {
@@ -17240,7 +17240,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -17256,7 +17256,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -17299,7 +17299,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Impact Sport 1775:value:2012-2014",
-            "label": "2012–2014",
+            "label": "2012\u20132014",
             "startYear": 2012,
             "endYear": 2014,
             "low": 8500,
@@ -17308,7 +17308,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Impact Sport 1775:value:2015-2017",
-            "label": "2015–2017",
+            "label": "2015\u20132017",
             "startYear": 2015,
             "endYear": 2017,
             "low": 10500,
@@ -17319,7 +17319,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Impact Sport 1775:gen:2018-2021",
-        "label": "2018–2021 wider/deeper non-XS Impact Sport",
+        "label": "2018\u20132021 wider/deeper non-XS Impact Sport",
         "startYear": 2018,
         "endYear": 2021,
         "status": "factory-generation",
@@ -17378,7 +17378,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Impact Sport 1775:value:2018-2019",
-            "label": "2018–2019",
+            "label": "2018\u20132019",
             "startYear": 2018,
             "endYear": 2019,
             "low": 12500,
@@ -17387,7 +17387,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Impact Sport 1775:value:2020-2021",
-            "label": "2020–2021",
+            "label": "2020\u20132021",
             "startYear": 2020,
             "endYear": 2021,
             "low": 15000,
@@ -17407,7 +17407,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Mr Pike 17",
     "displayName": "Lund | Mr Pike 17",
-    "subtitle": "1999–2001 early identity; 2002 redesign; 2003–2006 heavier continuation",
+    "subtitle": "1999\u20132001 early identity; 2002 redesign; 2003\u20132006 heavier continuation",
     "badge": "Secondary",
     "lowPrice": 4000,
     "highPrice": 10500,
@@ -17417,12 +17417,12 @@ window.BOATBUILDER_BOATS = [
       "url": "https://www.walleye.com/wp-content/uploads/gravity_forms/4-8bd3b58ac0c4282110ee961cfb96dc8e/2020/02/Todd_Ellgren_boat1.jpg",
       "source": "https://www.walleye.com/fishing-boats-for-sale/2005-lund-fisherman-1800-18ft-389/",
       "matchQuality": "Same family",
-      "note": "Period Lund Fisherman photo used only as a general 17–18-foot fishing-layout stand-in for Mr Pike 17; not exact."
+      "note": "Period Lund Fisherman photo used only as a general 17\u201318-foot fishing-layout stand-in for Mr Pike 17; not exact."
     },
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1999–2001 early identity; 2002 redesign; 2003–2006 heavier continuation"
+        "value": "1999\u20132001 early identity; 2002 redesign; 2003\u20132006 heavier continuation"
       },
       {
         "label": "Recommendation",
@@ -17478,7 +17478,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -17526,7 +17526,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -17537,7 +17537,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Mr Pike 17:gen:1999-2001",
-        "label": "1999–2001 early Mr Pike 17",
+        "label": "1999\u20132001 early Mr Pike 17",
         "startYear": 1999,
         "endYear": 2001,
         "status": "source-exhausted-partial",
@@ -17560,7 +17560,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Mr Pike 17:value:1999-2001",
-            "label": "1999–2001",
+            "label": "1999\u20132001",
             "startYear": 1999,
             "endYear": 2001,
             "low": 4000,
@@ -17615,7 +17615,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "Verify capacity plate; 2002 packages commonly 125–135 hp",
+            "value": "Verify capacity plate; 2002 packages commonly 125\u2013135 hp",
             "confidence": "catalog-representative"
           },
           "Persons": {
@@ -17657,7 +17657,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Mr Pike 17:gen:2003-2006",
-        "label": "2003–2006 later Mr Pike 17 identity",
+        "label": "2003\u20132006 later Mr Pike 17 identity",
         "startYear": 2003,
         "endYear": 2006,
         "status": "source-exhausted-partial",
@@ -17680,7 +17680,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Mr Pike 17:value:2003-2004",
-            "label": "2003–2004",
+            "label": "2003\u20132004",
             "startYear": 2003,
             "endYear": 2004,
             "low": 5500,
@@ -17689,7 +17689,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Mr Pike 17:value:2005-2006",
-            "label": "2005–2006",
+            "label": "2005\u20132006",
             "startYear": 2005,
             "endYear": 2006,
             "low": 6500,
@@ -17709,7 +17709,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Pro-V 1775 (non-walk-through configurations)",
     "displayName": "Lund | Pro-V 1775 (non-walk-through configurations)",
-    "subtitle": "1997–1999 early hull; 2000–2001 revision; 2002–2006 wider hull; 2007–2011 transition; 2012–2016 late platform",
+    "subtitle": "1997\u20131999 early hull; 2000\u20132001 revision; 2002\u20132006 wider hull; 2007\u20132011 transition; 2012\u20132016 late platform",
     "badge": "Secondary",
     "lowPrice": 5000,
     "highPrice": 22000,
@@ -17724,7 +17724,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997–1999 early hull; 2000–2001 revision; 2002–2006 wider hull; 2007–2011 transition; 2012–2016 late platform"
+        "value": "1997\u20131999 early hull; 2000\u20132001 revision; 2002\u20132006 wider hull; 2007\u20132011 transition; 2012\u20132016 late platform"
       },
       {
         "label": "Recommendation",
@@ -17780,7 +17780,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -17828,7 +17828,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -17839,7 +17839,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:1997-1999",
-        "label": "1997–1999 early Pro-V 1775 / SE identities",
+        "label": "1997\u20131999 early Pro-V 1775 / SE identities",
         "startYear": 1997,
         "endYear": 1999,
         "status": "source-exhausted-partial",
@@ -17870,7 +17870,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:1997-1999",
-            "label": "1997–1999",
+            "label": "1997\u20131999",
             "startYear": 1997,
             "endYear": 1999,
             "low": 5000,
@@ -17881,7 +17881,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2000-2001",
-        "label": "2000–2001 90-inch revision",
+        "label": "2000\u20132001 90-inch revision",
         "startYear": 2000,
         "endYear": 2001,
         "status": "secondary-verified",
@@ -17912,7 +17912,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2000-2001",
-            "label": "2000–2001",
+            "label": "2000\u20132001",
             "startYear": 2000,
             "endYear": 2001,
             "low": 6000,
@@ -17923,7 +17923,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2002-2006",
-        "label": "2002–2006 92-inch platform",
+        "label": "2002\u20132006 92-inch platform",
         "startYear": 2002,
         "endYear": 2006,
         "status": "secondary-verified",
@@ -17962,7 +17962,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2002-2003",
-            "label": "2002–2003",
+            "label": "2002\u20132003",
             "startYear": 2002,
             "endYear": 2003,
             "low": 7000,
@@ -17971,7 +17971,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2004-2006",
-            "label": "2004–2006",
+            "label": "2004\u20132006",
             "startYear": 2004,
             "endYear": 2006,
             "low": 8000,
@@ -17982,7 +17982,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2007-2011",
-        "label": "2007–2011 transitional Pro-V 1775 identity",
+        "label": "2007\u20132011 transitional Pro-V 1775 identity",
         "startYear": 2007,
         "endYear": 2011,
         "status": "source-exhausted-partial",
@@ -17998,7 +17998,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "secondary-verified"
           },
           "Dry Hull Weight": {
-            "value": "about 1,350–1,450 lb by configuration",
+            "value": "about 1,350\u20131,450 lb by configuration",
             "confidence": "annual-model-record"
           },
           "Max HP": {
@@ -18021,7 +18021,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2007-2008",
-            "label": "2007–2008",
+            "label": "2007\u20132008",
             "startYear": 2007,
             "endYear": 2008,
             "low": 9000,
@@ -18030,7 +18030,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2009-2011",
-            "label": "2009–2011",
+            "label": "2009\u20132011",
             "startYear": 2009,
             "endYear": 2011,
             "low": 10500,
@@ -18041,7 +18041,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2012-2016",
-        "label": "2012–2016 late Pro-V 1775 platform",
+        "label": "2012\u20132016 late Pro-V 1775 platform",
         "startYear": 2012,
         "endYear": 2016,
         "status": "annual-record-continuity",
@@ -18080,7 +18080,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2012-2013",
-            "label": "2012–2013",
+            "label": "2012\u20132013",
             "startYear": 2012,
             "endYear": 2013,
             "low": 12000,
@@ -18089,7 +18089,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2014-2016",
-            "label": "2014–2016",
+            "label": "2014\u20132016",
             "startYear": 2014,
             "endYear": 2016,
             "low": 14500,
@@ -18109,7 +18109,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "*Pro-V 1800 SE (Primary; exact SE full-windshield version)",
     "displayName": "Lund | *Pro-V 1800 SE (Primary; exact SE full-windshield version)",
-    "subtitle": "2003–2010 documented 1,560-pound full-windshield SE platform",
+    "subtitle": "2003\u20132010 documented 1,560-pound full-windshield SE platform",
     "badge": "Primary",
     "lowPrice": 7500,
     "highPrice": 18000,
@@ -18124,7 +18124,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2003–2010 documented 1,560-pound full-windshield SE platform"
+        "value": "2003\u20132010 documented 1,560-pound full-windshield SE platform"
       },
       {
         "label": "Recommendation",
@@ -18144,7 +18144,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Beam",
-        "value": "2000s: 92–93\""
+        "value": "2000s: 92\u201393\""
       },
       {
         "label": "Chine / Bottom Width",
@@ -18168,7 +18168,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Transom Height",
-        "value": "2000s: 20–25\""
+        "value": "2000s: 20\u201325\""
       },
       {
         "label": "Transom Width",
@@ -18180,7 +18180,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -18228,7 +18228,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl main-floor packages existed on some years; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -18239,11 +18239,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):gen:2003-2010",
-        "label": "2003–2010 Pro-V 1800 SE full-windshield platform",
+        "label": "2003\u20132010 Pro-V 1800 SE full-windshield platform",
         "startYear": 2003,
         "endYear": 2010,
         "status": "factory-generation",
-        "specificationBasis": "2004 exact table plus annual 2003–2010 rosters; published 1,560-pound SE identity remains stable",
+        "specificationBasis": "2004 exact table plus annual 2003\u20132010 rosters; published 1,560-pound SE identity remains stable",
         "sourceUrl": "https://library.rvusa.com/brochure/2004.pdf",
         "specs": {
           "Length": {
@@ -18251,7 +18251,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Beam": {
-            "value": "2000s: 92–93\"",
+            "value": "2000s: 92\u201393\"",
             "confidence": "catalog-representative"
           },
           "Chine / Bottom Width": {
@@ -18275,7 +18275,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Transom Height": {
-            "value": "2000s: 20–25\"",
+            "value": "2000s: 20\u201325\"",
             "confidence": "catalog-representative"
           },
           "Transom Width": {
@@ -18314,7 +18314,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2003-2005",
-            "label": "2003–2005",
+            "label": "2003\u20132005",
             "startYear": 2003,
             "endYear": 2005,
             "low": 7500,
@@ -18323,7 +18323,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2006-2008",
-            "label": "2006–2008",
+            "label": "2006\u20132008",
             "startYear": 2006,
             "endYear": 2008,
             "low": 9500,
@@ -18332,7 +18332,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2009-2010",
-            "label": "2009–2010",
+            "label": "2009\u20132010",
             "startYear": 2009,
             "endYear": 2010,
             "low": 11500,
@@ -18352,7 +18352,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Rebel XL Sport 1650",
     "displayName": "Lund | Rebel XL Sport 1650",
-    "subtitle": "2013–2016 Rebel XL Sport; 2017–2020 name gap/XS period; 2021–2026 returned XL Sport",
+    "subtitle": "2013\u20132016 Rebel XL Sport; 2017\u20132020 name gap/XS period; 2021\u20132026 returned XL Sport",
     "badge": "Secondary",
     "lowPrice": 6500,
     "highPrice": 27000,
@@ -18367,7 +18367,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2013–2016 Rebel XL Sport; 2017–2020 name gap/XS period; 2021–2026 returned XL Sport"
+        "value": "2013\u20132016 Rebel XL Sport; 2017\u20132020 name gap/XS period; 2021\u20132026 returned XL Sport"
       },
       {
         "label": "Recommendation",
@@ -18423,7 +18423,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -18459,7 +18459,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The full windshield is useful, but the 85-inch beam is less substantial than the best Superior choices. The 2017–2020 Rebel XS period is not silently folded into this XL record."
+        "value": "The full windshield is useful, but the 85-inch beam is less substantial than the best Superior choices. The 2017\u20132020 Rebel XS period is not silently folded into this XL record."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -18471,7 +18471,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; some carpet remains by package."
       },
       {
         "label": "Research Status",
@@ -18482,7 +18482,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Rebel XL Sport 1650:gen:2013-2016",
-        "label": "2013–2016 Rebel XL Sport platform",
+        "label": "2013\u20132016 Rebel XL Sport platform",
         "startYear": 2013,
         "endYear": 2016,
         "status": "factory-generation",
@@ -18498,7 +18498,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Dry Hull Weight": {
@@ -18514,7 +18514,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -18557,7 +18557,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Rebel XL Sport 1650:value:2013-2014",
-            "label": "2013–2014",
+            "label": "2013\u20132014",
             "startYear": 2013,
             "endYear": 2014,
             "low": 6500,
@@ -18566,7 +18566,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Rebel XL Sport 1650:value:2015-2016",
-            "label": "2015–2016",
+            "label": "2015\u20132016",
             "startYear": 2015,
             "endYear": 2016,
             "low": 8000,
@@ -18577,7 +18577,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Rebel XL Sport 1650:gen:2021-2023",
-        "label": "2021–2023 returned Rebel XL Sport platform",
+        "label": "2021\u20132023 returned Rebel XL Sport platform",
         "startYear": 2021,
         "endYear": 2023,
         "status": "factory-generation",
@@ -18640,7 +18640,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Rebel XL Sport 1650:value:2021-2023",
-            "label": "2021–2023",
+            "label": "2021\u20132023",
             "startYear": 2021,
             "endYear": 2023,
             "low": 14000,
@@ -18651,7 +18651,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Rebel XL Sport 1650:gen:2024-2026",
-        "label": "2024–2026 updated Rebel XL Sport",
+        "label": "2024\u20132026 updated Rebel XL Sport",
         "startYear": 2024,
         "endYear": 2026,
         "status": "factory-generation",
@@ -18714,7 +18714,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Rebel XL Sport 1650:value:2024-2026",
-            "label": "2024–2026",
+            "label": "2024\u20132026",
             "startYear": 2024,
             "endYear": 2026,
             "low": 18000,
@@ -18734,7 +18734,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "*Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
     "displayName": "Lund | *Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
-    "subtitle": "1997 documented snapshot; returned 1700 Tyee identity 2011–2012",
+    "subtitle": "1997 documented snapshot; returned 1700 Tyee identity 2011\u20132012",
     "badge": "Primary",
     "lowPrice": 4000,
     "highPrice": 12000,
@@ -18749,7 +18749,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 documented snapshot; returned 1700 Tyee identity 2011–2012"
+        "value": "1997 documented snapshot; returned 1700 Tyee identity 2011\u20132012"
       },
       {
         "label": "Recommendation",
@@ -18805,7 +18805,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -18837,7 +18837,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -18853,7 +18853,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl main-floor packages existed on some years; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -18950,7 +18950,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):gen:2011-2012",
-        "label": "2011–2012 returned 1700 Tyee identity",
+        "label": "2011\u20132012 returned 1700 Tyee identity",
         "startYear": 2011,
         "endYear": 2012,
         "status": "annual-record-continuity",
@@ -19025,7 +19025,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:2011-2012",
-            "label": "2011–2012",
+            "label": "2011\u20132012",
             "startYear": 2011,
             "endYear": 2012,
             "low": 7500,
@@ -19045,7 +19045,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "*Tyee 1750",
     "displayName": "Lund | *Tyee 1750",
-    "subtitle": "2007–2010 1,375-pound Grand Sport; 2011–2013 1,345-pound Tyee",
+    "subtitle": "2007\u20132010 1,375-pound Grand Sport; 2011\u20132013 1,345-pound Tyee",
     "badge": "Primary",
     "lowPrice": 7500,
     "highPrice": 16500,
@@ -19060,7 +19060,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2010 1,375-pound Grand Sport; 2011–2013 1,345-pound Tyee"
+        "value": "2007\u20132010 1,375-pound Grand Sport; 2011\u20132013 1,345-pound Tyee"
       },
       {
         "label": "Recommendation",
@@ -19116,7 +19116,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -19148,7 +19148,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -19164,7 +19164,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
+        "value": "POSSIBLE \u2014 Vinyl main-floor packages existed on some years; many used examples are carpeted."
       },
       {
         "label": "Research Status",
@@ -19175,7 +19175,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Tyee 1750:gen:2007-2010",
-        "label": "2007–2010 Tyee 1750 Grand Sport platform",
+        "label": "2007\u20132010 Tyee 1750 Grand Sport platform",
         "startYear": 2007,
         "endYear": 2010,
         "status": "source-exhausted-partial",
@@ -19250,7 +19250,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 1750:value:2007-2008",
-            "label": "2007–2008",
+            "label": "2007\u20132008",
             "startYear": 2007,
             "endYear": 2008,
             "low": 7500,
@@ -19259,7 +19259,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Tyee 1750:value:2009-2010",
-            "label": "2009–2010",
+            "label": "2009\u20132010",
             "startYear": 2009,
             "endYear": 2010,
             "low": 9000,
@@ -19270,11 +19270,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Tyee 1750:gen:2011-2013",
-        "label": "2011–2013 1,345-pound Tyee platform",
+        "label": "2011\u20132013 1,345-pound Tyee platform",
         "startYear": 2011,
         "endYear": 2013,
         "status": "factory-generation",
-        "specificationBasis": "2011–2013 published specification set and annual model records",
+        "specificationBasis": "2011\u20132013 published specification set and annual model records",
         "sourceUrl": "https://www.jdpower.com/boats/2012/lund-boat-co/1750-tyee_/32026361/specs",
         "specs": {
           "Length": {
@@ -19345,7 +19345,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 1750:value:2011-2013",
-            "label": "2011–2013",
+            "label": "2011\u20132013",
             "startYear": 2011,
             "endYear": 2013,
             "low": 10500,
@@ -19365,7 +19365,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 1750 Outboard (1994 generation)",
     "displayName": "Lund | Tyee 1750 Outboard (1994 generation)",
-    "subtitle": "1991–1996 documented 17-foot-3-inch outboard generation",
+    "subtitle": "1991\u20131996 documented 17-foot-3-inch outboard generation",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 7500,
@@ -19380,7 +19380,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1996 documented 17-foot-3-inch outboard generation"
+        "value": "1991\u20131996 documented 17-foot-3-inch outboard generation"
       },
       {
         "label": "Recommendation",
@@ -19400,7 +19400,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Beam",
-        "value": "83½\""
+        "value": "83\u00bd\""
       },
       {
         "label": "Chine / Bottom Width",
@@ -19424,7 +19424,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Transom Height",
-        "value": "20½\""
+        "value": "20\u00bd\""
       },
       {
         "label": "Transom Width",
@@ -19436,7 +19436,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–140"
+        "value": "115\u2013140"
       },
       {
         "label": "Persons",
@@ -19484,7 +19484,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation; replacement history matters."
+        "value": "POOR \u2014 Primarily carpet in this generation; replacement history matters."
       },
       {
         "label": "Research Status",
@@ -19495,7 +19495,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):gen:1991-1996",
-        "label": "1991–1996 Tyee 1750 outboard generation",
+        "label": "1991\u20131996 Tyee 1750 outboard generation",
         "startYear": 1991,
         "endYear": 1996,
         "status": "factory-generation",
@@ -19507,7 +19507,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Beam": {
-            "value": "83½\"",
+            "value": "83\u00bd\"",
             "confidence": "catalog-representative"
           },
           "Chine / Bottom Width": {
@@ -19531,7 +19531,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Transom Height": {
-            "value": "20½\"",
+            "value": "20\u00bd\"",
             "confidence": "catalog-representative"
           },
           "Transom Width": {
@@ -19570,7 +19570,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):value:1991-1993",
-            "label": "1991–1993",
+            "label": "1991\u20131993",
             "startYear": 1991,
             "endYear": 1993,
             "low": 3000,
@@ -19579,7 +19579,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):value:1994-1996",
-            "label": "1994–1996",
+            "label": "1994\u20131996",
             "startYear": 1994,
             "endYear": 1996,
             "low": 4000,
@@ -19599,7 +19599,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 1850 I/O / ITS (older generation)",
     "displayName": "Lund | Tyee 1850 I/O / ITS (older generation)",
-    "subtitle": "1988–1990 older sterndrive/ITS package identity",
+    "subtitle": "1988\u20131990 older sterndrive/ITS package identity",
     "badge": "Secondary",
     "lowPrice": 3000,
     "highPrice": 7000,
@@ -19609,7 +19609,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1988–1990 older sterndrive/ITS package identity"
+        "value": "1988\u20131990 older sterndrive/ITS package identity"
       },
       {
         "label": "Recommendation",
@@ -19713,7 +19713,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -19724,7 +19724,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Tyee 1850 I/O / ITS (older generation):gen:1988-1990",
-        "label": "1988–1990 Tyee 1850 I/O / ITS package",
+        "label": "1988\u20131990 Tyee 1850 I/O / ITS package",
         "startYear": 1988,
         "endYear": 1990,
         "status": "source-exhausted-partial",
@@ -19799,7 +19799,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 1850 I/O / ITS (older generation):value:1988-1990",
-            "label": "1988–1990",
+            "label": "1988\u20131990",
             "startYear": 1988,
             "endYear": 1990,
             "low": 3000,
@@ -19819,7 +19819,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 1850 outboard / older 18' Tyee outboard",
     "displayName": "Lund | Tyee 1850 outboard / older 18' Tyee outboard",
-    "subtitle": "1988–1990 early outboard hull; 1991–1996 later older-1850 identity",
+    "subtitle": "1988\u20131990 early outboard hull; 1991\u20131996 later older-1850 identity",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 9000,
@@ -19829,7 +19829,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1988–1990 early outboard hull; 1991–1996 later older-1850 identity"
+        "value": "1988\u20131990 early outboard hull; 1991\u20131996 later older-1850 identity"
       },
       {
         "label": "Recommendation",
@@ -19885,7 +19885,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150 outboard"
+        "value": "115\u2013150 outboard"
       },
       {
         "label": "Persons",
@@ -19933,7 +19933,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -19944,7 +19944,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:gen:1988-1990",
-        "label": "1988–1990 early Tyee 1850 outboard hull",
+        "label": "1988\u20131990 early Tyee 1850 outboard hull",
         "startYear": 1988,
         "endYear": 1990,
         "status": "secondary-verified",
@@ -20019,7 +20019,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1988-1990",
-            "label": "1988–1990",
+            "label": "1988\u20131990",
             "startYear": 1988,
             "endYear": 1990,
             "low": 3500,
@@ -20030,7 +20030,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:gen:1991-1996",
-        "label": "1991–1996 later older Tyee 1850 outboard identity",
+        "label": "1991\u20131996 later older Tyee 1850 outboard identity",
         "startYear": 1991,
         "endYear": 1996,
         "status": "source-exhausted-partial",
@@ -20050,7 +20050,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "approximately 1,500–1,600 lb depending year/configuration",
+            "value": "approximately 1,500\u20131,600 lb depending year/configuration",
             "confidence": "annual-model-record"
           },
           "Max / Bow Depth": {
@@ -20105,7 +20105,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1991-1993",
-            "label": "1991–1993",
+            "label": "1991\u20131993",
             "startYear": 1991,
             "endYear": 1993,
             "low": 4000,
@@ -20114,7 +20114,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1994-1996",
-            "label": "1994–1996",
+            "label": "1994\u20131996",
             "startYear": 1994,
             "endYear": 1996,
             "low": 5000,
@@ -20134,7 +20134,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee II 1650",
     "displayName": "Lund | Tyee II 1650",
-    "subtitle": "1991–1996 documented Tyee II 1650 generation",
+    "subtitle": "1991\u20131996 documented Tyee II 1650 generation",
     "badge": "Primary",
     "lowPrice": 2500,
     "highPrice": 6500,
@@ -20149,7 +20149,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1996 documented Tyee II 1650 generation"
+        "value": "1991\u20131996 documented Tyee II 1650 generation"
       },
       {
         "label": "Recommendation",
@@ -20181,11 +20181,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Max / Bow Depth",
-        "value": "39¼\" bow depth"
+        "value": "39\u00bc\" bow depth"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "37½\" amidships hull depth; interior depth not published"
+        "value": "37\u00bd\" amidships hull depth; interior depth not published"
       },
       {
         "label": "Deadrise",
@@ -20193,7 +20193,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Transom Height",
-        "value": "20½\""
+        "value": "20\u00bd\""
       },
       {
         "label": "Transom Width",
@@ -20205,7 +20205,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -20253,7 +20253,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation; replacement history matters."
+        "value": "POOR \u2014 Primarily carpet in this generation; replacement history matters."
       },
       {
         "label": "Research Status",
@@ -20264,7 +20264,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Tyee II 1650:gen:1991-1996",
-        "label": "1991–1996 Tyee II 1650 generation",
+        "label": "1991\u20131996 Tyee II 1650 generation",
         "startYear": 1991,
         "endYear": 1996,
         "status": "factory-generation",
@@ -20288,11 +20288,11 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max / Bow Depth": {
-            "value": "39¼\" bow depth",
+            "value": "39\u00bc\" bow depth",
             "confidence": "catalog-representative"
           },
           "Cockpit / Interior Depth": {
-            "value": "37½\" amidships hull depth; interior depth not published",
+            "value": "37\u00bd\" amidships hull depth; interior depth not published",
             "confidence": "catalog-representative"
           },
           "Deadrise": {
@@ -20300,7 +20300,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Transom Height": {
-            "value": "20½\"",
+            "value": "20\u00bd\"",
             "confidence": "catalog-representative"
           },
           "Transom Width": {
@@ -20339,7 +20339,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee II 1650:value:1991-1993",
-            "label": "1991–1993",
+            "label": "1991\u20131993",
             "startYear": 1991,
             "endYear": 1993,
             "low": 2500,
@@ -20348,7 +20348,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Tyee II 1650:value:1994-1996",
-            "label": "1994–1996",
+            "label": "1994\u20131996",
             "startYear": 1994,
             "endYear": 1996,
             "low": 3500,
@@ -20368,7 +20368,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "MirroCraft",
     "model": "Aggressor Pro MX 1773 WT",
     "displayName": "MirroCraft | Aggressor Pro MX 1773 WT",
-    "subtitle": "2000s–2010s; 1773 continuation checked 2021",
+    "subtitle": "2000s\u20132010s; 1773 continuation checked 2021",
     "badge": "Primary",
     "lowPrice": 4500,
     "highPrice": 10000,
@@ -20383,7 +20383,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000s–2010s; 1773 continuation checked 2021"
+        "value": "2000s\u20132010s; 1773 continuation checked 2021"
       },
       {
         "label": "Recommendation",
@@ -20439,7 +20439,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -20471,7 +20471,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -20487,7 +20487,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit/main floor is available/common; carpet remains on some raised areas."
+        "value": "GOOD \u2014 Vinyl cockpit/main floor is available/common; carpet remains on some raised areas."
       },
       {
         "label": "Research Status",
@@ -20498,11 +20498,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:MirroCraft | Aggressor Pro MX 1773 WT:gen:unresolved",
-        "label": "Production years — specifications and pricing unresolved",
+        "label": "Production years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2021,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s–2010s; 1773 continuation checked 2021",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s\u20132010s; 1773 continuation checked 2021",
         "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_aggressor_promx_2.pdf",
         "specs": {},
         "eras": []
@@ -20517,7 +20517,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "MirroCraft",
     "model": "Aggressor Pro MX 1873 (Secondary; 1773 is Primary)",
     "displayName": "MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary)",
-    "subtitle": "2010s–2020s",
+    "subtitle": "2010s\u20132020s",
     "badge": "Secondary",
     "lowPrice": 8500,
     "highPrice": 17000,
@@ -20532,7 +20532,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2010s–2020s"
+        "value": "2010s\u20132020s"
       },
       {
         "label": "Recommendation",
@@ -20588,7 +20588,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -20636,7 +20636,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit/main floor is available/common; carpet remains on some raised areas."
+        "value": "GOOD \u2014 Vinyl cockpit/main floor is available/common; carpet remains on some raised areas."
       },
       {
         "label": "Research Status",
@@ -20647,11 +20647,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary):gen:unresolved",
-        "label": "Production years — specifications and pricing unresolved",
+        "label": "Production years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s–2020s",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s\u20132020s",
         "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_aggressor_promx_2.pdf",
         "specs": {},
         "eras": []
@@ -20737,7 +20737,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -20785,7 +20785,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit/main floor is available/common; carpet remains on some raised areas."
+        "value": "GOOD \u2014 Vinyl cockpit/main floor is available/common; carpet remains on some raised areas."
       },
       {
         "label": "Research Status",
@@ -20891,7 +20891,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:MirroCraft | Dual Impact 176:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
@@ -20981,7 +20981,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "50–60"
+        "value": "50\u201360"
       },
       {
         "label": "Persons",
@@ -21029,7 +21029,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is standard/easy-clean; avoid the optional carpeted-cockpit package."
+        "value": "GOOD \u2014 Vinyl cockpit is standard/easy-clean; avoid the optional carpeted-cockpit package."
       },
       {
         "label": "Research Status",
@@ -21135,7 +21135,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:MirroCraft | Holiday 1628:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
@@ -21225,7 +21225,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -21273,7 +21273,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is standard/easy-clean; avoid the optional carpeted-cockpit package."
+        "value": "GOOD \u2014 Vinyl cockpit is standard/easy-clean; avoid the optional carpeted-cockpit package."
       },
       {
         "label": "Research Status",
@@ -21379,7 +21379,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:MirroCraft | Holiday 168:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
@@ -21469,7 +21469,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -21501,7 +21501,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -21517,7 +21517,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is standard/easy-clean; avoid the optional carpeted-cockpit package."
+        "value": "GOOD \u2014 Vinyl cockpit is standard/easy-clean; avoid the optional carpeted-cockpit package."
       },
       {
         "label": "Research Status",
@@ -21623,11 +21623,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2021,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s–2021; budget focus pre-2016",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s\u20132021; budget focus pre-2016",
         "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
         "specs": {},
         "eras": []
@@ -21761,7 +21761,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "UNKNOWN — Finish varies widely by year; inspect listing photos."
+        "value": "UNKNOWN \u2014 Finish varies widely by year; inspect listing photos."
       },
       {
         "label": "Research Status",
@@ -21816,11 +21816,11 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "40–50 typical",
+            "value": "40\u201350 typical",
             "confidence": "cited-source-exact"
           },
           "Persons": {
-            "value": "4–5 typical",
+            "value": "4\u20135 typical",
             "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
@@ -21894,11 +21894,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1980,
         "endYear": 2029,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1980s–present; 1660 verified 1998",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1980s\u2013present; 1660 verified 1998",
         "sourceUrl": "https://www.jdpower.com/boats/1998/mirrocraft/1660-troller-ltd_/10145565/specs",
         "specs": {},
         "eras": []
@@ -22032,7 +22032,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Period interior was typically carpeted; verify any reflooring."
+        "value": "POOR \u2014 Period interior was typically carpeted; verify any reflooring."
       },
       {
         "label": "Research Status",
@@ -22129,11 +22129,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:MonArk | Pro 1700 DC:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1990,
         "endYear": 1999,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1993–1997 verified",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1993\u20131997 verified",
         "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
         "specs": {},
         "eras": []
@@ -22158,7 +22158,7 @@ window.BOATBUILDER_BOATS = [
       "url": "https://i.ytimg.com/vi/Ln7lvmgwzlc/hqdefault.jpg",
       "source": "https://www.youtube.com/watch?v=Ln7lvmgwzlc",
       "matchQuality": "Same family",
-      "note": "Monark 1800 CC family stand-in. This is not the later Pro 1800 DC/FS fiberglass warning model, so use the row notes—not this photo—to judge hull material."
+      "note": "Monark 1800 CC family stand-in. This is not the later Pro 1800 DC/FS fiberglass warning model, so use the row notes\u2014not this photo\u2014to judge hull material."
     },
     "details": [
       {
@@ -22219,7 +22219,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -22267,7 +22267,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -22290,7 +22290,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Beam": {
-            "value": "About 90\"–96\"",
+            "value": "About 90\"\u201396\"",
             "confidence": "catalog-representative"
           },
           "Chine / Bottom Width": {
@@ -22298,7 +22298,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "About 1,500–1,800 lb",
+            "value": "About 1,500\u20131,800 lb",
             "confidence": "catalog-representative"
           },
           "Max / Bow Depth": {
@@ -22322,7 +22322,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "150–175 representative",
+            "value": "150\u2013175 representative",
             "confidence": "catalog-representative"
           },
           "Persons": {
@@ -22364,7 +22364,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1990,
         "endYear": 1999,
         "status": "unresolved",
@@ -22502,7 +22502,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "EXCELLENT — Fishing-first welded structure; choose a non-carpeted package."
+        "value": "EXCELLENT \u2014 Fishing-first welded structure; choose a non-carpeted package."
       },
       {
         "label": "Research Status",
@@ -22545,7 +22545,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "29° entry / 14° aft",
+            "value": "29\u00b0 entry / 14\u00b0 aft",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
@@ -22608,11 +22608,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:North River | Seahawk 18'6\":gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s–2020s; 2021 basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s\u20132020s; 2021 basis",
         "sourceUrl": "https://www.northriverboats.com/wp-content/uploads/nrb-pdf/2021MY/18%276%20Seahawk%202021%20Standard%20Features.pdf",
         "specs": {},
         "eras": []
@@ -22698,7 +22698,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -22746,7 +22746,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -22852,11 +22852,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Polar Kraft | Frontier 179 WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s–2020s; 2019 performance-bulletin basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s\u20132020s; 2019 performance-bulletin basis",
         "sourceUrl": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
         "specs": {},
         "eras": []
@@ -22942,7 +22942,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -22974,7 +22974,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -22990,7 +22990,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor; carpet may remain on raised deck/trim areas."
+        "value": "GOOD \u2014 Vinyl main floor; carpet may remain on raised deck/trim areas."
       },
       {
         "label": "Research Status",
@@ -23096,11 +23096,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2019,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2009–2013; 2012 basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2009\u20132013; 2012 basis",
         "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft/v180/32024479/specs",
         "specs": {},
         "eras": []
@@ -23186,7 +23186,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -23234,7 +23234,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -23340,11 +23340,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Polar Kraft | Kodiak V170 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2019,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 2000s–2010s; 2010 catalog basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 2000s\u20132010s; 2010 catalog basis",
         "sourceUrl": "https://library.rvusa.com/brochure/2010_Polar_Kraft_Catalog.pdf",
         "specs": {},
         "eras": []
@@ -23430,7 +23430,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "150–200"
+        "value": "150\u2013200"
       },
       {
         "label": "Persons",
@@ -23478,7 +23478,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor; carpet may remain on raised deck/trim areas."
+        "value": "GOOD \u2014 Vinyl main floor; carpet may remain on raised deck/trim areas."
       },
       {
         "label": "Research Status",
@@ -23584,11 +23584,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2029,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2018–present",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2018\u2013present",
         "sourceUrl": "https://www.suzukimarine.com/boat-tests/polar-kraft/polar-kraft-outlander-2010-wt/",
         "specs": {},
         "eras": []
@@ -23603,7 +23603,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "Holiday 162 WS",
     "displayName": "Princecraft | Holiday 162 WS",
-    "subtitle": "2012–2024 standard Holiday DLX/162 WS; four documented specification rows",
+    "subtitle": "2012\u20132024 standard Holiday DLX/162 WS; four documented specification rows",
     "badge": "Secondary",
     "lowPrice": 4500,
     "highPrice": 22000,
@@ -23618,7 +23618,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012–2024 standard Holiday DLX/162 WS; four documented specification rows"
+        "value": "2012\u20132024 standard Holiday DLX/162 WS; four documented specification rows"
       },
       {
         "label": "Recommendation",
@@ -23674,7 +23674,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -23710,7 +23710,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2012 boat is limited to 60 hp. The rating rises to 75 hp for 2013. Bottom plating and fuel change for 2017, and the hull becomes 85 inches wide and 960 lb for 2020. The standard 75-hp model ends after 2024; 2025–2026 listings are the distinct 60-hp MAX package."
+        "value": "The 2012 boat is limited to 60 hp. The rating rises to 75 hp for 2013. Bottom plating and fuel change for 2017, and the hull becomes 85 inches wide and 960 lb for 2020. The standard 75-hp model ends after 2024; 2025\u20132026 listings are the distinct 60-hp MAX package."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -23722,7 +23722,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -23761,7 +23761,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "10°",
+            "value": "10\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -23811,7 +23811,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Holiday 162 WS:gen:2013-2016",
-        "label": "2013–2016 Holiday DLX WS, 75-hp certification",
+        "label": "2013\u20132016 Holiday DLX WS, 75-hp certification",
         "startYear": 2013,
         "endYear": 2016,
         "status": "factory-documented-continuity",
@@ -23839,7 +23839,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "10°",
+            "value": "10\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -23878,7 +23878,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Holiday 162 WS:value:2013-2014",
-            "label": "2013–2014",
+            "label": "2013\u20132014",
             "startYear": 2013,
             "endYear": 2014,
             "low": 5000,
@@ -23887,7 +23887,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Holiday 162 WS:value:2015-2016",
-            "label": "2015–2016",
+            "label": "2015\u20132016",
             "startYear": 2015,
             "endYear": 2016,
             "low": 6000,
@@ -23898,7 +23898,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Holiday 162 WS:gen:2017-2019",
-        "label": "2017–2019 Holiday 162 DLX WS plating/fuel revision",
+        "label": "2017\u20132019 Holiday 162 DLX WS plating/fuel revision",
         "startYear": 2017,
         "endYear": 2019,
         "status": "factory-documented-continuity",
@@ -23926,7 +23926,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "10°",
+            "value": "10\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -23965,7 +23965,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Holiday 162 WS:value:2017-2019",
-            "label": "2017–2019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 7000,
@@ -23976,11 +23976,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Holiday 162 WS:gen:2020-2024",
-        "label": "2020–2024 wider/heavier standard Holiday 162 WS",
+        "label": "2020\u20132024 wider/heavier standard Holiday 162 WS",
         "startYear": 2020,
         "endYear": 2024,
         "status": "factory-documented-continuity",
-        "specificationBasis": "2020–2024 annual factory material documents the 85-inch, 960-lb standard WS hull with 75-hp certification. The later MAX package is not folded into this row.",
+        "specificationBasis": "2020\u20132024 annual factory material documents the 85-inch, 960-lb standard WS hull with 75-hp certification. The later MAX package is not folded into this row.",
         "sourceUrl": "https://2024.princecraft.com/us/en/products/Fishing-Boats/2024/Holiday-Series/Holiday-162-WS.aspx",
         "specs": {
           "Length": {
@@ -24004,7 +24004,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "10°",
+            "value": "10\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -24043,7 +24043,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Holiday 162 WS:value:2020-2022",
-            "label": "2020–2022",
+            "label": "2020\u20132022",
             "startYear": 2020,
             "endYear": 2022,
             "low": 10000,
@@ -24052,7 +24052,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Holiday 162 WS:value:2023-2024",
-            "label": "2023–2024",
+            "label": "2023\u20132024",
             "startYear": 2023,
             "endYear": 2024,
             "low": 14000,
@@ -24071,7 +24071,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "*Nanook 168 DLX WS",
     "displayName": "*Princecraft | Nanook 168 DLX WS",
-    "subtitle": "2014–2023 Nanook 168 DLX WS; 2017 plating/fuel revision",
+    "subtitle": "2014\u20132023 Nanook 168 DLX WS; 2017 plating/fuel revision",
     "badge": "Secondary",
     "lowPrice": 7000,
     "highPrice": 20000,
@@ -24086,7 +24086,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2023 Nanook 168 DLX WS; 2017 plating/fuel revision"
+        "value": "2014\u20132023 Nanook 168 DLX WS; 2017 plating/fuel revision"
       },
       {
         "label": "Recommendation",
@@ -24142,7 +24142,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -24190,7 +24190,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+        "value": "POSSIBLE \u2014 Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
       },
       {
         "label": "Research Status",
@@ -24201,7 +24201,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Princecraft | Nanook 168 DLX WS:gen:2014-2016",
-        "label": "2014–2016 Nanook 168 DLX WS",
+        "label": "2014\u20132016 Nanook 168 DLX WS",
         "startYear": 2014,
         "endYear": 2016,
         "status": "factory-documented-continuity",
@@ -24229,7 +24229,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "13°",
+            "value": "13\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -24268,7 +24268,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Nanook 168 DLX WS:value:2014-2016",
-            "label": "2014–2016",
+            "label": "2014\u20132016",
             "startYear": 2014,
             "endYear": 2016,
             "low": 7000,
@@ -24279,7 +24279,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Nanook 168 DLX WS:gen:2017-2023",
-        "label": "2017–2023 Nanook 168 DLX WS plating/fuel revision",
+        "label": "2017\u20132023 Nanook 168 DLX WS plating/fuel revision",
         "startYear": 2017,
         "endYear": 2023,
         "status": "factory-documented-continuity",
@@ -24307,7 +24307,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "13°",
+            "value": "13\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -24346,7 +24346,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Nanook 168 DLX WS:value:2017-2019",
-            "label": "2017–2019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 8500,
@@ -24355,7 +24355,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Nanook 168 DLX WS:value:2020-2023",
-            "label": "2020–2023",
+            "label": "2020\u20132023",
             "startYear": 2020,
             "endYear": 2023,
             "low": 12000,
@@ -24375,7 +24375,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "Platinum SE 176",
     "displayName": "Princecraft | Platinum SE 176",
-    "subtitle": "2014–2019 Platinum SE 176; 2018 fuel-capacity revision",
+    "subtitle": "2014\u20132019 Platinum SE 176; 2018 fuel-capacity revision",
     "badge": "Secondary",
     "lowPrice": 10000,
     "highPrice": 20000,
@@ -24390,7 +24390,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2019 Platinum SE 176; 2018 fuel-capacity revision"
+        "value": "2014\u20132019 Platinum SE 176; 2018 fuel-capacity revision"
       },
       {
         "label": "Recommendation",
@@ -24446,7 +24446,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -24482,7 +24482,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Factory pages preserve the 17-foot-6-inch, 92-inch, 1,435-lb hull through 2019. The published tank changes from 40 to 37 gallons for 2018–2019. The 176 leaves the lineup for 2020."
+        "value": "Factory pages preserve the 17-foot-6-inch, 92-inch, 1,435-lb hull through 2019. The published tank changes from 40 to 37 gallons for 2018\u20132019. The 176 leaves the lineup for 2020."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24494,7 +24494,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST — Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
+        "value": "BEST \u2014 Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
       },
       {
         "label": "Research Status",
@@ -24505,7 +24505,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Princecraft | Platinum SE 176:gen:2014-2017",
-        "label": "2014–2017 Platinum SE 176, 40-gallon tank",
+        "label": "2014\u20132017 Platinum SE 176, 40-gallon tank",
         "startYear": 2014,
         "endYear": 2017,
         "status": "factory-documented-continuity",
@@ -24533,7 +24533,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -24572,7 +24572,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Platinum SE 176:value:2014-2017",
-            "label": "2014–2017",
+            "label": "2014\u20132017",
             "startYear": 2014,
             "endYear": 2017,
             "low": 10000,
@@ -24583,7 +24583,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Platinum SE 176:gen:2018-2019",
-        "label": "2018–2019 Platinum SE 176, 37-gallon tank",
+        "label": "2018\u20132019 Platinum SE 176, 37-gallon tank",
         "startYear": 2018,
         "endYear": 2019,
         "status": "factory-documented-continuity",
@@ -24611,7 +24611,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -24650,7 +24650,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Platinum SE 176:value:2018-2019",
-            "label": "2018–2019",
+            "label": "2018\u20132019",
             "startYear": 2018,
             "endYear": 2019,
             "low": 13000,
@@ -24669,7 +24669,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "*Pro 179 WS",
     "displayName": "*Princecraft | Pro 179 WS",
-    "subtitle": "2009–2011 Pro 179 WS factory lineage",
+    "subtitle": "2009\u20132011 Pro 179 WS factory lineage",
     "badge": "Primary",
     "lowPrice": 6000,
     "highPrice": 11000,
@@ -24684,7 +24684,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2009–2011 Pro 179 WS factory lineage"
+        "value": "2009\u20132011 Pro 179 WS factory lineage"
       },
       {
         "label": "Recommendation",
@@ -24740,7 +24740,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -24776,7 +24776,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The factory 2009–2011 Pro 179 WS is a short-lived 17-foot-4-inch, 92-inch, 1,299-lb walk-through model. It is not extended into later Princecraft Sport or Xperience names."
+        "value": "The factory 2009\u20132011 Pro 179 WS is a short-lived 17-foot-4-inch, 92-inch, 1,299-lb walk-through model. It is not extended into later Princecraft Sport or Xperience names."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24788,7 +24788,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST — Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
+        "value": "BEST \u2014 Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
       },
       {
         "label": "Research Status",
@@ -24799,11 +24799,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Princecraft | Pro 179 WS:gen:2009-2011",
-        "label": "2009–2011 Pro 179 WS",
+        "label": "2009\u20132011 Pro 179 WS",
         "startYear": 2009,
         "endYear": 2011,
         "status": "factory-documented-continuity",
-        "specificationBasis": "Factory 2009–2011 catalog tables establish one core model lineage.",
+        "specificationBasis": "Factory 2009\u20132011 catalog tables establish one core model lineage.",
         "sourceUrl": "https://2016.princecraft.com/us/en/products/Fishing-Boats/2011/Pro-Series/Pro-179-WS.aspx",
         "specs": {
           "Length": {
@@ -24871,7 +24871,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Pro 179 WS:value:2010-2011",
-            "label": "2010–2011",
+            "label": "2010\u20132011",
             "startYear": 2010,
             "endYear": 2011,
             "low": 7000,
@@ -24891,7 +24891,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "*Sport 172 (Primary; Princecraft model, not a generic Sport trim)",
     "displayName": "*Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim)",
-    "subtitle": "2010–2023 Sport 172; four documented hull/certification rows",
+    "subtitle": "2010\u20132023 Sport 172; four documented hull/certification rows",
     "badge": "Primary",
     "lowPrice": 6500,
     "highPrice": 32000,
@@ -24906,7 +24906,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2010–2023 Sport 172; four documented hull/certification rows"
+        "value": "2010\u20132023 Sport 172; four documented hull/certification rows"
       },
       {
         "label": "Recommendation",
@@ -24962,7 +24962,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -24994,11 +24994,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
-        "value": "The 2010–2011 boat is 92 inches wide and 1,225 lb. The 2012 hull narrows to 91 inches and weighs 1,255 lb. Weight rises to 1,377 lb for 2017. The same 1,377-lb hull receives a 150-hp/1,572-lb certification for 2023 before the Sport 175 name replaces it in 2024."
+        "value": "The 2010\u20132011 boat is 92 inches wide and 1,225 lb. The 2012 hull narrows to 91 inches and weighs 1,255 lb. Weight rises to 1,377 lb for 2017. The same 1,377-lb hull receives a 150-hp/1,572-lb certification for 2023 before the Sport 175 name replaces it in 2024."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -25010,7 +25010,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST — Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
+        "value": "BEST \u2014 Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
       },
       {
         "label": "Research Status",
@@ -25021,7 +25021,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:2010-2011",
-        "label": "2010–2011 Sport 172, early 92-inch hull",
+        "label": "2010\u20132011 Sport 172, early 92-inch hull",
         "startYear": 2010,
         "endYear": 2011,
         "status": "factory-supported-partial",
@@ -25052,7 +25052,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2010-2011",
-            "label": "2010–2011",
+            "label": "2010\u20132011",
             "startYear": 2010,
             "endYear": 2011,
             "low": 6500,
@@ -25063,11 +25063,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:2012-2016",
-        "label": "2012–2016 Sport 172, 1,255-lb hull",
+        "label": "2012\u20132016 Sport 172, 1,255-lb hull",
         "startYear": 2012,
         "endYear": 2016,
         "status": "factory-documented-continuity",
-        "specificationBasis": "2012–2016 factory tables repeat the 91-inch, 1,255-lb, 125-hp hull.",
+        "specificationBasis": "2012\u20132016 factory tables repeat the 91-inch, 1,255-lb, 125-hp hull.",
         "sourceUrl": "https://2016.princecraft.com/ca/en/products/Fishing-Boats/2016/Sport-Series/Sport-172.aspx",
         "specs": {
           "Length": {
@@ -25091,7 +25091,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -25130,7 +25130,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2012-2014",
-            "label": "2012–2014",
+            "label": "2012\u20132014",
             "startYear": 2012,
             "endYear": 2014,
             "low": 7500,
@@ -25139,7 +25139,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2015-2016",
-            "label": "2015–2016",
+            "label": "2015\u20132016",
             "startYear": 2015,
             "endYear": 2016,
             "low": 9000,
@@ -25150,7 +25150,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):gen:2017-2022",
-        "label": "2017–2022 Sport 172, 1,377-lb hull",
+        "label": "2017\u20132022 Sport 172, 1,377-lb hull",
         "startYear": 2017,
         "endYear": 2022,
         "status": "factory-documented-continuity",
@@ -25178,7 +25178,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -25217,7 +25217,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2017-2019",
-            "label": "2017–2019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 11000,
@@ -25226,7 +25226,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Sport 172 (Primary; Princecraft model, not a generic Sport trim):value:2020-2022",
-            "label": "2020–2022",
+            "label": "2020\u20132022",
             "startYear": 2020,
             "endYear": 2022,
             "low": 16000,
@@ -25265,7 +25265,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -25324,7 +25324,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "Sport 187 (Secondary; Sport 172 is Primary)",
     "displayName": "Princecraft | Sport 187 (Secondary; Sport 172 is Primary)",
-    "subtitle": "2014–2021 Sport 187; 2017 fuel-capacity revision",
+    "subtitle": "2014\u20132021 Sport 187; 2017 fuel-capacity revision",
     "badge": "Secondary",
     "lowPrice": 12000,
     "highPrice": 30000,
@@ -25339,7 +25339,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2021 Sport 187; 2017 fuel-capacity revision"
+        "value": "2014\u20132021 Sport 187; 2017 fuel-capacity revision"
       },
       {
         "label": "Recommendation",
@@ -25395,7 +25395,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -25443,7 +25443,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST — Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
+        "value": "BEST \u2014 Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
       },
       {
         "label": "Research Status",
@@ -25454,7 +25454,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):gen:2014-2016",
-        "label": "2014–2016 Sport 187, 40-gallon tank",
+        "label": "2014\u20132016 Sport 187, 40-gallon tank",
         "startYear": 2014,
         "endYear": 2016,
         "status": "factory-documented-continuity",
@@ -25482,7 +25482,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -25521,7 +25521,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):value:2014-2016",
-            "label": "2014–2016",
+            "label": "2014\u20132016",
             "startYear": 2014,
             "endYear": 2016,
             "low": 12000,
@@ -25532,7 +25532,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):gen:2017-2021",
-        "label": "2017–2021 Sport 187, 37-gallon tank",
+        "label": "2017\u20132021 Sport 187, 37-gallon tank",
         "startYear": 2017,
         "endYear": 2021,
         "status": "factory-documented-continuity",
@@ -25560,7 +25560,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -25599,7 +25599,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):value:2017-2019",
-            "label": "2017–2019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 15000,
@@ -25608,7 +25608,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Sport 187 (Secondary; Sport 172 is Primary):value:2020-2021",
-            "label": "2020–2021",
+            "label": "2020\u20132021",
             "startYear": 2020,
             "endYear": 2021,
             "low": 20000,
@@ -25627,7 +25627,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "*Super Pro 176",
     "displayName": "*Princecraft | Super Pro 176",
-    "subtitle": "2011–2015 Super Pro 176 factory lineage",
+    "subtitle": "2011\u20132015 Super Pro 176 factory lineage",
     "badge": "Primary",
     "lowPrice": 8000,
     "highPrice": 16000,
@@ -25642,7 +25642,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2011–2015 Super Pro 176 factory lineage"
+        "value": "2011\u20132015 Super Pro 176 factory lineage"
       },
       {
         "label": "Recommendation",
@@ -25698,7 +25698,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -25746,7 +25746,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST — Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
+        "value": "BEST \u2014 Marine-vinyl floor/deck with removable snap-in carpet; buy without the carpet installed."
       },
       {
         "label": "Research Status",
@@ -25757,7 +25757,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Princecraft | Super Pro 176:gen:2011-2015",
-        "label": "2011–2015 Super Pro 176",
+        "label": "2011\u20132015 Super Pro 176",
         "startYear": 2011,
         "endYear": 2015,
         "status": "factory-documented-continuity",
@@ -25820,7 +25820,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Super Pro 176:value:2011-2013",
-            "label": "2011–2013",
+            "label": "2011\u20132013",
             "startYear": 2011,
             "endYear": 2013,
             "low": 8000,
@@ -25829,7 +25829,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Super Pro 176:value:2014-2015",
-            "label": "2014–2015",
+            "label": "2014\u20132015",
             "startYear": 2014,
             "endYear": 2015,
             "low": 10000,
@@ -25920,7 +25920,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "40–60"
+        "value": "40\u201360"
       },
       {
         "label": "Persons",
@@ -25952,11 +25952,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: very towable and inexpensive, but only about 72–73 in wide, light, and not universally a qualifying full-windshield layout."
+        "value": "Secondary: very towable and inexpensive, but only about 72\u201373 in wide, light, and not universally a qualifying full-windshield layout."
       },
       {
         "label": "Notes",
-        "value": "FM161 is a real 16-ft model, but the exact layout and specifications changed. It is substantially narrower than the sheet’s minimum preference; confirm that the listing has a factory walk-through/full windshield rather than a side-console or open layout."
+        "value": "FM161 is a real 16-ft model, but the exact layout and specifications changed. It is substantially narrower than the sheet\u2019s minimum preference; confirm that the listing has a factory walk-through/full windshield rather than a side-console or open layout."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -25968,7 +25968,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Period interior was typically carpeted unless a previous owner refloored it."
+        "value": "POOR \u2014 Period interior was typically carpeted unless a previous owner refloored it."
       },
       {
         "label": "Research Status",
@@ -25991,7 +25991,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "72–73\"",
+            "value": "72\u201373\"",
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
@@ -25999,7 +25999,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "550–650 lb",
+            "value": "550\u2013650 lb",
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
@@ -26023,7 +26023,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "Verify capacity plate; 60–70-hp equipped packages are documented, not a rating",
+            "value": "Verify capacity plate; 60\u201370-hp equipped packages are documented, not a rating",
             "confidence": "cited-source-exact"
           },
           "Persons": {
@@ -26065,11 +26065,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sea Nymph | FM161 Fishing Machine:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1990,
         "endYear": 1999,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1991–1995 representative",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1991\u20131995 representative",
         "sourceUrl": "https://www.jdpower.com/boats/1995/sea-nymph/fm161/10154459/specs",
         "specs": {},
         "eras": []
@@ -26155,7 +26155,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "70–90"
+        "value": "70\u201390"
       },
       {
         "label": "Persons",
@@ -26187,11 +26187,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: authentic Great Lakes Special, but narrow/light by this search’s Lake Superior standard and supported by incomplete surviving factory data."
+        "value": "Secondary: authentic Great Lakes Special, but narrow/light by this search\u2019s Lake Superior standard and supported by incomplete surviving factory data."
       },
       {
         "label": "Notes",
-        "value": "The documented compact GLS model is GLS175, not GLS165. It is a valid older Great Lakes-oriented candidate, but its 82-in beam and 800-lb hull remain below the Primary boats’ reserve."
+        "value": "The documented compact GLS model is GLS175, not GLS165. It is a valid older Great Lakes-oriented candidate, but its 82-in beam and 800-lb hull remain below the Primary boats\u2019 reserve."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -26203,7 +26203,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Period interior was typically carpeted unless a previous owner refloored it."
+        "value": "POOR \u2014 Period interior was typically carpeted unless a previous owner refloored it."
       },
       {
         "label": "Research Status",
@@ -26300,11 +26300,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1988,
         "endYear": 1999,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1988–1995; 1989 basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1988\u20131995; 1989 basis",
         "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph/gls175-great-lakes-spec/10154914/specs",
         "specs": {},
         "eras": []
@@ -26390,7 +26390,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -26422,7 +26422,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: authentic 19-foot Great Lakes hull with an 89-inch beam, full windshield and realistic sub-$14k availability. Typical outboard packages remain comfortably inside the Maverick’s 4,000-lb tow rating; age, wood condition and rivet integrity control the recommendation."
+        "value": "Primary: authentic 19-foot Great Lakes hull with an 89-inch beam, full windshield and realistic sub-$14k availability. Typical outboard packages remain comfortably inside the Maverick\u2019s 4,000-lb tow rating; age, wood condition and rivet integrity control the recommendation."
       },
       {
         "label": "Notes",
@@ -26438,7 +26438,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Period interior was typically carpeted unless a previous owner refloored it."
+        "value": "POOR \u2014 Period interior was typically carpeted unless a previous owner refloored it."
       },
       {
         "label": "Research Status",
@@ -26493,7 +26493,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "Verify capacity plate; 115–120-hp installations are documented, not the rating",
+            "value": "Verify capacity plate; 115\u2013120-hp installations are documented, not the rating",
             "confidence": "cited-source-exact"
           },
           "Persons": {
@@ -26544,11 +26544,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sea Nymph | GLS195 Great Lakes Special:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1980,
         "endYear": 1999,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989–1995; 1989 basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989\u20131995; 1989 basis",
         "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph/gls195-great-lakes-spec/10154918/specs",
         "specs": {},
         "eras": []
@@ -26634,7 +26634,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "70–90"
+        "value": "70\u201390"
       },
       {
         "label": "Persons",
@@ -26682,7 +26682,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Period interior was typically carpeted unless a previous owner refloored it."
+        "value": "POOR \u2014 Period interior was typically carpeted unless a previous owner refloored it."
       },
       {
         "label": "Research Status",
@@ -26713,7 +26713,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "800–850 lb",
+            "value": "800\u2013850 lb",
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
@@ -26737,7 +26737,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "Verify capacity plate; 70–90-hp packages are documented",
+            "value": "Verify capacity plate; 70\u201390-hp packages are documented",
             "confidence": "cited-source-exact"
           },
           "Persons": {
@@ -26779,11 +26779,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sea Nymph | SS175 Fish & Ski:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1989,
         "endYear": 1999,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989–1990 representative",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989\u20131990 representative",
         "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph",
         "specs": {},
         "eras": []
@@ -26869,7 +26869,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–140"
+        "value": "115\u2013140"
       },
       {
         "label": "Persons",
@@ -26917,7 +26917,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -26948,7 +26948,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "About 1,100–1,200 lb",
+            "value": "About 1,100\u20131,200 lb",
             "confidence": "catalog-representative"
           },
           "Max / Bow Depth": {
@@ -26972,7 +26972,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "140–150 representative",
+            "value": "140\u2013150 representative",
             "confidence": "catalog-representative"
           },
           "Persons": {
@@ -27023,11 +27023,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sea Nymph | SS195 Fish & Ski:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1980,
         "endYear": 1999,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1980s–early 1990s; 1989 basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1980s\u2013early 1990s; 1989 basis",
         "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph",
         "specs": {},
         "eras": []
@@ -27042,7 +27042,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Fazer 172",
     "displayName": "Smoker Craft | Fazer 172",
-    "subtitle": "1989–1995 documented production; 1995 exact factory table",
+    "subtitle": "1989\u20131995 documented production; 1995 exact factory table",
     "badge": "Secondary",
     "lowPrice": 1800,
     "highPrice": 4500,
@@ -27057,7 +27057,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1989–1995 documented production; 1995 exact factory table"
+        "value": "1989\u20131995 documented production; 1995 exact factory table"
       },
       {
         "label": "Recommendation",
@@ -27113,7 +27113,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -27149,7 +27149,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former 1996–1999 placeholder was incorrect. Independent model-fitment evidence closes the Fazer 172/F&S at 1995; the later Fazer 178 and 192 are separate records."
+        "value": "The former 1996\u20131999 placeholder was incorrect. Independent model-fitment evidence closes the Fazer 172/F&S at 1995; the later Fazer 178 and 192 are separate records."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -27161,7 +27161,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -27172,11 +27172,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Fazer 172:gen:1989-1994",
-        "label": "1989–1994 model identity; detailed tables source-exhausted",
+        "label": "1989\u20131994 model identity; detailed tables source-exhausted",
         "startYear": 1989,
         "endYear": 1994,
         "status": "model-identity-source-exhausted",
-        "specificationBasis": "Cover-fit records establish the Fazer 172/F&S production interval. Available factory archive covers and year rosters did not yield a complete compatible specification table for 1989–1994; no 1995 figures are inherited.",
+        "specificationBasis": "Cover-fit records establish the Fazer 172/F&S production interval. Available factory archive covers and year rosters did not yield a complete compatible specification table for 1989\u20131994; no 1995 figures are inherited.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {},
         "eras": [
@@ -27264,7 +27264,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Fazer 178",
     "displayName": "Smoker Craft | Fazer 178",
-    "subtitle": "1998–1999 documented model span",
+    "subtitle": "1998\u20131999 documented model span",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 5500,
@@ -27279,7 +27279,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1998–1999 documented model span"
+        "value": "1998\u20131999 documented model span"
       },
       {
         "label": "Recommendation",
@@ -27335,7 +27335,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -27371,7 +27371,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The prior 1997 start was not supported by the surviving exact-model records. The Fazer 178 appears as a 1998–1999 model."
+        "value": "The prior 1997 start was not supported by the surviving exact-model records. The Fazer 178 appears as a 1998\u20131999 model."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -27383,7 +27383,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -27394,11 +27394,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Fazer 178:gen:1998-1999",
-        "label": "1998–1999 model identity and principal dimensions",
+        "label": "1998\u20131999 model identity and principal dimensions",
         "startYear": 1998,
         "endYear": 1999,
         "status": "secondary-verified",
-        "specificationBasis": "Year/model valuation records and exact model-fitment references establish 1998–1999. Principal dimensions remain secondary evidence; verify the capacity plate.",
+        "specificationBasis": "Year/model valuation records and exact model-fitment references establish 1998\u20131999. Principal dimensions remain secondary evidence; verify the capacity plate.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -27445,7 +27445,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Fazer 192",
     "displayName": "Smoker Craft | Fazer 192",
-    "subtitle": "1993–1999 documented production; 1995 exact factory table",
+    "subtitle": "1993\u20131999 documented production; 1995 exact factory table",
     "badge": "Primary",
     "lowPrice": 2500,
     "highPrice": 7000,
@@ -27460,7 +27460,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1993–1999 documented production; 1995 exact factory table"
+        "value": "1993\u20131999 documented production; 1995 exact factory table"
       },
       {
         "label": "Recommendation",
@@ -27516,7 +27516,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "135–175"
+        "value": "135\u2013175"
       },
       {
         "label": "Persons",
@@ -27564,7 +27564,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -27575,11 +27575,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Fazer 192:gen:1993-1994",
-        "label": "1993–1994 model identity; detailed tables source-exhausted",
+        "label": "1993\u20131994 model identity; detailed tables source-exhausted",
         "startYear": 1993,
         "endYear": 1994,
         "status": "model-identity-source-exhausted",
-        "specificationBasis": "Exact-model cover fitment and annual references establish the early Fazer 192 span. Complete compatible factory tables were not recovered for 1993–1994.",
+        "specificationBasis": "Exact-model cover fitment and annual references establish the early Fazer 192 span. Complete compatible factory tables were not recovered for 1993\u20131994.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {},
         "eras": [
@@ -27658,7 +27658,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Fazer 192:gen:1996-1999",
-        "label": "1996–1999 continuing model identity; detailed tables source-exhausted",
+        "label": "1996\u20131999 continuing model identity; detailed tables source-exhausted",
         "startYear": 1996,
         "endYear": 1999,
         "status": "model-identity-source-exhausted",
@@ -27688,7 +27688,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "*Millentia 172 WT",
     "displayName": "*Smoker Craft | Millentia 172 WT",
-    "subtitle": "2002–2016 documented production across early, 2006–2010, and annual certification variations",
+    "subtitle": "2002\u20132016 documented production across early, 2006\u20132010, and annual certification variations",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 13500,
@@ -27703,7 +27703,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2002–2016 documented production across early, 2006–2010, and annual certification variations"
+        "value": "2002\u20132016 documented production across early, 2006\u20132010, and annual certification variations"
       },
       {
         "label": "Recommendation",
@@ -27759,7 +27759,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -27791,7 +27791,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -27807,7 +27807,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -27818,7 +27818,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Millentia 172 WT:gen:2002-2005",
-        "label": "2002–2005 early 1,260-lb generation; complete tables source-exhausted",
+        "label": "2002\u20132005 early 1,260-lb generation; complete tables source-exhausted",
         "startYear": 2002,
         "endYear": 2005,
         "status": "source-exhausted-partial",
@@ -27848,11 +27848,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Millentia 172 WT:gen:2006-2010",
-        "label": "2006–2010 1,325-lb factory-supported generation",
+        "label": "2006\u20132010 1,325-lb factory-supported generation",
         "startYear": 2006,
         "endYear": 2010,
         "status": "factory-supported-generation",
-        "specificationBasis": "2006–2010 annual model rosters repeat the 1,325-lb hull; the 2007 factory table supplies the exact physical specification. Horsepower certification changed by year.",
+        "specificationBasis": "2006\u20132010 annual model rosters repeat the 1,325-lb hull; the 2007 factory table supplies the exact physical specification. Horsepower certification changed by year.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -27884,7 +27884,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Max HP": {
-            "value": "130–140 by model year",
+            "value": "130\u2013140 by model year",
             "confidence": "year-specific-secondary"
           },
           "Persons": {
@@ -27954,7 +27954,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "14°",
+            "value": "14\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -28008,7 +28008,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Millentia 172 WT:gen:2012-2013",
-        "label": "2012–2013 repeated factory specification",
+        "label": "2012\u20132013 repeated factory specification",
         "startYear": 2012,
         "endYear": 2013,
         "status": "factory-generation",
@@ -28036,7 +28036,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "14°",
+            "value": "14\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -28118,7 +28118,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "14°",
+            "value": "14\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -28230,7 +28230,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "14°",
+            "value": "14\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -28364,7 +28364,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -28412,7 +28412,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -28443,7 +28443,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Millentia 192 (Secondary; 172 is the target size)",
     "displayName": "Smoker Craft | Millentia 192 (Secondary; 172 is the target size)",
-    "subtitle": "2005–2016 documented production with 2006 weight step and later certification changes",
+    "subtitle": "2005\u20132016 documented production with 2006 weight step and later certification changes",
     "badge": "Secondary",
     "lowPrice": 5000,
     "highPrice": 16000,
@@ -28458,7 +28458,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2005–2016 documented production with 2006 weight step and later certification changes"
+        "value": "2005\u20132016 documented production with 2006 weight step and later certification changes"
       },
       {
         "label": "Recommendation",
@@ -28514,7 +28514,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -28550,7 +28550,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 19-foot Millentia is excellent big-water hardware but generally heavier and more expensive than the project’s preferred 17-foot packages."
+        "value": "The 19-foot Millentia is excellent big-water hardware but generally heavier and more expensive than the project\u2019s preferred 17-foot packages."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -28562,7 +28562,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -28599,7 +28599,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):gen:2006-2010",
-        "label": "2006–2010 1,575-lb factory-supported generation",
+        "label": "2006\u20132010 1,575-lb factory-supported generation",
         "startYear": 2006,
         "endYear": 2010,
         "status": "factory-supported-generation",
@@ -28627,7 +28627,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -28681,7 +28681,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Millentia 192 (Secondary; 172/182 are the target sizes):gen:2011-2014",
-        "label": "2011–2014 documented principal specification",
+        "label": "2011\u20132014 documented principal specification",
         "startYear": 2011,
         "endYear": 2014,
         "status": "factory-generation",
@@ -28709,7 +28709,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -28817,7 +28817,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -28880,7 +28880,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Osprey 162 WT (Secondary; wide WT version is 2020s)",
     "displayName": "Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)",
-    "subtitle": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved",
+    "subtitle": "2009\u20132026 documented model presence; 2017\u20132018 and current WT specifications preserved",
     "badge": "Secondary",
     "lowPrice": 6000,
     "highPrice": 36000,
@@ -28895,7 +28895,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved"
+        "value": "2009\u20132026 documented model presence; 2017\u20132018 and current WT specifications preserved"
       },
       {
         "label": "Recommendation",
@@ -28951,7 +28951,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -28987,7 +28987,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "A capable and deep compact boat, but examples from the verified WT years are generally above the project’s ideal budget."
+        "value": "A capable and deep compact boat, but examples from the verified WT years are generally above the project\u2019s ideal budget."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -28999,7 +28999,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -29010,7 +29010,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2009-2016",
-        "label": "2009–2016 Osprey 162 identity; layout/specification tables source-exhausted",
+        "label": "2009\u20132016 Osprey 162 identity; layout/specification tables source-exhausted",
         "startYear": 2009,
         "endYear": 2016,
         "status": "source-exhausted-partial",
@@ -29018,7 +29018,7 @@ window.BOATBUILDER_BOATS = [
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Dry Hull Weight": {
-            "value": "1,050–1,165 lb in surviving annual rosters",
+            "value": "1,050\u20131,165 lb in surviving annual rosters",
             "confidence": "secondary-year-roster"
           }
         },
@@ -29045,7 +29045,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2017-2018",
-        "label": "2017–2018 factory specification",
+        "label": "2017\u20132018 factory specification",
         "startYear": 2017,
         "endYear": 2018,
         "status": "factory-generation",
@@ -29073,7 +29073,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -29127,11 +29127,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2019-2024",
-        "label": "2019–2024 continuing Osprey 162 WT fitment; full annual tables source-exhausted",
+        "label": "2019\u20132024 continuing Osprey 162 WT fitment; full annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
         "status": "source-exhausted-partial",
-        "specificationBasis": "Exact-model cover fitment and annual rosters confirm the 2019–2024 Osprey 162. Complete annual factory tables were not recovered; 2017–2018 or current specifications are not inherited.",
+        "specificationBasis": "Exact-model cover fitment and annual rosters confirm the 2019\u20132024 Osprey 162. Complete annual factory tables were not recovered; 2017\u20132018 or current specifications are not inherited.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {
           "Layout": {
@@ -29153,7 +29153,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2025-2026",
-        "label": "2025–2026 current factory generation",
+        "label": "2025\u20132026 current factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -29181,7 +29181,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -29243,7 +29243,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Osprey 172 WT (Secondary; qualifying WT is 2020s)",
     "displayName": "Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s)",
-    "subtitle": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved",
+    "subtitle": "2009\u20132026 documented model presence; 2017\u20132018 and current WT specifications preserved",
     "badge": "Secondary",
     "lowPrice": 7000,
     "highPrice": 40000,
@@ -29258,7 +29258,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved"
+        "value": "2009\u20132026 documented model presence; 2017\u20132018 and current WT specifications preserved"
       },
       {
         "label": "Recommendation",
@@ -29314,7 +29314,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -29362,7 +29362,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -29373,7 +29373,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2009-2016",
-        "label": "2009–2016 Osprey 172 identity; full configuration tables source-exhausted",
+        "label": "2009\u20132016 Osprey 172 identity; full configuration tables source-exhausted",
         "startYear": 2009,
         "endYear": 2016,
         "status": "source-exhausted-partial",
@@ -29381,7 +29381,7 @@ window.BOATBUILDER_BOATS = [
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Dry Hull Weight": {
-            "value": "1,150–1,225 lb in surviving annual rosters",
+            "value": "1,150\u20131,225 lb in surviving annual rosters",
             "confidence": "secondary-year-roster"
           }
         },
@@ -29408,7 +29408,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2017-2018",
-        "label": "2017–2018 factory specification",
+        "label": "2017\u20132018 factory specification",
         "startYear": 2017,
         "endYear": 2018,
         "status": "factory-generation",
@@ -29436,7 +29436,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -29490,11 +29490,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2019-2024",
-        "label": "2019–2024 Osprey 172 WT fitment; full annual tables source-exhausted",
+        "label": "2019\u20132024 Osprey 172 WT fitment; full annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
         "status": "source-exhausted-partial",
-        "specificationBasis": "Exact-model fitment and annual rosters confirm the 2019–2024 Osprey 172. The later 90-inch-beam table is not backfilled without the annual factory sheets.",
+        "specificationBasis": "Exact-model fitment and annual rosters confirm the 2019\u20132024 Osprey 172. The later 90-inch-beam table is not backfilled without the annual factory sheets.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {
           "Layout": {
@@ -29502,7 +29502,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "exact-model-fitment"
           },
           "Dry Hull Weight": {
-            "value": "About 1,150–1,165 lb in surviving rosters",
+            "value": "About 1,150\u20131,165 lb in surviving rosters",
             "confidence": "secondary-year-roster"
           }
         },
@@ -29520,7 +29520,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):gen:2025-2026",
-        "label": "2025–2026 current factory generation",
+        "label": "2025\u20132026 current factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -29548,7 +29548,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -29610,7 +29610,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Phantom 170 DC",
     "displayName": "Smoker Craft | Phantom 170 DC",
-    "subtitle": "1996–1997 exact model identity; detailed factory table source-exhausted",
+    "subtitle": "1996\u20131997 exact model identity; detailed factory table source-exhausted",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 6000,
@@ -29625,7 +29625,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1996–1997 exact model identity; detailed factory table source-exhausted"
+        "value": "1996\u20131997 exact model identity; detailed factory table source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -29681,7 +29681,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -29729,7 +29729,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -29740,7 +29740,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Phantom 170 DC:gen:1996-1997",
-        "label": "1996–1997 Phantom 170 DC model identity",
+        "label": "1996\u20131997 Phantom 170 DC model identity",
         "startYear": 1996,
         "endYear": 1997,
         "status": "model-identity-verified",
@@ -29894,11 +29894,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary / alias: do not treat “Phaser” as a separate verified model; identify the exact Fazer before applying specs."
+        "value": "Secondary / alias: do not treat \u201cPhaser\u201d as a separate verified model; identify the exact Fazer before applying specs."
       },
       {
         "label": "Notes",
-        "value": "Treat “Phaser” as a listing typo until the capacity plate or HIN identifies the actual Fazer or another model."
+        "value": "Treat \u201cPhaser\u201d as a listing typo until the capacity plate or HIN identifies the actual Fazer or another model."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -29910,7 +29910,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -29941,7 +29941,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "*Pro Angler 172 (Primary; not Lund Pro Angler)",
     "displayName": "*Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler)",
-    "subtitle": "2004–2024 documented production; four physical/certification eras",
+    "subtitle": "2004\u20132024 documented production; four physical/certification eras",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 19000,
@@ -29956,7 +29956,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2004–2024 documented production; four physical/certification eras"
+        "value": "2004\u20132024 documented production; four physical/certification eras"
       },
       {
         "label": "Recommendation",
@@ -30012,7 +30012,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -30060,7 +30060,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -30071,15 +30071,15 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2004-2006",
-        "label": "2004–2006 early Pro Angler 172 identity; complete tables source-exhausted",
+        "label": "2004\u20132006 early Pro Angler 172 identity; complete tables source-exhausted",
         "startYear": 2004,
         "endYear": 2006,
         "status": "source-exhausted-partial",
-        "specificationBasis": "Annual rosters establish the 172 Pro Angler from 2004. Surviving 2004–2006 references do not provide a complete compatible table.",
+        "specificationBasis": "Annual rosters establish the 172 Pro Angler from 2004. Surviving 2004\u20132006 references do not provide a complete compatible table.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Dry Hull Weight": {
-            "value": "1,200–1,225 lb in annual rosters",
+            "value": "1,200\u20131,225 lb in annual rosters",
             "confidence": "secondary-year-roster"
           }
         },
@@ -30097,7 +30097,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2007-2011",
-        "label": "2007–2011 1,225-lb factory-supported generation",
+        "label": "2007\u20132011 1,225-lb factory-supported generation",
         "startYear": 2007,
         "endYear": 2011,
         "status": "factory-supported-generation",
@@ -30125,7 +30125,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "14°",
+            "value": "14\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -30137,7 +30137,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Max HP": {
-            "value": "135–140 by year",
+            "value": "135\u2013140 by year",
             "confidence": "year-specific-factory"
           },
           "Persons": {
@@ -30179,7 +30179,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2012-2016",
-        "label": "2012–2016 1,180-lb factory-supported generation",
+        "label": "2012\u20132016 1,180-lb factory-supported generation",
         "startYear": 2012,
         "endYear": 2016,
         "status": "factory-supported-generation",
@@ -30207,7 +30207,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "14°",
+            "value": "14\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -30261,7 +30261,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2017-2018",
-        "label": "2017–2018 later certification generation",
+        "label": "2017\u20132018 later certification generation",
         "startYear": 2017,
         "endYear": 2018,
         "status": "factory-supported-generation",
@@ -30289,7 +30289,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "14°",
+            "value": "14\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -30343,7 +30343,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 172 (Primary; not Lund Pro Angler):gen:2019-2024",
-        "label": "2019–2024 continued 172 Pro Angler; exact annual tables source-exhausted",
+        "label": "2019\u20132024 continued 172 Pro Angler; exact annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -30382,7 +30382,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "*Pro Angler 172 XL",
     "displayName": "*Smoker Craft | Pro Angler 172 XL",
-    "subtitle": "2012–2026 documented production; 2019 weight/fuel transition and 2025 Gen 2 retained",
+    "subtitle": "2012\u20132026 documented production; 2019 weight/fuel transition and 2025 Gen 2 retained",
     "badge": "Primary",
     "lowPrice": 7000,
     "highPrice": 46000,
@@ -30397,7 +30397,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012–2026 documented production; 2019 weight/fuel transition and 2025 Gen 2 retained"
+        "value": "2012\u20132026 documented production; 2019 weight/fuel transition and 2025 Gen 2 retained"
       },
       {
         "label": "Recommendation",
@@ -30453,7 +30453,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -30485,7 +30485,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -30501,7 +30501,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -30512,11 +30512,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2012-2013",
-        "label": "2012–2013 repeated factory specification",
+        "label": "2012\u20132013 repeated factory specification",
         "startYear": 2012,
         "endYear": 2013,
         "status": "factory-generation",
-        "specificationBasis": "2012–2013 repeated factory specification; capacity certification, weight, fuel, or structure is kept specific to this snapshot.",
+        "specificationBasis": "2012\u20132013 repeated factory specification; capacity certification, weight, fuel, or structure is kept specific to this snapshot.",
         "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2013-Smokercraft-Brochure.pdf",
         "specs": {
           "Length": {
@@ -30540,7 +30540,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -30622,7 +30622,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -30676,11 +30676,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2015-2017",
-        "label": "2015–2017 1,350-lb carryover generation",
+        "label": "2015\u20132017 1,350-lb carryover generation",
         "startYear": 2015,
         "endYear": 2017,
         "status": "factory-supported-generation",
-        "specificationBasis": "2015–2017 annual rosters repeat the 1,350-lb Pro Angler XL 172; the 2014 factory table supplies the compatible physical specification.",
+        "specificationBasis": "2015\u20132017 annual rosters repeat the 1,350-lb Pro Angler XL 172; the 2014 factory table supplies the compatible physical specification.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -30704,7 +30704,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -30786,7 +30786,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -30840,7 +30840,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2019-2024",
-        "label": "2019–2024 1,305-lb generation; complete annual tables source-exhausted",
+        "label": "2019\u20132024 1,305-lb generation; complete annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -30882,7 +30882,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 172 XL:gen:2025-2026",
-        "label": "2025–2026 current Gen 2 factory generation",
+        "label": "2025\u20132026 current Gen 2 factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -30910,7 +30910,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -30973,7 +30973,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Pro Angler 182 XL (Secondary; 172/172 XL are Primary)",
     "displayName": "Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary)",
-    "subtitle": "2015–2026 documented production; 2019 shorter-hull transition and 2025 Gen 2 retained",
+    "subtitle": "2015\u20132026 documented production; 2019 shorter-hull transition and 2025 Gen 2 retained",
     "badge": "Secondary",
     "lowPrice": 9000,
     "highPrice": 55000,
@@ -30988,7 +30988,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2015–2026 documented production; 2019 shorter-hull transition and 2025 Gen 2 retained"
+        "value": "2015\u20132026 documented production; 2019 shorter-hull transition and 2025 Gen 2 retained"
       },
       {
         "label": "Recommendation",
@@ -31044,7 +31044,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -31092,7 +31092,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -31103,7 +31103,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:2015-2018",
-        "label": "2015–2018 18-foot-5-inch factory-supported generation",
+        "label": "2015\u20132018 18-foot-5-inch factory-supported generation",
         "startYear": 2015,
         "endYear": 2018,
         "status": "factory-supported-generation",
@@ -31131,7 +31131,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -31185,7 +31185,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:2019-2024",
-        "label": "2019–2024 18-foot-2-inch generation; complete annual tables source-exhausted",
+        "label": "2019\u20132024 18-foot-2-inch generation; complete annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -31223,7 +31223,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Angler 182 XL (Secondary; 172/172 XL are Primary):gen:2025-2026",
-        "label": "2025–2026 current Gen 2 factory generation",
+        "label": "2025\u20132026 current Gen 2 factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -31251,7 +31251,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -31314,7 +31314,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
     "displayName": "Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
-    "subtitle": "1994–2020 documented production across early, 18-foot-2-inch, and 18-foot-5-inch eras",
+    "subtitle": "1994\u20132020 documented production across early, 18-foot-2-inch, and 18-foot-5-inch eras",
     "badge": "Secondary",
     "lowPrice": 3000,
     "highPrice": 19000,
@@ -31329,7 +31329,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1994–2020 documented production across early, 18-foot-2-inch, and 18-foot-5-inch eras"
+        "value": "1994\u20132020 documented production across early, 18-foot-2-inch, and 18-foot-5-inch eras"
       },
       {
         "label": "Recommendation",
@@ -31385,7 +31385,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -31433,7 +31433,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -31444,11 +31444,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:1994-1999",
-        "label": "1994–1999 early Pro Mag 182 identity; detailed tables source-exhausted",
+        "label": "1994\u20131999 early Pro Mag 182 identity; detailed tables source-exhausted",
         "startYear": 1994,
         "endYear": 1999,
         "status": "model-identity-source-exhausted",
-        "specificationBasis": "Exact-model fitment establishes the 1994–1999 production interval. Complete factory tables were not recovered.",
+        "specificationBasis": "Exact-model fitment establishes the 1994\u20131999 production interval. Complete factory tables were not recovered.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {},
         "eras": [
@@ -31465,7 +31465,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2000-2010",
-        "label": "2000–2010 later 18-foot-class generation; complete tables source-exhausted",
+        "label": "2000\u20132010 later 18-foot-class generation; complete tables source-exhausted",
         "startYear": 2000,
         "endYear": 2010,
         "status": "source-exhausted-partial",
@@ -31519,7 +31519,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -31599,11 +31599,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2013-2014",
-        "label": "2013–2014 repeated factory specification",
+        "label": "2013\u20132014 repeated factory specification",
         "startYear": 2013,
         "endYear": 2014,
         "status": "factory-generation",
-        "specificationBasis": "2013–2014 repeated factory specification table.",
+        "specificationBasis": "2013\u20132014 repeated factory specification table.",
         "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2014-Smokercraft-Brochure.pdf",
         "specs": {
           "Length": {
@@ -31627,7 +31627,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -31681,7 +31681,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2015-2016",
-        "label": "2015–2016 factory-supported generation",
+        "label": "2015\u20132016 factory-supported generation",
         "startYear": 2015,
         "endYear": 2016,
         "status": "factory-supported-generation",
@@ -31709,7 +31709,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -31763,7 +31763,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2017-2018",
-        "label": "2017–2018 18-foot-5-inch factory-supported generation",
+        "label": "2017\u20132018 18-foot-5-inch factory-supported generation",
         "startYear": 2017,
         "endYear": 2018,
         "status": "factory-supported-generation",
@@ -31791,7 +31791,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -31845,7 +31845,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:2019-2020",
-        "label": "2019–2020 final Pro Mag 182 identity; complete tables source-exhausted",
+        "label": "2019\u20132020 final Pro Mag 182 identity; complete tables source-exhausted",
         "startYear": 2019,
         "endYear": 2020,
         "status": "source-exhausted-partial",
@@ -31880,7 +31880,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "*Ultima 172",
     "displayName": "*Smoker Craft | Ultima 172",
-    "subtitle": "2005–2026 documented production; 2014 wide-hull redesign and 2019 Legacy era retained",
+    "subtitle": "2005\u20132026 documented production; 2014 wide-hull redesign and 2019 Legacy era retained",
     "badge": "Primary",
     "lowPrice": 4000,
     "highPrice": 46000,
@@ -31895,7 +31895,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2005–2026 documented production; 2014 wide-hull redesign and 2019 Legacy era retained"
+        "value": "2005\u20132026 documented production; 2014 wide-hull redesign and 2019 Legacy era retained"
       },
       {
         "label": "Recommendation",
@@ -31951,7 +31951,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -31983,7 +31983,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -31999,7 +31999,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -32036,11 +32036,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 172:gen:2006-2011",
-        "label": "2006–2011 91-inch-beam-era identity; complete annual tables source-exhausted",
+        "label": "2006\u20132011 91-inch-beam-era identity; complete annual tables source-exhausted",
         "startYear": 2006,
         "endYear": 2011,
         "status": "source-exhausted-partial",
-        "specificationBasis": "Annual rosters identify a 1,325–1,330-lb Ultima 172 before the later 96-inch-beam redesign. Complete compatible annual tables were not recovered.",
+        "specificationBasis": "Annual rosters identify a 1,325\u20131,330-lb Ultima 172 before the later 96-inch-beam redesign. Complete compatible annual tables were not recovered.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Beam": {
@@ -32048,7 +32048,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-family-evidence"
           },
           "Dry Hull Weight": {
-            "value": "1,325–1,330 lb",
+            "value": "1,325\u20131,330 lb",
             "confidence": "secondary-year-roster"
           }
         },
@@ -32094,7 +32094,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "14°",
+            "value": "14\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -32202,7 +32202,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -32256,7 +32256,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 172:gen:2015-2016",
-        "label": "2015–2016 96-inch-beam factory-supported generation",
+        "label": "2015\u20132016 96-inch-beam factory-supported generation",
         "startYear": 2015,
         "endYear": 2016,
         "status": "factory-supported-generation",
@@ -32284,7 +32284,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -32338,11 +32338,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 172:gen:2017-2018",
-        "label": "2017–2018 later certification generation",
+        "label": "2017\u20132018 later certification generation",
         "startYear": 2017,
         "endYear": 2018,
         "status": "factory-supported-generation",
-        "specificationBasis": "2017 roster and 2018 factory table support the later 1,305–1,325-lb configuration.",
+        "specificationBasis": "2017 roster and 2018 factory table support the later 1,305\u20131,325-lb configuration.",
         "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
         "specs": {
           "Length": {
@@ -32366,7 +32366,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -32420,7 +32420,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 172:gen:2019-2024",
-        "label": "2019–2024 Ultima / Legacy generation; complete annual tables source-exhausted",
+        "label": "2019\u20132024 Ultima / Legacy generation; complete annual tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -32458,7 +32458,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 172:gen:2025-2026",
-        "label": "2025–2026 current Gen 2 factory generation",
+        "label": "2025\u20132026 current Gen 2 factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -32486,7 +32486,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -32549,7 +32549,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Ultima 175",
     "displayName": "Smoker Craft | Ultima 175",
-    "subtitle": "1994–1999 documented production; 1995 exact factory table",
+    "subtitle": "1994\u20131999 documented production; 1995 exact factory table",
     "badge": "Primary",
     "lowPrice": 2500,
     "highPrice": 6500,
@@ -32564,7 +32564,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1994–1999 documented production; 1995 exact factory table"
+        "value": "1994\u20131999 documented production; 1995 exact factory table"
       },
       {
         "label": "Recommendation",
@@ -32620,7 +32620,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -32668,7 +32668,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -32762,7 +32762,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 175:gen:1996-1999",
-        "label": "1996–1999 continuation; detailed tables source-exhausted",
+        "label": "1996\u20131999 continuation; detailed tables source-exhausted",
         "startYear": 1996,
         "endYear": 1999,
         "status": "model-identity-source-exhausted",
@@ -32863,7 +32863,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -32911,7 +32911,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -32952,7 +32952,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Smoker Craft",
     "model": "Ultima 182 (Secondary; 172 is Primary)",
     "displayName": "Smoker Craft | Ultima 182 (Secondary; 172 is Primary)",
-    "subtitle": "2001–2002 and 2015–2026 documented production; standard, SE, Legacy and Gen 2 configurations separated",
+    "subtitle": "2001\u20132002 and 2015\u20132026 documented production; standard, SE, Legacy and Gen 2 configurations separated",
     "badge": "Secondary",
     "lowPrice": 4000,
     "highPrice": 55000,
@@ -32967,7 +32967,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2001–2002 and 2015–2026 documented production; standard, SE, Legacy and Gen 2 configurations separated"
+        "value": "2001\u20132002 and 2015\u20132026 documented production; standard, SE, Legacy and Gen 2 configurations separated"
       },
       {
         "label": "Recommendation",
@@ -33023,7 +33023,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -33071,7 +33071,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on casting decks unless a full-vinyl package is confirmed."
       },
       {
         "label": "Research Status",
@@ -33082,11 +33082,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2001-2002",
-        "label": "2001–2002 early Ultima 182 identity; detailed tables source-exhausted",
+        "label": "2001\u20132002 early Ultima 182 identity; detailed tables source-exhausted",
         "startYear": 2001,
         "endYear": 2002,
         "status": "model-identity-source-exhausted",
-        "specificationBasis": "Exact-model fitment establishes the early 2001–2002 Ultima 182. Complete factory tables were not recovered.",
+        "specificationBasis": "Exact-model fitment establishes the early 2001\u20132002 Ultima 182. Complete factory tables were not recovered.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
         "specs": {},
         "eras": [
@@ -33129,7 +33129,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2016-2018-standard",
-        "label": "2016–2018 documented standard 182 hull",
+        "label": "2016\u20132018 documented standard 182 hull",
         "startYear": 2016,
         "endYear": 2018,
         "status": "factory-generation",
@@ -33157,7 +33157,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -33239,7 +33239,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -33293,7 +33293,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2019-2024",
-        "label": "2019–2024 standard / Legacy 18-foot-2-inch generation; full tables source-exhausted",
+        "label": "2019\u20132024 standard / Legacy 18-foot-2-inch generation; full tables source-exhausted",
         "startYear": 2019,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -33331,7 +33331,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2025-2026",
-        "label": "2025–2026 current Gen 2 factory generation",
+        "label": "2025\u20132026 current Gen 2 factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -33359,7 +33359,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -33493,7 +33493,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–140 representative"
+        "value": "90\u2013140 representative"
       },
       {
         "label": "Persons",
@@ -33541,7 +33541,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -33638,7 +33638,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Spectrum / Blue Fin | 1906:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 1990,
         "endYear": 1999,
         "status": "unresolved",
@@ -33657,7 +33657,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary)",
     "displayName": "Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary)",
-    "subtitle": "2013–2015 production closed from annual factory catalogs",
+    "subtitle": "2013\u20132015 production closed from annual factory catalogs",
     "badge": "Secondary",
     "lowPrice": 6500,
     "highPrice": 10500,
@@ -33672,7 +33672,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2013–2015; 2013–2014 hull and 2015 weight revision"
+        "value": "2013\u20132015; 2013\u20132014 hull and 2015 weight revision"
       },
       {
         "label": "Recommendation",
@@ -33760,7 +33760,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: short 16 ft hull with less weather margin than the 17–18 ft Primary target."
+        "value": "Secondary: short 16 ft hull with less weather margin than the 17\u201318 ft Primary target."
       },
       {
         "label": "Notes",
@@ -33776,7 +33776,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on raised decks by package."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on raised decks by package."
       },
       {
         "label": "Research Status",
@@ -33787,7 +33787,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2013-2014",
-        "label": "2013–2014 factory generation",
+        "label": "2013\u20132014 factory generation",
         "startYear": 2013,
         "endYear": 2014,
         "status": "factory-documented-generation",
@@ -33815,7 +33815,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -33853,8 +33853,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2013-2014:value:2013–2014",
-            "label": "2013–2014",
+            "id": "boat:Starcraft | Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary):gen:2013-2014:value:2013\u20132014",
+            "label": "2013\u20132014",
             "startYear": 2013,
             "endYear": 2014,
             "low": 6500,
@@ -33893,7 +33893,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -33951,7 +33951,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Fishmaster 170",
     "displayName": "Starcraft | Fishmaster 170",
-    "subtitle": "1995–1998 production closed; 1995–1997 source-exhausted",
+    "subtitle": "1995\u20131998 production closed; 1995\u20131997 source-exhausted",
     "badge": "Secondary",
     "lowPrice": 2500,
     "highPrice": 8500,
@@ -33966,7 +33966,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995–1998; 1998 exact snapshot, earlier annual specifications source-exhausted"
+        "value": "1995\u20131998; 1998 exact snapshot, earlier annual specifications source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -34022,7 +34022,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -34070,7 +34070,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation."
+        "value": "POOR \u2014 Primarily carpet in this generation."
       },
       {
         "label": "Research Status",
@@ -34081,11 +34081,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | Fishmaster 170:gen:1995-1997",
-        "label": "1995–1997 production identity — surviving specifications exhausted",
+        "label": "1995\u20131997 production identity \u2014 surviving specifications exhausted",
         "startYear": 1995,
         "endYear": 1997,
         "status": "source-exhausted-partial",
-        "specificationBasis": "Annual model rosters and fitment records establish the Fishmaster 170 for 1995–1997, but the surviving archive did not yield a defensible complete annual specification table. No 1998 values are projected backward.",
+        "specificationBasis": "Annual model rosters and fitment records establish the Fishmaster 170 for 1995\u20131997, but the surviving archive did not yield a defensible complete annual specification table. No 1998 values are projected backward.",
         "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
         "specs": {
           "Layout": {
@@ -34099,8 +34099,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 170:gen:1995-1997:value:1995–1997",
-            "label": "1995–1997",
+            "id": "boat:Starcraft | Fishmaster 170:gen:1995-1997:value:1995\u20131997",
+            "label": "1995\u20131997",
             "startYear": 1995,
             "endYear": 1997,
             "low": 2500,
@@ -34196,7 +34196,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Exact year matters. Earlier 1995–1997 boats cannot inherit the complete 1998 specification set."
+    "generationWarning": "Exact year matters. Earlier 1995\u20131997 boats cannot inherit the complete 1998 specification set."
   },
   {
     "id": "boat:Starcraft | Fishmaster 196",
@@ -34205,7 +34205,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Fishmaster 196",
     "displayName": "Starcraft | Fishmaster 196",
-    "subtitle": "1999–2026 history closed; six evidence dispositions",
+    "subtitle": "1999\u20132026 history closed; six evidence dispositions",
     "badge": "Secondary",
     "lowPrice": 3500,
     "highPrice": 68000,
@@ -34220,7 +34220,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1999–2026; choose the exact generation/value era"
+        "value": "1999\u20132026; choose the exact generation/value era"
       },
       {
         "label": "Recommendation",
@@ -34276,7 +34276,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "150–175"
+        "value": "150\u2013175"
       },
       {
         "label": "Persons",
@@ -34324,7 +34324,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST — Full vinyl cockpit/casting surface; snap-in carpet is removable."
+        "value": "BEST \u2014 Full vinyl cockpit/casting surface; snap-in carpet is removable."
       },
       {
         "label": "Research Status",
@@ -34335,7 +34335,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006",
-        "label": "1999–2006 early Fishmaster 196 family — source exhausted",
+        "label": "1999\u20132006 early Fishmaster 196 family \u2014 source exhausted",
         "startYear": 1999,
         "endYear": 2006,
         "status": "source-exhausted-partial",
@@ -34353,8 +34353,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006:value:1999–2006",
-            "label": "1999–2006",
+            "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006:value:1999\u20132006",
+            "label": "1999\u20132006",
             "startYear": 1999,
             "endYear": 2006,
             "low": 3500,
@@ -34365,7 +34365,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Fishmaster 196:gen:2007-2009",
-        "label": "2007–2009 pre-2010 production identity — source exhausted",
+        "label": "2007\u20132009 pre-2010 production identity \u2014 source exhausted",
         "startYear": 2007,
         "endYear": 2009,
         "status": "source-exhausted-partial",
@@ -34383,8 +34383,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 196:gen:2007-2009:value:2007–2009",
-            "label": "2007–2009",
+            "id": "boat:Starcraft | Fishmaster 196:gen:2007-2009:value:2007\u20132009",
+            "label": "2007\u20132009",
             "startYear": 2007,
             "endYear": 2009,
             "low": 5000,
@@ -34419,7 +34419,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -34465,11 +34465,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Fishmaster 196:gen:2011-2014",
-        "label": "2011–2014 200-hp factory generation",
+        "label": "2011\u20132014 200-hp factory generation",
         "startYear": 2011,
         "endYear": 2014,
         "status": "factory-documented-generation",
-        "specificationBasis": "2011 and 2013–2014 factory tables agree on the 1,430-pound, 200-hp, 52-gallon hull with 0.100-inch bottom.",
+        "specificationBasis": "2011 and 2013\u20132014 factory tables agree on the 1,430-pound, 200-hp, 52-gallon hull with 0.100-inch bottom.",
         "sourceUrl": "https://starcraftmarine.com/sites/default/files/2011-starcraft-fishing-catalog.pdf",
         "specs": {
           "Length": {
@@ -34493,7 +34493,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -34531,8 +34531,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 196:gen:2011-2014:value:2011–2014",
-            "label": "2011–2014",
+            "id": "boat:Starcraft | Fishmaster 196:gen:2011-2014:value:2011\u20132014",
+            "label": "2011\u20132014",
             "startYear": 2011,
             "endYear": 2014,
             "low": 7500,
@@ -34571,7 +34571,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -34621,7 +34621,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024",
-        "label": "2016–2024 later production — surviving generation boundary exhausted",
+        "label": "2016\u20132024 later production \u2014 surviving generation boundary exhausted",
         "startYear": 2016,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -34637,7 +34637,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "source-exhausted-partial"
           },
           "Deadrise": {
-            "value": "19° family basis",
+            "value": "19\u00b0 family basis",
             "confidence": "source-exhausted-partial"
           },
           "Max HP": {
@@ -34651,8 +34651,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024:value:2016–2019",
-            "label": "2016–2019",
+            "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024:value:2016\u20132019",
+            "label": "2016\u20132019",
             "startYear": 2016,
             "endYear": 2019,
             "low": 12000,
@@ -34660,8 +34660,8 @@ window.BOATBUILDER_BOATS = [
             "basis": "Used complete-package screening range for late-2010s examples"
           },
           {
-            "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024:value:2020–2024",
-            "label": "2020–2024",
+            "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024:value:2020\u20132024",
+            "label": "2020\u20132024",
             "startYear": 2020,
             "endYear": 2024,
             "low": 22000,
@@ -34672,7 +34672,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Fishmaster 196:gen:2025-2026",
-        "label": "2025–2026 current factory generation",
+        "label": "2025\u20132026 current factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current",
@@ -34700,7 +34700,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -34730,8 +34730,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 196:gen:2025-2026:value:2025–2026",
-            "label": "2025–2026",
+            "id": "boat:Starcraft | Fishmaster 196:gen:2025-2026:value:2025\u20132026",
+            "label": "2025\u20132026",
             "startYear": 2025,
             "endYear": 2026,
             "low": 45000,
@@ -34750,7 +34750,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "SFM 160 Superfisherman",
     "displayName": "Starcraft | SFM 160 Superfisherman",
-    "subtitle": "1986–1989 history closed; later years source-exhausted",
+    "subtitle": "1986\u20131989 history closed; later years source-exhausted",
     "badge": "Secondary",
     "lowPrice": 1500,
     "highPrice": 4000,
@@ -34765,7 +34765,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1986–1989; 1986 exact, 1987–1989 source-exhausted"
+        "value": "1986\u20131989; 1986 exact, 1987\u20131989 source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -34773,7 +34773,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Big-Water Suitability",
-        "value": "Fair–good for protected nearshore use"
+        "value": "Fair\u2013good for protected nearshore use"
       },
       {
         "label": "Layout",
@@ -34821,7 +34821,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "70–90"
+        "value": "70\u201390"
       },
       {
         "label": "Persons",
@@ -34857,7 +34857,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Factory-described as a big-water boat, but its 76½-in beam and 650-lb hull are narrow/light by this sheet’s modern Lake Superior screening standard. Very towable; condition and conservative weather windows are decisive."
+        "value": "Factory-described as a big-water boat, but its 76\u00bd-in beam and 650-lb hull are narrow/light by this sheet\u2019s modern Lake Superior screening standard. Very towable; condition and conservative weather windows are decisive."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -34869,7 +34869,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation."
+        "value": "POOR \u2014 Primarily carpet in this generation."
       },
       {
         "label": "Research Status",
@@ -34888,11 +34888,11 @@ window.BOATBUILDER_BOATS = [
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
         "specs": {
           "Length": {
-            "value": "16' 0½\"",
+            "value": "16' 0\u00bd\"",
             "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "76½\"",
+            "value": "76\u00bd\"",
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
@@ -34966,7 +34966,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989",
-        "label": "1987–1989 production identity — surviving specifications exhausted",
+        "label": "1987\u20131989 production identity \u2014 surviving specifications exhausted",
         "startYear": 1987,
         "endYear": 1989,
         "status": "source-exhausted-partial",
@@ -34984,8 +34984,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989:value:1987–1989",
-            "label": "1987–1989",
+            "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989:value:1987\u20131989",
+            "label": "1987\u20131989",
             "startYear": 1987,
             "endYear": 1989,
             "low": 1500,
@@ -34995,7 +34995,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Do not use the 1986 exact specifications for a 1987–1989 boat without checking its capacity plate."
+    "generationWarning": "Do not use the 1986 exact specifications for a 1987\u20131989 boat without checking its capacity plate."
   },
   {
     "id": "boat:Starcraft | SFM 180 Superfisherman",
@@ -35004,7 +35004,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "SFM 180 Superfisherman",
     "displayName": "Starcraft | SFM 180 Superfisherman",
-    "subtitle": "1986–1989 history closed; later years source-exhausted",
+    "subtitle": "1986\u20131989 history closed; later years source-exhausted",
     "badge": "Secondary",
     "lowPrice": 2000,
     "highPrice": 5000,
@@ -35019,7 +35019,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1986–1989; 1986 exact, 1987–1989 source-exhausted"
+        "value": "1986\u20131989; 1986 exact, 1987\u20131989 source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -35075,7 +35075,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -35111,7 +35111,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Longer and more capable than the SFM 160, but still only 79¼ in wide. Treat as a condition-first older big-water boat rather than as equivalent to the much wider later Superfisherman 176/186."
+        "value": "Longer and more capable than the SFM 160, but still only 79\u00bc in wide. Treat as a condition-first older big-water boat rather than as equivalent to the much wider later Superfisherman 176/186."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -35123,7 +35123,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation."
+        "value": "POOR \u2014 Primarily carpet in this generation."
       },
       {
         "label": "Research Status",
@@ -35142,11 +35142,11 @@ window.BOATBUILDER_BOATS = [
         "sourceUrl": "https://starcraftmarine.com/wp-content/uploads/StarCraftFishingBoats1986_web.pdf",
         "specs": {
           "Length": {
-            "value": "18' 3½\"",
+            "value": "18' 3\u00bd\"",
             "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "79¼\"",
+            "value": "79\u00bc\"",
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
@@ -35220,7 +35220,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989",
-        "label": "1987–1989 production identity — surviving specifications exhausted",
+        "label": "1987\u20131989 production identity \u2014 surviving specifications exhausted",
         "startYear": 1987,
         "endYear": 1989,
         "status": "source-exhausted-partial",
@@ -35238,8 +35238,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989:value:1987–1989",
-            "label": "1987–1989",
+            "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989:value:1987\u20131989",
+            "label": "1987\u20131989",
             "startYear": 1987,
             "endYear": 1989,
             "low": 2000,
@@ -35249,7 +35249,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "Do not use the 1986 exact specifications for a 1987–1989 boat without checking its capacity plate."
+    "generationWarning": "Do not use the 1986 exact specifications for a 1987\u20131989 boat without checking its capacity plate."
   },
   {
     "id": "boat:Starcraft | Starfish 176 DC / WT",
@@ -35258,7 +35258,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "*Starfish 176 DC / WT",
     "displayName": "*Starcraft | Starfish 176 DC / WT",
-    "subtitle": "2006–2007 early family; 2011–2017 later production closed",
+    "subtitle": "2006\u20132007 early family; 2011\u20132017 later production closed",
     "badge": "Primary",
     "lowPrice": 3500,
     "highPrice": 15000,
@@ -35273,7 +35273,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006–2007 early Star Fish identity; 2011–2017 later Starfish 176"
+        "value": "2006\u20132007 early Star Fish identity; 2011\u20132017 later Starfish 176"
       },
       {
         "label": "Recommendation",
@@ -35329,7 +35329,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -35361,7 +35361,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -35377,7 +35377,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on raised decks by package."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on raised decks by package."
       },
       {
         "label": "Research Status",
@@ -35388,7 +35388,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007",
-        "label": "2006–2007 early Star Fish 176 DC/SC identity — source exhausted",
+        "label": "2006\u20132007 early Star Fish 176 DC/SC identity \u2014 source exhausted",
         "startYear": 2006,
         "endYear": 2007,
         "status": "source-exhausted-partial",
@@ -35406,8 +35406,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007:value:2006–2007",
-            "label": "2006–2007",
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007:value:2006\u20132007",
+            "label": "2006\u20132007",
             "startYear": 2006,
             "endYear": 2007,
             "low": 3500,
@@ -35418,7 +35418,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2011-2012",
-        "label": "2011–2012 1,195-pound factory generation",
+        "label": "2011\u20132012 1,195-pound factory generation",
         "startYear": 2011,
         "endYear": 2012,
         "status": "factory-documented-generation",
@@ -35446,7 +35446,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -35484,8 +35484,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2011-2012:value:2011–2012",
-            "label": "2011–2012",
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2011-2012:value:2011\u20132012",
+            "label": "2011\u20132012",
             "startYear": 2011,
             "endYear": 2012,
             "low": 6000,
@@ -35496,7 +35496,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2013-2015",
-        "label": "2013–2015 1,176-pound factory generation",
+        "label": "2013\u20132015 1,176-pound factory generation",
         "startYear": 2013,
         "endYear": 2015,
         "status": "factory-documented-generation",
@@ -35524,7 +35524,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -35562,23 +35562,23 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2013-2015:value:2013–2015",
-            "label": "2013–2015",
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2013-2015:value:2013\u20132015",
+            "label": "2013\u20132015",
             "startYear": 2013,
             "endYear": 2015,
             "low": 7000,
             "high": 12000,
-            "basis": "Used complete-package screening range for the documented 2013–2015 generation"
+            "basis": "Used complete-package screening range for the documented 2013\u20132015 generation"
           }
         ]
       },
       {
         "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017",
-        "label": "2016–2017 final production identity — exact table source exhausted",
+        "label": "2016\u20132017 final production identity \u2014 exact table source exhausted",
         "startYear": 2016,
         "endYear": 2017,
         "status": "source-exhausted-partial",
-        "specificationBasis": "Annual model and used-market records confirm 2016–2017 Starfish 176 production, but the surviving archive did not yield an exact complete table sufficient to prove the 2013–2015 specifications unchanged.",
+        "specificationBasis": "Annual model and used-market records confirm 2016\u20132017 Starfish 176 production, but the surviving archive did not yield an exact complete table sufficient to prove the 2013\u20132015 specifications unchanged.",
         "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
         "specs": {
           "Layout": {
@@ -35596,8 +35596,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017:value:2016–2017",
-            "label": "2016–2017",
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017:value:2016\u20132017",
+            "label": "2016\u20132017",
             "startYear": 2016,
             "endYear": 2017,
             "low": 9000,
@@ -35607,7 +35607,7 @@ window.BOATBUILDER_BOATS = [
         ]
       }
     ],
-    "generationWarning": "The leading asterisk marks a strong search fit: full windshield, 92-inch beam, 27-inch interior, useful Lake Superior geometry and snap-in carpet over a washable cockpit on documented later boats. Verify the 2006–2007 layout separately.",
+    "generationWarning": "The leading asterisk marks a strong search fit: full windshield, 92-inch beam, 27-inch interior, useful Lake Superior geometry and snap-in carpet over a washable cockpit on documented later boats. Verify the 2006\u20132007 layout separately.",
     "idealMatch": true
   },
   {
@@ -35617,7 +35617,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "STX 2050 Aluminum",
     "displayName": "Starcraft | STX 2050 Aluminum",
-    "subtitle": "2010–2026 history closed; current boat is materially longer",
+    "subtitle": "2010\u20132026 history closed; current boat is materially longer",
     "badge": "Secondary",
     "lowPrice": 8000,
     "highPrice": 72000,
@@ -35632,7 +35632,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2010–2026; choose generation/value era"
+        "value": "2010\u20132026; choose generation/value era"
       },
       {
         "label": "Recommendation",
@@ -35688,7 +35688,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "175–225"
+        "value": "175\u2013225"
       },
       {
         "label": "Persons",
@@ -35736,7 +35736,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST — Full vinyl cockpit/casting surface; snap-in carpet is removable."
+        "value": "BEST \u2014 Full vinyl cockpit/casting surface; snap-in carpet is removable."
       },
       {
         "label": "Research Status",
@@ -35747,7 +35747,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | STX 2050 Aluminum:gen:2010-2014",
-        "label": "2010–2014 1,535-pound factory generation",
+        "label": "2010\u20132014 1,535-pound factory generation",
         "startYear": 2010,
         "endYear": 2014,
         "status": "factory-documented-generation",
@@ -35775,7 +35775,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -35813,8 +35813,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2010-2014:value:2010–2014",
-            "label": "2010–2014",
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2010-2014:value:2010\u20132014",
+            "label": "2010\u20132014",
             "startYear": 2010,
             "endYear": 2014,
             "low": 8000,
@@ -35853,7 +35853,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -35903,7 +35903,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024",
-        "label": "2016–2024 later STX 2050 production — boundary source exhausted",
+        "label": "2016\u20132024 later STX 2050 production \u2014 boundary source exhausted",
         "startYear": 2016,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -35925,8 +35925,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2016–2019",
-            "label": "2016–2019",
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2016\u20132019",
+            "label": "2016\u20132019",
             "startYear": 2016,
             "endYear": 2019,
             "low": 15000,
@@ -35934,8 +35934,8 @@ window.BOATBUILDER_BOATS = [
             "basis": "Used complete-package screening range for late-2010s STX examples"
           },
           {
-            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2020–2024",
-            "label": "2020–2024",
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2020\u20132024",
+            "label": "2020\u20132024",
             "startYear": 2020,
             "endYear": 2024,
             "low": 28000,
@@ -35946,7 +35946,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026",
-        "label": "2025–2026 current 20'10-inch factory generation",
+        "label": "2025\u20132026 current 20'10-inch factory generation",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current-partial",
@@ -35976,8 +35976,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026:value:2025–2026",
-            "label": "2025–2026",
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026:value:2025\u20132026",
+            "label": "2025\u20132026",
             "startYear": 2025,
             "endYear": 2026,
             "low": 48000,
@@ -35996,7 +35996,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Superfisherman 170",
     "displayName": "Starcraft | Superfisherman 170",
-    "subtitle": "1991–1998 early family plus separate 2010 Sport",
+    "subtitle": "1991\u20131998 early family plus separate 2010 Sport",
     "badge": "Primary",
     "lowPrice": 2500,
     "highPrice": 12000,
@@ -36011,7 +36011,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1998 early family; separate 2010 170 Sport"
+        "value": "1991\u20131998 early family; separate 2010 170 Sport"
       },
       {
         "label": "Recommendation",
@@ -36067,7 +36067,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -36115,7 +36115,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -36126,7 +36126,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | Superfisherman 170:gen:1991-1997",
-        "label": "1991–1997 early Superfisherman 170 — source exhausted",
+        "label": "1991\u20131997 early Superfisherman 170 \u2014 source exhausted",
         "startYear": 1991,
         "endYear": 1997,
         "status": "source-exhausted-partial",
@@ -36144,8 +36144,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 170:gen:1991-1997:value:1991–1997",
-            "label": "1991–1997",
+            "id": "boat:Starcraft | Superfisherman 170:gen:1991-1997:value:1991\u20131997",
+            "label": "1991\u20131997",
             "startYear": 1991,
             "endYear": 1997,
             "low": 2500,
@@ -36266,7 +36266,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "10°",
+            "value": "10\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -36320,7 +36320,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "*Superfisherman 176",
     "displayName": "*Starcraft | Superfisherman 176",
-    "subtitle": "2011–2016 factory generation fully closed",
+    "subtitle": "2011\u20132016 factory generation fully closed",
     "badge": "Primary",
     "lowPrice": 7500,
     "highPrice": 17500,
@@ -36330,12 +36330,12 @@ window.BOATBUILDER_BOATS = [
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_2017_04/IMG_4174.thumb.JPG.18e7b3cd4fcfae9f07bd945e2ac28feb.JPG",
       "source": "https://www.lakeontariounited.com/fishing-hunting/topic/63704-starcraft-superfisherman-176/",
       "matchQuality": "Exact model; earlier generation",
-      "note": "Exact 2000 Superfisherman 176 listing. The catalog row emphasizes 2012–2015, so the era difference is stated."
+      "note": "Exact 2000 Superfisherman 176 listing. The catalog row emphasizes 2012\u20132015, so the era difference is stated."
     },
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2011–2016 documented unchanged factory generation"
+        "value": "2011\u20132016 documented unchanged factory generation"
       },
       {
         "label": "Recommendation",
@@ -36391,7 +36391,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -36423,7 +36423,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -36439,7 +36439,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on raised decks by package."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on raised decks by package."
       },
       {
         "label": "Research Status",
@@ -36450,7 +36450,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | Superfisherman 176:gen:2011-2016",
-        "label": "2011–2016 documented factory generation",
+        "label": "2011\u20132016 documented factory generation",
         "startYear": 2011,
         "endYear": 2016,
         "status": "factory-documented-generation",
@@ -36478,7 +36478,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -36516,8 +36516,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 176:gen:2011-2016:value:2011–2013",
-            "label": "2011–2013",
+            "id": "boat:Starcraft | Superfisherman 176:gen:2011-2016:value:2011\u20132013",
+            "label": "2011\u20132013",
             "startYear": 2011,
             "endYear": 2013,
             "low": 7500,
@@ -36525,8 +36525,8 @@ window.BOATBUILDER_BOATS = [
             "basis": "Used complete-package screening range for early examples"
           },
           {
-            "id": "boat:Starcraft | Superfisherman 176:gen:2011-2016:value:2014–2016",
-            "label": "2014–2016",
+            "id": "boat:Starcraft | Superfisherman 176:gen:2011-2016:value:2014\u20132016",
+            "label": "2014\u20132016",
             "startYear": 2014,
             "endYear": 2016,
             "low": 10000,
@@ -36546,7 +36546,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Superfisherman 186 (Secondary; 176 is Primary)",
     "displayName": "Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
-    "subtitle": "2011–2026 history closed; current dry-weight conflict documented",
+    "subtitle": "2011\u20132026 history closed; current dry-weight conflict documented",
     "badge": "Secondary",
     "lowPrice": 8500,
     "highPrice": 65000,
@@ -36561,7 +36561,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2011–2026; three physical/evidence dispositions"
+        "value": "2011\u20132026; three physical/evidence dispositions"
       },
       {
         "label": "Recommendation",
@@ -36617,7 +36617,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "150–175"
+        "value": "150\u2013175"
       },
       {
         "label": "Persons",
@@ -36653,7 +36653,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The former approximate values are replaced by the exact 2014–2015 table. The current boat is much heavier and is isolated without used pricing."
+        "value": "The former approximate values are replaced by the exact 2014\u20132015 table. The current boat is much heavier and is isolated without used pricing."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -36665,7 +36665,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable; carpet remains on raised decks by package."
+        "value": "GOOD \u2014 Vinyl cockpit is washable; carpet remains on raised decks by package."
       },
       {
         "label": "Research Status",
@@ -36676,11 +36676,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2011-2016",
-        "label": "2011–2016 documented 1,333-pound generation",
+        "label": "2011\u20132016 documented 1,333-pound generation",
         "startYear": 2011,
         "endYear": 2016,
         "status": "factory-documented-generation",
-        "specificationBasis": "2011–2016 factory tables and catalog reproductions consistently identify the 1,333-pound, 32-gallon hull.",
+        "specificationBasis": "2011\u20132016 factory tables and catalog reproductions consistently identify the 1,333-pound, 32-gallon hull.",
         "sourceUrl": "https://starcraftmarine.com/sites/default/files/2011-starcraft-fishing-catalog.pdf",
         "specs": {
           "Length": {
@@ -36704,7 +36704,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -36742,8 +36742,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2011-2016:value:2011–2013",
-            "label": "2011–2013",
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2011-2016:value:2011\u20132013",
+            "label": "2011\u20132013",
             "startYear": 2011,
             "endYear": 2013,
             "low": 8500,
@@ -36751,8 +36751,8 @@ window.BOATBUILDER_BOATS = [
             "basis": "Used complete-package screening range for early examples"
           },
           {
-            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2011-2016:value:2014–2016",
-            "label": "2014–2016",
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2011-2016:value:2014\u20132016",
+            "label": "2014\u20132016",
             "startYear": 2014,
             "endYear": 2016,
             "low": 12000,
@@ -36763,7 +36763,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024",
-        "label": "2017–2024 later production — exact revision boundary exhausted",
+        "label": "2017\u20132024 later production \u2014 exact revision boundary exhausted",
         "startYear": 2017,
         "endYear": 2024,
         "status": "source-exhausted-partial",
@@ -36783,7 +36783,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "source-exhausted-partial"
           },
           "Deadrise": {
-            "value": "19° family basis",
+            "value": "19\u00b0 family basis",
             "confidence": "source-exhausted-partial"
           },
           "Max HP": {
@@ -36797,8 +36797,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2017–2019",
-            "label": "2017–2019",
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2017\u20132019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 16000,
@@ -36806,8 +36806,8 @@ window.BOATBUILDER_BOATS = [
             "basis": "Used complete-package screening range for late-2010s examples"
           },
           {
-            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2020–2024",
-            "label": "2020–2024",
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2020\u20132024",
+            "label": "2020\u20132024",
             "startYear": 2020,
             "endYear": 2024,
             "low": 26000,
@@ -36818,7 +36818,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026",
-        "label": "2025–2026 current factory generation — dry-weight field conflicted",
+        "label": "2025\u20132026 current factory generation \u2014 dry-weight field conflicted",
         "startYear": 2025,
         "endYear": 2026,
         "status": "factory-current-conflicted",
@@ -36842,7 +36842,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "source-exhausted-partial"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "source-exhausted-partial"
           },
           "Transom Height": {
@@ -36872,8 +36872,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026:value:2025–2026",
-            "label": "2025–2026",
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026:value:2025\u20132026",
+            "label": "2025\u20132026",
             "startYear": 2025,
             "endYear": 2026,
             "low": 43000,
@@ -36892,7 +36892,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Superfisherman 190",
     "displayName": "Starcraft | Superfisherman 190",
-    "subtitle": "1991–1998 production closed; early specifications exhausted",
+    "subtitle": "1991\u20131998 production closed; early specifications exhausted",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 9500,
@@ -36907,7 +36907,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1998; 1998 exact snapshot, earlier span source-exhausted"
+        "value": "1991\u20131998; 1998 exact snapshot, earlier span source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -36963,7 +36963,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -37011,18 +37011,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
-        "value": "Complete under the source-exhaustion rule. No later hull values are projected into the 1991–1997 span."
+        "value": "Complete under the source-exhaustion rule. No later hull values are projected into the 1991\u20131997 span."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
         "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997",
-        "label": "1991–1997 production identity — surviving specifications exhausted",
+        "label": "1991\u20131997 production identity \u2014 surviving specifications exhausted",
         "startYear": 1991,
         "endYear": 1997,
         "status": "source-exhausted-partial",
@@ -37040,8 +37040,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
-            "label": "1991–1997",
+            "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991\u20131997",
+            "label": "1991\u20131997",
             "startYear": 1991,
             "endYear": 1997,
             "low": 3000,
@@ -37146,7 +37146,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Tournament 170 (does not meet windshield requirement)",
     "displayName": "Starcraft | Tournament 170 (does not meet windshield requirement)",
-    "subtitle": "1995–1997 identity closed; suffix/layout must be verified",
+    "subtitle": "1995\u20131997 identity closed; suffix/layout must be verified",
     "badge": "Secondary",
     "lowPrice": 2500,
     "highPrice": 5500,
@@ -37161,7 +37161,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995–1997; 1995 exact snapshot and 1996–1997 identity-only disposition"
+        "value": "1995\u20131997; 1995 exact snapshot and 1996\u20131997 identity-only disposition"
       },
       {
         "label": "Recommendation",
@@ -37217,7 +37217,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -37265,7 +37265,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -37362,11 +37362,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1996-1997",
-        "label": "1996–1997 model identity — configuration/specification source exhausted",
+        "label": "1996\u20131997 model identity \u2014 configuration/specification source exhausted",
         "startYear": 1996,
         "endYear": 1997,
         "status": "model-identity-source-exhausted",
-        "specificationBasis": "Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996–1997 seller-described Tournament boat.",
+        "specificationBasis": "Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996\u20131997 seller-described Tournament boat.",
         "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
         "specs": {
           "Layout": {
@@ -37380,8 +37380,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1996-1997:value:1996–1997",
-            "label": "1996–1997",
+            "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1996-1997:value:1996\u20131997",
+            "label": "1996\u20131997",
             "startYear": 1996,
             "endYear": 1997,
             "low": 2500,
@@ -37400,7 +37400,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Tournament 180 (does not meet windshield requirement)",
     "displayName": "Starcraft | Tournament 180 (does not meet windshield requirement)",
-    "subtitle": "1995–1997 identity closed; suffix/layout must be verified",
+    "subtitle": "1995\u20131997 identity closed; suffix/layout must be verified",
     "badge": "Secondary",
     "lowPrice": 3000,
     "highPrice": 6000,
@@ -37415,7 +37415,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995–1997; 1995 exact snapshot and 1996–1997 identity-only disposition"
+        "value": "1995\u20131997; 1995 exact snapshot and 1996\u20131997 identity-only disposition"
       },
       {
         "label": "Recommendation",
@@ -37471,7 +37471,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–150"
+        "value": "90\u2013150"
       },
       {
         "label": "Persons",
@@ -37519,7 +37519,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -37616,11 +37616,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1996-1997",
-        "label": "1996–1997 model identity — configuration/specification source exhausted",
+        "label": "1996\u20131997 model identity \u2014 configuration/specification source exhausted",
         "startYear": 1996,
         "endYear": 1997,
         "status": "model-identity-source-exhausted",
-        "specificationBasis": "Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996–1997 seller-described Tournament boat.",
+        "specificationBasis": "Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996\u20131997 seller-described Tournament boat.",
         "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
         "specs": {
           "Layout": {
@@ -37634,8 +37634,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1996-1997:value:1996–1997",
-            "label": "1996–1997",
+            "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1996-1997:value:1996\u20131997",
+            "label": "1996\u20131997",
             "startYear": 1996,
             "endYear": 1997,
             "low": 3000,
@@ -37654,7 +37654,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starweld",
     "model": "Fusion 16 DC",
     "displayName": "Starweld | Fusion 16 DC",
-    "subtitle": "2018–2026 history closed; 2021 exact snapshot",
+    "subtitle": "2018\u20132026 history closed; 2021 exact snapshot",
     "badge": "Secondary",
     "lowPrice": 12000,
     "highPrice": 25000,
@@ -37669,7 +37669,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2018–2026; 2021 exact, adjacent spans source-exhausted"
+        "value": "2018\u20132026; 2021 exact, adjacent spans source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -37725,7 +37725,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -37773,7 +37773,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "EXCELLENT — Factory full-vinyl fishing surfaces."
+        "value": "EXCELLENT \u2014 Factory full-vinyl fishing surfaces."
       },
       {
         "label": "Research Status",
@@ -37784,7 +37784,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starweld | Fusion 16 DC:gen:2018-2020",
-        "label": "2018–2020 launch generation — annual table source exhausted",
+        "label": "2018\u20132020 launch generation \u2014 annual table source exhausted",
         "startYear": 2018,
         "endYear": 2020,
         "status": "source-exhausted-partial",
@@ -37810,8 +37810,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | Fusion 16 DC:gen:2018-2020:value:2018–2020",
-            "label": "2018–2020",
+            "id": "boat:Starweld | Fusion 16 DC:gen:2018-2020:value:2018\u20132020",
+            "label": "2018\u20132020",
             "startYear": 2018,
             "endYear": 2020,
             "low": 13000,
@@ -37908,7 +37908,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starweld | Fusion 16 DC:gen:2022-2026",
-        "label": "2022–2026 continuing Fusion 16 DC — exact annual table source exhausted",
+        "label": "2022\u20132026 continuing Fusion 16 DC \u2014 exact annual table source exhausted",
         "startYear": 2022,
         "endYear": 2026,
         "status": "source-exhausted-partial",
@@ -37942,8 +37942,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | Fusion 16 DC:gen:2022-2026:value:2022–2026",
-            "label": "2022–2026",
+            "id": "boat:Starweld | Fusion 16 DC:gen:2022-2026:value:2022\u20132026",
+            "label": "2022\u20132026",
             "startYear": 2022,
             "endYear": 2026,
             "low": 15000,
@@ -37962,7 +37962,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starweld",
     "model": "Fusion 18 DC",
     "displayName": "Starweld | Fusion 18 DC",
-    "subtitle": "2018–2025 history closed; 2021 exact snapshot",
+    "subtitle": "2018\u20132025 history closed; 2021 exact snapshot",
     "badge": "Secondary",
     "lowPrice": 14000,
     "highPrice": 34000,
@@ -37977,7 +37977,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2018–2025; 2021 exact, adjacent spans source-exhausted"
+        "value": "2018\u20132025; 2021 exact, adjacent spans source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -38033,7 +38033,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -38081,7 +38081,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "EXCELLENT — Factory full-vinyl fishing surfaces."
+        "value": "EXCELLENT \u2014 Factory full-vinyl fishing surfaces."
       },
       {
         "label": "Research Status",
@@ -38092,7 +38092,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starweld | Fusion 18 DC:gen:2018-2020",
-        "label": "2018–2020 launch generation — annual table source exhausted",
+        "label": "2018\u20132020 launch generation \u2014 annual table source exhausted",
         "startYear": 2018,
         "endYear": 2020,
         "status": "source-exhausted-partial",
@@ -38118,8 +38118,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | Fusion 18 DC:gen:2018-2020:value:2018–2020",
-            "label": "2018–2020",
+            "id": "boat:Starweld | Fusion 18 DC:gen:2018-2020:value:2018\u20132020",
+            "label": "2018\u20132020",
             "startYear": 2018,
             "endYear": 2020,
             "low": 18000,
@@ -38216,7 +38216,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Starweld | Fusion 18 DC:gen:2022-2025",
-        "label": "2022–2025 continuing Fusion 18 DC — exact annual table source exhausted",
+        "label": "2022\u20132025 continuing Fusion 18 DC \u2014 exact annual table source exhausted",
         "startYear": 2022,
         "endYear": 2025,
         "status": "source-exhausted-partial",
@@ -38246,8 +38246,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | Fusion 18 DC:gen:2022-2025:value:2022–2025",
-            "label": "2022–2025",
+            "id": "boat:Starweld | Fusion 18 DC:gen:2022-2025:value:2022\u20132025",
+            "label": "2022\u20132025",
             "startYear": 2022,
             "endYear": 2025,
             "low": 20000,
@@ -38337,7 +38337,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -38381,11 +38381,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "2007–2008 factory catalog feature tables."
+        "value": "2007\u20132008 factory catalog feature tables."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
       },
       {
         "label": "Research Status",
@@ -38604,7 +38604,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sylvan | Adventurer 1700 DC:gen:2009-2010",
-        "label": "2009–2010 factory generation",
+        "label": "2009\u20132010 factory generation",
         "startYear": 2009,
         "endYear": 2010,
         "status": "factory-documented-generation",
@@ -38671,7 +38671,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Sylvan | Adventurer 1700 DC:value:2009-2010",
-            "label": "2009–2010",
+            "label": "2009\u20132010",
             "startYear": 2009,
             "endYear": 2010,
             "low": 8000,
@@ -38686,7 +38686,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sylvan | Adventurer 1700 DC:gen:2011-2012",
-        "label": "2011–2012 factory generation",
+        "label": "2011\u20132012 factory generation",
         "startYear": 2011,
         "endYear": 2012,
         "status": "factory-documented-generation",
@@ -38750,14 +38750,14 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "16°",
+            "value": "16\u00b0",
             "confidence": "factory-exact"
           }
         },
         "eras": [
           {
             "id": "boat:Sylvan | Adventurer 1700 DC:value:2011-2012",
-            "label": "2011–2012",
+            "label": "2011\u20132012",
             "startYear": 2011,
             "endYear": 2012,
             "low": 9500,
@@ -38851,7 +38851,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -38895,11 +38895,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "2007–2008 factory catalog feature tables."
+        "value": "2007\u20132008 factory catalog feature tables."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
       },
       {
         "label": "Research Status",
@@ -38910,7 +38910,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:2007-2008",
-        "label": "2007–2008 factory generation",
+        "label": "2007\u20132008 factory generation",
         "startYear": 2007,
         "endYear": 2008,
         "status": "factory-documented-generation",
@@ -38992,7 +38992,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:2009-2010",
-        "label": "2009–2010 factory generation",
+        "label": "2009\u20132010 factory generation",
         "startYear": 2009,
         "endYear": 2010,
         "status": "factory-documented-generation",
@@ -39074,7 +39074,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sylvan | Expedition Sport 1700 DC:gen:2011-2012",
-        "label": "2011–2012 factory generation",
+        "label": "2011\u20132012 factory generation",
         "startYear": 2011,
         "endYear": 2012,
         "status": "factory-documented-generation",
@@ -39138,7 +39138,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "16°",
+            "value": "16\u00b0",
             "confidence": "factory-exact"
           }
         },
@@ -39239,7 +39239,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -39283,11 +39283,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "2007–2008 factory catalog feature tables."
+        "value": "2007\u20132008 factory catalog feature tables."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
       },
       {
         "label": "Research Status",
@@ -39587,7 +39587,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sylvan | Expedition Sport 1800 DC:gen:2011-2012",
-        "label": "2011–2012 factory generation",
+        "label": "2011\u20132012 factory generation",
         "startYear": 2011,
         "endYear": 2012,
         "status": "factory-documented-generation",
@@ -39651,7 +39651,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "16°",
+            "value": "16\u00b0",
             "confidence": "factory-exact"
           }
         },
@@ -39681,7 +39681,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sylvan",
     "model": "Fish and Ski (seller description; identify exact model)",
     "displayName": "Sylvan | Fish and Ski (seller description; identify exact model)",
-    "subtitle": "Seller description only — exact factory model required",
+    "subtitle": "Seller description only \u2014 exact factory model required",
     "badge": "Secondary",
     "lowPrice": null,
     "highPrice": null,
@@ -39696,7 +39696,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "Seller description only — exact factory model required"
+        "value": "Seller description only \u2014 exact factory model required"
       },
       {
         "label": "Recommendation",
@@ -39788,7 +39788,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Alias/search row only. Sellers use “Sylvan Fish and Ski” for several unrelated models, including Super Sportster, Pro Select, Adventurer and Pro Sport. Get year, length, HIN/model decal and photos."
+        "value": "Alias/search row only. Sellers use \u201cSylvan Fish and Ski\u201d for several unrelated models, including Super Sportster, Pro Select, Adventurer and Pro Sport. Get year, length, HIN/model decal and photos."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -39800,7 +39800,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -39815,7 +39815,7 @@ window.BOATBUILDER_BOATS = [
         "startYear": null,
         "endYear": null,
         "status": "alias-only",
-        "specificationBasis": "“Fish and Ski” spans many incompatible Sylvan models and is not one exact factory identity.",
+        "specificationBasis": "\u201cFish and Ski\u201d spans many incompatible Sylvan models and is not one exact factory identity.",
         "sourceUrl": "https://sylvanmarine.com/resources/catalog-archive/",
         "specs": {},
         "eras": []
@@ -39901,7 +39901,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -39949,7 +39949,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation."
+        "value": "POOR \u2014 Primarily carpet in this generation."
       },
       {
         "label": "Research Status",
@@ -40018,7 +40018,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
@@ -40030,15 +40030,15 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Cockpit / Interior Depth": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Transom Width": {
@@ -40066,7 +40066,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Construction": {
@@ -40255,7 +40255,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -40303,7 +40303,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation."
+        "value": "POOR \u2014 Primarily carpet in this generation."
       },
       {
         "label": "Research Status",
@@ -40414,7 +40414,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
@@ -40426,15 +40426,15 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Cockpit / Interior Depth": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Transom Width": {
@@ -40462,7 +40462,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Construction": {
@@ -40651,7 +40651,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -40695,11 +40695,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "2007–2008 factory catalog feature tables."
+        "value": "2007\u20132008 factory catalog feature tables."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
       },
       {
         "label": "Research Status",
@@ -40710,7 +40710,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Sylvan | Pro Sport 1600 DC:gen:2007-2010",
-        "label": "2007–2010 factory generation",
+        "label": "2007\u20132010 factory generation",
         "startYear": 2007,
         "endYear": 2010,
         "status": "factory-documented-generation",
@@ -40873,7 +40873,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -40905,7 +40905,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package\u2019s practical loaded target, and older complete packages can plausibly reach $14,000."
       },
       {
         "label": "Notes",
@@ -40917,11 +40917,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "2007–2008 factory catalog feature tables."
+        "value": "2007\u20132008 factory catalog feature tables."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
       },
       {
         "label": "Research Status",
@@ -41015,7 +41015,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sylvan | Pro Sport 1700 DC (Primary; not Sport Troller):gen:2009-2010",
-        "label": "2009–2010 factory generation",
+        "label": "2009\u20132010 factory generation",
         "startYear": 2009,
         "endYear": 2010,
         "status": "factory-documented-generation",
@@ -41176,7 +41176,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "115\u2013150"
       },
       {
         "label": "Persons",
@@ -41220,11 +41220,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "2007–2008 factory catalog feature tables."
+        "value": "2007\u20132008 factory catalog feature tables."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
       },
       {
         "label": "Research Status",
@@ -41318,7 +41318,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sylvan | Pro Sport 1900 DC (Secondary; 1700 is Primary):gen:2009-2010",
-        "label": "2009–2010 factory generation",
+        "label": "2009\u20132010 factory generation",
         "startYear": 2009,
         "endYear": 2010,
         "status": "factory-documented-generation",
@@ -41479,7 +41479,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "30–40"
+        "value": "30\u201340"
       },
       {
         "label": "Persons",
@@ -41523,11 +41523,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "2007–2008 factory catalog feature tables."
+        "value": "2007\u20132008 factory catalog feature tables."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
+        "value": "GOOD \u2014 Vinyl main floor/cockpit; snap-in carpet can be omitted, but raised areas vary."
       },
       {
         "label": "Research Status",
@@ -41864,7 +41864,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Big-Water Suitability",
-        "value": "Fair–good for protected nearshore use"
+        "value": "Fair\u2013good for protected nearshore use"
       },
       {
         "label": "Layout",
@@ -41912,7 +41912,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "70–90"
+        "value": "70\u201390"
       },
       {
         "label": "Persons",
@@ -41960,7 +41960,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation."
+        "value": "POOR \u2014 Primarily carpet in this generation."
       },
       {
         "label": "Research Status",
@@ -42142,7 +42142,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -42190,7 +42190,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation."
+        "value": "POOR \u2014 Primarily carpet in this generation."
       },
       {
         "label": "Research Status",
@@ -42225,7 +42225,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "37¾\"",
+            "value": "37\u00be\"",
             "confidence": "cited-source-exact"
           },
           "Cockpit / Interior Depth": {
@@ -42372,7 +42372,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -42404,7 +42404,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: capable older full-windshield hull, but 82-in beam, age and 18½-ft package size are compromises."
+        "value": "Secondary: capable older full-windshield hull, but 82-in beam, age and 18\u00bd-ft package size are compromises."
       },
       {
         "label": "Notes",
@@ -42420,7 +42420,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Primarily carpet in this generation."
+        "value": "POOR \u2014 Primarily carpet in this generation."
       },
       {
         "label": "Research Status",
@@ -42479,7 +42479,7 @@ window.BOATBUILDER_BOATS = [
         "sourceUrl": "https://sylvanmarine.com/wp-content/uploads/SylvanALLBOATS1989_web.pdf",
         "specs": {
           "Length": {
-            "value": "18'5¾\"",
+            "value": "18'5\u00be\"",
             "confidence": "cited-source-exact"
           },
           "Beam": {
@@ -42495,7 +42495,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "38¾\"",
+            "value": "38\u00be\"",
             "confidence": "cited-source-exact"
           },
           "Cockpit / Interior Depth": {
@@ -42580,7 +42580,7 @@ window.BOATBUILDER_BOATS = [
       "url": "https://i.ytimg.com/vi/3bN8sprHamY/hqdefault.jpg",
       "source": "https://www.youtube.com/watch?v=3bN8sprHamY",
       "matchQuality": "Same family",
-      "note": "Later Sylvan Viper 206 used as the verified Viper-family layout reference; not the older 16–18-foot Viper variant."
+      "note": "Later Sylvan Viper 206 used as the verified Viper-family layout reference; not the older 16\u201318-foot Viper variant."
     },
     "details": [
       {
@@ -42601,7 +42601,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "16–19 ft by model/year"
+        "value": "16\u201319 ft by model/year"
       },
       {
         "label": "Beam",
@@ -42689,7 +42689,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+        "value": "POOR \u2014 Carpet and aging plywood are typical; condition matters more than cosmetics."
       },
       {
         "label": "Research Status",
@@ -42717,13 +42717,13 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Tracker",
-    "model": "Pro Guide V-175 WT",
-    "displayName": "Tracker | Pro Guide V-175 WT",
-    "subtitle": "2020 exact cited specification; other advertised years unresolved",
+    "model": "*Pro Guide V-175 WT",
+    "displayName": "*Tracker | Pro Guide V-175 WT",
+    "subtitle": "2010\u20132026; five documented hull/evidence rows",
     "badge": "Secondary",
-    "lowPrice": 10000,
-    "highPrice": 20000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 7000,
+    "highPrice": 40000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2020-pro-guide-v-175-wt.html",
     "image": {
       "url": "https://images.boatsgroup.com/images/1/11/68/2026-tracker-pro-guide-v-175-wt-power-9891168-20250805140032506-1.jpg",
@@ -42734,11 +42734,11 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2020 exact cited specification; other advertised years unresolved"
+        "value": "2010\u20132026; five documented hull/evidence rows"
       },
       {
         "label": "Recommendation",
-        "value": "Secondary"
+        "value": "Primary"
       },
       {
         "label": "Big-Water Suitability",
@@ -42750,71 +42750,71 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -42822,11 +42822,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: excellent dimensions and towable on paper, but 2020 packages remain above the $14,000 cap; factory package weight is already near the preferred loaded ceiling."
+        "value": "Primary for older generations: full windshield, useful depth and beam, credible big-water geometry, and complete 2010s packages can intersect the project budget. Recent packages are usually well above it."
       },
       {
         "label": "Notes",
-        "value": "Exact 2020 WT; factory average package weight is 2,985 lb before extra gear."
+        "value": "The model name spans several materially different boats. Early 2010, 2012 and 2013\u20132017 boats are narrower/lighter than the 17'7\", 1,525-lb hull used from 2018 onward. Verify the selected year rather than valuing all Pro Guide V-175 packages alike."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -42838,123 +42838,298 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable, but fishing decks remain carpeted."
+        "value": "GOOD \u2014 Vinyl cockpit is washable, but fishing decks remain carpeted."
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Tracker annual model records, factory previous-model pages and year-specific specification sources reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Tracker | Pro Guide V-175 WT:gen:2020",
-        "label": "2020 cited specification snapshot",
-        "startYear": 2020,
-        "endYear": 2020,
-        "status": "cited-snapshot",
-        "specificationBasis": "2020 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2020-pro-guide-v-175-wt.html",
+        "id": "boat:Tracker | Pro Guide V-175 WT:gen:2010",
+        "label": "2010 early 17'3\" / 101-inch hull",
+        "startYear": 2010,
+        "endYear": 2010,
+        "status": "published-exact",
+        "specificationBasis": "Contemporary model specification record for the 2010 Pro Guide V-175 WT.",
+        "sourceUrl": "https://www.boats.za.net/tracker/pro-guide-v-175-wt/tracker-pro-guide-v-175-wt-2010",
         "specs": {
           "Length": {
-            "value": "17'7\"",
-            "confidence": "cited-source-exact"
+            "value": "17'3\"",
+            "confidence": "source-supported"
           },
           "Beam": {
-            "value": "97\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "82\"",
-            "confidence": "cited-source-exact"
+            "value": "101\"",
+            "confidence": "source-supported"
           },
           "Dry Hull Weight": {
-            "value": "1,525 lb",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "—",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "26.75\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "20° transom / 35° bow",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Height": {
-            "value": "25.5\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "value": "1,363 lb",
+            "confidence": "source-supported"
           },
           "Max HP": {
-            "value": "150",
-            "confidence": "cited-source-exact"
+            "value": "135",
+            "confidence": "source-supported"
           },
           "Persons": {
-            "value": "6",
-            "confidence": "cited-source-exact"
+            "value": "5",
+            "confidence": "source-supported"
           },
           "Capacity Weight": {
-            "value": "1,600 lb",
-            "confidence": "cited-source-exact"
+            "value": "1,500 lb",
+            "confidence": "source-supported"
           },
           "Fuel Capacity": {
-            "value": "25.5 gal",
-            "confidence": "cited-source-exact"
+            "value": "28 gal",
+            "confidence": "source-supported"
           },
           "Bottom Thickness": {
             "value": ".100\"",
-            "confidence": "cited-source-exact"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Construction": {
-            "value": "All-welded 5052 marine-alloy deep-V",
-            "confidence": "cited-source-exact"
+            "value": "All-welded 5052 aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
           }
         },
         "eras": [
           {
-            "id": "boat:Tracker | Pro Guide V-175 WT:value:2010s",
-            "label": "2010s",
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2010",
+            "label": "2010",
             "startYear": 2010,
-            "endYear": 2019,
-            "low": 10000,
-            "high": 14000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Tracker | Pro Guide V-175 WT:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 14000,
-            "high": 20000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "endYear": 2010,
+            "low": 7000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Tracker | Pro Guide V-175 WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2020 factory specification basis",
-        "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2020-pro-guide-v-175-wt.html",
-        "specs": {},
-        "eras": []
+        "id": "boat:Tracker | Pro Guide V-175 WT:gen:2011",
+        "label": "2011 model identity; complete table source-exhausted",
+        "startYear": 2011,
+        "endYear": 2011,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual model identity survives, but a complete compatible factory table was not recovered. No neighboring dimensions are inherited.",
+        "sourceUrl": "https://www.jdpower.com/boats/2011/tracker-marine",
+        "specs": {
+          "Construction": {
+            "value": "All-welded Tracker deep-V; walk-through windshield model identity",
+            "confidence": "model-identity-only"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2011",
+            "label": "2011",
+            "startYear": 2011,
+            "endYear": 2011,
+            "low": 7500,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Pro Guide V-175 WT:gen:2012",
+        "label": "2012 16'11\" / 96-inch hull",
+        "startYear": 2012,
+        "endYear": 2012,
+        "status": "published-exact",
+        "specificationBasis": "Year-specific specification record establishes the 2012 dimensions, weight and fuel capacity.",
+        "sourceUrl": "https://www.jdpower.com/boats/2012/tracker-marine/pro-guide-v-175-wt__/10262587/specs",
+        "specs": {
+          "Length": {
+            "value": "16'11\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,385 lb",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "25 gal",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2012",
+            "label": "2012",
+            "startYear": 2012,
+            "endYear": 2012,
+            "low": 8000,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Pro Guide V-175 WT:gen:2013-2017",
+        "label": "2013\u20132017 97-inch / 1,385-lb hull",
+        "startYear": 2013,
+        "endYear": 2017,
+        "status": "annual-roster-supported-continuity",
+        "specificationBasis": "Annual records repeat the 97-inch beam and 1,385-lb published weight through 2017; 21-gallon fuel is documented for the early portion of this range.",
+        "sourceUrl": "https://www.jdpower.com/boats/2017/tracker-marine",
+        "specs": {
+          "Length": {
+            "value": "16'11\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "97\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,385 lb",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "21 gal documented early in span",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2013-2014",
+            "label": "2013\u20132014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 8500,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2015-2017",
+            "label": "2015\u20132017",
+            "startYear": 2015,
+            "endYear": 2017,
+            "low": 10000,
+            "high": 16500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Pro Guide V-175 WT:gen:2018-2026",
+        "label": "2018\u20132026 current 17'7\" / 1,525-lb platform",
+        "startYear": 2018,
+        "endYear": 2026,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "2018 published weight and 2019\u20132026 factory pages establish the longer 17'7\", 97-inch, 1,525-lb platform.",
+        "sourceUrl": "https://www.trackerboats.com/deep-v/pro-guide-v-175-wt.html",
+        "specs": {
+          "Length": {
+            "value": "17'7\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "97\"",
+            "confidence": "source-supported"
+          },
+          "Chine / Bottom Width": {
+            "value": "82\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,525 lb",
+            "confidence": "source-supported"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "26.75\"",
+            "confidence": "source-supported"
+          },
+          "Deadrise": {
+            "value": "20\u00b0 transom / 35\u00b0 bow",
+            "confidence": "source-supported"
+          },
+          "Transom Height": {
+            "value": "25.5\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "source-supported"
+          },
+          "Capacity Weight": {
+            "value": "1,600 lb",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "25.5 gal",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded 5052 marine-alloy deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          },
+          "Average Package Weight": {
+            "value": "2,985 lb",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2018-2020",
+            "label": "2018\u20132020",
+            "startYear": 2018,
+            "endYear": 2020,
+            "low": 14000,
+            "high": 22000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2021-2023",
+            "label": "2021\u20132023",
+            "startYear": 2021,
+            "endYear": 2023,
+            "low": 20000,
+            "high": 30000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2024-2026",
+            "label": "2024\u20132026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 28000,
+            "high": 40000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "idealMatch": true
   },
   {
     "id": "boat:Tracker | Targa V-18 WT",
@@ -42963,11 +43138,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Tracker",
     "model": "Targa V-18 WT",
     "displayName": "Tracker | Targa V-18 WT",
-    "subtitle": "2019 exact cited specification; other advertised years unresolved",
+    "subtitle": "2010\u20132026; six documented weight/construction rows",
     "badge": "Secondary",
-    "lowPrice": 11000,
-    "highPrice": 15000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 9000,
+    "highPrice": 48000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2019-targa-v-18-wt.html",
     "image": {
       "url": "https://images.boatsgroup.com/images/1/11/68/2026-tracker-pro-guide-v-175-wt-power-9891168-20250805140032506-1.jpg",
@@ -42978,7 +43153,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2019 exact cited specification; other advertised years unresolved"
+        "value": "2010\u20132026; six documented weight/construction rows"
       },
       {
         "label": "Recommendation",
@@ -42994,71 +43169,71 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
-        "value": "150–175"
+        "value": "150\u2013175"
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -43066,11 +43241,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: highly capable Great Lakes hull, but 2,060-lb dry/3,704-lb factory package weight leaves no practical payload margin under the Maverick's 4K rating and pricing is above budget."
+        "value": "Secondary: excellent big-water hull, but later packages leave little or no safe payload margin and are normally above budget."
       },
       {
         "label": "Notes",
-        "value": "Exact 2019 Great Lakes-oriented WT; factory average package weight 3,704 lb before added gear."
+        "value": "This is a genuinely capable Great Lakes boat, but later packages become too heavy for useful margin under the Maverick\u2019s 4,000-lb rating. The 2019 factory package was already 3,704 lb before normal gear; current boats are heavier still."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -43082,114 +43257,349 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Vinyl cockpit is washable, but fishing decks remain carpeted."
+        "value": "GOOD \u2014 Vinyl cockpit is washable, but fishing decks remain carpeted."
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Tracker annual model records, factory previous-model pages and year-specific specification sources reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Tracker | Targa V-18 WT:gen:2019",
-        "label": "2019 cited specification snapshot",
-        "startYear": 2019,
-        "endYear": 2019,
-        "status": "cited-snapshot",
-        "specificationBasis": "2019 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2019-targa-v-18-wt.html",
+        "id": "boat:Tracker | Targa V-18 WT:gen:2010-2011",
+        "label": "2010\u20132011 early 1,455-lb Targa V-18",
+        "startYear": 2010,
+        "endYear": 2011,
+        "status": "annual-roster-supported-partial",
+        "specificationBasis": "Annual valuation/specification records establish the early published weight. Complete exact tables were not recovered, so only surviving facts are stored.",
+        "sourceUrl": "https://www.jdpower.com/boats/2010/tracker-marine",
         "specs": {
-          "Length": {
-            "value": "18'2\"",
-            "confidence": "cited-source-exact"
-          },
-          "Beam": {
-            "value": "102\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "88\"",
-            "confidence": "cited-source-exact"
-          },
           "Dry Hull Weight": {
-            "value": "2,060 lb",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "—",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "28.75\"",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "20° transom / 35° bow",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Height": {
-            "value": "23\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "—",
-            "confidence": "cited-source-exact"
-          },
-          "Max HP": {
-            "value": "200",
-            "confidence": "cited-source-exact"
-          },
-          "Persons": {
-            "value": "6",
-            "confidence": "cited-source-exact"
-          },
-          "Capacity Weight": {
-            "value": "1,650 lb",
-            "confidence": "cited-source-exact"
-          },
-          "Fuel Capacity": {
-            "value": "40 gal",
-            "confidence": "cited-source-exact"
-          },
-          "Bottom Thickness": {
-            "value": ".100\"",
-            "confidence": "cited-source-exact"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "—",
-            "confidence": "cited-source-exact"
+            "value": "1,455 lb",
+            "confidence": "source-supported"
           },
           "Construction": {
-            "value": "All-welded 5052 marine-alloy deep-V with reversed chines",
-            "confidence": "cited-source-exact"
+            "value": "All-welded Tracker Targa deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
           }
         },
         "eras": [
           {
-            "id": "boat:Tracker | Targa V-18 WT:value:2010s",
-            "label": "2010s",
+            "id": "boat:Tracker | Targa V-18 WT:value:2010-2011",
+            "label": "2010\u20132011",
             "startYear": 2010,
-            "endYear": 2019,
-            "low": 11000,
-            "high": 15000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "endYear": 2011,
+            "low": 9000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Tracker | Targa V-18 WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
+        "id": "boat:Tracker | Targa V-18 WT:gen:2012-2014",
+        "label": "2012\u20132014 1,697-lb / 37-gal hull",
+        "startYear": 2012,
+        "endYear": 2014,
+        "status": "published-specification-continuity",
+        "specificationBasis": "2012 specifications and later annual records support this intermediate platform.",
+        "sourceUrl": "https://www.jdpower.com/boats/2012/tracker-marine/targa-v-18-wt__/10262591/specs",
+        "specs": {
+          "Length": {
+            "value": "19'1\" including swim platform",
+            "confidence": "published-exact"
+          },
+          "Beam": {
+            "value": "102\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,697 lb",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "37 gal",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-18 WT:value:2012-2014",
+            "label": "2012\u20132014",
+            "startYear": 2012,
+            "endYear": 2014,
+            "low": 11000,
+            "high": 17000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Targa V-18 WT:gen:2015-2016",
+        "label": "2015\u20132016 1,730-lb hull",
+        "startYear": 2015,
+        "endYear": 2016,
+        "status": "annual-roster-supported-partial",
+        "specificationBasis": "Annual model records repeat the 1,730-lb published weight. Adjacent full tables are not copied into this row.",
+        "sourceUrl": "https://www.jdpower.com/boats/2016/tracker-marine",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,730 lb",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded Tracker Targa deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-18 WT:value:2015-2016",
+            "label": "2015\u20132016",
+            "startYear": 2015,
+            "endYear": 2016,
+            "low": 14000,
+            "high": 21000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Targa V-18 WT:gen:2017-2019",
+        "label": "2017\u20132019 2,060-lb / .100-inch hull",
+        "startYear": 2017,
         "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2019 factory specification basis",
+        "status": "factory-documented-continuity",
+        "specificationBasis": "2017\u20132019 records culminate in the exact 2019 factory page and repeat the 2,060-lb platform.",
         "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2019-targa-v-18-wt.html",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Length": {
+            "value": "18'2\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "102\"",
+            "confidence": "source-supported"
+          },
+          "Chine / Bottom Width": {
+            "value": "88\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "2,060 lb",
+            "confidence": "source-supported"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "28.75\"",
+            "confidence": "source-supported"
+          },
+          "Deadrise": {
+            "value": "20\u00b0 transom / 35\u00b0 bow",
+            "confidence": "source-supported"
+          },
+          "Transom Height": {
+            "value": "23\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "source-supported"
+          },
+          "Capacity Weight": {
+            "value": "1,650 lb",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded 5052 marine-alloy deep-V with reversed chines",
+            "confidence": "source-supported"
+          },
+          "Average Package Weight": {
+            "value": "3,704 lb in 2019",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-18 WT:value:2017-2019",
+            "label": "2017\u20132019",
+            "startYear": 2017,
+            "endYear": 2019,
+            "low": 18000,
+            "high": 28000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Targa V-18 WT:gen:2020",
+        "label": "2020 .125-inch hull revision",
+        "startYear": 2020,
+        "endYear": 2020,
+        "status": "factory-exact",
+        "specificationBasis": "The 2020 factory page explicitly identifies a 25%-thicker .125-inch hull and publishes the year-specific weights.",
+        "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2020-targa-v-18-wt.html",
+        "specs": {
+          "Length": {
+            "value": "18'2\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "102\"",
+            "confidence": "source-supported"
+          },
+          "Chine / Bottom Width": {
+            "value": "88\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "2,001 lb",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".125\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded 5052 marine-alloy deep-V with reversed chines",
+            "confidence": "source-supported"
+          },
+          "Average Package Weight": {
+            "value": "3,871 lb",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-18 WT:value:2020",
+            "label": "2020",
+            "startYear": 2020,
+            "endYear": 2020,
+            "low": 22000,
+            "high": 32000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Targa V-18 WT:gen:2021-2026",
+        "label": "2021\u20132026 heavier .125-inch platform",
+        "startYear": 2021,
+        "endYear": 2026,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Annual records and current factory pages identify the heavier .125-inch platform; published dry weights vary slightly by source/year around 2,205 lb.",
+        "sourceUrl": "https://www.trackerboats.com/deep-v/targa-v-18-wt.html",
+        "specs": {
+          "Length": {
+            "value": "18'2\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "102\"",
+            "confidence": "source-supported"
+          },
+          "Chine / Bottom Width": {
+            "value": "88\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "about 2,205 lb; annual records 2,201\u20132,227 lb",
+            "confidence": "source-supported"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "28.75\"",
+            "confidence": "source-supported"
+          },
+          "Deadrise": {
+            "value": "20\u00b0 transom / 35\u00b0 bow",
+            "confidence": "source-supported"
+          },
+          "Transom Height": {
+            "value": "23\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "source-supported"
+          },
+          "Capacity Weight": {
+            "value": "1,650 lb",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".125\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded 5052 marine-alloy deep-V with reversed chines",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-18 WT:value:2021-2023",
+            "label": "2021\u20132023",
+            "startYear": 2021,
+            "endYear": 2023,
+            "low": 25000,
+            "high": 38000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Tracker | Targa V-18 WT:value:2024-2026",
+            "label": "2024\u20132026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 34000,
+            "high": 48000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
-    ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    ]
   },
   {
     "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating)",
@@ -43198,11 +43608,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Tracker",
     "model": "Targa V-19 WT (exceeds Maverick tow rating)",
     "displayName": "Tracker | Targa V-19 WT (exceeds Maverick tow rating)",
-    "subtitle": "2026 exact cited specification; other advertised years unresolved",
+    "subtitle": "2018\u20132026; three documented weight rows; exceeds Maverick tow rating",
     "badge": "Secondary",
-    "lowPrice": 14000,
-    "highPrice": 35000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 22000,
+    "highPrice": 55000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://www.trackerboats.com/deep-v/targa-v-19-wt.html",
     "image": {
       "url": "https://images.boatsgroup.com/images/1/11/68/2026-tracker-pro-guide-v-175-wt-power-9891168-20250805140032506-1.jpg",
@@ -43213,11 +43623,11 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2026 exact cited specification; other advertised years unresolved"
+        "value": "2018\u20132026; three documented weight rows; exceeds Maverick tow rating"
       },
       {
         "label": "Recommendation",
-        "value": "Secondary"
+        "value": "Reject for this tow vehicle"
       },
       {
         "label": "Big-Water Suitability",
@@ -43229,71 +43639,71 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
-        "value": "150–200"
+        "value": "150\u2013200"
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -43301,11 +43711,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary / deliberate exclude: factory package weight exceeds the tow rating before adding normal fishing and travel gear."
+        "value": "Reject: excellent water capability but the package is too heavy. The 2019 package was 4,019 lb, rising to roughly 4,245 lb for current boats before added gear."
       },
       {
         "label": "Notes",
-        "value": "Searchable rejection row. The boat itself is capable; the factory package is about 4,245 lb before personal gear, above the Maverick's 4,000-lb rating."
+        "value": "Every documented complete factory package is at or above the Maverick\u2019s entire 4,000-lb rating before normal fishing gear. This is cataloged for identification, not recommended for this tow vehicle."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -43317,123 +43727,247 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "GOOD — Modern fishing surfaces, but the tow-weight failure is decisive."
+        "value": "GOOD \u2014 Modern fishing surfaces, but the tow-weight failure is decisive."
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Tracker annual model records, factory previous-model pages and year-specific specification sources reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):gen:2026",
-        "label": "2026 cited specification snapshot",
-        "startYear": 2026,
-        "endYear": 2026,
-        "status": "cited-snapshot",
-        "specificationBasis": "2026 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.trackerboats.com/deep-v/targa-v-19-wt.html",
+        "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):gen:2018-2019",
+        "label": "2018\u20132019 2,001-lb hull",
+        "startYear": 2018,
+        "endYear": 2019,
+        "status": "factory-supported-continuity",
+        "specificationBasis": "2018 annual roster and exact 2019 factory page establish this initial Targa V-19 WT platform.",
+        "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2019-targa-v-19-wt.html",
         "specs": {
           "Length": {
-            "value": "19'0\" class",
-            "confidence": "cited-source-exact"
+            "value": "19'0\" hull / 19'10\" with swim platform",
+            "confidence": "factory-exact"
           },
           "Beam": {
             "value": "102\"",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "88\"",
+            "confidence": "source-supported"
           },
           "Dry Hull Weight": {
-            "value": "About 2,100 lb",
-            "confidence": "catalog-representative"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "2,001 lb",
+            "confidence": "source-supported"
           },
           "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "25\"",
+            "confidence": "source-supported"
           },
           "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "20\u00b0 transom / 35\u00b0 bow",
+            "confidence": "source-supported"
           },
           "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "23\"",
+            "confidence": "source-supported"
           },
           "Max HP": {
-            "value": "225 representative",
-            "confidence": "catalog-representative"
+            "value": "225",
+            "confidence": "source-supported"
           },
           "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "8",
+            "confidence": "source-supported"
           },
           "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "2,000 lb person/motor/gear",
+            "confidence": "source-supported"
           },
           "Fuel Capacity": {
-            "value": "40 gal representative",
-            "confidence": "catalog-representative"
+            "value": "47 gal",
+            "confidence": "source-supported"
           },
           "Bottom Thickness": {
-            "value": "0.100\" representative",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": ".125\"",
+            "confidence": "source-supported"
           },
           "Construction": {
-            "value": "All-welded 5052 aluminum deep-V",
-            "confidence": "cited-source-exact"
+            "value": "All-welded 5052 marine-alloy deep-V",
+            "confidence": "source-supported"
+          },
+          "Average Package Weight": {
+            "value": "4,019 lb in 2019",
+            "confidence": "source-supported"
           }
         },
         "eras": [
           {
-            "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
+            "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):value:2018-2019",
+            "label": "2018\u20132019",
+            "startYear": 2018,
             "endYear": 2019,
-            "low": 14000,
-            "high": 22000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
             "low": 22000,
-            "high": 35000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "high": 32000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Current-generation; 2020s",
+        "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):gen:2020-2022",
+        "label": "2020\u20132022 2,201\u20132,227-lb hull",
+        "startYear": 2020,
+        "endYear": 2022,
+        "status": "factory-and-annual-record-continuity",
+        "specificationBasis": "The 2020 factory page and 2021\u20132022 annual records establish the heavier intermediate platform.",
+        "sourceUrl": "https://www.trackerboats.com/deep-v/previous/2020-targa-v-19-wt.html",
+        "specs": {
+          "Length": {
+            "value": "19'0\" hull / 19'10\" with swim platform",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "102\"",
+            "confidence": "source-supported"
+          },
+          "Chine / Bottom Width": {
+            "value": "88\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "2,201\u20132,227 lb by annual source",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "225",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "source-supported"
+          },
+          "Capacity Weight": {
+            "value": "2,000 lb person/motor/gear",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "47 gal",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".125\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded 5052 marine-alloy deep-V",
+            "confidence": "source-supported"
+          },
+          "Average Package Weight": {
+            "value": "4,219 lb in 2020",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):value:2020-2022",
+            "label": "2020\u20132022",
+            "startYear": 2020,
+            "endYear": 2022,
+            "low": 28000,
+            "high": 40000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):gen:2023-2026",
+        "label": "2023\u20132026 2,230-lb current hull",
+        "startYear": 2023,
+        "endYear": 2026,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "2023 and current factory pages repeat the 2,230-lb hull and 4,245-lb package.",
         "sourceUrl": "https://www.trackerboats.com/deep-v/targa-v-19-wt.html",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Length": {
+            "value": "19'0\" hull / 19'10\" with swim platform",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "102\"",
+            "confidence": "source-supported"
+          },
+          "Chine / Bottom Width": {
+            "value": "88\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "2,230 lb",
+            "confidence": "source-supported"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "source-supported"
+          },
+          "Deadrise": {
+            "value": "20\u00b0 transom / 35\u00b0 bow",
+            "confidence": "source-supported"
+          },
+          "Transom Height": {
+            "value": "23\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "225",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "source-supported"
+          },
+          "Capacity Weight": {
+            "value": "2,000 lb person/motor/gear",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "47 gal",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".125\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded 5052 marine-alloy deep-V",
+            "confidence": "source-supported"
+          },
+          "Average Package Weight": {
+            "value": "4,245 lb",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):value:2023-2024",
+            "label": "2023\u20132024",
+            "startYear": 2023,
+            "endYear": 2024,
+            "low": 38000,
+            "high": 49000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          },
+          {
+            "id": "boat:Tracker | Targa V-19 WT (exceeds Maverick tow rating):value:2025-2026",
+            "label": "2025\u20132026",
+            "startYear": 2025,
+            "endYear": 2026,
+            "low": 44000,
+            "high": 55000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
-    ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    ]
   },
   {
     "id": "boat:Tracker | Tundra 18 DC / WT",
@@ -43442,11 +43976,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Tracker",
     "model": "Tundra 18 DC / WT",
     "displayName": "Tracker | Tundra 18 DC / WT",
-    "subtitle": "2004 exact cited specification; other advertised years unresolved",
+    "subtitle": "2002\u20132009; six documented layout/weight rows",
     "badge": "Secondary",
-    "lowPrice": 4500,
-    "highPrice": 8500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 4000,
+    "highPrice": 12000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://www.jdpower.com/boats/2004/tracker-marine/tundra-18-dc__/10226993/specs",
     "image": {
       "url": "https://images.offerup.com/bbpO0y0irEy_uDQohnrB2uuYXKg%3D/750x750/df96/df969eed8d93419292fb9dc95b771039.jpg",
@@ -43457,7 +43991,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2004 exact cited specification; other advertised years unresolved"
+        "value": "2002\u20132009; six documented layout/weight rows"
       },
       {
         "label": "Recommendation",
@@ -43473,43 +44007,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
@@ -43517,27 +44051,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -43545,11 +44079,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: very capable hull, but a heavy package and early formed-hull/structural inspection concerns reduce practicality."
+        "value": "Secondary: credible big-water dimensions and some budget overlap, but heavier packages, extensive carpet and the unusual stretch-formed hull make it less straightforward than the preferred 17-foot choices."
       },
       {
         "label": "Notes",
-        "value": "Premium historical multispecies. Big-water walleye, trolling and family fishing. Wide, heavy and capable enough for Primary, but early Tundras deserve a careful hull/stringer inspection because the unusual formed-aluminum construction had early-production concerns. Closest comparisons: Lund Pro-V; Crestliner Tournament; Alumacraft Trophy. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
+        "value": "The stretch-formed Tundra is capable but unusual. DC and WT versions overlap in 2006\u20132007 with different published weights. Inspect the formed hull, floor attachment, seams and transom carefully; do not assume the windshield layout from the model name alone."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -43561,114 +44095,340 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Some packages have vinyl cockpit flooring; verify the exact boat."
+        "value": "POSSIBLE \u2014 Some packages have vinyl cockpit flooring; verify the exact boat."
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Tracker annual model records, factory previous-model pages and year-specific specification sources reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Tracker | Tundra 18 DC / WT:gen:2004",
-        "label": "2004 cited specification snapshot",
-        "startYear": 2004,
-        "endYear": 2004,
-        "status": "cited-snapshot",
-        "specificationBasis": "2004 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/2004/tracker-marine/tundra-18-dc__/10226993/specs",
+        "id": "boat:Tracker | Tundra 18 DC / WT:gen:2002",
+        "label": "2002 DC / WT, 1,460-lb introduction",
+        "startYear": 2002,
+        "endYear": 2002,
+        "status": "annual-roster-supported-partial",
+        "specificationBasis": "2002 annual model roster publishes both DC and WT at 1,460 lb. Shared dimensions are carried only where supported.",
+        "sourceUrl": "https://www.jdpower.com/boats/2002/tracker-marine",
         "specs": {
           "Length": {
-            "value": "18' 0\"",
-            "confidence": "cited-source-exact"
+            "value": "18'0\"",
+            "confidence": "source-supported"
           },
           "Beam": {
             "value": "96\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "74\" representative",
-            "confidence": "catalog-representative"
-          },
-          "Dry Hull Weight": {
-            "value": "1,460–1,550 lb (2003–2005)",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "27\" representative",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "20\"–25\" by year",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "74\" representative",
-            "confidence": "catalog-representative"
+            "confidence": "source-supported"
           },
           "Max HP": {
-            "value": "Up to 175",
-            "confidence": "cited-source-exact"
+            "value": "175",
+            "confidence": "source-supported"
           },
           "Persons": {
             "value": "7",
-            "confidence": "cited-source-exact"
-          },
-          "Capacity Weight": {
-            "value": "1,705 lb representative",
-            "confidence": "catalog-representative"
+            "confidence": "source-supported"
           },
           "Fuel Capacity": {
             "value": "40 gal representative",
-            "confidence": "catalog-representative"
+            "confidence": "source-supported"
           },
           "Bottom Thickness": {
-            "value": "0.125\" representative",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Varies",
-            "confidence": "catalog-representative"
+            "value": ".125\" representative",
+            "confidence": "source-supported"
           },
           "Construction": {
             "value": "Stretch-formed aluminum V-pad hull",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,460 lb",
+            "confidence": "source-supported"
+          },
+          "Layout": {
+            "value": "DC and WT variants",
+            "confidence": "source-supported"
           }
         },
         "eras": [
           {
-            "id": "boat:Tracker | Tundra 18 DC / WT:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4500,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Tracker | Tundra 18 DC / WT:value:2002",
+            "label": "2002",
+            "startYear": 2002,
+            "endYear": 2002,
+            "low": 4000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Tracker | Tundra 18 DC / WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
+        "id": "boat:Tracker | Tundra 18 DC / WT:gen:2003",
+        "label": "2003 model identity; table source-exhausted",
+        "startYear": 2003,
+        "endYear": 2003,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "The Tundra 18 DC/WT model identity is documented for 2003, but a complete compatible year table was not recovered. No adjacent-year weight is assigned.",
+        "sourceUrl": "https://www.boats.za.net/tracker/tundra-18-wt",
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Stretch-formed aluminum V-pad hull; DC/WT listing identity",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Tundra 18 DC / WT:value:2003",
+            "label": "2003",
+            "startYear": 2003,
+            "endYear": 2003,
+            "low": 4250,
+            "high": 7250,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Tundra 18 DC / WT:gen:2004-2005",
+        "label": "2004\u20132005 DC / WT, 1,550-lb hull",
+        "startYear": 2004,
+        "endYear": 2005,
+        "status": "annual-roster-supported-continuity",
+        "specificationBasis": "2004\u20132005 annual records publish the DC and WT versions at 1,550 lb.",
+        "sourceUrl": "https://www.jdpower.com/boats/2004/tracker-marine",
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal representative",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".125\" representative",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Stretch-formed aluminum V-pad hull",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,550 lb",
+            "confidence": "source-supported"
+          },
+          "Layout": {
+            "value": "DC and WT variants",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Tundra 18 DC / WT:value:2004-2005",
+            "label": "2004\u20132005",
+            "startYear": 2004,
+            "endYear": 2005,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Tundra 18 DC / WT:gen:2006-2007-dc",
+        "label": "2006\u20132007 Dual Console, 1,505 lb",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "parallel-layout-variation",
+        "specificationBasis": "Annual records list a distinct 1,505-lb Dual Console alongside the heavier WT.",
+        "sourceUrl": "https://www.jdpower.com/boats/2007/tracker-marine",
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal representative",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".125\" representative",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Stretch-formed aluminum V-pad hull",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,505 lb",
+            "confidence": "source-supported"
+          },
+          "Layout": {
+            "value": "Dual Console; verify windshield opening/layout",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Tundra 18 DC / WT:value:2006-2007-dc",
+            "label": "2006\u20132007 DC",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 5750,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Tundra 18 DC / WT:gen:2006-2007-wt",
+        "label": "2006\u20132007 Walk-Through, 1,550 lb",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "parallel-layout-variation",
+        "specificationBasis": "Annual records list the full walk-through version at 1,550 lb.",
+        "sourceUrl": "https://www.jdpower.com/boats/2007/tracker-marine",
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal representative",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".125\" representative",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Stretch-formed aluminum V-pad hull",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,550 lb",
+            "confidence": "source-supported"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Tundra 18 DC / WT:value:2006-2007-wt",
+            "label": "2006\u20132007 WT",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 6000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Tundra 18 DC / WT:gen:2008-2009",
+        "label": "2008\u20132009 DC / WT, 1,600-lb final hull",
+        "startYear": 2008,
         "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2002–2009",
-        "sourceUrl": "https://www.jdpower.com/boats/2004/tracker-marine/tundra-18-dc__/10226993/specs",
-        "specs": {},
-        "eras": []
+        "status": "annual-roster-supported-continuity",
+        "specificationBasis": "2008\u20132009 annual records publish both layouts at 1,600 lb.",
+        "sourceUrl": "https://www.jdpower.com/boats/2009/tracker-marine",
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal representative",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".125\" representative",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Stretch-formed aluminum V-pad hull",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,600 lb",
+            "confidence": "source-supported"
+          },
+          "Layout": {
+            "value": "DC and WT variants",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Tundra 18 DC / WT:value:2008-2009",
+            "label": "2008\u20132009",
+            "startYear": 2008,
+            "endYear": 2009,
+            "low": 7000,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
-    ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    ]
   },
   {
     "id": "boat:Triton | DV176 DC Magnum",
@@ -43748,7 +44508,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -43796,7 +44556,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "UNKNOWN — Interior material is not factory-verified; inspect the individual boat."
+        "value": "UNKNOWN \u2014 Interior material is not factory-verified; inspect the individual boat."
       },
       {
         "label": "Research Status",
@@ -43823,7 +44583,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
@@ -43831,23 +44591,23 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Cockpit / Interior Depth": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Transom Width": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Max HP": {
@@ -43855,11 +44615,11 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Persons": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
@@ -43871,7 +44631,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "—",
+            "value": "\u2014",
             "confidence": "cited-source-exact"
           },
           "Construction": {
@@ -43893,11 +44653,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Triton | DV176 DC Magnum:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2009,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2005–2007; 2006 specification basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2005\u20132007; 2006 specification basis",
         "sourceUrl": "https://www.jdpower.com/boats/2006/triton-boats/dv176-magnum__/10232456/specs",
         "specs": {},
         "eras": []
@@ -44031,7 +44791,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "UNKNOWN — Interior material is not factory-verified; inspect the individual boat."
+        "value": "UNKNOWN \u2014 Interior material is not factory-verified; inspect the individual boat."
       },
       {
         "label": "Research Status",
@@ -44128,7 +44888,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Triton | DV186 DC Magnum:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2009,
         "status": "unresolved",
@@ -44250,11 +45010,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: 86 in beam, about 870 lb and 13° deadrise is towable but relatively light and shallow for Lake Superior-first use."
+        "value": "Secondary: 86 in beam, about 870 lb and 13\u00b0 deadrise is towable but relatively light and shallow for Lake Superior-first use."
       },
       {
         "label": "Notes",
-        "value": "Midrange multispecies / fish-and-sport. Fishing and family use. 86\" beam, about 870 lb and 13° deadrise: useful, towable, but a Secondary-level Lake Superior hull. Closest comparisons: Alumacraft Navigator; Crestliner Vision; Lund Adventure. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
+        "value": "Midrange multispecies / fish-and-sport. Fishing and family use. 86\" beam, about 870 lb and 13\u00b0 deadrise: useful, towable, but a Secondary-level Lake Superior hull. Closest comparisons: Alumacraft Navigator; Crestliner Vision; Lund Adventure. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -44266,7 +45026,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet over plywood is typical for this generation."
+        "value": "POOR \u2014 Carpet over plywood is typical for this generation."
       },
       {
         "label": "Research Status",
@@ -44309,7 +45069,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Deadrise": {
-            "value": "13°",
+            "value": "13\u00b0",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
@@ -44363,11 +45123,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2009,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: mid–2000s; 2007 verified",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: mid\u20132000s; 2007 verified",
         "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
         "specs": {},
         "eras": []
@@ -44485,11 +45245,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: strong 95 in beam, roughly 1,120 lb and 15° deadrise numbers, but defunct-brand support and scarce examples keep it opportunistic."
+        "value": "Secondary: strong 95 in beam, roughly 1,120 lb and 15\u00b0 deadrise numbers, but defunct-brand support and scarce examples keep it opportunistic."
       },
       {
         "label": "Notes",
-        "value": "Upper-midrange multispecies. Fishing, trolling and family use. 95\" beam, about 1,120 lb and 15° deadrise; materially stronger than the 169W. Closest comparisons: Lund Impact; Crestliner Fish Hawk; Alumacraft Competitor. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
+        "value": "Upper-midrange multispecies. Fishing, trolling and family use. 95\" beam, about 1,120 lb and 15\u00b0 deadrise; materially stronger than the 169W. Closest comparisons: Lund Impact; Crestliner Fish Hawk; Alumacraft Competitor. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -44501,7 +45261,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpet over plywood is typical for this generation."
+        "value": "POOR \u2014 Carpet over plywood is typical for this generation."
       },
       {
         "label": "Research Status",
@@ -44544,7 +45304,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Deadrise": {
-            "value": "15°",
+            "value": "15\u00b0",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
@@ -44598,11 +45358,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2009,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: mid–2000s; 2007 verified",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: mid\u20132000s; 2007 verified",
         "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
         "specs": {},
         "eras": []
@@ -44683,7 +45443,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -44715,11 +45475,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: unusually wide 90-inch compact full-windshield hull and plausible budget fit, but only 16'6\" long and incompletely documented. Treat as a promising protected-nearshore boat, not an automatic rough-water equal to a well-documented 17½-foot Primary hull."
+        "value": "Secondary: unusually wide 90-inch compact full-windshield hull and plausible budget fit, but only 16'6\" long and incompletely documented. Treat as a promising protected-nearshore boat, not an automatic rough-water equal to a well-documented 17\u00bd-foot Primary hull."
       },
       {
         "label": "Notes",
-        "value": "Confirmed missing historical size between the cataloged 16 and 18 Xcaliburs. Surviving 2006–2007 examples identify a 16'6\" × 90\" welded hull with 75- or 90-hp Mercury power. Exact factory weight, capacities, deadrise and material gauges were not recovered, so the capacity plate and hull inspection control."
+        "value": "Confirmed missing historical size between the cataloged 16 and 18 Xcaliburs. Surviving 2006\u20132007 examples identify a 16'6\" \u00d7 90\" welded hull with 75- or 90-hp Mercury power. Exact factory weight, capacities, deadrise and material gauges were not recovered, so the capacity plate and hull inspection control."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -44727,11 +45487,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "Used-listing/model-family evidence only; no factory brochure recovered for the 2005–2008 17."
+        "value": "Used-listing/model-family evidence only; no factory brochure recovered for the 2005\u20132008 17."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "UNKNOWN — Do not assume the later Xcalibur vinyl-cockpit specification applies to this earlier 17."
+        "value": "UNKNOWN \u2014 Do not assume the later Xcalibur vinyl-cockpit specification applies to this earlier 17."
       },
       {
         "label": "Research Status",
@@ -44828,11 +45588,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Legend | 17 Xcalibur full-windshield:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2000,
         "endYear": 2009,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2005–2008; 2006–2007 surviving-listing basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2005\u20132008; 2006\u20132007 surviving-listing basis",
         "sourceUrl": "https://www.kijiji.ca/b-powerboat-motorboat/ontario/legend-seats/k0c327l9004",
         "specs": {},
         "eras": []
@@ -44847,7 +45607,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starweld",
     "model": "*1700 DC / WT",
     "displayName": "*Starweld | 1700 DC / WT",
-    "subtitle": "2013–2016 documented generation fully closed",
+    "subtitle": "2013\u20132016 documented generation fully closed",
     "badge": "Primary",
     "lowPrice": 5000,
     "highPrice": 9500,
@@ -44857,7 +45617,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2013–2016 documented unchanged generation"
+        "value": "2013\u20132016 documented unchanged generation"
       },
       {
         "label": "Recommendation",
@@ -44913,7 +45673,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -44945,7 +45705,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary compact exception: full walk-through windshield, 90-inch beam, deep 27-inch interior, welded construction and 115-hp capacity are strong for a 16'6\" hull. It remains shorter and lighter than the best 17½-foot Primary boats, so use protected-nearshore judgment rather than treating the 1700 name as literal 17-foot reserve."
+        "value": "Primary compact exception: full walk-through windshield, 90-inch beam, deep 27-inch interior, welded construction and 115-hp capacity are strong for a 16'6\" hull. It remains shorter and lighter than the best 17\u00bd-foot Primary boats, so use protected-nearshore judgment rather than treating the 1700 name as literal 17-foot reserve."
       },
       {
         "label": "Notes",
@@ -44961,7 +45721,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Snap-in carpet was optional, but confirm the underlying factory floor and any permanently carpeted raised decks."
+        "value": "POSSIBLE \u2014 Snap-in carpet was optional, but confirm the underlying factory floor and any permanently carpeted raised decks."
       },
       {
         "label": "Research Status",
@@ -44972,7 +45732,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starweld | 1700 DC / WT:gen:2013-2016",
-        "label": "2013–2016 documented 1700 DC generation",
+        "label": "2013\u20132016 documented 1700 DC generation",
         "startYear": 2013,
         "endYear": 2016,
         "status": "factory-documented-generation",
@@ -45046,8 +45806,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starweld | 1700 DC / WT:gen:2013-2016:value:2013–2016",
-            "label": "2013–2016",
+            "id": "boat:Starweld | 1700 DC / WT:gen:2013-2016:value:2013\u20132016",
+            "label": "2013\u20132016",
             "startYear": 2013,
             "endYear": 2016,
             "low": 5000,
@@ -45067,7 +45827,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 1875 Sport (current generation)",
     "displayName": "Lund | Tyee 1875 Sport (current generation)",
-    "subtitle": "2021–2026 documented 18'10-inch platform",
+    "subtitle": "2021\u20132026 documented 18'10-inch platform",
     "badge": "Secondary",
     "lowPrice": 28000,
     "highPrice": 50000,
@@ -45077,7 +45837,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2021–2026 documented platform"
+        "value": "2021\u20132026 documented platform"
       },
       {
         "label": "Recommendation",
@@ -45105,7 +45865,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "150–200"
+        "value": "150\u2013200"
       },
       {
         "label": "Persons",
@@ -45180,7 +45940,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Tyee 1875 Sport (current generation):gen:2021-2026",
-        "label": "2021–2026 1875 Tyee platform",
+        "label": "2021\u20132026 1875 Tyee platform",
         "startYear": 2021,
         "endYear": 2026,
         "status": "factory-documented-continuity",
@@ -45243,7 +46003,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 1875 Sport (current generation):value:2021-2023",
-            "label": "2021–2023",
+            "label": "2021\u20132023",
             "startYear": 2021,
             "endYear": 2023,
             "low": 28000,
@@ -45252,7 +46012,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Tyee 1875 Sport (current generation):value:2024-2026",
-            "label": "2024–2026",
+            "label": "2024\u20132026",
             "startYear": 2024,
             "endYear": 2026,
             "low": 35000,
@@ -45343,7 +46103,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -45375,7 +46135,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary historical option: genuine walk-through-windshield 17'4\" Tyee with useful depth and 115-hp capacity, but the 82-inch beam, 950-pound hull and 20.5-inch transom provide less Lake Superior reserve than later 17½-foot Primary boats. Condition and transom/floor history dominate value."
+        "value": "Secondary historical option: genuine walk-through-windshield 17'4\" Tyee with useful depth and 115-hp capacity, but the 82-inch beam, 950-pound hull and 20.5-inch transom provide less Lake Superior reserve than later 17\u00bd-foot Primary boats. Condition and transom/floor history dominate value."
       },
       {
         "label": "Notes",
@@ -45391,7 +46151,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Period carpeted interior and age make floor condition a central inspection item."
+        "value": "POOR \u2014 Period carpeted interior and age make floor condition a central inspection item."
       },
       {
         "label": "Research Status",
@@ -45402,7 +46162,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):gen:1979-1984",
-        "label": "1979–1984 early Tyee 5.3 generation",
+        "label": "1979\u20131984 early Tyee 5.3 generation",
         "startYear": 1979,
         "endYear": 1984,
         "status": "factory-generation",
@@ -45477,7 +46237,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):value:1979-1981",
-            "label": "1979–1981",
+            "label": "1979\u20131981",
             "startYear": 1979,
             "endYear": 1981,
             "low": 1800,
@@ -45486,7 +46246,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):value:1982-1984",
-            "label": "1982–1984",
+            "label": "1982\u20131984",
             "startYear": 1982,
             "endYear": 1984,
             "low": 2200,
@@ -45504,23 +46264,23 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Tracker",
-    "model": "Targa 17 WT (early generation)",
-    "displayName": "Tracker | Targa 17 WT (early generation)",
-    "subtitle": "2000 exact cited specification; other advertised years unresolved",
+    "model": "*Targa 17 WT (early generation)",
+    "displayName": "*Tracker | Targa 17 WT (early generation)",
+    "subtitle": "2000\u20132002 early Targa 17 WT; three evidence rows",
     "badge": "Secondary",
     "lowPrice": 2500,
-    "highPrice": 6000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 6500,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://www.boatingworld.com/boats/tracker-marine-boats/2000-tracker-marine-17-targa-wt",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000 exact cited specification; other advertised years unresolved"
+        "value": "2000\u20132002 early Targa 17 WT; three evidence rows"
       },
       {
         "label": "Recommendation",
-        "value": "Secondary"
+        "value": "Primary"
       },
       {
         "label": "Big-Water Suitability",
@@ -45532,71 +46292,71 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -45604,11 +46364,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: wide and useful full-windshield hull for its era, but age, incomplete factory specifications and a lighter structure than later Targas make floor, ribs, seams and transom condition decisive."
+        "value": "Primary budget candidate: full windshield, manageable hull weight and realistic sub-$8,000 packages. It is old enough that structural inspection is mandatory."
       },
       {
         "label": "Notes",
-        "value": "Confirmed omitted early Targa 17 walk-through generation. It is materially lighter than the 2003–2005 redesign and should not share one row with it. Surviving 1999–2001 records show roughly 1,095–1,193 pounds, and 90-hp examples exist, but the capacity plate controls maximum power."
+        "value": "A lighter and simpler early full-windshield Tracker. Published weight rises sharply by 2002, so the exact model year matters. Age-related floor, transom, wiring and trailer condition matter more than cosmetic shine."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -45620,142 +46380,146 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR / UNKNOWN — Assume an aging carpeted floor until the exact boat proves otherwise."
+        "value": "POOR / UNKNOWN \u2014 Assume an aging carpeted floor until the exact boat proves otherwise."
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Tracker annual model records, factory previous-model pages and year-specific specification sources reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
         "id": "boat:Tracker | Targa 17 WT (early generation):gen:2000",
-        "label": "2000 cited specification snapshot",
+        "label": "2000 cited early Targa 17 WT",
         "startYear": 2000,
         "endYear": 2000,
-        "status": "cited-snapshot",
-        "specificationBasis": "2000 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.boatingworld.com/boats/tracker-marine-boats/2000-tracker-marine-17-targa-wt",
+        "status": "cited-source-partial",
+        "specificationBasis": "The existing cited model-year basis is retained with only supported representative fields.",
+        "sourceUrl": "https://www.boats.za.net/tracker/targa-17-wt",
         "specs": {
           "Length": {
             "value": "17'0\"",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Beam": {
             "value": "93\" representative",
-            "confidence": "catalog-representative"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "confidence": "source-supported"
           },
           "Dry Hull Weight": {
-            "value": "1,095–1,193 lb by year",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Deep-V; angle not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,095\u20131,193 lb published early range",
+            "confidence": "source-supported"
           },
           "Max HP": {
-            "value": "90 hp observed; verify capacity plate",
-            "confidence": "cited-source-exact"
-          },
-          "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "90 observed; verify capacity plate",
+            "confidence": "source-supported"
           },
           "Construction": {
-            "value": "Aluminum deep-V; exact structural construction varies and must be inspected",
-            "confidence": "catalog-representative"
+            "value": "Aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
           }
         },
         "eras": [
           {
-            "id": "boat:Tracker | Targa 17 WT (early generation):value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Tracker | Targa 17 WT (early generation):value:2000",
+            "label": "2000",
+            "startYear": 2000,
+            "endYear": 2000,
             "low": 2500,
             "high": 5000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Tracker | Targa 17 WT (early generation):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 3000,
-            "high": 6000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Tracker | Targa 17 WT (early generation):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1997–2002; 1999–2001 specification basis",
-        "sourceUrl": "https://www.boatingworld.com/boats/tracker-marine-boats/2000-tracker-marine-17-targa-wt",
-        "specs": {},
-        "eras": []
+        "id": "boat:Tracker | Targa 17 WT (early generation):gen:2001",
+        "label": "2001 1,095-lb published boat",
+        "startYear": 2001,
+        "endYear": 2001,
+        "status": "published-exact-partial",
+        "specificationBasis": "Contemporary Boating World specifications publish the 17-foot, 7'8\"-beam, 1,095-lb boat.",
+        "sourceUrl": "https://www.boatingworld.com/boats/tracker-marine-boats/2001-tracker-marine-targa-17-wt",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "7'8\"",
+            "confidence": "published-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,095 lb",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa 17 WT (early generation):value:2001",
+            "label": "2001",
+            "startYear": 2001,
+            "endYear": 2001,
+            "low": 2750,
+            "high": 5250,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Targa 17 WT (early generation):gen:2002",
+        "label": "2002 heavier 1,370-lb boat",
+        "startYear": 2002,
+        "endYear": 2002,
+        "status": "annual-roster-supported-partial",
+        "specificationBasis": "The 2002 annual roster publishes a 1,370-lb Targa 17 WT; complete dimensions are withheld because a matching full table was not recovered.",
+        "sourceUrl": "https://www.jdpower.com/boats/2002/tracker-marine",
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,370 lb",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Aluminum deep-V; factory walk-through windshield model identity",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa 17 WT (early generation):value:2002",
+            "label": "2002",
+            "startYear": 2002,
+            "endYear": 2002,
+            "low": 3500,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "idealMatch": true
   },
   {
-    "id": "boat:Tracker | Targa 17 WT (2003–2005 redesign)",
+    "id": "boat:Tracker | Targa 17 WT (2003\u20132005 redesign)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Tracker",
-    "model": "Targa 17 WT (2003–2005 redesign)",
-    "displayName": "Tracker | Targa 17 WT (2003–2005 redesign)",
-    "subtitle": "2005 exact cited specification; other advertised years unresolved",
+    "model": "*Targa 17 WT (2003\u20132005 redesign)",
+    "displayName": "*Tracker | Targa 17 WT (2003\u20132005 redesign)",
+    "subtitle": "2003\u20132005 later hull; two documented certification rows",
     "badge": "Primary",
     "lowPrice": 4500,
-    "highPrice": 8000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 9000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://www.boatsdetails.info/2005_Tracker_Targa_17_WT.html",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2005 exact cited specification; other advertised years unresolved"
+        "value": "2003\u20132005 later hull; two documented certification rows"
       },
       {
         "label": "Recommendation",
@@ -45771,71 +46535,71 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -45843,11 +46607,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: substantial full-windshield 17-footer with useful beam, depth, fuel and horsepower capacity. Loaded tow weight should still be calculated carefully, and an original 20-year-old floor/transom demands a serious inspection."
+        "value": "Primary: full windshield, 94-inch beam and useful big-water depth, with complete packages frequently near the target budget. The 1,400\u20131,480-lb hull is still towable with an appropriate motor/trailer."
       },
       {
         "label": "Notes",
-        "value": "Substantially heavier redesign than the 1997–2002 Targa 17 WT. The 17'4\" hull, 94-inch beam, 1,480-pound dry weight, 125-hp rating and 30-gallon tank make it one of the more capable older 17-foot packages in the audit."
+        "value": "The 2003 source publishes a 150-hp maximum, while 2004\u20132005 tables publish 125 hp. Capacity-plate verification is mandatory on a 2003 boat rather than assuming the higher internet figure."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -45859,133 +46623,160 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR TO POSSIBLE — Extensive carpet is common; inspect substrate and any claimed replacement carefully."
+        "value": "POOR TO POSSIBLE \u2014 Extensive carpet is common; inspect substrate and any claimed replacement carefully."
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Tracker annual model records, factory previous-model pages and year-specific specification sources reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Tracker | Targa 17 WT (2003–2005 redesign):gen:2005",
-        "label": "2005 cited specification snapshot",
-        "startYear": 2005,
-        "endYear": 2005,
-        "status": "cited-snapshot",
-        "specificationBasis": "2005 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.boatsdetails.info/2005_Tracker_Targa_17_WT.html",
+        "id": "boat:Tracker | Targa 17 WT (2003\u20132005 redesign):gen:2003",
+        "label": "2003 1,400-lb redesign; horsepower source conflict",
+        "startYear": 2003,
+        "endYear": 2003,
+        "status": "published-exact-with-certification-warning",
+        "specificationBasis": "Year-specific published specifications establish the new dimensions and 1,400-lb weight. The published 150-hp figure conflicts with the later 125-hp certification, so the physical capacity plate controls.",
+        "sourceUrl": "https://www.boats.za.net/tracker/targa-17-wt/tracker-targa-17-wt-2003",
         "specs": {
           "Length": {
             "value": "17'4\"",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Beam": {
             "value": "94\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "74\" bottom/transom width published",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Dry Hull Weight": {
-            "value": "1,480 lb",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "23\" interior depth",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "Deep-V; angle not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "21\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "74\" bottom/transom width",
-            "confidence": "cited-source-exact"
+            "value": "1,400 lb",
+            "confidence": "source-supported"
           },
           "Max HP": {
-            "value": "125",
-            "confidence": "cited-source-exact"
+            "value": "150 published; verify capacity plate",
+            "confidence": "source-supported"
           },
           "Persons": {
-            "value": "5",
-            "confidence": "cited-source-exact"
+            "value": "6 published",
+            "confidence": "source-supported"
           },
           "Capacity Weight": {
-            "value": "1,530 lb",
-            "confidence": "cited-source-exact"
+            "value": "1,450 lb published",
+            "confidence": "source-supported"
           },
           "Fuel Capacity": {
             "value": "30 gal",
-            "confidence": "cited-source-exact"
-          },
-          "Bottom Thickness": {
-            "value": "0.100\"",
-            "confidence": "cited-source-exact"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "confidence": "source-supported"
           },
           "Construction": {
-            "value": "Aluminum deep-V; inspect floor-to-hull structure, ribs, seams and transom on the individual boat",
-            "confidence": "cited-source-exact"
+            "value": "Aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
           }
         },
         "eras": [
           {
-            "id": "boat:Tracker | Targa 17 WT (2003–2005 redesign):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Tracker | Targa 17 WT (2003\u20132005 redesign):value:2003",
+            "label": "2003",
+            "startYear": 2003,
+            "endYear": 2003,
             "low": 4500,
-            "high": 8000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "high": 7500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Tracker | Targa 17 WT (2003–2005 redesign):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2003–2005; 2005 specification basis",
-        "sourceUrl": "https://www.boatsdetails.info/2005_Tracker_Targa_17_WT.html",
-        "specs": {},
-        "eras": []
+        "id": "boat:Tracker | Targa 17 WT (2003\u20132005 redesign):gen:2004-2005",
+        "label": "2004\u20132005 1,480-lb / 125-hp hull",
+        "startYear": 2004,
+        "endYear": 2005,
+        "status": "published-specification-continuity",
+        "specificationBasis": "2004 and 2005 year-specific tables repeat the 17'4\", 94-inch, 1,480-lb, 125-hp boat.",
+        "sourceUrl": "https://www.boats.za.net/tracker/targa-17-wt/tracker-targa-17-wt-2005",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "94\"",
+            "confidence": "source-supported"
+          },
+          "Chine / Bottom Width": {
+            "value": "74\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,480 lb",
+            "confidence": "source-supported"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "23\"",
+            "confidence": "source-supported"
+          },
+          "Transom Height": {
+            "value": "21\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "source-supported"
+          },
+          "Capacity Weight": {
+            "value": "1,525\u20131,530 lb",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa 17 WT (2003\u20132005 redesign):value:2004-2005",
+            "label": "2004\u20132005",
+            "startYear": 2004,
+            "endYear": 2005,
+            "low": 5500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "idealMatch": true
   },
   {
     "id": "boat:Tracker | Targa V-17 WT",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Tracker",
-    "model": "Targa V-17 WT",
-    "displayName": "Tracker | Targa V-17 WT",
-    "subtitle": "2009–2010",
+    "model": "*Targa V-17 WT",
+    "displayName": "*Tracker | Targa V-17 WT",
+    "subtitle": "2009\u20132010; two documented weight rows",
     "badge": "Primary",
     "lowPrice": 5500,
-    "highPrice": 10500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 11000,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://www.boats.za.net/tracker/targa-v-17-wt",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2009–2010"
+        "value": "2009\u20132010; two documented weight rows"
       },
       {
         "label": "Recommendation",
@@ -46001,71 +46792,71 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17'2\""
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "101\""
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,401 lb"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "135"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
-        "value": "5"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "29 gal"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Not published"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Aluminum deep-V; verify exact structural construction and floor condition"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -46073,11 +46864,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary, upper-end: exceptionally wide and capable 17-foot walk-through hull. Favor 90–115 hp packages and verify trailer width, actual package weight and structural condition before treating the 135-hp maximum as desirable."
+        "value": "Primary: 101-inch beam, full windshield and credible nearshore capability, while the two-year used market can overlap the budget. Check trailer width, total package weight and floor/transom condition."
       },
       {
         "label": "Notes",
-        "value": "Distinct short-run V-17 generation, not the 2003–2005 Targa 17 WT. Its 101-inch beam is nearly the legal trailer-width limit and gives strong working room, while the 1,401-pound hull and 135-hp rating remain plausible for the Maverick only with a real loaded-package calculation."
+        "value": "A very wide 17-foot walk-through Tracker. Published dry weight changes from 1,375 lb in 2009 to 1,401 lb in 2010; verify exact year and package weight."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -46089,47 +46880,136 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "UNKNOWN — Do not infer flooring from later Targa models."
+        "value": "UNKNOWN \u2014 Do not infer flooring from later Targa models."
       },
       {
         "label": "Research Status",
-        "value": "No exact cited model-year snapshot could be established automatically; specifications and pricing are withheld pending research."
+        "value": "Tracker annual model records, factory previous-model pages and year-specific specification sources reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Tracker | Targa V-17 WT:gen:unresolved",
-        "label": "Production years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2009–2010",
-        "sourceUrl": "https://www.boats.za.net/tracker/targa-v-17-wt",
-        "specs": {},
-        "eras": []
+        "id": "boat:Tracker | Targa V-17 WT:gen:2009",
+        "label": "2009 1,375-lb Targa V-17 WT",
+        "startYear": 2009,
+        "endYear": 2009,
+        "status": "annual-roster-supported-partial",
+        "specificationBasis": "The 2009 annual model roster establishes the WT identity and 1,375-lb published weight. Remaining fields use the documented two-year model-family table where consistent.",
+        "sourceUrl": "https://www.jdpower.com/boats/2009/tracker-marine",
+        "specs": {
+          "Length": {
+            "value": "17'2\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "101\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,375 lb",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "135",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "29 gal",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-17 WT:value:2009",
+            "label": "2009",
+            "startYear": 2009,
+            "endYear": 2009,
+            "low": 5500,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      {
+        "id": "boat:Tracker | Targa V-17 WT:gen:2010",
+        "label": "2010 1,401-lb Targa V-17 WT",
+        "startYear": 2010,
+        "endYear": 2010,
+        "status": "published-exact",
+        "specificationBasis": "Year-specific specification record publishes the 1,401-lb 2010 boat.",
+        "sourceUrl": "https://www.boats.za.net/tracker/targa-v-17-wt/tracker-targa-v-17-wt-2010",
+        "specs": {
+          "Length": {
+            "value": "17'2\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "101\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,401 lb",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "135",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "29 gal",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Targa V-17 WT:value:2010",
+            "label": "2010",
+            "startYear": 2010,
+            "endYear": 2010,
+            "low": 6000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "idealMatch": true
   },
   {
     "id": "boat:Tracker | Pro Guide V-17 WT",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Tracker",
-    "model": "Pro Guide V-17 WT",
-    "displayName": "Tracker | Pro Guide V-17 WT",
-    "subtitle": "2007 exact cited specification; other advertised years unresolved",
+    "model": "*Pro Guide V-17 WT",
+    "displayName": "*Tracker | Pro Guide V-17 WT",
+    "subtitle": "2006\u20132008; two documented weight rows",
     "badge": "Primary",
     "lowPrice": 5000,
-    "highPrice": 9000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 9500,
+    "priceBasis": "Generation-contained complete-package screening estimates. Package condition in the app narrows the selected range.",
     "sourceUrl": "https://www.boats.za.net/tracker/pro-guide-v-17-wt/tracker-pro-guide-v-17-wt-2007",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007 exact cited specification; other advertised years unresolved"
+        "value": "2006\u20132008; two documented weight rows"
       },
       {
         "label": "Recommendation",
@@ -46145,71 +47025,71 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull"
       },
       {
         "label": "Availability Under $14k",
@@ -46217,11 +47097,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: useful 17'4\" walk-through dimensions, 30-gallon fuel and 135-hp capacity without the 101-inch width of the later Targa V-17. Favor 90–115 hp, inspect the floor/transom and calculate the complete tow package."
+        "value": "Primary: full windshield, useful 92-inch beam, appropriate horsepower and realistic budget overlap. Inspect the floor, transom, welds/seams and trailer rather than paying a premium merely for clean upholstery."
       },
       {
         "label": "Notes",
-        "value": "Confirmed missing 2006–2008 Pro Guide V-17 WT generation. It is distinct from the Targa V-17 and the much later Pro Guide V-175. The 92-inch beam, 23-inch interior depth, 1,325-pound 2007 hull and 135-hp rating make it a strong used-market fit."
+        "value": "The 2006 published weight is 1,450 lb, while the 2007\u20132008 tables list 1,325 lb. The name is the same but the year cannot be ignored when estimating package weight and value."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -46233,114 +47113,145 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "UNKNOWN / LIKELY CARPETED — Treat floor condition as a major purchase item."
+        "value": "UNKNOWN / LIKELY CARPETED \u2014 Treat floor condition as a major purchase item."
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Tracker annual model records, factory previous-model pages and year-specific specification sources reconciled; no unresolved generation rows remain for this app record."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Tracker | Pro Guide V-17 WT:gen:2007",
-        "label": "2007 cited specification snapshot",
-        "startYear": 2007,
-        "endYear": 2007,
-        "status": "cited-snapshot",
-        "specificationBasis": "2007 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.boats.za.net/tracker/pro-guide-v-17-wt/tracker-pro-guide-v-17-wt-2007",
+        "id": "boat:Tracker | Pro Guide V-17 WT:gen:2006",
+        "label": "2006 1,450-lb Pro Guide V-17 WT",
+        "startYear": 2006,
+        "endYear": 2006,
+        "status": "published-specification-variation",
+        "specificationBasis": "Year-specific 2006 records publish the heavier 1,450-lb variation.",
+        "sourceUrl": "https://www.boatingworld.com/boats/tracker-marine-boats/2006-tracker-marine-pro-guide-v17-wt",
         "specs": {
           "Length": {
             "value": "17'4\"",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Beam": {
             "value": "92\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "74\" bottom/transom width published",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Dry Hull Weight": {
-            "value": "1,325 lb; 2006 record lists 1,450 lb",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "23\" interior depth",
-            "confidence": "cited-source-exact"
-          },
-          "Deadrise": {
-            "value": "Modified-V; angle not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "21\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "74\" bottom/transom width",
-            "confidence": "cited-source-exact"
+            "value": "1,450 lb",
+            "confidence": "source-supported"
           },
           "Max HP": {
             "value": "135",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Persons": {
             "value": "5",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Capacity Weight": {
             "value": "1,450 lb",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Fuel Capacity": {
             "value": "30 gal",
-            "confidence": "cited-source-exact"
+            "confidence": "source-supported"
           },
           "Bottom Thickness": {
-            "value": "0.090\"",
-            "confidence": "cited-source-exact"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": ".090\"",
+            "confidence": "source-supported"
           },
           "Construction": {
-            "value": "Aluminum modified-V/deep-V fishing hull; verify exact year and structural condition",
-            "confidence": "cited-source-exact"
+            "value": "Aluminum modified/deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
           }
         },
         "eras": [
           {
-            "id": "boat:Tracker | Pro Guide V-17 WT:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
+            "id": "boat:Tracker | Pro Guide V-17 WT:value:2006",
+            "label": "2006",
+            "startYear": 2006,
+            "endYear": 2006,
             "low": 5000,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "high": 8500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
         ]
       },
       {
-        "id": "boat:Tracker | Pro Guide V-17 WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2006–2008; 2007 specification basis",
-        "sourceUrl": "https://www.boats.za.net/tracker/pro-guide-v-17-wt/tracker-pro-guide-v-17-wt-2007",
-        "specs": {},
-        "eras": []
+        "id": "boat:Tracker | Pro Guide V-17 WT:gen:2007-2008",
+        "label": "2007\u20132008 1,325-lb Pro Guide V-17 WT",
+        "startYear": 2007,
+        "endYear": 2008,
+        "status": "published-specification-continuity",
+        "specificationBasis": "2007 and 2008 model-specific records publish the 1,325-lb boat with the same core dimensions and certification.",
+        "sourceUrl": "https://www.boats.za.net/tracker/pro-guide-v-17-wt",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "source-supported"
+          },
+          "Chine / Bottom Width": {
+            "value": "74\"",
+            "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,325 lb",
+            "confidence": "source-supported"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "23\"",
+            "confidence": "source-supported"
+          },
+          "Transom Height": {
+            "value": "21\"",
+            "confidence": "source-supported"
+          },
+          "Max HP": {
+            "value": "135",
+            "confidence": "source-supported"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "source-supported"
+          },
+          "Capacity Weight": {
+            "value": "1,450 lb",
+            "confidence": "source-supported"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "source-supported"
+          },
+          "Bottom Thickness": {
+            "value": ".090\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Aluminum modified/deep-V; factory walk-through windshield",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Pro Guide V-17 WT:value:2007-2008",
+            "label": "2007\u20132008",
+            "startYear": 2007,
+            "endYear": 2008,
+            "low": 5500,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "idealMatch": true
   },
   {
     "id": "boat:Crestliner | Super Hawk 1600 WT",
@@ -46349,7 +47260,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Crestliner",
     "model": "Super Hawk 1600 WT",
     "displayName": "Crestliner | Super Hawk 1600 WT",
-    "subtitle": "2000–2012 documented production; 2009–2012 later generation preserved",
+    "subtitle": "2000\u20132012 documented production; 2009\u20132012 later generation preserved",
     "badge": "Secondary",
     "lowPrice": 2500,
     "highPrice": 7500,
@@ -46359,7 +47270,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000–2012 documented production; 2009–2012 later generation preserved"
+        "value": "2000\u20132012 documented production; 2009\u20132012 later generation preserved"
       },
       {
         "label": "Recommendation",
@@ -46415,7 +47326,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75\u201390"
       },
       {
         "label": "Persons",
@@ -46463,7 +47374,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — A factory vinyl-floor option existed, but many used examples are fully carpeted."
+        "value": "POSSIBLE \u2014 A factory vinyl-floor option existed, but many used examples are fully carpeted."
       },
       {
         "label": "Research Status",
@@ -46474,7 +47385,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Crestliner | Super Hawk 1600 WT:gen:2000-2008",
-        "label": "2000–2008 early Super Hawk 1600 line; detailed tables source-exhausted",
+        "label": "2000\u20132008 early Super Hawk 1600 line; detailed tables source-exhausted",
         "startYear": 2000,
         "endYear": 2008,
         "status": "model-identity-source-exhausted",
@@ -46500,11 +47411,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Crestliner | Super Hawk 1600 WT:gen:2009-2012",
-        "label": "2009–2012 later factory-supported generation",
+        "label": "2009\u20132012 later factory-supported generation",
         "startYear": 2009,
         "endYear": 2012,
         "status": "factory-supported-generation",
-        "specificationBasis": "The 2009 exact-year specification and 2010–2012 annual records support the 16-foot-3-inch, approximately 1,000-lb generation.",
+        "specificationBasis": "The 2009 exact-year specification and 2010\u20132012 annual records support the 16-foot-3-inch, approximately 1,000-lb generation.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
         "specs": {
           "Length": {
@@ -46532,7 +47443,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "secondary-verified"
           },
           "Deadrise": {
-            "value": "12°",
+            "value": "12\u00b0",
             "confidence": "secondary-verified"
           },
           "Transom Height": {
@@ -46598,7 +47509,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Starcraft",
     "model": "Fishmaster 176 DC",
     "displayName": "Starcraft | Fishmaster 176 DC",
-    "subtitle": "1999–2006 production closed; 1999–2005 specifications exhausted",
+    "subtitle": "1999\u20132006 production closed; 1999\u20132005 specifications exhausted",
     "badge": "Primary",
     "lowPrice": 3000,
     "highPrice": 8500,
@@ -46608,7 +47519,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1999–2006; 2006 exact snapshot, earlier span source-exhausted"
+        "value": "1999\u20132006; 2006 exact snapshot, earlier span source-exhausted"
       },
       {
         "label": "Recommendation",
@@ -46664,7 +47575,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -46696,7 +47607,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: genuine 17'8\" full-windshield big-water geometry, useful beam and fuel capacity, and a manageable documented package weight. Favor 90–115 hp for this search and inspect the original plywood floor, transom, rivets and foam carefully."
+        "value": "Primary: genuine 17'8\" full-windshield big-water geometry, useful beam and fuel capacity, and a manageable documented package weight. Favor 90\u2013115 hp for this search and inspect the original plywood floor, transom, rivets and foam carefully."
       },
       {
         "label": "Notes",
@@ -46712,7 +47623,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Assume an aging carpeted plywood interior unless the individual boat documents a quality rebuild."
+        "value": "POOR \u2014 Assume an aging carpeted plywood interior unless the individual boat documents a quality rebuild."
       },
       {
         "label": "Research Status",
@@ -46723,11 +47634,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005",
-        "label": "1999–2005 production identity — exact annual tables source exhausted",
+        "label": "1999\u20132005 production identity \u2014 exact annual tables source exhausted",
         "startYear": 1999,
         "endYear": 2005,
         "status": "source-exhausted-partial",
-        "specificationBasis": "Fitment and annual model records establish the Fishmaster 176 DC through 1999–2005, but the surviving archive did not support applying the complete 2006 table backward.",
+        "specificationBasis": "Fitment and annual model records establish the Fishmaster 176 DC through 1999\u20132005, but the surviving archive did not support applying the complete 2006 table backward.",
         "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
         "specs": {
           "Layout": {
@@ -46741,8 +47652,8 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005:value:1999–2005",
-            "label": "1999–2005",
+            "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005:value:1999\u20132005",
+            "label": "1999\u20132005",
             "startYear": 1999,
             "endYear": 2005,
             "low": 3000,
@@ -46785,7 +47696,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "17°",
+            "value": "17\u00b0",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
@@ -46913,7 +47824,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "50–75"
+        "value": "50\u201375"
       },
       {
         "label": "Persons",
@@ -46961,7 +47872,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POSSIBLE — Some later boats have a washable nonskid main deck, but carpet and plywood remain elsewhere."
+        "value": "POSSIBLE \u2014 Some later boats have a washable nonskid main deck, but carpet and plywood remain elsewhere."
       },
       {
         "label": "Research Status",
@@ -47137,7 +48048,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Sylvan | Explorer 1600 DC:gen:2011-2012",
-        "label": "2011–2012 factory generation",
+        "label": "2011\u20132012 factory generation",
         "startYear": 2011,
         "endYear": 2012,
         "status": "factory-documented-generation",
@@ -47201,7 +48112,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "19°",
+            "value": "19\u00b0",
             "confidence": "factory-exact"
           }
         },
@@ -47297,7 +48208,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -47329,7 +48240,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: genuine 17'10\" full-windshield dimensions, useful beam, depth and fuel capacity, with manageable hull weight. Favor 90–115 hp and inspect the original plywood floor, transom, rivets, foam and fuel system carefully."
+        "value": "Primary: genuine 17'10\" full-windshield dimensions, useful beam, depth and fuel capacity, with manageable hull weight. Favor 90\u2013115 hp and inspect the original plywood floor, transom, rivets, foam and fuel system carefully."
       },
       {
         "label": "Notes",
@@ -47341,11 +48252,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "Period family evidence; exact 2003–2005 flooring package requires the individual boat or brochure."
+        "value": "Period family evidence; exact 2003\u20132005 flooring package requires the individual boat or brochure."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR TO POSSIBLE — Assume substantial carpet and aging plywood unless the exact boat documents a quality rebuild."
+        "value": "POOR TO POSSIBLE \u2014 Assume substantial carpet and aging plywood unless the exact boat documents a quality rebuild."
       },
       {
         "label": "Research Status",
@@ -47521,7 +48432,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "60–90"
+        "value": "60\u201390"
       },
       {
         "label": "Persons",
@@ -47569,7 +48480,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpeted plywood interior; age and moisture history are central purchase issues."
+        "value": "POOR \u2014 Carpeted plywood interior; age and moisture history are central purchase issues."
       },
       {
         "label": "Research Status",
@@ -47666,11 +48577,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lowe | FM Pro 165 WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2019,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2012–2019 verified; 2014 factory-catalog basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2012\u20132019 verified; 2014 factory-catalog basis",
         "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2014-fishboats.pdf",
         "specs": {},
         "eras": []
@@ -47751,7 +48662,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -47783,7 +48694,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: excellent 17'5\" full-windshield geometry, unusually broad bottom and useful hull mass. Favor 90–115 hp for the Maverick, calculate the complete loaded package, and inspect the plywood floor/transom structure carefully."
+        "value": "Primary: excellent 17'5\" full-windshield geometry, unusually broad bottom and useful hull mass. Favor 90\u2013115 hp for the Maverick, calculate the complete loaded package, and inspect the plywood floor/transom structure carefully."
       },
       {
         "label": "Notes",
@@ -47799,7 +48710,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpeted plywood interior; age and moisture history are central purchase issues."
+        "value": "POOR \u2014 Carpeted plywood interior; age and moisture history are central purchase issues."
       },
       {
         "label": "Research Status",
@@ -47896,11 +48807,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Lowe | FM Pro 175 WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
+        "label": "Other advertised years \u2014 specifications and pricing unresolved",
         "startYear": 2010,
         "endYear": 2019,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2012–2019 verified; 2014 factory-catalog basis",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2012\u20132019 verified; 2014 factory-catalog basis",
         "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2014-fishboats.pdf",
         "specs": {},
         "eras": []
@@ -47915,7 +48826,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "*Sport 167 / Sport 164",
     "displayName": "*Princecraft | Sport 167 / Sport 164",
-    "subtitle": "2014–2016 Sport 167; 2017–2021 Sport 164 continuation",
+    "subtitle": "2014\u20132016 Sport 167; 2017\u20132021 Sport 164 continuation",
     "badge": "Primary",
     "lowPrice": 7000,
     "highPrice": 17000,
@@ -47925,7 +48836,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2016 Sport 167; 2017–2021 Sport 164 continuation"
+        "value": "2014\u20132016 Sport 167; 2017\u20132021 Sport 164 continuation"
       },
       {
         "label": "Recommendation",
@@ -47981,7 +48892,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–115"
+        "value": "75\u2013115"
       },
       {
         "label": "Persons",
@@ -48013,7 +48924,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary compact exception: genuine 90-inch-wide full-windshield hull, useful 13-degree bottom, 115-hp ceiling and manageable weight. It still gives up length and rough-water reserve to the 17½-foot Primary boats, so favor protected nearshore weather."
+        "value": "Primary compact exception: genuine 90-inch-wide full-windshield hull, useful 13-degree bottom, 115-hp ceiling and manageable weight. It still gives up length and rough-water reserve to the 17\u00bd-foot Primary boats, so favor protected nearshore weather."
       },
       {
         "label": "Notes",
@@ -48029,7 +48940,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST / GOOD — Vinyl main floor is standard; avoid optional carpet-floor packages."
+        "value": "BEST / GOOD \u2014 Vinyl main floor is standard; avoid optional carpet-floor packages."
       },
       {
         "label": "Research Status",
@@ -48040,7 +48951,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Princecraft | Sport 167 / Sport 164:gen:2014-2016-sport167",
-        "label": "2014–2016 Sport 167",
+        "label": "2014\u20132016 Sport 167",
         "startYear": 2014,
         "endYear": 2016,
         "status": "factory-documented-continuity",
@@ -48068,7 +48979,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "13°",
+            "value": "13\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -48107,7 +49018,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Sport 167 / Sport 164:value:2014-2016",
-            "label": "2014–2016",
+            "label": "2014\u20132016",
             "startYear": 2014,
             "endYear": 2016,
             "low": 7000,
@@ -48118,7 +49029,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "id": "boat:Princecraft | Sport 167 / Sport 164:gen:2017-2021-sport164",
-        "label": "2017–2021 Sport 164",
+        "label": "2017\u20132021 Sport 164",
         "startYear": 2017,
         "endYear": 2021,
         "status": "factory-documented-continuity",
@@ -48146,7 +49057,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "13°",
+            "value": "13\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -48185,7 +49096,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Sport 167 / Sport 164:value:2017-2019",
-            "label": "2017–2019",
+            "label": "2017\u20132019",
             "startYear": 2017,
             "endYear": 2019,
             "low": 8000,
@@ -48194,7 +49105,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Princecraft | Sport 167 / Sport 164:value:2020-2021",
-            "label": "2020–2021",
+            "label": "2020\u20132021",
             "startYear": 2020,
             "endYear": 2021,
             "low": 11000,
@@ -48214,7 +49125,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Princecraft",
     "model": "*Xpedition 170 WS",
     "displayName": "*Princecraft | Xpedition 170 WS",
-    "subtitle": "2014–2016 exact Xpedition 170 WS generation",
+    "subtitle": "2014\u20132016 exact Xpedition 170 WS generation",
     "badge": "Primary",
     "lowPrice": 8000,
     "highPrice": 13000,
@@ -48224,7 +49135,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014–2016 exact Xpedition 170 WS generation"
+        "value": "2014\u20132016 exact Xpedition 170 WS generation"
       },
       {
         "label": "Recommendation",
@@ -48280,7 +49191,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90\u2013115"
       },
       {
         "label": "Persons",
@@ -48312,11 +49223,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary compact option: full windshield, 91-inch beam, broad 78-inch chine, 13-degree hull and 115-hp capacity are a good match. It remains just under 17 feet with a 20-inch transom, so do not give it the rough-water rating of the larger 17½-foot Primary boats."
+        "value": "Primary compact option: full windshield, 91-inch beam, broad 78-inch chine, 13-degree hull and 115-hp capacity are a good match. It remains just under 17 feet with a 20-inch transom, so do not give it the rough-water rating of the larger 17\u00bd-foot Primary boats."
       },
       {
         "label": "Notes",
-        "value": "The exact WS model is documented for 2014–2016. Later Xpedition 170 records do not preserve the same WS model identity and are not inherited."
+        "value": "The exact WS model is documented for 2014\u20132016. Later Xpedition 170 records do not preserve the same WS model identity and are not inherited."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -48324,11 +49235,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "Official 2014–2016 Xpedition 170 WS factory pages."
+        "value": "Official 2014\u20132016 Xpedition 170 WS factory pages."
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "BEST — Washable vinyl main floor and surfaces with minimal fixed carpet."
+        "value": "BEST \u2014 Washable vinyl main floor and surfaces with minimal fixed carpet."
       },
       {
         "label": "Research Status",
@@ -48339,7 +49250,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Princecraft | Xpedition 170 WS:gen:2014-2016",
-        "label": "2014–2016 Xpedition 170 WS",
+        "label": "2014\u20132016 Xpedition 170 WS",
         "startYear": 2014,
         "endYear": 2016,
         "status": "factory-documented-continuity",
@@ -48367,7 +49278,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "factory-exact"
           },
           "Deadrise": {
-            "value": "13°",
+            "value": "13\u00b0",
             "confidence": "factory-exact"
           },
           "Transom Height": {
@@ -48406,7 +49317,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Princecraft | Xpedition 170 WS:value:2014-2016",
-            "label": "2014–2016",
+            "label": "2014\u20132016",
             "startYear": 2014,
             "endYear": 2016,
             "low": 8000,
@@ -48426,7 +49337,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "1600 Pro Sport",
     "displayName": "Lund | 1600 Pro Sport",
-    "subtitle": "1997–2000 documented 910-pound Pro Sport platform",
+    "subtitle": "1997\u20132000 documented 910-pound Pro Sport platform",
     "badge": "Secondary",
     "lowPrice": 2500,
     "highPrice": 6000,
@@ -48436,7 +49347,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997–2000 documented 910-pound Pro Sport platform"
+        "value": "1997\u20132000 documented 910-pound Pro Sport platform"
       },
       {
         "label": "Recommendation",
@@ -48492,7 +49403,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "60–90"
+        "value": "60\u201390"
       },
       {
         "label": "Persons",
@@ -48540,7 +49451,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Extensive fixed carpet in this generation; floor and transom inspection are central."
+        "value": "POOR \u2014 Extensive fixed carpet in this generation; floor and transom inspection are central."
       },
       {
         "label": "Research Status",
@@ -48551,7 +49462,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | 1600 Pro Sport:gen:1997-2000",
-        "label": "1997–2000 1600 Pro Sport platform",
+        "label": "1997\u20132000 1600 Pro Sport platform",
         "startYear": 1997,
         "endYear": 2000,
         "status": "factory-generation",
@@ -48626,7 +49537,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | 1600 Pro Sport:value:1997-1998",
-            "label": "1997–1998",
+            "label": "1997\u20131998",
             "startYear": 1997,
             "endYear": 1998,
             "low": 2500,
@@ -48635,7 +49546,7 @@ window.BOATBUILDER_BOATS = [
           },
           {
             "id": "boat:Lund | 1600 Pro Sport:value:1999-2000",
-            "label": "1999–2000",
+            "label": "1999\u20132000",
             "startYear": 1999,
             "endYear": 2000,
             "low": 3200,
@@ -48655,7 +49566,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "1600 Angler",
     "displayName": "Lund | 1600 Angler",
-    "subtitle": "1997–1998 1600 Angler identity before later 1650/1700 naming",
+    "subtitle": "1997\u20131998 1600 Angler identity before later 1650/1700 naming",
     "badge": "Secondary",
     "lowPrice": 2200,
     "highPrice": 4800,
@@ -48665,7 +49576,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997–1998 1600 Angler identity before later 1650/1700 naming"
+        "value": "1997\u20131998 1600 Angler identity before later 1650/1700 naming"
       },
       {
         "label": "Recommendation",
@@ -48721,7 +49632,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "40–50 tiller; 50–75 SS"
+        "value": "40\u201350 tiller; 50\u201375 SS"
       },
       {
         "label": "Persons",
@@ -48757,7 +49668,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 1997 catalog’s SS is a side-console windshield, not a factory walk-through windshield. This model is retained for identification, not recommendation."
+        "value": "The 1997 catalog\u2019s SS is a side-console windshield, not a factory walk-through windshield. This model is retained for identification, not recommendation."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -48769,7 +49680,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Extensive fixed carpet in this generation; soft spots and hidden moisture are central inspection items."
+        "value": "POOR \u2014 Extensive fixed carpet in this generation; soft spots and hidden moisture are central inspection items."
       },
       {
         "label": "Research Status",
@@ -48780,7 +49691,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | 1600 Angler:gen:1997-1998",
-        "label": "1997–1998 1600 Angler / Angler SS platform",
+        "label": "1997\u20131998 1600 Angler / Angler SS platform",
         "startYear": 1997,
         "endYear": 1998,
         "status": "factory-generation",
@@ -48855,7 +49766,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | 1600 Angler:value:1997-1998",
-            "label": "1997–1998",
+            "label": "1997\u20131998",
             "startYear": 1997,
             "endYear": 1998,
             "low": 2200,
@@ -48875,7 +49786,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "1600 Explorer",
     "displayName": "Lund | 1600 Explorer",
-    "subtitle": "1997–1998 1600 Explorer identity before the 1650 redesign/name change",
+    "subtitle": "1997\u20131998 1600 Explorer identity before the 1650 redesign/name change",
     "badge": "Secondary",
     "lowPrice": 2000,
     "highPrice": 4500,
@@ -48885,7 +49796,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997–1998 1600 Explorer identity before the 1650 redesign/name change"
+        "value": "1997\u20131998 1600 Explorer identity before the 1650 redesign/name change"
       },
       {
         "label": "Recommendation",
@@ -48941,7 +49852,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "35–45 tiller; 45–60 SS"
+        "value": "35\u201345 tiller; 45\u201360 SS"
       },
       {
         "label": "Persons",
@@ -48949,7 +49860,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Capacity Weight",
-        "value": "1,115–1,120 lb by configuration"
+        "value": "1,115\u20131,120 lb by configuration"
       },
       {
         "label": "Fuel Capacity",
@@ -48977,7 +49888,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Light and narrow. It is not the later wide Explorer Sport 1725 and should not inherit that boat’s Superior suitability or pricing."
+        "value": "Light and narrow. It is not the later wide Explorer Sport 1725 and should not inherit that boat\u2019s Superior suitability or pricing."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -48989,7 +49900,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Extensive fixed carpet in this generation; soft spots and hidden moisture are central inspection items."
+        "value": "POOR \u2014 Extensive fixed carpet in this generation; soft spots and hidden moisture are central inspection items."
       },
       {
         "label": "Research Status",
@@ -49000,7 +49911,7 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Lund | 1600 Explorer:gen:1997-1998",
-        "label": "1997–1998 1600 Explorer / Explorer SS platform",
+        "label": "1997\u20131998 1600 Explorer / Explorer SS platform",
         "startYear": 1997,
         "endYear": 1998,
         "status": "factory-generation",
@@ -49052,7 +49963,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Capacity Weight": {
-            "value": "1,115–1,120 lb by configuration",
+            "value": "1,115\u20131,120 lb by configuration",
             "confidence": "catalog-representative"
           },
           "Fuel Capacity": {
@@ -49075,7 +49986,7 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Lund | 1600 Explorer:value:1997-1998",
-            "label": "1997–1998",
+            "label": "1997\u20131998",
             "startYear": 1997,
             "endYear": 1998,
             "low": 2000,
@@ -49095,7 +50006,7 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Northwood",
     "model": "170 Pro Tourney",
     "displayName": "Northwood | 170 Pro Tourney",
-    "subtitle": "1994–1997 verified; configuration fitment basis 1995–1997",
+    "subtitle": "1994\u20131997 verified; configuration fitment basis 1995\u20131997",
     "badge": "Secondary",
     "lowPrice": 2500,
     "highPrice": 5500,
@@ -49110,7 +50021,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1994–1997 verified; configuration fitment basis 1995–1997"
+        "value": "1994\u20131997 verified; configuration fitment basis 1995\u20131997"
       },
       {
         "label": "Recommendation",
@@ -49166,7 +50077,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "70–115 hp commonly observed; capacity plate controls"
+        "value": "70\u2013115 hp commonly observed; capacity plate controls"
       },
       {
         "label": "Persons",
@@ -49202,7 +50113,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Real Northwood factory model family. Sellers commonly use “170 Pro Tourney,” while surviving cover-fitment records distinguish 171 SC and 172 DC configurations. Keep one app row and list both configurations rather than duplicating the hull family."
+        "value": "Real Northwood factory model family. Sellers commonly use \u201c170 Pro Tourney,\u201d while surviving cover-fitment records distinguish 171 SC and 172 DC configurations. Keep one app row and list both configurations rather than duplicating the hull family."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -49214,7 +50125,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Washdown / Carpet Fit",
-        "value": "POOR — Carpeted fishing interior is typical in surviving examples; condition and prior deck repairs are critical."
+        "value": "POOR \u2014 Carpeted fishing interior is typical in surviving examples; condition and prior deck repairs are critical."
       },
       {
         "label": "Research Status",
@@ -49225,11 +50136,11 @@ window.BOATBUILDER_BOATS = [
     "designGenerations": [
       {
         "id": "boat:Northwood | 170 Pro Tourney:gen:unresolved",
-        "label": "Production years — specifications and pricing unresolved",
+        "label": "Production years \u2014 specifications and pricing unresolved",
         "startYear": 1990,
         "endYear": 1999,
         "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1994–1997 verified; configuration fitment basis 1995–1997",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1994\u20131997 verified; configuration fitment basis 1995\u20131997",
         "sourceUrl": "https://yachtsboatslist.com/other-makes/66414-northwood-170-pro-tourney-aluminum-boat-with-load-rite-trailer.html",
         "specs": {},
         "eras": []
