@@ -686,7 +686,39 @@ assert.ok(
 );
 
 const dualImpact = item("boat:MirroCraft | Dual Impact 176");
-assert.equal(dualImpact.designGenerations.length, 2, "Dual Impact generations are not stored with the boat data");
+assert.equal(dualImpact.designGenerations.length, 5, "Dual Impact lineage is missing a generation");
+assert.equal(
+  JSON.stringify(dualImpact.designGenerations.map(generation => [generation.startYear, generation.endYear])),
+  JSON.stringify([[1995, 2002], [2003, 2007], [2008, 2010], [2011, 2020], [2021, 2026]]),
+  "Dual Impact generation boundaries changed"
+);
+assert.equal(dualImpact.designGenerations[0].specs?.["Dry Hull Weight"]?.value, "985 lb", "2001-era F1745 weight is wrong");
+assert.equal(dualImpact.designGenerations[4].specs?.["Dry Hull Weight"]?.value, "1,550 lb", "Current F176 weight is wrong");
+const mirroCraftBoats = allBoats.filter(entry => entry.manufacturer === "MirroCraft");
+assert.equal(mirroCraftBoats.length, 7, "MirroCraft record count changed");
+assert.ok(mirroCraftBoats.every(entry => entry.designGenerations.every(generation => generation.status !== "unresolved")), "MirroCraft still has an unresolved generation");
+for (const entry of mirroCraftBoats) {
+  for (const generation of entry.designGenerations) {
+    if (generation.status === "family-umbrella-rejection") continue;
+    assert.ok(generation.eras.length >= 1, `${entry.id} ${generation.label} lacks a value era`);
+    for (const valueEra of generation.eras) {
+      assert.ok(valueEra.startYear >= generation.startYear && valueEra.endYear <= generation.endYear, `${valueEra.id} crosses its hull generation`);
+    }
+  }
+}
+const mirroCraftStars = mirroCraftBoats.filter(entry => entry.model.startsWith("*")).map(entry => entry.id).sort();
+assert.equal(JSON.stringify(mirroCraftStars), JSON.stringify([
+  "boat:MirroCraft | Aggressor Pro MX 1773 WT",
+  "boat:MirroCraft | Dual Impact 176",
+  "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168)"
+].sort()), "MirroCraft ideal-match stars changed");
+const holiday1628 = item("boat:MirroCraft | Holiday 1628");
+assert.equal(JSON.stringify(holiday1628.designGenerations.map(generation => [generation.startYear, generation.endYear])), JSON.stringify([[2002, 2010], [2011, 2026]]), "Holiday 1628 generations changed");
+const holiday1768 = item("boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168)");
+assert.equal(holiday1768.designGenerations[2].specs?.Beam?.value, "93\"", "F1738 beam is wrong");
+const trollerFamily = item("boat:MirroCraft | Troller (Secondary; not a verified full-windshield model)");
+assert.equal(trollerFamily.designGenerations[0].status, "family-umbrella-rejection", "Troller is not explicitly closed as a family rejection");
+assert.equal(trollerFamily.lowPrice, null, "Troller family rejection retained a blended price");
 assert.doesNotMatch(appSource, /const DD=|,DD=/, "Model-generation data remains embedded in the controller");
 assert.match(appSource, /i\.designGenerations/, "Controller does not read canonical design generations");
 assert.match(appSource, /i\.valueEras/, "Controller does not read canonical value eras");

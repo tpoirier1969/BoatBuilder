@@ -1,43 +1,28 @@
-BoatBuilder cumulative Princecraft + Tracker completion validation
+BoatBuilder MirroCraft completion validation
 Date: 2026-07-31
 
-Syntax
-- node --check app.js: PASS
-- node --check data/boats.js: PASS
-- node --check data/catalog.js: PASS
-- node --check data/equipment.js: PASS
-- node --check tests/qa.mjs: PASS
+PASS  node --check data/boats.js
+PASS  node --check tests/qa.mjs
+PASS  node tests/qa.mjs
 
-Production-compatible QA
-- tests/qa.mjs: PASS
-- Output: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
-- The exact replacement data/boats.js and tests/qa.mjs were exercised with the current app.js and repository-compatible unchanged files for index.html, styles.css, data/equipment.js and data/catalog.js.
+QA totals:
+- 351 catalog items
+- 170 boats
+- 181 equipment records
 
-Data integrity
-- Boat records before/after: 170 / 170
-- Stable boat ID set unchanged: PASS
-- Records changed relative to completed Princecraft base: exactly 8 Tracker records
-- Non-Tracker records changed: 0
-- Tracker records: 8
-- Tracker generation/evidence rows: 29
-- Tracker value eras: 34
-- Tracker unresolved rows: 0
-- Tracker physical/evidence rows with numeric package pricing: 29 of 29
-- Tracker compact ideal-match stars: exactly 5
-- Global generation IDs: 426, all unique
-- Tracker price eras outside parent generation years: 0
-- App-wide remaining literal unresolved rows: 42
-- Tundra 2006–2007 DC/WT parallel rows: intentional and separately weighted
+MirroCraft assertions:
+- 7 stable records
+- 16 closed generation/evidence rows: 15 physical generations and 1 family rejection
+- 0 unresolved generation rows
+- every physical generation has at least one value era
+- every value era remains within one hull generation
+- Troller family-level rejection remains unpriced
+- exact three-record ideal-match star set preserved
 
-Browser interaction validation
-- Headless Chromium with the exact current app/data scripts: PASS
-- Tracker manufacturer list shows 8 records and no Price pending or false generation-audit-pending labels.
-- Targa V-17 WT exposes one combined Year / hull selector with separate 2009 and 2010 choices.
-- Targa V-17 WT 2009, Good condition: $6,900–$8,300.
-- Project condition: Manual evaluation required and Add to estimate disabled.
-- Route rendering resets scroll position to the top.
+UI workflow is covered by repository assertions for:
+- one combined Year / hull selector
+- package-condition selector and guidance
+- no model-list Price pending text
+- route navigation scroll reset
 
-Evidence limitation
-- Source-exhausted rows contain only surviving model-identity facts.
-- Published conflicts, especially the 2003 Targa 17 horsepower figure, are exposed with a capacity-plate warning rather than silently resolved by guessing.
-- Price ranges are screening guidance, not formal appraisals.
+No runnable Chromium binary is present in this workspace, so a fresh live-browser execution was not possible in this environment. The same controller was not modified by this patch; its existing source-level regression checks passed.

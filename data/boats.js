@@ -20366,13 +20366,13 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "MirroCraft",
-    "model": "Aggressor Pro MX 1773 WT",
-    "displayName": "MirroCraft | Aggressor Pro MX 1773 WT",
-    "subtitle": "2000s\u20132010s; 1773 continuation checked 2021",
+    "model": "*Aggressor Pro MX 1773 WT",
+    "displayName": "*MirroCraft | Aggressor Pro MX 1773 WT",
+    "subtitle": "2016\u20132026 one verified 17'4\" / 1,500-lb hull; three market eras",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 14500,
+    "highPrice": 41000,
+    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_aggressor_promx_2.pdf",
     "image": {
       "url": "https://cdnmedia.endeavorsuite.com/images/catalogs/24192/products/detail/ceae0b04-f080-45c3-8222-73f8c2dfb10c.jpg",
@@ -20383,7 +20383,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000s\u20132010s; 1773 continuation checked 2021"
+        "value": "2016\u20132026 one verified 17'4\" / 1,500-lb hull; three market eras"
       },
       {
         "label": "Recommendation",
@@ -20491,37 +20491,114 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "No exact cited model-year snapshot could be established automatically; specifications and pricing are withheld pending research."
+        "value": "Closed. The F1773 first appears in the 2016 annual roster and retains the same principal factory dimensions through the 2026 catalog."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:MirroCraft | Aggressor Pro MX 1773 WT:gen:unresolved",
-        "label": "Production years \u2014 specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2021,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s\u20132010s; 1773 continuation checked 2021",
-        "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_aggressor_promx_2.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:MirroCraft | Aggressor Pro MX 1773 WT:gen:2016-2026",
+        "label": "2016\u20132026 F1773 WT \u2014 17'4\", 93\" beam, 1,500 lb",
+        "startYear": 2016,
+        "endYear": 2026,
+        "status": "factory-roster-closed",
+        "specificationBasis": "2016 J.D. Power annual roster establishes the F1773 introduction; 2021, 2024 and 2026 factory sheets retain the principal hull dimensions.",
+        "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2024_mirrocraft_catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "93\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,500 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "35\" bow depth",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,400 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "29 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted deep-V aluminum; factory walk-through windshield; vinyl cockpit floor",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Aggressor Pro MX 1773 WT:value:2016-2019",
+            "label": "2016\u20132019",
+            "startYear": 2016,
+            "endYear": 2019,
+            "low": 14500,
+            "high": 22000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Aggressor Pro MX 1773 WT:value:2020-2023",
+            "label": "2020\u20132023",
+            "startYear": 2020,
+            "endYear": 2023,
+            "low": 22000,
+            "high": 31000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Aggressor Pro MX 1773 WT:value:2024-2026",
+            "label": "2024\u20132026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 30000,
+            "high": 41000,
+            "basis": "Current-package anchor includes a 2026 115-hp/trailer offer at $37,500; condition and engine choice control the final position."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "One physical hull generation. Choose the listing-year market era; older 2016\u20132019 packages are the only plausible edge of the target budget."
   },
   {
     "id": "boat:MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "MirroCraft",
-    "model": "Aggressor Pro MX 1873 (Secondary; 1773 is Primary)",
-    "displayName": "MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary)",
-    "subtitle": "2010s\u20132020s",
+    "model": "Aggressor Pro MX 1873 WT (secondary)",
+    "displayName": "MirroCraft | Aggressor Pro MX 1873 WT (secondary)",
+    "subtitle": "2018\u20132026 one verified 18'8\" / 1,780-lb hull; generally above tow/budget target",
     "badge": "Secondary",
-    "lowPrice": 8500,
-    "highPrice": 17000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 21000,
+    "highPrice": 53000,
+    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_aggressor_promx_2.pdf",
     "image": {
       "url": "https://cdnmedia.endeavorsuite.com/images/catalogs/24192/products/detail/ceae0b04-f080-45c3-8222-73f8c2dfb10c.jpg",
@@ -20532,7 +20609,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2010s\u20132020s"
+        "value": "2018\u20132026 one verified 18'8\" / 1,780-lb hull; generally above tow/budget target"
       },
       {
         "label": "Recommendation",
@@ -20640,37 +20717,114 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "No exact cited model-year snapshot could be established automatically; specifications and pricing are withheld pending research."
+        "value": "Closed. F1873 is absent from the 2016\u20132017 rosters, appears for 2018, and retains its principal dimensions through 2026."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary):gen:unresolved",
-        "label": "Production years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s\u20132020s",
-        "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_aggressor_promx_2.pdf",
-        "specs": {},
-        "eras": []
+        "id": "boat:MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary):gen:2018-2026",
+        "label": "2018\u20132026 F1873 WT \u2014 18'8\", 96\" beam, 1,780 lb",
+        "startYear": 2018,
+        "endYear": 2026,
+        "status": "factory-roster-closed",
+        "specificationBasis": "2018 annual roster plus 2021\u20132026 factory sheets; no contrary principal-dimension change found.",
+        "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2024_mirrocraft_catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'8\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,780 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "36\" bow depth",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,200 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "29 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.125\"",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted deep-V aluminum; factory walk-through windshield; vinyl cockpit floor",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary):value:2018-2020",
+            "label": "2018\u20132020",
+            "startYear": 2018,
+            "endYear": 2020,
+            "low": 21000,
+            "high": 30000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary):value:2021-2023",
+            "label": "2021\u20132023",
+            "startYear": 2021,
+            "endYear": 2023,
+            "low": 29000,
+            "high": 40000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Aggressor Pro MX 1873 (Secondary; 1773 is Primary):value:2024-2026",
+            "label": "2024\u20132026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 39000,
+            "high": 53000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Capable big-water hull, but a 150\u2013200 hp complete package leaves limited margin under a 4,000-lb tow rating and normally exceeds the search budget."
   },
   {
     "id": "boat:MirroCraft | Dual Impact 176",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "MirroCraft",
-    "model": "Dual Impact 176",
-    "displayName": "MirroCraft | Dual Impact 176",
-    "subtitle": "2018 exact cited specification; other advertised years unresolved",
-    "badge": "Secondary",
-    "lowPrice": 6500,
-    "highPrice": 16000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "model": "*Dual Impact 17' family / 176",
+    "displayName": "*MirroCraft | Dual Impact 17' family / 176",
+    "subtitle": "1995\u20132026 lineage: F1745, F1744, F1746, F1766 and current F176",
+    "badge": "Primary",
+    "lowPrice": 3500,
+    "highPrice": 50000,
+    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://www.mirrocraft.com/dual-impact-fish--ski-series.html",
     "image": {
       "url": "https://www.powerboating.com/wp-content/uploads/2018/12/32-6-Mirrocraft-Holiday-1.jpg",
@@ -20681,11 +20835,11 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2018 exact cited specification; other advertised years unresolved"
+        "value": "1995\u20132026 lineage: F1745, F1744, F1746, F1766 and current F176"
       },
       {
         "label": "Recommendation",
-        "value": "Secondary"
+        "value": "Primary"
       },
       {
         "label": "Big-Water Suitability",
@@ -20789,19 +20943,205 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed. Annual rosters resolve five physical/certification generations; the 2001 F1745 is preserved as an older predecessor, not given modern F176 specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:MirroCraft | Dual Impact 176:gen:2018",
-        "label": "2018 cited specification snapshot",
-        "startYear": 2018,
-        "endYear": 2018,
-        "status": "cited-snapshot",
-        "specificationBasis": "2018 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.mirrocraft.com/dual-impact-fish--ski-series.html",
+        "id": "boat:MirroCraft | Dual Impact 176:gen:1995-2002-f1745",
+        "label": "1995\u20132002 F1745 Dual Impact \u2014 early 985-lb predecessor",
+        "startYear": 1995,
+        "endYear": 2002,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model rosters establish F1745 and 985-lb weight. Published beam entries conflict by year, so the beam is explicitly withheld pending the capacity plate rather than treated as a redesign.",
+        "sourceUrl": "https://www.jdpower.com/boats/2001/mirrocraft-northport-inc",
+        "specs": {
+          "Length": {
+            "value": "17 ft class",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "Published records conflict (80\u201390 in); verify plate",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "985 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; early Dual Impact walk-through family",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Dual Impact 176:value:1995-1998",
+            "label": "1995\u20131998",
+            "startYear": 1995,
+            "endYear": 1998,
+            "low": 3500,
+            "high": 6000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Dual Impact 176:value:1999-2002",
+            "label": "1999\u20132002",
+            "startYear": 1999,
+            "endYear": 2002,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Dual Impact 176:gen:2003-2007-f1744",
+        "label": "2003\u20132007 F1744 \u2014 1,140/1,115-lb certification era",
+        "startYear": 2003,
+        "endYear": 2007,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters identify the F1744; the published dry weight changes from 1,140 to 1,115 lb for 2006 without evidence of a wholesale hull redesign.",
+        "sourceUrl": "https://www.jdpower.com/boats/2003/mirrocraft-northport-inc",
+        "specs": {
+          "Length": {
+            "value": "17 ft class",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "84\u201385 in by annual roster",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,140 lb (2003\u20132005); 1,115 lb (2006\u20132007)",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; walk-through fish-and-ski",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Dual Impact 176:value:2003-2007",
+            "label": "2003\u20132007",
+            "startYear": 2003,
+            "endYear": 2007,
+            "low": 6000,
+            "high": 11500,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Dual Impact 176:gen:2008-2010-f1746",
+        "label": "2008\u20132010 F1746 \u2014 93\" beam / 1,450 lb",
+        "startYear": 2008,
+        "endYear": 2010,
+        "status": "annual-roster-closed",
+        "specificationBasis": "Annual roster specifications establish the wider F1746 before the F1766 model-number transition.",
+        "sourceUrl": "https://www.jdpower.com/boats/2008/mirrocraft-northport-inc",
+        "specs": {
+          "Length": {
+            "value": "17 ft class",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "93\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,450 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted deep-V aluminum; walk-through fish-and-ski",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Dual Impact 176:value:2008-2010",
+            "label": "2008\u20132010",
+            "startYear": 2008,
+            "endYear": 2010,
+            "low": 8500,
+            "high": 14000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Dual Impact 176:gen:2011-2020-f1766",
+        "label": "2011\u20132020 F1766 \u2014 93\" beam / 1,450 lb",
+        "startYear": 2011,
+        "endYear": 2020,
+        "status": "annual-roster-closed",
+        "specificationBasis": "Annual rosters establish the F1766 designation and stable published beam/weight through the pre-F176 era.",
+        "sourceUrl": "https://www.jdpower.com/boats/2019/mirrocraft-northport-inc",
+        "specs": {
+          "Length": {
+            "value": "17'3\" class",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "93\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,450 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted deep-V aluminum; walk-through fish-and-ski; vinyl cockpit available",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Dual Impact 176:value:2011-2015",
+            "label": "2011\u20132015",
+            "startYear": 2011,
+            "endYear": 2015,
+            "low": 11000,
+            "high": 18000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Dual Impact 176:value:2016-2020",
+            "label": "2016\u20132020",
+            "startYear": 2016,
+            "endYear": 2020,
+            "low": 16000,
+            "high": 26000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Dual Impact 176:gen:2021-2026-f176",
+        "label": "2021\u20132026 F176 \u2014 17'3\", 93\" beam, 1,550 lb",
+        "startYear": 2021,
+        "endYear": 2026,
+        "status": "factory-roster-closed",
+        "specificationBasis": "2021 factory sheet introduces the F176 designation and 1,550-lb published weight; 2024\u20132026 catalogs retain the principal dimensions.",
+        "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_dual_impact.pdf",
         "specs": {
           "Length": {
             "value": "17'3\"",
@@ -20811,110 +21151,83 @@ window.BOATBUILDER_BOATS = [
             "value": "93\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Dry Hull Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Max / Bow Depth": {
-            "value": "33.5\"",
+            "value": "1,550 lb",
             "confidence": "cited-source-exact"
           },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Max / Bow Depth": {
+            "value": "33.5\" bow depth",
+            "confidence": "cited-source-exact"
           },
           "Transom Height": {
             "value": "20\"",
             "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
             "value": "150",
             "confidence": "cited-source-exact"
           },
           "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "6",
+            "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,400 lb",
+            "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "29 gal",
+            "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
           },
           "Side / Freeboard Thickness": {
-            "value": "0.100\" on current series",
+            "value": "0.080\"",
             "confidence": "cited-source-exact"
           },
           "Construction": {
-            "value": "Riveted Deep-V",
+            "value": "Riveted deep-V aluminum; factory walk-through windshield; vinyl cockpit floor",
             "confidence": "cited-source-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:MirroCraft | Dual Impact 176:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6500,
-            "high": 10500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:MirroCraft | Dual Impact 176:value:2021-2023",
+            "label": "2021\u20132023",
+            "startYear": 2021,
+            "endYear": 2023,
+            "low": 26000,
+            "high": 38000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
           },
           {
-            "id": "boat:MirroCraft | Dual Impact 176:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 10000,
-            "high": 16000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:MirroCraft | Dual Impact 176:value:2024-2026",
+            "label": "2024\u20132026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 35000,
+            "high": 50000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
           }
         ]
-      },
-      {
-        "id": "boat:MirroCraft | Dual Impact 176:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Current specification basis; used-budget focus on earlier 2010s examples",
-        "sourceUrl": "https://www.mirrocraft.com/dual-impact-fish--ski-series.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Seller shorthand 'Dual Impact 176' can hide five materially different 17-foot boats. Match the model number and year before pricing."
   },
   {
     "id": "boat:MirroCraft | Holiday 1628",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "MirroCraft",
-    "model": "Holiday 1628",
-    "displayName": "MirroCraft | Holiday 1628",
-    "subtitle": "2018 exact cited specification; other advertised years unresolved",
+    "model": "Holiday 1628 (secondary \u2014 70\" beam)",
+    "displayName": "MirroCraft | Holiday 1628 (secondary \u2014 70\" beam)",
+    "subtitle": "2002\u20132026; early 510-lb and later 640-lb generations",
     "badge": "Secondary",
-    "lowPrice": 5000,
-    "highPrice": 13000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 3500,
+    "highPrice": 24000,
+    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
     "image": {
       "url": "https://www.powerboating.com/wp-content/uploads/2018/12/32-6-Mirrocraft-Holiday-1.jpg",
@@ -20925,7 +21238,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2018 exact cited specification; other advertised years unresolved"
+        "value": "2002\u20132026; early 510-lb and later 640-lb generations"
       },
       {
         "label": "Recommendation",
@@ -21033,18 +21346,69 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed. F1628 changes from the 2001 Troller XL identity to Holiday for 2002; the published hull weight changes for 2011."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:MirroCraft | Holiday 1628:gen:2018",
-        "label": "2018 cited specification snapshot",
-        "startYear": 2018,
-        "endYear": 2018,
-        "status": "cited-snapshot",
-        "specificationBasis": "2018 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:MirroCraft | Holiday 1628:gen:2002-2010",
+        "label": "2002\u20132010 F1628 Holiday \u2014 510 lb",
+        "startYear": 2002,
+        "endYear": 2010,
+        "status": "annual-roster-closed",
+        "specificationBasis": "2002 roster changes F1628 from Troller XL to Holiday; annual rosters retain the 510-lb listing through 2010.",
+        "sourceUrl": "https://www.jdpower.com/boats/2002/mirrocraft-northport-inc",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "70\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "510 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; walk-through Holiday layout",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Holiday 1628:value:2002-2005",
+            "label": "2002\u20132005",
+            "startYear": 2002,
+            "endYear": 2005,
+            "low": 3500,
+            "high": 6500,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Holiday 1628:value:2006-2010",
+            "label": "2006\u20132010",
+            "startYear": 2006,
+            "endYear": 2010,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Holiday 1628:gen:2011-2026",
+        "label": "2011\u20132026 F1628 Holiday \u2014 70\" beam / 640 lb",
+        "startYear": 2011,
+        "endYear": 2026,
+        "status": "factory-roster-closed",
+        "specificationBasis": "2011 annual roster establishes the 640-lb revision; 2021\u20132026 factory catalogs retain principal dimensions.",
         "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
         "specs": {
           "Length": {
@@ -21055,33 +21419,17 @@ window.BOATBUILDER_BOATS = [
             "value": "70\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Dry Hull Weight": {
             "value": "640 lb",
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "31\"",
+            "value": "31\" bow depth",
             "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
           },
           "Transom Height": {
             "value": "20\"",
             "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
             "value": "60",
@@ -21095,10 +21443,6 @@ window.BOATBUILDER_BOATS = [
             "value": "1,140 lb",
             "confidence": "cited-source-exact"
           },
-          "Fuel Capacity": {
-            "value": "Portable tank / not published",
-            "confidence": "catalog-representative"
-          },
           "Bottom Thickness": {
             "value": "0.080\"",
             "confidence": "cited-source-exact"
@@ -21108,57 +21452,55 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Construction": {
-            "value": "Riveted Deep-V",
+            "value": "Riveted aluminum; factory walk-through windshield; vinyl cockpit floor",
             "confidence": "cited-source-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:MirroCraft | Holiday 1628:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:MirroCraft | Holiday 1628:value:2011-2015",
+            "label": "2011\u20132015",
+            "startYear": 2011,
+            "endYear": 2015,
+            "low": 6000,
+            "high": 11000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
           },
           {
-            "id": "boat:MirroCraft | Holiday 1628:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 8000,
-            "high": 13000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:MirroCraft | Holiday 1628:value:2016-2020",
+            "label": "2016\u20132020",
+            "startYear": 2016,
+            "endYear": 2020,
+            "low": 8500,
+            "high": 15000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Holiday 1628:value:2021-2026",
+            "label": "2021\u20132026",
+            "startYear": 2021,
+            "endYear": 2026,
+            "low": 14000,
+            "high": 24000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
           }
         ]
-      },
-      {
-        "id": "boat:MirroCraft | Holiday 1628:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2021 factory catalog basis",
-        "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Full windshield and easy towing, but the 70-inch beam is too narrow to receive the ideal-match star for four-adult Lake Superior use."
   },
   {
     "id": "boat:MirroCraft | Holiday 168",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "MirroCraft",
-    "model": "Holiday 168",
-    "displayName": "MirroCraft | Holiday 168",
-    "subtitle": "2018 exact cited specification; other advertised years unresolved",
+    "model": "Holiday 168 (secondary)",
+    "displayName": "MirroCraft | Holiday 168 (secondary)",
+    "subtitle": "2019 introduction; 2020\u20132026 1,200-lb current hull",
     "badge": "Secondary",
-    "lowPrice": 5500,
-    "highPrice": 14000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 15000,
+    "highPrice": 32000,
+    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
     "image": {
       "url": "https://www.powerboating.com/wp-content/uploads/2018/12/32-6-Mirrocraft-Holiday-1.jpg",
@@ -21169,7 +21511,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2018 exact cited specification; other advertised years unresolved"
+        "value": "2019 introduction; 2020\u20132026 1,200-lb current hull"
       },
       {
         "label": "Recommendation",
@@ -21277,18 +21619,60 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed. F168 first appears for 2019 at 1,020 lb; the 1,200-lb specification is established by 2020/2021 and continues through 2026."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:MirroCraft | Holiday 168:gen:2018",
-        "label": "2018 cited specification snapshot",
-        "startYear": 2018,
-        "endYear": 2018,
-        "status": "cited-snapshot",
-        "specificationBasis": "2018 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:MirroCraft | Holiday 168:gen:2019",
+        "label": "2019 F168 introduction \u2014 85\" beam / 1,020 lb",
+        "startYear": 2019,
+        "endYear": 2019,
+        "status": "annual-roster-closed",
+        "specificationBasis": "2019 annual roster is the first located F168 entry and publishes the lighter 1,020-lb weight.",
+        "sourceUrl": "https://www.jdpower.com/boats/2019/mirrocraft-northport-inc",
+        "specs": {
+          "Length": {
+            "value": "16'9\" class",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,020 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted deep-V aluminum; factory walk-through windshield",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Holiday 168:value:2019",
+            "label": "2019",
+            "startYear": 2019,
+            "endYear": 2019,
+            "low": 15000,
+            "high": 21000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Holiday 168:gen:2020-2026",
+        "label": "2020\u20132026 F168 \u2014 16'9\", 85\" beam, 1,200 lb",
+        "startYear": 2020,
+        "endYear": 2026,
+        "status": "factory-roster-closed",
+        "specificationBasis": "The revised 1,200-lb specification is established by the 2020\u20132021 transition and remains in 2024\u20132026 factory catalogs.",
         "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
         "specs": {
           "Length": {
@@ -21299,33 +21683,17 @@ window.BOATBUILDER_BOATS = [
             "value": "85\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Dry Hull Weight": {
             "value": "1,200 lb",
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "34\"",
+            "value": "34\" bow depth",
             "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
           },
           "Transom Height": {
             "value": "20\"",
             "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
             "value": "90",
@@ -21352,57 +21720,46 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Construction": {
-            "value": "Riveted Deep-V",
+            "value": "Riveted deep-V aluminum; factory walk-through windshield; vinyl cockpit floor",
             "confidence": "cited-source-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:MirroCraft | Holiday 168:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:MirroCraft | Holiday 168:value:2020-2022",
+            "label": "2020\u20132022",
+            "startYear": 2020,
+            "endYear": 2022,
+            "low": 16000,
+            "high": 24000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
           },
           {
-            "id": "boat:MirroCraft | Holiday 168:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 9000,
-            "high": 14000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:MirroCraft | Holiday 168:value:2023-2026",
+            "label": "2023\u20132026",
+            "startYear": 2023,
+            "endYear": 2026,
+            "low": 22000,
+            "high": 32000,
+            "basis": "A current 2026 90-hp/trailer dealer package at $28,300 anchors the upper contemporary band."
           }
         ]
-      },
-      {
-        "id": "boat:MirroCraft | Holiday 168:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2021 factory catalog basis",
-        "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "A useful 85-inch-beam walk-through package, but surviving used examples generally sit above the target budget."
   },
   {
     "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "MirroCraft",
-    "model": "Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168)",
-    "displayName": "MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168)",
-    "subtitle": "2018 exact cited specification; other advertised years unresolved",
+    "model": "*Holiday 17' family / 1768",
+    "displayName": "*MirroCraft | Holiday 17' family / 1768",
+    "subtitle": "1998\u20132026 lineage: 1730, 1737, 1738 and F1768",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 9500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 4000,
+    "highPrice": 43000,
+    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
     "image": {
       "url": "https://www.powerboating.com/wp-content/uploads/2018/12/32-6-Mirrocraft-Holiday-1.jpg",
@@ -21413,7 +21770,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2018 exact cited specification; other advertised years unresolved"
+        "value": "1998\u20132026 lineage: 1730, 1737, 1738 and F1768"
       },
       {
         "label": "Recommendation",
@@ -21521,18 +21878,156 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed. Annual rosters resolve the four consecutive 17-foot Holiday identities instead of applying current F1768 specifications backward."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):gen:2018",
-        "label": "2018 cited specification snapshot",
-        "startYear": 2018,
-        "endYear": 2018,
-        "status": "cited-snapshot",
-        "specificationBasis": "2018 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):gen:1998-2002-1730",
+        "label": "1998\u20132002 1730/F1730 Holiday \u2014 90\" beam / 870 lb",
+        "startYear": 1998,
+        "endYear": 2002,
+        "status": "annual-roster-closed",
+        "specificationBasis": "1998\u20132002 annual rosters identify the 1730/F1730 Holiday and its published 870-lb weight.",
+        "sourceUrl": "https://www.jdpower.com/boats/1998/mirrocraft-northport-inc",
+        "specs": {
+          "Length": {
+            "value": "17 ft class",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "90\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "870 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; early Holiday walk-through layout",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:1998-2002",
+            "label": "1998\u20132002",
+            "startYear": 1998,
+            "endYear": 2002,
+            "low": 4000,
+            "high": 8000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):gen:2003-2007-f1737",
+        "label": "2003\u20132007 F1737 Holiday \u2014 86\" beam / 1,100 lb",
+        "startYear": 2003,
+        "endYear": 2007,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters establish the F1737 identity and 1,100-lb published weight; surviving secondary specifications supply the 86-inch beam and 125-hp rating.",
+        "sourceUrl": "https://www.jdpower.com/boats/2003/mirrocraft-northport-inc/f1737-holiday/10120017",
+        "specs": {
+          "Length": {
+            "value": "17 ft class",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "86\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,100 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; walk-through Holiday layout",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:2003-2007",
+            "label": "2003\u20132007",
+            "startYear": 2003,
+            "endYear": 2007,
+            "low": 6500,
+            "high": 12000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):gen:2008-2010-f1738",
+        "label": "2008\u20132010 F1738 Holiday \u2014 93\" beam / 1,500 lb",
+        "startYear": 2008,
+        "endYear": 2010,
+        "status": "annual-roster-closed",
+        "specificationBasis": "Annual specifications establish the wider/heavier F1738 predecessor.",
+        "sourceUrl": "https://www.jdpower.com/boats/2008/mirrocraft-northport-inc/f1738-holiday/10251933/specs",
+        "specs": {
+          "Length": {
+            "value": "17 ft class",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "93\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,500 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "140",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,475 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "Riveted deep-V aluminum; walk-through Holiday layout",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:2008-2010",
+            "label": "2008\u20132010",
+            "startYear": 2008,
+            "endYear": 2010,
+            "low": 9000,
+            "high": 15000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          }
+        ]
+      },
+      {
+        "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):gen:2011-2026-f1768",
+        "label": "2011\u20132026 F1768 Holiday \u2014 17'5\", 93\" beam, 1,450 lb",
+        "startYear": 2011,
+        "endYear": 2026,
+        "status": "factory-roster-closed",
+        "specificationBasis": "2011 annual roster introduces F1768 at 1,450 lb; 2021\u20132026 factory catalogs retain principal dimensions.",
         "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
         "specs": {
           "Length": {
@@ -21543,10 +22038,6 @@ window.BOATBUILDER_BOATS = [
             "value": "93\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
-          },
           "Dry Hull Weight": {
             "value": "1,450 lb",
             "confidence": "cited-source-exact"
@@ -21555,21 +22046,9 @@ window.BOATBUILDER_BOATS = [
             "value": "36.5\" bow depth",
             "confidence": "cited-source-exact"
           },
-          "Cockpit / Interior Depth": {
-            "value": "About 26\"",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Deep-V; angle not stated",
-            "confidence": "catalog-representative"
-          },
           "Transom Height": {
             "value": "20\"",
             "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "About 93\"",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
             "value": "150",
@@ -21584,8 +22063,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
-            "value": "About 24 gal",
-            "confidence": "catalog-representative"
+            "value": "29 gal",
+            "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
             "value": "0.100\"",
@@ -21596,57 +22075,64 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Construction": {
-            "value": "Riveted deep-V aluminum",
+            "value": "Riveted deep-V aluminum; factory walk-through windshield; vinyl cockpit floor",
             "confidence": "cited-source-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4500,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:2011-2015",
+            "label": "2011\u20132015",
+            "startYear": 2011,
+            "endYear": 2015,
+            "low": 11000,
+            "high": 18000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
           },
           {
-            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6000,
-            "high": 9500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:2016-2020",
+            "label": "2016\u20132020",
+            "startYear": 2016,
+            "endYear": 2020,
+            "low": 16000,
+            "high": 26000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:2021-2023",
+            "label": "2021\u20132023",
+            "startYear": 2021,
+            "endYear": 2023,
+            "low": 25000,
+            "high": 35000,
+            "basis": "Used complete-package screening range calibrated from period hull values and surviving market listings; adjust with the app's package-condition choice."
+          },
+          {
+            "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):value:2024-2026",
+            "label": "2024\u20132026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 33000,
+            "high": 43000,
+            "basis": "Current dealer anchors include a 2026 package near $35,800 and another at $40,749, depending on power and equipment."
           }
         ]
-      },
-      {
-        "id": "boat:MirroCraft | Holiday 1768 (Primary; not Starcraft Holiday or MirroCraft 1628/168):gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2021,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s\u20132021; budget focus pre-2016",
-        "sourceUrl": "https://www.mirrocraft.com/uploads/1/3/4/2/134214987/2021_mc_holiday.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Seller shorthand 'MirroCraft Holiday' spans substantially different 17-foot hulls. Confirm the year/model plate; 2008 and later 93-inch-beam boats are the strongest match."
   },
   {
     "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "MirroCraft",
-    "model": "Troller (Secondary; not a verified full-windshield model)",
-    "displayName": "MirroCraft | Troller (Secondary; not a verified full-windshield model)",
-    "subtitle": "1998 exact cited specification; other advertised years unresolved",
+    "model": "Troller family (identify exact model; no verified WT)",
+    "displayName": "MirroCraft | Troller family (identify exact model; no verified WT)",
+    "subtitle": "Family-level rejection row; many tiller/side-console sizes and years",
     "badge": "Secondary",
-    "lowPrice": 800,
-    "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": null,
+    "highPrice": null,
+    "priceBasis": "Family-identification row only; identify the exact MirroCraft model before pricing.",
     "sourceUrl": "https://www.jdpower.com/boats/1998/mirrocraft/1660-troller-ltd_/10145565/specs",
     "image": {
       "url": "https://cdnmedia.endeavorsuite.com/images/organizations/ccaf870b-8674-45db-bcb5-5cd7189b65ee/inventory/13747093/20251103_112436.jpg",
@@ -21657,7 +22143,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1998 exact cited specification; other advertised years unresolved"
+        "value": "Family-level rejection row; many tiller/side-console sizes and years"
       },
       {
         "label": "Recommendation",
@@ -21765,146 +22251,45 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed family-level rejection. Troller is not one physical model and the verified variants do not establish a factory walk-through windshield configuration."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):gen:1998",
-        "label": "1998 cited specification snapshot",
-        "startYear": 1998,
-        "endYear": 1998,
-        "status": "cited-snapshot",
-        "specificationBasis": "1998 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/1998/mirrocraft/1660-troller-ltd_/10145565/specs",
+        "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):gen:family-rejection",
+        "label": "Family-level rejection; exact Troller model required",
+        "startYear": null,
+        "endYear": null,
+        "status": "family-umbrella-rejection",
+        "specificationBasis": "Annual rosters and the current factory Troller series show multiple sizes and control layouts. This record is retained as a searchable warning, not as a physical generation.",
+        "sourceUrl": "https://www.mirrocraft.com/troller-series-fishing-models.html",
         "specs": {
           "Length": {
-            "value": "16'0\" (1998 1660)",
+            "value": "Varies by exact Troller model",
             "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "67\"",
+            "value": "Varies",
             "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited specs",
-            "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "460 lb",
+            "value": "Varies",
             "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not stated in cited specs",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not stated in cited specs",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not stated in cited specs",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "20\" typical",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not stated in cited specs",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "40\u201350 typical",
+            "value": "Varies",
             "confidence": "cited-source-exact"
-          },
-          "Persons": {
-            "value": "4\u20135 typical",
-            "confidence": "cited-source-exact"
-          },
-          "Capacity Weight": {
-            "value": "Not stated in cited specs",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "Portable / not stated",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "Not stated in cited specs",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not stated in cited specs",
-            "confidence": "catalog-representative"
           },
           "Construction": {
-            "value": "Riveted",
+            "value": "Riveted aluminum; tiller and side-console family",
             "confidence": "cited-source-exact"
           }
         },
-        "eras": [
-          {
-            "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
-            "endYear": 1989,
-            "low": 800,
-            "high": 1800,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 1200,
-            "high": 2700,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 2000,
-            "high": 4000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 3500,
-            "high": 6500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 6000,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          }
-        ]
-      },
-      {
-        "id": "boat:MirroCraft | Troller (Secondary; not a verified full-windshield model):gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 1980,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1980s\u2013present; 1660 verified 1998",
-        "sourceUrl": "https://www.jdpower.com/boats/1998/mirrocraft/1660-troller-ltd_/10145565/specs",
-        "specs": {},
         "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Do not price a listing from the word Troller alone. Obtain the exact model number, year, console layout, capacity plate, motor and trailer."
   },
   {
     "id": "boat:MonArk | Pro 1700 DC",
