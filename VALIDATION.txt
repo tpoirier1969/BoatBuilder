@@ -1,30 +1,28 @@
-BoatBuilder cumulative strict completion validation
-Date: 2026-07-30
+BoatBuilder pricing-selection workflow validation
+Date: 2026-07-31
 
 Syntax
+- node --check app.js: PASS
 - node --check data/boats.js: PASS
 - node --check tests/qa.mjs: PASS
 
-Production QA assertion suite
+Production-compatible QA
 - tests/qa.mjs: PASS
 - Output: BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
-- The exact replacement data/boats.js and tests/qa.mjs were exercised with repository-compatible unchanged-file fixtures for app.js, index.html, styles.css, data/equipment.js and data/catalog.js.
-- GitHub Actions will exercise the replacement files against the actual unchanged repository files after upload.
+- Replacement files were exercised with repository-compatible unchanged-file fixtures for index.html, styles.css, data/equipment.js and data/catalog.js.
+
+Browser interaction validation
+- Headless Chromium Osprey 172 workflow: PASS
+- Unselected Osprey model-list entry contains no price placeholder.
+- Detail navigation resets scroll position to 0.
+- One Year / hull selector replaces the two old selectors.
+- Choices include separate 2009-2012 and 2013-2016 value eras inside the 2009-2016 hull generation.
+- Default Good 2009-2012 estimate: $8,200-$9,500.
+- Excellent 2009-2012 estimate: $9,500-$10,500.
+- Project condition: Manual evaluation required; Add to estimate disabled.
 
 Data integrity
-- Boat records before/after: 170 / 170
-- Stable ID set unchanged: PASS
-- Records changed relative to the cumulative Smoker Craft/Crestliner base: exactly 17 Alumacraft records
-- Non-Alumacraft boat records changed in this step: 0
-- Alumacraft records: 17
-- Alumacraft generation/evidence rows: 52
-- Alumacraft unresolved rows: 0
-- Alumacraft physical/evidence rows with numeric used-package pricing: 51 of 51
-- Alumacraft family-level rejection rows intentionally unpriced: 1
-- Alumacraft generation IDs unique: PASS
-- Generation price eras outside parent years: 0
-- Compact Alumacraft ideal-match stars: exactly 7
-- App-wide remaining unresolved rows: 59
-
-Evidence limitation
-Source-exhausted rows contain only facts supported by surviving annual records. Exact dimensions, capacities or construction details from adjacent years are not copied into those rows. Current combined boat/motor/trailer marketing weights are not presented as dry hull weights.
+- Boat records: 170
+- Stable boat IDs unchanged: PASS
+- Changed boat records: exactly 2, Smoker Craft Osprey 162 and Osprey 172
+- Osprey value eras remain inside their parent 2009-2016 generation: PASS

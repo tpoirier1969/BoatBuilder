@@ -519,11 +519,27 @@ assert.match(appSource, /i\.designGenerations/, "Controller does not read canoni
 assert.match(appSource, /i\.valueEras/, "Controller does not read canonical value eras");
 assert.ok(!appSource.includes("eras(i).length>1"), "Price decades are still treated as redesign evidence");
 
-assert.ok(appSource.includes("currentEstimate.v5"), "Current estimate storage version is not v5");
+assert.ok(appSource.includes("currentEstimate.v6"), "Current estimate storage version is not v6");
 assert.ok(appSource.includes("function gens("), "Generation resolver is missing");
 assert.ok(appSource.includes("function missing("), "Required generation and era gate is missing");
 assert.ok(appSource.includes("function controls("), "Generation, era and trailer controls are missing");
 assert.doesNotMatch(appSource, /data-select=/, "Model-list estimate checkbox returned");
+assert.doesNotMatch(appSource, /Price pending/, "Misleading Price pending text remains in the controller");
+assert.match(appSource, /Year \/ hull/, "Combined year and hull selector is missing");
+assert.doesNotMatch(appSource, /<span>Hull generation<\/span>/, "Separate hull-generation selector remains");
+assert.doesNotMatch(appSource, /<span>Age \/ era<\/span>/, "Separate age-era selector remains");
+assert.match(appSource, /Package condition/, "Package-condition selector is missing");
+assert.match(appSource, /Excellent \/ turnkey/, "Excellent condition guidance is missing");
+assert.match(appSource, /Project \/ poor or unknown/, "Project/manual-evaluation condition is missing");
+assert.match(appSource, /window\.scrollTo\(0,0\)/, "Route rendering does not reset the page to the top");
+
+const osprey172Ui = item("boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s)");
+const osprey172Early = osprey172Ui.designGenerations.find(g => g.startYear === 2009 && g.endYear === 2016);
+assert.equal(JSON.stringify(osprey172Early.eras.map(e => [e.startYear,e.endYear])), JSON.stringify([[2009,2012],[2013,2016]]), "Osprey 172 early value era remains excessively broad");
+assert.equal(JSON.stringify(osprey172Early.eras.map(e => [e.low,e.high])), JSON.stringify([[7000,10500],[10000,15000]]), "Osprey 172 split pricing is wrong");
+const osprey162Ui = item("boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)");
+const osprey162Early = osprey162Ui.designGenerations.find(g => g.startYear === 2009 && g.endYear === 2016);
+assert.equal(JSON.stringify(osprey162Early.eras.map(e => [e.startYear,e.endYear])), JSON.stringify([[2009,2012],[2013,2016]]), "Osprey 162 early value era remains excessively broad");
 
 assert.match(
   htmlSource,

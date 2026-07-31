@@ -1,34 +1,31 @@
-BoatBuilder cumulative Smoker Craft + Crestliner + Alumacraft strict completion patch
-Date: 2026-07-30
+BoatBuilder pricing-selection workflow patch
+Date: 2026-07-31
 
 UPLOAD
 Copy the files and folders shown at the top level of this ZIP over the repository root.
-The ZIP is flat. It does not contain an outer wrapper folder.
+The ZIP is flat and has no wrapper directory.
 
 FULL REPLACEMENT FILES
+- app.js
 - data/boats.js
 - tests/qa.mjs
-- research/audits/smoker-craft-app-model-completion-2026-07-30.md
-- research/audits/crestliner-app-model-completion-2026-07-30.md
-- research/audits/alumacraft-app-model-completion-2026-07-30.md
-- research/catalog-generation-audit-status-2026-07-30.md
+- research/audits/pricing-selection-workflow-2026-07-31.md
 - CHANGE_MANIFEST.txt
 - VALIDATION.txt
 
-CUMULATIVE BASE
-The Smoker Craft/Crestliner completion ZIP had not yet appeared on GitHub main when this patch was built. Therefore data/boats.js and tests/qa.mjs include:
-- the completed Smoker Craft work
-- the completed Crestliner work
-- the new completed Alumacraft work
+INTERFACE CHANGES
+- Removes the misleading Price pending message from manufacturer model lists.
+- Replaces separate hull-generation and age-era selectors with one Year / hull selector.
+- Guarantees that each Year / hull option belongs to one physical generation.
+- Adds Excellent, Good, Fair and Project package-condition choices with visible examples.
+- Narrows numeric screening ranges by package condition; Project requires manual evaluation.
+- Resets the page to the top after every route change.
+- Migrates estimator storage from v5 to v6 while continuing to read older saved selections.
 
-ALUMACRAFT DATA CHANGES
-- Updated only the 17 existing Alumacraft records relative to the previous cumulative patch.
-- Replaced all 10 Alumacraft unresolved rows.
-- Closed 52 Alumacraft generation/evidence rows.
-- Added numeric complete-package ranges to all 51 physical/evidence rows.
-- Left the Magnum CS family rejection intentionally unpriced.
-- Preserved all 170 stable boat IDs.
-- Added compact ideal-match stars to seven visible Alumacraft model names.
-- Separated current X-platform Competitor and Trophy boats from the older same-numbered hulls.
+DATA CHANGES
+- Splits Smoker Craft Osprey 172 2009-2016 pricing into 2009-2012 and 2013-2016 eras.
+- Splits Smoker Craft Osprey 162 2009-2016 pricing into 2009-2012 and 2013-2016 eras.
+- No hull-generation boundaries, specifications or stable IDs changed.
+- Exactly two of 170 boat records changed.
 
 No GitHub repository writes were performed by ChatGPT.

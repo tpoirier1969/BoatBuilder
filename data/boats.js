@@ -27038,13 +27038,22 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2009-2016",
-            "label": "2009-2016",
+            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2009-2012",
+            "label": "2009-2012",
             "startYear": 2009,
-            "endYear": 2016,
+            "endYear": 2012,
             "low": 6000,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; package condition, motor, trailer, structure and equipment can move a specific boat outside this range."
+          },
+          {
+            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2013-2016",
+            "label": "2013-2016",
+            "startYear": 2013,
+            "endYear": 2016,
+            "low": 9000,
             "high": 14000,
-            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; package condition, motor, trailer, structure and equipment can move a specific boat outside this range."
           }
         ]
       },
@@ -27392,13 +27401,22 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):value:2009-2016",
-            "label": "2009-2016",
+            "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):value:2009-2012",
+            "label": "2009-2012",
             "startYear": 2009,
-            "endYear": 2016,
+            "endYear": 2012,
             "low": 7000,
+            "high": 10500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; package condition, motor, trailer, structure and equipment can move a specific boat outside this range."
+          },
+          {
+            "id": "boat:Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s):value:2013-2016",
+            "label": "2013-2016",
+            "startYear": 2013,
+            "endYear": 2016,
+            "low": 10000,
             "high": 15000,
-            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; package condition, motor, trailer, structure and equipment can move a specific boat outside this range."
           }
         ]
       },
