@@ -719,6 +719,29 @@ assert.equal(holiday1768.designGenerations[2].specs?.Beam?.value, "93\"", "F1738
 const trollerFamily = item("boat:MirroCraft | Troller (Secondary; not a verified full-windshield model)");
 assert.equal(trollerFamily.designGenerations[0].status, "family-umbrella-rejection", "Troller is not explicitly closed as a family rejection");
 assert.equal(trollerFamily.lowPrice, null, "Troller family rejection retained a blended price");
+
+// Strict Sea Nymph existing-model generation completion.
+const seaNymphBoats = allBoats.filter(entry => entry.manufacturer === "Sea Nymph");
+assert.equal(seaNymphBoats.length, 5, "Sea Nymph focused record count changed");
+assert.equal(seaNymphBoats.reduce((sum, entry) => sum + entry.designGenerations.length, 0), 24, "Sea Nymph generation/evidence-row count changed");
+for (const entry of seaNymphBoats) {
+  assert.equal(entry.valueEras.length, 0, `${entry.id} retained unsafe top-level value eras`);
+  for (const generation of entry.designGenerations) {
+    assert.notEqual(generation.status, "unresolved", `${generation.id} remains unresolved`);
+    assert.ok(generation.eras.length >= 1, `${generation.id} lacks package pricing`);
+    for (const valueEra of generation.eras) {
+      assert.ok(Number.isFinite(valueEra.low) && Number.isFinite(valueEra.high) && valueEra.low <= valueEra.high, `${valueEra.id} has invalid pricing`);
+      assert.ok(valueEra.startYear >= generation.startYear && valueEra.endYear <= generation.endYear, `${valueEra.id} crosses its Sea Nymph generation`);
+    }
+  }
+}
+const seaNymphStars = seaNymphBoats.filter(entry => entry.model.startsWith("*")).map(entry => entry.id);
+assert.equal(JSON.stringify(seaNymphStars), JSON.stringify(["boat:Sea Nymph | GLS195 Great Lakes Special"]), "Sea Nymph ideal-match star set changed");
+assert.equal(item("boat:Sea Nymph | GLS195 Great Lakes Special").displayName.startsWith("*"), true, "GLS195 compact display star is missing");
+assert.equal(JSON.stringify(item("boat:Sea Nymph | FM161 Fishing Machine").designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[1981,1987],[1988,1991],[1992,1992],[1993,1996],[1997,1997]]), "FM161 evidence chronology changed");
+assert.equal(JSON.stringify(item("boat:Sea Nymph | SS175 Fish & Ski").designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[1982,1991],[1992,1992],[1993,1994]]), "SS175 production chronology changed");
+assert.equal(item("boat:Sea Nymph | SS195 Fish & Ski").designGenerations.some(g => /sterndrive/i.test(g.label)), true, "SS195 sterndrive configuration is not separated");
+assert.equal(item("boat:Sea Nymph | GLS195 Great Lakes Special").designGenerations.some(g => /sterndrive/i.test(g.label)), true, "GLS195 sterndrive configuration is not separated");
 assert.doesNotMatch(appSource, /const DD=|,DD=/, "Model-generation data remains embedded in the controller");
 assert.match(appSource, /i\.designGenerations/, "Controller does not read canonical design generations");
 assert.match(appSource, /i\.valueEras/, "Controller does not read canonical value eras");

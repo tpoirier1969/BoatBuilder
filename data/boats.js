@@ -26234,11 +26234,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sea Nymph",
     "model": "FM161 Fishing Machine",
     "displayName": "Sea Nymph | FM161 Fishing Machine",
-    "subtitle": "1995 exact cited specification; other advertised years unresolved",
+    "subtitle": "1981\u20131997 documented run; five annual-roster hull/evidence choices",
     "badge": "Secondary",
     "lowPrice": 1200,
     "highPrice": 2800,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-contained used complete-package screening ranges. Select the listing year, hull/evidence row and package condition.",
     "sourceUrl": "https://www.jdpower.com/boats/1995/sea-nymph/fm161/10154459/specs",
     "image": {
       "url": "https://images.craigslist.org/00N0N_1uY87x0uRZj_0hq0ne_600x450.jpg",
@@ -26249,7 +26249,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1995 exact cited specification; other advertised years unresolved"
+        "value": "1981\u20131997 documented production"
       },
       {
         "label": "Recommendation",
@@ -26357,19 +26357,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual model rosters reconciled across the documented production run; every physical/evidence row is closed and priced. Unknown factory dimensions remain explicitly unpublished."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sea Nymph | FM161 Fishing Machine:gen:1995",
-        "label": "1995 cited specification snapshot",
-        "startYear": 1995,
-        "endYear": 1995,
-        "status": "cited-snapshot",
-        "specificationBasis": "1995 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/1995/sea-nymph/fm161/10154459/specs",
+        "id": "boat:Sea Nymph | FM161 Fishing Machine:gen:1981-1987-550-600",
+        "label": "1981\u20131987 early FM161 / FM-161 variants",
+        "startYear": 1981,
+        "endYear": 1987,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The FM-161 appears in 1981 as FM-161-PV and continues through the mid-1980s with BL/BR steering suffixes. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1981/sea-nymph",
         "specs": {
           "Length": {
             "value": "16'0\"",
@@ -26384,8 +26384,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "550\u2013650 lb",
-            "confidence": "cited-source-exact"
+            "value": "550\u2013600 lb depending on steering suffix/year",
+            "confidence": "annual-roster-exact"
           },
           "Max / Bow Depth": {
             "value": "Not published",
@@ -26408,8 +26408,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "Verify capacity plate; 60\u201370-hp equipped packages are documented, not a rating",
-            "confidence": "cited-source-exact"
+            "value": "Published packages commonly 50\u201360 hp; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
           },
           "Persons": {
             "value": "Not published",
@@ -26438,29 +26438,363 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sea Nymph | FM161 Fishing Machine:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 1200,
-            "high": 2800,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Sea Nymph | FM161 Fishing Machine:value:1981-1987-550-600",
+            "label": "1981\u20131987",
+            "startYear": 1981,
+            "endYear": 1987,
+            "low": 900,
+            "high": 2400,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
           }
         ]
       },
       {
-        "id": "boat:Sea Nymph | FM161 Fishing Machine:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 1999,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1991\u20131995 representative",
-        "sourceUrl": "https://www.jdpower.com/boats/1995/sea-nymph/fm161/10154459/specs",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sea Nymph | FM161 Fishing Machine:gen:1988-1991-550-630",
+        "label": "1988\u20131991 late suffix / simplified-name FM161",
+        "startYear": 1988,
+        "endYear": 1991,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "Annual rosters retain the 16-foot FM161 while published weight varies by steering configuration and year. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1988/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "72\u201373\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "550\u2013630 lb depending on year/configuration",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "Published packages to 60 hp; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Portable or optional; verify boat",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | FM161 Fishing Machine:value:1988-1991-550-630",
+            "label": "1988\u20131991",
+            "startYear": 1988,
+            "endYear": 1991,
+            "low": 1100,
+            "high": 2800,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | FM161 Fishing Machine:gen:1992-610",
+        "label": "1992 FM161 evidence row",
+        "startYear": 1992,
+        "endYear": 1992,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The 1992 roster publishes a 610-pound bare boat and separate packaged entry. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1992/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "72\u201373\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "610 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "25 hp packaged listing; not a hull rating",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Portable or optional; verify boat",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | FM161 Fishing Machine:value:1992-610",
+            "label": "1992",
+            "startYear": 1992,
+            "endYear": 1992,
+            "low": 1200,
+            "high": 2900,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | FM161 Fishing Machine:gen:1993-1996-650",
+        "label": "1993\u20131996 650-lb FM161 / ED",
+        "startYear": 1993,
+        "endYear": 1996,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The 1993\u20131996 annual rosters consistently publish 650 pounds; ED appears as a trim suffix in 1996. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "72\u201373\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "650 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "Published packages vary from 30 to 70 hp; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Portable or optional; verify boat",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | FM161 Fishing Machine:value:1993-1996-650",
+            "label": "1993\u20131996",
+            "startYear": 1993,
+            "endYear": 1996,
+            "low": 1300,
+            "high": 3200,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | FM161 Fishing Machine:gen:1997-520",
+        "label": "1997 520-lb FM161",
+        "startYear": 1997,
+        "endYear": 1997,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The final documented FM161 roster drops to 520 pounds, so it remains a separate evidence choice rather than inheriting 1996 specifications. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1997/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "72\u201373\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "520 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "60 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Portable or optional; verify boat",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | FM161 Fishing Machine:value:1997-520",
+            "label": "1997",
+            "startYear": 1997,
+            "endYear": 1997,
+            "low": 1400,
+            "high": 3300,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the exact listing year. Published FM161 weights change enough that adjacent year groups are not automatically interchangeable.",
+    "idealMatch": false
   },
   {
     "id": "boat:Sea Nymph | GLS175 Great Lakes Special",
@@ -26469,11 +26803,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sea Nymph",
     "model": "GLS175 Great Lakes Special",
     "displayName": "Sea Nymph | GLS175 Great Lakes Special",
-    "subtitle": "1989 exact cited specification; other advertised years unresolved",
+    "subtitle": "1988\u20131997 documented run; annual weight conflicts kept visible",
     "badge": "Secondary",
     "lowPrice": 1800,
     "highPrice": 3800,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-contained used complete-package screening ranges. Select the listing year, hull/evidence row and package condition.",
     "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph/gls175-great-lakes-spec/10154914/specs",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_06_2016/post-160661-0-17849600-1465086424_thumb.jpeg",
@@ -26484,7 +26818,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1989 exact cited specification; other advertised years unresolved"
+        "value": "1988\u20131997 documented production"
       },
       {
         "label": "Recommendation",
@@ -26592,19 +26926,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual model rosters reconciled across the documented production run; every physical/evidence row is closed and priced. Unknown factory dimensions remain explicitly unpublished."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:1989",
-        "label": "1989 cited specification snapshot",
-        "startYear": 1989,
-        "endYear": 1989,
-        "status": "cited-snapshot",
-        "specificationBasis": "1989 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph/gls175-great-lakes-spec/10154914/specs",
+        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:1988-1991",
+        "label": "1988\u20131991 early GLS175",
+        "startYear": 1988,
+        "endYear": 1991,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The Great Lakes Special first appears in the surviving 1988 roster and continues through 1991. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1988/sea-nymph",
         "specs": {
           "Length": {
             "value": "17'0\"",
@@ -26619,8 +26953,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "800 lb (1989)",
-            "confidence": "cited-source-exact"
+            "value": "700\u2013800 lb across annual rosters",
+            "confidence": "annual-roster-exact"
           },
           "Max / Bow Depth": {
             "value": "Not published",
@@ -26643,8 +26977,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "Verify capacity plate",
-            "confidence": "cited-source-exact"
+            "value": "70 hp packaged examples; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
           },
           "Persons": {
             "value": "Not published",
@@ -26673,42 +27007,548 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sea Nymph | GLS175 Great Lakes Special:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 1800,
-            "high": 3800,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Sea Nymph | GLS175 Great Lakes Special:value:1988-1991",
+            "label": "1988\u20131991",
+            "startYear": 1988,
+            "endYear": 1991,
+            "low": 1400,
+            "high": 3400,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
           }
         ]
       },
       {
-        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 1988,
-        "endYear": 1999,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1988\u20131995; 1989 basis",
-        "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph/gls175-great-lakes-spec/10154914/specs",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:1992-1000",
+        "label": "1992 1,000-lb GLS175",
+        "startYear": 1992,
+        "endYear": 1992,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The 1992 roster records a large weight increase and therefore receives its own evidence row. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1992/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,000 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS175 Great Lakes Special:value:1992-1000",
+            "label": "1992",
+            "startYear": 1992,
+            "endYear": 1992,
+            "low": 1700,
+            "high": 4000,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:1993-825",
+        "label": "1993 825-lb GLS175",
+        "startYear": 1993,
+        "endYear": 1993,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The model name remains GLS175, but the roster length field conflicts with the name and surrounding years; the conflict is disclosed rather than normalized. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "825 lb (roster length field appears miscoded as 19 ft)",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS175 Great Lakes Special:value:1993-825",
+            "label": "1993",
+            "startYear": 1993,
+            "endYear": 1993,
+            "low": 1700,
+            "high": 4000,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:1994-1000",
+        "label": "1994 1,000-lb GLS175",
+        "startYear": 1994,
+        "endYear": 1994,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The 1994 annual roster returns to the 1,000-pound figure. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1994/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,000 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS175 Great Lakes Special:value:1994-1000",
+            "label": "1994",
+            "startYear": 1994,
+            "endYear": 1994,
+            "low": 1800,
+            "high": 4200,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:1995-825",
+        "label": "1995 825-lb GLS175",
+        "startYear": 1995,
+        "endYear": 1995,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The 1995 roster publishes 825 pounds. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1995/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "825 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS175 Great Lakes Special:value:1995-825",
+            "label": "1995",
+            "startYear": 1995,
+            "endYear": 1995,
+            "low": 1800,
+            "high": 4300,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:1996-970",
+        "label": "1996 970-lb GLS175 ED",
+        "startYear": 1996,
+        "endYear": 1996,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The ED-suffixed 1996 roster publishes 970 pounds. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1996/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "970 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS175 Great Lakes Special:value:1996-970",
+            "label": "1996",
+            "startYear": 1996,
+            "endYear": 1996,
+            "low": 1900,
+            "high": 4500,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | GLS175 Great Lakes Special:gen:1997-958",
+        "label": "1997 958-lb GLS175",
+        "startYear": 1997,
+        "endYear": 1997,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The final documented Sea Nymph GLS175 roster publishes 958 pounds. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1997/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "958 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS175 Great Lakes Special:value:1997-958",
+            "label": "1997",
+            "startYear": 1997,
+            "endYear": 1997,
+            "low": 2000,
+            "high": 4700,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year. Surviving annual rosters disagree materially on hull weight, so BoatBuilder keeps those figures in separate evidence rows instead of inventing a single continuous specification.",
+    "idealMatch": false
   },
   {
     "id": "boat:Sea Nymph | GLS195 Great Lakes Special",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Sea Nymph",
-    "model": "GLS195 Great Lakes Special",
-    "displayName": "Sea Nymph | GLS195 Great Lakes Special",
-    "subtitle": "1989 exact cited specification; other advertised years unresolved",
+    "model": "*GLS195 Great Lakes Special",
+    "displayName": "*Sea Nymph | GLS195 Great Lakes Special",
+    "subtitle": "1988\u20131997 documented Great Lakes run; outboard and sterndrive separated",
     "badge": "Primary",
     "lowPrice": 2800,
     "highPrice": 5200,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-contained used complete-package screening ranges. Select the listing year, hull/evidence row and package condition.",
     "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph/gls195-great-lakes-spec/10154918/specs",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/monthly_06_2016/post-160661-0-17849600-1465086424_thumb.jpeg",
@@ -26719,7 +27559,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1989 exact cited specification; other advertised years unresolved"
+        "value": "1988\u20131997 documented production"
       },
       {
         "label": "Recommendation",
@@ -26827,19 +27667,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual model rosters reconciled across the documented production run; every physical/evidence row is closed and priced. Unknown factory dimensions remain explicitly unpublished."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sea Nymph | GLS195 Great Lakes Special:gen:1989",
-        "label": "1989 cited specification snapshot",
-        "startYear": 1989,
-        "endYear": 1989,
-        "status": "cited-snapshot",
-        "specificationBasis": "1989 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph/gls195-great-lakes-spec/10154918/specs",
+        "id": "boat:Sea Nymph | GLS195 Great Lakes Special:gen:1988-1991-outboard",
+        "label": "1988\u20131991 early GLS195 outboard",
+        "startYear": 1988,
+        "endYear": 1991,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "Annual rosters document the early full-windshield Great Lakes Special as an outboard. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1988/sea-nymph",
         "specs": {
           "Length": {
             "value": "19'0\" published; commonly called 19'5\"",
@@ -26854,8 +27694,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "1,125 lb (1989)",
-            "confidence": "cited-source-exact"
+            "value": "1,125\u20131,130 lb",
+            "confidence": "annual-roster-exact"
           },
           "Max / Bow Depth": {
             "value": "Not published",
@@ -26878,8 +27718,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "Verify capacity plate; 115\u2013120-hp installations are documented, not the rating",
-            "confidence": "cited-source-exact"
+            "value": "100 hp packaged examples; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
           },
           "Persons": {
             "value": "Verify capacity plate",
@@ -26908,38 +27748,363 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sea Nymph | GLS195 Great Lakes Special:value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
-            "endYear": 1989,
-            "low": 2800,
-            "high": 5000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Sea Nymph | GLS195 Great Lakes Special:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 3000,
-            "high": 5200,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Sea Nymph | GLS195 Great Lakes Special:value:1988-1991-outboard",
+            "label": "1988\u20131991",
+            "startYear": 1988,
+            "endYear": 1991,
+            "low": 2200,
+            "high": 4800,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
           }
         ]
       },
       {
-        "id": "boat:Sea Nymph | GLS195 Great Lakes Special:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 1980,
-        "endYear": 1999,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989\u20131995; 1989 basis",
-        "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph/gls195-great-lakes-spec/10154918/specs",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sea Nymph | GLS195 Great Lakes Special:gen:1991-1992-sterndrive",
+        "label": "1991\u20131992 GLS195 sterndrive configuration",
+        "startYear": 1991,
+        "endYear": 1992,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "Sterndrive propulsion materially changes package architecture and service risk, so it is a separate choice from the outboard GLS195. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1991/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "19'0\" published; commonly called 19'5\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,125 lb (1991) to 1,800 lb (1992 roster)",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate; low center cutout with large motor well",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "130 hp sterndrive packages",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "Built-in; verify capacity",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS195 Great Lakes Special:value:1991-1992-sterndrive",
+            "label": "1991\u20131992",
+            "startYear": 1991,
+            "endYear": 1992,
+            "low": 1800,
+            "high": 4300,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | GLS195 Great Lakes Special:gen:1992-outboard",
+        "label": "1992 GLS195 outboard",
+        "startYear": 1992,
+        "endYear": 1992,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The outboard and sterndrive versions coexist in the 1992 roster. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1992/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "19'0\" published; commonly called 19'5\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,125 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate; low center cutout with large motor well",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "Built-in; verify capacity",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS195 Great Lakes Special:value:1992-outboard",
+            "label": "1992",
+            "startYear": 1992,
+            "endYear": 1992,
+            "low": 2400,
+            "high": 5100,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | GLS195 Great Lakes Special:gen:1993-1995",
+        "label": "1993\u20131995 1,200-lb GLS195",
+        "startYear": 1993,
+        "endYear": 1995,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "Annual rosters consistently publish 1,200 pounds for the later mid-1990s GLS195; 1993 also lists a sterndrive configuration. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "19'0\" published; commonly called 19'5\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,200 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate; low center cutout with large motor well",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "Published packages vary; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "Built-in; verify capacity",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS195 Great Lakes Special:value:1993-1995",
+            "label": "1993\u20131995",
+            "startYear": 1993,
+            "endYear": 1995,
+            "low": 2600,
+            "high": 5600,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | GLS195 Great Lakes Special:gen:1996-1997",
+        "label": "1996\u20131997 1,150-lb GLS195 / ED",
+        "startYear": 1996,
+        "endYear": 1997,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The final two annual rosters publish 1,150 pounds, with ED used as a 1996 suffix. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1996/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "19'0\" published; commonly called 19'5\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,150 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate; low center cutout with large motor well",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "90\u2013115 hp packaged listings; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "Built-in; verify capacity",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | GLS195 Great Lakes Special:value:1996-1997",
+            "label": "1996\u20131997",
+            "startYear": 1996,
+            "endYear": 1997,
+            "low": 2800,
+            "high": 6200,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose year and propulsion. Outboard GLS195 packages are the realistic target; sterndrive examples require separate manual scrutiny for drive condition, parts support and package weight.",
+    "idealMatch": true
   },
   {
     "id": "boat:Sea Nymph | SS175 Fish & Ski",
@@ -26948,11 +28113,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sea Nymph",
     "model": "SS175 Fish & Ski",
     "displayName": "Sea Nymph | SS175 Fish & Ski",
-    "subtitle": "1989 exact cited specification; other advertised years unresolved",
+    "subtitle": "1982\u20131994 documented run; three weight-defined evidence choices",
     "badge": "Secondary",
     "lowPrice": 1800,
     "highPrice": 3800,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-contained used complete-package screening ranges. Select the listing year, hull/evidence row and package condition.",
     "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/imageproxy/Boat001.jpg.d73f46c2a99ebd739258c29b64aa4248.jpg",
@@ -26963,7 +28128,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1989 exact cited specification; other advertised years unresolved"
+        "value": "1982\u20131994 documented production; replaced by SS165 for 1995"
       },
       {
         "label": "Recommendation",
@@ -27071,19 +28236,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual model rosters reconciled across the documented production run; every physical/evidence row is closed and priced. Unknown factory dimensions remain explicitly unpublished."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sea Nymph | SS175 Fish & Ski:gen:1989",
-        "label": "1989 cited specification snapshot",
-        "startYear": 1989,
-        "endYear": 1989,
-        "status": "cited-snapshot",
-        "specificationBasis": "1989 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph",
+        "id": "boat:Sea Nymph | SS175 Fish & Ski:gen:1982-1991-800",
+        "label": "1982\u20131991 early SS175 fish-and-ski",
+        "startYear": 1982,
+        "endYear": 1991,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The SS175 appears in the 1982 roster and remains near 800 pounds through 1991. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1982/sea-nymph",
         "specs": {
           "Length": {
             "value": "17'0\"",
@@ -27098,8 +28263,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "800\u2013850 lb",
-            "confidence": "cited-source-exact"
+            "value": "800\u2013850 lb depending on year/configuration",
+            "confidence": "annual-roster-exact"
           },
           "Max / Bow Depth": {
             "value": "Not published",
@@ -27122,8 +28287,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "Verify capacity plate; 70\u201390-hp packages are documented",
-            "confidence": "cited-source-exact"
+            "value": "Published packages up to 90 hp; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
           },
           "Persons": {
             "value": "Not published",
@@ -27152,29 +28317,191 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sea Nymph | SS175 Fish & Ski:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 1800,
-            "high": 3800,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Sea Nymph | SS175 Fish & Ski:value:1982-1991-800",
+            "label": "1982\u20131991",
+            "startYear": 1982,
+            "endYear": 1991,
+            "low": 1200,
+            "high": 3300,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
           }
         ]
       },
       {
-        "id": "boat:Sea Nymph | SS175 Fish & Ski:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 1989,
-        "endYear": 1999,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1989\u20131990 representative",
-        "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sea Nymph | SS175 Fish & Ski:gen:1992-950",
+        "label": "1992 950-lb SS175",
+        "startYear": 1992,
+        "endYear": 1992,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The 1992 roster publishes 950 pounds, a material increase from 1991. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1992/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "950 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | SS175 Fish & Ski:value:1992-950",
+            "label": "1992",
+            "startYear": 1992,
+            "endYear": 1992,
+            "low": 1500,
+            "high": 3800,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | SS175 Fish & Ski:gen:1993-1994-1000",
+        "label": "1993\u20131994 1,000-lb SS175",
+        "startYear": 1993,
+        "endYear": 1994,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The last two SS175 annual rosters publish 1,000 pounds. The name is replaced by SS165 in 1995 rather than carried forward. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,000 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | SS175 Fish & Ski:value:1993-1994-1000",
+            "label": "1993\u20131994",
+            "startYear": 1993,
+            "endYear": 1994,
+            "low": 1700,
+            "high": 4300,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year. Do not apply SS175 specifications to a 1995 SS165 merely because both are Sea Nymph fish-and-ski boats.",
+    "idealMatch": false
   },
   {
     "id": "boat:Sea Nymph | SS195 Fish & Ski",
@@ -27183,11 +28510,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Sea Nymph",
     "model": "SS195 Fish & Ski",
     "displayName": "Sea Nymph | SS195 Fish & Ski",
-    "subtitle": "1989 exact cited specification; other advertised years unresolved",
+    "subtitle": "1984\u20131993 documented run; propulsion variants separated",
     "badge": "Primary",
     "lowPrice": 2500,
     "highPrice": 5500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "priceBasis": "Generation-contained used complete-package screening ranges. Select the listing year, hull/evidence row and package condition.",
     "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph",
     "image": {
       "url": "https://www.lakeontariounited.com/fishing-hunting/uploads/imageproxy/Boat001.jpg.d73f46c2a99ebd739258c29b64aa4248.jpg",
@@ -27198,7 +28525,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1989 exact cited specification; other advertised years unresolved"
+        "value": "1984\u20131993 documented production"
       },
       {
         "label": "Recommendation",
@@ -27306,19 +28633,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual model rosters reconciled across the documented production run; every physical/evidence row is closed and priced. Unknown factory dimensions remain explicitly unpublished."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Sea Nymph | SS195 Fish & Ski:gen:1989",
-        "label": "1989 cited specification snapshot",
-        "startYear": 1989,
-        "endYear": 1989,
-        "status": "cited-snapshot",
-        "specificationBasis": "1989 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph",
+        "id": "boat:Sea Nymph | SS195 Fish & Ski:gen:1984-1991-outboard",
+        "label": "1984\u20131991 SS195 outboard",
+        "startYear": 1984,
+        "endYear": 1991,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The SS195 first appears in the surviving 1984 roster and continues as an outboard through 1991. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1984/sea-nymph",
         "specs": {
           "Length": {
             "value": "About 19'0\"",
@@ -27333,8 +28660,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "About 1,100\u20131,200 lb",
-            "confidence": "catalog-representative"
+            "value": "1,100\u20131,130 lb",
+            "confidence": "annual-roster-exact"
           },
           "Max / Bow Depth": {
             "value": "Not published",
@@ -27357,8 +28684,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Max HP": {
-            "value": "140\u2013150 representative",
-            "confidence": "catalog-representative"
+            "value": "100 hp packaged examples; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
           },
           "Persons": {
             "value": "Not published",
@@ -27387,38 +28714,277 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Sea Nymph | SS195 Fish & Ski:value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
-            "endYear": 1989,
-            "low": 2500,
-            "high": 5000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Sea Nymph | SS195 Fish & Ski:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 3000,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Sea Nymph | SS195 Fish & Ski:value:1984-1991-outboard",
+            "label": "1984\u20131991",
+            "startYear": 1984,
+            "endYear": 1991,
+            "low": 2000,
+            "high": 4700,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
           }
         ]
       },
       {
-        "id": "boat:Sea Nymph | SS195 Fish & Ski:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 1980,
-        "endYear": 1999,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1980s\u2013early 1990s; 1989 basis",
-        "sourceUrl": "https://www.jdpower.com/boats/1989/sea-nymph",
-        "specs": {},
-        "eras": []
+        "id": "boat:Sea Nymph | SS195 Fish & Ski:gen:1991-1992-sterndrive",
+        "label": "1991\u20131992 SS195 sterndrive configuration",
+        "startYear": 1991,
+        "endYear": 1992,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "Sterndrive propulsion materially changes package architecture and service risk, so it remains separate from the outboard SS195. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1991/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "About 19'0\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "About 89\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,100 lb (1991) to 1,800 lb (1992 roster)",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "130 hp sterndrive packages",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | SS195 Fish & Ski:value:1991-1992-sterndrive",
+            "label": "1991\u20131992",
+            "startYear": 1991,
+            "endYear": 1992,
+            "low": 1600,
+            "high": 4000,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | SS195 Fish & Ski:gen:1992-outboard",
+        "label": "1992 SS195 outboard",
+        "startYear": 1992,
+        "endYear": 1992,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The 1992 roster lists both outboard and sterndrive SS195 packages. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1992/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "About 19'0\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "About 89\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,125 lb",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp packaged listing; verify capacity plate",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | SS195 Fish & Ski:value:1992-outboard",
+            "label": "1992",
+            "startYear": 1992,
+            "endYear": 1992,
+            "low": 2300,
+            "high": 5100,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
+      },
+      {
+        "id": "boat:Sea Nymph | SS195 Fish & Ski:gen:1993-outboard-sterndrive",
+        "label": "1993 final SS195 outboard / sterndrive roster",
+        "startYear": 1993,
+        "endYear": 1993,
+        "status": "source-exhausted-annual-roster",
+        "specificationBasis": "The final 1993 roster publishes both propulsion configurations at 1,200 pounds; verify the listing rather than assuming the database weight resolves real package weight. Annual Sea Nymph model rosters establish model identity, propulsion type and published dry weight; unlisted dimensions remain unknown rather than inherited from another year.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/sea-nymph",
+        "specs": {
+          "Length": {
+            "value": "About 19'0\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "About 89\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,200 lb published for both propulsion listings",
+            "confidence": "annual-roster-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "70 hp outboard or 130 hp sterndrive package; verify actual boat",
+            "confidence": "annual-roster-package-hp-not-rating"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Sea Nymph | SS195 Fish & Ski:value:1993-outboard-sterndrive",
+            "label": "1993",
+            "startYear": 1993,
+            "endYear": 1993,
+            "low": 2300,
+            "high": 5400,
+            "basis": "Used complete-package screening range for a running period-appropriate outboard or sterndrive and usable trailer; structural condition, repower quality and trailer condition control value."
+          }
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose year and propulsion. Sterndrive SS195 boats need manual drive-specific evaluation and should not inherit the outboard package assumptions.",
+    "idealMatch": false
   },
   {
     "id": "boat:Smoker Craft | Fazer 172",

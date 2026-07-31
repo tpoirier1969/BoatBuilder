@@ -1,4 +1,4 @@
-BoatBuilder MirroCraft completion validation
+BoatBuilder Sea Nymph completion validation
 Date: 2026-07-31
 
 PASS  node --check data/boats.js
@@ -10,19 +10,17 @@ QA totals:
 - 170 boats
 - 181 equipment records
 
-MirroCraft assertions:
-- 7 stable records
-- 16 closed generation/evidence rows: 15 physical generations and 1 family rejection
+Sea Nymph assertions:
+- 5 stable records
+- 24 closed physical/evidence/configuration rows
 - 0 unresolved generation rows
-- every physical generation has at least one value era
-- every value era remains within one hull generation
-- Troller family-level rejection remains unpriced
-- exact three-record ideal-match star set preserved
+- every row has at least one value era
+- every value era remains within its row years
+- FM161 chronology remains 1981–1997
+- SS175 ends in 1994 rather than inheriting SS165 data
+- SS195 ends in 1993
+- GLS175 and GLS195 continue through 1997
+- sterndrive configurations remain separate
+- exact one-record ideal-match star set preserved
 
-UI workflow is covered by repository assertions for:
-- one combined Year / hull selector
-- package-condition selector and guidance
-- no model-list Price pending text
-- route navigation scroll reset
-
-No runnable Chromium binary is present in this workspace, so a fresh live-browser execution was not possible in this environment. The same controller was not modified by this patch; its existing source-level regression checks passed.
+Existing controller workflow assertions also pass for the combined Year / hull selector, package-condition pricing, removed model-list placeholder pricing and route scroll reset.

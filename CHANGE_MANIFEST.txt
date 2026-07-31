@@ -1,19 +1,19 @@
-BoatBuilder MirroCraft generation completion — 2026-07-31
+BoatBuilder Sea Nymph generation completion — 2026-07-31
 
 Replace these repository files:
 - data/boats.js
 - tests/qa.mjs
 
 Add this research file:
-- research/mirrocraft-generation-completion-2026-07-31.md
+- research/sea-nymph-generation-completion-2026-07-31.md
 
 Scope:
-- 7 existing MirroCraft records only
-- 16 closed generation/evidence rows: 15 physical generations and 1 family rejection
-- 0 MirroCraft unresolved rows
-- every physical generation has generation-contained used-package pricing
-- generic Troller family catcher closed and intentionally unpriced
-- 3 compact ideal-match stars
+- 5 existing Sea Nymph records only
+- 24 closed physical/evidence/configuration rows
+- 0 Sea Nymph unresolved rows
+- every Sea Nymph row has generation-contained used-package pricing
+- outboard and sterndrive GLS195/SS195 choices separated
+- 1 compact ideal-match star: GLS195 Great Lakes Special
 - all 170 stable boat IDs preserved
 
-No application controller or non-MirroCraft boat data was changed.
+The ZIP is cumulative with the uploaded MirroCraft baseline. No application controller or non-MirroCraft/non-Sea-Nymph boat data was changed.
