@@ -62,51 +62,88 @@ assert.ok(
   "Mixed-propulsion Tyee umbrella record still exists"
 );
 
-// Focused Lund app-model audit.
+// Strict Lund existing-model hidden-gap completion audit.
 const lund = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Lund");
 assert.equal(lund.length, 28, "Focused Lund app-model scope changed without updating the audit");
-assert.ok(
-  lund.every(entry => Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1),
-  "One or more Lund app records lacks canonical design-generation metadata"
+assert.equal(
+  lund.reduce((sum, entry) => sum + entry.designGenerations.length, 0),
+  55,
+  "Lund generation/evidence-row count changed without updating the strict audit"
 );
+assert.ok(lund.every(entry => Array.isArray(entry.valueEras) && entry.valueEras.length === 0), "A Lund record retained unsafe top-level value eras");
+const lundIdealIds = new Set([
+  "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
+  "boat:Lund | Explorer Sport 1825",
+  "boat:Lund | Fisherman 1750 (Pro Fisherman-era name)",
+  "boat:Lund | Fisherman 1800 OB / full-windshield",
+  "boat:Lund | Impact Sport 1775",
+  "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version)",
+  "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
+  "boat:Lund | Tyee 1750"
+]);
+for (const entry of lund) {
+  assert.ok(Array.isArray(entry.designGenerations) && entry.designGenerations.length >= 1, `${entry.id} lacks canonical generations`);
+  assert.equal(Boolean(entry.idealMatch), lundIdealIds.has(entry.id), `${entry.id} ideal-match marker is wrong`);
+  assert.equal(entry.model.startsWith("*"), lundIdealIds.has(entry.id), `${entry.id} model star is wrong`);
+  assert.equal(entry.displayName.startsWith("Lund | *"), lundIdealIds.has(entry.id), `${entry.id} display-name star is wrong`);
+  let priorEnd = -Infinity;
+  for (const generation of entry.designGenerations) {
+    assert.notEqual(generation.status, "unresolved", `${generation.id} is still unresolved`);
+    assert.ok(Number.isInteger(generation.startYear) && Number.isInteger(generation.endYear), `${generation.id} lacks closed year boundaries`);
+    assert.ok(generation.startYear <= generation.endYear, `${generation.id} has reversed years`);
+    assert.ok(generation.startYear > priorEnd, `${entry.id} has overlapping generation rows`);
+    priorEnd = generation.endYear;
+    assert.ok(Array.isArray(generation.eras) && generation.eras.length >= 1, `${generation.id} lacks package values`);
+    for (const era of generation.eras) {
+      assert.ok(Number.isFinite(era.low) && Number.isFinite(era.high) && era.low <= era.high, `${era.id} has invalid pricing`);
+      assert.ok(era.startYear >= generation.startYear && era.endYear <= generation.endYear, `${era.id} falls outside its generation`);
+    }
+  }
+}
 
 const adventure = item("boat:Lund | Adventure Sport 1675");
-assert.equal(adventure.designGenerations.length, 2, "Adventure 1675 redesign generations are not separated");
-assert.match(
-  adventure.designGenerations.map(g => g.label).join(" | "),
-  /2021[^|]*pre-redesign[^|]*\|[^|]*2024[^|]*wood-free/i,
-  "Adventure 1675 does not preserve the 2021 and 2024 redesign split"
-);
+assert.equal(JSON.stringify(adventure.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2020,2023],[2024,2026]]), "Adventure 1675 redesign boundary is wrong");
+assert.match(adventure.designGenerations[1].specs?.Construction?.value || "", /wood-free/i, "Adventure wood-free redesign is missing");
 
 const oldAlaskan = item("boat:Lund | Alaskan 1800 Sport");
-assert.equal(oldAlaskan.designGenerations.length, 2, "Alaskan 1800 documented specification sets are not separated");
-assert.match(
-  oldAlaskan.designGenerations.map(g => g.label).join(" | "),
-  /2003[^|]*\|[^|]*2021/i,
-  "Alaskan 1800 does not expose its documented 2003 and 2021 specification sets"
-);
-assert.equal(oldAlaskan.valueEras.length, 0, "Multi-generation Alaskan retained unsafe top-level value eras");
+assert.equal(JSON.stringify(oldAlaskan.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2003,2003],[2019,2020],[2021,2023]]), "Alaskan Sport discontinuous lineage is wrong");
+
+const crossover1775 = item("boat:Lund | Crossover XS 1775");
+assert.equal(crossover1775.designGenerations.at(-1).startYear, 2026, "Crossover 1775 current redesign is not separated");
+assert.equal(crossover1775.designGenerations.at(-1).specs?.["Dry Hull Weight"]?.value, "1,625 lb", "Crossover 1775 current weight is wrong");
+
+const fisherman1800 = item("boat:Lund | Fisherman 1800 OB / full-windshield");
+assert.equal(fisherman1800.designGenerations.length, 3, "Fisherman 1800 historical weight changes are not separated");
+assert.equal(fisherman1800.designGenerations[0].specs?.["Dry Hull Weight"]?.value, "1,291 lb", "Early Fisherman 1800 weight is missing");
 
 const impact = item("boat:Lund | Impact Sport 1775");
-assert.equal(impact.designGenerations.length, 2, "Non-XS Impact 1775 generations are not separated");
-assert.match(impact.details.find(d => d.label === "Notes")?.value || "", /non-XS/i, "Historical Impact record is not protected from Impact XS substitution");
+assert.equal(JSON.stringify(impact.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2012,2017],[2018,2021]]), "Impact 1775 redesign split is wrong");
+assert.match(impact.details.find(d => d.label === "Notes")?.value || "", /full windshield/i, "Impact recommendation note is incomplete");
+
+const mrPike = item("boat:Lund | Mr Pike 17");
+assert.equal(mrPike.designGenerations.length, 3, "Mr Pike 17 production variations are incomplete");
+assert.match(mrPike.details.find(d => d.label === "Notes")?.value || "", /listing photos/i, "Mr Pike layout warning is missing");
 
 const proV1775 = item("boat:Lund | Pro-V 1775 (non-walk-through configurations)");
-assert.equal(proV1775.designGenerations.length, 2, "Pro-V 1775 2000 and 2002 specification sets are not separated");
-assert.match(proV1775.designGenerations.map(g => g.label).join(" | "), /2000[^|]*\|[^|]*2002/i, "Pro-V 1775 exact-year split is missing");
+assert.equal(proV1775.designGenerations.length, 5, "Pro-V 1775 history is still compressed");
+assert.match(proV1775.details.find(d => d.label === "Notes")?.value || "", /non-walk-through/i, "Pro-V 1775 layout rejection is missing");
+
+const proV1800 = item("boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version)");
+assert.equal(proV1800.designGenerations[0].startYear, 2003, "Pro-V 1800 SE start year is wrong");
+assert.equal(proV1800.designGenerations[0].endYear, 2010, "Pro-V 1800 SE end year is wrong");
+
+const tyee1700 = item("boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)");
+assert.equal(JSON.stringify(tyee1700.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[1997,1997],[2011,2012]]), "Tyee 1700 discontinuous evidence is still falsely continuous");
 
 const tyeeIo = item("boat:Lund | Tyee 1850 I/O / ITS (older generation)");
-assert.equal(tyeeIo.lowPrice, null, "I/O Tyee inherited an unsupported low price");
-assert.equal(tyeeIo.highPrice, null, "I/O Tyee inherited an unsupported high price");
-assert.equal(tyeeIo.valueEras.length, 0, "I/O Tyee inherited outboard value eras");
-assert.equal(tyeeIo.designGenerations.length, 1, "I/O Tyee is not narrowed to one documented package basis");
+assert.match(tyeeIo.details.find(d => d.label === "Notes")?.value || "", /Not recommended/i, "I/O Tyee warning is missing");
+assert.ok(tyeeIo.designGenerations[0].eras.every(e => Number.isFinite(e.low) && Number.isFinite(e.high)), "I/O Tyee lacks screening pricing");
 
 const currentTyee = item("boat:Lund | Tyee 1875 Sport (current generation)");
-assert.match(
-  currentTyee.designGenerations[0].specs?.["Dry Hull Weight"]?.value || "",
-  /1,760 lb/i,
-  "Current Tyee 1875 factory hull weight is missing"
-);
+assert.equal(JSON.stringify(currentTyee.designGenerations.map(g => [g.startYear,g.endYear])), JSON.stringify([[2021,2026]]), "Current Tyee platform was split on a capacity figure rather than a hull redesign");
+assert.equal(currentTyee.designGenerations[0].specs?.["Dry Hull Weight"]?.value, "1,760 lb", "Current Tyee standard boat weight is missing");
+assert.equal(currentTyee.designGenerations[0].specs?.["Capacity Weight"]?.value, "1,950 lb", "Current Tyee maximum weight capacity is missing");
+assert.equal(currentTyee.designGenerations[0].eras.length, 2, "Current Tyee price eras should not create false hull generations");
 
 // Strict Alumacraft existing-model completion audit.
 const alumacraft = catalog.items.filter(entry => entry.categoryId === "boats" && entry.manufacturer === "Alumacraft");

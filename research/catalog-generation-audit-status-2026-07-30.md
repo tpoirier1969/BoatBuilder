@@ -1,6 +1,6 @@
 # BoatBuilder generation-audit status
 
-Date: 2026-07-30
+Updated: 2026-07-31
 
 ## Strictly completed manufacturers
 
@@ -12,10 +12,11 @@ Date: 2026-07-30
 | Smoker Craft | 18 | 0 | 68 of 68 | Completed; 2 aliases intentionally unpriced |
 | Crestliner | 15 | 0 | 34 of 34 | Completed |
 | Alumacraft | 17 | 0 | 51 of 51 | Completed; 1 family rejection intentionally unpriced |
+| Lund | 28 | 0 | 55 of 55 | Hidden-gap review completed; 83 price eras |
 
-“Completed” means the existing app records have no unresolved generation rows, all known production intervals were investigated, source-exhausted intervals are explicitly labeled, and every physical/evidence row has a used-package screening range.
+“Completed” means the existing app records have no unresolved generation rows, known production intervals were investigated, source-exhausted intervals are explicit, and every physical/evidence row has a used-package screening range.
 
-## Remaining literal unresolved rows after this patch
+## Remaining literal unresolved rows
 
 Total: **59**
 
@@ -39,12 +40,11 @@ Total: **59**
 | Northwood | 1 |
 | Spectrum / Blue Fin | 1 |
 
-Lund has no row literally marked `unresolved`, but its long-running records still require the strict hidden-gap review for unsupported production spans and incomplete generation-level values.
-
 ## Next repair order
 
-1. Lund strict hidden-gap review
-2. Princecraft
-3. Tracker
-4. MirroCraft
-5. Remaining manufacturers in descending unresolved count
+1. Princecraft
+2. Tracker
+3. MirroCraft
+4. Lowe
+5. Sea Nymph
+6. Remaining manufacturers in descending unresolved count

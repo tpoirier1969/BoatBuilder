@@ -1,4 +1,4 @@
-BoatBuilder pricing-selection workflow patch
+BoatBuilder Lund strict hidden-gap completion patch
 Date: 2026-07-31
 
 UPLOAD
@@ -6,26 +6,21 @@ Copy the files and folders shown at the top level of this ZIP over the repositor
 The ZIP is flat and has no wrapper directory.
 
 FULL REPLACEMENT FILES
-- app.js
 - data/boats.js
 - tests/qa.mjs
-- research/audits/pricing-selection-workflow-2026-07-31.md
+- research/audits/lund-existing-model-completion-2026-07-31.md
+- research/catalog-generation-audit-status-2026-07-30.md
 - CHANGE_MANIFEST.txt
 - VALIDATION.txt
 
-INTERFACE CHANGES
-- Removes the misleading Price pending message from manufacturer model lists.
-- Replaces separate hull-generation and age-era selectors with one Year / hull selector.
-- Guarantees that each Year / hull option belongs to one physical generation.
-- Adds Excellent, Good, Fair and Project package-condition choices with visible examples.
-- Narrows numeric screening ranges by package condition; Project requires manual evaluation.
-- Resets the page to the top after every route change.
-- Migrates estimator storage from v5 to v6 while continuing to read older saved selections.
-
 DATA CHANGES
-- Splits Smoker Craft Osprey 172 2009-2016 pricing into 2009-2012 and 2013-2016 eras.
-- Splits Smoker Craft Osprey 162 2009-2016 pricing into 2009-2012 and 2013-2016 eras.
-- No hull-generation boundaries, specifications or stable IDs changed.
-- Exactly two of 170 boat records changed.
+- Updated only the 28 existing Lund records.
+- Replaced compressed or unsupported lineages with 55 closed generation/evidence rows.
+- Added 83 generation-contained value eras.
+- Added numeric complete-package ranges to all 55 Lund physical/evidence rows.
+- Preserved all 170 stable boat IDs.
+- Added compact ideal-match stars to eight visible Lund model names.
+- Corrected the current Tyee 1875: 1,950 lb is maximum weight capacity, while standard boat weight remains 1,760 lb.
+- Preserved discontinuous production lineages rather than bridging missing model years.
 
 No GitHub repository writes were performed by ChatGPT.

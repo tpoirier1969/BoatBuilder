@@ -13177,11 +13177,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Adventure Sport 1675",
     "displayName": "Lund | Adventure Sport 1675",
-    "subtitle": "2021 pre-redesign and 2024-present wood-free generations",
+    "subtitle": "2020–2023 plywood generation; 2024–2026 wood-free redesign",
     "badge": "Secondary",
-    "lowPrice": 14000,
-    "highPrice": 20000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 16000,
+    "highPrice": 36000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/families/adventure/1675-adventure.html",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2018-04/03/167348/lund-1775-impact-1939128.jpg?itok=9XF9sE0v",
@@ -13192,7 +13192,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2021 documented pre-redesign; redesigned for 2024 and current"
+        "value": "2020–2023 plywood generation; 2024–2026 wood-free redesign"
       },
       {
         "label": "Recommendation",
@@ -13208,43 +13208,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -13252,27 +13252,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -13284,7 +13284,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact compact Adventure Sport. The 87-inch beam, full windshield and roughly 1,900-lb published boat/motor/trailer weight make it easy to tow, but its shorter, lighter hull has less Lake Superior reserve than the strongest 17–18 ft Primary boats."
+        "value": "Compact full-windshield Adventure. The 2024 redesign is materially heavier and wood-free; it should not inherit 2020–2023 weight or value assumptions."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -13300,18 +13300,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2024 redesign boundary factory-confirmed; both documented generations separated."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Adventure Sport 1675:gen:2021",
-        "label": "2021 pre-redesign plywood generation",
-        "startYear": 2021,
+        "id": "boat:Lund | Adventure Sport 1675:gen:2020-2023",
+        "label": "2020–2023 pre-redesign plywood generation",
+        "startYear": 2020,
         "endYear": 2023,
-        "status": "factory-exact",
-        "specificationBasis": "2021 Lund Red Book; 2024 catalog explicitly identifies a redesign for 2024",
+        "status": "factory-generation",
+        "specificationBasis": "2021 factory table plus annual 2020–2023 model continuity; 2024 factory catalog explicitly announces redesign",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/general/2021-Lund-Redbook.pdf",
         "specs": {
           "Length": {
@@ -13381,24 +13381,33 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Adventure Sport 1675:value:2020s",
-            "label": "2020s",
+            "id": "boat:Lund | Adventure Sport 1675:value:2020-2021",
+            "label": "2020–2021",
             "startYear": 2020,
-            "endYear": 2029,
-            "low": 14000,
-            "high": 20000,
-            "basis": "Used complete-package screening estimate"
+            "endYear": 2021,
+            "low": 16000,
+            "high": 22000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Adventure Sport 1675:value:2022-2023",
+            "label": "2022–2023",
+            "startYear": 2022,
+            "endYear": 2023,
+            "low": 19000,
+            "high": 26000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       },
       {
-        "id": "boat:Lund | Adventure Sport 1675:gen:2024",
-        "label": "2024-present wood-free redesign",
+        "id": "boat:Lund | Adventure Sport 1675:gen:2024-2026",
+        "label": "2024–2026 wood-free redesign",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-generation",
-        "specificationBasis": "2024 Lund factory catalog establishes redesign year; current Lund Sport configurator supplies configuration-specific weight and dimensions",
-        "sourceUrl": "https://www.lundboats.com/families/adventure/1675-adventure.html",
+        "specificationBasis": "2024 factory catalog explicitly identifies the wood-free redesign; current platform retained through 2026",
+        "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf",
         "specs": {
           "Length": {
             "value": "16'10\"",
@@ -13451,18 +13460,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Adventure Sport 1675:value:2020s",
-            "label": "2020s",
+            "id": "boat:Lund | Adventure Sport 1675:value:2024-2026",
+            "label": "2024–2026",
             "startYear": 2024,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "endYear": 2026,
+            "low": 25000,
+            "high": 36000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented hull generation. Do not transfer dimensions, capacities, horsepower ratings, construction, or prices between generations."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Alaskan 1800 Sport",
@@ -13471,11 +13481,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Alaskan 1800 Sport",
     "displayName": "Lund | Alaskan 1800 Sport",
-    "subtitle": "2003 and 2021 documented 1800 dual-console specification sets",
+    "subtitle": "2003 Sport snapshot; modern Sport return 2019–2023",
     "badge": "Secondary",
-    "lowPrice": 2500,
-    "highPrice": 10500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 5000,
+    "highPrice": 24000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2003-Lund-Catalog.pdf",
     "image": {
       "url": "https://www.walleye.com/wp-content/uploads/gravity_forms/4-8bd3b58ac0c4282110ee961cfb96dc8e/2020/02/Todd_Ellgren_boat1.jpg",
@@ -13486,7 +13496,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2003 and 2021 exact factory specification sets; transition boundaries between them are not assumed"
+        "value": "2003 Sport snapshot; modern Sport return 2019–2023"
       },
       {
         "label": "Recommendation",
@@ -13502,43 +13512,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -13546,27 +13556,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -13578,7 +13588,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact 1800 Sport size. Rugged and towable, but its 83-inch beam is just below this search's preferred minimum and its utility hull is less sheltered than the best multispecies designs."
+        "value": "The Sport name is not treated as continuously produced from 2003 through the 2010s. Seller listings from intervening years may instead be SS, DC, or informal “sport” descriptions."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -13594,18 +13604,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Two exact factory snapshots separated; undocumented intervening transition years remain unassigned."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
         "id": "boat:Lund | Alaskan 1800 Sport:gen:2003",
-        "label": "2003 documented Sport hull",
+        "label": "2003 documented Sport configuration",
         "startYear": 2003,
         "endYear": 2003,
         "status": "factory-exact",
-        "specificationBasis": "2003 Lund factory catalog; exact Sport configuration",
+        "specificationBasis": "2003 Lund factory catalog exact Sport table",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2003-Lund-Catalog.pdf",
         "specs": {
           "Length": {
@@ -13675,23 +13685,65 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Alaskan 1800 Sport:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Alaskan 1800 Sport:value:2003",
+            "label": "2003",
+            "startYear": 2003,
+            "endYear": 2003,
+            "low": 5000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       },
       {
-        "id": "boat:Lund | Alaskan 1800 Sport:gen:2021",
-        "label": "2021 documented DC hull",
+        "id": "boat:Lund | Alaskan 1800 Sport:gen:2019-2020",
+        "label": "2019–2020 modern Sport identity",
+        "startYear": 2019,
+        "endYear": 2020,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records establish the returned 1800 Alaskan Sport name and 1,105-pound identity; complete factory table not recovered",
+        "sourceUrl": "https://www.jdpower.com/boats/2019/lund-boat-co/1800-alaskan-sport_/32095758/specs",
+        "specs": {
+          "Length": {
+            "value": "18'9\"",
+            "confidence": "annual-model-record"
+          },
+          "Beam": {
+            "value": "83\"",
+            "confidence": "annual-model-record"
+          },
+          "Dry Hull Weight": {
+            "value": "1,105 lb",
+            "confidence": "annual-model-record"
+          },
+          "Fuel Capacity": {
+            "value": "20 gal",
+            "confidence": "annual-model-record"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; modern Sport configuration",
+            "confidence": "annual-model-record"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Alaskan 1800 Sport:value:2019-2020",
+            "label": "2019–2020",
+            "startYear": 2019,
+            "endYear": 2020,
+            "low": 12000,
+            "high": 18000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Alaskan 1800 Sport:gen:2021-2023",
+        "label": "2021–2023 documented modern Sport/DC hull",
         "startYear": 2021,
-        "endYear": 2021,
-        "status": "factory-exact",
-        "specificationBasis": "2021 Lund Red Book; exact dual-console configuration",
+        "endYear": 2023,
+        "status": "factory-generation",
+        "specificationBasis": "2021 factory Red Book table; annual continuity through the 2023 pre-redesign model year",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/general/2021-Lund-Redbook.pdf",
         "specs": {
           "Length": {
@@ -13745,18 +13797,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Alaskan 1800 Sport:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
+            "id": "boat:Lund | Alaskan 1800 Sport:value:2021-2023",
+            "label": "2021–2023",
+            "startYear": 2021,
             "endYear": 2023,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "low": 16000,
+            "high": 24000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented hull generation. Do not transfer dimensions, capacities, horsepower ratings, construction, or prices between generations."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Alaskan 1875 Sport (2024 redesign)",
@@ -13765,17 +13818,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Alaskan 1875 Sport (2024 redesign)",
     "displayName": "Lund | Alaskan 1875 Sport (2024 redesign)",
-    "subtitle": "2024-present redesigned wood-free factory hull",
+    "subtitle": "2024–2026 redesigned wood-free platform",
     "badge": "Secondary",
-    "lowPrice": null,
-    "highPrice": null,
-    "priceBasis": "Used-market valuation research pending for the redesigned 2024-plus generation. Current factory package pricing is not used as a substitute for used value.",
+    "lowPrice": 24000,
+    "highPrice": 34000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/families/alaskan/1875-alaskan.html",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2024-present redesigned factory hull"
+        "value": "2024–2026 redesigned wood-free platform"
       },
       {
         "label": "Recommendation",
@@ -13855,11 +13908,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Do not match a 2003 1800 Alaskan Sport to this record. The redesigned 1875 is 18'10\", 90 inches wide and rated for 115 hp, versus the documented 2003 1800 at 18'9\", 83 inches and 90 hp."
+        "value": "Capable but normally above this project’s target budget. The redesigned 90-inch-beam hull is distinct from the old 83-inch 1800 Alaskan."
       },
       {
         "label": "Research Status",
-        "value": "2024 redesign and Sport-specific current specifications factory-confirmed."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -13881,13 +13934,13 @@ window.BOATBUILDER_BOATS = [
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Alaskan 1875 Sport (2024 redesign):gen:2024",
-        "label": "2024-present wood-free redesign",
+        "id": "boat:Lund | Alaskan 1875 Sport (2024 redesign):gen:2024-2026",
+        "label": "2024–2026 wood-free Alaskan redesign",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-generation",
-        "specificationBasis": "2024 Lund factory catalog establishes the redesign; current Lund Sport configurator supplies Sport-specific weight",
-        "sourceUrl": "https://www.lundboats.com/families/alaskan/1875-alaskan.html",
+        "specificationBasis": "2024 Lund factory catalog identifies a new wood-free Alaskan platform with increased horsepower",
+        "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf",
         "specs": {
           "Length": {
             "value": "18'10\"",
@@ -13948,17 +14001,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Alaskan 1875 Sport (2024 redesign):value:2020s",
-            "label": "2020s",
+            "id": "boat:Lund | Alaskan 1875 Sport (2024 redesign):value:2024-2026",
+            "label": "2024–2026",
             "startYear": 2024,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "endYear": 2026,
+            "low": 24000,
+            "high": 34000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Alaskan 2000 Sport",
@@ -13967,11 +14022,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Alaskan 2000 Sport",
     "displayName": "Lund | Alaskan 2000 Sport",
-    "subtitle": "2003 and 2021 documented 2000 dual-console specification sets",
+    "subtitle": "2003 Sport snapshot; modern Sport return 2019–2023",
     "badge": "Secondary",
-    "lowPrice": 3000,
-    "highPrice": 11000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 6000,
+    "highPrice": 28000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2003-Lund-Catalog.pdf",
     "image": {
       "url": "https://www.walleye.com/wp-content/uploads/gravity_forms/4-8bd3b58ac0c4282110ee961cfb96dc8e/2020/02/Todd_Ellgren_boat1.jpg",
@@ -13982,7 +14037,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2003 and 2021 exact factory specification sets; transition boundaries between them are not assumed"
+        "value": "2003 Sport snapshot; modern Sport return 2019–2023"
       },
       {
         "label": "Recommendation",
@@ -13998,43 +14053,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -14042,27 +14097,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -14074,7 +14129,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact 2000 Sport size. Capable utility hull, but materially longer than the target and a complete rig carries more trailer, motor and gear weight."
+        "value": "Twenty-foot Alaskan packages are strong big-water boats but are normally a weaker fit for the Maverick and budget than 17–18-foot walk-through choices."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -14090,18 +14145,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Two exact factory snapshots separated; undocumented intervening transition years remain unassigned."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
         "id": "boat:Lund | Alaskan 2000 Sport:gen:2003",
-        "label": "2003 documented Sport hull",
+        "label": "2003 documented Sport configuration",
         "startYear": 2003,
         "endYear": 2003,
         "status": "factory-exact",
-        "specificationBasis": "2003 Lund factory catalog; exact Sport configuration",
+        "specificationBasis": "2003 Lund factory catalog exact Sport table",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2003-Lund-Catalog.pdf",
         "specs": {
           "Length": {
@@ -14171,23 +14226,65 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Alaskan 2000 Sport:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4500,
-            "high": 8000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Alaskan 2000 Sport:value:2003",
+            "label": "2003",
+            "startYear": 2003,
+            "endYear": 2003,
+            "low": 6000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       },
       {
-        "id": "boat:Lund | Alaskan 2000 Sport:gen:2021",
-        "label": "2021 documented DC hull",
+        "id": "boat:Lund | Alaskan 2000 Sport:gen:2019-2020",
+        "label": "2019–2020 modern Sport identity",
+        "startYear": 2019,
+        "endYear": 2020,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual records establish the modern 2000 Alaskan Sport identity; complete annual factory table not recovered",
+        "sourceUrl": "https://www.jdpower.com/boats/2019/lund-boat-co",
+        "specs": {
+          "Length": {
+            "value": "20'6\"",
+            "confidence": "annual-model-record"
+          },
+          "Beam": {
+            "value": "90.5\"",
+            "confidence": "annual-model-record"
+          },
+          "Dry Hull Weight": {
+            "value": "about 1,301 lb DC/Sport",
+            "confidence": "annual-model-record"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "annual-model-record"
+          },
+          "Fuel Capacity": {
+            "value": "29 gal",
+            "confidence": "annual-model-record"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Alaskan 2000 Sport:value:2019-2020",
+            "label": "2019–2020",
+            "startYear": 2019,
+            "endYear": 2020,
+            "low": 15000,
+            "high": 22000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Alaskan 2000 Sport:gen:2021-2023",
+        "label": "2021–2023 documented modern Sport/DC hull",
         "startYear": 2021,
-        "endYear": 2021,
-        "status": "factory-exact",
-        "specificationBasis": "2021 Lund Red Book; exact dual-console configuration",
+        "endYear": 2023,
+        "status": "factory-generation",
+        "specificationBasis": "2021 Lund Red Book table and annual continuity through 2023",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/general/2021-Lund-Redbook.pdf",
         "specs": {
           "Length": {
@@ -14241,18 +14338,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Alaskan 2000 Sport:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
+            "id": "boat:Lund | Alaskan 2000 Sport:value:2021-2023",
+            "label": "2021–2023",
+            "startYear": 2021,
             "endYear": 2023,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "low": 19000,
+            "high": 28000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented hull generation. Do not transfer dimensions, capacities, horsepower ratings, construction, or prices between generations."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Angler Sport 1650",
@@ -14261,11 +14359,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Angler Sport 1650",
     "displayName": "Lund | Angler Sport 1650",
-    "subtitle": "2026 current factory Sport specification",
+    "subtitle": "2021–2024 865-pound Sport; 2025–2026 heavier current configuration",
     "badge": "Secondary",
-    "lowPrice": 16000,
-    "highPrice": 23000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 12000,
+    "highPrice": 24000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/families/angler/1650-angler.html",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2018-04/03/167348/lund-1775-impact-1939128.jpg?itok=9XF9sE0v",
@@ -14276,7 +14374,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2026 current factory specification"
+        "value": "2021–2024 865-pound Sport; 2025–2026 heavier current configuration"
       },
       {
         "label": "Recommendation",
@@ -14292,43 +14390,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "16'5\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "80.5\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "66.25\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "905 lb Sport"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Not published in cited catalog"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "20.75\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "IPS deep-V; angle not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "20\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Not published in cited catalog"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "60"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -14336,27 +14434,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "5"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "1,422 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "6.5 gal"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.063\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Riveted IPS aluminum; double-plated bow 0.143\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -14368,7 +14466,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The exact 16'5-inch Angler Sport closes the historical family gap. Lund identifies Sport as the full-windshield version. Its 80.5-inch beam and 60-hp ceiling make it an inland/protected-nearshore boat, not a substitute for the broader Primary hulls."
+        "value": "Full windshield is available, but the narrow 80.5-inch beam and compact hull make this an inland/nearshore secondary choice rather than a top Superior candidate."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -14381,27 +14479,116 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "GOOD — Vinyl main floor; seek the complete-vinyl option to eliminate deck carpet."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | Angler Sport 1650:value:2020s",
-        "label": "2020s",
-        "startYear": 2020,
-        "endYear": 2029,
-        "lowPrice": 16000,
-        "highPrice": 23000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Angler Sport 1650:gen:2026",
-        "label": "2026 current Sport configuration",
-        "startYear": 2026,
-        "endYear": null,
-        "status": "factory-exact",
-        "specificationBasis": "Current Lund 1650 Angler Sport configurator",
+        "id": "boat:Lund | Angler Sport 1650:gen:2021-2024",
+        "label": "2021–2024 Angler Sport configuration",
+        "startYear": 2021,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual JD Power records establish the 865-pound Sport identity; 2024 catalog confirms full-windshield Sport availability",
+        "sourceUrl": "https://www.jdpower.com/boats/2021/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "16'5\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "80.5\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "66.25\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "865 lb Sport",
+            "confidence": "annual-model-record"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published in cited catalog",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "20.75\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "IPS deep-V; angle not published",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "Not published in cited catalog",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "60",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,422 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "6.5 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.063\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted IPS aluminum; double-plated bow 0.143\"",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Angler Sport 1650:value:2021-2022",
+            "label": "2021–2022",
+            "startYear": 2021,
+            "endYear": 2022,
+            "low": 12000,
+            "high": 17000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Angler Sport 1650:value:2023-2024",
+            "label": "2023–2024",
+            "startYear": 2023,
+            "endYear": 2024,
+            "low": 14000,
+            "high": 19000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Angler Sport 1650:gen:2025-2026",
+        "label": "2025–2026 current heavier Sport configuration",
+        "startYear": 2025,
+        "endYear": 2026,
+        "status": "factory-generation",
+        "specificationBasis": "Current Lund factory model configuration and 2026 catalog basis",
         "sourceUrl": "https://www.lundboats.com/families/angler/1650-angler.html",
         "specs": {
           "Length": {
@@ -14471,17 +14658,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Angler Sport 1650:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 16000,
-            "high": 23000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Angler Sport 1650:value:2025-2026",
+            "label": "2025–2026",
+            "startYear": 2025,
+            "endYear": 2026,
+            "low": 17000,
+            "high": 24000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Crossover XS 1675",
@@ -14490,11 +14679,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Crossover XS 1675",
     "displayName": "Lund | Crossover XS 1675",
-    "subtitle": "2014 exact factory specification basis",
+    "subtitle": "2014–2017 production; published weight revision by 2017",
     "badge": "Secondary",
-    "lowPrice": 8000,
-    "highPrice": 12500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 12000,
+    "highPrice": 21000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
     "image": {
       "url": "https://www.pehrsonlodge.com/sites/default/files/styles/medium/public/2024-10/PL_Boat_150.jpg?itok=Uu93O_hF",
@@ -14505,7 +14694,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact factory specification basis"
+        "value": "2014–2017 production; published weight revision by 2017"
       },
       {
         "label": "Recommendation",
@@ -14521,43 +14710,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "16'10\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "92\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "—"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,389 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "42\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "24.5\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "—"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "88\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "115"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -14565,27 +14754,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "6"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "1,550 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "19 gal"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": ".080\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": ".063\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Riveted IPS hull; .080 twin hull plate"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -14597,7 +14786,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Compact Crossover with substantial depth and family seating; exact 1675 dimensions are not interchangeable with 1775/1875 rows."
+        "value": "A strong compact walk-through design, but clean packages generally sit above the project’s preferred price band."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -14610,27 +14799,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | Crossover XS 1675:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 8000,
-        "highPrice": 12500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Crossover XS 1675:gen:2014",
-        "label": "2014 factory specification",
+        "id": "boat:Lund | Crossover XS 1675:gen:2014-2016",
+        "label": "2014–2016 original Crossover XS 1675 hull",
         "startYear": 2014,
-        "endYear": 2014,
-        "status": "factory-exact",
-        "specificationBasis": "2014 Lund factory catalog; exact model year",
+        "endYear": 2016,
+        "status": "factory-generation",
+        "specificationBasis": "2014 factory table; 2015–2016 annual records repeat 16'10\", 92-inch core hull",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
         "specs": {
           "Length": {
@@ -14700,17 +14883,105 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Crossover XS 1675:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 8000,
-            "high": 12500,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Crossover XS 1675:value:2014-2016",
+            "label": "2014–2016",
+            "startYear": 2014,
+            "endYear": 2016,
+            "low": 12000,
+            "high": 19000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Crossover XS 1675:gen:2017",
+        "label": "2017 published lighter specification",
+        "startYear": 2017,
+        "endYear": 2017,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "2017 annual model roster publishes 1,250 pounds for the continuing 1675 Crossover XS; complete matching table not recovered",
+        "sourceUrl": "https://www.jdpower.com/boats/2017/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "16'10\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "—",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,250 lb",
+            "confidence": "annual-model-record"
+          },
+          "Max / Bow Depth": {
+            "value": "42\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "24.5\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "—",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "88\"",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "1,550 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "19 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": ".080\"",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".063\"",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted IPS hull; .080 twin hull plate",
+            "confidence": "catalog-representative"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Crossover XS 1675:value:2017",
+            "label": "2017",
+            "startYear": 2017,
+            "endYear": 2017,
+            "low": 14000,
+            "high": 21000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Crossover XS 1775",
@@ -14719,11 +14990,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Crossover XS 1775",
     "displayName": "Lund | Crossover XS 1775",
-    "subtitle": "2014 documented and 2026 current specification sets",
+    "subtitle": "2013–2025 established 1,450-pound platform; 2026 redesign",
     "badge": "Secondary",
-    "lowPrice": 8500,
-    "highPrice": 13000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 13000,
+    "highPrice": 49000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/families/crossover-xs/1775-crossover-xs.html",
     "image": {
       "url": "https://www.pehrsonlodge.com/sites/default/files/styles/medium/public/2024-10/PL_Boat_150.jpg?itok=Uu93O_hF",
@@ -14734,7 +15005,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact factory basis and 2026 current factory basis; intervening transition is not assumed"
+        "value": "2013–2025 established 1,450-pound platform; 2026 redesign"
       },
       {
         "label": "Recommendation",
@@ -14750,43 +15021,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -14794,27 +15065,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -14826,7 +15097,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Strong fish-and-sport hull with family seating; exact 1775 row."
+        "value": "Capable and family-friendly, but most examples are above the $14,000 hard ceiling."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -14842,18 +15113,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2014 and 2026 exact specification sets separated; no unsupported transition year assigned."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Crossover XS 1775:gen:2014",
-        "label": "2014 documented hull",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "factory-exact",
-        "specificationBasis": "2014 Lund factory catalog; exact model year",
+        "id": "boat:Lund | Crossover XS 1775:gen:2013-2016",
+        "label": "2013–2016 original 1775 Crossover XS platform",
+        "startYear": 2013,
+        "endYear": 2016,
+        "status": "factory-generation",
+        "specificationBasis": "2013 annual roster and 2014 factory table establish the 17'10\", 95-inch, 1,450-pound platform",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
         "specs": {
           "Length": {
@@ -14923,23 +15194,222 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Crossover XS 1775:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
+            "id": "boat:Lund | Crossover XS 1775:value:2013-2014",
+            "label": "2013–2014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 13000,
+            "high": 20000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Crossover XS 1775:value:2015-2016",
+            "label": "2015–2016",
+            "startYear": 2015,
+            "endYear": 2016,
+            "low": 15000,
+            "high": 23000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Crossover XS 1775:gen:2017-2021",
+        "label": "2017–2021 carryover 1,450-pound platform",
+        "startYear": 2017,
+        "endYear": 2021,
+        "status": "annual-record-continuity",
+        "specificationBasis": "Annual rosters continue the 1,450-pound 1775 Crossover XS identity",
+        "sourceUrl": "https://www.jdpower.com/boats/2021/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "17'10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "—",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,450 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "43\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "—",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "94\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,750 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "26 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted IPS hull; .180 twin hull plate",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Crossover XS 1775:value:2017-2019",
+            "label": "2017–2019",
+            "startYear": 2017,
             "endYear": 2019,
-            "low": 8500,
-            "high": 13000,
-            "basis": "Used complete-package screening estimate"
+            "low": 17000,
+            "high": 25000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Crossover XS 1775:value:2020-2021",
+            "label": "2020–2021",
+            "startYear": 2020,
+            "endYear": 2021,
+            "low": 20000,
+            "high": 29000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Crossover XS 1775:gen:2022-2025",
+        "label": "2022–2025 late carryover platform",
+        "startYear": 2022,
+        "endYear": 2025,
+        "status": "annual-record-continuity",
+        "specificationBasis": "Annual rosters and 2024 catalog continue the pre-2026 1,450-pound platform",
+        "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "—",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,450 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "43\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "—",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "94\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,750 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "26 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted IPS hull; .180 twin hull plate",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Crossover XS 1775:value:2022-2023",
+            "label": "2022–2023",
+            "startYear": 2022,
+            "endYear": 2023,
+            "low": 22000,
+            "high": 32000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Crossover XS 1775:value:2024-2025",
+            "label": "2024–2025",
+            "startYear": 2024,
+            "endYear": 2025,
+            "low": 25000,
+            "high": 36000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       },
       {
         "id": "boat:Lund | Crossover XS 1775:gen:2026",
-        "label": "2026 current hull",
+        "label": "2026 redesigned current hull",
         "startYear": 2026,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-exact",
-        "specificationBasis": "Current Lund model page/configurator; current specification is not backfilled into older boats",
+        "specificationBasis": "2026 Lund factory page documents the shorter, heavier current platform",
         "sourceUrl": "https://www.lundboats.com/families/crossover-xs/1775-crossover-xs.html",
         "specs": {
           "Length": {
@@ -14997,18 +15467,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Crossover XS 1775:value:2020s",
-            "label": "2020s",
+            "id": "boat:Lund | Crossover XS 1775:value:2026",
+            "label": "2026",
             "startYear": 2026,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "endYear": 2026,
+            "low": 36000,
+            "high": 49000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented hull generation. Do not transfer dimensions, capacities, horsepower ratings, construction, or prices between generations."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Crossover XS 1875",
@@ -15017,11 +15488,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Crossover XS 1875",
     "displayName": "Lund | Crossover XS 1875",
-    "subtitle": "2014 documented and 2026 current specification sets",
+    "subtitle": "2012–2025 established 1,558-pound platform; 2026 redesign",
     "badge": "Secondary",
-    "lowPrice": 9000,
-    "highPrice": 13500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 14000,
+    "highPrice": 54000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/families/crossover-xs/1875-crossover-xs.html",
     "image": {
       "url": "https://www.pehrsonlodge.com/sites/default/files/styles/medium/public/2024-10/PL_Boat_150.jpg?itok=Uu93O_hF",
@@ -15032,7 +15503,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact factory basis and 2026 current factory basis; intervening transition is not assumed"
+        "value": "2012–2025 established 1,558-pound platform; 2026 redesign"
       },
       {
         "label": "Recommendation",
@@ -15048,43 +15519,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -15092,27 +15563,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -15124,7 +15595,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Largest target-adjacent 2014 Crossover; exact 1875 row, not a stand-in for the 1675/1775."
+        "value": "Excellent water capability, but price, size and package weight make it a poor “ideal” marker for this particular search."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -15140,18 +15611,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2014 and 2026 exact specification sets separated; no unsupported transition year assigned."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Crossover XS 1875:gen:2014",
-        "label": "2014 documented hull",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "factory-exact",
-        "specificationBasis": "2014 Lund factory catalog; exact model year",
+        "id": "boat:Lund | Crossover XS 1875:gen:2012-2016",
+        "label": "2012–2016 original 1875 Crossover XS platform",
+        "startYear": 2012,
+        "endYear": 2016,
+        "status": "factory-generation",
+        "specificationBasis": "2012 annual roster and 2014 factory table establish the 18'10\", 95-inch, 1,558-pound platform",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
         "specs": {
           "Length": {
@@ -15221,23 +15692,222 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Crossover XS 1875:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
+            "id": "boat:Lund | Crossover XS 1875:value:2012-2014",
+            "label": "2012–2014",
+            "startYear": 2012,
+            "endYear": 2014,
+            "low": 14000,
+            "high": 22000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Crossover XS 1875:value:2015-2016",
+            "label": "2015–2016",
+            "startYear": 2015,
+            "endYear": 2016,
+            "low": 16000,
+            "high": 24000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Crossover XS 1875:gen:2017-2021",
+        "label": "2017–2021 carryover 1,558-pound platform",
+        "startYear": 2017,
+        "endYear": 2021,
+        "status": "annual-record-continuity",
+        "specificationBasis": "Annual rosters continue the same 1875 Crossover identity and published weight",
+        "sourceUrl": "https://www.jdpower.com/boats/2021/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "18'10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "—",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,558 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "43\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "—",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "94\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,800 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted IPS hull; .180 twin hull plate",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Crossover XS 1875:value:2017-2019",
+            "label": "2017–2019",
+            "startYear": 2017,
             "endYear": 2019,
-            "low": 9000,
-            "high": 13500,
-            "basis": "Used complete-package screening estimate"
+            "low": 18000,
+            "high": 27000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Crossover XS 1875:value:2020-2021",
+            "label": "2020–2021",
+            "startYear": 2020,
+            "endYear": 2021,
+            "low": 21000,
+            "high": 31000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Crossover XS 1875:gen:2022-2025",
+        "label": "2022–2025 late carryover platform",
+        "startYear": 2022,
+        "endYear": 2025,
+        "status": "annual-record-continuity",
+        "specificationBasis": "2024 factory catalog and annual records retain the pre-2026 platform",
+        "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'10\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "—",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,558 lb",
+            "confidence": "factory-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "43\"",
+            "confidence": "factory-exact"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Deadrise": {
+            "value": "—",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Transom Width": {
+            "value": "94\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "factory-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,800 lb",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": ".100\"",
+            "confidence": "factory-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": ".080\"",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted IPS hull; .180 twin hull plate",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Crossover XS 1875:value:2022-2023",
+            "label": "2022–2023",
+            "startYear": 2022,
+            "endYear": 2023,
+            "low": 24000,
+            "high": 35000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Crossover XS 1875:value:2024-2025",
+            "label": "2024–2025",
+            "startYear": 2024,
+            "endYear": 2025,
+            "low": 27000,
+            "high": 39000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       },
       {
         "id": "boat:Lund | Crossover XS 1875:gen:2026",
-        "label": "2026 current hull",
+        "label": "2026 redesigned current hull",
         "startYear": 2026,
-        "endYear": null,
+        "endYear": 2026,
         "status": "factory-exact",
-        "specificationBasis": "Current Lund model page/configurator; current specification is not backfilled into older boats",
+        "specificationBasis": "2026 Lund factory page documents the current heavier platform",
         "sourceUrl": "https://www.lundboats.com/families/crossover-xs/1875-crossover-xs.html",
         "specs": {
           "Length": {
@@ -15295,31 +15965,32 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Crossover XS 1875:value:2020s",
-            "label": "2020s",
+            "id": "boat:Lund | Crossover XS 1875:value:2026",
+            "label": "2026",
             "startYear": 2026,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "endYear": 2026,
+            "low": 40000,
+            "high": 54000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented hull generation. Do not transfer dimensions, capacities, horsepower ratings, construction, or prices between generations."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lund",
-    "model": "Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
-    "displayName": "Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
-    "subtitle": "2008 exact specification basis; 2008–2012 advertised family span",
+    "model": "*Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
+    "displayName": "Lund | *Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer)",
+    "subtitle": "2008–2012 documented 17-foot-4-inch platform",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 8500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 7000,
+    "highPrice": 13000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
     "image": {
       "url": "https://www.pehrsonlodge.com/sites/default/files/styles/medium/public/2024-10/PL_Boat_150.jpg?itok=Uu93O_hF",
@@ -15330,7 +16001,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact specification basis; advertised 2008–2012 family span"
+        "value": "2008–2012 documented 17-foot-4-inch platform"
       },
       {
         "label": "Recommendation",
@@ -15422,7 +16093,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 17-foot Explorer Sport is narrower than the 1825 but remains above the 84-inch preference and is the easier Explorer package to tow. Confirm Sport/full-windshield—not SS/side-console."
+        "value": "One of the better Lund fits: full windshield, 92-inch beam, useful depth, manageable package weight, and older examples can intersect the target budget."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -15435,36 +16106,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 4500,
-        "highPrice": 7000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 5500,
-        "highPrice": 8500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):gen:2008",
-        "label": "2008 factory-model specification",
+        "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):gen:2008-2012",
+        "label": "2008–2012 Explorer Sport 1725 platform",
         "startYear": 2008,
-        "endYear": 2008,
-        "status": "secondary-verified",
-        "specificationBasis": "2008 Lund brochure and exact-model specification references",
+        "endYear": 2012,
+        "status": "factory-generation",
+        "specificationBasis": "2008 factory table and 2010/2012 annual records repeat 17'4\", 92-inch, 1,230-pound identity",
         "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
         "specs": {
           "Length": {
@@ -15534,40 +16190,41 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
+            "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2008-2009",
+            "label": "2008–2009",
+            "startYear": 2008,
             "endYear": 2009,
-            "low": 4500,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate"
+            "low": 7000,
+            "high": 10500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           },
           {
-            "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2010s",
-            "label": "2010s",
+            "id": "boat:Lund | Explorer Sport 1725 (Primary; not Starcraft Explorer 160 or Fish-Rite Explorer):value:2010-2012",
+            "label": "2010–2012",
             "startYear": 2010,
-            "endYear": 2019,
-            "low": 5500,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate"
+            "endYear": 2012,
+            "low": 8500,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "The displayed specifications are for model year 2008. Do not assume every 2009–2012 listing is identical without its capacity plate."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Explorer Sport 1825",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lund",
-    "model": "Explorer Sport 1825",
-    "displayName": "Lund | Explorer Sport 1825",
-    "subtitle": "2008 exact specification basis; 2008–2012 advertised family span",
+    "model": "*Explorer Sport 1825",
+    "displayName": "Lund | *Explorer Sport 1825",
+    "subtitle": "2008–2012 documented 18-foot-4-inch platform",
     "badge": "Primary",
-    "lowPrice": 5000,
-    "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 8000,
+    "highPrice": 15500,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
     "image": {
       "url": "https://www.pehrsonlodge.com/sites/default/files/styles/medium/public/2024-10/PL_Boat_150.jpg?itok=Uu93O_hF",
@@ -15578,7 +16235,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact specification basis; advertised 2008–2012 family span"
+        "value": "2008–2012 documented 18-foot-4-inch platform"
       },
       {
         "label": "Recommendation",
@@ -15670,7 +16327,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Broader and more substantial than the 1725. Loaded package remains within the 4K rating but is closer to the preferred ceiling."
+        "value": "A strong Superior-capable layout with a wide hull. Verify loaded trailer weight and motor size, but ordinary packages remain within the Maverick’s limit."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -15683,36 +16340,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Lund | Explorer Sport 1825:value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 5000,
-        "highPrice": 8000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Lund | Explorer Sport 1825:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 6500,
-        "highPrice": 10000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Explorer Sport 1825:gen:2008",
-        "label": "2008 factory-model specification",
+        "id": "boat:Lund | Explorer Sport 1825:gen:2008-2012",
+        "label": "2008–2012 Explorer Sport 1825 platform",
         "startYear": 2008,
-        "endYear": 2008,
-        "status": "secondary-verified",
-        "specificationBasis": "2008 Lund brochure and exact-model specification references",
+        "endYear": 2012,
+        "status": "factory-generation",
+        "specificationBasis": "2008 factory table and annual records through 2012 repeat the 18'4\", 96-inch, 1,450-pound identity",
         "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
         "specs": {
           "Length": {
@@ -15782,40 +16424,41 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Explorer Sport 1825:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
+            "id": "boat:Lund | Explorer Sport 1825:value:2008-2009",
+            "label": "2008–2009",
+            "startYear": 2008,
             "endYear": 2009,
-            "low": 5000,
-            "high": 8000,
-            "basis": "Used complete-package screening estimate"
+            "low": 8000,
+            "high": 12500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           },
           {
-            "id": "boat:Lund | Explorer Sport 1825:value:2010s",
-            "label": "2010s",
+            "id": "boat:Lund | Explorer Sport 1825:value:2010-2012",
+            "label": "2010–2012",
             "startYear": 2010,
-            "endYear": 2019,
-            "low": 6500,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate"
+            "endYear": 2012,
+            "low": 10000,
+            "high": 15500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "The displayed specifications are for model year 2008. Later model years require capacity-plate verification."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lund",
-    "model": "Fisherman 1750 (Pro Fisherman-era name)",
-    "displayName": "Lund | Fisherman 1750 (Pro Fisherman-era name)",
-    "subtitle": "2008 exact specification basis; 2007–2012 family span",
+    "model": "*Fisherman 1750 (Pro Fisherman-era name)",
+    "displayName": "Lund | *Fisherman 1750 (Pro Fisherman-era name)",
+    "subtitle": "2007–2010 documented 1,345-pound Fisherman platform",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 9500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 7500,
+    "highPrice": 14000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
     "image": {
       "url": "https://www.walleye.com/wp-content/uploads/gravity_forms/4-8bd3b58ac0c4282110ee961cfb96dc8e/2020/02/Todd_Ellgren_boat1.jpg",
@@ -15826,7 +16469,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact specification basis; 2007–2012 family span"
+        "value": "2007–2010 documented 1,345-pound Fisherman platform"
       },
       {
         "label": "Recommendation",
@@ -15918,7 +16561,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Large working cockpit and sensible 17-foot-class package. Confirm the exact windshield configuration and capacity plate."
+        "value": "Wide, deep and purpose-built for rough-water fishing. This is a high-priority model when the floor, transom, motor and trailer check out."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -15931,36 +16574,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 4500,
-        "highPrice": 7500,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 6000,
-        "highPrice": 9500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):gen:2008",
-        "label": "2008 factory-model specification",
-        "startYear": 2008,
-        "endYear": 2008,
-        "status": "secondary-verified",
-        "specificationBasis": "2008 Lund brochure and exact-model specification references",
+        "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):gen:2007-2010",
+        "label": "2007–2010 Fisherman 1750 platform",
+        "startYear": 2007,
+        "endYear": 2010,
+        "status": "factory-generation",
+        "specificationBasis": "2008 factory table plus annual 2007–2010 rosters; the model is absent from the 2012 roster",
         "sourceUrl": "https://library.rvusa.com/brochure/2008.pdf",
         "specs": {
           "Length": {
@@ -16030,40 +16658,41 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2007-2008",
+            "label": "2007–2008",
+            "startYear": 2007,
+            "endYear": 2008,
+            "low": 7500,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           },
           {
-            "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6000,
-            "high": 9500,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Fisherman 1750 (Pro Fisherman-era name):value:2009-2010",
+            "label": "2009–2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 9000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "The 2008 135-hp specification is shown. Some later Fisherman 1750 model years may differ; verify the listing year and capacity plate."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Fisherman 1800 OB / full-windshield",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lund",
-    "model": "Fisherman 1800 OB / full-windshield",
-    "displayName": "Lund | Fisherman 1800 OB / full-windshield",
-    "subtitle": "2004 exact outboard/full-windshield specification basis",
+    "model": "*Fisherman 1800 OB / full-windshield",
+    "displayName": "Lund | *Fisherman 1800 OB / full-windshield",
+    "subtitle": "1997–1999 light hull; 2000–2002 revision; 2003–2006 1,475-pound platform",
     "badge": "Primary",
-    "lowPrice": 5000,
-    "highPrice": 8500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 4500,
+    "highPrice": 13500,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://library.rvusa.com/brochure/2004.pdf",
     "image": {
       "url": "https://www.walleye.com/wp-content/uploads/gravity_forms/4-8bd3b58ac0c4282110ee961cfb96dc8e/2020/02/Todd_Ellgren_boat1.jpg",
@@ -16074,7 +16703,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2004 exact factory specification basis; later advertised years require verification"
+        "value": "1997–1999 light hull; 2000–2002 revision; 2003–2006 1,475-pound platform"
       },
       {
         "label": "Recommendation",
@@ -16090,43 +16719,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "18'6\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "96\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,475 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 41\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "About 27\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "About 95\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "175"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -16134,27 +16763,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "7"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "About 1,700 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "40 gal"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.100\" representative"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\" representative"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Riveted aluminum"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -16166,7 +16795,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Excellent trolling cockpit. Full fuel and 150–175 hp power make this an upper-end tow candidate, not a casual assumption."
+        "value": "Very credible big-water boat. Do not confuse the outboard/full-windshield package with the much heavier Fisherman ITS sterndrive."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -16179,27 +16808,193 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 5000,
-        "highPrice": 8500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Fisherman 1800 OB / full-windshield:gen:2004",
-        "label": "2004 outboard full-windshield specification",
-        "startYear": 2004,
-        "endYear": 2004,
-        "status": "factory-exact",
-        "specificationBasis": "2004 Lund factory catalog; exact outboard/full-windshield basis",
+        "id": "boat:Lund | Fisherman 1800 OB / full-windshield:gen:1997-1999",
+        "label": "1997–1999 early 1800 Fisherman outboard",
+        "startYear": 1997,
+        "endYear": 1999,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters establish the full-windshield 1800 Fisherman and 1,291-pound published weight; complete compatible table not recovered",
+        "sourceUrl": "https://www.jdpower.com/boats/1997/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "18'6\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,291 lb",
+            "confidence": "annual-model-record"
+          },
+          "Max / Bow Depth": {
+            "value": "About 41\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 27\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "About 95\"",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "About 1,700 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "catalog-representative"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:1997-1999",
+            "label": "1997–1999",
+            "startYear": 1997,
+            "endYear": 1999,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Fisherman 1800 OB / full-windshield:gen:2000-2002",
+        "label": "2000–2002 1,455-pound revision",
+        "startYear": 2000,
+        "endYear": 2002,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters publish a 1,455-pound outboard Fisherman identity; adjacent I/O specifications are excluded",
+        "sourceUrl": "https://www.jdpower.com/boats/2000/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "18'6\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,455 lb",
+            "confidence": "annual-model-record"
+          },
+          "Max / Bow Depth": {
+            "value": "About 41\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 27\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "About 95\"",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "175",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "About 1,700 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "40 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "catalog-representative"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2000-2002",
+            "label": "2000–2002",
+            "startYear": 2000,
+            "endYear": 2002,
+            "low": 5500,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Fisherman 1800 OB / full-windshield:gen:2003-2006",
+        "label": "2003–2006 1,475-pound outboard platform",
+        "startYear": 2003,
+        "endYear": 2006,
+        "status": "factory-generation",
+        "specificationBasis": "2004 exact factory table supported by annual 2003–2006 model records",
         "sourceUrl": "https://library.rvusa.com/brochure/2004.pdf",
         "specs": {
           "Length": {
@@ -16269,30 +17064,41 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2003-2004",
+            "label": "2003–2004",
+            "startYear": 2003,
+            "endYear": 2004,
+            "low": 7000,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Fisherman 1800 OB / full-windshield:value:2005-2006",
+            "label": "2005–2006",
+            "startYear": 2005,
+            "endYear": 2006,
+            "low": 8500,
+            "high": 13500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Impact Sport 1775",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lund",
-    "model": "Impact Sport 1775",
-    "displayName": "Lund | Impact Sport 1775",
-    "subtitle": "2014 and 2021 documented non-XS Impact Sport hulls",
+    "model": "*Impact Sport 1775",
+    "displayName": "Lund | *Impact Sport 1775",
+    "subtitle": "2012–2017 17-foot-9-inch platform; 2018–2021 deeper/wider revision",
     "badge": "Primary",
-    "lowPrice": 7000,
-    "highPrice": 11000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 8500,
+    "highPrice": 22500,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2018-04/03/167348/lund-1775-impact-1939128.jpg?itok=9XF9sE0v",
@@ -16303,7 +17109,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 and 2021 exact non-XS factory specification sets; transition boundary not assumed"
+        "value": "2012–2017 17-foot-9-inch platform; 2018–2021 deeper/wider revision"
       },
       {
         "label": "Recommendation",
@@ -16319,43 +17125,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -16363,27 +17169,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -16395,7 +17201,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "This record is for the non-XS Impact Sport. Do not apply current Impact XS specifications, jump-seat structure or prices to it."
+        "value": "Early examples are strong project matches. Later examples often exceed the budget, but the hull, beam and full windshield are well suited to the intended use."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -16411,18 +17217,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Material 2014-to-2021 dimensional and weight change documented; exact transition year remains unassigned."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Impact Sport 1775:gen:2014",
-        "label": "2014 documented non-XS hull",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "factory-exact",
-        "specificationBasis": "2014 Lund factory catalog; exact non-XS Impact Sport",
+        "id": "boat:Lund | Impact Sport 1775:gen:2012-2017",
+        "label": "2012–2017 original non-XS Impact Sport 1775",
+        "startYear": 2012,
+        "endYear": 2017,
+        "status": "factory-generation",
+        "specificationBasis": "2012–2017 annual records and 2014 factory table repeat the 17'9\", 94-inch, 1,220-pound Sport identity",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
         "specs": {
           "Length": {
@@ -16492,23 +17298,32 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Impact Sport 1775:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Impact Sport 1775:value:2012-2014",
+            "label": "2012–2014",
+            "startYear": 2012,
+            "endYear": 2014,
+            "low": 8500,
+            "high": 13500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Impact Sport 1775:value:2015-2017",
+            "label": "2015–2017",
+            "startYear": 2015,
+            "endYear": 2017,
+            "low": 10500,
+            "high": 16500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       },
       {
-        "id": "boat:Lund | Impact Sport 1775:gen:2021",
-        "label": "2021 documented non-XS hull",
-        "startYear": 2021,
+        "id": "boat:Lund | Impact Sport 1775:gen:2018-2021",
+        "label": "2018–2021 wider/deeper non-XS Impact Sport",
+        "startYear": 2018,
         "endYear": 2021,
-        "status": "factory-exact",
-        "specificationBasis": "2021 Lund Red Book; exact non-XS Impact Sport",
+        "status": "factory-generation",
+        "specificationBasis": "2021 factory Red Book documents the 17'11\", 96-inch revision; annual records establish the late non-XS span",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/general/2021-Lund-Redbook.pdf",
         "specs": {
           "Length": {
@@ -16562,18 +17377,28 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Impact Sport 1775:value:2020s",
-            "label": "2020s",
+            "id": "boat:Lund | Impact Sport 1775:value:2018-2019",
+            "label": "2018–2019",
+            "startYear": 2018,
+            "endYear": 2019,
+            "low": 12500,
+            "high": 19000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Impact Sport 1775:value:2020-2021",
+            "label": "2020–2021",
             "startYear": 2020,
-            "endYear": 2023,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "endYear": 2021,
+            "low": 15000,
+            "high": 22500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented hull generation. Do not transfer dimensions, capacities, horsepower ratings, construction, or prices between generations."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Mr Pike 17",
@@ -16582,11 +17407,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Mr Pike 17",
     "displayName": "Lund | Mr Pike 17",
-    "subtitle": "2002 redesigned model-year basis",
+    "subtitle": "1999–2001 early identity; 2002 redesign; 2003–2006 heavier continuation",
     "badge": "Secondary",
-    "lowPrice": 3000,
-    "highPrice": 7000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 4000,
+    "highPrice": 10500,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2002-Lund-Catalog.pdf",
     "image": {
       "url": "https://www.walleye.com/wp-content/uploads/gravity_forms/4-8bd3b58ac0c4282110ee961cfb96dc8e/2020/02/Todd_Ellgren_boat1.jpg",
@@ -16597,7 +17422,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2002 exact specification basis; 2001 and earlier are materially different"
+        "value": "1999–2001 early identity; 2002 redesign; 2003–2006 heavier continuation"
       },
       {
         "label": "Recommendation",
@@ -16613,43 +17438,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17'0\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "92\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,183 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Verify capacity plate; 2002 packages commonly 125–135 hp"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -16657,27 +17482,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Riveted IPS aluminum deep-V"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -16689,7 +17514,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The 2002 Mr Pike 17 is a materially different boat from 2001 and earlier examples. This record now represents 2002 only."
+        "value": "Do not star this family automatically. The Mr Pike 17 name appears on materially different layouts; listing photos and capacity plate must confirm a full walk-through windshield."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -16702,27 +17527,55 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | Mr Pike 17:value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 4000,
-        "highPrice": 7000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
+      {
+        "id": "boat:Lund | Mr Pike 17:gen:1999-2001",
+        "label": "1999–2001 early Mr Pike 17",
+        "startYear": 1999,
+        "endYear": 2001,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual records establish the model and 1,115-pound identity; surviving data do not support one exact windshield/layout table",
+        "sourceUrl": "https://www.jdpower.com/boats/1999/lund-boat-co/mr-pike-17/10107531/values",
+        "specs": {
+          "Length": {
+            "value": "17 ft class",
+            "confidence": "annual-model-record"
+          },
+          "Dry Hull Weight": {
+            "value": "1,115 lb",
+            "confidence": "annual-model-record"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; Mr Pike 17 layouts included console/full-windshield variants",
+            "confidence": "annual-model-record"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Mr Pike 17:value:1999-2001",
+            "label": "1999–2001",
+            "startYear": 1999,
+            "endYear": 2001,
+            "low": 4000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
       {
         "id": "boat:Lund | Mr Pike 17:gen:2002",
         "label": "2002 redesigned Mr Pike 17",
         "startYear": 2002,
         "endYear": 2002,
         "status": "secondary-verified",
-        "specificationBasis": "2002 factory-catalog/model specification references and period owner corroboration",
+        "specificationBasis": "2002 Lund catalog documents material dimensional and capacity changes",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2002-Lund-Catalog.pdf",
         "specs": {
           "Length": {
@@ -16792,18 +17645,62 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Mr Pike 17:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Mr Pike 17:value:2002",
+            "label": "2002",
+            "startYear": 2002,
+            "endYear": 2002,
+            "low": 5000,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Mr Pike 17:gen:2003-2006",
+        "label": "2003–2006 later Mr Pike 17 identity",
+        "startYear": 2003,
+        "endYear": 2006,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters continue the model and publish a heavier 1,285-pound identity by 2006; complete exact table not recovered",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "17 ft class",
+            "confidence": "annual-model-record"
+          },
+          "Dry Hull Weight": {
+            "value": "1,285 lb by 2006",
+            "confidence": "annual-model-record"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; confirm exact windshield configuration from listing photos",
+            "confidence": "annual-model-record"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Mr Pike 17:value:2003-2004",
+            "label": "2003–2004",
+            "startYear": 2003,
+            "endYear": 2004,
+            "low": 5500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Mr Pike 17:value:2005-2006",
+            "label": "2005–2006",
+            "startYear": 2005,
+            "endYear": 2006,
+            "low": 6500,
+            "high": 10500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Do not use this 2002 specification for a 1999–2001 Mr Pike. Those earlier boats require a separate exact-year match."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations)",
@@ -16812,11 +17709,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Pro-V 1775 (non-walk-through configurations)",
     "displayName": "Lund | Pro-V 1775 (non-walk-through configurations)",
-    "subtitle": "2000 and 2002 materially different Pro-V 1775 SE specification sets",
+    "subtitle": "1997–1999 early hull; 2000–2001 revision; 2002–2006 wider hull; 2007–2011 transition; 2012–2016 late platform",
     "badge": "Secondary",
-    "lowPrice": 4000,
-    "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 5000,
+    "highPrice": 22000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1998-Lund-Catalog.pdf",
     "image": {
       "url": "https://images.marinesource.com/images/9941136/lund-1800pro-vse-2006-6.webp",
@@ -16827,7 +17724,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2000 and 2002 exact specification sets; other years require exact-year verification"
+        "value": "1997–1999 early hull; 2000–2001 revision; 2002–2006 wider hull; 2007–2011 transition; 2012–2016 late platform"
       },
       {
         "label": "Recommendation",
@@ -16843,43 +17740,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -16887,27 +17784,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -16919,7 +17816,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Model name alone does not prove a full walk-through windshield. The app keeps this as a non-walk-through/verify-layout record."
+        "value": "This app record remains explicitly non-walk-through. It is valuable for identification and pricing but not a direct match to the windshield requirement."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -16935,18 +17832,60 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "2000 and 2002 dimensional and weight differences separated."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2000",
-        "label": "2000 Pro-V 1775 SE specification",
+        "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:1997-1999",
+        "label": "1997–1999 early Pro-V 1775 / SE identities",
+        "startYear": 1997,
+        "endYear": 1999,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual rosters publish separate Pro-V and SE weights; non-walk-through configurations remain grouped only within this stable app record",
+        "sourceUrl": "https://www.jdpower.com/boats/1998/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "secondary-verified"
+          },
+          "Beam": {
+            "value": "90\"",
+            "confidence": "secondary-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,126 lb Pro-V / 1,251 lb SE",
+            "confidence": "annual-model-record"
+          },
+          "Max HP": {
+            "value": "Verify 2000 capacity plate",
+            "confidence": "secondary-verified"
+          },
+          "Construction": {
+            "value": "Riveted aluminum Pro-V hull",
+            "confidence": "secondary-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:1997-1999",
+            "label": "1997–1999",
+            "startYear": 1997,
+            "endYear": 1999,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2000-2001",
+        "label": "2000–2001 90-inch revision",
         "startYear": 2000,
-        "endYear": 2000,
+        "endYear": 2001,
         "status": "secondary-verified",
-        "specificationBasis": "2000 exact-model specification reference",
+        "specificationBasis": "2000 Lund factory table and annual continuity",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2000-Lund-Catalog.pdf",
         "specs": {
           "Length": {
@@ -16972,23 +17911,23 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2000s",
-            "label": "2000s",
+            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2000-2001",
+            "label": "2000–2001",
             "startYear": 2000,
-            "endYear": 2009,
+            "endYear": 2001,
             "low": 6000,
             "high": 10000,
-            "basis": "Used complete-package screening estimate"
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       },
       {
-        "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2002",
-        "label": "2002 Pro-V 1775 SE specification",
+        "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2002-2006",
+        "label": "2002–2006 92-inch platform",
         "startYear": 2002,
-        "endYear": 2002,
+        "endYear": 2006,
         "status": "secondary-verified",
-        "specificationBasis": "2002 exact-model factory/specification references",
+        "specificationBasis": "2002 Lund factory table; annual rosters continue the 1775 Pro-V identity",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/2002-Lund-Catalog.pdf",
         "specs": {
           "Length": {
@@ -17022,31 +17961,159 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 6000,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2002-2003",
+            "label": "2002–2003",
+            "startYear": 2002,
+            "endYear": 2003,
+            "low": 7000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2004-2006",
+            "label": "2004–2006",
+            "startYear": 2004,
+            "endYear": 2006,
+            "low": 8000,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2007-2011",
+        "label": "2007–2011 transitional Pro-V 1775 identity",
+        "startYear": 2007,
+        "endYear": 2011,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual records establish production; complete compatible factory table was not recovered",
+        "sourceUrl": "https://www.jdpower.com/boats/2008/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "secondary-verified"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "secondary-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "about 1,350–1,450 lb by configuration",
+            "confidence": "annual-model-record"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "secondary-verified"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "secondary-verified"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "secondary-verified"
+          },
+          "Construction": {
+            "value": "Riveted deep-V aluminum Pro-V hull",
+            "confidence": "secondary-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2007-2008",
+            "label": "2007–2008",
+            "startYear": 2007,
+            "endYear": 2008,
+            "low": 9000,
+            "high": 14500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2009-2011",
+            "label": "2009–2011",
+            "startYear": 2009,
+            "endYear": 2011,
+            "low": 10500,
+            "high": 16500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):gen:2012-2016",
+        "label": "2012–2016 late Pro-V 1775 platform",
+        "startYear": 2012,
+        "endYear": 2016,
+        "status": "annual-record-continuity",
+        "specificationBasis": "Annual rosters publish 1,350-pound SE and 1,450-pound IFS configurations through 2016",
+        "sourceUrl": "https://www.jdpower.com/boats/2016/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "secondary-verified"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "secondary-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,350 lb SE / 1,450 lb IFS",
+            "confidence": "annual-model-record"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "secondary-verified"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "secondary-verified"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "secondary-verified"
+          },
+          "Construction": {
+            "value": "Riveted deep-V aluminum Pro-V hull",
+            "confidence": "secondary-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2012-2013",
+            "label": "2012–2013",
+            "startYear": 2012,
+            "endYear": 2013,
+            "low": 12000,
+            "high": 18500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Pro-V 1775 (non-walk-through configurations):value:2014-2016",
+            "label": "2014–2016",
+            "startYear": 2014,
+            "endYear": 2016,
+            "low": 14500,
+            "high": 22000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented hull generation. Do not transfer dimensions, capacities, horsepower ratings, construction, or prices between generations."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lund",
-    "model": "Pro-V 1800 SE (Primary; exact SE full-windshield version)",
-    "displayName": "Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version)",
-    "subtitle": "2004 exact SE full-windshield specification basis",
+    "model": "*Pro-V 1800 SE (Primary; exact SE full-windshield version)",
+    "displayName": "Lund | *Pro-V 1800 SE (Primary; exact SE full-windshield version)",
+    "subtitle": "2003–2010 documented 1,560-pound full-windshield SE platform",
     "badge": "Primary",
-    "lowPrice": 6000,
-    "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 7500,
+    "highPrice": 18000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://library.rvusa.com/brochure/2004.pdf",
     "image": {
       "url": "https://images.marinesource.com/images/9941136/lund-1800pro-vse-2006-6.webp",
@@ -17057,7 +18124,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2004 exact factory specification basis; the broader 2000s name span is not treated as one unchanged hull"
+        "value": "2003–2010 documented 1,560-pound full-windshield SE platform"
       },
       {
         "label": "Recommendation",
@@ -17149,7 +18216,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Premium hull and a realistic older Great Lakes candidate, but the full fuel load and 150–175 hp motor put it near the upper end of the preferred tow envelope."
+        "value": "A strong Lake Superior candidate when the package remains below the tow ceiling. Verify the exact SE full-windshield layout, not a Pro-V tiller or IFS variant."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -17162,27 +18229,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 6000,
-        "highPrice": 10000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):gen:2004",
-        "label": "2004 Pro-V 1800 SE full-windshield specification",
-        "startYear": 2004,
-        "endYear": 2004,
-        "status": "factory-exact",
-        "specificationBasis": "2004 Lund factory catalog; exact SE full-windshield model",
+        "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):gen:2003-2010",
+        "label": "2003–2010 Pro-V 1800 SE full-windshield platform",
+        "startYear": 2003,
+        "endYear": 2010,
+        "status": "factory-generation",
+        "specificationBasis": "2004 exact table plus annual 2003–2010 rosters; published 1,560-pound SE identity remains stable",
         "sourceUrl": "https://library.rvusa.com/brochure/2004.pdf",
         "specs": {
           "Length": {
@@ -17252,17 +18313,37 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 6000,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2003-2005",
+            "label": "2003–2005",
+            "startYear": 2003,
+            "endYear": 2005,
+            "low": 7500,
+            "high": 12500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2006-2008",
+            "label": "2006–2008",
+            "startYear": 2006,
+            "endYear": 2008,
+            "low": 9500,
+            "high": 15500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Pro-V 1800 SE (Primary; exact SE full-windshield version):value:2009-2010",
+            "label": "2009–2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 11500,
+            "high": 18000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Rebel XL Sport 1650",
@@ -17271,11 +18352,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Rebel XL Sport 1650",
     "displayName": "Lund | Rebel XL Sport 1650",
-    "subtitle": "2014 and 2021-present documented Sport specification sets",
+    "subtitle": "2013–2016 Rebel XL Sport; 2017–2020 name gap/XS period; 2021–2026 returned XL Sport",
     "badge": "Secondary",
-    "lowPrice": 5000,
-    "highPrice": 8000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 6500,
+    "highPrice": 27000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/families/rebel-xl/1650-rebel-xl.html",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2018-04/03/167348/lund-1775-impact-1939128.jpg?itok=9XF9sE0v",
@@ -17286,7 +18367,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact basis and 2021-present documented basis; transition year before 2021 is not assumed"
+        "value": "2013–2016 Rebel XL Sport; 2017–2020 name gap/XS period; 2021–2026 returned XL Sport"
       },
       {
         "label": "Recommendation",
@@ -17302,43 +18383,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -17346,27 +18427,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -17378,7 +18459,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact Sport/WT model; much more useful than a generic Rebel family label, but compact for exposed Lake Superior work."
+        "value": "The full windshield is useful, but the 85-inch beam is less substantial than the best Superior choices. The 2017–2020 Rebel XS period is not silently folded into this XL record."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -17391,17 +18472,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "GOOD — Vinyl main floor/cockpit; some carpet remains by package."
+      },
+      {
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Rebel XL Sport 1650:gen:2014",
-        "label": "2014 documented Sport hull",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "factory-exact",
-        "specificationBasis": "2014 Lund factory catalog; exact model year",
+        "id": "boat:Lund | Rebel XL Sport 1650:gen:2013-2016",
+        "label": "2013–2016 Rebel XL Sport platform",
+        "startYear": 2013,
+        "endYear": 2016,
+        "status": "factory-generation",
+        "specificationBasis": "2013 annual introduction and 2014 factory table establish the 16-foot-6-inch, 890-pound hull",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lund.pdf",
         "specs": {
           "Length": {
@@ -17471,23 +18556,32 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Rebel XL Sport 1650:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 5000,
-            "high": 8000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Rebel XL Sport 1650:value:2013-2014",
+            "label": "2013–2014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 6500,
+            "high": 10500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Rebel XL Sport 1650:value:2015-2016",
+            "label": "2015–2016",
+            "startYear": 2015,
+            "endYear": 2016,
+            "low": 8000,
+            "high": 12500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       },
       {
-        "id": "boat:Lund | Rebel XL Sport 1650:gen:2021",
-        "label": "2021-present documented Sport hull",
+        "id": "boat:Lund | Rebel XL Sport 1650:gen:2021-2023",
+        "label": "2021–2023 returned Rebel XL Sport platform",
         "startYear": 2021,
-        "endYear": null,
+        "endYear": 2023,
         "status": "factory-generation",
-        "specificationBasis": "2021 Red Book and current Lund Sport configurator agree on principal Sport dimensions and weight",
+        "specificationBasis": "2021 factory Red Book; annual rosters return to the XL name after the intervening XS period",
         "sourceUrl": "https://www.lundboats.com/families/rebel-xl/1650-rebel-xl.html",
         "specs": {
           "Length": {
@@ -17545,31 +18639,106 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Rebel XL Sport 1650:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "id": "boat:Lund | Rebel XL Sport 1650:value:2021-2023",
+            "label": "2021–2023",
+            "startYear": 2021,
+            "endYear": 2023,
+            "low": 14000,
+            "high": 21000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Rebel XL Sport 1650:gen:2024-2026",
+        "label": "2024–2026 updated Rebel XL Sport",
+        "startYear": 2024,
+        "endYear": 2026,
+        "status": "factory-generation",
+        "specificationBasis": "2024 factory catalog marks the Rebel XL updated; core 16'7\", 85-inch platform retained",
+        "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'7\"",
+            "confidence": "factory-generation"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "factory-generation"
+          },
+          "Chine / Bottom Width": {
+            "value": "70.5\"",
+            "confidence": "factory-generation"
+          },
+          "Dry Hull Weight": {
+            "value": "965 lb Sport",
+            "confidence": "factory-generation"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "22.5\"",
+            "confidence": "factory-generation"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-generation"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "factory-generation"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-generation"
+          },
+          "Capacity Weight": {
+            "value": "1,350 lb",
+            "confidence": "factory-generation"
+          },
+          "Fuel Capacity": {
+            "value": "19 gal",
+            "confidence": "factory-generation"
+          },
+          "Bottom Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-generation"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.063\"",
+            "confidence": "factory-generation"
+          },
+          "Construction": {
+            "value": "Riveted IPS aluminum; twin-plated bow; treated marine plywood",
+            "confidence": "factory-generation"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Rebel XL Sport 1650:value:2024-2026",
+            "label": "2024–2026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 18000,
+            "high": 27000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Select the documented hull generation. Do not transfer dimensions, capacities, horsepower ratings, construction, or prices between generations."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lund",
-    "model": "Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
-    "displayName": "Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
-    "subtitle": "Documented 17-foot × 88-inch outboard hull; 1997 and 2012 evidence",
+    "model": "*Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
+    "displayName": "Lund | *Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O)",
+    "subtitle": "1997 documented snapshot; returned 1700 Tyee identity 2011–2012",
     "badge": "Primary",
-    "lowPrice": 3500,
-    "highPrice": 7500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 4000,
+    "highPrice": 12000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://pdf.nauticexpo.com/pdf/lund/1700-tyee/20027-35821.html",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2021-12/27/261159/lund-3125384.jpg?itok=PeOFC6zm",
@@ -17580,7 +18749,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 and 2012 evidence supports the same principal 17' × 88\" outboard specification; exact uninterrupted production boundaries not claimed"
+        "value": "1997 documented snapshot; returned 1700 Tyee identity 2011–2012"
       },
       {
         "label": "Recommendation",
@@ -17596,43 +18765,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17'0\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "88\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,200 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 38\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "About 25\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "About 87\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "125"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -17640,27 +18809,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "6"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "About 1,500 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "24 gal"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.100\" representative"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\" representative"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Riveted aluminum"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -17672,7 +18841,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The compact Tyee sweet spot: full windshield, family comfort and manageable tow load. Do not transfer this recommendation to 1850/1950 ITS or I/O packages."
+        "value": "The stable app record does not imply uninterrupted production. Confirm the listing year and capacity plate before using either specification set."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -17685,36 +18854,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 3500,
-        "highPrice": 6000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 4500,
-        "highPrice": 7500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):gen:17x88",
-        "label": "Documented 17-foot × 88-inch outboard hull",
+        "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):gen:1997",
+        "label": "1997 documented 17-foot Tyee outboard snapshot",
         "startYear": 1997,
-        "endYear": 2012,
+        "endYear": 1997,
         "status": "secondary-verified",
-        "specificationBasis": "1997 factory-family evidence and 2012 exact-model specification agree on principal dimensions, weight and horsepower; continuity between every year is not asserted",
+        "specificationBasis": "1997 model evidence supports the 17-foot, 88-inch outboard hull; intervening Tyee naming is not assumed continuous",
         "sourceUrl": "https://pdf.nauticexpo.com/pdf/lund/1700-tyee/20027-35821.html",
         "specs": {
           "Length": {
@@ -17784,49 +18938,118 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 3500,
-            "high": 6000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:1997",
+            "label": "1997",
+            "startYear": 1997,
+            "endYear": 1997,
+            "low": 4000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):gen:2011-2012",
+        "label": "2011–2012 returned 1700 Tyee identity",
+        "startYear": 2011,
+        "endYear": 2012,
+        "status": "annual-record-continuity",
+        "specificationBasis": "Annual records publish a 1,200-pound 1700 Tyee; exact complete table is represented conservatively",
+        "sourceUrl": "https://www.jdpower.com/boats/2012/lund-boat-co",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "catalog-representative"
           },
-          {
-            "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate"
+          "Beam": {
+            "value": "88\"",
+            "confidence": "catalog-representative"
           },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,200 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "About 38\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 25\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "About 87\"",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "About 1,500 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "catalog-representative"
+          }
+        },
+        "eras": [
           {
-            "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "id": "boat:Lund | Tyee 1700 (Primary; not the much heavier 1850 ITS/I-O):value:2011-2012",
+            "label": "2011–2012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 7500,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "The 1997 and 2012 evidence agrees on principal specifications, but an exact uninterrupted production-year boundary has not been proven. Verify the listing year and capacity plate."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Tyee 1750",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lund",
-    "model": "Tyee 1750",
-    "displayName": "Lund | Tyee 1750",
-    "subtitle": "2011–2013 exact specification basis within the 2007–2013 family span",
+    "model": "*Tyee 1750",
+    "displayName": "Lund | *Tyee 1750",
+    "subtitle": "2007–2010 1,375-pound Grand Sport; 2011–2013 1,345-pound Tyee",
     "badge": "Primary",
-    "lowPrice": 5500,
-    "highPrice": 11500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 7500,
+    "highPrice": 16500,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.jdpower.com/boats/2012/lund-boat-co/1750-tyee_/32026361/specs",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2021-12/27/261159/lund-3125384.jpg?itok=PeOFC6zm",
@@ -17837,7 +19060,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2007–2013 family span; 2011–2013 exact specification basis"
+        "value": "2007–2010 1,375-pound Grand Sport; 2011–2013 1,345-pound Tyee"
       },
       {
         "label": "Recommendation",
@@ -17853,43 +19076,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "17'6\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "93\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not stated in cited brochure"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,345 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "About 40\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "About 26\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Deep-V; angle not stated"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "About 93\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "150"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -17897,27 +19120,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "8"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "About 1,700 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "27 gal"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.100\" representative"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\" representative"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Riveted aluminum"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -17929,7 +19152,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The later 17-foot Tyee sweet spot. More family comfort than a Fisherman without the 1850's weight."
+        "value": "Excellent project fit in older examples: 93-inch beam, full windshield and capable hull. Strong motors, kickers and full canvas can push packages above the generic range."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -17942,36 +19165,116 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POSSIBLE — Vinyl main-floor packages existed on some years; many used examples are carpeted."
-      }
-    ],
-    "valueEras": [
-      {
-        "id": "boat:Lund | Tyee 1750:value:2000s",
-        "label": "2000s",
-        "startYear": 2000,
-        "endYear": 2009,
-        "lowPrice": 5500,
-        "highPrice": 9000,
-        "basis": "Used complete-package screening estimate"
       },
       {
-        "id": "boat:Lund | Tyee 1750:value:2010s",
-        "label": "2010s",
-        "startYear": 2010,
-        "endYear": 2019,
-        "lowPrice": 7500,
-        "highPrice": 11500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Tyee 1750:gen:2011",
-        "label": "2011–2013 documented Tyee 1750 hull",
+        "id": "boat:Lund | Tyee 1750:gen:2007-2010",
+        "label": "2007–2010 Tyee 1750 Grand Sport platform",
+        "startYear": 2007,
+        "endYear": 2010,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual records publish the 1,375-pound Grand Sport identity; exact complete compatible table not recovered",
+        "sourceUrl": "https://www.jdpower.com/boats/2008/lund-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "17'6\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "93\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,375 lb Grand Sport",
+            "confidence": "annual-model-record"
+          },
+          "Max / Bow Depth": {
+            "value": "About 40\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 26\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "About 93\"",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "About 1,700 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "27 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\" representative",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "catalog-representative"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Tyee 1750:value:2007-2008",
+            "label": "2007–2008",
+            "startYear": 2007,
+            "endYear": 2008,
+            "low": 7500,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Tyee 1750:value:2009-2010",
+            "label": "2009–2010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 9000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Tyee 1750:gen:2011-2013",
+        "label": "2011–2013 1,345-pound Tyee platform",
         "startYear": 2011,
         "endYear": 2013,
-        "status": "secondary-verified",
-        "specificationBasis": "2011–2013 exact-model specification references agree on principal dimensions, weight and horsepower",
+        "status": "factory-generation",
+        "specificationBasis": "2011–2013 published specification set and annual model records",
         "sourceUrl": "https://www.jdpower.com/boats/2012/lund-boat-co/1750-tyee_/32026361/specs",
         "specs": {
           "Length": {
@@ -18041,27 +19344,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Tyee 1750:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 5500,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate"
-          },
-          {
-            "id": "boat:Lund | Tyee 1750:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 7500,
-            "high": 11500,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Tyee 1750:value:2011-2013",
+            "label": "2011–2013",
+            "startYear": 2011,
+            "endYear": 2013,
+            "low": 10500,
+            "high": 16500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "Specifications displayed are verified for 2011–2013. A 2007–2010 listing still requires exact-year confirmation."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lund | Tyee 1750 Outboard (1994 generation)",
@@ -18070,11 +19365,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 1750 Outboard (1994 generation)",
     "displayName": "Lund | Tyee 1750 Outboard (1994 generation)",
-    "subtitle": "1991–1996; 1994 factory catalog basis",
+    "subtitle": "1991–1996 documented 17-foot-3-inch outboard generation",
     "badge": "Primary",
     "lowPrice": 3000,
-    "highPrice": 6000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 7500,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://media.rvusa.com/library/1994.pdf",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2021-12/27/261159/lund-3125384.jpg?itok=PeOFC6zm",
@@ -18085,7 +19380,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1996; 1994 factory catalog basis"
+        "value": "1991–1996 documented 17-foot-3-inch outboard generation"
       },
       {
         "label": "Recommendation",
@@ -18177,7 +19472,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The adjacent larger member of Lund's 1990s Tyee search family. Lund's 1994 catalog calls this model “1750 Tyee,” while the 1650 alone is labeled “Tyee II”; some aftermarket fitment lists loosely call the 1750 a Tyee II."
+        "value": "Deep and capable for its era, but the 83.5-inch beam is narrower than the highest-priority later Lunds."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -18190,27 +19485,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Primarily carpet in this generation; replacement history matters."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 3000,
-        "highPrice": 6000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):gen:1991",
-        "label": "1994 documented outboard generation",
+        "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):gen:1991-1996",
+        "label": "1991–1996 Tyee 1750 outboard generation",
         "startYear": 1991,
         "endYear": 1996,
         "status": "factory-generation",
-        "specificationBasis": "1994 Lund factory catalog; exact outboard specification basis",
+        "specificationBasis": "1994 factory table anchored by annual production records",
         "sourceUrl": "https://media.rvusa.com/library/1994.pdf",
         "specs": {
           "Length": {
@@ -18280,17 +19569,28 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):value:1991-1993",
+            "label": "1991–1993",
+            "startYear": 1991,
+            "endYear": 1993,
             "low": 3000,
-            "high": 6000,
-            "basis": "Used complete-package screening estimate"
+            "high": 5500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Tyee 1750 Outboard (1994 generation):value:1994-1996",
+            "label": "1994–1996",
+            "startYear": 1994,
+            "endYear": 1996,
+            "low": 4000,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Tyee 1850 I/O / ITS (older generation)",
@@ -18299,17 +19599,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 1850 I/O / ITS (older generation)",
     "displayName": "Lund | Tyee 1850 I/O / ITS (older generation)",
-    "subtitle": "1990 exact I/O package basis",
+    "subtitle": "1988–1990 older sterndrive/ITS package identity",
     "badge": "Secondary",
-    "lowPrice": null,
-    "highPrice": null,
-    "priceBasis": "Generation- and drivetrain-specific valuation pending. Outboard price guidance is not applied to I/O/ITS packages.",
+    "lowPrice": 3000,
+    "highPrice": 7000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1990-Lund-Catalog.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1990 exact I/O specification basis; other I/O/ITS years require separate drivetrain verification"
+        "value": "1988–1990 older sterndrive/ITS package identity"
       },
       {
         "label": "Recommendation",
@@ -18401,7 +19701,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "This record is narrowed to a documented 1990 I/O package. Do not use it for later ITS or materially heavier sterndrive generations."
+        "value": "Not recommended for this search. Old sterndrive condition, obsolete components and much higher package weight make price unusually dependent on inspection."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -18417,18 +19717,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Propulsion split confirmed from the existing factory-catalog evidence. Exact I/O/ITS model-year specifications and valuations remain under review."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Tyee 1850 I/O / ITS (older generation):gen:1990",
-        "label": "1990 Tyee 1850 I/O package",
-        "startYear": 1990,
+        "id": "boat:Lund | Tyee 1850 I/O / ITS (older generation):gen:1988-1990",
+        "label": "1988–1990 Tyee 1850 I/O / ITS package",
+        "startYear": 1988,
         "endYear": 1990,
-        "status": "secondary-verified",
-        "specificationBasis": "1990 factory catalog identity with exact-package specification reference",
+        "status": "source-exhausted-partial",
+        "specificationBasis": "1990 factory catalog establishes the sterndrive architecture and package basis; earlier production identity is supported by annual model records",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1990-Lund-Catalog.pdf",
         "specs": {
           "Length": {
@@ -18496,10 +19796,21 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           }
         },
-        "eras": []
+        "eras": [
+          {
+            "id": "boat:Lund | Tyee 1850 I/O / ITS (older generation):value:1988-1990",
+            "label": "1988–1990",
+            "startYear": 1988,
+            "endYear": 1990,
+            "low": 3000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
       }
     ],
-    "generationWarning": "Sterndrive package, engine and trailer weight must be verified from the actual listing. This record no longer represents every older I/O or ITS Tyee."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard",
@@ -18508,17 +19819,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 1850 outboard / older 18' Tyee outboard",
     "displayName": "Lund | Tyee 1850 outboard / older 18' Tyee outboard",
-    "subtitle": "1990 exact outboard specification basis",
+    "subtitle": "1988–1990 early outboard hull; 1991–1996 later older-1850 identity",
     "badge": "Primary",
     "lowPrice": 3500,
-    "highPrice": 6500,
-    "priceBasis": "Used-market guidance applies only to older outboard-powered 18-foot Tyee packages. I/O and ITS versions are a separate record because their structure, drivetrain weight and towing implications differ materially.",
+    "highPrice": 9000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1990-Lund-Catalog.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1990 exact outboard specification basis; later 1850 outboard generations require separate exact-year matching"
+        "value": "1988–1990 early outboard hull; 1991–1996 later older-1850 identity"
       },
       {
         "label": "Recommendation",
@@ -18534,43 +19845,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "18'0\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "89\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,525 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max / Bow Depth",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Deadrise",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Width",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "Verify 1990 capacity plate"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -18578,27 +19889,27 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "Not published"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Riveted aluminum deep-V"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -18610,7 +19921,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "This record now represents the documented 1990 outboard boat only. It does not stand in for every late-1980s through 2000s 18-foot Tyee."
+        "value": "Potentially capable, but verify exact beam, capacity plate and transom condition because this record spans source-exhausted older annual variations."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -18626,18 +19937,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Propulsion architecture split is complete. Exact outboard hull-generation cutoff years remain under factory-catalog comparison."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:gen:1990",
-        "label": "1990 Tyee 1850 outboard hull",
-        "startYear": 1990,
+        "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:gen:1988-1990",
+        "label": "1988–1990 early Tyee 1850 outboard hull",
+        "startYear": 1988,
         "endYear": 1990,
         "status": "secondary-verified",
-        "specificationBasis": "1990 factory catalog identity and exact-model specification reference",
+        "specificationBasis": "1990 factory catalog exact outboard basis and annual identity",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1990-Lund-Catalog.pdf",
         "specs": {
           "Length": {
@@ -18707,18 +20018,114 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1988-1990",
+            "label": "1988–1990",
+            "startYear": 1988,
+            "endYear": 1990,
             "low": 3500,
             "high": 6500,
-            "basis": "Used complete-package screening estimate"
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          }
+        ]
+      },
+      {
+        "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:gen:1991-1996",
+        "label": "1991–1996 later older Tyee 1850 outboard identity",
+        "startYear": 1991,
+        "endYear": 1996,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual records continue the older 18-foot Tyee outboard family; complete annual tables were not recovered and later Grand Sport specs are not borrowed",
+        "sourceUrl": "https://www.lundboats.com/owner-resources.html",
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "approximately 1,500–1,600 lb depending year/configuration",
+            "confidence": "annual-model-record"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "Verify 1990 capacity plate",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "catalog-representative"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1991-1993",
+            "label": "1991–1993",
+            "startYear": 1991,
+            "endYear": 1993,
+            "low": 4000,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Tyee 1850 outboard / older 18' Tyee outboard:value:1994-1996",
+            "label": "1994–1996",
+            "startYear": 1994,
+            "endYear": 1996,
+            "low": 5000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
     ],
-    "generationWarning": "A later 1850 outboard may be wider, longer or heavier. Match the exact model year rather than selecting this 1990 basis by name alone."
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Tyee II 1650",
@@ -18727,11 +20134,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee II 1650",
     "displayName": "Lund | Tyee II 1650",
-    "subtitle": "1991–1996; 1994 factory catalog basis",
+    "subtitle": "1991–1996 documented Tyee II 1650 generation",
     "badge": "Primary",
     "lowPrice": 2500,
-    "highPrice": 5000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 6500,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://media.rvusa.com/library/1994.pdf",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2021-12/27/261159/lund-3125384.jpg?itok=PeOFC6zm",
@@ -18742,7 +20149,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1991–1996; 1994 factory catalog basis"
+        "value": "1991–1996 documented Tyee II 1650 generation"
       },
       {
         "label": "Recommendation",
@@ -18834,7 +20241,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact factory Tyee II model. Deep and protected for its size, but its 16'3-inch length and 80-inch beam make it a compact, conditions-dependent Lake Superior option."
+        "value": "A useful older family boat, but its 80-inch beam is too narrow to receive an ideal-match star for four-person Superior fishing."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -18847,27 +20254,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Primarily carpet in this generation; replacement history matters."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | Tyee II 1650:value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 2500,
-        "highPrice": 5000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Tyee II 1650:gen:1991",
-        "label": "1994 documented Tyee II 1650 generation",
+        "id": "boat:Lund | Tyee II 1650:gen:1991-1996",
+        "label": "1991–1996 Tyee II 1650 generation",
         "startYear": 1991,
         "endYear": 1996,
         "status": "factory-generation",
-        "specificationBasis": "1994 Lund factory catalog; exact model specification basis",
+        "specificationBasis": "1994 factory table anchored by annual production records",
         "sourceUrl": "https://media.rvusa.com/library/1994.pdf",
         "specs": {
           "Length": {
@@ -18937,17 +20338,28 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Tyee II 1650:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
+            "id": "boat:Lund | Tyee II 1650:value:1991-1993",
+            "label": "1991–1993",
+            "startYear": 1991,
+            "endYear": 1993,
             "low": 2500,
             "high": 5000,
-            "basis": "Used complete-package screening estimate"
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Tyee II 1650:value:1994-1996",
+            "label": "1994–1996",
+            "startYear": 1994,
+            "endYear": 1996,
+            "low": 3500,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:MirroCraft | Aggressor Pro MX 1773 WT",
@@ -43081,17 +44493,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 1875 Sport (current generation)",
     "displayName": "Lund | Tyee 1875 Sport (current generation)",
-    "subtitle": "2021–present documented current factory generation",
+    "subtitle": "2021–2026 documented 18'10-inch platform",
     "badge": "Secondary",
-    "lowPrice": null,
-    "highPrice": null,
-    "priceBasis": "Used-market valuation is not inferred from current new-package pricing. Research pending for current-generation used examples.",
+    "lowPrice": 28000,
+    "highPrice": 50000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/families/tyee/1875-tyee.html",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2021–present documented current generation"
+        "value": "2021–2026 documented platform"
       },
       {
         "label": "Recommendation",
@@ -43107,15 +44519,15 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "18'10\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Beam",
-        "value": "98\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Max HP",
-        "value": "200"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Practical Working HP",
@@ -43123,15 +44535,15 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Persons",
-        "value": "8"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Fuel Capacity",
-        "value": "40 gal"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Construction",
-        "value": "Riveted IPS aluminum; double-plated bow 0.180\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Availability Under $14k",
@@ -43143,11 +44555,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Current factory 1875 basis: 18'10\", 98-inch beam, 200-hp maximum, eight-person capacity and 40-gallon fuel tank. Do not match older 1850, I/O or ITS boats to this record."
+        "value": "Current 18'10-inch full-windshield Tyee platform. Lund lists a 1,760-pound standard boat weight and 3,000-pound boat/motor/trailer towing weight. Capable, but typically far above this project's used-price target."
       },
       {
         "label": "Research Status",
-        "value": "Current factory dimensions confirmed. Exact introduction year and used-market valuation remain under archive comparison."
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -43163,42 +44575,42 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Chine / Bottom Width",
-        "value": "86.25\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Dry Hull Weight",
-        "value": "1,760 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Cockpit / Interior Depth",
-        "value": "27\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Transom Height",
-        "value": "25\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Capacity Weight",
-        "value": "1,950 lb"
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Bottom Thickness",
-        "value": "0.100\""
+        "value": "Varies by selected year / hull option"
       },
       {
         "label": "Side / Freeboard Thickness",
-        "value": "0.080\""
+        "value": "Varies by selected year / hull option"
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Tyee 1875 Sport (current generation):gen:2021",
-        "label": "2021-present 1875 Tyee hull",
+        "id": "boat:Lund | Tyee 1875 Sport (current generation):gen:2021-2026",
+        "label": "2021–2026 1875 Tyee platform",
         "startYear": 2021,
-        "endYear": null,
-        "status": "factory-generation",
-        "specificationBasis": "2021 Lund Red Book and current Lund factory model/configurator agree on principal specifications",
+        "endYear": 2026,
+        "status": "factory-documented-continuity",
+        "specificationBasis": "Lund factory specifications retain the 18'10-inch, 98-inch-beam, 1,760-pound 1875 Tyee platform through the current 2026 model. The published 1,950-pound figure is maximum weight capacity, not dry hull weight.",
         "sourceUrl": "https://www.lundboats.com/families/tyee/1875-tyee.html",
         "specs": {
           "Length": {
@@ -43215,7 +44627,7 @@ window.BOATBUILDER_BOATS = [
           },
           "Dry Hull Weight": {
             "value": "1,760 lb",
-            "confidence": "factory-generation"
+            "confidence": "factory-exact"
           },
           "Cockpit / Interior Depth": {
             "value": "27\"",
@@ -43235,7 +44647,7 @@ window.BOATBUILDER_BOATS = [
           },
           "Capacity Weight": {
             "value": "1,950 lb",
-            "confidence": "factory-generation"
+            "confidence": "factory-exact"
           },
           "Fuel Capacity": {
             "value": "40 gal",
@@ -43256,17 +44668,33 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Tyee 1875 Sport (current generation):value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": null,
-            "high": null,
-            "basis": "Generation-specific used-package pricing pending"
+            "id": "boat:Lund | Tyee 1875 Sport (current generation):value:2021-2023",
+            "label": "2021–2023",
+            "startYear": 2021,
+            "endYear": 2023,
+            "low": 28000,
+            "high": 41000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Tyee 1875 Sport (current generation):value:2024-2026",
+            "label": "2024–2026",
+            "startYear": 2024,
+            "endYear": 2026,
+            "low": 35000,
+            "high": 50000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.lundboats.com/families/tyee/1875-tyee.html",
+          "https://www.lundboats.com/build/boat-configurator.Z1875T.html",
+          "https://www.lundboats.com/content/dam/lund/technical/documents/23_ABG_LN_MY2024Catalog_v8b_digital3.pdf"
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\")",
@@ -43275,17 +44703,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "Tyee 5.3 (Lund American-era 17'4\")",
     "displayName": "Lund | Tyee 5.3 (Lund American-era 17'4\")",
-    "subtitle": "Early 1980s; 1981 factory-catalog basis",
+    "subtitle": "1979 family introduction; 1981 exact Tyee 5.3 basis; closed through 1984",
     "badge": "Secondary",
-    "lowPrice": 2000,
-    "highPrice": 4500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 1800,
+    "highPrice": 4800,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1981-Lund-Catalog.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "Early 1980s; 1981 factory-catalog basis"
+        "value": "1979 family introduction; 1981 exact Tyee 5.3 basis; closed through 1984"
       },
       {
         "label": "Recommendation",
@@ -43377,7 +44805,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Exact early 17-foot-class Tyee omitted from the catalog. Period boats may be advertised or registered simply as 'Lund American' because Lund American, Inc. was the corporate manufacturer name. That wording does not make American the model. Confirm Tyee 5.3 by the capacity plate, HIN, 17'4\" length and 82-inch beam."
+        "value": "Historically important and usable, but narrow by modern big-water standards and highly dependent on transom, floor and motor condition."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -43390,27 +44818,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Period carpeted interior and age make floor condition a central inspection item."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):value:1980s",
-        "label": "1980s",
-        "startYear": 1980,
-        "endYear": 1989,
-        "lowPrice": 2000,
-        "highPrice": 4500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):gen:1981",
-        "label": "1981 Tyee 5.3 factory specification",
-        "startYear": 1981,
-        "endYear": 1981,
+        "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):gen:1979-1984",
+        "label": "1979–1984 early Tyee 5.3 generation",
+        "startYear": 1979,
+        "endYear": 1984,
         "status": "factory-generation",
-        "specificationBasis": "1981 Lund factory catalog; exact model-year basis",
+        "specificationBasis": "Lund heritage establishes the 1979 Tyee introduction; 1981 factory catalog supplies the exact 5.3 table; adjacent years remain within the early identity without invented changed fields",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/1981-Lund-Catalog.pdf",
         "specs": {
           "Length": {
@@ -43480,17 +44902,28 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):value:1980s",
-            "label": "1980s",
-            "startYear": 1980,
-            "endYear": 1989,
-            "low": 2000,
-            "high": 4500,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):value:1979-1981",
+            "label": "1979–1981",
+            "startYear": 1979,
+            "endYear": 1981,
+            "low": 1800,
+            "high": 4000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | Tyee 5.3 (Lund American-era 17'4\"):value:1982-1984",
+            "label": "1982–1984",
+            "startYear": 1982,
+            "endYear": 1984,
+            "low": 2200,
+            "high": 4800,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Tracker | Targa 17 WT (early generation)",
@@ -46368,17 +47801,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "1600 Pro Sport",
     "displayName": "Lund | 1600 Pro Sport",
-    "subtitle": "1997 exact factory specification basis",
+    "subtitle": "1997–2000 documented 910-pound Pro Sport platform",
     "badge": "Secondary",
-    "lowPrice": 2000,
-    "highPrice": 5500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 2500,
+    "highPrice": 6000,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 exact factory specification basis; later advertised years are not assumed to share every specification"
+        "value": "1997–2000 documented 910-pound Pro Sport platform"
       },
       {
         "label": "Recommendation",
@@ -46470,7 +47903,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Official 1997 factory model, not seller shorthand. The full walk-through windshield and 90-hp rating make it useful, but the 16'3\" length, 82-inch beam and 910-pound hull provide less Lake Superior reserve than wider 17–18 foot boats. Marketplace ads may include the Adventure graphic or call it an Adventurer 1600 Pro Sport; verify the capacity plate and exact model decal."
+        "value": "Compact full-windshield layout, but 82-inch beam and 16-foot hull make it a secondary nearshore choice rather than a four-person Superior ideal."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -46483,27 +47916,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Extensive fixed carpet in this generation; floor and transom inspection are central."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | 1600 Pro Sport:value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 2000,
-        "highPrice": 4500,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | 1600 Pro Sport:gen:1997",
-        "label": "1997 factory specification",
+        "id": "boat:Lund | 1600 Pro Sport:gen:1997-2000",
+        "label": "1997–2000 1600 Pro Sport platform",
         "startYear": 1997,
-        "endYear": 1997,
-        "status": "factory-exact",
-        "specificationBasis": "1997 Lund factory catalog; exact model and model year",
+        "endYear": 2000,
+        "status": "factory-generation",
+        "specificationBasis": "1997 factory catalog and 2000 annual roster repeat the 910-pound 1600 Pro Sport identity",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
         "specs": {
           "Length": {
@@ -46573,17 +48000,28 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | 1600 Pro Sport:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 2000,
-            "high": 4500,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | 1600 Pro Sport:value:1997-1998",
+            "label": "1997–1998",
+            "startYear": 1997,
+            "endYear": 1998,
+            "low": 2500,
+            "high": 4800,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
+          },
+          {
+            "id": "boat:Lund | 1600 Pro Sport:value:1999-2000",
+            "label": "1999–2000",
+            "startYear": 1999,
+            "endYear": 2000,
+            "low": 3200,
+            "high": 6000,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | 1600 Angler",
@@ -46592,17 +48030,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "1600 Angler",
     "displayName": "Lund | 1600 Angler",
-    "subtitle": "1997 factory model and specification basis",
+    "subtitle": "1997–1998 1600 Angler identity before later 1650/1700 naming",
     "badge": "Secondary",
-    "lowPrice": 1500,
-    "highPrice": 4000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 2200,
+    "highPrice": 4800,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 factory model and exact specification basis"
+        "value": "1997–1998 1600 Angler identity before later 1650/1700 naming"
       },
       {
         "label": "Recommendation",
@@ -46694,7 +48132,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "One 1997 hull family offered as tiller or SS side-console. SS is a configuration suffix, not a separate hull record. The console version is heavier and carries a higher horsepower rating."
+        "value": "The 1997 catalog’s SS is a side-console windshield, not a factory walk-through windshield. This model is retained for identification, not recommendation."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -46707,27 +48145,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Extensive fixed carpet in this generation; soft spots and hidden moisture are central inspection items."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | 1600 Angler:value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 1500,
-        "highPrice": 4000,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | 1600 Angler:gen:1997",
-        "label": "1997 factory specification",
+        "id": "boat:Lund | 1600 Angler:gen:1997-1998",
+        "label": "1997–1998 1600 Angler / Angler SS platform",
         "startYear": 1997,
-        "endYear": 1997,
-        "status": "factory-exact",
-        "specificationBasis": "1997 Lund factory catalog; exact model and model year",
+        "endYear": 1998,
+        "status": "factory-generation",
+        "specificationBasis": "1997 factory catalog exact table; later annual rosters use 1650/1700 model numbers and are not merged",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
         "specs": {
           "Length": {
@@ -46797,17 +48229,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | 1600 Angler:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 1500,
-            "high": 4000,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | 1600 Angler:value:1997-1998",
+            "label": "1997–1998",
+            "startYear": 1997,
+            "endYear": 1998,
+            "low": 2200,
+            "high": 4800,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | 1600 Explorer",
@@ -46816,17 +48250,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lund",
     "model": "1600 Explorer",
     "displayName": "Lund | 1600 Explorer",
-    "subtitle": "1997 factory model and specification basis",
+    "subtitle": "1997–1998 1600 Explorer identity before the 1650 redesign/name change",
     "badge": "Secondary",
-    "lowPrice": 1300,
-    "highPrice": 3800,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 2000,
+    "highPrice": 4500,
+    "priceBasis": "Choose the year / hull option, then package condition. Values screen a complete running boat, ordinary outboard package and serviceable trailer.",
     "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "1997 factory model and exact specification basis"
+        "value": "1997–1998 1600 Explorer identity before the 1650 redesign/name change"
       },
       {
         "label": "Recommendation",
@@ -46918,7 +48352,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "One 1997 hull family offered as tiller or SS side-console. SS is a configuration suffix, not a separate hull record. It is not the later 1725 Explorer Sport and must not inherit that hull's specifications."
+        "value": "Light and narrow. It is not the later wide Explorer Sport 1725 and should not inherit that boat’s Superior suitability or pricing."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -46931,27 +48365,21 @@ window.BOATBUILDER_BOATS = [
       {
         "label": "Washdown / Carpet Fit",
         "value": "POOR — Extensive fixed carpet in this generation; soft spots and hidden moisture are central inspection items."
-      }
-    ],
-    "valueEras": [
+      },
       {
-        "id": "boat:Lund | 1600 Explorer:value:1990s",
-        "label": "1990s",
-        "startYear": 1990,
-        "endYear": 1999,
-        "lowPrice": 1300,
-        "highPrice": 3800,
-        "basis": "Used complete-package screening estimate"
+        "label": "Research Status",
+        "value": "Strict existing-model generation and value review complete through model year 2026; source-exhausted rows withhold unsupported adjacent-year specifications."
       }
     ],
+    "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lund | 1600 Explorer:gen:1997",
-        "label": "1997 factory specification",
+        "id": "boat:Lund | 1600 Explorer:gen:1997-1998",
+        "label": "1997–1998 1600 Explorer / Explorer SS platform",
         "startYear": 1997,
-        "endYear": 1997,
-        "status": "factory-exact",
-        "specificationBasis": "1997 Lund factory catalog; exact model and model year",
+        "endYear": 1998,
+        "status": "factory-generation",
+        "specificationBasis": "1997 factory catalog exact table; 1999 annual records move to the 1650 Explorer identity",
         "sourceUrl": "https://www.lundboats.com/content/dam/lund/technical/documents/newLN-1997LundCatalog.pdf",
         "specs": {
           "Length": {
@@ -47021,17 +48449,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lund | 1600 Explorer:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 1300,
-            "high": 3800,
-            "basis": "Used complete-package screening estimate"
+            "id": "boat:Lund | 1600 Explorer:value:1997-1998",
+            "label": "1997–1998",
+            "startYear": 1997,
+            "endYear": 1998,
+            "low": 2000,
+            "high": 4500,
+            "basis": "Used complete-package screening estimate based on annual model records, book-value anchors, motor/trailer class, and observed market positioning"
           }
         ]
       }
-    ]
+    ],
+    "generationWarning": "Choose the listing year / hull option. Lund reused model names across redesigns and discontinuous production; specifications and values do not transfer between the listed rows.",
+    "idealMatch": false
   },
   {
     "id": "boat:Northwood | 170 Pro Tourney",
