@@ -48286,14 +48286,14 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Ultracraft (Misty Harbor)",
-    "model": "Stealth 169W",
-    "displayName": "Ultracraft (Misty Harbor) | Stealth 169W",
-    "subtitle": "2006-2008 verified Stealth 169W generation; later 169W naming is not inherited",
+    "model": "Stealth 169W / 169W",
+    "displayName": "Ultracraft (Misty Harbor) | Stealth 169W / 169W",
+    "subtitle": "2006-2012 roster-verified Stealth 169W / 169W family",
     "badge": "Secondary",
-    "lowPrice": 7000,
-    "highPrice": 15500,
-    "priceBasis": "Generation-contained current used complete-package estimate. Heavily equipped dealer packages can exceed the project's ceiling.",
-    "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
+    "lowPrice": 5500,
+    "highPrice": 13000,
+    "priceBasis": "Roster-contained complete-package screening ranges. The 2009 naming change is an evidence boundary, not a claimed hull redesign.",
+    "sourceUrl": "https://pdf.nauticexpo.com/pdf/misty-harbor/ultracraftbrochure/20877-41153.html",
     "image": {
       "url": "https://cdnmedia.endeavorsuite.com/images/organizations/541bf838-d590-473f-a1a0-9aec3c8b7200/inventory/14452861/IMG_6487.jpeg",
       "source": "https://www.haywardpowersports.com/inventory/2006-ultracraft-stealth-169w-hayward-wi-54843-14452861i",
@@ -48303,7 +48303,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006-2008 verified Stealth 169W production identity"
+        "value": "2006-2008 Stealth 169W; 2009-2012 169W continuation"
       },
       {
         "label": "Recommendation",
@@ -48359,7 +48359,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "75–90"
+        "value": "75-90"
       },
       {
         "label": "Persons",
@@ -48395,7 +48395,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "A light, tow-friendly dual-console fish-and-ski boat. Its 86-inch beam, 13-degree deadrise and carpeted plywood interior make it better for inland lakes and carefully chosen nearshore Superior days than as a four-person big-water-first platform."
+        "value": "The annual Ultracraft index continues this dual-console family through 2012 under the shortened 169W name. The evidence does not establish a 2009 hull redesign, so the app shows a naming/evidence boundary rather than inventing one. It remains light and narrow for four-person Lake Superior use."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -48411,19 +48411,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "The factory brochure and 2006-2008 model rosters were reconciled. Later Ultracraft 169W records are not silently treated as the same Stealth generation."
+        "value": "Roster-checked for this relevant family through 2012. The earlier audit incorrectly stopped at 2008 because it failed to reconcile the later 169W roster name."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:gen:2006-2008",
-        "label": "2006-2008 Stealth 169W factory generation",
+        "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:gen:2006-2008-stealth",
+        "label": "2006-2008 Stealth 169W factory-brochure era",
         "startYear": 2006,
         "endYear": 2008,
-        "status": "factory-generation",
-        "specificationBasis": "The Misty Harbor Ultracraft brochure publishes the exact Stealth 169W dimensions, ratings and construction. Annual model indexes retain the Stealth 169W identity through 2008; later 169W naming is treated separately rather than inheriting these specifications.",
-        "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
+        "status": "factory-brochure-era",
+        "specificationBasis": "The Misty Harbor Ultracraft brochure and annual index document the Stealth 169W. This is the branded Stealth era, not proof of a physical break after 2008.",
+        "sourceUrl": "https://pdf.nauticexpo.com/pdf/misty-harbor/ultracraftbrochure/20877-41153.html",
         "specs": {
           "Length": {
             "value": "16'9\"",
@@ -48484,32 +48484,92 @@ window.BOATBUILDER_BOATS = [
             "label": "2006-2008",
             "startYear": 2006,
             "endYear": 2008,
-            "low": 7000,
-            "high": 15500,
-            "basis": "Current used complete-package screening estimate; motor age, trailer, structural condition, canvas, kicker and electronics can move an individual package outside the range."
+            "low": 5500,
+            "high": 11000,
+            "basis": "Current used complete-package screening estimate. Motor age, trailer condition, floor/transom condition, canvas, kicker and electronics can move an individual package outside the range."
           }
         ],
         "evidenceUrls": [
-          "https://www.boats.za.net/ultracraft",
-          "https://www.haywardpowersports.com/inventory/2006-ultracraft-stealth-169w-hayward-wi-54843-14452861i"
+          "https://www.boats.za.net/ultracraft"
+        ]
+      },
+      {
+        "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:gen:2009-2012-169w",
+        "label": "2009-2012 169W annual-roster continuation",
+        "startYear": 2009,
+        "endYear": 2012,
+        "status": "annual-roster-continuation",
+        "specificationBasis": "The annual Ultracraft model index lists a 169W for every model year from 2009 through 2012. Surviving records retain the same 16'9-inch, 86-inch, 90-hp family identity. This row records the naming/evidence transition and does not claim a redesign.",
+        "sourceUrl": "https://www.boats.za.net/ultracraft",
+        "specs": {
+          "Length": {
+            "value": "16'9\"",
+            "confidence": "annual-database-family"
+          },
+          "Beam": {
+            "value": "86\"",
+            "confidence": "annual-database-family"
+          },
+          "Dry Hull Weight": {
+            "value": "870 lb",
+            "confidence": "annual-database-family"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "annual-database-family"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "annual-database-family"
+          },
+          "Capacity Weight": {
+            "value": "1,400 lb",
+            "confidence": "annual-database-family"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "annual-database-family"
+          },
+          "Layout": {
+            "value": "Dual consoles with walk-through windshield",
+            "confidence": "family-continuation"
+          },
+          "Construction": {
+            "value": "Aluminum deep-V; earlier family brochure documents riveted construction and treated plywood decking, so verify the exact later boat",
+            "confidence": "family-continuation-not-reverified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:value:2009-2012",
+            "label": "2009-2012",
+            "startYear": 2009,
+            "endYear": 2012,
+            "low": 7000,
+            "high": 13000,
+            "basis": "Current used complete-package screening estimate. Motor age, trailer condition, floor/transom condition, canvas, kicker and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.bestcovers.com/products/2012-ultracraft-stealth-169-w-bestfit-300-boat-cover"
         ]
       }
     ],
-    "generationWarning": "Apply these specifications only to a verified 2006-2008 Stealth 169W. Seller-advertised 2005 examples and later models labeled simply 169W require separate HIN and brochure verification."
+    "generationWarning": "The 2009 boundary reflects a published model-name transition from Stealth 169W to 169W, not a proven hull redesign. Verify the HIN, capacity plate, floor and exact construction on any listing."
   },
   {
     "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Ultracraft (Misty Harbor)",
-    "model": "Stealth 178W",
-    "displayName": "Ultracraft (Misty Harbor) | Stealth 178W",
-    "subtitle": "2006-2008 verified Stealth 178W generation; corrected factory dimensions and ratings",
+    "model": "Stealth 178W / 178W",
+    "displayName": "Ultracraft (Misty Harbor) | Stealth 178W / 178W",
+    "subtitle": "2006-2012 roster-verified Stealth 178W / 178W family with published spec conflicts retained",
     "badge": "Secondary",
-    "lowPrice": 7500,
-    "highPrice": 16000,
-    "priceBasis": "Generation-contained current used complete-package estimate; kicker, electronics, canvas and structural condition materially affect value.",
-    "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
+    "lowPrice": 6500,
+    "highPrice": 17000,
+    "priceBasis": "Roster-contained complete-package screening ranges. Later well-rigged examples can exceed the project ceiling.",
+    "sourceUrl": "https://pdf.nauticexpo.com/pdf/misty-harbor/ultracraftbrochure/20877-41153.html",
     "image": {
       "url": "https://www.boats.za.net/images/2008-ultracraft-boats-stealth-178w.jpg",
       "source": "https://www.boats.za.net/boat-specs.aspx?boat=Ultracraft-Stealth-178W-2008&bt=30126",
@@ -48519,7 +48579,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006-2008 verified Stealth 178W production identity"
+        "value": "2006-2008 Stealth 178W; 2009-2012 178W continuation"
       },
       {
         "label": "Recommendation",
@@ -48539,7 +48599,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Beam",
-        "value": "94\""
+        "value": "Published conflict: 94\" factory brochure; 95\" year-specific records"
       },
       {
         "label": "Chine / Bottom Width",
@@ -48575,7 +48635,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "90-115"
       },
       {
         "label": "Persons",
@@ -48607,11 +48667,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary, but physically strong: 17'8 inches, 94-inch beam, 1,120-lb hull and full windshield suit nearshore Superior use; scarcity, carpeted plywood and defunct-model support keep it opportunistic."
+        "value": "Secondary, but physically strong: the 17'8-inch, roughly 95-inch, 1,120-lb, 115-hp hull is the better Ultracraft fit for nearshore Superior. Carpeted plywood and scarce legacy support remain drawbacks."
       },
       {
         "label": "Notes",
-        "value": "The factory brochure corrects the old blended numbers: 94-inch beam, 44-inch bow height, 13-degree deadrise and 115-hp rating. It is materially more suitable than the 169W for the intended use, but four-person Superior fishing still depends on weather discipline and total loaded weight."
+        "value": "The annual model index continues the hull through 2012 as 178W, while surviving cover fitment and the photographed 2010 listing retain Stealth 178 W branding. Published sources conflict on beam, bow height and deadrise; the app now shows those conflicts rather than selecting the convenient figures."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -48627,43 +48687,43 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "The factory brochure and 2006-2008 model rosters were reconciled. The prior 95-inch beam, 36-inch bow and 15-degree deadrise values were removed as unsupported for this Stealth generation."
+        "value": "Roster-checked for this relevant family through 2012. The earlier audit incorrectly stopped at 2008 and overstated certainty about conflicting factory-brochure and year-specific dimensions."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:gen:2006-2008",
-        "label": "2006-2008 Stealth 178W factory generation",
+        "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:gen:2006-2008-stealth",
+        "label": "2006-2008 Stealth 178W conflicting published evidence",
         "startYear": 2006,
         "endYear": 2008,
-        "status": "factory-generation",
-        "specificationBasis": "The Misty Harbor Ultracraft brochure publishes exact Stealth 178W specifications. Annual model indexes retain the Stealth 178W identity through 2008; later models called 178W are not assumed to share this hull without separate evidence.",
-        "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
+        "status": "published-conflict-era",
+        "specificationBasis": "The factory-style brochure and year-specific specification records agree on the core 17'8-inch, 1,120-lb, 115-hp identity but conflict on beam, bow height, deadrise and transom options. Both published values are retained.",
+        "sourceUrl": "https://pdf.nauticexpo.com/pdf/misty-harbor/ultracraftbrochure/20877-41153.html",
         "specs": {
           "Length": {
             "value": "17'8\"",
             "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "94\"",
-            "confidence": "cited-source-exact"
+            "value": "94\" factory brochure; 95\" year-specific records",
+            "confidence": "published-source-conflict"
           },
           "Max / Bow Depth": {
-            "value": "44\" bow height",
-            "confidence": "cited-source-exact"
+            "value": "44\" factory brochure; 36\" year-specific records",
+            "confidence": "published-source-conflict"
           },
           "Stern Height": {
             "value": "28\"",
             "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "13°",
-            "confidence": "cited-source-exact"
+            "value": "13° factory brochure; 15° year-specific records",
+            "confidence": "published-source-conflict"
           },
           "Transom Height": {
-            "value": "20\" or 25\"",
-            "confidence": "cited-source-exact"
+            "value": "20\" or 25\" factory brochure; 20\" year-specific record",
+            "confidence": "published-source-conflict"
           },
           "Dry Hull Weight": {
             "value": "1,120 lb",
@@ -48677,9 +48737,13 @@ window.BOATBUILDER_BOATS = [
             "value": "1,500 lb",
             "confidence": "cited-source-exact"
           },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "cited-source-exact"
+          },
           "Bottom / Side Thickness": {
             "value": "0.170\" bow/bottom; 0.090\" sides",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-brochure"
           },
           "Max HP": {
             "value": "115",
@@ -48696,18 +48760,93 @@ window.BOATBUILDER_BOATS = [
             "label": "2006-2008",
             "startYear": 2006,
             "endYear": 2008,
-            "low": 7500,
-            "high": 16000,
-            "basis": "Current used complete-package screening estimate; motor age, trailer, structural condition, canvas, kicker and electronics can move an individual package outside the range."
+            "low": 6500,
+            "high": 13000,
+            "basis": "Current used complete-package screening estimate. Motor age, trailer condition, floor/transom condition, canvas, kicker and electronics can move an individual package outside the range."
           }
         ],
         "evidenceUrls": [
           "https://www.boats.za.net/ultracraft",
           "https://www.boats.za.net/boat-specs.aspx?boat=Ultracraft-Stealth-178W-2008&bt=30126"
         ]
+      },
+      {
+        "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:gen:2009-2012-178w",
+        "label": "2009-2012 178W annual-roster continuation",
+        "startYear": 2009,
+        "endYear": 2012,
+        "status": "annual-roster-continuation",
+        "specificationBasis": "The annual Ultracraft index lists a 178W for every model year from 2009 through 2012. Year-specific records publish the same core weight and horsepower while using 95-inch beam, 36-inch bow height and 15-degree deadrise. A photographed 2010 hull and fitment data retain Stealth 178 W branding, so this is treated as continuation rather than a new unrelated model.",
+        "sourceUrl": "https://www.boats.za.net/ultracraft",
+        "specs": {
+          "Length": {
+            "value": "17'8\"",
+            "confidence": "year-specific-records"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "year-specific-records"
+          },
+          "Max / Bow Depth": {
+            "value": "36\" bow height",
+            "confidence": "year-specific-records"
+          },
+          "Stern Height": {
+            "value": "28\"",
+            "confidence": "year-specific-records"
+          },
+          "Deadrise": {
+            "value": "15°",
+            "confidence": "year-specific-records"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "year-specific-records"
+          },
+          "Dry Hull Weight": {
+            "value": "1,120 lb",
+            "confidence": "year-specific-records"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "year-specific-records"
+          },
+          "Capacity Weight": {
+            "value": "1,500 lb",
+            "confidence": "year-specific-records"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "year-specific-records"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "year-specific-records"
+          },
+          "Construction": {
+            "value": "Aluminum deep-V; Stealth-family continuity is documented, but inspect the exact rivets, floor and transom",
+            "confidence": "family-continuation-not-reverified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:value:2009-2012",
+            "label": "2009-2012",
+            "startYear": 2009,
+            "endYear": 2012,
+            "low": 9000,
+            "high": 17000,
+            "basis": "Current used complete-package screening estimate. Motor age, trailer condition, floor/transom condition, canvas, kicker and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.boats.za.net/compare/ultracraft/178w/ultracraft-178w-2010--vs--ultracraft/modified-vee-jon-2070mvd/ultracraft-modified-vee-jon-2070mvd-2006",
+          "https://bestcovers.com/products/2010-ultracraft-stealth-178-w-bestfit-300-boat-cover",
+          "https://bestcovers.com/products/2012-ultracraft-stealth-178-w-bestfit-300-boat-cover"
+        ]
       }
     ],
-    "generationWarning": "Apply these specifications only to a verified 2006-2008 Stealth 178W. Later Ultracraft models labeled 178W require separate brochure and HIN verification."
+    "generationWarning": "The 2009 boundary records a model-name/evidence transition, not a proven hull redesign. Published 178W dimensions conflict; verify the HIN, capacity plate and measured beam on the actual boat."
   },
   {
     "id": "boat:Legend | 17 Xcalibur full-windshield",
