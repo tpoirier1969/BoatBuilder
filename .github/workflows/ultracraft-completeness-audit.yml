@@ -1,0 +1,53 @@
+name: Reopen Ultracraft and audit audit scope
+
+on:
+  push:
+    branches:
+      - audit/ultracraft-completeness
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run Ultracraft correction and completeness validation
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          : > reports/ultracraft-completeness-ci.log
+          node scripts/audit-ultracraft-completeness.mjs | tee -a reports/ultracraft-completeness-ci.log
+          node tests/qa.mjs | tee -a reports/ultracraft-completeness-ci.log
+          node tests/ultracraft-fishrite-qa.mjs | tee -a reports/ultracraft-completeness-ci.log
+          node tests/manufacturer-roster-completeness-qa.mjs | tee -a reports/ultracraft-completeness-ci.log
+          node tests/ultracraft-fishrite-semantic-diff-qa.mjs | tee -a reports/ultracraft-completeness-ci.log
+          node scripts/report-unfinished.mjs | tee -a reports/ultracraft-completeness-ci.log
+          node scripts/report-ultracraft-fishrite-current.mjs | tee -a reports/ultracraft-completeness-ci.log
+          node scripts/report-manufacturer-audit-scope.mjs | tee -a reports/ultracraft-completeness-ci.log
+          echo "ultracraft_completeness_status=passed" | tee -a reports/ultracraft-completeness-ci.log
+      - name: Commit verified correction and audit-scope reports
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/boats.js \
+            reports/ultracraft-fishrite-current.json \
+            reports/ultracraft-fishrite-current.md \
+            reports/manufacturer-audit-scope.json \
+            reports/manufacturer-audit-scope.md \
+            reports/unfinished-work.json \
+            reports/unfinished-work.md \
+            reports/ultracraft-completeness-ci.log
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply verified Ultracraft completeness correction"
+            git push
+          fi
