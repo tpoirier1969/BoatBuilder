@@ -10794,6 +10794,1437 @@ window.BOATBUILDER_BOATS = [
     "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
   },
   {
+    "id": "boat:Fisher | Hawk 160 WT",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Fisher",
+    "model": "Hawk 160 WT",
+    "displayName": "Fisher | Hawk 160 WT",
+    "subtitle": "2004-2007 documented walk-through family; 2006 weight change separated",
+    "badge": "Primary",
+    "lowPrice": 4000,
+    "highPrice": 10000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the year-specific evidence row before judging a listing.",
+    "sourceUrl": "https://www.boats.za.net/fisher/hawk-160-wt/fisher-hawk-160-wt-2007",
+    "image": {
+      "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
+      "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
+      "matchQuality": "Same manufacturer/family stand-in",
+      "note": "Existing Fisher Hawk-family image used as a layout stand-in; verify the exact 160 WT listing."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2004-2005; 2006-2007"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good for two; compact for four on Lake Superior"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console walk-through windshield"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "75-90"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Primary-size welded deep-V with a full windshield, but the 16'2-inch hull is compact for four-person big-water fishing."
+      },
+      {
+        "label": "Notes",
+        "value": "The annual rosters show the Hawk 160 WT from 2004 through 2007, not 2005-2007. Published dry weight is 1,340 lb in 2004-2005 and 1,345 lb in 2006-2007. It is tow-friendly, but four anglers would be crowded."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over an aging deck substrate was typical; inspect for replacement work, moisture and soft spots."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; verify the individual boat rather than trusting clean carpet or seller wording."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats, not hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "Annual Fisher rosters and year-specific specification sheets were reconciled; no unsupported 2008 continuation is claimed."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Fisher | Hawk 160 WT:gen:2004-2005",
+        "label": "2004-2005 Hawk 160 WT",
+        "startYear": 2004,
+        "endYear": 2005,
+        "status": "annual-roster-generation",
+        "specificationBasis": "Annual rosters list the Hawk 160 WT at 1,340 lb in both years. The 2005 year sheet publishes the 16'2-inch length, 92-inch beam, 25-inch depth, 24-gallon tank, five-person rating and 90-hp maximum.",
+        "sourceUrl": "https://www.jdpower.com/boats/2005/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "16'2\"",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Dry Hull Weight": {
+            "value": "1,340 lb",
+            "confidence": "annual-roster"
+          },
+          "Max / Bow Depth": {
+            "value": "25\"",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Capacity Weight": {
+            "value": "1,300 lb",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Layout": {
+            "value": "Dual-console walk-through windshield",
+            "confidence": "model-identity-verified"
+          },
+          "Construction": {
+            "value": "All-welded aluminum modified-V/deep-V family",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 160 WT:value:2004-2005",
+            "label": "2004-2005",
+            "startYear": 2004,
+            "endYear": 2005,
+            "low": 4000,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2004/fisher-boats/power-boats",
+          "https://www.boats.za.net/boat-specs.aspx?boat=Fisher-Hawk-160-WT-2005&bt=40676"
+        ]
+      },
+      {
+        "id": "boat:Fisher | Hawk 160 WT:gen:2006-2007",
+        "label": "2006-2007 Hawk 160 WT",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "year-specific-generation",
+        "specificationBasis": "The 2006-2007 rosters raise dry weight to about 1,345 lb. The 2007 sheet publishes the 74-inch bottom width, 0.090-inch hull thickness and 22-inch depth.",
+        "sourceUrl": "https://www.boats.za.net/fisher/hawk-160-wt/fisher-hawk-160-wt-2007",
+        "specs": {
+          "Length": {
+            "value": "16'2\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "74\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,345 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "22\"",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,300 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.090\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Dual-console walk-through windshield",
+            "confidence": "model-identity-verified"
+          },
+          "Construction": {
+            "value": "All-welded aluminum modified-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 160 WT:value:2006-2007",
+            "label": "2006-2007",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 5000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2006/fisher-boats",
+          "https://www.jdpower.com/boats/2007/fisher-boats"
+        ]
+      }
+    ],
+    "generationWarning": "Verify the HIN, capacity plate, exact windshield trim, floor, transom and motor before applying these specifications or price ranges.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Fisher | Hawk 170 Sport",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Fisher",
+    "model": "Hawk 170 Sport",
+    "displayName": "Fisher | Hawk 170 Sport",
+    "subtitle": "2004-2008 separate Sport trim; 2006 wider-hull change separated",
+    "badge": "Primary",
+    "lowPrice": 5000,
+    "highPrice": 12500,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the year-specific evidence row before judging a listing.",
+    "sourceUrl": "https://www.boats.za.net/fisher/hawk-170-sport",
+    "image": {
+      "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
+      "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
+      "matchQuality": "Same manufacturer/family stand-in",
+      "note": "Fisher Hawk-family stand-in; the Sport seating layout must be confirmed from listing photos."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2004-2005; 2006-2008"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Very good hull; sport seating can reduce open fishing room"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console walk-through windshield with sport/family seating"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90-150"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Primary hull geometry, but the Sport interior is less fishing-efficient than the WT trim."
+      },
+      {
+        "label": "Notes",
+        "value": "The Sport and WT were separate Fisher roster entries. The Sport carries more family-oriented seating and should not be treated as an alias for the WT. Verify cockpit openness before buying for four-person trolling."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over an aging deck substrate was typical; inspect for replacement work, moisture and soft spots."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; verify the individual boat rather than trusting clean carpet or seller wording."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats, not hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "Annual rosters and year sheets establish a separate 2004-2008 Sport trim with a 2006 beam and hull-family change."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Fisher | Hawk 170 Sport:gen:2004-2005",
+        "label": "2004-2005 narrow Hawk 170 Sport",
+        "startYear": 2004,
+        "endYear": 2005,
+        "status": "year-specific-generation",
+        "specificationBasis": "The 2004-2005 Sport sheets publish the 17'4-inch, 94-inch-beam, 1,450-lb configuration with a 125-hp maximum.",
+        "sourceUrl": "https://www.boats.za.net/compare/fisher/hawk-170-sport/fisher-hawk-170-sport-2004--vs--fisher/hawk-170-sport/fisher-hawk-170-sport-2005",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "94\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "74\"",
+            "confidence": "2005-year-sheet"
+          },
+          "Dry Hull Weight": {
+            "value": "1,450 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "25\"",
+            "confidence": "2005-year-sheet"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,530 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "2005-year-sheet"
+          },
+          "Layout": {
+            "value": "Dual-console walk-through windshield with sport seating",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 170 Sport:value:2004-2005",
+            "label": "2004-2005",
+            "startYear": 2004,
+            "endYear": 2005,
+            "low": 5000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2004/fisher-boats/hawk-170-sport_/10228327/specs",
+          "https://rnr-marine.com/auto/Fisher_Hawk-170-Sport--WT-dual-console%2C-OB_%282004-2008%29.shtml"
+        ]
+      },
+      {
+        "id": "boat:Fisher | Hawk 170 Sport:gen:2006-2008",
+        "label": "2006-2008 wider Hawk 170 Sport",
+        "startYear": 2006,
+        "endYear": 2008,
+        "status": "published-hp-conflict-generation",
+        "specificationBasis": "The Sport moves to the 98-inch family hull. Published maximum horsepower is 150 in 2006 and 2008 but 135 in the retained 2007 sheet, so the annual distinction is preserved.",
+        "sourceUrl": "https://www.boats.za.net/fisher/hawk-170-sport/fisher-hawk-170-sport-2008",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "98\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,400 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "27\"",
+            "confidence": "cited-source-exact"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "150 (2006 and 2008); 135 published for 2007",
+            "confidence": "year-specific-conflict"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,650 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Dual-console walk-through windshield with sport seating",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 170 Sport:value:2006-2008",
+            "label": "2006-2008",
+            "startYear": 2006,
+            "endYear": 2008,
+            "low": 6000,
+            "high": 12500,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.boats.za.net/fisher/hawk-170-sport/fisher-hawk-170-sport-2006",
+          "https://www.boats.za.net/fisher/hawk-170-sport"
+        ]
+      }
+    ],
+    "generationWarning": "Verify the HIN, capacity plate, exact windshield trim, floor, transom and motor before applying these specifications or price ranges.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Fisher | Hawk 170 WT",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Fisher",
+    "model": "Hawk 170 WT",
+    "displayName": "Fisher | Hawk 170 WT",
+    "subtitle": "2005-2008 documented WT trim; 2006 wider-hull change separated",
+    "badge": "Primary",
+    "lowPrice": 5000,
+    "highPrice": 12000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the year-specific evidence row before judging a listing.",
+    "sourceUrl": "https://www.boats.za.net/fisher/hawk-170-wt/fisher-hawk-170-wt-2005",
+    "image": {
+      "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
+      "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
+      "matchQuality": "Same manufacturer/family stand-in",
+      "note": "Existing Fisher Hawk-family image used as a stand-in; verify WT versus Sport badging and seating."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2005; 2006-2008"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Very good for two or three; workable for four"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory walk-through windshield fishing trim"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90-150"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Strong Primary candidate: welded 17'4-inch platform with a full windshield and useful cockpit depth."
+      },
+      {
+        "label": "Notes",
+        "value": "Fisher listed the Hawk 170 WT separately from the Hawk 170 Sport. The 2005 WT is a 94-inch-beam, 125-hp boat; the 2006-2008 WT uses the wider 98-inch family hull and should not be blended backward."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over an aging deck substrate was typical; inspect for replacement work, moisture and soft spots."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; verify the individual boat rather than trusting clean carpet or seller wording."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats, not hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "The separate WT identity and its 2005 versus 2006-2008 hull dimensions were retained; it is not merged with the Sport trim."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Fisher | Hawk 170 WT:gen:2005",
+        "label": "2005 Hawk 170 WT",
+        "startYear": 2005,
+        "endYear": 2005,
+        "status": "year-specific-generation",
+        "specificationBasis": "The 2005 WT sheet publishes the narrower 94-inch beam, 1,400-lb hull and 125-hp maximum.",
+        "sourceUrl": "https://www.boats.za.net/fisher/hawk-170-wt/fisher-hawk-170-wt-2005",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "94\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "74\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,400 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "25\"",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,530 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 170 WT:value:2005",
+            "label": "2005",
+            "startYear": 2005,
+            "endYear": 2005,
+            "low": 5000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Fisher | Hawk 170 WT:gen:2006-2008",
+        "label": "2006-2008 wider Hawk 170 WT",
+        "startYear": 2006,
+        "endYear": 2008,
+        "status": "year-specific-generation",
+        "specificationBasis": "Later year sheets document the wider 98-inch family hull, 82-inch bottom, 1,400-lb dry weight and 150-hp ceiling.",
+        "sourceUrl": "https://www.boats.za.net/fisher/hawk-170-wt",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "98\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "82\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,400 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "27\"",
+            "confidence": "2008-year-sheet"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "2008-year-sheet"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,650 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 170 WT:value:2006-2008",
+            "label": "2006-2008",
+            "startYear": 2006,
+            "endYear": 2008,
+            "low": 6000,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2006/fisher-boats",
+          "https://www.jdpower.com/boats/2007/fisher-boats",
+          "https://www.jdpower.com/boats/2008/fisher-boats"
+        ]
+      }
+    ],
+    "generationWarning": "Verify the HIN, capacity plate, exact windshield trim, floor, transom and motor before applying these specifications or price ranges.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Fisher | 16 Pro Avenger WT",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Fisher",
+    "model": "16 Pro Avenger WT",
+    "displayName": "Fisher | 16 Pro Avenger WT",
+    "subtitle": "2006-2008 compact Pro Avenger WT; annual weight and horsepower changes separated",
+    "badge": "Primary",
+    "lowPrice": 4500,
+    "highPrice": 9500,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the year-specific evidence row before judging a listing.",
+    "sourceUrl": "https://www.boats.za.net/fisher/16-pro-avenger-wt",
+    "image": {
+      "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
+      "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
+      "matchQuality": "Same manufacturer/family stand-in",
+      "note": "Fisher-family stand-in; confirm the Pro Avenger WT windshield and interior from the listing."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2006; 2007; 2008"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Adequate nearshore for two; narrow and compact for four"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory walk-through windshield fishing layout"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "60-75"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Budget-friendly Primary-size option, but its 85-inch beam is materially narrower than stronger Lake Superior candidates."
+      },
+      {
+        "label": "Notes",
+        "value": "This is the 16 Pro Avenger WT, not the side-console 160 Pro Avenger. The annual rosters show 1,225 lb in 2006-2007 and 1,194 lb in 2008; the 2006 maximum was 60 hp before the later 75-hp rating."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over an aging deck substrate was typical; inspect for replacement work, moisture and soft spots."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; verify the individual boat rather than trusting clean carpet or seller wording."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats, not hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "The exact WT identity and annual roster changes were reconciled for 2006-2008."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Fisher | 16 Pro Avenger WT:gen:2006",
+        "label": "2006 16 Pro Avenger WT",
+        "startYear": 2006,
+        "endYear": 2006,
+        "status": "annual-roster-and-year-sheet",
+        "specificationBasis": "The 2006 roster lists a 1,225-lb WT package; the year sheet reports a 60-hp maximum.",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Dry Hull Weight": {
+            "value": "1,225 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "60",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | 16 Pro Avenger WT:value:2006",
+            "label": "2006",
+            "startYear": 2006,
+            "endYear": 2006,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Fisher | 16 Pro Avenger WT:gen:2007",
+        "label": "2007 16 Pro Avenger WT",
+        "startYear": 2007,
+        "endYear": 2007,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The 2007 roster retains the 1,225-lb hull while the published maximum rises to 75 hp.",
+        "sourceUrl": "https://www.jdpower.com/boats/2007/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Dry Hull Weight": {
+            "value": "1,225 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | 16 Pro Avenger WT:value:2007",
+            "label": "2007",
+            "startYear": 2007,
+            "endYear": 2007,
+            "low": 5000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Fisher | 16 Pro Avenger WT:gen:2008",
+        "label": "2008 lighter published 16 Pro Avenger WT",
+        "startYear": 2008,
+        "endYear": 2008,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The 2008 roster lowers published dry weight to 1,194 lb while retaining the WT model and 75-hp family rating.",
+        "sourceUrl": "https://www.jdpower.com/boats/2008/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Dry Hull Weight": {
+            "value": "1,194 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "year-specific-secondary-source"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | 16 Pro Avenger WT:value:2008",
+            "label": "2008",
+            "startYear": 2008,
+            "endYear": 2008,
+            "low": 5500,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      }
+    ],
+    "generationWarning": "Verify the HIN, capacity plate, exact windshield trim, floor, transom and motor before applying these specifications or price ranges.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Fisher | 17 Pro Avenger WT",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Fisher",
+    "model": "17 Pro Avenger WT",
+    "displayName": "Fisher | 17 Pro Avenger WT",
+    "subtitle": "2006-2008 Pro Avenger WT; 2008 published weight drop separated",
+    "badge": "Primary",
+    "lowPrice": 5500,
+    "highPrice": 11000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the year-specific evidence row before judging a listing.",
+    "sourceUrl": "https://www.boats.za.net/fisher/17-pro-avenger-wt",
+    "image": {
+      "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
+      "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
+      "matchQuality": "Same manufacturer/family stand-in",
+      "note": "Fisher-family stand-in; confirm the exact Pro Avenger WT trim and seating."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2006-2007; 2008"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good to very good for two or three; workable for four"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory walk-through windshield fishing layout"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90-135"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Strong budget-era candidate with useful 17'4-inch length, though narrower and less refined than top-tier Primary boats."
+      },
+      {
+        "label": "Notes",
+        "value": "The annual rosters call this both 17 Pro Avenger WT and 170 Pro Avenger WT. The 2006-2007 boats are listed at 1,450 lb, while 2008 drops to 1,325 lb; that change is retained rather than averaged."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over an aging deck substrate was typical; inspect for replacement work, moisture and soft spots."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; verify the individual boat rather than trusting clean carpet or seller wording."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats, not hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "Annual 2006-2008 rosters and exact-model specification sheets were reconciled, including the 17/170 naming variation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Fisher | 17 Pro Avenger WT:gen:2006-2007",
+        "label": "2006-2007 17/170 Pro Avenger WT",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The 2006 and 2007 rosters list the WT at 1,450 lb. The exact 2006 sheet supplies the 17'4-inch length, 92-inch beam, 74-inch bottom, 30-gallon tank and 135-hp maximum.",
+        "sourceUrl": "https://www.boats.za.net/fisher/17-pro-avenger-wt/fisher-17-pro-avenger-wt-2006",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "74\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,450 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "135",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,530 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | 17 Pro Avenger WT:value:2006-2007",
+            "label": "2006-2007",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 5500,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2006/fisher-boats",
+          "https://www.jdpower.com/boats/2007/fisher-boats"
+        ]
+      },
+      {
+        "id": "boat:Fisher | 17 Pro Avenger WT:gen:2008",
+        "label": "2008 lighter published 17/170 Pro Avenger WT",
+        "startYear": 2008,
+        "endYear": 2008,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The 2008 annual roster retains the WT but lowers published dry weight to 1,325 lb.",
+        "sourceUrl": "https://www.jdpower.com/boats/2008/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "17'4\"",
+            "confidence": "family-continuation"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "family-continuation"
+          },
+          "Chine / Bottom Width": {
+            "value": "74\"",
+            "confidence": "family-continuation"
+          },
+          "Dry Hull Weight": {
+            "value": "1,325 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "135",
+            "confidence": "family-continuation"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "family-continuation"
+          },
+          "Capacity Weight": {
+            "value": "1,530 lb",
+            "confidence": "family-continuation"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "family-continuation"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "cited-source-exact"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | 17 Pro Avenger WT:value:2008",
+            "label": "2008",
+            "startYear": 2008,
+            "endYear": 2008,
+            "low": 6000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      }
+    ],
+    "generationWarning": "Verify the HIN, capacity plate, exact windshield trim, floor, transom and motor before applying these specifications or price ranges.",
+    "idealMatch": false
+  },
+  {
     "id": "boat:G3 | Angler V172 FS / WT",
     "categoryId": "boats",
     "categoryName": "Boats",
@@ -48847,6 +50278,290 @@ window.BOATBUILDER_BOATS = [
       }
     ],
     "generationWarning": "The 2009 boundary records a model-name/evidence transition, not a proven hull redesign. Published 178W dimensions conflict; verify the HIN, capacity plate and measured beam on the actual boat."
+  },
+  {
+    "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Ultracraft (Misty Harbor)",
+    "model": "Trophy 166W / 166W",
+    "displayName": "Ultracraft (Misty Harbor) | Trophy 166W / 166W",
+    "subtitle": "2007-2008 Trophy 166W and documented 2010 166W; no invented continuous 2006-2012 run",
+    "badge": "Primary",
+    "lowPrice": 5000,
+    "highPrice": 11000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the year-specific evidence row before judging a listing.",
+    "sourceUrl": "https://www.boats.za.net/ultracraft",
+    "image": {
+      "url": "https://cdnmedia.endeavorsuite.com/images/organizations/541bf838-d590-473f-a1a0-9aec3c8b7200/inventory/14452861/IMG_6487.jpeg",
+      "source": "https://www.haywardpowersports.com/inventory/2006-ultracraft-stealth-169w-hayward-wi-54843-14452861i",
+      "matchQuality": "Same manufacturer/family stand-in",
+      "note": "Existing Ultracraft family image used as a stand-in; exact Trophy 166W/166W layout must be verified."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2007-2008; 2010"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Fair nearshore for two; too narrow for four-person Superior fishing"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console/windshield compact fishing layout"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "50-75"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary despite target length: the 80-inch beam is substantially narrower than preferred big-water candidates."
+      },
+      {
+        "label": "Notes",
+        "value": "The earlier roster audit overstated this as a continuous 2006-2012 family. Retained model indexes support Trophy 166W in 2007-2008 and a model named simply 166W in 2010. No 2006, 2009, 2011 or 2012 W year is claimed here."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over an aging deck substrate was typical; inspect for replacement work, moisture and soft spots."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; verify the individual boat rather than trusting clean carpet or seller wording."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats, not hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "The Trophy and shortened-name evidence is split honestly. The exact dry weight of the 2007-2008 W trim was not recovered, so it is not borrowed from the single-console 166C."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W:gen:2007-2008-trophy",
+        "label": "2007-2008 Trophy 166W roster and family-hull evidence",
+        "startYear": 2007,
+        "endYear": 2008,
+        "status": "roster-and-family-hull-evidence",
+        "specificationBasis": "Annual indexes document the Trophy 166W in 2007-2008. The factory Trophy 166 family brochure supports the 16'6-inch, 80-inch-beam, riveted hull, but the exact W-trim dry weight was not recovered and is left unpublished.",
+        "sourceUrl": "https://www.boats.za.net/ultracraft",
+        "specs": {
+          "Length": {
+            "value": "16'6\"",
+            "confidence": "factory-family-hull"
+          },
+          "Beam": {
+            "value": "80\"",
+            "confidence": "factory-family-hull"
+          },
+          "Dry Hull Weight": {
+            "value": "Not recovered for the W trim; do not substitute the 166C weight",
+            "confidence": "not-published"
+          },
+          "Max / Bow Depth": {
+            "value": "32\"",
+            "confidence": "factory-family-hull"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-family-hull"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "family-and-roster-evidence"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "family-and-roster-evidence"
+          },
+          "Capacity Weight": {
+            "value": "1,320 lb",
+            "confidence": "factory-family-hull"
+          },
+          "Fuel Capacity": {
+            "value": "16 gal",
+            "confidence": "factory-family-hull"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-family-hull"
+          },
+          "Layout": {
+            "value": "Dual-console/windshield W trim",
+            "confidence": "model-identity-verified"
+          },
+          "Construction": {
+            "value": "Riveted aluminum modified-V with treated plywood decking",
+            "confidence": "factory-family-brochure"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W:value:2007-2008",
+            "label": "2007-2008",
+            "startYear": 2007,
+            "endYear": 2008,
+            "low": 5000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
+          "https://www.boatcovers.com/product_info1.php?cPath=1_185&products_id=4462&sc_products_id=174"
+        ]
+      },
+      {
+        "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W:gen:2010-166w",
+        "label": "2010 Ultracraft 166W exact published row",
+        "startYear": 2010,
+        "endYear": 2010,
+        "status": "year-specific-generation",
+        "specificationBasis": "The retained 2010 sheet documents the shortened 166W name and exact 790-lb, 75-hp configuration. It does not prove continuous production through 2012.",
+        "sourceUrl": "https://www.boats.za.net/ultracraft/166w",
+        "specs": {
+          "Length": {
+            "value": "16'6\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "80\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "790 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "32\"",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,320 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "16 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Dual-console/windshield W trim",
+            "confidence": "model-identity-verified"
+          },
+          "Construction": {
+            "value": "Riveted aluminum modified-V; verify exact deck and transom condition",
+            "confidence": "family-continuation"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W:value:2010",
+            "label": "2010",
+            "startYear": 2010,
+            "endYear": 2010,
+            "low": 6000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      }
+    ],
+    "generationWarning": "Verify the HIN, capacity plate, exact windshield trim, floor, transom and motor before applying these specifications or price ranges.",
+    "idealMatch": false
   },
   {
     "id": "boat:Legend | 17 Xcalibur full-windshield",

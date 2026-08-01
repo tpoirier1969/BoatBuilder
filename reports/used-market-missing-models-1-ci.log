@@ -1,0 +1,12 @@
+Added 6 boat records and reduced the missing-model candidate list to 121.
+Updated Fisher and Ultracraft focused QA counts for the first missing-model batch.
+Captured 176 boat records across 24 manufacturers.
+Reported 121 candidate roster gaps: 104 high-confidence and 17 medium-confidence.
+BoatBuilder QA passed: 357 items, 176 boats, 181 equipment records.
+Verified canonical app data, focused Lund and Alumacraft generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
+Fisher QA passed: 8 models and 18 non-overlapping generation/evidence rows.
+Ultracraft/Fish-Rite QA passed: 4 records, 7 evidence rows, and corrected Ultracraft windshield-family coverage.
+Used-market missing-model batch QA passed: 6 records added and 5 audit candidates resolved.
+All-manufacturer roster-gap QA passed: 24 manufacturers, 121 candidates, 104 high-confidence.
+Semantic diff QA passed: six approved rows were added and all 170 pre-existing boats remained unchanged.
+used_market_missing_models_1_status=passed

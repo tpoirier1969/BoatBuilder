@@ -1,17 +1,17 @@
 # All-Manufacturer Missing-Model Audit
 
-Generated 2026-08-01T17:50:37.120Z.
+Generated 2026-08-01T18:38:55.116Z.
 
 ## Scope
 
 Find aluminum deep-V fishing boats missing from BoatBuilder, not merely validate records already present.
 
-- Catalog baseline: 170 boat records across 24 manufacturers
+- Catalog baseline: 176 boat records across 24 manufacturers
 - Manufacturers audited: 24
-- Candidate missing models or continuity gaps: 126
-- High-confidence: 109
+- Candidate missing models or continuity gaps: 121
+- High-confidence: 104
 - Medium-confidence: 17
-- Primary-size/use candidates: 66
+- Primary-size/use candidates: 61
 - Secondary screening entries: 54
 - Continuity or alias reviews: 6
 
@@ -26,7 +26,7 @@ A candidate is not automatically a new BoatBuilder row. Continuity/alias entries
 | Alumacraft | missing-models-found | 5 | 5 | 0 | 1 |
 | Crestliner | missing-models-found | 10 | 10 | 0 | 6 |
 | Fish-Rite | custom-build-manual-audit | 0 | 0 | 0 | 0 |
-| Fisher | missing-models-found | 9 | 7 | 2 | 7 |
+| Fisher | missing-models-found | 5 | 3 | 2 | 3 |
 | G3 | missing-models-found | 7 | 7 | 0 | 4 |
 | Hewescraft | missing-models-found | 7 | 7 | 0 | 1 |
 | Legend | missing-models-found | 5 | 4 | 1 | 2 |
@@ -46,7 +46,7 @@ A candidate is not automatically a new BoatBuilder row. Continuity/alias entries
 | Sylvan | missing-models-found | 8 | 8 | 0 | 6 |
 | Tracker | missing-models-found | 4 | 4 | 0 | 3 |
 | Triton | missing-models-found | 4 | 4 | 0 | 1 |
-| Ultracraft (Misty Harbor) | missing-models-found | 2 | 2 | 0 | 1 |
+| Ultracraft (Misty Harbor) | missing-models-found | 1 | 1 | 0 | 0 |
 
 ## High-confidence primary candidates
 
@@ -60,10 +60,6 @@ A candidate is not automatically a new BoatBuilder row. Continuity/alias entries
 | Crestliner | 1750 Raptor WT | 2019-2022 era | Factory catalogs list a 1750 Raptor walk-through model; no Raptor family exists in BoatBuilder. |
 | Crestliner | Authority 1750 WT | 2021-era | Factory specification matrix lists a 1750 Authority WT; absent. |
 | Fisher | Hawk 160 FS | 1997-1999 | Model roster lists a smaller fish-and-ski Hawk family absent from BoatBuilder. |
-| Fisher | Hawk 160 WT | 2005-2007 | Explicit WT model absent from BoatBuilder. |
-| Fisher | Hawk 170 Sport / WT | 2004-2008 | Later walk-through Hawk 170 family is separate from the 1997-2002 Hawk 170 FS currently recorded. |
-| Fisher | Pro Avenger 160 WT | 2006-2008 | Explicit 160 WT family absent. |
-| Fisher | Pro Avenger 17 WT | 2006-2008 | Explicit 17-foot WT family absent. |
 | G3 | Angler V164 F | current | Current factory roster includes the compact full-windshield model. |
 | G3 | Angler V17 FS | current | Current full-windshield fish-and-sport family is not the old V172 record. |
 | G3 | Angler V1750 SF | current | Current 17'6 fish-and-family model absent. |
@@ -105,7 +101,6 @@ A candidate is not automatically a new BoatBuilder row. Continuity/alias entries
 | Tracker | Pro Guide V-165 WT | 2019-era | Factory previous-model roster lists a distinct 16'9 WT absent. |
 | Tracker | Pro Guide V-175 Combo | current | Current factory fish-and-family dual-console model absent. |
 | Triton | 176 DV Sport | 2007-era | Annual model roster lists a 17-foot DV Sport absent alongside the existing DV176 Magnum. |
-| Ultracraft (Misty Harbor) | Trophy 166W | 2006-2012 | Annual model rosters list a 16-foot windshield family absent from the corrected 169W/178W audit. |
 
 ## Full manufacturer findings
 
@@ -151,11 +146,7 @@ No fixed model rows were generated. This manufacturer requires listing-by-listin
 | Candidate model/family | Years | Confidence | Classification | Finding | Evidence |
 |---|---|---|---|---|---|
 | Hawk 160 FS | 1997-1999 | high | primary-candidate | Model roster lists a smaller fish-and-ski Hawk family absent from BoatBuilder. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
-| Hawk 160 WT | 2005-2007 | high | primary-candidate | Explicit WT model absent from BoatBuilder. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
-| Hawk 170 Sport / WT | 2004-2008 | high | primary-candidate | Later walk-through Hawk 170 family is separate from the 1997-2002 Hawk 170 FS currently recorded. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
 | Hawk 186 Sport / WT | 2004-2008 | high | secondary-screening | Later walk-through Hawk 186 family is absent. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
-| Pro Avenger 160 WT | 2006-2008 | high | primary-candidate | Explicit 160 WT family absent. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
-| Pro Avenger 17 WT | 2006-2008 | high | primary-candidate | Explicit 17-foot WT family absent. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
 | Avenger 16 WT | 2002-era | medium | primary-candidate | Roster evidence supports an Avenger WT; exact factory chronology still needs brochure confirmation. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
 | F17 DC | 1997-1998 | medium | primary-candidate | Dual-console 17-foot model absent; verify that the center windshield is walk-through on each year. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
 | F18 FS | 1998-era | high | secondary-screening | Fish-and-ski 18-foot model absent. | <https://www.boatcovers.com/custom/fisher-boat-covers> |
@@ -399,7 +390,6 @@ No fixed model rows were generated. This manufacturer requires listing-by-listin
 
 | Candidate model/family | Years | Confidence | Classification | Finding | Evidence |
 |---|---|---|---|---|---|
-| Trophy 166W | 2006-2012 | high | primary-candidate | Annual model rosters list a 16-foot windshield family absent from the corrected 169W/178W audit. | <https://www.boats.za.net/ultracraft> |
 | Stealth 189FS / 189FS | 2008-2012 | high | secondary-screening | Annual model rosters list a larger fish-and-sport family absent. | <https://www.boats.za.net/ultracraft> |
 
 ## Interpretation

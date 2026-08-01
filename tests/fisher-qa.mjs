@@ -10,8 +10,8 @@ for (const path of ["data/boats.js", "data/equipment.js", "data/catalog.js"]) {
 const catalog = sandbox.window.BOATBUILDER_DATA;
 assert.ok(catalog, "Canonical catalog global is missing");
 const fisher = catalog.items.filter(entry => entry.manufacturer === "Fisher");
-assert.equal(fisher.length, 3, "Fisher focused model count changed");
-assert.equal(fisher.reduce((sum, boat) => sum + (boat.designGenerations || []).length, 0), 7, "Fisher generation/evidence-row count changed");
+assert.equal(fisher.length, 8, "Fisher focused model count changed");
+assert.equal(fisher.reduce((sum, boat) => sum + (boat.designGenerations || []).length, 0), 18, "Fisher generation/evidence-row count changed");
 assert.equal(fisher.filter(boat => boat.idealMatch).length, 0, "Fisher ideal-match set changed");
 
 for (const boat of fisher) {
@@ -72,4 +72,4 @@ assert.equal(generation(hawk200, 1999, 1999).specs["Dry Hull Weight"].value, "1,
 assert.equal(generation(hawk200, 2000, 2001).specs.Beam.value, "98\"", "Later Hawk 200 beam changed");
 assert.match(generation(hawk200, 2000, 2001).specs["Dry Hull Weight"].value, /1,550.*1,580|1,580.*1,550/, "Later Hawk 200 annual weights changed");
 
-console.log(`Fisher QA passed: ${fisher.length} models and 7 non-overlapping generation/evidence rows.`);
+console.log(`Fisher QA passed: ${fisher.length} models and 18 non-overlapping generation/evidence rows.`);
