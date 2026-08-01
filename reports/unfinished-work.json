@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-01T02:46:07.329Z",
+  "generatedAt": "2026-08-01T03:03:33.267Z",
   "counts": {
     "catalogItems": 351,
     "boats": 170,
-    "unresolvedRows": 23,
-    "manufacturers": 11
+    "unresolvedRows": 19,
+    "manufacturers": 10
   },
   "unresolved": [
     {
@@ -168,54 +168,6 @@
       "model": "Seahawk 18'6\"",
       "id": "boat:North River | Seahawk 18'6\"",
       "generationId": "boat:North River | Seahawk 18'6\":gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2010-2029",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "Polar Kraft",
-      "model": "Frontier 179 WT",
-      "id": "boat:Polar Kraft | Frontier 179 WT",
-      "generationId": "boat:Polar Kraft | Frontier 179 WT:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2010-2029",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "Polar Kraft",
-      "model": "Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary)",
-      "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary)",
-      "generationId": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2000-2019",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "Polar Kraft",
-      "model": "Kodiak V170 FS",
-      "id": "boat:Polar Kraft | Kodiak V170 FS",
-      "generationId": "boat:Polar Kraft | Kodiak V170 FS:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2000-2019",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "Polar Kraft",
-      "model": "Outlander 2010 WT (Secondary; not Kodiak V180)",
-      "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180)",
-      "generationId": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:unresolved",
       "generation": "Other advertised years — specifications and pricing unresolved",
       "years": "2010-2029",
       "reason": "No unresolved reason recorded",
