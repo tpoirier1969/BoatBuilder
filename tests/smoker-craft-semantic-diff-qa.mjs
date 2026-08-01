@@ -71,6 +71,11 @@ const normalizeUltima = boat => {
       era.basis = normalizeYearText(era.basis);
     }
   }
+  boat.designGenerations.sort((a, b) =>
+    (a.startYear ?? Number.MAX_SAFE_INTEGER) - (b.startYear ?? Number.MAX_SAFE_INTEGER) ||
+    (a.endYear ?? Number.MAX_SAFE_INTEGER) - (b.endYear ?? Number.MAX_SAFE_INTEGER) ||
+    String(a.id).localeCompare(String(b.id))
+  );
 };
 
 for (const id of smokerIds) {
