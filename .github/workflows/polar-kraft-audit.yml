@@ -76,7 +76,7 @@ jobs:
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "4189822+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ "${{ steps.audit.outputs.success }}" = "true" ]; then
             git add data/boats.js reports/unfinished-work.md reports/unfinished-work.json reports/polar-kraft-current.md reports/polar-kraft-current.json reports/polar-kraft-ci.log
             message="Apply verified Polar Kraft audit corrections"
