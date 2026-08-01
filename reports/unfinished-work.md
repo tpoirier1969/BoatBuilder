@@ -1,17 +1,16 @@
 # Unfinished Boat Generation Work
 
-Generated from the canonical catalog on 2026-08-01T13:55:44.481Z.
+Generated from the canonical catalog on 2026-08-01T14:06:28.569Z.
 
 - Catalog items: 351
 - Boat records: 170
-- Unresolved generation rows: 13
-- Manufacturers affected: 7
+- Unresolved generation rows: 10
+- Manufacturers affected: 6
 
 ## Manufacturer summary
 
 | Manufacturer | Models affected | Unresolved rows | Rows missing pricing |
 |---|---:|---:|---:|
-| Fisher | 3 | 3 | 3 |
 | Legend | 3 | 3 | 3 |
 | MonArk | 2 | 2 | 2 |
 | Triton | 2 | 2 | 2 |
@@ -23,9 +22,6 @@ Generated from the canonical catalog on 2026-08-01T13:55:44.481Z.
 
 | Manufacturer | Model | Generation / evidence row | Years | Pricing | Relevance | Recorded reason |
 |---|---|---|---:|---|---|---|
-| Fisher | Hawk 170 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
-| Fisher | Hawk 186 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
-| Fisher | Hawk 200 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
 | Hewescraft | Sportsman 180 | Other advertised years — specifications and pricing unresolved | 2000-2029 | Missing | Secondary / screening | No unresolved reason recorded |
 | Legend | 16 Xcalibur full-windshield | Other advertised years — specifications and pricing unresolved | 2010-2029 | Missing | Secondary / screening | No unresolved reason recorded |
 | Legend | 17 Xcalibur full-windshield | Other advertised years — specifications and pricing unresolved | 2000-2009 | Missing | Secondary / screening | No unresolved reason recorded |

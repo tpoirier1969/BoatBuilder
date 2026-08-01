@@ -1,48 +1,12 @@
 {
-  "generatedAt": "2026-08-01T13:55:44.481Z",
+  "generatedAt": "2026-08-01T14:06:28.569Z",
   "counts": {
     "catalogItems": 351,
     "boats": 170,
-    "unresolvedRows": 13,
-    "manufacturers": 7
+    "unresolvedRows": 10,
+    "manufacturers": 6
   },
   "unresolved": [
-    {
-      "manufacturer": "Fisher",
-      "model": "Hawk 170 FS",
-      "id": "boat:Fisher | Hawk 170 FS",
-      "generationId": "boat:Fisher | Hawk 170 FS:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "1990-2009",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "Fisher",
-      "model": "Hawk 186 FS",
-      "id": "boat:Fisher | Hawk 186 FS",
-      "generationId": "boat:Fisher | Hawk 186 FS:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "1990-2009",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "Fisher",
-      "model": "Hawk 200 FS",
-      "id": "boat:Fisher | Hawk 200 FS",
-      "generationId": "boat:Fisher | Hawk 200 FS:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "1990-2009",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
     {
       "manufacturer": "Hewescraft",
       "model": "Sportsman 180",
