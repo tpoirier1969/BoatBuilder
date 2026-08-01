@@ -51,7 +51,7 @@ const expectedIdealIds = [
   "boat:Smoker Craft | Ultima 172"
 ].sort();
 const actualIdealIds = smokerCraft.filter(boat => boat.idealMatch).map(boat => boat.id).sort();
-assert.deepEqual(actualIdealIds, expectedIdealIds, "Smoker Craft ideal-match set changed");
+assert.equal(JSON.stringify(actualIdealIds), JSON.stringify(expectedIdealIds), "Smoker Craft ideal-match set changed");
 
 const requireBoat = id => {
   const boat = smokerCraft.find(entry => entry.id === id);
@@ -77,9 +77,11 @@ assert.equal(generation(osprey172, 2025, 2026).specs.Beam.value, "90\"", "Curren
 assert.equal(generation(osprey172, 2025, 2026).specs["Dry Hull Weight"].value, "1,165 lb", "Current Osprey 172 weight changed");
 
 const ultima182 = requireBoat("boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)");
-assert.deepEqual(
-  ultima182.designGenerations.map(entry => [entry.startYear, entry.endYear]),
-  [[2001, 2002], [2015, 2015], [2016, 2016], [2017, 2018], [2019, 2024], [2025, 2026]],
+const expectedUltima182Chronology = [[2001, 2002], [2015, 2015], [2016, 2016], [2017, 2018], [2019, 2024], [2025, 2026]];
+const actualUltima182Chronology = ultima182.designGenerations.map(entry => [entry.startYear, entry.endYear]);
+assert.equal(
+  JSON.stringify(actualUltima182Chronology),
+  JSON.stringify(expectedUltima182Chronology),
   "Ultima 182 chronology changed or the 2016 overlap returned"
 );
 assert.equal(generation(ultima182, 2016, 2016).specs.Length.value, "18'2\"", "2016 Ultima 182 exact hull length changed");
