@@ -1,6 +1,6 @@
 # MonArk and Spectrum / Blue Fin Current Audit Snapshot
 
-Generated 2026-08-01T17:14:11.558Z.
+Generated 2026-08-01T17:14:39.745Z.
 
 - Model records: 3
 - Generation/evidence rows: 6
