@@ -10,21 +10,84 @@ permissions:
   contents: write
 
 jobs:
-  snapshot:
+  audit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Generate Polar Kraft snapshot
-        run: node scripts/report-polar-kraft-current.mjs
-      - name: Commit snapshot
+      - name: Run repair, QA, semantic isolation, and reports
+        id: audit
+        shell: bash
+        run: |
+          mkdir -p reports
+          : > reports/polar-kraft-ci.log
+          set +e
+
+          node scripts/audit-polar-kraft.mjs >> reports/polar-kraft-ci.log 2>&1
+          repair_status=$?
+
+          catalog_status=99
+          polar_status=99
+          semantic_status=99
+          report_status=99
+          snapshot_status=99
+
+          if [ "$repair_status" -eq 0 ]; then
+            node tests/qa.mjs >> reports/polar-kraft-ci.log 2>&1
+            catalog_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$catalog_status" -eq 0 ]; then
+            node tests/polar-kraft-qa.mjs >> reports/polar-kraft-ci.log 2>&1
+            polar_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$polar_status" -eq 0 ]; then
+            node tests/polar-kraft-semantic-diff-qa.mjs >> reports/polar-kraft-ci.log 2>&1
+            semantic_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$polar_status" -eq 0 ] && [ "$semantic_status" -eq 0 ]; then
+            node scripts/report-unfinished.mjs >> reports/polar-kraft-ci.log 2>&1
+            report_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$polar_status" -eq 0 ] && [ "$semantic_status" -eq 0 ] && [ "$report_status" -eq 0 ]; then
+            node scripts/report-polar-kraft-current.mjs >> reports/polar-kraft-ci.log 2>&1
+            snapshot_status=$?
+          fi
+
+          {
+            echo "repair_status=$repair_status"
+            echo "catalog_status=$catalog_status"
+            echo "polar_status=$polar_status"
+            echo "semantic_status=$semantic_status"
+            echo "report_status=$report_status"
+            echo "snapshot_status=$snapshot_status"
+          } >> reports/polar-kraft-ci.log
+
+          if [ "$repair_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$polar_status" -eq 0 ] && [ "$semantic_status" -eq 0 ] && [ "$report_status" -eq 0 ] && [ "$snapshot_status" -eq 0 ]; then
+            echo "success=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "success=false" >> "$GITHUB_OUTPUT"
+            git checkout -- data/boats.js reports/unfinished-work.md reports/unfinished-work.json reports/polar-kraft-current.md reports/polar-kraft-current.json 2>/dev/null || true
+          fi
+      - name: Commit results or diagnostic log
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/polar-kraft-current.json reports/polar-kraft-current.md
+          git config user.email "4189822+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ steps.audit.outputs.success }}" = "true" ]; then
+            git add data/boats.js reports/unfinished-work.md reports/unfinished-work.json reports/polar-kraft-current.md reports/polar-kraft-current.json reports/polar-kraft-ci.log
+            message="Apply verified Polar Kraft audit corrections"
+          else
+            git add reports/polar-kraft-ci.log
+            message="Capture failed Polar Kraft audit diagnostics"
+          fi
           if ! git diff --cached --quiet; then
-            git commit -m "Capture Polar Kraft audit snapshot"
+            git commit -m "$message"
             git push
+          fi
+          if [ "${{ steps.audit.outputs.success }}" != "true" ]; then
+            exit 1
           fi
