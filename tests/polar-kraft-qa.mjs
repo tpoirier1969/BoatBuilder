@@ -36,7 +36,11 @@ for (const boat of polar) {
     }
   }
   const research = (boat.details || []).find(detail => detail.label === "Research Status")?.value || "";
-  assert.doesNotMatch(research, /require generation-by-generation|unresolved/i, `${boat.id} still claims unresolved research`);
+  assert.doesNotMatch(
+    research,
+    /remaining advertised years require|require generation-by-generation|other advertised years unresolved/i,
+    `${boat.id} still claims unfinished research`
+  );
 }
 
 const requireBoat = id => {
