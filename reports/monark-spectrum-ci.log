@@ -1,0 +1,9 @@
+Applied verified MonArk and Spectrum chronology, material and pricing repairs.
+BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+Verified canonical app data, focused Lund and Alumacraft generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
+MonArk/Spectrum QA passed: 3 records and 6 non-overlapping generation/evidence rows.
+Semantic diff QA passed: only the three approved MonArk/Spectrum records changed.
+Wrote unfinished report with 7 unresolved generation rows across 4 manufacturers.
+Captured 18 current Smoker Craft records for audit.
+Captured 3 MonArk/Spectrum records.
+monark_spectrum_audit_status=passed

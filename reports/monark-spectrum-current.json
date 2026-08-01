@@ -1,0 +1,696 @@
+[
+  {
+    "id": "boat:MonArk | Pro 1700 DC",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "MonArk",
+    "model": "Pro 1700 DC",
+    "displayName": "MonArk | Pro 1700 DC",
+    "subtitle": "1993 Pro 1700 DC plus 1995-1998 Pro 1700 evidence; 1994 not silently filled",
+    "badge": "Secondary",
+    "lowPrice": 2500,
+    "highPrice": 7000,
+    "priceBasis": "Evidence-row package estimates. Verify HIN, capacity plate and windshield layout because the DC suffix disappears from later annual rosters.",
+    "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
+    "image": {
+      "url": "https://www.in-depthoutdoors.com/wp-content/uploads/2022/06/IMG_3962.jpg",
+      "source": "https://www.in-depthoutdoors.com/community/forums/topic/97-monark-pro-1700-merc-force-75/",
+      "matchQuality": "Exact model and era",
+      "note": "Bright 1997 Monark Pro 1700 interior photo; the full walk-through windshield, cockpit depth and seating layout are visible. Replaces the dark video thumbnail."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "1993 exact Pro 1700 DC; 1995-1997 Pro 1700 annual-roster run; 1998 period-review evidence. No 1994 factory row recovered."
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good to very good"
+      },
+      {
+        "label": "Layout",
+        "value": "Dual-console factory windshield"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "Not published"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary: 85 in beam and 125 hp are respectable, but the older Pro 1700 is less deep and broad than the Primary targets."
+      },
+      {
+        "label": "Notes",
+        "value": "A practical older walk-through candidate, but the name changes matter. The 1993 Pro 1700 DC is a 1,050-lb aluminum boat; 1995-1997 rosters list a 1,000-lb Pro 1700; the 1998 review publishes 17 feet, 85-inch beam and 125 hp but does not publish dry weight."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood/deck substrate was typical; restoration or replacement flooring is common at this age."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period configuration evidence; factory material specification was not found, so inspect the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Period interior was typically carpeted; verify any reflooring."
+      },
+      {
+        "label": "Research Status",
+        "value": "Annual rosters and the 1998 period review were reconciled. The missing 1994 factory data is disclosed rather than bridged with inherited specifications."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:MonArk | Pro 1700 DC:gen:1993-dc",
+        "label": "1993 Pro 1700 DC annual-roster evidence",
+        "startYear": 1993,
+        "endYear": 1993,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The 1993 roster identifies the exact Pro 1700 DC as a 17-foot, 1,050-lb aluminum outboard. The listed 75 hp is package horsepower, not a verified capacity-plate maximum.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/mon-ark-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "17-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,050 lb",
+            "confidence": "annual-roster"
+          },
+          "Factory Package HP": {
+            "value": "75 hp listed package; max rating not published",
+            "confidence": "annual-roster"
+          },
+          "Layout": {
+            "value": "Dual-console / walk-through windshield",
+            "confidence": "exact-model-fitment-evidence"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull; exact seam method not published",
+            "confidence": "annual-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MonArk | Pro 1700 DC:value:1993",
+            "label": "1993",
+            "startYear": 1993,
+            "endYear": 1993,
+            "low": 2500,
+            "high": 5000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, flooring, transom, flotation, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://rnr-marine.com/Purchase.php?manufacturer=MonArk&model=Pro+1700+DC&partno=72N17A&product=Boat-Cover-CSF-Model&yearfrom=1993&yearto=1997"
+        ]
+      },
+      {
+        "id": "boat:MonArk | Pro 1700 DC:gen:1995-1997",
+        "label": "1995-1997 Pro 1700 annual-roster run",
+        "startYear": 1995,
+        "endYear": 1997,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The 1995-1997 rosters shorten the name to Pro 1700 and consistently publish a 17-foot, 1,000-lb aluminum boat with 90-hp factory packages. Treat a listing as the DC/windshield configuration only after checking photos and the HIN.",
+        "sourceUrl": "https://www.jdpower.com/boats/1997/mon-ark-boat-co",
+        "specs": {
+          "Length": {
+            "value": "17-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,000 lb",
+            "confidence": "annual-roster"
+          },
+          "Factory Package HP": {
+            "value": "90 hp listed package; max rating not published",
+            "confidence": "annual-roster"
+          },
+          "Layout": {
+            "value": "Pro 1700 family; confirm DC/walk-through configuration",
+            "confidence": "model-name-transition"
+          },
+          "Construction": {
+            "value": "Aluminum outboard hull",
+            "confidence": "annual-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MonArk | Pro 1700 DC:value:1995-1997",
+            "label": "1995-1997",
+            "startYear": 1995,
+            "endYear": 1997,
+            "low": 3000,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, flooring, transom, flotation, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1995/mon-ark-boat-co",
+          "https://www.jdpower.com/boats/1996/mon-ark-boat-co/power-boats"
+        ]
+      },
+      {
+        "id": "boat:MonArk | Pro 1700 DC:gen:1998-review",
+        "label": "1998 period-review Pro 1700 evidence",
+        "startYear": 1998,
+        "endYear": 1998,
+        "status": "period-review-evidence",
+        "specificationBasis": "A 1998 multispecies guide publishes the Pro 1700 at 17 feet, 85-inch beam and 125 maximum hp, describing rough-water intent and seating for four. The 1998 annual valuation roster does not list a Pro 1700 under that name, so HIN verification is mandatory.",
+        "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "Not published",
+            "confidence": "source-not-published"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "cited-source-exact"
+          },
+          "Persons / Seating": {
+            "value": "Cockpit seating for four",
+            "confidence": "period-review"
+          },
+          "Construction": {
+            "value": "Welded aluminum reverse-chine hull",
+            "confidence": "period-review"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MonArk | Pro 1700 DC:value:1998",
+            "label": "1998",
+            "startYear": 1998,
+            "endYear": 1998,
+            "low": 3500,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, flooring, transom, flotation, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1998/mon-ark-boat-co/power-boats"
+        ]
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement)",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "MonArk",
+    "model": "Pro 1800 DC / FS (fiberglass; fails aluminum requirement)",
+    "displayName": "MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement)",
+    "subtitle": "1996 documented fiberglass DC/FS; deliberate material rejection",
+    "badge": "Secondary",
+    "lowPrice": 3000,
+    "highPrice": 7000,
+    "priceBasis": "Screening value only. This model fails the project's aluminum-hull requirement regardless of price.",
+    "sourceUrl": "https://www.jdpower.com/boats/1998/monark-marine",
+    "image": {
+      "url": "https://i.ytimg.com/vi/Ln7lvmgwzlc/hqdefault.jpg",
+      "source": "https://www.youtube.com/watch?v=Ln7lvmgwzlc",
+      "matchQuality": "Same family",
+      "note": "Monark 1800 CC family stand-in. This is not the later Pro 1800 DC/FS fiberglass warning model, so use the row notes—not this photo—to judge hull material."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "1996 documented Pro 1800 DC and Pro 1800 FS fiberglass variants"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Reject for this project"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Material fails project requirement"
+      },
+      {
+        "label": "Layout",
+        "value": "Dual-console/full windshield fish-and-ski layout"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "115–150"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Deliberate exclude: the 1996 Pro 1800 DC and FS are fiberglass, contrary to the required aluminum deep-V hull."
+      },
+      {
+        "label": "Notes",
+        "value": "This row is retained as a searchable warning. Do not confuse it with MonArk's aluminum Pro 180 or other 18-foot utility models."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood floor/deck was typical; exact trim and any prior replacement vary by year."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; inspect floor, transom and hidden flotation rather than trusting clean carpet."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+      },
+      {
+        "label": "Research Status",
+        "value": "The 1996 annual roster directly identifies both DC and FS variants as fiberglass at 1,415 lb. They disappear from the 1997 and 1998 MonArk rosters."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement):gen:1996-fiberglass",
+        "label": "1996 Pro 1800 DC / FS fiberglass variants",
+        "startYear": 1996,
+        "endYear": 1996,
+        "status": "documented-material-rejection",
+        "specificationBasis": "The 1996 roster lists both Pro 1800 DC and Pro 1800 FS as 18-foot fiberglass outboards weighing 1,415 lb with 125-hp factory packages. That is sufficient to reject them for this aluminum-only project.",
+        "sourceUrl": "https://www.jdpower.com/boats/1996/mon-ark-boat-co/power-boats",
+        "specs": {
+          "Length": {
+            "value": "18-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,415 lb",
+            "confidence": "annual-roster"
+          },
+          "Factory Package HP": {
+            "value": "125 hp listed package",
+            "confidence": "annual-roster"
+          },
+          "Layout": {
+            "value": "DC and FS variants",
+            "confidence": "annual-roster"
+          },
+          "Construction": {
+            "value": "Fiberglass",
+            "confidence": "annual-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement):value:1996",
+            "label": "1996",
+            "startYear": 1996,
+            "endYear": 1996,
+            "low": 3000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, flooring, transom, flotation, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1997/mon-ark-boat-co",
+          "https://www.jdpower.com/boats/1998/mon-ark-boat-co/power-boats"
+        ]
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:Spectrum / Blue Fin | 1906",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Spectrum / Blue Fin",
+    "model": "1906",
+    "displayName": "Spectrum / Blue Fin | 1906",
+    "subtitle": "1990-1993 documented aluminum 1906; 1,050-lb and 1,150-lb rows separated",
+    "badge": "Secondary",
+    "lowPrice": 2500,
+    "highPrice": 6500,
+    "priceBasis": "Generation-contained complete-package screening estimates. Old Force/Chrysler-family power, floors and transoms dominate value.",
+    "sourceUrl": "https://www.jdpower.com/boats/1993/blue-fin-ind-spectrum/1906/10022329/specs",
+    "image": {
+      "url": "https://forums.iboats.com/attachments/side-jpg.1514/",
+      "source": "https://forums.iboats.com/threads/1992-spectrum-1906-need-manual.192822/",
+      "matchQuality": "Exact",
+      "note": "Exact owner-posted 1992 Spectrum 1906 side photo. If the preview host blocks the image, open the source page and view the Side.JPG attachment."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "1990-1993 documented production; 1990-1991 1,050-lb and 1992-1993 1,150-lb roster generations separated"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good, condition-first"
+      },
+      {
+        "label": "Layout",
+        "value": "Windshield-equipped runabout/fishing layout; verify exact console arrangement"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90–140 representative"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary: promising size and weight, but sparse documentation and inconsistent windshield/configuration naming make it a verify-first boat."
+      },
+      {
+        "label": "Notes",
+        "value": "The 1906 is a large, relatively light aluminum package, but documentation is sparse and the original engine package is often the weak link. Do not assume welded construction from an owner description; inspect seams, floor, transom and capacity plate."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood floor/deck was typical; exact trim and any prior replacement vary by year."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; inspect floor, transom and hidden flotation rather than trusting clean carpet."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+      },
+      {
+        "label": "Research Status",
+        "value": "Annual 1990-1993 rosters were reconciled. Published dry weight increases by 100 lb in 1992, so the years are not blended into one fictional generation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Spectrum / Blue Fin | 1906:gen:1990-1991",
+        "label": "1990-1991 1,050-lb roster generation",
+        "startYear": 1990,
+        "endYear": 1991,
+        "status": "annual-roster-generation",
+        "specificationBasis": "Annual rosters identify the 1906 as a 19-foot aluminum outboard weighing 1,050 lb. The package horsepower changes from 120 in 1990 to 90 in 1991 and is not treated as the hull's maximum rating.",
+        "sourceUrl": "https://www.jdpower.com/boats/1990/blue-fin-ind-spectrum",
+        "specs": {
+          "Length": {
+            "value": "19-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,050 lb",
+            "confidence": "annual-roster"
+          },
+          "Factory Package HP": {
+            "value": "120 hp in 1990; 90 hp in 1991",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-published"
+          },
+          "Construction": {
+            "value": "Aluminum; seam construction not verified",
+            "confidence": "annual-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Spectrum / Blue Fin | 1906:value:1990-1991",
+            "label": "1990-1991",
+            "startYear": 1990,
+            "endYear": 1991,
+            "low": 2500,
+            "high": 6000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, flooring, transom, flotation, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1991/blue-fin-ind-spectrum/power-boats"
+        ]
+      },
+      {
+        "id": "boat:Spectrum / Blue Fin | 1906:gen:1992-1993",
+        "label": "1992-1993 1,150-lb roster generation",
+        "startYear": 1992,
+        "endYear": 1993,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The 1992 and 1993 rosters publish a 1,150-lb 1906. The retained 1993 source adds an 89-inch beam. Factory packages are listed at 90 hp, but the capacity-plate maximum remains unverified.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/blue-fin-ind-spectrum",
+        "specs": {
+          "Length": {
+            "value": "19'0\"",
+            "confidence": "annual-roster"
+          },
+          "Beam": {
+            "value": "89\" published for 1993",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,150 lb",
+            "confidence": "annual-roster"
+          },
+          "Factory Package HP": {
+            "value": "90 hp listed package",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-published"
+          },
+          "Construction": {
+            "value": "Aluminum; seam construction not verified",
+            "confidence": "annual-roster"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Spectrum / Blue Fin | 1906:value:1992-1993",
+            "label": "1992-1993",
+            "startYear": 1992,
+            "endYear": 1993,
+            "low": 3000,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, flooring, transom, flotation, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1992/blue-fin-ind-spectrum/power-boats"
+        ]
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  }
+]
