@@ -761,6 +761,76 @@ for (const generation of northwood170.designGenerations) {
 }
 assert.match(northwood170.designGenerations[1].specs.Layout.value, /dual console \/ windshield/i, "Northwood DC/windshield configuration is missing");
 assert.match(northwood170.details.find(detail => detail.label === "Notes").value, /171 SC and 172 DC/, "Conflicting Northwood fitment nomenclature is not disclosed");
+
+// Strict Lowe existing-model completion and copied-spec regression guards.
+const loweBoats = allBoats.filter(entry => entry.manufacturer === "Lowe");
+const expectedLoweIds = [
+  "boat:Lowe | Fish & Ski 175",
+  "boat:Lowe | Fish & Ski FS165",
+  "boat:Lowe | Fish & Ski FS185",
+  "boat:Lowe | Fishing Machine 1775 WT",
+  "boat:Lowe | FM Pro 165 WT",
+  "boat:Lowe | FM Pro 175 WT"
+].sort();
+assert.equal(JSON.stringify(loweBoats.map(entry => entry.id).sort()), JSON.stringify(expectedLoweIds), "Lowe focused record scope changed");
+assert.equal(loweBoats.reduce((sum, entry) => sum + entry.designGenerations.length, 0), 18, "Lowe generation/evidence-row count changed");
+assert.equal(loweBoats.reduce((sum, entry) => sum + entry.designGenerations.reduce((eraSum, generation) => eraSum + generation.eras.length, 0), 0), 24, "Lowe generation-contained price-era count changed");
+for (const entry of loweBoats) {
+  assert.equal(entry.valueEras.length, 0, `${entry.id} retained unsafe top-level value eras`);
+  let previousEnd = -Infinity;
+  for (const generation of entry.designGenerations) {
+    assert.notEqual(generation.status, "unresolved", `${generation.id} remains unresolved`);
+    assert.ok(generation.startYear > previousEnd, `${entry.id} has overlapping Lowe year/hull rows`);
+    previousEnd = generation.endYear;
+    assert.ok(generation.eras.length >= 1, `${generation.id} lacks package pricing`);
+    for (const valueEra of generation.eras) {
+      assert.ok(Number.isFinite(valueEra.low) && Number.isFinite(valueEra.high) && valueEra.low <= valueEra.high, `${valueEra.id} has invalid pricing`);
+      assert.ok(valueEra.startYear >= generation.startYear && valueEra.endYear <= generation.endYear, `${valueEra.id} crosses its Lowe year/hull row`);
+    }
+  }
+}
+const loweStars = loweBoats.filter(entry => entry.model.startsWith("*")).map(entry => entry.id).sort();
+assert.equal(JSON.stringify(loweStars), JSON.stringify([
+  "boat:Lowe | Fish & Ski 175",
+  "boat:Lowe | FM Pro 175 WT"
+].sort()), "Lowe ideal-match star set changed");
+assert.ok(item("boat:Lowe | Fish & Ski 175").displayName.startsWith("*"), "FS175 compact display star is missing");
+assert.ok(item("boat:Lowe | FM Pro 175 WT").displayName.startsWith("*"), "FM Pro 175 WT compact display star is missing");
+
+const loweGeneration = (id, slug) => {
+  const generation = item(id).designGenerations.find(entry => entry.id.endsWith(`:gen:${slug}`));
+  assert.ok(generation, `${id} is missing Lowe generation ${slug}`);
+  return generation;
+};
+const loweSpec = (id, slug, label) => loweGeneration(id, slug).specs[label]?.value;
+
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS165", "2013-2014", "Dry Hull Weight"), "1,250 lb", "2013\u20132014 FS165 retained the copied earlier weight");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS165", "2013-2014", "Beam"), "82\"", "2013\u20132014 FS165 beam is wrong");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS165", "2013-2014", "Chine / Bottom Width"), "70.5\"", "2013\u20132014 FS165 bottom width is wrong");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS165", "2013-2014", "Max HP"), "90", "2013\u20132014 FS165 horsepower is wrong");
+assert.equal(JSON.stringify(item("boat:Lowe | Fish & Ski FS165").designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[2004, 2005], [2006, 2012], [2013, 2014]]), "FS165 chronology changed");
+
+assert.equal(loweSpec("boat:Lowe | Fish & Ski 175", "2013-2014", "Dry Hull Weight"), "1,446 lb", "2013\u20132014 FS175 retained the copied earlier weight");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski 175", "2013-2014", "Beam"), "96\"", "2013\u20132014 FS175 retained the copied 92-inch beam");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski 175", "2013-2014", "Chine / Bottom Width"), "84\"", "2013\u20132014 FS175 bottom width is wrong");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski 175", "2013-2014", "Max HP"), "150", "2013\u20132014 FS175 horsepower is wrong");
+assert.equal(JSON.stringify(item("boat:Lowe | Fish & Ski 175").designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[2004, 2005], [2006, 2006], [2007, 2008], [2009, 2012], [2013, 2014]]), "FS175 chronology changed");
+
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS185", "2013", "Dry Hull Weight"), "1,700 lb", "2013 FS185 weight is wrong");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS185", "2014", "Dry Hull Weight"), "1,700 lb", "2014 FS185 retained a copied earlier weight");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS185", "2014", "Beam"), "96\"", "2014 FS185 beam is wrong");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS185", "2014", "Chine / Bottom Width"), "84\"", "2014 FS185 bottom width is wrong");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS185", "2013", "Max HP"), "150", "2013 FS185 horsepower certification is wrong");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS185", "2014", "Max HP"), "175", "2014 FS185 horsepower revision is wrong");
+assert.equal(loweSpec("boat:Lowe | Fish & Ski FS185", "2014", "Capacity Weight"), "1,777 lb", "2014 FS185 capacity is wrong");
+
+assert.equal(loweSpec("boat:Lowe | FM Pro 165 WT", "2013-2019", "Dry Hull Weight"), "1,250 lb", "FM 165 Pro WT inherited the 1,200-lb side-console weight");
+assert.notEqual(loweSpec("boat:Lowe | FM Pro 165 WT", "2013-2019", "Dry Hull Weight"), "1,200 lb", "FM 165 Pro SC contamination returned");
+assert.equal(loweSpec("boat:Lowe | FM Pro 175 WT", "2013-2014", "Dry Hull Weight"), "1,446 lb", "FM 175 Pro WT weight is wrong");
+assert.equal(loweSpec("boat:Lowe | FM Pro 175 WT", "2013-2014", "Beam"), "96\"", "FM 175 Pro WT beam is wrong");
+assert.equal(loweSpec("boat:Lowe | Fishing Machine 1775 WT", "2020-2025", "Dry Hull Weight"), "1,317 lb", "2020\u20132025 FM1775 weight is wrong");
+assert.equal(loweSpec("boat:Lowe | Fishing Machine 1775 WT", "2026", "Dry Hull Weight"), "1,274 lb", "2026 FM1775 current published weight is wrong");
+
 assert.doesNotMatch(appSource, /const DD=|,DD=/, "Model-generation data remains embedded in the controller");
 assert.match(appSource, /i\.designGenerations/, "Controller does not read canonical design generations");
 assert.match(appSource, /i\.valueEras/, "Controller does not read canonical value eras");

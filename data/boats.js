@@ -12235,13 +12235,13 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lowe",
-    "model": "Fish & Ski 175",
-    "displayName": "Lowe | Fish & Ski 175",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "model": "*Fish & Ski 175",
+    "displayName": "*Lowe | Fish & Ski 175",
+    "subtitle": "2004\u20132014 FS175; five documented weight/design periods",
     "badge": "Primary",
-    "lowPrice": 7000,
-    "highPrice": 11000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 4000,
+    "highPrice": 13000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
     "image": {
       "url": "https://img.nauticexpo.com/images_ne/photo-mg/20026-6566605.jpg",
@@ -12252,7 +12252,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2004\u20132014 FS175; five documented weight/design periods"
       },
       {
         "label": "Recommendation",
@@ -12340,11 +12340,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary, upper-end: exact 17'5\" factory windshield model with 96-inch beam and a 1,446-lb hull; older complete packages can approach the cap, but actual scale weight controls."
+        "value": "Primary for older used packages: the 2013\u20132014 full-windshield hull has excellent 17'5\" x 96\" geometry, while earlier examples require year-specific weight confirmation."
       },
       {
         "label": "Notes",
-        "value": "Exact 2014 FS 175. Wide, stable fish-and-ski package; separate from FS 165 and FS 185."
+        "value": "The FS175 existed from 2004 through 2014, with documented weight changes. Lowe renamed/replaced this slot with the FS 1710 for 2015 rather than continuing this record."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -12360,18 +12360,382 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed existing-model audit: annual rows reconciled, every year/hull choice priced, and no unresolved specifications inherited across a documented design change."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lowe | Fish & Ski 175:gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
+        "id": "boat:Lowe | Fish & Ski 175:gen:2004-2005",
+        "label": "2004\u20132005 \u2014 early 1,330-lb FS175",
+        "startYear": 2004,
+        "endYear": 2005,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "Annual Lowe valuation rosters report the FS175 at 1,330 lb. Unrecovered specification fields remain unknown.",
+        "sourceUrl": "https://www.jdpower.com/boats/2004/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "17' nominal",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "1,330 lb",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski 175:value:2004-2005",
+            "label": "2004\u20132005",
+            "startYear": 2004,
+            "endYear": 2005,
+            "low": 4000,
+            "high": 7000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2005/lowe-ind"
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski 175:gen:2006",
+        "label": "2006 \u2014 1,150-lb FS175",
+        "startYear": 2006,
+        "endYear": 2006,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "The 2006 annual Lowe roster reports this exact model at 1,150 lb; adjacent-year weights are not substituted.",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "17' nominal",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "1,150 lb",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski 175:value:2006-2006",
+            "label": "2006",
+            "startYear": 2006,
+            "endYear": 2006,
+            "low": 4000,
+            "high": 7500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski 175:gen:2007-2008",
+        "label": "2007\u20132008 \u2014 960-lb published FS175",
+        "startYear": 2007,
+        "endYear": 2008,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "The 2007 and 2008 annual rows both report 960 lb. This unusually low published figure is isolated instead of blended with the 2006 or 2009 hull weight.",
+        "sourceUrl": "https://www.jdpower.com/boats/2007/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "17' nominal",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "960 lb (published)",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski 175:value:2007-2008",
+            "label": "2007\u20132008",
+            "startYear": 2007,
+            "endYear": 2008,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2008/lowe-ind"
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski 175:gen:2009-2012",
+        "label": "2009\u20132012 \u2014 1,150-lb / 92-inch FS175",
+        "startYear": 2009,
+        "endYear": 2012,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "Annual rows return to a 1,150-lb published weight; 2011\u20132012 evidence identifies the 17'3\" hull. This row stops before the 96-inch factory hull.",
+        "sourceUrl": "https://www.jdpower.com/boats/2009/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "17'3\" by 2011\u20132012",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "1,150 lb",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski 175:value:2009-2010",
+            "label": "2009\u20132010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 5500,
+            "high": 9500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          },
+          {
+            "id": "boat:Lowe | Fish & Ski 175:value:2011-2012",
+            "label": "2011\u20132012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 7000,
+            "high": 10500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2010/lowe-ind",
+          "https://www.jdpower.com/boats/2011/lowe-ind",
+          "https://www.jdpower.com/boats/2012/lowe-ind"
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski 175:gen:2013-2014",
+        "label": "2013\u20132014 \u2014 1,446-lb / 96-inch factory hull",
+        "startYear": 2013,
         "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-verified-generation",
+        "specificationBasis": "Both Lowe factory catalogs specify 17'5\", 96-inch beam, 84-inch bottom, 1,446-lb hull weight, 150 hp and 26 gallons. Published maximum weight changed from 1,600 to 1,622 lb without evidence of a hull redesign.",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
         "specs": {
           "Length": {
@@ -12391,24 +12755,24 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Cockpit / Interior Depth": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Deadrise": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
           },
           "Transom Height": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Transom Width": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Max HP": {
             "value": "150",
@@ -12419,7 +12783,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
-            "value": "1,622 lb",
+            "value": "1,600 lb (2013); 1,622 lb (2014)",
             "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
@@ -12427,12 +12791,12 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Side / Freeboard Thickness": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Construction": {
             "value": "All-welded aluminum deep-V",
@@ -12441,29 +12805,22 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lowe | Fish & Ski 175:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 7000,
-            "high": 11000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Lowe | Fish & Ski 175:value:2013-2014",
+            "label": "2013\u20132014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 8500,
+            "high": 13000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
           }
+        ],
+        "evidenceUrls": [
+          "https://library.rvusa.com/brochure/2013-Lowe.pdf"
         ]
-      },
-      {
-        "id": "boat:Lowe | Fish & Ski 175:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2014 factory catalog basis",
-        "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year/hull. The 2013\u20132014 96-inch, 1,446-lb factory hull is materially different from every earlier FS175 row.",
+    "idealMatch": true
   },
   {
     "id": "boat:Lowe | Fish & Ski FS165",
@@ -12472,11 +12829,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lowe",
     "model": "Fish & Ski FS165",
     "displayName": "Lowe | Fish & Ski FS165",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2004\u20132014 Fish & Ski lineage; 2013 factory redesign separated",
     "badge": "Secondary",
-    "lowPrice": 6000,
-    "highPrice": 9000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 3000,
+    "highPrice": 10000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
     "image": {
       "url": "https://img.nauticexpo.com/images_ne/photo-mg/20026-6566605.jpg",
@@ -12487,7 +12844,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2004\u20132014 Fish & Ski lineage; 2013 factory redesign separated"
       },
       {
         "label": "Recommendation",
@@ -12575,11 +12932,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: wide and protected, but compact fish-and-ski seating reduces fishing room for four and later packages are often above budget."
+        "value": "Secondary: the later hull is substantial, but the 82-inch beam and fish-and-ski interior limit working room and rough-water reserve."
       },
       {
         "label": "Notes",
-        "value": "Family-oriented seating and upholstery consume cockpit space compared with a fishing-first hull. Inspect seat bases, carpet and floor closely."
+        "value": "The surviving annual records place FS165 production in 2004\u20132014. Lowe replaced this name with the FS 1610 for 2015; that successor is not folded into this record."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -12595,58 +12952,250 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed existing-model audit: annual rows reconciled, every year/hull choice priced, and no unresolved specifications inherited across a documented design change."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lowe | Fish & Ski FS165:gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
+        "id": "boat:Lowe | Fish & Ski FS165:gen:2004-2005",
+        "label": "2004\u20132005 \u2014 early 1,220-lb FS165",
+        "startYear": 2004,
+        "endYear": 2005,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "J.D. Power annual Lowe rosters preserve the exact FS165 name and a 1,220-lb published hull weight in both years. Unrecovered fields remain unknown rather than borrowing later specifications.",
+        "sourceUrl": "https://www.jdpower.com/boats/2004/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "16' nominal",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "1,220 lb",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski FS165:value:2004-2005",
+            "label": "2004\u20132005",
+            "startYear": 2004,
+            "endYear": 2005,
+            "low": 3000,
+            "high": 5500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2005/lowe-ind"
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski FS165:gen:2006-2012",
+        "label": "2006\u20132012 \u2014 lighter published-weight FS165",
+        "startYear": 2006,
+        "endYear": 2012,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "Annual valuation/specification rows retain the FS165 identity and 82-inch beam while reporting 955\u20131,000 lb. The range is disclosed as published variation; no later factory dimensions are inherited.",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "16'\u201316'5\" published",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "82\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "955\u20131,000 lb (annual published values)",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski FS165:value:2006-2009",
+            "label": "2006\u20132009",
+            "startYear": 2006,
+            "endYear": 2009,
+            "low": 3500,
+            "high": 6500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          },
+          {
+            "id": "boat:Lowe | Fish & Ski FS165:value:2010-2012",
+            "label": "2010\u20132012",
+            "startYear": 2010,
+            "endYear": 2012,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2007/lowe-ind",
+          "https://www.jdpower.com/boats/2008/lowe-ind",
+          "https://www.jdpower.com/boats/2009/lowe-ind",
+          "https://www.jdpower.com/boats/2010/lowe-ind",
+          "https://www.jdpower.com/boats/2011/lowe-ind",
+          "https://www.jdpower.com/boats/2012/lowe-ind"
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski FS165:gen:2013-2014",
+        "label": "2013\u20132014 \u2014 1,250-lb factory Fish & Ski hull",
+        "startYear": 2013,
         "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-verified-generation",
+        "specificationBasis": "The 2013 and 2014 Lowe factory tables agree on the 16'5\" x 82\" hull, 70.5-inch bottom, 1,250-lb hull weight, 90-hp rating, six-person rating and 26-gallon tank.",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
         "specs": {
           "Length": {
-            "value": "About 16'5\"",
-            "confidence": "catalog-representative"
+            "value": "16'5\"",
+            "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "About 89\"",
-            "confidence": "catalog-representative"
+            "value": "82\"",
+            "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "70.5\"",
+            "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
-            "value": "About 1,350 lb",
-            "confidence": "catalog-representative"
+            "value": "1,250 lb",
+            "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
           },
           "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Max HP": {
-            "value": "115",
+            "value": "90",
             "confidence": "cited-source-exact"
           },
           "Persons": {
@@ -12654,20 +13203,20 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,497 lb",
+            "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
-            "value": "About 24 gal",
-            "confidence": "catalog-representative"
+            "value": "26 gal",
+            "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Construction": {
             "value": "All-welded aluminum deep-V",
@@ -12676,29 +13225,22 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lowe | Fish & Ski FS165:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6000,
-            "high": 9000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Lowe | Fish & Ski FS165:value:2013-2014",
+            "label": "2013\u20132014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 6500,
+            "high": 10000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
           }
+        ],
+        "evidenceUrls": [
+          "https://library.rvusa.com/brochure/2013-Lowe.pdf"
         ]
-      },
-      {
-        "id": "boat:Lowe | Fish & Ski FS165:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s; 2014 specification basis",
-        "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year. The 1,250-lb 2013\u20132014 factory hull must not inherit the substantially lighter 2006\u20132012 published weight.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lowe | Fish & Ski FS185",
@@ -12707,11 +13249,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lowe",
     "model": "Fish & Ski FS185",
     "displayName": "Lowe | Fish & Ski FS185",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
-    "badge": "Primary",
-    "lowPrice": 8000,
-    "highPrice": 12000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "subtitle": "2004\u20132014 FS185; 2013 redesign and 2014 horsepower revision separated",
+    "badge": "Secondary",
+    "lowPrice": 4500,
+    "highPrice": 14500,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
     "image": {
       "url": "https://img.nauticexpo.com/images_ne/photo-mg/20026-6566605.jpg",
@@ -12722,11 +13264,11 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2004\u20132014 FS185; 2013 redesign and 2014 horsepower revision separated"
       },
       {
         "label": "Recommendation",
-        "value": "Primary"
+        "value": "Secondary"
       },
       {
         "label": "Big-Water Suitability",
@@ -12810,11 +13352,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary, upper-end: genuine four-person room and big-water geometry, but hull weight and fish-and-ski upholstery require an actual tow and condition calculation."
+        "value": "Secondary: capable and wide, but hull/package weight, fuel, upholstery and typical price make it a weaker Maverick/budget match than the FS175."
       },
       {
         "label": "Notes",
-        "value": "Family-oriented seating and upholstery consume cockpit space compared with a fishing-first hull. Inspect seat bases, carpet and floor closely."
+        "value": "The FS185 ran from 2004 through 2014. The FS 1810 that appears for 2015 is a successor name and is not silently included."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -12830,18 +13372,468 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed existing-model audit: annual rows reconciled, every year/hull choice priced, and no unresolved specifications inherited across a documented design change."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Lowe | Fish & Ski FS185:gen:2004-2005",
+        "label": "2004\u20132005 \u2014 early 1,410-lb FS185",
+        "startYear": 2004,
+        "endYear": 2005,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "Annual Lowe rosters report the FS185 at 1,410 lb in both years. Unrecovered fields remain unknown.",
+        "sourceUrl": "https://www.jdpower.com/boats/2004/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "18' nominal",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "1,410 lb",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski FS185:value:2004-2005",
+            "label": "2004\u20132005",
+            "startYear": 2004,
+            "endYear": 2005,
+            "low": 4500,
+            "high": 7500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2005/lowe-ind"
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski FS185:gen:2006",
+        "label": "2006 \u2014 1,200-lb FS185",
+        "startYear": 2006,
+        "endYear": 2006,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "The 2006 annual roster reports the exact FS185 at 1,200 lb; that value is not stretched into later years.",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "18' nominal",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "1,200 lb",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski FS185:value:2006-2006",
+            "label": "2006",
+            "startYear": 2006,
+            "endYear": 2006,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski FS185:gen:2007-2008",
+        "label": "2007\u20132008 \u2014 1,115-lb published FS185",
+        "startYear": 2007,
+        "endYear": 2008,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "The 2007 and 2008 annual rows report 1,115 lb. The figure is isolated rather than blended with 2006 or 2009.",
+        "sourceUrl": "https://www.jdpower.com/boats/2007/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "18' nominal",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "1,115 lb (published)",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski FS185:value:2007-2008",
+            "label": "2007\u20132008",
+            "startYear": 2007,
+            "endYear": 2008,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2008/lowe-ind"
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski FS185:gen:2009-2012",
+        "label": "2009\u20132012 \u2014 1,350-lb / 95-inch FS185",
+        "startYear": 2009,
+        "endYear": 2012,
+        "status": "closed-annual-evidence",
+        "specificationBasis": "Annual rows consistently report 1,350 lb, and later rows identify the 18'3\" hull. This evidence span stops before the wider 2013 factory hull.",
+        "sourceUrl": "https://www.jdpower.com/boats/2009/lowe-ind",
+        "specs": {
+          "Length": {
+            "value": "18'3\" by 2011\u20132012",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Beam": {
+            "value": "95\"",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Dry Hull Weight": {
+            "value": "1,350 lb",
+            "confidence": "annual-valuation-evidence"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Persons": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Capacity Weight": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Fuel Capacity": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V; exact construction table not recovered for this row",
+            "confidence": "source-exhausted"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski FS185:value:2009-2010",
+            "label": "2009\u20132010",
+            "startYear": 2009,
+            "endYear": 2010,
+            "low": 6000,
+            "high": 10500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          },
+          {
+            "id": "boat:Lowe | Fish & Ski FS185:value:2011-2012",
+            "label": "2011\u20132012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 8000,
+            "high": 12000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2010/lowe-ind",
+          "https://www.jdpower.com/boats/2011/lowe-ind",
+          "https://www.jdpower.com/boats/2012/lowe-ind"
+        ]
+      },
+      {
+        "id": "boat:Lowe | Fish & Ski FS185:gen:2013",
+        "label": "2013 \u2014 1,700-lb factory hull / 150-hp rating",
+        "startYear": 2013,
+        "endYear": 2013,
+        "status": "factory-verified-generation",
+        "specificationBasis": "The 2013 Lowe catalog specifies 18'5\", 96-inch beam, 84-inch bottom, 1,700 lb, seven persons, 1,759-lb capacity, 150 hp and 32 gallons.",
+        "sourceUrl": "https://library.rvusa.com/brochure/2013-Lowe.pdf",
+        "specs": {
+          "Length": {
+            "value": "18'5\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "84\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,700 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,759 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "32 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fish & Ski FS185:value:2013-2013",
+            "label": "2013",
+            "startYear": 2013,
+            "endYear": 2013,
+            "low": 9000,
+            "high": 13500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ]
+      },
+      {
         "id": "boat:Lowe | Fish & Ski FS185:gen:2014",
-        "label": "2014 cited specification snapshot",
+        "label": "2014 \u2014 1,700-lb factory hull / 175-hp certification",
         "startYear": 2014,
         "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-verified-certification-revision",
+        "specificationBasis": "The 2014 Lowe catalog retains the 18'5\" x 96\" hull and 1,700-lb weight but increases maximum horsepower to 175 and maximum weight to 1,777 lb. It is separated so the 2013 certification is never overwritten.",
         "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
         "specs": {
           "Length": {
@@ -12853,35 +13845,35 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "84\"",
+            "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
             "value": "1,700 lb",
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
           },
           "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Max HP": {
-            "value": "150",
+            "value": "175",
             "confidence": "cited-source-exact"
           },
           "Persons": {
@@ -12889,20 +13881,20 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,777 lb",
+            "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
             "value": "32 gal",
             "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Construction": {
             "value": "All-welded aluminum deep-V",
@@ -12911,29 +13903,19 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lowe | Fish & Ski FS185:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 8000,
-            "high": 12000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Lowe | Fish & Ski FS185:value:2014-2014",
+            "label": "2014",
+            "startYear": 2014,
+            "endYear": 2014,
+            "low": 10000,
+            "high": 14500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
           }
         ]
-      },
-      {
-        "id": "boat:Lowe | Fish & Ski FS185:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s; 2014 specification basis",
-        "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the listing year. The 2013\u20132014 1,700-lb hull must not inherit the lighter 2000s weights, and the 2014 175-hp certification does not apply to 2013.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lowe | Fishing Machine 1775 WT",
@@ -12942,11 +13924,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lowe",
     "model": "Fishing Machine 1775 WT",
     "displayName": "Lowe | Fishing Machine 1775 WT",
-    "subtitle": "2026 exact cited specification; other advertised years unresolved",
+    "subtitle": "2020\u20132025 1,317-lb hull; 2026 published-weight revision to 1,274 lb",
     "badge": "Secondary",
-    "lowPrice": 14000,
-    "highPrice": 20000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 18000,
+    "highPrice": 38000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the listing year/hull and package condition before pricing.",
     "sourceUrl": "https://www.loweboats.com/fishing/deep-v/walk-through/fm-1775-wt.html",
     "image": {
       "url": "https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Inventory/90/DA/90DA7136-4443-4AE8-A7CB-190B625A1FE6.jpg",
@@ -12957,7 +13939,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2026 exact cited specification; other advertised years unresolved"
+        "value": "2020\u20132025 1,317-lb hull; 2026 published-weight revision to 1,274 lb"
       },
       {
         "label": "Recommendation",
@@ -13045,11 +14027,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: exact qualifying WT geometry, but current/late-model packages are generally above $14,000 and its 86-inch beam is narrower than the strongest Primary choices."
+        "value": "Secondary: towable geometry and a fishing-first walk-through layout, but typical prices exceed the target and later packages leave less towing margin than the older ideal matches."
       },
       {
         "label": "Notes",
-        "value": "Exact current 1775 WT; current hull is notably narrower than some older Fishing Machine generations, so dimensions must not be transferred across years."
+        "value": "The FM 1775 WT begins in 2020. Its current geometry remains attractive, but normal used packages are generally above the target budget."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -13065,18 +14047,113 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed existing-model audit: annual rows reconciled, every year/hull choice priced, and no unresolved specifications inherited across a documented design change."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
+        "id": "boat:Lowe | Fishing Machine 1775 WT:gen:2020-2025",
+        "label": "2020\u20132025 \u2014 1,317-lb FM 1775 WT",
+        "startYear": 2020,
+        "endYear": 2025,
+        "status": "factory-catalog-generation",
+        "specificationBasis": "The 2020 Lowe fishing catalog establishes the 17'9\" x 86\" hull, 70.5-inch bottom, 1,317-lb published weight, 115-hp rating, six persons, 1,477-lb capacity and 20-gallon tank; later pre-2026 listings retain that published weight.",
+        "sourceUrl": "https://www.cophers.com/fckimages/pdf/Lowe%20Manuals/lowe-catalog-fish.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'9\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "86\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "70.5\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,317 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Deadrise": {
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
+          },
+          "Transom Height": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Transom Width": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,477 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "20 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "All-welded aluminum Mod-V walk-through hull",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Lowe | Fishing Machine 1775 WT:value:2020-2022",
+            "label": "2020\u20132022",
+            "startYear": 2020,
+            "endYear": 2022,
+            "low": 18000,
+            "high": 26000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          },
+          {
+            "id": "boat:Lowe | Fishing Machine 1775 WT:value:2023-2025",
+            "label": "2023\u20132025",
+            "startYear": 2023,
+            "endYear": 2025,
+            "low": 25000,
+            "high": 35000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          }
+        ]
+      },
+      {
         "id": "boat:Lowe | Fishing Machine 1775 WT:gen:2026",
-        "label": "2026 cited specification snapshot",
+        "label": "2026 \u2014 current 1,274-lb published specification",
         "startYear": 2026,
         "endYear": 2026,
-        "status": "cited-snapshot",
-        "specificationBasis": "2026 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "current-factory-specification-revision",
+        "specificationBasis": "Lowe's current product page retains the 17'9\" x 86\" geometry, 70.5-inch bottom, 115-hp rating, six persons, 1,477-lb capacity and 20-gallon tank while publishing a 1,274-lb hull weight. The revision is shown explicitly rather than fabricating a redesign claim.",
         "sourceUrl": "https://www.loweboats.com/fishing/deep-v/walk-through/fm-1775-wt.html",
         "specs": {
           "Length": {
@@ -13096,24 +14173,24 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Cockpit / Interior Depth": {
-            "value": "23\"",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Deadrise": {
-            "value": "15\u00b0",
-            "confidence": "cited-source-exact"
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
           },
           "Transom Height": {
-            "value": "20\"",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Transom Width": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Max HP": {
             "value": "115",
@@ -13132,43 +14209,33 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": ".100\"",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Side / Freeboard Thickness": {
-            "value": "\u2014",
-            "confidence": "cited-source-exact"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Construction": {
-            "value": "All-welded aluminum deep-V",
+            "value": "All-welded aluminum Mod-V walk-through hull",
             "confidence": "cited-source-exact"
           }
         },
         "eras": [
           {
-            "id": "boat:Lowe | Fishing Machine 1775 WT:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 14000,
-            "high": 20000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Lowe | Fishing Machine 1775 WT:value:2026-2026",
+            "label": "2026",
+            "startYear": 2026,
+            "endYear": 2026,
+            "low": 31000,
+            "high": 38000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
           }
         ]
-      },
-      {
-        "id": "boat:Lowe | Fishing Machine 1775 WT:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2020,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2023 factory catalog/current specification basis",
-        "sourceUrl": "https://www.loweboats.com/fishing/deep-v/walk-through/fm-1775-wt.html",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose 2020\u20132025 or 2026. Lowe publishes different hull weights without documenting a hull redesign, so the app presents a specification revision rather than inventing one.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lund | Adventure Sport 1675",
@@ -50317,17 +51384,17 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Lowe",
     "model": "FM Pro 165 WT",
     "displayName": "Lowe | FM Pro 165 WT",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2013\u20132019 FM 165 Pro WT; 1,250-lb walk-through throughout",
     "badge": "Secondary",
-    "lowPrice": 4000,
-    "highPrice": 7000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2014-fishboats.pdf",
+    "lowPrice": 5000,
+    "highPrice": 12000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the listing year/hull and package condition before pricing.",
+    "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2019-lowe-catalog-fishboats-pontoons.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2013\u20132019 FM 165 Pro WT; 1,250-lb walk-through throughout"
       },
       {
         "label": "Recommendation",
@@ -50415,11 +51482,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary compact option: real full windshield, sturdy welded hull and useful fuel capacity, but the 82-inch beam and 16'5\" length remain meaningful Lake Superior limitations. Suitable for protected nearshore days after a strong structural inspection."
+        "value": "Secondary compact option: a genuine full windshield and substantial hull, but its 82-inch beam remains limiting for the intended Lake Superior use."
       },
       {
         "label": "Notes",
-        "value": "Confirmed omitted budget-era Fishing Machine walk-through. It is materially different from the later FM 1625 WT and FM 1675 WT generations. The 1,250-pound hull is substantial for 16'5\", but the 82-inch beam still limits working room and rough-water reserve."
+        "value": "The walk-through Pro model is consistently 1,250 lb through 2019. The earlier rejected rebuild copied the 1,200-lb side-console value into this record; regression tests now forbid that contamination."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -50435,19 +51502,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed existing-model audit: annual rows reconciled, every year/hull choice priced, and no unresolved specifications inherited across a documented design change."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lowe | FM Pro 165 WT:gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2014-fishboats.pdf",
+        "id": "boat:Lowe | FM Pro 165 WT:gen:2013-2019",
+        "label": "2013\u20132019 \u2014 FM 165 Pro WT walk-through",
+        "startYear": 2013,
+        "endYear": 2019,
+        "status": "factory-and-annual-verified-generation",
+        "specificationBasis": "The 2013 and 2014 factory tables and the 2019 Lowe catalog/annual roster identify the WT at 1,250 lb. The 1,200-lb figure belongs to the side-console FM 165 Pro SC and is explicitly excluded.",
+        "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
         "specs": {
           "Length": {
             "value": "16'5\"",
@@ -50458,7 +51525,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
-            "value": "70.5\" bottom width",
+            "value": "70.5\"",
             "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
@@ -50466,24 +51533,24 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Deadrise": {
-            "value": "V-Tech reverse-chine deep-V; angle not published",
-            "confidence": "catalog-representative"
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
           },
           "Transom Height": {
-            "value": "Not published; verify capacity plate",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Max HP": {
             "value": "90",
@@ -50502,12 +51569,12 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "Not published in cited table",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Side / Freeboard Thickness": {
-            "value": "Not published in cited table",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Construction": {
             "value": "All-welded aluminum V-Tech reverse-chine hull with pressure-treated plywood deck structure",
@@ -50516,48 +51583,62 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lowe | FM Pro 165 WT:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
+            "id": "boat:Lowe | FM Pro 165 WT:value:2013-2014",
+            "label": "2013\u20132014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          },
+          {
+            "id": "boat:Lowe | FM Pro 165 WT:value:2015-2017",
+            "label": "2015\u20132017",
+            "startYear": 2015,
+            "endYear": 2017,
+            "low": 6500,
+            "high": 10000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
+          },
+          {
+            "id": "boat:Lowe | FM Pro 165 WT:value:2018-2019",
+            "label": "2018\u20132019",
+            "startYear": 2018,
             "endYear": 2019,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "low": 8000,
+            "high": 12000,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
           }
+        ],
+        "evidenceUrls": [
+          "https://library.rvusa.com/brochure/2013-Lowe.pdf",
+          "https://www.loweboats.com/content/dam/lowe/catalog-archive/2019-lowe-catalog-fishboats-pontoons.pdf",
+          "https://www.jdpower.com/boats/2015/lowe-ind",
+          "https://www.jdpower.com/boats/2019/lowe-ind"
         ]
-      },
-      {
-        "id": "boat:Lowe | FM Pro 165 WT:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2012\u20132019 verified; 2014 factory-catalog basis",
-        "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2014-fishboats.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "This record begins with the Pro WT name in 2013. Do not substitute the 1,200-lb FM 165 Pro SC or the earlier 2012 FM165WT.",
+    "idealMatch": false
   },
   {
     "id": "boat:Lowe | FM Pro 175 WT",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Lowe",
-    "model": "FM Pro 175 WT",
-    "displayName": "Lowe | FM Pro 175 WT",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "model": "*FM Pro 175 WT",
+    "displayName": "*Lowe | FM Pro 175 WT",
+    "subtitle": "2013\u20132014 FM 175 Pro WT; replaced by FM 1710 Pro WT",
     "badge": "Primary",
-    "lowPrice": 5000,
-    "highPrice": 8500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2014-fishboats.pdf",
+    "lowPrice": 6000,
+    "highPrice": 10500,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Choose the listing year/hull and package condition before pricing.",
+    "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
     "image": null,
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2013\u20132014 FM 175 Pro WT; replaced by FM 1710 Pro WT"
       },
       {
         "label": "Recommendation",
@@ -50645,11 +51726,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Primary: excellent 17'5\" full-windshield geometry, unusually broad bottom and useful hull mass. Favor 90\u2013115 hp for the Maverick, calculate the complete loaded package, and inspect the plywood floor/transom structure carefully."
+        "value": "Primary: excellent full-windshield geometry and useful hull mass. Older complete packages can meet the target after loaded tow-weight and structural inspection."
       },
       {
         "label": "Notes",
-        "value": "Confirmed omitted FM Pro 175 walk-through generation. The 96-inch beam, 84-inch bottom, 1,446-pound hull and 150-hp ceiling make it much more substantial than the 165 and distinct from both the older FM175/FM175DC and the later FM 1775 WT."
+        "value": "This is the factory walk-through Pro configuration, not the 1,200-lb side-console boat and not the later FM 1710 successor."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -50665,19 +51746,19 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Closed existing-model audit: annual rows reconciled, every year/hull choice priced, and no unresolved specifications inherited across a documented design change."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Lowe | FM Pro 175 WT:gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
+        "id": "boat:Lowe | FM Pro 175 WT:gen:2013-2014",
+        "label": "2013\u20132014 \u2014 FM 175 Pro WT",
+        "startYear": 2013,
         "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2014-fishboats.pdf",
+        "status": "factory-verified-generation",
+        "specificationBasis": "The 2013 and 2014 factory tables agree on the 17'5\" x 96\" walk-through hull, 84-inch bottom, 1,446-lb weight, 150-hp rating and 26-gallon tank; maximum weight is reported as 1,600 lb in 2013 and 1,622 lb in 2014.",
+        "sourceUrl": "https://library.rvusa.com/brochure/2014-Lowe.pdf",
         "specs": {
           "Length": {
             "value": "17'5\"",
@@ -50688,7 +51769,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
-            "value": "84\" bottom width",
+            "value": "84\"",
             "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
@@ -50696,24 +51777,24 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Deadrise": {
-            "value": "V-Tech reverse-chine deep-V; angle not published",
-            "confidence": "catalog-representative"
+            "value": "Deep-V angle not published in the cited table",
+            "confidence": "source-exhausted"
           },
           "Transom Height": {
-            "value": "Not published; verify capacity plate",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Max HP": {
             "value": "150",
@@ -50724,7 +51805,7 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
-            "value": "1,622 lb",
+            "value": "1,600 lb (2013); 1,622 lb (2014)",
             "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
@@ -50732,12 +51813,12 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "Not published in cited table",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Side / Freeboard Thickness": {
-            "value": "Not published in cited table",
-            "confidence": "catalog-representative"
+            "value": "Not published; verify the capacity plate",
+            "confidence": "source-exhausted"
           },
           "Construction": {
             "value": "All-welded aluminum V-Tech reverse-chine hull with pressure-treated plywood deck structure",
@@ -50746,29 +51827,22 @@ window.BOATBUILDER_BOATS = [
         },
         "eras": [
           {
-            "id": "boat:Lowe | FM Pro 175 WT:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Lowe | FM Pro 175 WT:value:2013-2014",
+            "label": "2013\u20132014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 6000,
+            "high": 10500,
+            "basis": "Used complete outboard-and-trailer package screening estimate. Package condition in the app narrows this generation-contained range; exceptional repowers or structural defects require manual adjustment."
           }
+        ],
+        "evidenceUrls": [
+          "https://library.rvusa.com/brochure/2013-Lowe.pdf"
         ]
-      },
-      {
-        "id": "boat:Lowe | FM Pro 175 WT:gen:unresolved",
-        "label": "Other advertised years \u2014 specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2012\u20132019 verified; 2014 factory-catalog basis",
-        "sourceUrl": "https://www.loweboats.com/content/dam/lowe/catalog-archive/2014-fishboats.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "The FM 175 Pro WT is a short 2013\u20132014 model. The renamed 2015 FM 1710 Pro WT is not folded into this stable record.",
+    "idealMatch": true
   },
   {
     "id": "boat:Princecraft | Sport 167 / Sport 164",

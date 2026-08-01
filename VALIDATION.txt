@@ -1,31 +1,30 @@
-BoatBuilder Sea Nymph + Northwood completion validation
+BoatBuilder Lowe completion rebuild validation
 Date: 2026-07-31
 
 PASS  node --check data/boats.js
 PASS  node --check tests/qa.mjs
+PASS  node --check app.js
 PASS  node tests/qa.mjs
 PASS  git diff --check
+PASS  stable boat-ID comparison against origin/main
+PASS  Lowe-only canonical boat-data comparison
+PASS  flat ZIP structure and archive integrity
+PASS  clean origin/main overlay validation
 
 QA totals:
 - 351 catalog items
 - 170 boats
 - 181 equipment records
 
-Northwood assertions:
-- 1 stable record
-- 3 closed physical/evidence rows: 1994, 1995–1997, 1998
-- 0 unresolved generation rows
-- every row has at least one generation-contained value era
-- 1995–1997 SC and DC/windshield configurations remain visible
-- conflicting fitment nomenclature remains disclosed
-- no ideal-match star
-
-Sea Nymph assertions:
-- 5 stable records
-- 24 closed physical/evidence/configuration rows
-- 0 unresolved generation rows
-- every row has at least one value era
-- sterndrive configurations remain separate
-- exact one-record ideal-match star set preserved
+Lowe assertions:
+- 6 stable records
+- 18 closed, non-overlapping year/hull/evidence rows
+- 24 generation-contained price eras
+- 0 unresolved Lowe rows
+- 23 unresolved generation rows remain app-wide outside Lowe
+- exact 2-record ideal-match star set
+- exact factory values asserted at every previously contaminated boundary
+- FM 165 Pro WT side-console contamination guard
+- FM1775 2020–2025 and 2026 published weights asserted separately
 
 Existing controller workflow assertions also pass for the combined Year / hull selector, package-condition pricing, removed model-list placeholder pricing and route scroll reset.

@@ -1,26 +1,31 @@
-BoatBuilder Sea Nymph + Northwood generation completion — 2026-07-31
+BoatBuilder Lowe completion rebuild — 2026-07-31
 
 Replace these repository files:
 - data/boats.js
 - tests/qa.mjs
 
-Add these research files:
-- research/sea-nymph-generation-completion-2026-07-31.md
-- research/northwood-generation-completion-2026-07-31.md
+Add this research file:
+- research/lowe-generation-completion-2026-07-31.md
 
-New Northwood scope:
-- 1 existing Northwood record only
-- 3 closed physical/evidence rows
-- 0 Northwood unresolved rows
-- every Northwood row has generation-contained used-package pricing
-- SC and DC/windshield configurations retained inside one stable app record
-- conflicting 170 SC/DC versus 171 SC/172 DC fitment nomenclature disclosed
-- 0 compact ideal-match stars
+Scope:
+- 6 existing Lowe records only; no roster expansion
+- 18 closed year/hull/evidence rows
+- 24 generation-contained complete-package price eras
+- 0 unresolved Lowe rows
+- app-wide unresolved generation rows reduced from 29 to 23
+- all 170 stable boat IDs preserved
+- exactly 2 compact Lowe ideal-match stars
+- no application controller changes
 
-Cumulative scope:
-- Includes the completed Sea Nymph batch
-- All 170 stable boat IDs preserved
-- No application controller changes
-- App-wide literal unresolved rows reduced to 29
+Critical rebuilt values:
+- 2013–2014 FS165: 1,250 lb, 82-inch beam, 70.5-inch bottom, 90 hp
+- 2013–2014 FS175: 1,446 lb, 96-inch beam, 84-inch bottom, 150 hp
+- 2013 FS185: 1,700 lb and 150 hp
+- 2014 FS185: 1,700 lb, 175 hp and 1,777-lb capacity
+- 2013–2019 FM 165 Pro WT: 1,250 lb; 1,200-lb SC contamination forbidden by QA
+- 2020–2025 FM1775 WT: 1,317 lb
+- 2026 FM1775 WT: 1,274 lb
+
+The previously rejected Lowe ZIP must not be uploaded. This archive was rebuilt from clean origin/main and validated as an overlay on that baseline.
 
 The ZIP is flat. Upload the visible files and folders directly over the repository root.
