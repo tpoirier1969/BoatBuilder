@@ -1,0 +1,734 @@
+[
+  {
+    "id": "boat:Fisher | Hawk 170 FS",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Fisher",
+    "model": "Hawk 170 FS",
+    "displayName": "Fisher | Hawk 170 FS",
+    "subtitle": "2020 exact cited specification; other advertised years unresolved",
+    "badge": "Primary",
+    "lowPrice": 3000,
+    "highPrice": 7000,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://www.boats.com/bird-of-prey/",
+    "image": {
+      "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
+      "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
+      "matchQuality": "Same family; 186 used for 170",
+      "note": "Exact 2002 Hawk 186 Fish & Ski listing used as a family-layout stand-in for the smaller 170."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2020 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Very good"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory full walk-through windshield; fish-and-ski seating"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90–115"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Primary: welded, full-windshield 17-footer with enough beam and cockpit for the intended use."
+      },
+      {
+        "label": "Notes",
+        "value": "Fisher's welded Hawk FS line combined fishing space with family seating. Brand support is legacy-only; inspect welds, flotation, transom and floor."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood floor/deck was typical; exact trim and any prior replacement vary by year."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; inspect floor, transom and hidden flotation rather than trusting clean carpet."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Fisher | Hawk 170 FS:gen:2020",
+        "label": "2020 cited specification snapshot",
+        "startYear": 2020,
+        "endYear": 2020,
+        "status": "cited-snapshot",
+        "specificationBasis": "2020 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.boats.com/bird-of-prey/",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "About 95\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,250 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 170 FS:value:1990s",
+            "label": "1990s",
+            "startYear": 1990,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 5500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          },
+          {
+            "id": "boat:Fisher | Hawk 170 FS:value:2000s",
+            "label": "2000s",
+            "startYear": 2000,
+            "endYear": 2009,
+            "low": 4000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:Fisher | Hawk 170 FS:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 1990,
+        "endYear": 2009,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
+        "sourceUrl": "https://www.boats.com/bird-of-prey/",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:Fisher | Hawk 186 FS",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Fisher",
+    "model": "Hawk 186 FS",
+    "displayName": "Fisher | Hawk 186 FS",
+    "subtitle": "2001 exact cited specification; other advertised years unresolved",
+    "badge": "Primary",
+    "lowPrice": 3000,
+    "highPrice": 8500,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+    "image": {
+      "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
+      "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
+      "matchQuality": "Exact model and era",
+      "note": "Exact 2002 Fisher Hawk 186 Fish & Ski listing."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2001 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Excellent"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory full walk-through windshield; fish-and-ski seating"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "115–150"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Primary: larger welded Hawk is a strong four-person Superior hull; calculate the actual loaded package."
+      },
+      {
+        "label": "Notes",
+        "value": "Fisher's welded Hawk FS line combined fishing space with family seating. Brand support is legacy-only; inspect welds, flotation, transom and floor."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood floor/deck was typical; exact trim and any prior replacement vary by year."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; inspect floor, transom and hidden flotation rather than trusting clean carpet."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Fisher | Hawk 186 FS:gen:2001",
+        "label": "2001 cited specification snapshot",
+        "startYear": 2001,
+        "endYear": 2001,
+        "status": "cited-snapshot",
+        "specificationBasis": "2001 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "18'6\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "About 96\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,500 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 186 FS:value:1990s",
+            "label": "1990s",
+            "startYear": 1990,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 5500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          },
+          {
+            "id": "boat:Fisher | Hawk 186 FS:value:2000s",
+            "label": "2000s",
+            "startYear": 2000,
+            "endYear": 2009,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:Fisher | Hawk 186 FS:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 1990,
+        "endYear": 2009,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
+        "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:Fisher | Hawk 200 FS",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Fisher",
+    "model": "Hawk 200 FS",
+    "displayName": "Fisher | Hawk 200 FS",
+    "subtitle": "2001 exact cited specification; other advertised years unresolved",
+    "badge": "Secondary",
+    "lowPrice": 3000,
+    "highPrice": 10000,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+    "image": {
+      "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
+      "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
+      "matchQuality": "Same family; 186 used for 200",
+      "note": "Exact 2002 Hawk 186 Fish & Ski listing used as a family-layout stand-in for the larger 200."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2001 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Excellent hull; marginal tow/budget fit"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory full walk-through windshield; fish-and-ski seating"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "150–200"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary: capable, but the 20-foot/200-hp package is likely near the Maverick's practical limit and is uncommon in the region."
+      },
+      {
+        "label": "Notes",
+        "value": "Fisher's welded Hawk FS line combined fishing space with family seating. Brand support is legacy-only; inspect welds, flotation, transom and floor."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood floor/deck was typical; exact trim and any prior replacement vary by year."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; inspect floor, transom and hidden flotation rather than trusting clean carpet."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Fisher | Hawk 200 FS:gen:2001",
+        "label": "2001 cited specification snapshot",
+        "startYear": 2001,
+        "endYear": 2001,
+        "status": "cited-snapshot",
+        "specificationBasis": "2001 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "About 20'0\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "About 96\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,800 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 200 FS:value:1990s",
+            "label": "1990s",
+            "startYear": 1990,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 5500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          },
+          {
+            "id": "boat:Fisher | Hawk 200 FS:value:2000s",
+            "label": "2000s",
+            "startYear": 2000,
+            "endYear": 2009,
+            "low": 6000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:Fisher | Hawk 200 FS:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 1990,
+        "endYear": 2009,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
+        "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  }
+]
