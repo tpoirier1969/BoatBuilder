@@ -1,0 +1,99 @@
+{
+  "added": [
+    {
+      "id": "boat:Fisher | Hawk 160 WT",
+      "manufacturer": "Fisher",
+      "model": "Hawk 160 WT",
+      "generations": [
+        [
+          2004,
+          2005
+        ],
+        [
+          2006,
+          2007
+        ]
+      ]
+    },
+    {
+      "id": "boat:Fisher | Hawk 170 Sport",
+      "manufacturer": "Fisher",
+      "model": "Hawk 170 Sport",
+      "generations": [
+        [
+          2004,
+          2005
+        ],
+        [
+          2006,
+          2008
+        ]
+      ]
+    },
+    {
+      "id": "boat:Fisher | Hawk 170 WT",
+      "manufacturer": "Fisher",
+      "model": "Hawk 170 WT",
+      "generations": [
+        [
+          2005,
+          2005
+        ],
+        [
+          2006,
+          2008
+        ]
+      ]
+    },
+    {
+      "id": "boat:Fisher | 16 Pro Avenger WT",
+      "manufacturer": "Fisher",
+      "model": "16 Pro Avenger WT",
+      "generations": [
+        [
+          2006,
+          2006
+        ],
+        [
+          2007,
+          2007
+        ],
+        [
+          2008,
+          2008
+        ]
+      ]
+    },
+    {
+      "id": "boat:Fisher | 17 Pro Avenger WT",
+      "manufacturer": "Fisher",
+      "model": "17 Pro Avenger WT",
+      "generations": [
+        [
+          2006,
+          2007
+        ],
+        [
+          2008,
+          2008
+        ]
+      ]
+    },
+    {
+      "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W",
+      "manufacturer": "Ultracraft (Misty Harbor)",
+      "model": "Trophy 166W / 166W",
+      "generations": [
+        [
+          2007,
+          2008
+        ],
+        [
+          2010,
+          2010
+        ]
+      ]
+    }
+  ],
+  "remainingCandidateGaps": 121
+}

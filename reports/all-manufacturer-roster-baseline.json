@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-01T17:50:37.044Z",
-  "boatRecords": 170,
+  "generatedAt": "2026-08-01T18:38:55.077Z",
+  "boatRecords": 176,
   "manufacturerCount": 24,
   "manufacturers": [
     {
@@ -1061,8 +1061,96 @@
     },
     {
       "manufacturer": "Fisher",
-      "modelCount": 3,
+      "modelCount": 8,
       "models": [
+        {
+          "id": "boat:Fisher | 16 Pro Avenger WT",
+          "model": "16 Pro Avenger WT",
+          "badge": "Primary",
+          "idealMatch": false,
+          "subtitle": "2006-2008 compact Pro Avenger WT; annual weight and horsepower changes separated",
+          "layout": "Factory walk-through windshield fishing layout",
+          "construction": "Varies by selected hull generation",
+          "bigWaterSuitability": "Adequate nearshore for two; narrow and compact for four",
+          "modelYears": "2006; 2007; 2008",
+          "generations": [
+            {
+              "startYear": 2006,
+              "endYear": 2006,
+              "status": "annual-roster-and-year-sheet",
+              "label": "2006 16 Pro Avenger WT",
+              "sourceUrl": "https://www.jdpower.com/boats/2006/fisher-boats"
+            },
+            {
+              "startYear": 2007,
+              "endYear": 2007,
+              "status": "annual-roster-generation",
+              "label": "2007 16 Pro Avenger WT",
+              "sourceUrl": "https://www.jdpower.com/boats/2007/fisher-boats"
+            },
+            {
+              "startYear": 2008,
+              "endYear": 2008,
+              "status": "annual-roster-generation",
+              "label": "2008 lighter published 16 Pro Avenger WT",
+              "sourceUrl": "https://www.jdpower.com/boats/2008/fisher-boats"
+            }
+          ]
+        },
+        {
+          "id": "boat:Fisher | 17 Pro Avenger WT",
+          "model": "17 Pro Avenger WT",
+          "badge": "Primary",
+          "idealMatch": false,
+          "subtitle": "2006-2008 Pro Avenger WT; 2008 published weight drop separated",
+          "layout": "Factory walk-through windshield fishing layout",
+          "construction": "Varies by selected hull generation",
+          "bigWaterSuitability": "Good to very good for two or three; workable for four",
+          "modelYears": "2006-2007; 2008",
+          "generations": [
+            {
+              "startYear": 2006,
+              "endYear": 2007,
+              "status": "annual-roster-generation",
+              "label": "2006-2007 17/170 Pro Avenger WT",
+              "sourceUrl": "https://www.boats.za.net/fisher/17-pro-avenger-wt/fisher-17-pro-avenger-wt-2006"
+            },
+            {
+              "startYear": 2008,
+              "endYear": 2008,
+              "status": "annual-roster-generation",
+              "label": "2008 lighter published 17/170 Pro Avenger WT",
+              "sourceUrl": "https://www.jdpower.com/boats/2008/fisher-boats"
+            }
+          ]
+        },
+        {
+          "id": "boat:Fisher | Hawk 160 WT",
+          "model": "Hawk 160 WT",
+          "badge": "Primary",
+          "idealMatch": false,
+          "subtitle": "2004-2007 documented walk-through family; 2006 weight change separated",
+          "layout": "Factory dual-console walk-through windshield",
+          "construction": "Varies by selected hull generation",
+          "bigWaterSuitability": "Good for two; compact for four on Lake Superior",
+          "modelYears": "2004-2005; 2006-2007",
+          "generations": [
+            {
+              "startYear": 2004,
+              "endYear": 2005,
+              "status": "annual-roster-generation",
+              "label": "2004-2005 Hawk 160 WT",
+              "sourceUrl": "https://www.jdpower.com/boats/2005/fisher-boats"
+            },
+            {
+              "startYear": 2006,
+              "endYear": 2007,
+              "status": "year-specific-generation",
+              "label": "2006-2007 Hawk 160 WT",
+              "sourceUrl": "https://www.boats.za.net/fisher/hawk-160-wt/fisher-hawk-160-wt-2007"
+            }
+          ]
+        },
         {
           "id": "boat:Fisher | Hawk 170 FS",
           "model": "Hawk 170 FS",
@@ -1094,6 +1182,60 @@
               "status": "annual-roster-generation-with-weight-conflict",
               "label": "2001-2002 later published-weight generation",
               "sourceUrl": "https://www.jdpower.com/boats/2002/fisher-boats"
+            }
+          ]
+        },
+        {
+          "id": "boat:Fisher | Hawk 170 Sport",
+          "model": "Hawk 170 Sport",
+          "badge": "Primary",
+          "idealMatch": false,
+          "subtitle": "2004-2008 separate Sport trim; 2006 wider-hull change separated",
+          "layout": "Factory dual-console walk-through windshield with sport/family seating",
+          "construction": "Varies by selected hull generation",
+          "bigWaterSuitability": "Very good hull; sport seating can reduce open fishing room",
+          "modelYears": "2004-2005; 2006-2008",
+          "generations": [
+            {
+              "startYear": 2004,
+              "endYear": 2005,
+              "status": "year-specific-generation",
+              "label": "2004-2005 narrow Hawk 170 Sport",
+              "sourceUrl": "https://www.boats.za.net/compare/fisher/hawk-170-sport/fisher-hawk-170-sport-2004--vs--fisher/hawk-170-sport/fisher-hawk-170-sport-2005"
+            },
+            {
+              "startYear": 2006,
+              "endYear": 2008,
+              "status": "published-hp-conflict-generation",
+              "label": "2006-2008 wider Hawk 170 Sport",
+              "sourceUrl": "https://www.boats.za.net/fisher/hawk-170-sport/fisher-hawk-170-sport-2008"
+            }
+          ]
+        },
+        {
+          "id": "boat:Fisher | Hawk 170 WT",
+          "model": "Hawk 170 WT",
+          "badge": "Primary",
+          "idealMatch": false,
+          "subtitle": "2005-2008 documented WT trim; 2006 wider-hull change separated",
+          "layout": "Factory walk-through windshield fishing trim",
+          "construction": "Varies by selected hull generation",
+          "bigWaterSuitability": "Very good for two or three; workable for four",
+          "modelYears": "2005; 2006-2008",
+          "generations": [
+            {
+              "startYear": 2005,
+              "endYear": 2005,
+              "status": "year-specific-generation",
+              "label": "2005 Hawk 170 WT",
+              "sourceUrl": "https://www.boats.za.net/fisher/hawk-170-wt/fisher-hawk-170-wt-2005"
+            },
+            {
+              "startYear": 2006,
+              "endYear": 2008,
+              "status": "year-specific-generation",
+              "label": "2006-2008 wider Hawk 170 WT",
+              "sourceUrl": "https://www.boats.za.net/fisher/hawk-170-wt"
             }
           ]
         },
@@ -5491,7 +5633,7 @@
     },
     {
       "manufacturer": "Ultracraft (Misty Harbor)",
-      "modelCount": 2,
+      "modelCount": 3,
       "models": [
         {
           "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W",
@@ -5544,6 +5686,33 @@
               "status": "annual-roster-continuation",
               "label": "2009-2012 178W annual-roster continuation",
               "sourceUrl": "https://www.boats.za.net/ultracraft"
+            }
+          ]
+        },
+        {
+          "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W",
+          "model": "Trophy 166W / 166W",
+          "badge": "Primary",
+          "idealMatch": false,
+          "subtitle": "2007-2008 Trophy 166W and documented 2010 166W; no invented continuous 2006-2012 run",
+          "layout": "Factory dual-console/windshield compact fishing layout",
+          "construction": "Varies by selected hull generation",
+          "bigWaterSuitability": "Fair nearshore for two; too narrow for four-person Superior fishing",
+          "modelYears": "2007-2008; 2010",
+          "generations": [
+            {
+              "startYear": 2007,
+              "endYear": 2008,
+              "status": "roster-and-family-hull-evidence",
+              "label": "2007-2008 Trophy 166W roster and family-hull evidence",
+              "sourceUrl": "https://www.boats.za.net/ultracraft"
+            },
+            {
+              "startYear": 2010,
+              "endYear": 2010,
+              "status": "year-specific-generation",
+              "label": "2010 Ultracraft 166W exact published row",
+              "sourceUrl": "https://www.boats.za.net/ultracraft/166w"
             }
           ]
         }

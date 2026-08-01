@@ -9,8 +9,8 @@ for (const path of ["data/boats.js", "data/equipment.js", "data/catalog.js"]) {
 const catalog = sandbox.window.BOATBUILDER_DATA;
 assert.ok(catalog, "Canonical catalog global is missing");
 const targets = catalog.items.filter(entry => entry.manufacturer === "Ultracraft (Misty Harbor)" || entry.manufacturer === "Fish-Rite");
-assert.equal(targets.length, 3, "Ultracraft/Fish-Rite focused record count changed");
-assert.equal(targets.reduce((sum, boat) => sum + (boat.designGenerations || []).length, 0), 5, "Focused generation/evidence-row count changed");
+assert.equal(targets.length, 4, "Ultracraft/Fish-Rite focused record count changed");
+assert.equal(targets.reduce((sum, boat) => sum + (boat.designGenerations || []).length, 0), 7, "Focused generation/evidence-row count changed");
 assert.equal(targets.filter(boat => boat.idealMatch).length, 0, "Focused ideal-match set changed");
 
 for (const boat of targets) {
@@ -71,4 +71,4 @@ assert.equal(later178.specs.Beam.value, "95\"", "2009-2012 178W published beam c
 assert.equal(later178.specs.Deadrise.value, "15°", "2009-2012 178W published deadrise changed");
 assert.match(later178.specificationBasis, /continuation rather than a new unrelated model/i, "Later Stealth branding evidence disappeared");
 
-console.log("Ultracraft/Fish-Rite QA passed: 3 records, 5 evidence rows, and Ultracraft roster coverage through 2012.");
+console.log("Ultracraft/Fish-Rite QA passed: 4 records, 7 evidence rows, and corrected Ultracraft windshield-family coverage.");

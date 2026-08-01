@@ -1,0 +1,61 @@
+name: Add used-market missing models batch 1
+
+on:
+  push:
+    branches:
+      - add/used-market-missing-models-1
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  add-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Add records and update audit state
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          : > reports/used-market-missing-models-1-ci.log
+          node scripts/add-used-market-missing-models-1.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          node scripts/update-focused-qa-for-used-market-batch.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          node scripts/report-all-manufacturer-roster-baseline.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          node scripts/report-all-manufacturer-roster-gaps.mjs | tee -a reports/used-market-missing-models-1-ci.log
+      - name: Validate catalog and focused data
+        shell: bash
+        run: |
+          set -euo pipefail
+          node tests/qa.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          node tests/fisher-qa.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          node tests/ultracraft-fishrite-qa.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          node tests/used-market-missing-models-1-qa.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          node tests/all-manufacturer-roster-gaps-qa.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          node tests/used-market-missing-models-1-semantic-diff-qa.mjs | tee -a reports/used-market-missing-models-1-ci.log
+          echo "used_market_missing_models_1_status=passed" | tee -a reports/used-market-missing-models-1-ci.log
+      - name: Commit verified additive batch
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/boats.js \
+            research/all-manufacturer-roster-gaps.json \
+            reports/all-manufacturer-roster-baseline.json \
+            reports/all-manufacturer-roster-baseline.md \
+            reports/all-manufacturer-roster-gaps.json \
+            reports/all-manufacturer-roster-gaps.md \
+            reports/used-market-missing-models-1.json \
+            reports/used-market-missing-models-1-ci.log \
+            tests/fisher-qa.mjs \
+            tests/ultracraft-fishrite-qa.mjs
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply verified used-market missing-model batch 1"
+            git push
+          fi

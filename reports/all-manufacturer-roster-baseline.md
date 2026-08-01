@@ -1,8 +1,8 @@
 # All-Manufacturer Roster Baseline
 
-Generated 2026-08-01T17:50:37.044Z.
+Generated 2026-08-01T18:38:55.077Z.
 
-- Boat records: 170
+- Boat records: 176
 - Manufacturers represented: 24
 
 This is the catalog side of the missing-model audit. It does not claim that any manufacturer roster is complete.
@@ -12,7 +12,7 @@ This is the catalog side of the missing-model audit. It does not claim that any 
 | Alumacraft | 17 | *Competitor 165 Sport; *Competitor 175 Sport / FSX; *Dominator 165 Sport; *Dominator 175 Sport; *Navigator Sport 165; *Navigator Sport 175; *Trophy 175 Sport; Classic 165 Sport; Competitor 185 Sport (Secondary; 175 is Primary); Dominator 185 Sport (Secondary; 175 is Primary); Edge Sport 175; Edge Sport 185; Magnum CS (side-console series; no walk-through windshield); Tournament Pro 185; Trophy 170 (Secondary; 81-inch beam); Trophy 185 Sport (Secondary; 175 is Primary); Voyageur 175 Sport |
 | Crestliner | 15 | *Fish Hawk 1700 WT; *Fish Hawk 1750 WT / full-windshield DC; *Sport Angler 1750; *Super Hawk 1700 WT; Fish Hawk 1850 WT; Phantom Sportfish V160; Phantom Sportfish V170; Phantom Sportfish V180; Sport Angler 1650; Sportfish 1750; Sportfish 1850; Super Hawk 1600 WT; Super Hawk 1800 WT; Vision 1600 WT; Vision 1700 WT |
 | Fish-Rite | 1 | Stalker 17–17'6" custom-build screening |
-| Fisher | 3 | Hawk 170 FS; Hawk 186 FS; Hawk 200 FS |
+| Fisher | 8 | 16 Pro Avenger WT; 17 Pro Avenger WT; Hawk 160 WT; Hawk 170 FS; Hawk 170 Sport; Hawk 170 WT; Hawk 186 FS; Hawk 200 FS |
 | G3 | 3 | Angler V172 FS (full-windshield / walk-through); Angler V175 FS; Angler V185 FS (Secondary; V172 is Primary) |
 | Hewescraft | 1 | Sportsman 180 |
 | Legend | 3 | 16 Xcalibur full-windshield; 17 Xcalibur full-windshield; 18 Xcalibur full-windshield |
@@ -32,7 +32,7 @@ This is the catalog side of the missing-model audit. It does not claim that any 
 | Sylvan | 16 | Adventurer 1700 DC; Expedition Sport 1700 DC; Expedition Sport 1800 DC; Explorer 1600 DC; Fish and Ski (seller description; identify exact model); Pro Fish 1700 DC; Pro Select Dual 16; Pro Select Dual 17; Pro Sport 1600 DC; Pro Sport 1700 DC (Primary; not Sport Troller); Pro Sport 1900 DC (Secondary; 1700 is Primary); Sport Troller 1600 TL (Secondary; not Sylvan Pro Sport); Super Sportster 16 OB; Super Sportster 17 OB; Super Sportster 18 OB; Viper (bass-boat series; no walk-through windshield) |
 | Tracker | 8 | *Pro Guide V-17 WT; *Pro Guide V-175 WT; *Targa 17 WT (2003–2005 redesign); *Targa 17 WT (early generation); *Targa V-17 WT; Targa V-18 WT; Targa V-19 WT (exceeds Maverick tow rating); Tundra 18 DC / WT |
 | Triton | 2 | DV176 DC Magnum; DV186 DC Magnum |
-| Ultracraft (Misty Harbor) | 2 | Stealth 169W / 169W; Stealth 178W / 178W |
+| Ultracraft (Misty Harbor) | 3 | Stealth 169W / 169W; Stealth 178W / 178W; Trophy 166W / 166W |
 
 ## Detailed model coverage
 
@@ -88,7 +88,12 @@ This is the catalog side of the missing-model audit. It does not claim that any 
 
 | Model | Tier | Existing year/evidence coverage | Layout |
 |---|---|---|---|
+| 16 Pro Avenger WT | Primary | 2006-2006 (annual-roster-and-year-sheet); 2007-2007 (annual-roster-generation); 2008-2008 (annual-roster-generation) | Factory walk-through windshield fishing layout |
+| 17 Pro Avenger WT | Primary | 2006-2007 (annual-roster-generation); 2008-2008 (annual-roster-generation) | Factory walk-through windshield fishing layout |
+| Hawk 160 WT | Primary | 2004-2005 (annual-roster-generation); 2006-2007 (year-specific-generation) | Factory dual-console walk-through windshield |
 | Hawk 170 FS | Primary | 1997-1999 (annual-roster-generation); 2000-2000 (cited-exact-test); 2001-2002 (annual-roster-generation-with-weight-conflict) | Factory full walk-through windshield; fish-and-ski seating |
+| Hawk 170 Sport | Primary | 2004-2005 (year-specific-generation); 2006-2008 (published-hp-conflict-generation) | Factory dual-console walk-through windshield with sport/family seating |
+| Hawk 170 WT | Primary | 2005-2005 (year-specific-generation); 2006-2008 (year-specific-generation) | Factory walk-through windshield fishing trim |
 | Hawk 186 FS | Primary | 2001-2002 (cited-outboard-generation) | Factory full walk-through windshield; fish-and-ski seating |
 | Hawk 200 FS | Secondary | 1997-1998 (period-spec-generation); 1999-1999 (annual-roster-partial); 2000-2001 (cited-later-generation) | Factory full walk-through windshield; fish-and-ski seating |
 
@@ -325,4 +330,5 @@ This is the catalog side of the missing-model audit. It does not claim that any 
 |---|---|---|---|
 | Stealth 169W / 169W | Secondary | 2006-2008 (factory-brochure-era); 2009-2012 (annual-roster-continuation) | Dual consoles with walk-through windshield |
 | Stealth 178W / 178W | Secondary | 2006-2008 (published-conflict-era); 2009-2012 (annual-roster-continuation) | Dual consoles with walk-through windshield |
+| Trophy 166W / 166W | Primary | 2007-2008 (roster-and-family-hull-evidence); 2010-2010 (year-specific-generation) | Factory dual-console/windshield compact fishing layout |
 

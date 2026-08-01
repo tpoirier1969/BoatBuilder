@@ -16,7 +16,7 @@
     "claimPolicy": "No manufacturer is called roster-complete unless an independent annual roster is encoded and checked."
   },
   "manufacturerCount": 24,
-  "candidateModelCount": 126,
+  "candidateModelCount": 121,
   "manufacturers": [
     {
       "manufacturer": "Alumacraft",
@@ -220,51 +220,11 @@
           ]
         },
         {
-          "model": "Hawk 160 WT",
-          "years": "2005-2007",
-          "confidence": "high",
-          "classification": "primary-candidate",
-          "reason": "Explicit WT model absent from BoatBuilder.",
-          "evidenceUrls": [
-            "https://www.boatcovers.com/custom/fisher-boat-covers"
-          ]
-        },
-        {
-          "model": "Hawk 170 Sport / WT",
-          "years": "2004-2008",
-          "confidence": "high",
-          "classification": "primary-candidate",
-          "reason": "Later walk-through Hawk 170 family is separate from the 1997-2002 Hawk 170 FS currently recorded.",
-          "evidenceUrls": [
-            "https://www.boatcovers.com/custom/fisher-boat-covers"
-          ]
-        },
-        {
           "model": "Hawk 186 Sport / WT",
           "years": "2004-2008",
           "confidence": "high",
           "classification": "secondary-screening",
           "reason": "Later walk-through Hawk 186 family is absent.",
-          "evidenceUrls": [
-            "https://www.boatcovers.com/custom/fisher-boat-covers"
-          ]
-        },
-        {
-          "model": "Pro Avenger 160 WT",
-          "years": "2006-2008",
-          "confidence": "high",
-          "classification": "primary-candidate",
-          "reason": "Explicit 160 WT family absent.",
-          "evidenceUrls": [
-            "https://www.boatcovers.com/custom/fisher-boat-covers"
-          ]
-        },
-        {
-          "model": "Pro Avenger 17 WT",
-          "years": "2006-2008",
-          "confidence": "high",
-          "classification": "primary-candidate",
-          "reason": "Explicit 17-foot WT family absent.",
           "evidenceUrls": [
             "https://www.boatcovers.com/custom/fisher-boat-covers"
           ]
@@ -300,7 +260,34 @@
           ]
         }
       ],
-      "notes": "The prior Fisher audit covered only three Hawk rows and missed several later WT and Pro Avenger families."
+      "notes": "The prior Fisher audit covered only three Hawk rows and missed several later WT and Pro Avenger families.",
+      "resolvedModels": [
+        {
+          "stableId": "boat:Fisher | Hawk 160 WT",
+          "resolvedInBatch": "used-market-missing-models-1",
+          "note": "Added with corrected separate model identities, year boundaries, specifications and generation-contained pricing."
+        },
+        {
+          "stableId": "boat:Fisher | Hawk 170 Sport",
+          "resolvedInBatch": "used-market-missing-models-1",
+          "note": "Added with corrected separate model identities, year boundaries, specifications and generation-contained pricing."
+        },
+        {
+          "stableId": "boat:Fisher | Hawk 170 WT",
+          "resolvedInBatch": "used-market-missing-models-1",
+          "note": "Added with corrected separate model identities, year boundaries, specifications and generation-contained pricing."
+        },
+        {
+          "stableId": "boat:Fisher | 16 Pro Avenger WT",
+          "resolvedInBatch": "used-market-missing-models-1",
+          "note": "Added with corrected separate model identities, year boundaries, specifications and generation-contained pricing."
+        },
+        {
+          "stableId": "boat:Fisher | 17 Pro Avenger WT",
+          "resolvedInBatch": "used-market-missing-models-1",
+          "note": "Added with corrected separate model identities, year boundaries, specifications and generation-contained pricing."
+        }
+      ]
     },
     {
       "manufacturer": "G3",
@@ -1515,16 +1502,6 @@
       ],
       "missingModels": [
         {
-          "model": "Trophy 166W",
-          "years": "2006-2012",
-          "confidence": "high",
-          "classification": "primary-candidate",
-          "reason": "Annual model rosters list a 16-foot windshield family absent from the corrected 169W/178W audit.",
-          "evidenceUrls": [
-            "https://www.boats.za.net/ultracraft"
-          ]
-        },
-        {
           "model": "Stealth 189FS / 189FS",
           "years": "2008-2012",
           "confidence": "high",
@@ -1535,7 +1512,14 @@
           ]
         }
       ],
-      "notes": "The 169W/178W correction fixed continuity but did not make the relevant Ultracraft roster complete."
+      "notes": "The 169W/178W correction fixed continuity but did not make the relevant Ultracraft roster complete.",
+      "resolvedModels": [
+        {
+          "stableId": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W",
+          "resolvedInBatch": "used-market-missing-models-1",
+          "note": "Added with 2007-2008 and 2010 evidence rows; the former unsupported continuous 2006-2012 claim was rejected."
+        }
+      ]
     }
   ]
 }
