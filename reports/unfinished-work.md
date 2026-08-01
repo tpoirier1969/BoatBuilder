@@ -1,17 +1,16 @@
 # Unfinished Boat Generation Work
 
-Generated from the canonical catalog on 2026-08-01T02:46:07.329Z.
+Generated from the canonical catalog on 2026-08-01T03:01:58.082Z.
 
 - Catalog items: 351
 - Boat records: 170
-- Unresolved generation rows: 23
-- Manufacturers affected: 11
+- Unresolved generation rows: 19
+- Manufacturers affected: 10
 
 ## Manufacturer summary
 
 | Manufacturer | Models affected | Unresolved rows | Rows missing pricing |
 |---|---:|---:|---:|
-| Polar Kraft | 4 | 4 | 4 |
 | Fisher | 3 | 3 | 3 |
 | G3 | 3 | 3 | 3 |
 | Legend | 3 | 3 | 3 |
@@ -41,10 +40,6 @@ Generated from the canonical catalog on 2026-08-01T02:46:07.329Z.
 | MonArk | Pro 1700 DC | Other advertised years — specifications and pricing unresolved | 1990-1999 | Missing | Secondary / screening | No unresolved reason recorded |
 | MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement) | Other advertised years — specifications and pricing unresolved | 1990-1999 | Missing | Secondary / screening | No unresolved reason recorded |
 | North River | Seahawk 18'6" | Other advertised years — specifications and pricing unresolved | 2010-2029 | Missing | Secondary / screening | No unresolved reason recorded |
-| Polar Kraft | Frontier 179 WT | Other advertised years — specifications and pricing unresolved | 2010-2029 | Missing | Secondary / screening | No unresolved reason recorded |
-| Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary) | Other advertised years — specifications and pricing unresolved | 2000-2019 | Missing | Secondary / screening | No unresolved reason recorded |
-| Polar Kraft | Kodiak V170 FS | Other advertised years — specifications and pricing unresolved | 2000-2019 | Missing | Secondary / screening | No unresolved reason recorded |
-| Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180) | Other advertised years — specifications and pricing unresolved | 2010-2029 | Missing | Secondary / screening | No unresolved reason recorded |
 | Spectrum / Blue Fin | 1906 | Other advertised years — specifications and pricing unresolved | 1990-1999 | Missing | Secondary / screening | No unresolved reason recorded |
 | Triton | DV176 DC Magnum | Other advertised years — specifications and pricing unresolved | 2000-2009 | Missing | Secondary / screening | No unresolved reason recorded |
 | Triton | DV186 DC Magnum | Other advertised years — specifications and pricing unresolved | 2000-2009 | Missing | Secondary / screening | No unresolved reason recorded |

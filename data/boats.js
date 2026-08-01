@@ -24079,11 +24079,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Polar Kraft",
     "model": "Frontier 179 WT",
     "displayName": "Polar Kraft | Frontier 179 WT",
-    "subtitle": "2019 exact cited specification; other advertised years unresolved",
+    "subtitle": "2012-2023 documented production; published weight changes separated",
     "badge": "Primary",
-    "lowPrice": 8000,
-    "highPrice": 20000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 7000,
+    "highPrice": 22000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Select the listing year before judging value.",
     "sourceUrl": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
     "image": {
       "url": "https://yamahaoutboards.com/getmedia/73E860A8-3467-41EB-AC6A-B425B696DC97/Frontier179WT..jpg",
@@ -24094,7 +24094,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2019 exact cited specification; other advertised years unresolved"
+        "value": "2012-2023 documented production; 2012, 2013-2017, 2018-2019 and 2020-2023 evidence generations separated"
       },
       {
         "label": "Recommendation",
@@ -24186,7 +24186,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Unusually wide, manageable dry weight and a fishing-first WT layout. The dimensions are excellent; used price and regional scarcity are the catches."
+        "value": "A strong physical match for the project. The published hull weight drops from 1,282 lb in 2012 to 1,240 lb for 2013-2017 and 1,130 lb for 2018-2019, so those years are not blended into one fictional generation."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24202,18 +24202,114 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual model rosters, a factory brochure, Yamaha's exact 2019 performance bulletin and the retained 2023 factory page were reconciled. No unresolved catch-all row remains."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Polar Kraft | Frontier 179 WT:gen:2019",
-        "label": "2019 cited specification snapshot",
-        "startYear": 2019,
+        "id": "boat:Polar Kraft | Frontier 179 WT:gen:2012",
+        "label": "2012 early Frontier 179 WT roster",
+        "startYear": 2012,
+        "endYear": 2012,
+        "status": "annual-roster-partial",
+        "specificationBasis": "The 2012 valuation roster establishes the exact V179 WT identity and 1,282-lb published weight. Complete certification-table details were not recovered.",
+        "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft",
+        "specs": {
+          "Length": {
+            "value": "18-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,282 lb",
+            "confidence": "annual-roster"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "factory-series-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Frontier 179 WT:value:2012",
+            "label": "2012",
+            "startYear": 2012,
+            "endYear": 2012,
+            "low": 7000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2012/polar-kraft"
+        ]
+      },
+      {
+        "id": "boat:Polar Kraft | Frontier 179 WT:gen:2013-2017",
+        "label": "2013-2017 factory-brochure / 1,240-lb roster generation",
+        "startYear": 2013,
+        "endYear": 2017,
+        "status": "factory-generation-partial",
+        "specificationBasis": "The 2013 factory brochure establishes the Frontier 179 WT configuration and riveted reverse-chine construction; annual rosters retain a 1,240-lb published weight through 2017.",
+        "sourceUrl": "https://pdf.nauticexpo.com/pdf/aquaspirit/2013-pok-frontier-179-wt/22309-61367.html",
+        "specs": {
+          "Length": {
+            "value": "17'11\"",
+            "confidence": "factory-brochure"
+          },
+          "Beam": {
+            "value": "99\"",
+            "confidence": "factory-brochure"
+          },
+          "Dry Hull Weight": {
+            "value": "1,240 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-brochure"
+          },
+          "Fuel Capacity": {
+            "value": "23 gal",
+            "confidence": "factory-brochure"
+          },
+          "Construction": {
+            "value": "Riveted aluminum reverse-chine deep-V; three-piece double-riveted seams",
+            "confidence": "factory-brochure"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Frontier 179 WT:value:2013-2014",
+            "label": "2013-2014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 7500,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          },
+          {
+            "id": "boat:Polar Kraft | Frontier 179 WT:value:2015-2017",
+            "label": "2015-2017",
+            "startYear": 2015,
+            "endYear": 2017,
+            "low": 8500,
+            "high": 13500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2013/polar-kraft",
+          "https://www.jdpower.com/boats/2017/polar-kraft"
+        ]
+      },
+      {
+        "id": "boat:Polar Kraft | Frontier 179 WT:gen:2018-2019",
+        "label": "2018-2019 1,130-lb WT / WTJ generation",
+        "startYear": 2018,
         "endYear": 2019,
-        "status": "cited-snapshot",
-        "specificationBasis": "2019 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "cited-generation",
+        "specificationBasis": "Annual rosters show the 1,130-lb change in 2018 and 2019. Yamaha's 2019 exact-model performance bulletin confirms the 17'11-inch, 99-inch-beam, 150-hp, 23-gallon configuration.",
         "sourceUrl": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
         "specs": {
           "Length": {
@@ -24224,97 +24320,107 @@ window.BOATBUILDER_BOATS = [
             "value": "99\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Dry Hull Weight": {
             "value": "1,130 lb",
             "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
             "value": "150",
             "confidence": "cited-source-exact"
           },
-          "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Fuel Capacity": {
             "value": "23 gal",
             "confidence": "cited-source-exact"
           },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Construction": {
             "value": "Riveted aluminum reverse-chine deep-V",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-series-verified"
           }
         },
         "eras": [
           {
-            "id": "boat:Polar Kraft | Frontier 179 WT:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
+            "id": "boat:Polar Kraft | Frontier 179 WT:value:2018-2019",
+            "label": "2018-2019",
+            "startYear": 2018,
             "endYear": 2019,
-            "low": 8000,
-            "high": 12500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Polar Kraft | Frontier 179 WT:value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 13000,
-            "high": 20000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "low": 9500,
+            "high": 14500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2018/polar-kraft",
+          "https://www.jdpower.com/boats/2019/polar-kraft"
         ]
       },
       {
-        "id": "boat:Polar Kraft | Frontier 179 WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s–2020s; 2019 performance-bulletin basis",
-        "sourceUrl": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
-        "specs": {},
-        "eras": []
+        "id": "boat:Polar Kraft | Frontier 179 WT:gen:2020-2023",
+        "label": "2020-2023 retained factory-page generation",
+        "startYear": 2020,
+        "endYear": 2023,
+        "status": "factory-current-page",
+        "specificationBasis": "The retained Polar Kraft model page identifies the 2023 Frontier 179 WT Jump and publishes its core hull dimensions and ratings. A dry hull weight is not published on that page, so none is borrowed from 2019.",
+        "sourceUrl": "https://www.polarkraft.com/model/details/Frontier-179-WT-Jump",
+        "specs": {
+          "Length": {
+            "value": "17'11\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "99\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "82.5\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "Not published",
+            "confidence": "factory-not-published"
+          },
+          "Deadrise": {
+            "value": "15° bow / 11° transom",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "23 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.125\" one-piece bottom",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; three-piece double-riveted seams",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Frontier 179 WT:value:2020-2023",
+            "label": "2020-2023",
+            "startYear": 2020,
+            "endYear": 2023,
+            "low": 13000,
+            "high": 22000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
       }
-    ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    ]
   },
   {
     "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary)",
@@ -24323,11 +24429,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Polar Kraft",
     "model": "Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary)",
     "displayName": "Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary)",
-    "subtitle": "2012 exact cited specification; other advertised years unresolved",
+    "subtitle": "2011-2015 verified Kodiak Sport V180 FS production; replaced by V185 FS for 2016",
     "badge": "Primary",
-    "lowPrice": 4500,
-    "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 5500,
+    "highPrice": 12000,
+    "priceBasis": "Generation-contained 2011-2015 complete-package estimate; do not apply it to the later V185 FS.",
     "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft/v180/32024479/specs",
     "image": {
       "url": "https://features.boats.com/boat-content/files/2014/05/polar-kraft-kodiak-170.jpg",
@@ -24338,7 +24444,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012 exact cited specification; other advertised years unresolved"
+        "value": "2011-2015 verified V180 FS production; 2016 roster changes to V185 FS"
       },
       {
         "label": "Recommendation",
@@ -24430,7 +24536,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The exact V180 resolves the earlier missing-beam issue: 92-inch beam and 1,338-lb dry hull. Do not confuse it with the 20'11.5\" Outlander 2010 WT."
+        "value": "This is the actual 18-foot Kodiak Sport fish-and-ski, not the 20'11-inch Outlander 2010 WT. The prior broad 2000-2019 row has been removed, and construction is recorded as riveted rather than welded."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24438,7 +24544,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "Factory-family data for the current-generation Outlander; verify the exact package."
+        "value": "Kodiak Sport factory-family brochure and exact-model annual rosters; verify trim-specific flooring."
       },
       {
         "label": "Washdown / Carpet Fit",
@@ -24446,18 +24552,18 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual 2011-2015 rosters were reconciled. The 2016 roster changes the 18-foot Kodiak Sport to V185 FS, closing the V180 production span."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):gen:2012",
-        "label": "2012 cited specification snapshot",
-        "startYear": 2012,
-        "endYear": 2012,
-        "status": "cited-snapshot",
-        "specificationBasis": "2012 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):gen:2011-2015",
+        "label": "2011-2015 Kodiak Sport V180 FS generation",
+        "startYear": 2011,
+        "endYear": 2015,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The exact V180 FS is present in annual 2011-2015 rosters at 1,338 lb. The 2016 roster replaces it with the V185 FS; specifications are not carried across that model change.",
         "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft/v180/32024479/specs",
         "specs": {
           "Length": {
@@ -24468,33 +24574,21 @@ window.BOATBUILDER_BOATS = [
             "value": "92\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
-          },
           "Dry Hull Weight": {
             "value": "1,338 lb",
             "confidence": "cited-source-exact"
           },
           "Max / Bow Depth": {
             "value": "About 39\"",
-            "confidence": "catalog-representative"
+            "confidence": "cited-source-approximate"
           },
           "Cockpit / Interior Depth": {
             "value": "About 25\"",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Deep-V; angle not stated",
-            "confidence": "catalog-representative"
+            "confidence": "cited-source-approximate"
           },
           "Transom Height": {
             "value": "25\"",
             "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "About 92\"",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
             "value": "150",
@@ -24506,72 +24600,58 @@ window.BOATBUILDER_BOATS = [
           },
           "Capacity Weight": {
             "value": "About 1,500 lb",
-            "confidence": "catalog-representative"
+            "confidence": "cited-source-approximate"
           },
           "Fuel Capacity": {
             "value": "About 30 gal",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "Heavy-gauge; exact value not stated",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Heavy-gauge; exact value not stated",
-            "confidence": "catalog-representative"
+            "confidence": "cited-source-approximate"
           },
           "Construction": {
-            "value": "Welded aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted aluminum reverse-chine deep-V",
+            "confidence": "factory-series-verified"
           }
         },
         "eras": [
           {
-            "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4500,
-            "high": 7500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):value:2011-2012",
+            "label": "2011-2012",
+            "startYear": 2011,
+            "endYear": 2012,
+            "low": 5500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           },
           {
-            "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6500,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):value:2013-2015",
+            "label": "2013-2015",
+            "startYear": 2013,
+            "endYear": 2015,
+            "low": 7000,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2011/polar-kraft",
+          "https://www.jdpower.com/boats/2013/polar-kraft",
+          "https://www.jdpower.com/boats/2015/polar-kraft",
+          "https://www.jdpower.com/boats/2016/polar-kraft"
         ]
-      },
-      {
-        "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2009–2013; 2012 basis",
-        "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft/v180/32024479/specs",
-        "specs": {},
-        "eras": []
       }
-    ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    ]
   },
   {
     "id": "boat:Polar Kraft | Kodiak V170 FS",
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Polar Kraft",
-    "model": "Kodiak V170 FS",
-    "displayName": "Polar Kraft | Kodiak V170 FS",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "model": "Kodiak Sport 170 FS",
+    "displayName": "Polar Kraft | Kodiak Sport 170 FS",
+    "subtitle": "2011 and 2013-2019 documented production; 1,300-lb and 1,360-lb rows separated",
     "badge": "Secondary",
-    "lowPrice": 4000,
-    "highPrice": 9500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 5000,
+    "highPrice": 13000,
+    "priceBasis": "Generation-contained complete-package estimates. A listing represented as a 2012 V170 FS needs HIN/model verification because the annual roster does not show that model.",
     "sourceUrl": "https://library.rvusa.com/brochure/2010_Polar_Kraft_Catalog.pdf",
     "image": {
       "url": "https://features.boats.com/boat-content/files/2014/05/polar-kraft-kodiak-170.jpg",
@@ -24582,7 +24662,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2011 first V170 FS roster; 2013-2019 Kodiak Sport 170 FS-20 / FS-25 production"
       },
       {
         "label": "Recommendation",
@@ -24674,7 +24754,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Towable family/fishing boat. The FS seating is friendlier for cruising than four-person trolling, and exact trim varies."
+        "value": "The model is properly identified as Kodiak Sport 170 FS. The 2011 1,300-lb record is kept separate from the 1,360-lb 2013-2019 run. A claimed 2012 example needs extra verification rather than inherited specifications."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24690,119 +24770,111 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "The 2011 and 2013-2019 annual rosters plus the 2013 exact-model factory brochure were reconciled. No 2012 V170 FS row was found, so that year is not silently filled."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Polar Kraft | Kodiak V170 FS:gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://library.rvusa.com/brochure/2010_Polar_Kraft_Catalog.pdf",
+        "id": "boat:Polar Kraft | Kodiak V170 FS:gen:2011",
+        "label": "2011 V170 FS first documented roster",
+        "startYear": 2011,
+        "endYear": 2011,
+        "status": "annual-roster-partial",
+        "specificationBasis": "The 2011 roster identifies the V170 FS at 1,300 lb. Complete factory certification details were not recovered for this one-year evidence row.",
+        "sourceUrl": "https://www.jdpower.com/boats/2011/polar-kraft",
         "specs": {
           "Length": {
-            "value": "About 17'0\"",
-            "confidence": "catalog-representative"
-          },
-          "Beam": {
-            "value": "About 91\"",
-            "confidence": "catalog-representative"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "17-foot class",
+            "confidence": "annual-roster"
           },
           "Dry Hull Weight": {
-            "value": "About 1,050 lb",
-            "confidence": "catalog-representative"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,300 lb",
+            "confidence": "annual-roster"
           },
           "Max HP": {
             "value": "115",
-            "confidence": "cited-source-exact"
-          },
-          "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "confidence": "model-family-verified"
           },
           "Construction": {
             "value": "Riveted aluminum deep-V",
-            "confidence": "cited-source-exact"
+            "confidence": "factory-series-verified"
           }
         },
         "eras": [
           {
-            "id": "boat:Polar Kraft | Kodiak V170 FS:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Polar Kraft | Kodiak V170 FS:value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 6000,
-            "high": 9500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Polar Kraft | Kodiak V170 FS:value:2011",
+            "label": "2011",
+            "startYear": 2011,
+            "endYear": 2011,
+            "low": 5000,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           }
-        ]
+        ],
+        "evidenceUrls": []
       },
       {
-        "id": "boat:Polar Kraft | Kodiak V170 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
+        "id": "boat:Polar Kraft | Kodiak V170 FS:gen:2013-2019",
+        "label": "2013-2019 Kodiak Sport 170 FS-20 / FS-25 generation",
+        "startYear": 2013,
         "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 2000s–2010s; 2010 catalog basis",
-        "sourceUrl": "https://library.rvusa.com/brochure/2010_Polar_Kraft_Catalog.pdf",
-        "specs": {},
-        "eras": []
+        "status": "factory-generation-partial",
+        "specificationBasis": "The 2013 exact-model factory brochure establishes the Kodiak Sport 170 FS configuration. Annual 2013-2019 rosters consistently publish a 1,360-lb weight and distinguish 20-inch and 25-inch transom packages.",
+        "sourceUrl": "https://pdf.nauticexpo.com/pdf/aquaspirit/2013-pok-kodiak-sport-170-fs/22309-61371.html",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "factory-brochure"
+          },
+          "Beam": {
+            "value": "About 91\"",
+            "confidence": "factory-brochure-approximate"
+          },
+          "Dry Hull Weight": {
+            "value": "1,360 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "factory-brochure"
+          },
+          "Transom Height": {
+            "value": "20\" or 25\" package",
+            "confidence": "annual-roster"
+          },
+          "Construction": {
+            "value": "Riveted aluminum reverse-chine deep-V; three-piece double-riveted seams",
+            "confidence": "factory-brochure"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Kodiak V170 FS:value:2013-2015",
+            "label": "2013-2015",
+            "startYear": 2013,
+            "endYear": 2015,
+            "low": 6500,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          },
+          {
+            "id": "boat:Polar Kraft | Kodiak V170 FS:value:2016-2019",
+            "label": "2016-2019",
+            "startYear": 2016,
+            "endYear": 2019,
+            "low": 8000,
+            "high": 13000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2013/polar-kraft",
+          "https://www.jdpower.com/boats/2016/polar-kraft",
+          "https://www.jdpower.com/boats/2019/polar-kraft"
+        ]
       }
-    ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    ]
   },
   {
     "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180)",
@@ -24811,11 +24883,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Polar Kraft",
     "model": "Outlander 2010 WT (Secondary; not Kodiak V180)",
     "displayName": "Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180)",
-    "subtitle": "2010 exact cited specification; other advertised years unresolved",
+    "subtitle": "2012-2023 documented Outlander 2010 WT production; model number is not a year",
     "badge": "Secondary",
-    "lowPrice": 11000,
-    "highPrice": 22000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 10000,
+    "highPrice": 26000,
+    "priceBasis": "Generation-contained complete-package estimates. This 21-foot platform is normally above the project's preferred size, tow margin and budget.",
     "sourceUrl": "https://www.suzukimarine.com/boat-tests/polar-kraft/polar-kraft-outlander-2010-wt/",
     "image": {
       "url": "https://yamahaoutboards.com/getmedia/73E860A8-3467-41EB-AC6A-B425B696DC97/Frontier179WT..jpg",
@@ -24826,7 +24898,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2010 exact cited specification; other advertised years unresolved"
+        "value": "2012-2023 documented WT production; 2012-2017, 2018-2019 and 2020-2023 evidence generations separated"
       },
       {
         "label": "Recommendation",
@@ -24918,7 +24990,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "The model number 2010 is not the model year; the boat is nearly 21 feet long. It is not the compact Kodiak alternative previously implied."
+        "value": "The '2010' in the name is a model designation for the 20'11-inch hull, not model year 2010. This is a capable but oversized secondary candidate for the project."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -24934,18 +25006,80 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual rosters, Suzuki's exact 2018 performance test and the retained 2023 factory page were reconciled. The false 2010-only generation was removed."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:2010",
-        "label": "2010 cited specification snapshot",
-        "startYear": 2010,
-        "endYear": 2010,
-        "status": "cited-snapshot",
-        "specificationBasis": "2010 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:2012-2017",
+        "label": "2012-2017 first documented Outlander 2010 WT generation",
+        "startYear": 2012,
+        "endYear": 2017,
+        "status": "annual-roster-generation",
+        "specificationBasis": "The WT designation appears in the 2012-2017 annual rosters at a published 1,440-lb weight. Earlier 2010-2011 records use TC rather than WT and are not silently treated as the same model.",
+        "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft",
+        "specs": {
+          "Length": {
+            "value": "20'11.5\"",
+            "confidence": "model-family-verified"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "model-family-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,440 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "model-family-verified"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "model-family-verified"
+          },
+          "Fuel Capacity": {
+            "value": "23 gal",
+            "confidence": "model-family-verified"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "factory-series-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):value:2012-2014",
+            "label": "2012-2014",
+            "startYear": 2012,
+            "endYear": 2014,
+            "low": 10000,
+            "high": 14500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          },
+          {
+            "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):value:2015-2017",
+            "label": "2015-2017",
+            "startYear": 2015,
+            "endYear": 2017,
+            "low": 12000,
+            "high": 17000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2017/polar-kraft"
+        ]
+      },
+      {
+        "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:2018-2019",
+        "label": "2018-2019 revised published-weight generation",
+        "startYear": 2018,
+        "endYear": 2019,
+        "status": "cited-generation-with-weight-conflict",
+        "specificationBasis": "The annual rosters publish 1,530 lb for 2018-2019, while Suzuki's exact 2018 performance test reports 1,440 lb. The conflict is preserved instead of selecting whichever number is convenient.",
         "sourceUrl": "https://www.suzukimarine.com/boat-tests/polar-kraft/polar-kraft-outlander-2010-wt/",
         "specs": {
           "Length": {
@@ -24956,97 +25090,111 @@ window.BOATBUILDER_BOATS = [
             "value": "96\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
-          },
           "Dry Hull Weight": {
-            "value": "1,440 lb hull only",
-            "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not stated in test",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not stated in test",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "value": "1,440 lb performance test / 1,530 lb annual roster",
+            "confidence": "conflicting-cited-sources"
           },
           "Max HP": {
             "value": "200",
             "confidence": "cited-source-exact"
           },
-          "Persons": {
-            "value": "Not stated in test",
-            "confidence": "catalog-representative"
-          },
-          "Capacity Weight": {
-            "value": "Not stated in test",
-            "confidence": "catalog-representative"
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
             "value": "23 gal",
             "confidence": "cited-source-exact"
           },
-          "Bottom Thickness": {
-            "value": "Heavy-gauge; exact value not stated",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Heavy-gauge; exact value not stated",
-            "confidence": "catalog-representative"
-          },
           "Construction": {
-            "value": "Welded aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted aluminum deep-V",
+            "confidence": "factory-series-verified"
           }
         },
         "eras": [
           {
-            "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
+            "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):value:2018-2019",
+            "label": "2018-2019",
+            "startYear": 2018,
             "endYear": 2019,
-            "low": 11000,
-            "high": 16000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):value:2020s",
-            "label": "2020s",
-            "startYear": 2020,
-            "endYear": 2029,
-            "low": 16000,
-            "high": 22000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "low": 14000,
+            "high": 19500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2018/polar-kraft",
+          "https://www.jdpower.com/boats/2019/polar-kraft"
         ]
       },
       {
-        "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2029,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2018–present",
-        "sourceUrl": "https://www.suzukimarine.com/boat-tests/polar-kraft/polar-kraft-outlander-2010-wt/",
-        "specs": {},
-        "eras": []
+        "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:2020-2023",
+        "label": "2020-2023 retained factory-page generation",
+        "startYear": 2020,
+        "endYear": 2023,
+        "status": "factory-current-page",
+        "specificationBasis": "The retained 2023 factory page publishes the core hull dimensions, ratings and all-vinyl interior. It does not publish dry hull weight, so the 2018 figures are not inherited.",
+        "sourceUrl": "https://www.polarkraft.com/model/details/Outlander-2010-WT",
+        "specs": {
+          "Length": {
+            "value": "20'11\"",
+            "confidence": "factory-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "76\"",
+            "confidence": "factory-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "Not published",
+            "confidence": "factory-not-published"
+          },
+          "Deadrise": {
+            "value": "15° bow / 11° transom",
+            "confidence": "factory-exact"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-exact"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "factory-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "factory-exact"
+          },
+          "Fuel Capacity": {
+            "value": "23 gal",
+            "confidence": "factory-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.125\" one-piece bottom",
+            "confidence": "factory-exact"
+          },
+          "Construction": {
+            "value": "Riveted aluminum; three-piece double-riveted seams",
+            "confidence": "factory-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):value:2020-2023",
+            "label": "2020-2023",
+            "startYear": 2020,
+            "endYear": 2023,
+            "low": 17000,
+            "high": 26000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
       }
-    ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    ]
   },
   {
     "id": "boat:Princecraft | Holiday 162 WS",
