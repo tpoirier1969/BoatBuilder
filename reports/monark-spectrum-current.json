@@ -1,0 +1,707 @@
+[
+  {
+    "id": "boat:MonArk | Pro 1700 DC",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "MonArk",
+    "model": "Pro 1700 DC",
+    "displayName": "MonArk | Pro 1700 DC",
+    "subtitle": "1998 exact cited specification; other advertised years unresolved",
+    "badge": "Secondary",
+    "lowPrice": 2500,
+    "highPrice": 4800,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
+    "image": {
+      "url": "https://www.in-depthoutdoors.com/wp-content/uploads/2022/06/IMG_3962.jpg",
+      "source": "https://www.in-depthoutdoors.com/community/forums/topic/97-monark-pro-1700-merc-force-75/",
+      "matchQuality": "Exact model and era",
+      "note": "Bright 1997 Monark Pro 1700 interior photo; the full walk-through windshield, cockpit depth and seating layout are visible. Replaces the dark video thumbnail."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "1998 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good to very good"
+      },
+      {
+        "label": "Layout",
+        "value": "Dual-console factory windshield"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "Not published"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary: 85 in beam and 125 hp are respectable, but the older Pro 1700 is less deep and broad than the Primary targets."
+      },
+      {
+        "label": "Notes",
+        "value": "Historical midrange multispecies. Open-water fishing and family use. About 85\" beam and 125-hp rating; meaningful but not top-tier big-water geometry. Closest comparisons: Crestliner Fish Hawk; Alumacraft Navigator; Spectrum Avenger. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood/deck substrate was typical; restoration or replacement flooring is common at this age."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period configuration evidence; factory material specification was not found, so inspect the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Period interior was typically carpeted; verify any reflooring."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:MonArk | Pro 1700 DC:gen:1998",
+        "label": "1998 cited specification snapshot",
+        "startYear": 1998,
+        "endYear": 1998,
+        "status": "cited-snapshot",
+        "specificationBasis": "1998 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
+        "specs": {
+          "Length": {
+            "value": "17' 0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "4",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Welded aluminum reverse-chine",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MonArk | Pro 1700 DC:value:1990s",
+            "label": "1990s",
+            "startYear": 1990,
+            "endYear": 1999,
+            "low": 2500,
+            "high": 4800,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:MonArk | Pro 1700 DC:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 1990,
+        "endYear": 1999,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1993–1997 verified",
+        "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement)",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "MonArk",
+    "model": "Pro 1800 DC / FS (fiberglass; fails aluminum requirement)",
+    "displayName": "MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement)",
+    "subtitle": "1998 exact cited specification; other advertised years unresolved",
+    "badge": "Secondary",
+    "lowPrice": 3000,
+    "highPrice": 6000,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://www.jdpower.com/boats/1998/monark-marine",
+    "image": {
+      "url": "https://i.ytimg.com/vi/Ln7lvmgwzlc/hqdefault.jpg",
+      "source": "https://www.youtube.com/watch?v=Ln7lvmgwzlc",
+      "matchQuality": "Same family",
+      "note": "Monark 1800 CC family stand-in. This is not the later Pro 1800 DC/FS fiberglass warning model, so use the row notes—not this photo—to judge hull material."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "1998 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Material fails project requirement"
+      },
+      {
+        "label": "Layout",
+        "value": "Dual-console/full windshield fish-and-ski layout"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "115–150"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary / deliberate exclude: fiberglass hull, contrary to the aluminum deep-V requirement."
+      },
+      {
+        "label": "Notes",
+        "value": "Searchable rejection row. The promising MonArk name does not make this particular Pro 1800 DC/FS an aluminum boat."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood floor/deck was typical; exact trim and any prior replacement vary by year."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; inspect floor, transom and hidden flotation rather than trusting clean carpet."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement):gen:1998",
+        "label": "1998 cited specification snapshot",
+        "startYear": 1998,
+        "endYear": 1998,
+        "status": "cited-snapshot",
+        "specificationBasis": "1998 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.jdpower.com/boats/1998/monark-marine",
+        "specs": {
+          "Length": {
+            "value": "About 18'0\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "About 90\"–96\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,500–1,800 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150–175 representative",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Fiberglass",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement):value:1990s",
+            "label": "1990s",
+            "startYear": 1990,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 6000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:MonArk | Pro 1800 DC / FS (fiberglass; fails aluminum requirement):gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 1990,
+        "endYear": 1999,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 1990s representative",
+        "sourceUrl": "https://www.jdpower.com/boats/1998/monark-marine",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:Spectrum / Blue Fin | 1906",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Spectrum / Blue Fin",
+    "model": "1906",
+    "displayName": "Spectrum / Blue Fin | 1906",
+    "subtitle": "1993 exact cited specification; other advertised years unresolved",
+    "badge": "Secondary",
+    "lowPrice": 2500,
+    "highPrice": 5000,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://www.jdpower.com/boats/1993/blue-fin-ind-spectrum/1906/10022329/specs",
+    "image": {
+      "url": "https://forums.iboats.com/attachments/side-jpg.1514/",
+      "source": "https://forums.iboats.com/threads/1992-spectrum-1906-need-manual.192822/",
+      "matchQuality": "Exact",
+      "note": "Exact owner-posted 1992 Spectrum 1906 side photo. If the preview host blocks the image, open the source page and view the Side.JPG attachment."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "1993 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good, condition-first"
+      },
+      {
+        "label": "Layout",
+        "value": "Windshield-equipped runabout/fishing layout; verify exact console arrangement"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90–140 representative"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary: promising size and weight, but sparse documentation and inconsistent windshield/configuration naming make it a verify-first boat."
+      },
+      {
+        "label": "Notes",
+        "value": "Large and towable, but documentation is thin and model-year construction/layout must be verified from photos and the capacity plate."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet over a plywood floor/deck was typical; exact trim and any prior replacement vary by year."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period-family configuration; inspect floor, transom and hidden flotation rather than trusting clean carpet."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — Carpet and aging plywood are typical; condition matters more than cosmetics."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Spectrum / Blue Fin | 1906:gen:1993",
+        "label": "1993 cited specification snapshot",
+        "startYear": 1993,
+        "endYear": 1993,
+        "status": "cited-snapshot",
+        "specificationBasis": "1993 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/blue-fin-ind-spectrum/1906/10022329/specs",
+        "specs": {
+          "Length": {
+            "value": "19'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "89\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,150 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "Not published in cited record",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Aluminum; riveted/welded details vary by production year",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Spectrum / Blue Fin | 1906:value:1990s",
+            "label": "1990s",
+            "startYear": 1990,
+            "endYear": 1999,
+            "low": 2500,
+            "high": 5000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:Spectrum / Blue Fin | 1906:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 1990,
+        "endYear": 1999,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Early 1990s; 1993 basis",
+        "sourceUrl": "https://www.jdpower.com/boats/1993/blue-fin-ind-spectrum/1906/10022329/specs",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  }
+]
