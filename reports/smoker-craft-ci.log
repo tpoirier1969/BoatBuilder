@@ -3,10 +3,652 @@ Updated the legacy Ultima 182 QA guard.
 BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
 Verified canonical app data, focused Lund and Alumacraft generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
 Smoker Craft QA passed: 18 models and 70 non-overlapping generation/evidence rows.
-Wrote unfinished report with 23 unresolved generation rows across 11 manufacturers.
-Captured 18 current Smoker Craft records for audit.
+node:internal/child_process:1120
+    result.error = new ErrnoException(result.error, 'spawnSync ' + options.file);
+                   ^
+
+<ref *1> Error: spawnSync git ENOBUFS
+    at Object.spawnSync (node:internal/child_process:1120:20)
+    at spawnSync (node:child_process:902:24)
+    at execFileSync (node:child_process:945:15)
+    at file:///home/runner/work/BoatBuilder/BoatBuilder/tests/smoker-craft-semantic-diff-qa.mjs:14:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+  errno: -105,
+  code: 'ENOBUFS',
+  syscall: 'spawnSync git',
+  path: 'git',
+  spawnargs: [ 'show', 'origin/main:data/boats.js' ],
+  error: [Circular *1],
+  status: null,
+  signal: 'SIGTERM',
+  output: [
+    null,
+    'window.BOATBUILDER_BOATS = [\n' +
+      '  {\n' +
+      '    "id": "boat:Alumacraft | Classic 165 Sport",\n' +
+      '    "categoryId": "boats",\n' +
+      '    "categoryName": "Boats",\n' +
+      '    "manufacturer": "Alumacraft",\n' +
+      '    "model": "Classic 165 Sport",\n' +
+      '    "displayName": "Alumacraft | Classic 165 Sport",\n' +
+      '    "subtitle": "2025\\u20132026 current factory generation",\n' +
+      '    "badge": "Secondary",\n' +
+      '    "lowPrice": 13000,\n' +
+      '    "highPrice": 20000,\n' +
+      '    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year and hull generation before pricing.",\n' +
+      '    "sourceUrl": "https://www.alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",\n' +
+      '    "image": {\n' +
+      '      "url": "https://alumacraft.com/images/inventoryImages/inv67b360599b433/400px/ALUMA-MY25-Classic-Sport-165-Merc60-2XB-Azure-Blue-34FRT.png",\n' +
+      '      "source": "https://alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",\n' +
+      '      "matchQuality": "Exact model; current generation",\n' +
+      '      "note": "Factory three-quarter view; good hull and cockpit-layout reference."\n' +
+      '    },\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "label": "Model Years / Era",\n' +
+      '        "value": "2025\\u20132026 current factory generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Recommendation",\n' +
+      '        "value": "Secondary"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Big-Water Suitability",\n' +
+      '        "value": "Fair to good"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Layout",\n' +
+      '        "value": "Factory walk-through/full windshield"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Length",\n' +
+      `        "value": "16'4\\""\n` +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Beam",\n' +
+      '        "value": "82\\""\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Chine / Bottom Width",\n' +
+      '        "value": "Not published"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Dry Hull Weight",\n' +
+      '        "value": "955 lb"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Max / Bow Depth",\n' +
+      '        "value": "Not published"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Cockpit / Interior Depth",\n' +
+      '        "value": "Not published"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Deadrise",\n' +
+      '        "value": "Deep-V; angle not published"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Transom Height",\n' +
+      '        "value": "20\\""\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Transom Width",\n' +
+      '        "value": "82\\""\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Max HP",\n' +
+      '        "value": "90"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Practical Working HP",\n' +
+      '        "value": "60\\u201375"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Persons",\n' +
+      '        "value": "5"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Capacity Weight",\n' +
+      '        "value": "1,300 lb"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Fuel Capacity",\n' +
+      '        "value": "17 gal"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Bottom Thickness",\n' +
+      '        "value": "0.145\\" maximum hull"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Side / Freeboard Thickness",\n' +
+      '        "value": "0.065\\""\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Construction",\n' +
+      '        "value": "Riveted aluminum"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Availability Under $14k",\n' +
+      '        "value": "Rare"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Placement Reason",\n' +
+      '        "value": "Secondary: exact factory windshield model, but narrow/light for Lake Superior-first use and recent packages are usually above the $14,000 cap."\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Notes",\n' +
+      '        "value": "Compact full-windshield model. Its 82-inch beam and carpeted raised decks keep it Secondary for a Lake Superior-first search."\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Interior Finish / Deck Material",\n' +
+      '        "value": "Carpeted raised decks with an easy-clean vinyl cockpit floor; exact finish can vary by package."\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Interior Material Basis",\n' +
+      '        "value": "Factory-family configuration; verify the exact 2025 package."\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Washdown / Carpet Fit",\n' +
+      '        "value": "GOOD \\u2014 Vinyl cockpit is easy to clean, but carpet remains on raised decks."\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Research Status",\n' +
+      '        "value": "Strict existing-model audit complete: production identity checked across annual factory catalogs/model rosters; source-exhausted intervals are explicit and no adjacent-year specifications are borrowed."\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "valueEras": [],\n' +
+      '    "designGenerations": [\n' +
+      '      {\n' +
+      '        "id": "boat:Alumacraft | Classic 165 Sport:gen:2025-2026",\n' +
+      '        "label": "2025\\u20132026 current factory generation",\n' +
+      '        "startYear": 2025,\n' +
+      '        "endYear": 2026,\n' +
+      '        "status": "factory-current",\n' +
+      '        "specificationBasis": "2025 factory model page plus 2026 factory builder continuity. Core dimensions and ratings remain the same.",\n' +
+      '        "sourceUrl": "https://www.alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",\n' +
+      '        "specs": {\n' +
+      '          "Length": {\n' +
+      `            "value": "16'4\\"",\n` +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Beam": {\n' +
+      '            "value": "82\\"",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Chine / Bottom Width": {\n' +
+      '            "value": "Not published",\n' +
+      '            "confidence": "catalog-representative"\n' +
+      '          },\n' +
+      '          "Dry Hull Weight": {\n' +
+      '            "value": "955 lb",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Max / Bow Depth": {\n' +
+      '            "value": "Not published",\n' +
+      '            "confidence": "catalog-representative"\n' +
+      '          },\n' +
+      '          "Cockpit / Interior Depth": {\n' +
+      '            "value": "Not published",\n' +
+      '            "confidence": "catalog-representative"\n' +
+      '          },\n' +
+      '          "Deadrise": {\n' +
+      '            "value": "Deep-V; angle not published",\n' +
+      '            "confidence": "catalog-representative"\n' +
+      '          },\n' +
+      '          "Transom Height": {\n' +
+      '            "value": "20\\"",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Transom Width": {\n' +
+      '            "value": "82\\"",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Max HP": {\n' +
+      '            "value": "90",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Persons": {\n' +
+      '            "value": "5",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Capacity Weight": {\n' +
+      '            "value": "1,300 lb",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Fuel Capacity": {\n' +
+      '            "value": "17 gal",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Bottom Thickness": {\n' +
+      '            "value": "0.145\\" maximum hull",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Side / Freeboard Thickness": {\n' +
+      '            "value": "0.065\\"",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          },\n' +
+      '          "Construction": {\n' +
+      '            "value": "Riveted aluminum",\n' +
+      '            "confidence": "factory-exact"\n' +
+      '          }\n' +
+      '        },\n' +
+      '        "eras": [\n' +
+      '          {\n' +
+      '            "id": "boat:Alumacraft | Classic 165 Sport:value:2025-2026",\n' +
+      '            "label": "2025\\u20132026",\n' +
+      '            "startYear": 2025,\n' +
+      '            "endYear": 2026,\n' +
+      '            "low": 13000,\n' +
+      '            "high": 20000,\n' +
+      '            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value"\n' +
+      '          }\n' +
+      '        ],\n' +
+      '        "evidenceUrls": [\n' +
+      '          "https://www.alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",\n' +
+      '          "https://alumacraft.com/About-Alumacraft.php?content=boats&model_year=2026"\n' +
+      '        ]\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "generationWarning": "Select the listing year carefully. Alumacraft reused family names across materially different hulls, and exact specifications are shown only where annual evidence supports them.",\n' +
+      '    "idealMatch": false\n' +
+      '  },\n' +
+      '  {\n' +
+      '    "id": "boat:Alumacraft | Competitor 165 Sport",\n' +
+      '    "categoryId": "boats",\n' +
+      '    "categoryName": "Boats",\n' +
+      '    "manufacturer": "Alumacraft",\n' +
+      '    "model": "*Competitor 165 Sport",\n' +
+      '    "displayName": "*Alumacraft | Competitor 165 Sport",\n' +
+      '    "subtitle": "2012\\u20132019 production; 2016 exact factory snapshot",\n' +
+      '    "badge": "Primary",\n' +
+      '    "lowPrice": 5000,\n' +
+      '    "highPrice": 14000,\n' +
+      '    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year and hull generation before pricing.",\n' +
+      '    "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",\n' +
+      '    "image": {\n' +
+      '      "url": "https://alumacraft.com/images/inventoryImages/inv67b357b088dbb/400px/ALUMA-MY26-COMP-175-SPORT-OE115HP-2XB-Shadow-Flex50-OutboardDeck-Studio-Rside-NA.png",\n' +
+      '      "source": "https://alumacraft.com/Alumacraft-Boat.php?action=view&id=1000",\n' +
+      '      "matchQuality": "Same family; 175 used for 165",\n' +
+      '      "note": "Factory above-side deck view. Useful layout reference, but this is the larger 175\\u2014not an exact 165 photo."\n' +
+      '    },\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "label": "Model Years / Era",\n' +
+      '        "value": "2012\\u20132019 production; 2016 exact factory snapshot"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Recommendation",\n' +
+      '        "value": "Primary"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Big-Water Suitability",\n' +
+      '        "value": "Very good"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Layout",\n' +
+      '        "value": "Factory walk-through/full windshield"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Length",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Beam",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Chine / Bottom Width",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Dry Hull Weight",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Max / Bow Depth",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Cockpit / Interior Depth",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Deadrise",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Transom Height",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Transom Width",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '      {\n' +
+      '        "label": "Max HP",\n' +
+      '        "value": "Varies by selected hull generation"\n' +
+      '      },\n' +
+      '    '... 1104112 more characters,
+    ''
+  ],
+  pid: 2308,
+  stdout: 'window.BOATBUILDER_BOATS = [\n' +
+    '  {\n' +
+    '    "id": "boat:Alumacraft | Classic 165 Sport",\n' +
+    '    "categoryId": "boats",\n' +
+    '    "categoryName": "Boats",\n' +
+    '    "manufacturer": "Alumacraft",\n' +
+    '    "model": "Classic 165 Sport",\n' +
+    '    "displayName": "Alumacraft | Classic 165 Sport",\n' +
+    '    "subtitle": "2025\\u20132026 current factory generation",\n' +
+    '    "badge": "Secondary",\n' +
+    '    "lowPrice": 13000,\n' +
+    '    "highPrice": 20000,\n' +
+    '    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year and hull generation before pricing.",\n' +
+    '    "sourceUrl": "https://www.alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",\n' +
+    '    "image": {\n' +
+    '      "url": "https://alumacraft.com/images/inventoryImages/inv67b360599b433/400px/ALUMA-MY25-Classic-Sport-165-Merc60-2XB-Azure-Blue-34FRT.png",\n' +
+    '      "source": "https://alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",\n' +
+    '      "matchQuality": "Exact model; current generation",\n' +
+    '      "note": "Factory three-quarter view; good hull and cockpit-layout reference."\n' +
+    '    },\n' +
+    '    "details": [\n' +
+    '      {\n' +
+    '        "label": "Model Years / Era",\n' +
+    '        "value": "2025\\u20132026 current factory generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Recommendation",\n' +
+    '        "value": "Secondary"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Big-Water Suitability",\n' +
+    '        "value": "Fair to good"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Layout",\n' +
+    '        "value": "Factory walk-through/full windshield"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Length",\n' +
+    `        "value": "16'4\\""\n` +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Beam",\n' +
+    '        "value": "82\\""\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Chine / Bottom Width",\n' +
+    '        "value": "Not published"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Dry Hull Weight",\n' +
+    '        "value": "955 lb"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Max / Bow Depth",\n' +
+    '        "value": "Not published"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Cockpit / Interior Depth",\n' +
+    '        "value": "Not published"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Deadrise",\n' +
+    '        "value": "Deep-V; angle not published"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Transom Height",\n' +
+    '        "value": "20\\""\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Transom Width",\n' +
+    '        "value": "82\\""\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Max HP",\n' +
+    '        "value": "90"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Practical Working HP",\n' +
+    '        "value": "60\\u201375"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Persons",\n' +
+    '        "value": "5"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Capacity Weight",\n' +
+    '        "value": "1,300 lb"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Fuel Capacity",\n' +
+    '        "value": "17 gal"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Bottom Thickness",\n' +
+    '        "value": "0.145\\" maximum hull"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Side / Freeboard Thickness",\n' +
+    '        "value": "0.065\\""\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Construction",\n' +
+    '        "value": "Riveted aluminum"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Availability Under $14k",\n' +
+    '        "value": "Rare"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Placement Reason",\n' +
+    '        "value": "Secondary: exact factory windshield model, but narrow/light for Lake Superior-first use and recent packages are usually above the $14,000 cap."\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Notes",\n' +
+    '        "value": "Compact full-windshield model. Its 82-inch beam and carpeted raised decks keep it Secondary for a Lake Superior-first search."\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Interior Finish / Deck Material",\n' +
+    '        "value": "Carpeted raised decks with an easy-clean vinyl cockpit floor; exact finish can vary by package."\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Interior Material Basis",\n' +
+    '        "value": "Factory-family configuration; verify the exact 2025 package."\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Washdown / Carpet Fit",\n' +
+    '        "value": "GOOD \\u2014 Vinyl cockpit is easy to clean, but carpet remains on raised decks."\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Research Status",\n' +
+    '        "value": "Strict existing-model audit complete: production identity checked across annual factory catalogs/model rosters; source-exhausted intervals are explicit and no adjacent-year specifications are borrowed."\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "valueEras": [],\n' +
+    '    "designGenerations": [\n' +
+    '      {\n' +
+    '        "id": "boat:Alumacraft | Classic 165 Sport:gen:2025-2026",\n' +
+    '        "label": "2025\\u20132026 current factory generation",\n' +
+    '        "startYear": 2025,\n' +
+    '        "endYear": 2026,\n' +
+    '        "status": "factory-current",\n' +
+    '        "specificationBasis": "2025 factory model page plus 2026 factory builder continuity. Core dimensions and ratings remain the same.",\n' +
+    '        "sourceUrl": "https://www.alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",\n' +
+    '        "specs": {\n' +
+    '          "Length": {\n' +
+    `            "value": "16'4\\"",\n` +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Beam": {\n' +
+    '            "value": "82\\"",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Chine / Bottom Width": {\n' +
+    '            "value": "Not published",\n' +
+    '            "confidence": "catalog-representative"\n' +
+    '          },\n' +
+    '          "Dry Hull Weight": {\n' +
+    '            "value": "955 lb",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Max / Bow Depth": {\n' +
+    '            "value": "Not published",\n' +
+    '            "confidence": "catalog-representative"\n' +
+    '          },\n' +
+    '          "Cockpit / Interior Depth": {\n' +
+    '            "value": "Not published",\n' +
+    '            "confidence": "catalog-representative"\n' +
+    '          },\n' +
+    '          "Deadrise": {\n' +
+    '            "value": "Deep-V; angle not published",\n' +
+    '            "confidence": "catalog-representative"\n' +
+    '          },\n' +
+    '          "Transom Height": {\n' +
+    '            "value": "20\\"",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Transom Width": {\n' +
+    '            "value": "82\\"",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Max HP": {\n' +
+    '            "value": "90",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Persons": {\n' +
+    '            "value": "5",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Capacity Weight": {\n' +
+    '            "value": "1,300 lb",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Fuel Capacity": {\n' +
+    '            "value": "17 gal",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Bottom Thickness": {\n' +
+    '            "value": "0.145\\" maximum hull",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Side / Freeboard Thickness": {\n' +
+    '            "value": "0.065\\"",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          },\n' +
+    '          "Construction": {\n' +
+    '            "value": "Riveted aluminum",\n' +
+    '            "confidence": "factory-exact"\n' +
+    '          }\n' +
+    '        },\n' +
+    '        "eras": [\n' +
+    '          {\n' +
+    '            "id": "boat:Alumacraft | Classic 165 Sport:value:2025-2026",\n' +
+    '            "label": "2025\\u20132026",\n' +
+    '            "startYear": 2025,\n' +
+    '            "endYear": 2026,\n' +
+    '            "low": 13000,\n' +
+    '            "high": 20000,\n' +
+    '            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value"\n' +
+    '          }\n' +
+    '        ],\n' +
+    '        "evidenceUrls": [\n' +
+    '          "https://www.alumacraft.com/Alumacraft-Boat.php?action=view&id=1008",\n' +
+    '          "https://alumacraft.com/About-Alumacraft.php?content=boats&model_year=2026"\n' +
+    '        ]\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "generationWarning": "Select the listing year carefully. Alumacraft reused family names across materially different hulls, and exact specifications are shown only where annual evidence supports them.",\n' +
+    '    "idealMatch": false\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "id": "boat:Alumacraft | Competitor 165 Sport",\n' +
+    '    "categoryId": "boats",\n' +
+    '    "categoryName": "Boats",\n' +
+    '    "manufacturer": "Alumacraft",\n' +
+    '    "model": "*Competitor 165 Sport",\n' +
+    '    "displayName": "*Alumacraft | Competitor 165 Sport",\n' +
+    '    "subtitle": "2012\\u20132019 production; 2016 exact factory snapshot",\n' +
+    '    "badge": "Primary",\n' +
+    '    "lowPrice": 5000,\n' +
+    '    "highPrice": 14000,\n' +
+    '    "priceBasis": "Generation-specific used complete-package screening estimate. Select the listing year and hull generation before pricing.",\n' +
+    '    "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",\n' +
+    '    "image": {\n' +
+    '      "url": "https://alumacraft.com/images/inventoryImages/inv67b357b088dbb/400px/ALUMA-MY26-COMP-175-SPORT-OE115HP-2XB-Shadow-Flex50-OutboardDeck-Studio-Rside-NA.png",\n' +
+    '      "source": "https://alumacraft.com/Alumacraft-Boat.php?action=view&id=1000",\n' +
+    '      "matchQuality": "Same family; 175 used for 165",\n' +
+    '      "note": "Factory above-side deck view. Useful layout reference, but this is the larger 175\\u2014not an exact 165 photo."\n' +
+    '    },\n' +
+    '    "details": [\n' +
+    '      {\n' +
+    '        "label": "Model Years / Era",\n' +
+    '        "value": "2012\\u20132019 production; 2016 exact factory snapshot"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Recommendation",\n' +
+    '        "value": "Primary"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Big-Water Suitability",\n' +
+    '        "value": "Very good"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Layout",\n' +
+    '        "value": "Factory walk-through/full windshield"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Length",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Beam",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Chine / Bottom Width",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Dry Hull Weight",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Max / Bow Depth",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Cockpit / Interior Depth",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Deadrise",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Transom Height",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Transom Width",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "label": "Max HP",\n' +
+    '        "value": "Varies by selected hull generation"\n' +
+    '      },\n' +
+    '    '... 1104112 more characters,
+  stderr: ''
+}
+
+Node.js v22.23.1
 repair_status=0
 qa_patch_status=0
 catalog_status=0
 smoker_status=0
-report_status=0
+semantic_status=1
+report_status=99
