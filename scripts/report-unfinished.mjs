@@ -55,6 +55,7 @@ for (const row of unresolved) {
 }
 
 const generatedAt = new Date().toISOString();
+const cell = value => String(value ?? "").replaceAll("|", "\\|").replaceAll("\n", " ").trim();
 const lines = [
   "# Unfinished Boat Generation Work",
   "",
@@ -83,7 +84,6 @@ lines.push(
   "|---|---|---|---:|---|---|---|"
 );
 
-const cell = value => String(value ?? "").replaceAll("|", "\\|").replaceAll("\n", " ").trim();
 for (const row of unresolved) {
   lines.push(`| ${cell(row.manufacturer)} | ${cell(row.model)} | ${cell(row.generation)} | ${cell(row.years)} | ${cell(row.pricing)} | ${cell(row.relevance)} | ${cell(row.reason)} |`);
 }
@@ -102,6 +102,41 @@ fs.writeFileSync(path.join(root, "reports/unfinished-work.json"), `${JSON.string
 
 const smokerCraft = boats.filter(boat => boat.manufacturer === "Smoker Craft");
 fs.writeFileSync(path.join(root, "reports/smoker-craft-current.json"), `${JSON.stringify(smokerCraft, null, 2)}\n`);
+
+const smokerLines = [
+  "# Smoker Craft Current Audit Snapshot",
+  "",
+  `Generated from the canonical catalog on ${generatedAt}.`,
+  "",
+  `- Model records: ${smokerCraft.length}`,
+  `- Generation / evidence rows: ${smokerCraft.reduce((sum, boat) => sum + (boat.designGenerations || []).length, 0)}`,
+  `- Unresolved rows: ${smokerCraft.reduce((sum, boat) => sum + (boat.designGenerations || []).filter(generation => generation.status === "unresolved").length, 0)}`,
+  "",
+  "## Model summary",
+  "",
+  "| Model | Recommendation | Ideal match | Generations | Package range |",
+  "|---|---|---|---:|---:|"
+];
+
+for (const boat of smokerCraft) {
+  smokerLines.push(`| ${cell(boat.model)} | ${cell(boat.badge)} | ${boat.idealMatch ? "Yes" : "No"} | ${(boat.designGenerations || []).length} | $${Number(boat.lowPrice || 0).toLocaleString("en-US")}–$${Number(boat.highPrice || 0).toLocaleString("en-US")} |`);
+}
+
+for (const boat of smokerCraft) {
+  smokerLines.push("", `## ${boat.displayName || boat.model}`, "");
+  const notes = (boat.details || []).find(detail => detail.label === "Notes")?.value;
+  const placement = (boat.details || []).find(detail => detail.label === "Placement Reason")?.value;
+  if (placement) smokerLines.push(`- Placement: ${placement}`);
+  if (notes) smokerLines.push(`- Notes: ${notes}`);
+  smokerLines.push("", "| Years | Status | Specifications retained | Pricing | Source |", "|---:|---|---|---|---|");
+  for (const generation of boat.designGenerations || []) {
+    const specs = Object.entries(generation.specs || {}).map(([label, spec]) => `${label}: ${spec?.value ?? spec}`).join("; ") || "No physical specification table retained";
+    const pricing = (generation.eras || []).map(era => `${era.startYear}–${era.endYear}: $${Number(era.low).toLocaleString("en-US")}–$${Number(era.high).toLocaleString("en-US")}`).join("; ") || "Missing";
+    smokerLines.push(`| ${generation.startYear}–${generation.endYear} | ${cell(generation.status)} | ${cell(specs)} | ${cell(pricing)} | ${cell(generation.sourceUrl || boat.sourceUrl || "None recorded")} |`);
+  }
+}
+
+fs.writeFileSync(path.join(root, "reports/smoker-craft-summary.md"), `${smokerLines.join("\n")}\n`);
 
 console.log(`Wrote unfinished report with ${unresolved.length} unresolved generation rows across ${grouped.size} manufacturers.`);
 console.log(`Captured ${smokerCraft.length} current Smoker Craft records for audit.`);
