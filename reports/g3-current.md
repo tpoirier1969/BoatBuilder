@@ -1,6 +1,6 @@
 # G3 Current Audit Snapshot
 
-Generated 2026-08-01T11:31:01.575Z.
+Generated 2026-08-01T13:33:54.671Z.
 
 - Model records: 3
 - Generation/evidence rows: 6
