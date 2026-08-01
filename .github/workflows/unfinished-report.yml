@@ -1,0 +1,34 @@
+name: Generate unfinished work report
+
+on:
+  push:
+    branches:
+      - audit/smoker-craft-and-backlog
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate reports
+        run: node scripts/report-unfinished.mjs
+      - name: Commit generated reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/unfinished-work.md reports/unfinished-work.json reports/smoker-craft-current.json
+          if git diff --cached --quiet; then
+            echo "Reports are current."
+            exit 0
+          fi
+          git commit -m "Generate unfinished boat audit report"
+          git push
