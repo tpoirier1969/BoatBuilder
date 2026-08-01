@@ -1,28 +1,12 @@
 Applied verified Smoker Craft chronology and labeling repairs.
-node:internal/modules/run_main:123
-    triggerUncaughtException(
-    ^
-
-AssertionError [ERR_ASSERTION]: Standard Ultima 182 length is wrong
-+ actual - expected
-
-+ undefined
-- `18'5"`
-
-    at file:///home/runner/work/BoatBuilder/BoatBuilder/tests/qa.mjs:396:8
-    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
-    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
-  generatedMessage: false,
-  code: 'ERR_ASSERTION',
-  actual: undefined,
-  expected: `18'5"`,
-  operator: 'strictEqual',
-  diff: 'simple'
-}
-
-Node.js v22.23.1
+Updated the legacy Ultima 182 QA guard.
+BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+Verified canonical app data, focused Lund and Alumacraft generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
+Smoker Craft QA passed: 18 models and 70 non-overlapping generation/evidence rows.
+Wrote unfinished report with 23 unresolved generation rows across 11 manufacturers.
+Captured 18 current Smoker Craft records for audit.
 repair_status=0
-catalog_status=1
-smoker_status=99
-report_status=99
+qa_patch_status=0
+catalog_status=0
+smoker_status=0
+report_status=0

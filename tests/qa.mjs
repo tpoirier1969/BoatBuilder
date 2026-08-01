@@ -393,8 +393,9 @@ const ultima178Audit = item("boat:Smoker Craft | Ultima 178");
 assert.equal(ultima178Audit.designGenerations[0].status, "model-identity-source-exhausted", "Ultima 178 should remain source-exhausted rather than inherit specifications");
 assert.ok(Number.isFinite(ultima178Audit.designGenerations[0].eras[0].low), "Ultima 178 source-exhausted row lacks a market range");
 const ultima182Audit = item("boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)");
-assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2016-2018-standard"))?.specs?.Length?.value, "18'5\"", "Standard Ultima 182 length is wrong");
-assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2016-se"))?.specs?.Length?.value, "18'2\"", "Parallel 2016 Ultima 182SE variation is missing");
+assert.equal(JSON.stringify(ultima182Audit.designGenerations.map(g => [g.startYear, g.endYear])), JSON.stringify([[2001, 2002], [2015, 2015], [2016, 2016], [2017, 2018], [2019, 2024], [2025, 2026]]), "Ultima 182 chronology overlaps or is incomplete");
+assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2017-2018-standard"))?.specs?.Length?.value, "18'5\"", "2017-2018 standard Ultima 182 length is wrong");
+assert.equal(ultima182Audit.designGenerations.find(g => g.id.endsWith(":gen:2016-se"))?.specs?.Length?.value, "18'2\"", "Exact 2016 Ultima 182 variation is missing");
 
 // Focused Sylvan, Starcraft and Starweld app-model audit.
 const nextMakers = new Map([["Sylvan",16],["Starcraft",14],["Starweld",3]]);

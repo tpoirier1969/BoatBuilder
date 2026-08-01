@@ -1,6 +1,6 @@
 # Smoker Craft Current Audit Snapshot
 
-Generated from the canonical catalog on 2026-08-01T02:34:33.161Z.
+Generated from the canonical catalog on 2026-08-01T02:40:08.189Z.
 
 - Model records: 18
 - Generation / evidence rows: 70
@@ -16,8 +16,8 @@ Generated from the canonical catalog on 2026-08-01T02:34:33.161Z.
 | *Millentia 172 WT | Primary | Yes | 7 | $3,500–$13,500 |
 | Millentia 182 WT (misidentified listing alias) | Secondary | No | 1 | $0–$0 |
 | Millentia 192 (Secondary; 172 is the target size) | Secondary | No | 5 | $5,000–$16,000 |
-| Osprey 162 WT (Secondary; wide WT version is 2020s) | Secondary | No | 4 | $6,000–$36,000 |
-| Osprey 172 WT (Secondary; qualifying WT is 2020s) | Secondary | No | 4 | $7,000–$40,000 |
+| Osprey 162 WT (Secondary; verified WT begins in 2017) | Secondary | No | 4 | $6,000–$36,000 |
+| Osprey 172 WT (Secondary; verified WT begins in 2017) | Secondary | No | 4 | $7,000–$40,000 |
 | Phantom 170 DC | Primary | No | 1 | $3,000–$6,000 |
 | Phaser (seller spelling; likely Fazer) | Secondary | No | 1 | $0–$0 |
 | *Pro Angler 172 (Primary; not Lund Pro Angler) | Primary | Yes | 5 | $3,500–$19,000 |
@@ -96,10 +96,10 @@ Generated from the canonical catalog on 2026-08-01T02:34:33.161Z.
 | 2015–2015 | source-exhausted-partial | Dry Hull Weight: 1,575 lb | 2015–2015: $9,500–$15,000 | https://www.smokercraft.com/resources/legacy-catalogs/ |
 | 2016–2016 | factory-exact | Length: 18'10"; Beam: 96"; Dry Hull Weight: 1,575 lb; Max / Bow Depth: 38"; Cockpit / Interior Depth: 27"; Deadrise: 17°; Transom Height: XLS; Transom Width: 96"; Max HP: 200; Persons: 8; Capacity Weight: 1,075 lb persons load; Fuel Capacity: 40 gal; Bottom Thickness: 0.125"; Side / Freeboard Thickness: 0.080"; Construction: Riveted aluminum deep-V | 2016–2016: $10,000–$16,000 | https://www.smokercraft.com/resources/legacy-catalogs/ |
 
-## Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)
+## Smoker Craft | Osprey 162 WT (Secondary; verified WT begins in 2017)
 
 - Placement: Secondary: excellent boat, but the qualifying walk-through configuration is too new and too expensive for a $14,000 complete-package search.
-- Notes: A capable and deep compact boat, but examples from the verified WT years are generally above the project’s ideal budget.
+- Notes: The verified wide walk-through, all-welded factory generation begins in 2017. It is a capable compact boat, but complete packages from the verified WT years are generally above the project’s ideal budget.
 
 | Years | Status | Specifications retained | Pricing | Source |
 |---:|---|---|---|---|
@@ -108,10 +108,10 @@ Generated from the canonical catalog on 2026-08-01T02:34:33.161Z.
 | 2019–2024 | source-exhausted-partial | Layout: Dual-console / walk-through fitment documented | 2019–2024: $15,000–$28,000 | https://rnr-marine.com/SmokerCraft.shtml |
 | 2025–2026 | factory-current | Length: 16'4"; Beam: 90"; Dry Hull Weight: 1,075 lb; Max / Bow Depth: Verify; current web page displays an implausible 69"; Cockpit / Interior Depth: 27"; Deadrise: 17°; Transom Height: 20"; Transom Width: 90"; Max HP: 115; Persons: 6; Capacity Weight: 765 lb persons load; Fuel Capacity: 20 gal; Side / Freeboard Thickness: 0.100"; Construction: All-welded aluminum deep-V | 2025–2026: $25,000–$36,000 | https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf |
 
-## Smoker Craft | Osprey 172 WT (Secondary; qualifying WT is 2020s)
+## Smoker Craft | Osprey 172 WT (Secondary; verified WT begins in 2017)
 
 - Placement: Secondary: excellent current geometry, but not a realistic sub-$14k used target yet.
-- Notes: Deep and weather-protective, but verified WT packages are usually newer and above the $14,000 ceiling.
+- Notes: The verified dual-console walk-through, all-welded factory generation begins in 2017. The hull is a strong Lake Superior platform, but complete packages from the verified WT years are usually above the $14,000 ceiling.
 
 | Years | Status | Specifications retained | Pricing | Source |
 |---:|---|---|---|---|
@@ -232,13 +232,13 @@ Generated from the canonical catalog on 2026-08-01T02:34:33.161Z.
 ## Smoker Craft | Ultima 182 (Secondary; 172 is Primary)
 
 - Placement: Secondary: newer 18-foot version is usually over budget; target Ultima 172.
-- Notes: Strong big-water hardware, but generally too expensive and heavy to be an ideal project target compared with the Ultima 172.
+- Notes: The chronology now keeps the exact 2016 18'2-inch hull separate from the 2017–2018 18'5-inch generation. Later 18'2-inch records are also retained separately rather than blending the two hull lengths.
 
 | Years | Status | Specifications retained | Pricing | Source |
 |---:|---|---|---|---|
 | 2001–2002 | model-identity-source-exhausted | No physical specification table retained | 2001–2002: $4,000–$8,500 | https://rnr-marine.com/SmokerCraft.shtml |
 | 2015–2015 | source-exhausted-partial | Dry Hull Weight: 1,425 lb | 2015–2015: $8,000–$14,000 | https://www.smokercraft.com/resources/legacy-catalogs/ |
-| 2016–2018 | factory-generation | Length: 18'5"; Beam: 96"; Dry Hull Weight: 1,425 lb; Max / Bow Depth: 41"; Cockpit / Interior Depth: 27"; Deadrise: 17°; Transom Height: 25"; Transom Width: 96"; Max HP: 175; Persons: 8; Capacity Weight: 1,750 lb; Fuel Capacity: 27 gal; Bottom Thickness: 0.125"; Side / Freeboard Thickness: 0.080"; Construction: Riveted aluminum deep-V; 0.125-inch rib gauge | 2016–2018: $9,000–$16,000 | https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf |
 | 2016–2016 | factory-exact | Length: 18'2"; Beam: 96"; Dry Hull Weight: 1,425 lb; Max / Bow Depth: 41"; Cockpit / Interior Depth: 27"; Deadrise: 17°; Transom Height: XLS; Transom Width: 96"; Max HP: 175; Persons: 8; Capacity Weight: 1,075 lb persons load; Fuel Capacity: 27 gal; Bottom Thickness: 0.125"; Side / Freeboard Thickness: 0.080"; Construction: Riveted aluminum deep-V; 0.125-inch rib gauge | 2016–2016: $9,000–$15,000 | https://www.smokercraft.com/resources/legacy-catalogs/ |
+| 2017–2018 | factory-generation | Length: 18'5"; Beam: 96"; Dry Hull Weight: 1,425 lb; Max / Bow Depth: 41"; Cockpit / Interior Depth: 27"; Deadrise: 17°; Transom Height: 25"; Transom Width: 96"; Max HP: 175; Persons: 8; Capacity Weight: 1,750 lb; Fuel Capacity: 27 gal; Bottom Thickness: 0.125"; Side / Freeboard Thickness: 0.080"; Construction: Riveted aluminum deep-V; 0.125-inch rib gauge | 2017–2018: $9,000–$16,000 | https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf |
 | 2019–2024 | source-exhausted-partial | Length: 18'2"; Beam: 96"; Dry Hull Weight: 1,425 lb; Max HP: 175 | 2019–2024: $14,000–$30,000 | https://rnr-marine.com/SmokerCraft.shtml |
 | 2025–2026 | factory-current | Length: 18'2"; Beam: 96"; Dry Hull Weight: 1,425 lb; Max / Bow Depth: 40"; Cockpit / Interior Depth: 27"; Deadrise: 17°; Transom Height: 25"; Transom Width: 96"; Max HP: 175; Persons: 8; Capacity Weight: 1,100 lb persons load; Fuel Capacity: 25 gal; Bottom Thickness: 0.125"; Side / Freeboard Thickness: 0.080"; Construction: Riveted aluminum deep-V | 2025–2026: $40,000–$55,000 | https://www.smokercraft.com/wp-content/uploads/2025-Smoker-Craft-BrochureWeb.pdf |
