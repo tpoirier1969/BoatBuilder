@@ -1,6 +1,6 @@
 # Smoker Craft Current Audit Snapshot
 
-Generated from the canonical catalog on 2026-08-01T02:43:19.727Z.
+Generated from the canonical catalog on 2026-08-01T02:46:07.329Z.
 
 - Model records: 18
 - Generation / evidence rows: 70
