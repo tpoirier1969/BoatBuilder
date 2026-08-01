@@ -1,0 +1,92 @@
+name: Audit Smoker Craft and unfinished work
+
+on:
+  push:
+    branches:
+      - audit/smoker-craft-and-backlog
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run repair, QA, and report generation
+        id: audit
+        shell: bash
+        run: |
+          mkdir -p reports
+          : > reports/smoker-craft-ci.log
+          set +e
+
+          node scripts/audit-smoker-craft.mjs >> reports/smoker-craft-ci.log 2>&1
+          repair_status=$?
+
+          qa_patch_status=99
+          catalog_status=99
+          smoker_status=99
+          semantic_status=99
+          report_status=99
+          if [ "$repair_status" -eq 0 ]; then
+            node scripts/patch-smoker-craft-qa.mjs >> reports/smoker-craft-ci.log 2>&1
+            qa_patch_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ]; then
+            node tests/qa.mjs >> reports/smoker-craft-ci.log 2>&1
+            catalog_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ] && [ "$catalog_status" -eq 0 ]; then
+            node tests/smoker-craft-qa.mjs >> reports/smoker-craft-ci.log 2>&1
+            smoker_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$smoker_status" -eq 0 ]; then
+            node tests/smoker-craft-semantic-diff-qa.mjs >> reports/smoker-craft-ci.log 2>&1
+            semantic_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$smoker_status" -eq 0 ] && [ "$semantic_status" -eq 0 ]; then
+            node scripts/report-unfinished.mjs >> reports/smoker-craft-ci.log 2>&1
+            report_status=$?
+          fi
+
+          {
+            echo "repair_status=$repair_status"
+            echo "qa_patch_status=$qa_patch_status"
+            echo "catalog_status=$catalog_status"
+            echo "smoker_status=$smoker_status"
+            echo "semantic_status=$semantic_status"
+            echo "report_status=$report_status"
+          } >> reports/smoker-craft-ci.log
+
+          if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$smoker_status" -eq 0 ] && [ "$semantic_status" -eq 0 ] && [ "$report_status" -eq 0 ]; then
+            echo "success=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "success=false" >> "$GITHUB_OUTPUT"
+            git checkout -- data/boats.js tests/qa.mjs
+          fi
+      - name: Commit results or diagnostic log
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ steps.audit.outputs.success }}" = "true" ]; then
+            git add data/boats.js tests/qa.mjs reports/unfinished-work.md reports/unfinished-work.json reports/smoker-craft-current.json reports/smoker-craft-summary.md reports/smoker-craft-ci.log
+            message="Apply verified Smoker Craft audit corrections"
+          else
+            git add reports/smoker-craft-ci.log
+            message="Capture failed Smoker Craft audit diagnostics"
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "$message"
+            git push
+          fi
+          if [ "${{ steps.audit.outputs.success }}" != "true" ]; then
+            exit 1
+          fi
