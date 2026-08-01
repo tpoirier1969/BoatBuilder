@@ -1,18 +1,17 @@
 # Unfinished Boat Generation Work
 
-Generated from the canonical catalog on 2026-08-01T03:03:33.267Z.
+Generated from the canonical catalog on 2026-08-01T13:35:19.784Z.
 
 - Catalog items: 351
 - Boat records: 170
-- Unresolved generation rows: 19
-- Manufacturers affected: 10
+- Unresolved generation rows: 16
+- Manufacturers affected: 9
 
 ## Manufacturer summary
 
 | Manufacturer | Models affected | Unresolved rows | Rows missing pricing |
 |---|---:|---:|---:|
 | Fisher | 3 | 3 | 3 |
-| G3 | 3 | 3 | 3 |
 | Legend | 3 | 3 | 3 |
 | MonArk | 2 | 2 | 2 |
 | Triton | 2 | 2 | 2 |
@@ -30,9 +29,6 @@ Generated from the canonical catalog on 2026-08-01T03:03:33.267Z.
 | Fisher | Hawk 170 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
 | Fisher | Hawk 186 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
 | Fisher | Hawk 200 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
-| G3 | Angler V172 FS / WT | Other advertised years — specifications and pricing unresolved | 2000-2019 | Missing | Secondary / screening | No unresolved reason recorded |
-| G3 | Angler V175 FS | Other advertised years — specifications and pricing unresolved | 2000-2019 | Missing | Secondary / screening | No unresolved reason recorded |
-| G3 | Angler V185 FS (Secondary; V172 is Primary) | Other advertised years — specifications and pricing unresolved | 2010-2019 | Missing | Secondary / screening | No unresolved reason recorded |
 | Hewescraft | Sportsman 180 | Other advertised years — specifications and pricing unresolved | 2000-2029 | Missing | Secondary / screening | No unresolved reason recorded |
 | Legend | 16 Xcalibur full-windshield | Other advertised years — specifications and pricing unresolved | 2010-2029 | Missing | Secondary / screening | No unresolved reason recorded |
 | Legend | 17 Xcalibur full-windshield | Other advertised years — specifications and pricing unresolved | 2000-2009 | Missing | Secondary / screening | No unresolved reason recorded |

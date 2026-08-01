@@ -1,0 +1,44 @@
+name: Audit G3
+
+on:
+  push:
+    branches:
+      - audit/g3
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run G3 repair and validation
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          : > reports/g3-ci.log
+          node scripts/audit-g3.mjs | tee -a reports/g3-ci.log
+          node tests/qa.mjs | tee -a reports/g3-ci.log
+          node tests/g3-qa.mjs | tee -a reports/g3-ci.log
+          node tests/g3-semantic-diff-qa.mjs | tee -a reports/g3-ci.log
+          node scripts/report-unfinished.mjs | tee -a reports/g3-ci.log
+          node scripts/report-g3-current.mjs | tee -a reports/g3-ci.log
+          echo "g3_audit_status=passed" | tee -a reports/g3-ci.log
+      - name: Commit verified G3 results
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/boats.js reports/g3-current.json reports/g3-current.md reports/g3-ci.log reports/unfinished-work.json reports/unfinished-work.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply verified G3 audit corrections"
+            git push
+          fi

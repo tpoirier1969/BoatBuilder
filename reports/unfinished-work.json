@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-01T03:03:33.267Z",
+  "generatedAt": "2026-08-01T13:35:19.784Z",
   "counts": {
     "catalogItems": 351,
     "boats": 170,
-    "unresolvedRows": 19,
-    "manufacturers": 10
+    "unresolvedRows": 16,
+    "manufacturers": 9
   },
   "unresolved": [
     {
@@ -50,42 +50,6 @@
       "generationId": "boat:Fisher | Hawk 200 FS:gen:unresolved",
       "generation": "Other advertised years — specifications and pricing unresolved",
       "years": "1990-2009",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "G3",
-      "model": "Angler V172 FS / WT",
-      "id": "boat:G3 | Angler V172 FS / WT",
-      "generationId": "boat:G3 | Angler V172 FS / WT:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2000-2019",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "G3",
-      "model": "Angler V175 FS",
-      "id": "boat:G3 | Angler V175 FS",
-      "generationId": "boat:G3 | Angler V175 FS:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2000-2019",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "G3",
-      "model": "Angler V185 FS (Secondary; V172 is Primary)",
-      "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary)",
-      "generationId": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2010-2019",
       "reason": "No unresolved reason recorded",
       "sourceCount": 0,
       "pricing": "Missing",

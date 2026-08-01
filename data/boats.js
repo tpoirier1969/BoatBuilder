@@ -10771,13 +10771,13 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "G3",
-    "model": "Angler V172 FS / WT",
-    "displayName": "G3 | Angler V172 FS / WT",
-    "subtitle": "2012 exact cited specification; other advertised years unresolved",
+    "model": "Angler V172 FS (full-windshield / walk-through)",
+    "displayName": "G3 | Angler V172 FS (full-windshield / walk-through)",
+    "subtitle": "2009-2016 documented V172 FS production; 2010-2012 and 2013-2016 evidence generations separated",
     "badge": "Primary",
     "lowPrice": 4500,
-    "highPrice": 9500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 11500,
+    "priceBasis": "Generation-contained used complete-package estimates. Select the listing year before judging value.",
     "sourceUrl": "https://yamahaoutboards.com/getmedia/87968a24-1ac5-4281-9282-a4a9a487ed3f/pb_g3b_anglerv172f_f90la_2013-06-26_alm",
     "image": {
       "url": "https://images.marinesource.com/images/9874364/g3-anglerv175fs-2012-0.webp",
@@ -10788,7 +10788,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012 exact cited specification; other advertised years unresolved"
+        "value": "2009 market/roster evidence; 2010-2012 early V172 FS; 2013-2016 factory-catalog generation"
       },
       {
         "label": "Recommendation",
@@ -10800,7 +10800,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Layout",
-        "value": "Factory walk-through/full windshield"
+        "value": "Factory full wraparound, walk-through windshield; FS is the factory model suffix, not WT"
       },
       {
         "label": "Length",
@@ -10880,15 +10880,15 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "A Yamaha-package welded multispecies boat. A 2013 factory performance test weighed 2,639 lb as tested with a 90-hp four-stroke, right in the preferred loaded range."
+        "value": "This is the best G3 fit of the three audited models. Factory catalogs identify a riveted GX2 deep-V, not a welded hull. The 2013 Yamaha test package weighed about 2,639 lb as tested with an F90, leaving useful but not unlimited margin under the Maverick's 4,000-lb rating."
       },
       {
         "label": "Interior Finish / Deck Material",
-        "value": "Marine carpet on the fishing decks/interior; marine-vinyl floor inserts or a vinyl interior were available on some packages."
+        "value": "Factory catalogs show a vinyl cockpit with optional snap-in carpet on the full-windshield FS package. Verify raised deck and trim carpeting on the exact boat."
       },
       {
         "label": "Interior Material Basis",
-        "value": "Factory-era catalog evidence; confirm the exact F/FS/WT package."
+        "value": "2013-2016 factory catalog evidence for the exact V172 FS family."
       },
       {
         "label": "Washdown / Carpet Fit",
@@ -10896,18 +10896,53 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "The original 2009-2015 advertised span was reconciled through 2016, when G3 last listed the V172 name. The 2017 catalog replaces the numbered V172 family with V17 models."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:G3 | Angler V172 FS / WT:gen:2012",
-        "label": "2012 cited specification snapshot",
-        "startYear": 2012,
+        "id": "boat:G3 | Angler V172 FS / WT:gen:2009",
+        "label": "2009 first documented V172 full-windshield evidence",
+        "startYear": 2009,
+        "endYear": 2009,
+        "status": "annual-market-evidence",
+        "specificationBasis": "A 2009 V172 full-windshield record establishes the model before the recovered 2010-2016 factory-catalog run. Only family-level physical details are retained for this evidence year.",
+        "sourceUrl": "https://www.jdpower.com/boats/2009/g3-boats",
+        "specs": {
+          "Length": {
+            "value": "17-foot class",
+            "confidence": "annual-roster"
+          },
+          "Layout": {
+            "value": "Full-windshield Angler V172 family",
+            "confidence": "exact-model-market-evidence"
+          },
+          "Construction": {
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-series-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:G3 | Angler V172 FS / WT:value:2009",
+            "label": "2009",
+            "startYear": 2009,
+            "endYear": 2009,
+            "low": 4500,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:G3 | Angler V172 FS / WT:gen:2010-2012",
+        "label": "2010-2012 early Angler V172 FS generation",
+        "startYear": 2010,
         "endYear": 2012,
-        "status": "cited-snapshot",
-        "specificationBasis": "2012 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "cited-generation",
+        "specificationBasis": "Annual model evidence and the retained exact performance-bulletin snapshot establish the early V172 FS dimensions and ratings. The GX2 construction is corrected to riveted three-piece aluminum.",
         "sourceUrl": "https://yamahaoutboards.com/getmedia/87968a24-1ac5-4281-9282-a4a9a487ed3f/pb_g3b_anglerv172f_f90la_2013-06-26_alm",
         "specs": {
           "Length": {
@@ -10919,40 +10954,32 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Chine / Bottom Width": {
-            "value": "About 79\"",
-            "confidence": "catalog-representative"
+            "value": "79\"",
+            "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
-            "value": "1,440–1,460 lb",
-            "confidence": "cited-source-exact"
+            "value": "1,460 lb",
+            "confidence": "factory-spec-table"
           },
           "Max / Bow Depth": {
             "value": "37\"",
             "confidence": "cited-source-exact"
           },
-          "Cockpit / Interior Depth": {
-            "value": "About 25\"",
-            "confidence": "catalog-representative"
-          },
           "Deadrise": {
-            "value": "Deep-V; angle not stated",
-            "confidence": "catalog-representative"
+            "value": "13°",
+            "confidence": "factory-spec-table"
           },
           "Transom Height": {
             "value": "20\"",
             "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "About 92\"",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
             "value": "115",
             "confidence": "cited-source-exact"
           },
           "Persons": {
-            "value": "6",
-            "confidence": "cited-source-exact"
+            "value": "5",
+            "confidence": "factory-spec-table"
           },
           "Capacity Weight": {
             "value": "1,400 lb",
@@ -10963,52 +10990,118 @@ window.BOATBUILDER_BOATS = [
             "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "0.080\" plus double-plated bow",
-            "confidence": "cited-source-exact"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "0.080\" representative",
-            "confidence": "catalog-representative"
+            "value": "0.100\" plus 0.100\" double-plated bow",
+            "confidence": "factory-spec-table"
           },
           "Construction": {
-            "value": "Welded aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-catalog"
           }
         },
         "eras": [
           {
-            "id": "boat:G3 | Angler V172 FS / WT:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4500,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:G3 | Angler V172 FS / WT:value:2010s",
-            "label": "2010s",
+            "id": "boat:G3 | Angler V172 FS / WT:value:2010-2012",
+            "label": "2010-2012",
             "startYear": 2010,
-            "endYear": 2019,
-            "low": 6000,
-            "high": 9500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "endYear": 2012,
+            "low": 5500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://g3boats.uberflip.com/i/97791-2013/31"
         ]
       },
       {
-        "id": "boat:G3 | Angler V172 FS / WT:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2009–2015; 2010/2013 basis",
-        "sourceUrl": "https://yamahaoutboards.com/getmedia/87968a24-1ac5-4281-9282-a4a9a487ed3f/pb_g3b_anglerv172f_f90la_2013-06-26_alm",
-        "specs": {},
-        "eras": []
+        "id": "boat:G3 | Angler V172 FS / WT:gen:2013-2016",
+        "label": "2013-2016 final numbered Angler V172 FS generation",
+        "startYear": 2013,
+        "endYear": 2016,
+        "status": "factory-catalog-generation",
+        "specificationBasis": "The 2013 and 2014 factory catalogs publish the exact V172 FS dimensions, GX2 riveted construction and full walk-through windshield. The 2016 catalog retains V172 FS; the 2017 catalog changes the family name to V17.",
+        "sourceUrl": "https://g3boats.uberflip.com/i/183684-2014/55",
+        "specs": {
+          "Length": {
+            "value": "17'2\"",
+            "confidence": "factory-spec-table"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "factory-spec-table"
+          },
+          "Chine / Bottom Width": {
+            "value": "79\"",
+            "confidence": "factory-spec-table"
+          },
+          "Dry Hull Weight": {
+            "value": "1,440 lb",
+            "confidence": "factory-spec-table"
+          },
+          "Max / Bow Depth": {
+            "value": "37\"",
+            "confidence": "factory-spec-table"
+          },
+          "Deadrise": {
+            "value": "13°",
+            "confidence": "factory-spec-table"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-spec-table"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "factory-spec-table"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "factory-spec-table"
+          },
+          "Capacity Weight": {
+            "value": "1,400 lb",
+            "confidence": "factory-spec-table"
+          },
+          "Fuel Capacity": {
+            "value": "33 gal",
+            "confidence": "factory-spec-table"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\" plus 0.100\" double-plated bow",
+            "confidence": "factory-spec-table"
+          },
+          "Construction": {
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-catalog"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:G3 | Angler V172 FS / WT:value:2013-2014",
+            "label": "2013-2014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 6500,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          },
+          {
+            "id": "boat:G3 | Angler V172 FS / WT:value:2015-2016",
+            "label": "2015-2016",
+            "startYear": 2015,
+            "endYear": 2016,
+            "low": 7500,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://g3boats.uberflip.com/i/97791-2013/31",
+          "https://g3boats.uberflip.com/i/597573-2016"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Choose the actual listing year. The stable record ID retains the older WT shorthand, but G3's factory model was V172 FS with a full walk-through windshield."
   },
   {
     "id": "boat:G3 | Angler V175 FS",
@@ -11017,11 +11110,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "G3",
     "model": "Angler V175 FS",
     "displayName": "G3 | Angler V175 FS",
-    "subtitle": "2012 exact cited specification; other advertised years unresolved",
+    "subtitle": "2006-2016 documented V175 FS production; early and later published-length evidence kept separate",
     "badge": "Primary",
     "lowPrice": 5000,
-    "highPrice": 12000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 13500,
+    "priceBasis": "Generation-contained used complete-package estimates. Verify the HIN and capacity plate because published length differs between retained sources.",
     "sourceUrl": "https://yamahaoutboards.com/getmedia/98584d01-282d-4195-ab24-ef68129bf468/pb_g3b_anglerv175fs_f150xa_2013-06-26_alm",
     "image": {
       "url": "https://images.marinesource.com/images/9874364/g3-anglerv175fs-2012-0.webp",
@@ -11032,7 +11125,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2012 exact cited specification; other advertised years unresolved"
+        "value": "2006-2009 early V175 FS evidence; 2010-2012 retained Yamaha-bulletin generation; 2013-2016 factory-catalog generation"
       },
       {
         "label": "Recommendation",
@@ -11124,15 +11217,15 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Wide, heavy and capable, but the hull alone is heavy for a 17-footer. A 150-hp package can approach 3,000 lb before extensive gear."
+        "value": "A broad, capable full-windshield boat, but heavy for its nominal length. The retained Yamaha bulletin publishes 17'10 inches while the 2014 factory table publishes 17'5 inches; the catalog keeps those evidence generations separate instead of erasing the conflict."
       },
       {
         "label": "Interior Finish / Deck Material",
-        "value": "Marine carpet was common; some packages offered vinyl cockpit flooring. Verify the exact boat."
+        "value": "Vinyl cockpit was available in the factory Angler V family, with carpet or snap-in carpet depending trim. Verify the exact FS package."
       },
       {
         "label": "Interior Material Basis",
-        "value": "Factory-family configuration; flooring packages vary by model year and trim."
+        "value": "Factory Angler V feature tables and exact-model performance evidence."
       },
       {
         "label": "Washdown / Carpet Fit",
@@ -11140,55 +11233,70 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "The V175 FS is documented from 2006 through the final 2016 numbered-model catalog. G3 changes the family to V17/V18 naming in 2017."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:G3 | Angler V175 FS:gen:2012",
-        "label": "2012 cited specification snapshot",
-        "startYear": 2012,
+        "id": "boat:G3 | Angler V175 FS:gen:2006-2009",
+        "label": "2006-2009 early Angler V175 FS evidence generation",
+        "startYear": 2006,
+        "endYear": 2009,
+        "status": "annual-roster-partial",
+        "specificationBasis": "Exact-model valuation records establish the V175 FS during 2006-2009. Only durable family characteristics are retained because a complete early factory specification table was not recovered.",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/g3-boats/v175fs__/10234096/specs",
+        "specs": {
+          "Length": {
+            "value": "17-foot class",
+            "confidence": "annual-roster"
+          },
+          "Beam": {
+            "value": "96\" class",
+            "confidence": "exact-model-roster"
+          },
+          "Max HP": {
+            "value": "Up to 150; verify capacity plate",
+            "confidence": "exact-model-roster"
+          },
+          "Construction": {
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-series-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:G3 | Angler V175 FS:value:2006-2009",
+            "label": "2006-2009",
+            "startYear": 2006,
+            "endYear": 2009,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:G3 | Angler V175 FS:gen:2010-2012",
+        "label": "2010-2012 retained Yamaha-bulletin V175 FS generation",
+        "startYear": 2010,
         "endYear": 2012,
-        "status": "cited-snapshot",
-        "specificationBasis": "2012 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "cited-generation-with-length-conflict",
+        "specificationBasis": "The retained Yamaha performance bulletin publishes a 17'10-inch, 96-inch-beam, 1,680-lb V175 FS. A later factory specification table publishes 17'5 inches, so the dimensions are not silently blended.",
         "sourceUrl": "https://yamahaoutboards.com/getmedia/98584d01-282d-4195-ab24-ef68129bf468/pb_g3b_anglerv175fs_f150xa_2013-06-26_alm",
         "specs": {
           "Length": {
-            "value": "17'10\"",
+            "value": "17'10\" in retained Yamaha bulletin",
             "confidence": "cited-source-exact"
           },
           "Beam": {
             "value": "96\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Dry Hull Weight": {
             "value": "1,680 lb",
             "confidence": "cited-source-exact"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
           },
           "Max HP": {
             "value": "150",
@@ -11198,61 +11306,116 @@ window.BOATBUILDER_BOATS = [
             "value": "7",
             "confidence": "cited-source-exact"
           },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Fuel Capacity": {
             "value": "33 gal",
             "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "0.080\" plus double-plated bow/bottom representative",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "0.100\" GX2 double-plated bow/bottom family",
+            "confidence": "factory-series-verified"
           },
           "Construction": {
-            "value": "Welded aluminum hull with double-plated bow/bottom",
-            "confidence": "cited-source-exact"
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-series-verified"
           }
         },
         "eras": [
           {
-            "id": "boat:G3 | Angler V175 FS:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:G3 | Angler V175 FS:value:2010s",
-            "label": "2010s",
+            "id": "boat:G3 | Angler V175 FS:value:2010-2012",
+            "label": "2010-2012",
             "startYear": 2010,
-            "endYear": 2019,
-            "low": 8000,
-            "high": 12000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "endYear": 2012,
+            "low": 7000,
+            "high": 11000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
           }
-        ]
+        ],
+        "evidenceUrls": []
       },
       {
-        "id": "boat:G3 | Angler V175 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2006–2015; 2013 performance-bulletin basis",
-        "sourceUrl": "https://yamahaoutboards.com/getmedia/98584d01-282d-4195-ab24-ef68129bf468/pb_g3b_anglerv175fs_f150xa_2013-06-26_alm",
-        "specs": {},
-        "eras": []
+        "id": "boat:G3 | Angler V175 FS:gen:2013-2016",
+        "label": "2013-2016 final numbered Angler V175 FS factory generation",
+        "startYear": 2013,
+        "endYear": 2016,
+        "status": "factory-catalog-generation",
+        "specificationBasis": "The 2014 factory specification table publishes a 17'5-inch V175 FS with 96-inch beam, 82-inch bottom, 25-inch transom, 42-inch bow depth and 13-degree deadrise. The numbered model remains in the 2016 catalog and is replaced by V17/V18 naming for 2017.",
+        "sourceUrl": "https://g3boats.uberflip.com/i/183684-2014/55",
+        "specs": {
+          "Length": {
+            "value": "17'5\"",
+            "confidence": "factory-spec-table"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-spec-table"
+          },
+          "Chine / Bottom Width": {
+            "value": "82\"",
+            "confidence": "factory-spec-table"
+          },
+          "Dry Hull Weight": {
+            "value": "1,680 lb",
+            "confidence": "factory-spec-table"
+          },
+          "Max / Bow Depth": {
+            "value": "42\"",
+            "confidence": "factory-spec-table"
+          },
+          "Deadrise": {
+            "value": "13°",
+            "confidence": "factory-spec-table"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-spec-table"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "exact-model-performance-evidence"
+          },
+          "Persons": {
+            "value": "7",
+            "confidence": "exact-model-performance-evidence"
+          },
+          "Fuel Capacity": {
+            "value": "33 gal",
+            "confidence": "exact-model-performance-evidence"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\" plus 0.100\" GX2 double-plated bow/bottom",
+            "confidence": "factory-spec-table"
+          },
+          "Construction": {
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-catalog"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:G3 | Angler V175 FS:value:2013-2014",
+            "label": "2013-2014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 8000,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          },
+          {
+            "id": "boat:G3 | Angler V175 FS:value:2015-2016",
+            "label": "2015-2016",
+            "startYear": 2015,
+            "endYear": 2016,
+            "low": 9000,
+            "high": 13500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://g3boats.uberflip.com/i/597573-2016"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "The 17'10-inch Yamaha performance bulletin and 17'5-inch 2014 factory table conflict. Use the listing HIN, capacity plate and measured hull rather than assuming one number applies to every V175 FS."
   },
   {
     "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary)",
@@ -11261,11 +11424,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "G3",
     "model": "Angler V185 FS (Secondary; V172 is Primary)",
     "displayName": "G3 | Angler V185 FS (Secondary; V172 is Primary)",
-    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "subtitle": "2005-2014 documented V185 FS production; 2014 final factory specification retained",
     "badge": "Secondary",
-    "lowPrice": 8500,
-    "highPrice": 13000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 5500,
+    "highPrice": 14000,
+    "priceBasis": "Generation-contained used complete-package estimates. The 1,800-lb hull and 200-hp rating make loaded tow weight a first-order screening issue.",
     "sourceUrl": "https://g3boats.uberflip.com/i/183684-2014/55",
     "image": {
       "url": "https://images.marinesource.com/images/9874364/g3-anglerv175fs-2012-0.webp",
@@ -11276,7 +11439,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2014 exact cited specification; other advertised years unresolved"
+        "value": "2005-2012 early V185 FS evidence; 2013-2014 final factory-catalog generation; FS absent from 2015 lineup"
       },
       {
         "label": "Recommendation",
@@ -11332,7 +11495,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "115–150"
+        "value": "150–200; verify package weight before purchase"
       },
       {
         "label": "Persons",
@@ -11368,15 +11531,15 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Capable Yamaha package, but the V172 is the better match to the tow/budget constraints."
+        "value": "The factory 2014 table identifies a riveted 18'5-inch, 96-inch-beam hull weighing 1,800 lb dry and rated for 200 hp. That makes it an excellent big-water platform but a marginal project fit once motor, trailer, fuel and fishing gear are added."
       },
       {
         "label": "Interior Finish / Deck Material",
-        "value": "Marine carpet on the fishing decks/interior; marine-vinyl floor inserts or a vinyl interior were available on some packages."
+        "value": "Factory V185 FS feature tables show a vinyl cockpit with carpeted or snap-in carpet areas depending package."
       },
       {
         "label": "Interior Material Basis",
-        "value": "Factory-era catalog evidence; confirm the exact F/FS/WT package."
+        "value": "Exact 2013-2014 factory V185 FS catalog and specification tables."
       },
       {
         "label": "Washdown / Carpet Fit",
@@ -11384,110 +11547,146 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "The V185 FS is documented from 2005 through 2014. The 2015 and 2016 factory lineups retain V185 SF and V185 F but drop V185 FS, closing this record at 2014."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):gen:2014",
-        "label": "2014 cited specification snapshot",
-        "startYear": 2014,
-        "endYear": 2014,
-        "status": "cited-snapshot",
-        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://g3boats.uberflip.com/i/183684-2014/55",
+        "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):gen:2005-2012",
+        "label": "2005-2012 early Angler V185 FS evidence generation",
+        "startYear": 2005,
+        "endYear": 2012,
+        "status": "exact-model-evidence-generation",
+        "specificationBasis": "Exact-model records and a contemporary 2006 review establish the V185 FS before the recovered factory catalogs. Published early dry weights range around 1,610-1,820 lb depending year/source, so one false exact weight is not imposed across the span.",
+        "sourceUrl": "https://www.boats.com/reviews/go-boating-boat-review-g3-angler-v185-fs/",
         "specs": {
           "Length": {
-            "value": "About 18'5\"",
-            "confidence": "catalog-representative"
+            "value": "About 18'2\"-18'5\"; verify year",
+            "confidence": "multi-source-range"
           },
           "Beam": {
-            "value": "96\"",
-            "confidence": "cited-source-exact"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "value": "About 96\"",
+            "confidence": "exact-model-evidence"
           },
           "Dry Hull Weight": {
-            "value": "About 1,600 lb",
-            "confidence": "catalog-representative"
-          },
-          "Max / Bow Depth": {
-            "value": "About 42\"",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "About 27\"",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "25\"",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Width": {
-            "value": "Not stated in cited brochure",
-            "confidence": "catalog-representative"
+            "value": "Published evidence about 1,610-1,820 lb; verify year",
+            "confidence": "multi-source-range"
           },
           "Max HP": {
-            "value": "175",
-            "confidence": "cited-source-exact"
-          },
-          "Persons": {
-            "value": "7",
-            "confidence": "cited-source-exact"
-          },
-          "Capacity Weight": {
-            "value": "About 1,800 lb",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "About 34 gal",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "0.080\" plus double-plated bow",
-            "confidence": "cited-source-exact"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "0.080\" representative",
-            "confidence": "catalog-representative"
+            "value": "Up to 200; verify capacity plate",
+            "confidence": "exact-model-evidence"
           },
           "Construction": {
-            "value": "Welded aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-series-verified"
           }
         },
         "eras": [
           {
-            "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 8500,
-            "high": 13000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):value:2005-2008",
+            "label": "2005-2008",
+            "startYear": 2005,
+            "endYear": 2008,
+            "low": 5500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          },
+          {
+            "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):value:2009-2012",
+            "label": "2009-2012",
+            "startYear": 2009,
+            "endYear": 2012,
+            "low": 7000,
+            "high": 12000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2005/g3-boats",
+          "https://www.boatingworld.com/boats/g3-boats/2012-g3-v185fs"
         ]
       },
       {
-        "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2010,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s",
+        "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):gen:2013-2014",
+        "label": "2013-2014 final Angler V185 FS factory generation",
+        "startYear": 2013,
+        "endYear": 2014,
+        "status": "factory-catalog-generation",
+        "specificationBasis": "The 2013 and 2014 factory catalogs list the exact V185 FS. The 2014 specification table publishes its complete core hull data. The V185 FS disappears from the 2015 lineup while V185 SF and V185 F continue.",
         "sourceUrl": "https://g3boats.uberflip.com/i/183684-2014/55",
-        "specs": {},
-        "eras": []
+        "specs": {
+          "Length": {
+            "value": "18'5\"",
+            "confidence": "factory-spec-table"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "factory-spec-table"
+          },
+          "Chine / Bottom Width": {
+            "value": "82\"",
+            "confidence": "factory-spec-table"
+          },
+          "Dry Hull Weight": {
+            "value": "1,800 lb",
+            "confidence": "factory-spec-table"
+          },
+          "Max / Bow Depth": {
+            "value": "42\"",
+            "confidence": "factory-spec-table"
+          },
+          "Deadrise": {
+            "value": "13°",
+            "confidence": "factory-spec-table"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "factory-spec-table"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "factory-spec-table"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "factory-spec-table"
+          },
+          "Capacity Weight": {
+            "value": "1,800 lb",
+            "confidence": "factory-spec-table"
+          },
+          "Fuel Capacity": {
+            "value": "33 gal",
+            "confidence": "factory-spec-table"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\" plus 0.100\" double-plated bow and bottom",
+            "confidence": "factory-spec-table"
+          },
+          "Construction": {
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-catalog"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:G3 | Angler V185 FS (Secondary; V172 is Primary):value:2013-2014",
+            "label": "2013-2014",
+            "startYear": 2013,
+            "endYear": 2014,
+            "low": 9000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://g3boats.uberflip.com/i/97791-2013",
+          "https://g3boats.uberflip.com/i/412569-2015"
+        ]
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Do not apply V185 SF, V185 F or later V18/V1850 specifications to this FS record. At roughly 1,800 lb bare hull, many complete packages will approach the Maverick's practical towing ceiling."
   },
   {
     "id": "boat:Hewescraft | Sportsman 180",
