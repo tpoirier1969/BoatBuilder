@@ -1,0 +1,30 @@
+name: Audit MonArk and Spectrum
+
+on:
+  push:
+    branches:
+      - audit/monark-spectrum
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate current snapshot
+        run: node scripts/report-monark-spectrum-current.mjs
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/monark-spectrum-current.json reports/monark-spectrum-current.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Capture MonArk and Spectrum audit snapshot"
+            git push
+          fi
