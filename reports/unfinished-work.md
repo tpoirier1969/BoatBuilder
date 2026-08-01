@@ -1,11 +1,11 @@
 # Unfinished Boat Generation Work
 
-Generated from the canonical catalog on 2026-08-01T13:35:19.784Z.
+Generated from the canonical catalog on 2026-08-01T13:55:44.481Z.
 
 - Catalog items: 351
 - Boat records: 170
-- Unresolved generation rows: 16
-- Manufacturers affected: 9
+- Unresolved generation rows: 13
+- Manufacturers affected: 7
 
 ## Manufacturer summary
 
@@ -15,8 +15,6 @@ Generated from the canonical catalog on 2026-08-01T13:35:19.784Z.
 | Legend | 3 | 3 | 3 |
 | MonArk | 2 | 2 | 2 |
 | Triton | 2 | 2 | 2 |
-| Ultracraft (Misty Harbor) | 2 | 2 | 2 |
-| Fish-Rite | 1 | 1 | 1 |
 | Hewescraft | 1 | 1 | 1 |
 | North River | 1 | 1 | 1 |
 | Spectrum / Blue Fin | 1 | 1 | 1 |
@@ -25,7 +23,6 @@ Generated from the canonical catalog on 2026-08-01T13:35:19.784Z.
 
 | Manufacturer | Model | Generation / evidence row | Years | Pricing | Relevance | Recorded reason |
 |---|---|---|---:|---|---|---|
-| Fish-Rite | Stalker 17'6" | Other advertised years — specifications and pricing unresolved | 2000-2019 | Missing | Secondary / screening | No unresolved reason recorded |
 | Fisher | Hawk 170 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
 | Fisher | Hawk 186 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
 | Fisher | Hawk 200 FS | Other advertised years — specifications and pricing unresolved | 1990-2009 | Missing | Secondary / screening | No unresolved reason recorded |
@@ -39,8 +36,6 @@ Generated from the canonical catalog on 2026-08-01T13:35:19.784Z.
 | Spectrum / Blue Fin | 1906 | Other advertised years — specifications and pricing unresolved | 1990-1999 | Missing | Secondary / screening | No unresolved reason recorded |
 | Triton | DV176 DC Magnum | Other advertised years — specifications and pricing unresolved | 2000-2009 | Missing | Secondary / screening | No unresolved reason recorded |
 | Triton | DV186 DC Magnum | Other advertised years — specifications and pricing unresolved | 2000-2009 | Missing | Secondary / screening | No unresolved reason recorded |
-| Ultracraft (Misty Harbor) | Stealth 169W | Other advertised years — specifications and pricing unresolved | 2000-2009 | Missing | Secondary / screening | No unresolved reason recorded |
-| Ultracraft (Misty Harbor) | Stealth 178W | Other advertised years — specifications and pricing unresolved | 2000-2009 | Missing | Secondary / screening | No unresolved reason recorded |
 
 ## Guardrails
 

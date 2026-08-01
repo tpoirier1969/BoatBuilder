@@ -1,24 +1,12 @@
 {
-  "generatedAt": "2026-08-01T13:35:19.784Z",
+  "generatedAt": "2026-08-01T13:55:44.481Z",
   "counts": {
     "catalogItems": 351,
     "boats": 170,
-    "unresolvedRows": 16,
-    "manufacturers": 9
+    "unresolvedRows": 13,
+    "manufacturers": 7
   },
   "unresolved": [
-    {
-      "manufacturer": "Fish-Rite",
-      "model": "Stalker 17'6\"",
-      "id": "boat:Fish-Rite | Stalker 17'6\"",
-      "generationId": "boat:Fish-Rite | Stalker 17'6\":gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2000-2019",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
     {
       "manufacturer": "Fisher",
       "model": "Hawk 170 FS",
@@ -168,30 +156,6 @@
       "model": "DV186 DC Magnum",
       "id": "boat:Triton | DV186 DC Magnum",
       "generationId": "boat:Triton | DV186 DC Magnum:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2000-2009",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "Ultracraft (Misty Harbor)",
-      "model": "Stealth 169W",
-      "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W",
-      "generationId": "boat:Ultracraft (Misty Harbor) | Stealth 169W:gen:unresolved",
-      "generation": "Other advertised years — specifications and pricing unresolved",
-      "years": "2000-2009",
-      "reason": "No unresolved reason recorded",
-      "sourceCount": 0,
-      "pricing": "Missing",
-      "relevance": "Secondary / screening"
-    },
-    {
-      "manufacturer": "Ultracraft (Misty Harbor)",
-      "model": "Stealth 178W",
-      "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W",
-      "generationId": "boat:Ultracraft (Misty Harbor) | Stealth 178W:gen:unresolved",
       "generation": "Other advertised years — specifications and pricing unresolved",
       "years": "2000-2009",
       "reason": "No unresolved reason recorded",

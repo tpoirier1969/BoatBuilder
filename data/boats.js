@@ -9795,14 +9795,14 @@ window.BOATBUILDER_BOATS = [
     "categoryId": "boats",
     "categoryName": "Boats",
     "manufacturer": "Fish-Rite",
-    "model": "Stalker 17'6\"",
-    "displayName": "Fish-Rite | Stalker 17'6\"",
-    "subtitle": "2003 exact cited specification; other advertised years unresolved",
+    "model": "Stalker 17–17'6\" custom-build screening",
+    "displayName": "Fish-Rite | Stalker 17–17'6\" custom-build screening",
+    "subtitle": "2006 documented 17-foot Stalker example; 17'6-inch listings require direct verification",
     "badge": "Secondary",
-    "lowPrice": 6000,
-    "highPrice": 14000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://fishrite.com/",
+    "lowPrice": 10000,
+    "highPrice": 22000,
+    "priceBasis": "Listing-specific complete-package screening only. Fish-Rite reused the Stalker name and varied hull geometry and outfitting, so select no other year by inference.",
+    "sourceUrl": "https://www.smartmarineguide.com/fish_rite-boats-for-sale-in-oregon",
     "image": {
       "url": "https://images2.marinesource.com/resize/1/45/70/2003-fish-rite-fishrite-17-rouge-power-9704570-974740613-0-050320250102-0.jpg",
       "source": "https://marinesource.com/boat/fish-rite-fishrite-17-rouge-2003-portland-9704570-for-sale",
@@ -9812,7 +9812,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2003 exact cited specification; other advertised years unresolved"
+        "value": "2006 documented 17-foot Stalker listing; seller-described 17'6-inch examples require HIN, measurement and capacity-plate verification"
       },
       {
         "label": "Recommendation",
@@ -9824,11 +9824,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Layout",
-        "value": "Factory windshield/soft-top fishing configuration; verify exact boat"
+        "value": "Listing-specific fishing configuration; windshield, canvas and interior arrangement vary by build"
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "Varies by exact build; do not infer from the Stalker name"
       },
       {
         "label": "Beam",
@@ -9868,7 +9868,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "90–115"
+        "value": "Documented 2006 package used 60 hp; verify the exact capacity plate"
       },
       {
         "label": "Persons",
@@ -9896,15 +9896,15 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Availability Under $14k",
-        "value": "Rare"
+        "value": "Occasional, usually older or less-equipped"
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary only because regional scarcity and used pricing commonly exceed $14,000; physically this is an excellent fit."
+        "value": "Secondary: excellent welded-hull potential, but inconsistent model naming, regional scarcity and package prices make exact-listing inspection mandatory."
       },
       {
         "label": "Notes",
-        "value": "Strong western-style welded hull and often well rigged. Fish-Rite builds varied, so the exact capacity plate matters more than a family-level row."
+        "value": "Fish-Rite used the Stalker name on different lengths and built configurable welded boats. This record is deliberately a screening aid, not a promise that every Stalker called 17 or 17'6 inches shares dimensions, weight, horsepower or layout."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -9912,7 +9912,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "Fish-Rite builds and options vary; inspect the exact boat."
+        "value": "Fish-Rite build options vary; verify the exact floor, trays, carpet and welded structure on the listing."
       },
       {
         "label": "Washdown / Carpet Fit",
@@ -9920,119 +9920,63 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Resolved by disposition: the broad 2000-2019 pseudo-generation was removed. Only a documented 2006 17-foot Stalker example is retained, and 17'6-inch claims must be verified on the boat."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Fish-Rite | Stalker 17'6\":gen:2003",
-        "label": "2003 cited specification snapshot",
-        "startYear": 2003,
-        "endYear": 2003,
-        "status": "cited-snapshot",
-        "specificationBasis": "2003 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://fishrite.com/",
+        "id": "boat:Fish-Rite | Stalker 17'6\":gen:2006-listing",
+        "label": "2006 documented 17-foot Stalker listing example",
+        "startYear": 2006,
+        "endYear": 2006,
+        "status": "listing-specific-evidence",
+        "specificationBasis": "An archived dealer listing documents a 2006 Fish-Rite Stalker sold as a 17-foot boat with a 60-hp four-stroke and extensive fishing equipment. It does not establish a standardized 17'6-inch factory generation, so unreported specifications remain explicitly unverified.",
+        "sourceUrl": "https://www.smartmarineguide.com/fish_rite-boats-for-sale-in-oregon",
         "specs": {
           "Length": {
-            "value": "About 17'6\"",
-            "confidence": "catalog-representative"
+            "value": "17' seller-listed; any 17'6\" claim requires direct measurement and HIN verification",
+            "confidence": "listing-specific"
           },
           "Beam": {
-            "value": "About 88\"–92\" by build",
-            "confidence": "catalog-representative"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published for the documented 2006 listing",
+            "confidence": "not-published"
           },
           "Dry Hull Weight": {
-            "value": "About 1,100–1,300 lb",
-            "confidence": "catalog-representative"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "Not published for the documented 2006 listing",
+            "confidence": "not-published"
           },
           "Max HP": {
-            "value": "115–150 representative",
-            "confidence": "catalog-representative"
+            "value": "Capacity plate not published; documented package used a 60-hp main",
+            "confidence": "listing-specific"
           },
-          "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "Heavy-gauge welded hull; exact gauge varies",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Layout": {
+            "value": "Fishing configuration with options; windshield, canvas and seating vary by build",
+            "confidence": "manufacturer-family"
           },
           "Construction": {
-            "value": "All-welded aluminum",
-            "confidence": "cited-source-exact"
+            "value": "Welded aluminum Fish-Rite family; exact gauge and geometry vary by build",
+            "confidence": "manufacturer-family"
           }
         },
         "eras": [
           {
-            "id": "boat:Fish-Rite | Stalker 17'6\":value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 6000,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Fish-Rite | Stalker 17'6\":value:2010s",
-            "label": "2010s",
-            "startYear": 2010,
-            "endYear": 2019,
-            "low": 9000,
-            "high": 14000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Fish-Rite | Stalker 17'6\":value:2006",
+            "label": "2006",
+            "startYear": 2006,
+            "endYear": 2006,
+            "low": 10000,
+            "high": 22000,
+            "basis": "Current used complete-package screening estimate; motor age, trailer, structural condition, canvas, kicker and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://fishrite.com/boats/angler/",
+          "https://www.boats.za.net/boat-specs.aspx?boat=Fish-Rite-Stalker-Open-Series-2009&bt=40440"
         ]
-      },
-      {
-        "id": "boat:Fish-Rite | Stalker 17'6\":gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2019,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s–2010s; exact build varies",
-        "sourceUrl": "https://fishrite.com/",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Use this record only to screen an exact Fish-Rite listing. The Stalker name was reused across different lengths and configurations; verify HIN, measured length, beam, capacity plate, hull gauge, floor and canvas before valuing the boat."
   },
   {
     "id": "boat:Fisher | Hawk 170 FS",
@@ -48272,11 +48216,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Ultracraft (Misty Harbor)",
     "model": "Stealth 169W",
     "displayName": "Ultracraft (Misty Harbor) | Stealth 169W",
-    "subtitle": "2006 exact cited specification; other advertised years unresolved",
+    "subtitle": "2006-2008 verified Stealth 169W generation; later 169W naming is not inherited",
     "badge": "Secondary",
-    "lowPrice": 3000,
-    "highPrice": 5500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 7000,
+    "highPrice": 15500,
+    "priceBasis": "Generation-contained current used complete-package estimate. Heavily equipped dealer packages can exceed the project's ceiling.",
     "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
     "image": {
       "url": "https://cdnmedia.endeavorsuite.com/images/organizations/541bf838-d590-473f-a1a0-9aec3c8b7200/inventory/14452861/IMG_6487.jpeg",
@@ -48287,7 +48231,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2006 exact cited specification; other advertised years unresolved"
+        "value": "2006-2008 verified Stealth 169W production identity"
       },
       {
         "label": "Recommendation",
@@ -48303,11 +48247,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "16'9\""
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "86\""
       },
       {
         "label": "Chine / Bottom Width",
@@ -48343,7 +48287,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "Not published"
+        "value": "75–90"
       },
       {
         "label": "Persons",
@@ -48379,7 +48323,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Notes",
-        "value": "Midrange multispecies / fish-and-sport. Fishing and family use. 86\" beam, about 870 lb and 13° deadrise: useful, towable, but a Secondary-level Lake Superior hull. Closest comparisons: Alumacraft Navigator; Crestliner Vision; Lund Adventure. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
+        "value": "A light, tow-friendly dual-console fish-and-ski boat. Its 86-inch beam, 13-degree deadrise and carpeted plywood interior make it better for inland lakes and carefully chosen nearshore Superior days than as a four-person big-water-first platform."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -48387,7 +48331,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "Period owner evidence; the factory brochure does not publish the substrate, so inspect for soft spots or re-flooring."
+        "value": "Factory brochure documents treated plywood decking and riveted construction; inspect carpet, floor fasteners and flotation for moisture damage."
       },
       {
         "label": "Washdown / Carpet Fit",
@@ -48395,110 +48339,91 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "The factory brochure and 2006-2008 model rosters were reconciled. Later Ultracraft 169W records are not silently treated as the same Stealth generation."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:gen:2006",
-        "label": "2006 cited specification snapshot",
+        "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:gen:2006-2008",
+        "label": "2006-2008 Stealth 169W factory generation",
         "startYear": 2006,
-        "endYear": 2006,
-        "status": "cited-snapshot",
-        "specificationBasis": "2006 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "endYear": 2008,
+        "status": "factory-generation",
+        "specificationBasis": "The Misty Harbor Ultracraft brochure publishes the exact Stealth 169W dimensions, ratings and construction. Annual model indexes retain the Stealth 169W identity through 2008; later 169W naming is treated separately rather than inheriting these specifications.",
         "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
         "specs": {
           "Length": {
-            "value": "17 ft class",
+            "value": "16'9\"",
             "confidence": "cited-source-exact"
           },
           "Beam": {
             "value": "86\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "73\" bottom",
-            "confidence": "cited-source-exact"
-          },
-          "Dry Hull Weight": {
-            "value": "870 lb",
-            "confidence": "cited-source-exact"
-          },
           "Max / Bow Depth": {
-            "value": "38\" bow depth",
+            "value": "38\" bow height",
             "confidence": "cited-source-exact"
           },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Stern Height": {
+            "value": "32\"",
+            "confidence": "cited-source-exact"
           },
           "Deadrise": {
             "value": "13°",
             "confidence": "cited-source-exact"
           },
           "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "20\"",
+            "confidence": "cited-source-exact"
           },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Max HP": {
-            "value": "90",
+          "Dry Hull Weight": {
+            "value": "870 lb",
             "confidence": "cited-source-exact"
           },
           "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "6",
+            "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
             "value": "1,400 lb",
             "confidence": "cited-source-exact"
           },
           "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "24 gal",
+            "confidence": "cited-source-exact"
           },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Bottom / Side Thickness": {
+            "value": "0.160\" bow/bottom; 0.080\" sides",
+            "confidence": "cited-source-exact"
           },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Max HP": {
+            "value": "90",
+            "confidence": "cited-source-exact"
           },
           "Construction": {
-            "value": "Riveted Deep-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted aluminum deep-V with treated plywood decking",
+            "confidence": "factory-brochure"
           }
         },
         "eras": [
           {
-            "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 3000,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:value:2006-2008",
+            "label": "2006-2008",
+            "startYear": 2006,
+            "endYear": 2008,
+            "low": 7000,
+            "high": 15500,
+            "basis": "Current used complete-package screening estimate; motor age, trailer, structural condition, canvas, kicker and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.boats.za.net/ultracraft",
+          "https://www.haywardpowersports.com/inventory/2006-ultracraft-stealth-169w-hayward-wi-54843-14452861i"
         ]
-      },
-      {
-        "id": "boat:Ultracraft (Misty Harbor) | Stealth 169W:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: mid–2000s; 2007 verified",
-        "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Apply these specifications only to a verified 2006-2008 Stealth 169W. Seller-advertised 2005 examples and later models labeled simply 169W require separate HIN and brochure verification."
   },
   {
     "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W",
@@ -48507,11 +48432,11 @@ window.BOATBUILDER_BOATS = [
     "manufacturer": "Ultracraft (Misty Harbor)",
     "model": "Stealth 178W",
     "displayName": "Ultracraft (Misty Harbor) | Stealth 178W",
-    "subtitle": "2008 exact cited specification; other advertised years unresolved",
+    "subtitle": "2006-2008 verified Stealth 178W generation; corrected factory dimensions and ratings",
     "badge": "Secondary",
-    "lowPrice": 4000,
-    "highPrice": 7000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "lowPrice": 7500,
+    "highPrice": 16000,
+    "priceBasis": "Generation-contained current used complete-package estimate; kicker, electronics, canvas and structural condition materially affect value.",
     "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
     "image": {
       "url": "https://www.boats.za.net/images/2008-ultracraft-boats-stealth-178w.jpg",
@@ -48522,7 +48447,7 @@ window.BOATBUILDER_BOATS = [
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2008 exact cited specification; other advertised years unresolved"
+        "value": "2006-2008 verified Stealth 178W production identity"
       },
       {
         "label": "Recommendation",
@@ -48538,11 +48463,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Length",
-        "value": "Varies by selected hull generation"
+        "value": "17'8\""
       },
       {
         "label": "Beam",
-        "value": "Varies by selected hull generation"
+        "value": "94\""
       },
       {
         "label": "Chine / Bottom Width",
@@ -48578,7 +48503,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Practical Working HP",
-        "value": "Not published"
+        "value": "90–115"
       },
       {
         "label": "Persons",
@@ -48610,11 +48535,11 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Placement Reason",
-        "value": "Secondary: strong 95 in beam, roughly 1,120 lb and 15° deadrise numbers, but defunct-brand support and scarce examples keep it opportunistic."
+        "value": "Secondary, but physically strong: 17'8 inches, 94-inch beam, 1,120-lb hull and full windshield suit nearshore Superior use; scarcity, carpeted plywood and defunct-model support keep it opportunistic."
       },
       {
         "label": "Notes",
-        "value": "Upper-midrange multispecies. Fishing, trolling and family use. 95\" beam, about 1,120 lb and 15° deadrise; materially stronger than the 169W. Closest comparisons: Lund Impact; Crestliner Fish Hawk; Alumacraft Competitor. Family-level used-market lookup; specifications vary by year and length unless a representative variant is shown. Verify the capacity plate and model-year brochure before buying."
+        "value": "The factory brochure corrects the old blended numbers: 94-inch beam, 44-inch bow height, 13-degree deadrise and 115-hp rating. It is materially more suitable than the 169W for the intended use, but four-person Superior fishing still depends on weather discipline and total loaded weight."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -48622,7 +48547,7 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Interior Material Basis",
-        "value": "Period owner evidence; the factory brochure does not publish the substrate, so inspect for soft spots or re-flooring."
+        "value": "Factory brochure documents treated plywood decking and riveted construction; inspect carpet, floor, transom and flotation carefully."
       },
       {
         "label": "Washdown / Carpet Fit",
@@ -48630,110 +48555,87 @@ window.BOATBUILDER_BOATS = [
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "The factory brochure and 2006-2008 model rosters were reconciled. The prior 95-inch beam, 36-inch bow and 15-degree deadrise values were removed as unsupported for this Stealth generation."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:gen:2008",
-        "label": "2008 cited specification snapshot",
-        "startYear": 2008,
+        "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:gen:2006-2008",
+        "label": "2006-2008 Stealth 178W factory generation",
+        "startYear": 2006,
         "endYear": 2008,
-        "status": "cited-snapshot",
-        "specificationBasis": "2008 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "status": "factory-generation",
+        "specificationBasis": "The Misty Harbor Ultracraft brochure publishes exact Stealth 178W specifications. Annual model indexes retain the Stealth 178W identity through 2008; later models called 178W are not assumed to share this hull without separate evidence.",
         "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
         "specs": {
           "Length": {
-            "value": "18 ft class",
+            "value": "17'8\"",
             "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "95\"",
+            "value": "94\"",
             "confidence": "cited-source-exact"
           },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Max / Bow Depth": {
+            "value": "44\" bow height",
+            "confidence": "cited-source-exact"
+          },
+          "Stern Height": {
+            "value": "28\"",
+            "confidence": "cited-source-exact"
+          },
+          "Deadrise": {
+            "value": "13°",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Height": {
+            "value": "20\" or 25\"",
+            "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
             "value": "1,120 lb",
             "confidence": "cited-source-exact"
           },
-          "Max / Bow Depth": {
-            "value": "36\" bow depth",
-            "confidence": "cited-source-exact"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "15°",
-            "confidence": "cited-source-exact"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Max HP": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
           "Persons": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "6",
+            "confidence": "cited-source-exact"
           },
           "Capacity Weight": {
             "value": "1,500 lb",
             "confidence": "cited-source-exact"
           },
-          "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Bottom / Side Thickness": {
+            "value": "0.170\" bow/bottom; 0.090\" sides",
+            "confidence": "cited-source-exact"
           },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Max HP": {
+            "value": "115",
+            "confidence": "cited-source-exact"
           },
           "Construction": {
-            "value": "Riveted Deep-V",
-            "confidence": "cited-source-exact"
+            "value": "Riveted aluminum deep-V with treated plywood decking",
+            "confidence": "factory-brochure"
           }
         },
         "eras": [
           {
-            "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:value:2006-2008",
+            "label": "2006-2008",
+            "startYear": 2006,
+            "endYear": 2008,
+            "low": 7500,
+            "high": 16000,
+            "basis": "Current used complete-package screening estimate; motor age, trailer, structural condition, canvas, kicker and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.boats.za.net/ultracraft",
+          "https://www.boats.za.net/boat-specs.aspx?boat=Ultracraft-Stealth-178W-2008&bt=30126"
         ]
-      },
-      {
-        "id": "boat:Ultracraft (Misty Harbor) | Stealth 178W:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 2000,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: mid–2000s; 2007 verified",
-        "sourceUrl": "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
-        "specs": {},
-        "eras": []
       }
     ],
-    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+    "generationWarning": "Apply these specifications only to a verified 2006-2008 Stealth 178W. Later Ultracraft models labeled 178W require separate brochure and HIN verification."
   },
   {
     "id": "boat:Legend | 17 Xcalibur full-windshield",
