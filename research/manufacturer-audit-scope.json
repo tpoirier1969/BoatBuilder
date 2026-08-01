@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "generatedFor": "BoatBuilder manufacturer audit scope correction",
+  "rule": "Generation-complete existing records are not manufacturer-roster-complete unless an independent annual roster has been reconciled and encoded.",
+  "audits": [
+    {
+      "manufacturer": "Lund",
+      "scope": "partial-batch",
+      "manufacturerRosterComplete": false,
+      "note": "The merged Lund work explicitly described itself as a first batch and not a complete Lund roster audit."
+    },
+    {
+      "manufacturer": "Alumacraft",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "Existing app records received generation safeguards and focused research; no complete annual manufacturer roster is encoded."
+    },
+    {
+      "manufacturer": "Princecraft",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "Existing BoatBuilder records were completed; full factory-roster expansion was not established."
+    },
+    {
+      "manufacturer": "Tracker",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "Existing BoatBuilder records were completed; full factory-roster expansion was not established."
+    },
+    {
+      "manufacturer": "MirroCraft",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "Existing BoatBuilder records were completed; full factory-roster expansion was not established."
+    },
+    {
+      "manufacturer": "Sea Nymph",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "Existing BoatBuilder records were completed; full factory-roster expansion was not established."
+    },
+    {
+      "manufacturer": "Northwood",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "The research document explicitly limits scope to the single 170 Pro Tourney record already in BoatBuilder."
+    },
+    {
+      "manufacturer": "Lowe",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "The Lowe completion document explicitly limits scope to six existing records and does not expand the manufacturer roster."
+    },
+    {
+      "manufacturer": "Smoker Craft",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "All 18 Smoker Craft records then present in BoatBuilder were audited; this is not proof that every relevant factory model was represented."
+    },
+    {
+      "manufacturer": "Polar Kraft",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "Four existing BoatBuilder records were audited. No independent full-manufacturer roster manifest was encoded."
+    },
+    {
+      "manufacturer": "G3",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "Three existing Angler records were audited. No independent full-manufacturer roster manifest was encoded."
+    },
+    {
+      "manufacturer": "Fish-Rite",
+      "scope": "custom-build-disposition",
+      "manufacturerRosterComplete": false,
+      "note": "The Stalker entry is deliberately listing-specific because Fish-Rite reused names across configurable builds."
+    },
+    {
+      "manufacturer": "Ultracraft (Misty Harbor)",
+      "scope": "relevant-family-roster-verified",
+      "manufacturerRosterComplete": false,
+      "note": "The two relevant walk-through families are roster-checked through 2012. The entire Ultracraft catalog is not claimed complete.",
+      "coveredFamilies": [
+        {
+          "stableId": "boat:Ultracraft (Misty Harbor) | Stealth 169W",
+          "aliases": ["Stealth 169W", "169W"],
+          "expectedYears": [2006, 2007, 2008, 2009, 2010, 2011, 2012],
+          "evidenceUrls": [
+            "https://pdf.nauticexpo.com/pdf/misty-harbor/ultracraftbrochure/20877-41153.html",
+            "https://www.boats.za.net/ultracraft"
+          ]
+        },
+        {
+          "stableId": "boat:Ultracraft (Misty Harbor) | Stealth 178W",
+          "aliases": ["Stealth 178W", "178W", "Stealth 178 W"],
+          "expectedYears": [2006, 2007, 2008, 2009, 2010, 2011, 2012],
+          "evidenceUrls": [
+            "https://pdf.nauticexpo.com/pdf/misty-harbor/ultracraftbrochure/20877-41153.html",
+            "https://www.boats.za.net/ultracraft",
+            "https://bestcovers.com/products/2010-ultracraft-stealth-178-w-bestfit-300-boat-cover",
+            "https://bestcovers.com/products/2012-ultracraft-stealth-178-w-bestfit-300-boat-cover"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Fisher",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "The three Hawk records were reconciled against annual evidence; a full Fisher manufacturer roster was not encoded."
+    },
+    {
+      "manufacturer": "MonArk",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "Two existing records were reconciled; a full MonArk manufacturer roster was not encoded."
+    },
+    {
+      "manufacturer": "Spectrum / Blue Fin",
+      "scope": "existing-record-generation-complete",
+      "manufacturerRosterComplete": false,
+      "note": "The existing 1906 record was reconciled; a full Spectrum / Blue Fin roster was not encoded."
+    }
+  ]
+}

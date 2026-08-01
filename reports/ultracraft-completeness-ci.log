@@ -1,0 +1,11 @@
+Reopened Ultracraft and restored 169W/178W roster coverage through 2012.
+BoatBuilder QA passed: 351 items, 170 boats, 181 equipment records.
+Verified canonical app data, focused Lund and Alumacraft generations, structured value eras, data-backed hull generations, and no runtime correction overlay.
+Ultracraft/Fish-Rite QA passed: 3 records, 5 evidence rows, and Ultracraft roster coverage through 2012.
+Manufacturer audit-scope QA passed: 16 declarations, 2 roster-verified relevant families, 0 unsupported manufacturer-complete claims.
+Semantic diff QA passed: only the two reopened Ultracraft records changed.
+Wrote unfinished report with 7 unresolved generation rows across 4 manufacturers.
+Captured 18 current Smoker Craft records for audit.
+Captured 3 Ultracraft/Fish-Rite records.
+Wrote manufacturer audit-scope review for 16 declarations.
+ultracraft_completeness_status=passed
