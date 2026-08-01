@@ -1,0 +1,1652 @@
+{
+  "generatedAt": "2026-08-01T17:50:37.120Z",
+  "scope": {
+    "purpose": "Find aluminum deep-V fishing boats missing from BoatBuilder, not merely validate records already present.",
+    "criteria": [
+      "Factory full, dual-console, or walk-through windshield configuration",
+      "Generally 16 to 20 feet; larger models retained only as secondary screening",
+      "Aluminum hull",
+      "Fishing, fish-and-ski, or multispecies layout relevant to Great Lakes use"
+    ],
+    "exclusions": [
+      "Side-console-only, tiller-only, bass, bay, jon, pontoon, deck-boat, and fiberglass models",
+      "Names supported only by seller wording with no independent roster evidence"
+    ],
+    "claimPolicy": "No manufacturer is called roster-complete unless an independent annual roster is encoded and checked."
+  },
+  "catalogBoatRecords": 170,
+  "catalogManufacturers": 24,
+  "auditedManufacturers": 24,
+  "candidateModelCount": 126,
+  "highConfidence": 109,
+  "mediumConfidence": 17,
+  "primaryCandidates": 66,
+  "secondaryScreening": 54,
+  "continuityAliasReviews": 6,
+  "byConfidence": {
+    "high": 109,
+    "medium": 17
+  },
+  "byClassification": {
+    "continuity-alias-review": 6,
+    "primary-candidate": 66,
+    "secondary-screening": 54
+  },
+  "manufacturers": [
+    {
+      "manufacturer": "Alumacraft",
+      "status": "missing-models-found",
+      "candidateCount": 5,
+      "highConfidence": 5,
+      "mediumConfidence": 0,
+      "primaryCandidates": 1,
+      "notes": "Existing 16-18 foot core coverage is fairly broad, but it is not roster complete.",
+      "reviewedSources": [
+        "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
+        "https://alumacraft.com/About-Alumacraft.php?content=boats&model_year=2021",
+        "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2025-2022/ALUMA-MY24_Catalog-Web-ENNA.pdf"
+      ],
+      "missingModels": [
+        {
+          "model": "Trophy 165 Sport",
+          "years": "2016-era",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Factory catalog lists a 16-foot-class Trophy Sport with full windshield; BoatBuilder starts the Trophy Sport family at 175.",
+          "evidenceUrls": [
+            "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf"
+          ]
+        },
+        {
+          "model": "Tournament Sport 185",
+          "years": "2020-2021",
+          "confidence": "high",
+          "classification": "continuity-alias-review",
+          "reason": "Official model roster uses Tournament Sport 185 while BoatBuilder has Tournament Pro 185; determine whether this is a trim/renaming boundary or a separate row.",
+          "evidenceUrls": [
+            "https://alumacraft.com/About-Alumacraft.php?content=boats&model_year=2021"
+          ]
+        },
+        {
+          "model": "Tournament Pro 195",
+          "years": "2016-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory catalog lists the 195 alongside the 185; it is absent and is larger than the preferred search size.",
+          "evidenceUrls": [
+            "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf"
+          ]
+        },
+        {
+          "model": "Trophy 195 Sport",
+          "years": "2016-2024",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory catalogs list a full-windshield Trophy 195; it is absent and generally too large/heavy for the Maverick target.",
+          "evidenceUrls": [
+            "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2010-2019/Catalogs/ALUMA-MY16-Catalog-ENUS.pdf",
+            "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/2025-2022/ALUMA-MY24_Catalog-Web-ENNA.pdf"
+          ]
+        },
+        {
+          "model": "Competitor 195 Sport",
+          "years": "current/late-model",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current official lineup includes the full-windshield 195 Sport; absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.alumacraft.com/Boat-Builder.php?action=new_dev&id=992"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Crestliner",
+      "status": "missing-models-found",
+      "candidateCount": 10,
+      "highConfidence": 10,
+      "mediumConfidence": 0,
+      "primaryCandidates": 6,
+      "notes": "Several complete walk-through families are absent, not merely individual years.",
+      "reviewedSources": [
+        "https://www.crestliner.com/catalog-archive.html",
+        "https://www.crestliner.com/fishing-boats/hawk/1750-hawk.html",
+        "https://www.crestliner.com/fishing-boats/kodiak/1850-kodiak.html"
+      ],
+      "missingModels": [
+        {
+          "model": "1650 Fish Hawk WT",
+          "years": "late 2010s-current family",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Factory Fish Hawk line included a 1650 walk-through configuration; BoatBuilder starts at 1700.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/fishing-boats/fish-hawk/1650-fish-hawk.html"
+          ]
+        },
+        {
+          "model": "1650 Hawk WT",
+          "years": "current/recent",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Official Hawk family includes a 16-foot walk-through model absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/fishing-boats/hawk/1650-hawk.html"
+          ]
+        },
+        {
+          "model": "1750 Hawk WT",
+          "years": "current/recent",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Official Hawk family includes a 17-foot walk-through model absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/fishing-boats/hawk/1750-hawk.html"
+          ]
+        },
+        {
+          "model": "1650 Kodiak WT",
+          "years": "recent",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Official Kodiak family included a compact walk-through model absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/fishing-boats/kodiak/1650-kodiak.html"
+          ]
+        },
+        {
+          "model": "1850 Kodiak WT",
+          "years": "recent",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official Kodiak family includes an 18-foot walk-through model absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/fishing-boats/kodiak/1850-kodiak.html"
+          ]
+        },
+        {
+          "model": "1750 Raptor WT",
+          "years": "2019-2022 era",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Factory catalogs list a 1750 Raptor walk-through model; no Raptor family exists in BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/catalog-archive.html"
+          ]
+        },
+        {
+          "model": "1850 Raptor WT",
+          "years": "2019-2022 era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory catalogs list an 1850 Raptor walk-through model; absent.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/catalog-archive.html"
+          ]
+        },
+        {
+          "model": "Authority 1750 WT",
+          "years": "2021-era",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Factory specification matrix lists a 1750 Authority WT; absent.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/catalog-archive.html"
+          ]
+        },
+        {
+          "model": "Authority 1850 WT",
+          "years": "2021-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory specification matrix lists an 1850 Authority WT; absent.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/catalog-archive.html"
+          ]
+        },
+        {
+          "model": "1850 Commander Elite WT",
+          "years": "recent",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official Commander Elite family includes a walk-through 1850 absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.crestliner.com/fishing-boats/commander-elite/1850-commander-elite.html"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Fish-Rite",
+      "status": "custom-build-manual-audit",
+      "candidateCount": 0,
+      "highConfidence": 0,
+      "mediumConfidence": 0,
+      "primaryCandidates": 0,
+      "notes": "Fish-Rite reused family names across configurable welded builds. A fixed annual model roster is not reliable enough to create automatic missing-model rows; listings require HIN, capacity-plate, dimensions and layout verification.",
+      "reviewedSources": [
+        "https://fishrite.com/"
+      ],
+      "missingModels": []
+    },
+    {
+      "manufacturer": "Fisher",
+      "status": "missing-models-found",
+      "candidateCount": 9,
+      "highConfidence": 7,
+      "mediumConfidence": 2,
+      "primaryCandidates": 7,
+      "notes": "The prior Fisher audit covered only three Hawk rows and missed several later WT and Pro Avenger families.",
+      "reviewedSources": [
+        "https://www.boatcovers.com/custom/fisher-boat-covers"
+      ],
+      "missingModels": [
+        {
+          "model": "Hawk 160 FS",
+          "years": "1997-1999",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Model roster lists a smaller fish-and-ski Hawk family absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        },
+        {
+          "model": "Hawk 160 WT",
+          "years": "2005-2007",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Explicit WT model absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        },
+        {
+          "model": "Hawk 170 Sport / WT",
+          "years": "2004-2008",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Later walk-through Hawk 170 family is separate from the 1997-2002 Hawk 170 FS currently recorded.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        },
+        {
+          "model": "Hawk 186 Sport / WT",
+          "years": "2004-2008",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Later walk-through Hawk 186 family is absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        },
+        {
+          "model": "Pro Avenger 160 WT",
+          "years": "2006-2008",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Explicit 160 WT family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        },
+        {
+          "model": "Pro Avenger 17 WT",
+          "years": "2006-2008",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Explicit 17-foot WT family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        },
+        {
+          "model": "Avenger 16 WT",
+          "years": "2002-era",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Roster evidence supports an Avenger WT; exact factory chronology still needs brochure confirmation.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        },
+        {
+          "model": "F17 DC",
+          "years": "1997-1998",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Dual-console 17-foot model absent; verify that the center windshield is walk-through on each year.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        },
+        {
+          "model": "F18 FS",
+          "years": "1998-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Fish-and-ski 18-foot model absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/fisher-boat-covers"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "G3",
+      "status": "missing-models-found",
+      "candidateCount": 7,
+      "highConfidence": 7,
+      "mediumConfidence": 0,
+      "primaryCandidates": 4,
+      "notes": "The three legacy numbered Anglers in BoatBuilder cover only a small portion of G3's relevant roster.",
+      "reviewedSources": [
+        "https://www.g3boats.com/angler-v-series/angler-v-series/"
+      ],
+      "missingModels": [
+        {
+          "model": "Angler V164 F",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current factory roster includes the compact full-windshield model.",
+          "evidenceUrls": [
+            "https://www.g3boats.com/boat/2026-angler-v-164-f/"
+          ]
+        },
+        {
+          "model": "Angler V178 F",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current factory page explicitly describes a walk-through windshield.",
+          "evidenceUrls": [
+            "https://www.g3boats.com/boat/2026-angler-v-178-f/"
+          ]
+        },
+        {
+          "model": "Angler V17 FS",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current full-windshield fish-and-sport family is not the old V172 record.",
+          "evidenceUrls": [
+            "https://www.g3boats.com/boat/2026-angler-v-17-fs/"
+          ]
+        },
+        {
+          "model": "Angler V1750 SF",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current 17'6 fish-and-family model absent.",
+          "evidenceUrls": [
+            "https://www.g3boats.com/boat/angler-v-1750-sf/"
+          ]
+        },
+        {
+          "model": "Angler V18 FS",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current 18'10 fish-and-sport model absent.",
+          "evidenceUrls": [
+            "https://www.g3boats.com/boat/angler-v-18-fs/"
+          ]
+        },
+        {
+          "model": "Angler V1850 SF",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current 18'6 model absent.",
+          "evidenceUrls": [
+            "https://www.g3boats.com/boat/2026-angler-v-1850-sf/"
+          ]
+        },
+        {
+          "model": "Angler V19 FS",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current 19'10 model absent.",
+          "evidenceUrls": [
+            "https://www.g3boats.com/boat/angler-v-19-fs/"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Hewescraft",
+      "status": "missing-models-found",
+      "candidateCount": 7,
+      "highConfidence": 7,
+      "mediumConfidence": 0,
+      "primaryCandidates": 1,
+      "notes": "BoatBuilder currently has only one Hewescraft model.",
+      "reviewedSources": [
+        "https://hewescraft.com/"
+      ],
+      "missingModels": [
+        {
+          "model": "Sportsman 160",
+          "years": "historical/current family",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Same factory family as the existing Sportsman 180, in a smaller target size.",
+          "evidenceUrls": [
+            "https://hewescraft.com/boats/sportsman/"
+          ]
+        },
+        {
+          "model": "Sportsman 200",
+          "years": "historical/current family",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Same walk-through family, larger than preferred.",
+          "evidenceUrls": [
+            "https://hewescraft.com/boats/sportsman/"
+          ]
+        },
+        {
+          "model": "Pro V 180",
+          "years": "historical/current family",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory multispecies welded model absent.",
+          "evidenceUrls": [
+            "https://hewescraft.com/boats/pro-v/"
+          ]
+        },
+        {
+          "model": "Pro V 200",
+          "years": "historical/current family",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory Pro V family model absent.",
+          "evidenceUrls": [
+            "https://hewescraft.com/boats/pro-v/"
+          ]
+        },
+        {
+          "model": "Sea Runner 180",
+          "years": "historical/current family",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory Sea Runner family model absent.",
+          "evidenceUrls": [
+            "https://hewescraft.com/boats/sea-runner/"
+          ]
+        },
+        {
+          "model": "Sea Runner 190",
+          "years": "historical/current family",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory Sea Runner family model absent.",
+          "evidenceUrls": [
+            "https://hewescraft.com/boats/sea-runner/"
+          ]
+        },
+        {
+          "model": "Sea Runner 200",
+          "years": "historical/current family",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory Sea Runner family model absent.",
+          "evidenceUrls": [
+            "https://hewescraft.com/boats/sea-runner/"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Legend",
+      "status": "missing-models-found",
+      "candidateCount": 5,
+      "highConfidence": 4,
+      "mediumConfidence": 1,
+      "primaryCandidates": 2,
+      "notes": "The app's three Xcalibur rows do not cover later X, XTE and XF families.",
+      "reviewedSources": [
+        "https://www.legendboats.com/fishing-boats/x-series/x16/2024/",
+        "https://www.legendboats.com/fishing-boats/xf-series/"
+      ],
+      "missingModels": [
+        {
+          "model": "X16",
+          "years": "2024-era",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Official X16 has a high-profile walk-through windshield and is absent.",
+          "evidenceUrls": [
+            "https://www.legendboats.com/fishing-boats/x-series/x16/2024/"
+          ]
+        },
+        {
+          "model": "X18",
+          "years": "2024-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official X-series 18-foot walk-through model absent.",
+          "evidenceUrls": [
+            "https://www.legendboats.com/fishing-boats/x-series/x18/2024/"
+          ]
+        },
+        {
+          "model": "16 XF",
+          "years": "2026-current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "New full-windshield XF model absent.",
+          "evidenceUrls": [
+            "https://www.legendboats.com/fishing-boats/xf-series/16-xf/2026/"
+          ]
+        },
+        {
+          "model": "18 XF",
+          "years": "2026-current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official page explicitly states full windshield; absent.",
+          "evidenceUrls": [
+            "https://www.legendboats.com/fishing-boats/xf-series/18-xf/2026/"
+          ]
+        },
+        {
+          "model": "16 XTE full-windshield configuration",
+          "years": "2024-era",
+          "confidence": "medium",
+          "classification": "continuity-alias-review",
+          "reason": "XTE series advertised a full-windshield configuration, but exact suffix/year boundaries need model-level reconciliation.",
+          "evidenceUrls": [
+            "https://whitefish.legendboats.com/fishing-boats/xte-series/"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Lowe",
+      "status": "missing-models-found",
+      "candidateCount": 8,
+      "highConfidence": 8,
+      "mediumConfidence": 0,
+      "primaryCandidates": 4,
+      "notes": "Older FS165/175/185 and FM Pro names require continuity mapping to the later numeric families.",
+      "reviewedSources": [
+        "https://www.loweboats.com/",
+        "https://www.loweboats.com/catalog-archive.html"
+      ],
+      "missingModels": [
+        {
+          "model": "FS 1625",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current factory fish-and-ski walk-through model absent.",
+          "evidenceUrls": [
+            "https://www.loweboats.com/catalog-archive.html"
+          ]
+        },
+        {
+          "model": "FS 1700",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current walk-through fish-and-ski model absent.",
+          "evidenceUrls": [
+            "https://www.loweboats.com/catalog-archive.html"
+          ]
+        },
+        {
+          "model": "FS 1875",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current larger fish-and-ski model absent.",
+          "evidenceUrls": [
+            "https://www.loweboats.com/catalog-archive.html"
+          ]
+        },
+        {
+          "model": "FM 1625 WT",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current compact Fishing Machine walk-through absent.",
+          "evidenceUrls": [
+            "https://www.loweboats.com/"
+          ]
+        },
+        {
+          "model": "FM 1675 WT",
+          "years": "current/recent",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current/recent walk-through family absent.",
+          "evidenceUrls": [
+            "https://www.loweboats.com/fishing/deep-v/walk-through/fm-1675-wt.html"
+          ]
+        },
+        {
+          "model": "FM 1775 WT",
+          "years": "current/recent",
+          "confidence": "high",
+          "classification": "continuity-alias-review",
+          "reason": "BoatBuilder's Fishing Machine 1775 WT may be this family under an inconsistent name; reconcile rather than duplicate.",
+          "evidenceUrls": [
+            "https://www.loweboats.com/"
+          ]
+        },
+        {
+          "model": "FM 1800 WT",
+          "years": "2020-2025 era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Cataloged walk-through model absent.",
+          "evidenceUrls": [
+            "https://www.loweboats.com/catalog-archive.html"
+          ]
+        },
+        {
+          "model": "FM 1875 WT",
+          "years": "recent",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Larger Fishing Machine walk-through model absent.",
+          "evidenceUrls": [
+            "https://www.loweboats.com/catalog-archive.html"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Lund",
+      "status": "missing-models-found",
+      "candidateCount": 7,
+      "highConfidence": 7,
+      "mediumConfidence": 0,
+      "primaryCandidates": 2,
+      "notes": "Lund has broad historical coverage, but several current successor families are missing.",
+      "reviewedSources": [
+        "https://www.lundboats.com/build.html"
+      ],
+      "missingModels": [
+        {
+          "model": "Explorer 1700 Sport",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current full-windshield Explorer size is not represented by the older Explorer Sport 1725 row.",
+          "evidenceUrls": [
+            "https://www.lundboats.com/build.html"
+          ]
+        },
+        {
+          "model": "Explorer 1800 Sport",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current full-windshield Explorer 1800 absent.",
+          "evidenceUrls": [
+            "https://www.lundboats.com/build.html"
+          ]
+        },
+        {
+          "model": "Adventure 1775 Sport",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Official current walk-through model absent; app only has Adventure Sport 1675.",
+          "evidenceUrls": [
+            "https://www.lundboats.com/families/adventure/1775-adventure.html"
+          ]
+        },
+        {
+          "model": "Impact XS 1875 Sport",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current full-windshield Impact XS size absent.",
+          "evidenceUrls": [
+            "https://www.lundboats.com/build.html"
+          ]
+        },
+        {
+          "model": "Fisherman 1875 Sport",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current walk-through Fisherman absent; existing rows are older 1750/1800 generations.",
+          "evidenceUrls": [
+            "https://www.lundboats.com/families/fisherman/1875-fisherman.html"
+          ]
+        },
+        {
+          "model": "Pro-V 1875 Sport",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official full-windshield Pro-V absent.",
+          "evidenceUrls": [
+            "https://www.lundboats.com/families/pro-v/1875-pro-v.html"
+          ]
+        },
+        {
+          "model": "Impact GL 185 Sport",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current glass-console aluminum full-windshield family absent.",
+          "evidenceUrls": [
+            "https://www.lundboats.com/build.html"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "MirroCraft",
+      "status": "missing-models-found",
+      "candidateCount": 4,
+      "highConfidence": 4,
+      "mediumConfidence": 0,
+      "primaryCandidates": 1,
+      "notes": "Current 1773/1873 Pro MX coverage does not cover the separate Pro X or 1866 families.",
+      "reviewedSources": [
+        "https://www.mirrocraft.com/aggressor-16-pro-x-series.html",
+        "https://www.mirrocraft.com/aggressor-18-19-pro-x-series.html",
+        "https://www.mirrocraft.com/dual-impact-fish--ski-series.html"
+      ],
+      "missingModels": [
+        {
+          "model": "Aggressor 1663 Pro X",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Official 16-foot full-windshield model absent.",
+          "evidenceUrls": [
+            "https://www.mirrocraft.com/aggressor-16-pro-x-series.html"
+          ]
+        },
+        {
+          "model": "Aggressor 1863 Pro X",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official full-windshield Pro X model absent.",
+          "evidenceUrls": [
+            "https://www.mirrocraft.com/aggressor-18-19-pro-x-series.html"
+          ]
+        },
+        {
+          "model": "Aggressor 1963 Pro X",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official 19-foot full-windshield model absent.",
+          "evidenceUrls": [
+            "https://www.mirrocraft.com/aggressor-18-19-pro-x-series.html"
+          ]
+        },
+        {
+          "model": "Dual Impact 1866",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official Dual Impact full-windshield model absent; app only carries the 17-foot family.",
+          "evidenceUrls": [
+            "https://www.mirrocraft.com/dual-impact-fish--ski-series.html"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "MonArk",
+      "status": "missing-models-found",
+      "candidateCount": 2,
+      "highConfidence": 0,
+      "mediumConfidence": 2,
+      "primaryCandidates": 2,
+      "notes": "The prior audit only reconciled two records already present.",
+      "reviewedSources": [
+        "https://www.boatcovers.com/custom/monark-boat-covers"
+      ],
+      "missingModels": [
+        {
+          "model": "1650 Pro",
+          "years": "1993, 1995-1997",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Independent model/windshield roster identifies the family; verify deep-V geometry and walk-through center panel before adding.",
+          "evidenceUrls": [
+            "https://www.updplastics.com/windshieldsproducts/monark/"
+          ]
+        },
+        {
+          "model": "170 SE",
+          "years": "2000-era",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Roster evidence identifies a windshield-equipped 17-foot aluminum model absent from BoatBuilder; brochure verification remains necessary.",
+          "evidenceUrls": [
+            "https://www.updplastics.com/windshieldsproducts/monark/"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "North River",
+      "status": "missing-models-found",
+      "candidateCount": 5,
+      "highConfidence": 1,
+      "mediumConfidence": 4,
+      "primaryCandidates": 2,
+      "notes": "Only the Seahawk 18'6 is currently represented.",
+      "reviewedSources": [
+        "https://www.northriverboats.com/recreational/",
+        "https://www.northriverboats.com/offshore-voyager-spec-sheets/"
+      ],
+      "missingModels": [
+        {
+          "model": "Seahawk 20",
+          "years": "2005; 2013-2024",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official spec-sheet roster includes the 20-foot Seahawk with welded walk-through windshield.",
+          "evidenceUrls": [
+            "https://www.northriverboats.com/recreational/seahawk-ob/18-20-seahawk-outboard-options/"
+          ]
+        },
+        {
+          "model": "Bayhawk 17",
+          "years": "2009-era",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Independent exact-model roster identifies a 17-foot outboard; verify factory windshield/layout before adding.",
+          "evidenceUrls": [
+            "https://www.boatcoversdirect.com/products/boat_covers/NORTH_RIVER_297/"
+          ]
+        },
+        {
+          "model": "Mariner 17",
+          "years": "2006-era",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Independent exact-model roster identifies a 17-foot North River; verify jet/outboard configuration and windshield.",
+          "evidenceUrls": [
+            "https://www.boatcoversdirect.com/products/boat_covers/NORTH_RIVER_297/"
+          ]
+        },
+        {
+          "model": "Osprey 20",
+          "years": "2016-2024",
+          "confidence": "medium",
+          "classification": "secondary-screening",
+          "reason": "Official recreational family and independent year roster show the 20-foot model; confirm soft-top windshield configuration.",
+          "evidenceUrls": [
+            "https://www.northriverboats.com/recreational/",
+            "https://www.boatcoversdirect.com/products/boat_covers/NORTH_RIVER_297/"
+          ]
+        },
+        {
+          "model": "Scout 20",
+          "years": "2013-2024",
+          "confidence": "medium",
+          "classification": "secondary-screening",
+          "reason": "Official recreational family and independent roster show the 20-foot model; confirm exact windshield configuration.",
+          "evidenceUrls": [
+            "https://www.northriverboats.com/recreational/",
+            "https://www.boatcoversdirect.com/products/boat_covers/NORTH_RIVER_297/"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Northwood",
+      "status": "missing-models-found",
+      "candidateCount": 2,
+      "highConfidence": 1,
+      "mediumConfidence": 1,
+      "primaryCandidates": 2,
+      "notes": "Source coverage is thin; these are candidates, not proof of a complete Northwood roster.",
+      "reviewedSources": [
+        "https://rnr-marine.com/Northwood.shtml"
+      ],
+      "missingModels": [
+        {
+          "model": "172 Pro Tourney DC",
+          "years": "legacy",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Exact dual-console model is distinct from the existing 170 Pro Tourney umbrella row.",
+          "evidenceUrls": [
+            "https://rnr-marine.com/Northwood.shtml"
+          ]
+        },
+        {
+          "model": "1675 Fisherman / DLX SC with windshield",
+          "years": "legacy",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Windshield-equipped 16'9 family absent; verify whether the shield is full walk-through.",
+          "evidenceUrls": [
+            "https://rnr-marine.com/Northwood.shtml"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Polar Kraft",
+      "status": "missing-models-found",
+      "candidateCount": 4,
+      "highConfidence": 4,
+      "mediumConfidence": 0,
+      "primaryCandidates": 1,
+      "notes": "The earlier Polar audit covered four existing rows, not the full WT roster.",
+      "reviewedSources": [
+        "https://www.polarkraft.com/frontier-series",
+        "https://www.jdpower.com/boats/2024/polar-kraft-boats"
+      ],
+      "missingModels": [
+        {
+          "model": "Frontier 165 WT",
+          "years": "2023-2024",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Official Frontier roster includes a compact WT absent from BoatBuilder.",
+          "evidenceUrls": [
+            "https://www.polarkraft.com/frontier-series"
+          ]
+        },
+        {
+          "model": "Frontier 189 WT Jump",
+          "years": "2023-2024",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official Frontier roster includes a larger WT absent.",
+          "evidenceUrls": [
+            "https://www.polarkraft.com/frontier-series"
+          ]
+        },
+        {
+          "model": "Kodiak 185 Pro WT",
+          "years": "2024-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Annual manufacturer roster lists a Kodiak Pro WT distinct from the older Kodiak Sport rows.",
+          "evidenceUrls": [
+            "https://www.jdpower.com/boats/2024/polar-kraft-boats"
+          ]
+        },
+        {
+          "model": "Kodiak 200 Pro WT",
+          "years": "2024-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Annual roster lists a 20-foot Kodiak Pro WT absent.",
+          "evidenceUrls": [
+            "https://www.jdpower.com/boats/2024/polar-kraft-boats"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Princecraft",
+      "status": "missing-models-found",
+      "candidateCount": 7,
+      "highConfidence": 7,
+      "mediumConfidence": 0,
+      "primaryCandidates": 4,
+      "notes": "Princecraft's official annual technical-drawing rosters expose several absent WS families.",
+      "reviewedSources": [
+        "https://www.princecraft.com/us/en/Fishing-Boats/Technical-Drawings.aspx",
+        "https://2018.princecraft.com/ca/en/Fishing-Boats/Technical-Drawings.aspx"
+      ],
+      "missingModels": [
+        {
+          "model": "Hudson 166 WS",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current official technical drawings list a 16-foot walk-through model absent.",
+          "evidenceUrls": [
+            "https://www.princecraft.com/us/en/Fishing-Boats/Technical-Drawings.aspx"
+          ]
+        },
+        {
+          "model": "Hudson 170 WS",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current official page lists twin consoles and walk-through tempered glass.",
+          "evidenceUrls": [
+            "https://www.princecraft.com/us/en/products/Fishing-Boats/2026/Hudson-Series/Hudson-170-WS.aspx"
+          ]
+        },
+        {
+          "model": "Amarok 166 WS",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current official technical drawings list the walk-through model absent.",
+          "evidenceUrls": [
+            "https://www.princecraft.com/us/en/Fishing-Boats/Technical-Drawings.aspx"
+          ]
+        },
+        {
+          "model": "Holiday 162 WS MAX",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current successor/variant absent; reconcile against existing Holiday 162 WS.",
+          "evidenceUrls": [
+            "https://www.princecraft.com/us/en/Fishing-Boats/Technical-Drawings.aspx"
+          ]
+        },
+        {
+          "model": "Maska 180 DLX WS",
+          "years": "2018-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official 2018 roster lists a walk-through 18-foot family absent.",
+          "evidenceUrls": [
+            "https://2018.princecraft.com/ca/en/Fishing-Boats/Technical-Drawings.aspx"
+          ]
+        },
+        {
+          "model": "Hudson 190 DLX WS",
+          "years": "2018-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Official 2018 roster lists a 19-foot WT absent.",
+          "evidenceUrls": [
+            "https://2018.princecraft.com/ca/en/Fishing-Boats/Technical-Drawings.aspx"
+          ]
+        },
+        {
+          "model": "Sport 175 / 185 / 188 current naming",
+          "years": "current",
+          "confidence": "high",
+          "classification": "continuity-alias-review",
+          "reason": "Current Sport names no longer match existing Sport 167/172/187 rows; map redesign and rename boundaries before adding duplicates.",
+          "evidenceUrls": [
+            "https://www.princecraft.com/us/en/Fishing-Boats/Technical-Drawings.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Sea Nymph",
+      "status": "missing-models-found",
+      "candidateCount": 5,
+      "highConfidence": 3,
+      "mediumConfidence": 2,
+      "primaryCandidates": 4,
+      "notes": "Old Sea Nymph names are messy; exact capacity plates and photos remain essential.",
+      "reviewedSources": [
+        "https://www.boatcovers.com/custom/sea-nymph-boat-covers",
+        "https://www.updplastics.com/windshieldsproducts/seanymph/"
+      ],
+      "missingModels": [
+        {
+          "model": "SS165 Fish-Fun-Ski",
+          "years": "legacy",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Explicit 16-foot fish-and-ski family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sea-nymph-boat-covers"
+          ]
+        },
+        {
+          "model": "SS171 Ski Sport",
+          "years": "legacy",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Explicit 17-foot sport-ski windshield family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sea-nymph-boat-covers"
+          ]
+        },
+        {
+          "model": "Fishing Machine 161 / FM161",
+          "years": "1994-1997",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Windshield roster identifies the family; reconcile against existing FM161 generic row and exact walk-through layout.",
+          "evidenceUrls": [
+            "https://www.updplastics.com/windshieldsproducts/seanymph/"
+          ]
+        },
+        {
+          "model": "Fishing Machine 170",
+          "years": "1997-era",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Windshield roster identifies a 17-foot Fishing Machine absent as an exact row.",
+          "evidenceUrls": [
+            "https://www.updplastics.com/windshieldsproducts/seanymph/"
+          ]
+        },
+        {
+          "model": "SS191 Ski Sport",
+          "years": "legacy",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Explicit 19-foot ski-sport family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sea-nymph-boat-covers"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Smoker Craft",
+      "status": "missing-models-found",
+      "candidateCount": 7,
+      "highConfidence": 5,
+      "mediumConfidence": 2,
+      "primaryCandidates": 4,
+      "notes": "The earlier 18-row audit still missed whole Adventurer and Explorer families.",
+      "reviewedSources": [
+        "https://www.smokercraft.com/series/",
+        "https://www.smokercraft.com/resources/legacy-catalogs/"
+      ],
+      "missingModels": [
+        {
+          "model": "Adventurer 178 DC / DC Pro",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current official 17'11 dual-console family is entirely absent.",
+          "evidenceUrls": [
+            "https://www.smokercraft.com/series/adventurer/"
+          ]
+        },
+        {
+          "model": "Adventurer 188 DC / DC Pro",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current official 18'11 dual-console family absent.",
+          "evidenceUrls": [
+            "https://www.smokercraft.com/series/adventurer/"
+          ]
+        },
+        {
+          "model": "Explorer 172",
+          "years": "2018-2019 era",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Factory catalog lists a walk-through Explorer 172 absent.",
+          "evidenceUrls": [
+            "https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf"
+          ]
+        },
+        {
+          "model": "Explorer 182",
+          "years": "2018-2019 era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Factory catalog lists a walk-through Explorer 182 absent.",
+          "evidenceUrls": [
+            "https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf"
+          ]
+        },
+        {
+          "model": "Explorer 190 FS",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current official Explorer family absent.",
+          "evidenceUrls": [
+            "https://www.smokercraft.com/series/explorer/"
+          ]
+        },
+        {
+          "model": "Pro Angler 162 / 162 XL",
+          "years": "legacy",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Legacy resource rosters show 162-size Pro Anglers; verify which years had a factory walk-through rather than a side console.",
+          "evidenceUrls": [
+            "https://www.smokercraft.com/resources/legacy-catalogs/"
+          ]
+        },
+        {
+          "model": "Pro Angler XL 171",
+          "years": "legacy",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Legacy roster evidence indicates a 171 XL family missing between older and 172 naming.",
+          "evidenceUrls": [
+            "https://www.smokercraft.com/resources/legacy-catalogs/"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Spectrum / Blue Fin",
+      "status": "missing-models-found",
+      "candidateCount": 4,
+      "highConfidence": 1,
+      "mediumConfidence": 3,
+      "primaryCandidates": 2,
+      "notes": "The existing 1906 row represents only one small slice of Spectrum's relevant lineup.",
+      "reviewedSources": [
+        "https://www.boatcovers.com/custom/spectrum-boat-covers"
+      ],
+      "missingModels": [
+        {
+          "model": "Pro Avenger 17 DC",
+          "years": "1995-1997",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Explicit dual-console 17-foot family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/spectrum-boat-covers"
+          ]
+        },
+        {
+          "model": "Sport 18 / Sport SD",
+          "years": "1994-1997",
+          "confidence": "medium",
+          "classification": "secondary-screening",
+          "reason": "18-foot sport family absent; verify exact windshield center opening and outboard configuration.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/spectrum-boat-covers"
+          ]
+        },
+        {
+          "model": "1706",
+          "years": "1990-1993",
+          "confidence": "medium",
+          "classification": "primary-candidate",
+          "reason": "Roster lists a 17-foot numbered family alongside 1906; exact layout must be verified.",
+          "evidenceUrls": [
+            "https://www.boatcoversdirect.com/products/boat_covers/SPECTRUM_414/"
+          ]
+        },
+        {
+          "model": "19 Pro Avenger",
+          "years": "1995-1997",
+          "confidence": "medium",
+          "classification": "secondary-screening",
+          "reason": "19-foot Pro Avenger family absent; verify DC/SD configuration.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/spectrum-boat-covers"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Starcraft",
+      "status": "missing-models-found",
+      "candidateCount": 4,
+      "highConfidence": 4,
+      "mediumConfidence": 0,
+      "primaryCandidates": 3,
+      "notes": "The app is strong on legacy Starcraft names but misses the current Storm and Delta families.",
+      "reviewedSources": [
+        "https://builder.starcraftmarine.com/browse/Starcraft/Fishing"
+      ],
+      "missingModels": [
+        {
+          "model": "Storm 16 DC / 16 DC Pro",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current official 16-foot dual-console family absent.",
+          "evidenceUrls": [
+            "https://starcraftmarine.com/series/storm/"
+          ]
+        },
+        {
+          "model": "Storm 17 DC / 17 DC Pro",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current official 17'8 dual-console family absent.",
+          "evidenceUrls": [
+            "https://starcraftmarine.com/series/storm/"
+          ]
+        },
+        {
+          "model": "Delta 178 DC / DC Pro",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current official 17'11 dual-console family absent.",
+          "evidenceUrls": [
+            "https://starcraftmarine.com/series/delta/"
+          ]
+        },
+        {
+          "model": "Delta 188 DC / DC Pro",
+          "years": "current",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Current official 18'8 dual-console family absent.",
+          "evidenceUrls": [
+            "https://starcraftmarine.com/series/delta/"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Starweld",
+      "status": "missing-models-found",
+      "candidateCount": 6,
+      "highConfidence": 6,
+      "mediumConfidence": 0,
+      "primaryCandidates": 3,
+      "notes": "The three existing Starweld rows do not cover current SXT/SXF families.",
+      "reviewedSources": [
+        "https://starcraftstarweld.com/series-category/model-lineup/",
+        "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/Starweld_2024_Catalog.pdf"
+      ],
+      "missingModels": [
+        {
+          "model": "SXT 16",
+          "years": "current/recent",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "SXT series includes a compact windshield model absent.",
+          "evidenceUrls": [
+            "https://starcraftstarweld.com/series-category/model-lineup/"
+          ]
+        },
+        {
+          "model": "SXT 17",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Official model and dealer evidence identify a 17'4 walk-through model absent.",
+          "evidenceUrls": [
+            "https://starcraftstarweld.com/model/17-sxt/"
+          ]
+        },
+        {
+          "model": "SXT 18",
+          "years": "recent",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "SXT roster includes an 18-foot walk-through model absent.",
+          "evidenceUrls": [
+            "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/Starweld_2024_Catalog.pdf"
+          ]
+        },
+        {
+          "model": "SXT 19",
+          "years": "recent",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "SXT roster includes a 19-foot walk-through model absent.",
+          "evidenceUrls": [
+            "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/catalogs/Starweld_2024_Catalog.pdf"
+          ]
+        },
+        {
+          "model": "SXF 17 windshield configuration",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current SXF family offers windshield models and a 17-foot hull absent.",
+          "evidenceUrls": [
+            "https://starcraftstarweld.com/series/sxf/"
+          ]
+        },
+        {
+          "model": "Fusion 16 DC generation",
+          "years": "2019-current family",
+          "confidence": "high",
+          "classification": "continuity-alias-review",
+          "reason": "Existing Fusion 16 DC record lacks clear continuity with the documented full walk-through DC Pro/current generation.",
+          "evidenceUrls": [
+            "https://starcraftstarweld.com/sites/starcraftstarweld.com/files/2019-starweld-fishing.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Sylvan",
+      "status": "missing-models-found",
+      "candidateCount": 8,
+      "highConfidence": 8,
+      "mediumConfidence": 0,
+      "primaryCandidates": 6,
+      "notes": "Sylvan is discontinued as a fishing-boat line, so archive and exact-model rosters are the appropriate evidence base.",
+      "reviewedSources": [
+        "https://sylvanmarine.com/resources/legacy-catalogs/",
+        "https://www.boatcovers.com/custom/sylvan-boat-covers"
+      ],
+      "missingModels": [
+        {
+          "model": "1700 Avenger DC",
+          "years": "2004-2005",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Legacy exact-model roster lists a 17-foot dual-console family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sylvan-boat-covers"
+          ]
+        },
+        {
+          "model": "1700 Excursion DC",
+          "years": "2001-2002",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Legacy exact-model roster lists the family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sylvan-boat-covers"
+          ]
+        },
+        {
+          "model": "1700 Navigator DC",
+          "years": "2000-2004",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Legacy exact-model roster lists the family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sylvan-boat-covers"
+          ]
+        },
+        {
+          "model": "1700 Blue Fish DC",
+          "years": "1998-1999",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Annual roster lists a 17-foot dual-console aluminum model absent.",
+          "evidenceUrls": [
+            "https://www.jdpower.com/boats/1998/sylvan-ind"
+          ]
+        },
+        {
+          "model": "17 Pro Fisherman DC",
+          "years": "1989-1991",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Legacy roster lists a 17-foot dual-console family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sylvan-boat-covers"
+          ]
+        },
+        {
+          "model": "17 Eliminator DC",
+          "years": "1989-1991",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Legacy roster lists a 17-foot dual-console family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sylvan-boat-covers"
+          ]
+        },
+        {
+          "model": "1800 Eliminator DC",
+          "years": "1998-1999",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Annual roster lists an 18-foot dual-console aluminum model absent.",
+          "evidenceUrls": [
+            "https://www.jdpower.com/boats/1998/sylvan-ind"
+          ]
+        },
+        {
+          "model": "18 Pro Fisherman DC",
+          "years": "1989-1991",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Legacy roster lists an 18-foot dual-console family absent.",
+          "evidenceUrls": [
+            "https://www.boatcovers.com/custom/sylvan-boat-covers"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Tracker",
+      "status": "missing-models-found",
+      "candidateCount": 4,
+      "highConfidence": 4,
+      "mediumConfidence": 0,
+      "primaryCandidates": 3,
+      "notes": "The current compact Pro Guide family is underrepresented.",
+      "reviewedSources": [
+        "https://www.trackerboats.com/deep-v.html",
+        "https://www.trackerboats.com/deep-v/previous.html"
+      ],
+      "missingModels": [
+        {
+          "model": "Pro Guide V-16 WT",
+          "years": "2019-current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current factory deep-V roster lists the compact WT absent.",
+          "evidenceUrls": [
+            "https://www.trackerboats.com/deep-v.html"
+          ]
+        },
+        {
+          "model": "Pro Guide V-165 WT",
+          "years": "2019-era",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Factory previous-model roster lists a distinct 16'9 WT absent.",
+          "evidenceUrls": [
+            "https://www.trackerboats.com/deep-v/previous.html"
+          ]
+        },
+        {
+          "model": "Pro Guide V-175 Combo",
+          "years": "current",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Current factory fish-and-family dual-console model absent.",
+          "evidenceUrls": [
+            "https://www.trackerboats.com/deep-v.html"
+          ]
+        },
+        {
+          "model": "Targa V-18 WT current generation",
+          "years": "2021-current",
+          "confidence": "high",
+          "classification": "continuity-alias-review",
+          "reason": "BoatBuilder has a Targa V-18 WT row, but current-generation continuity and redesign boundaries are not encoded.",
+          "evidenceUrls": [
+            "https://www.trackerboats.com/deep-v.html"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Triton",
+      "status": "missing-models-found",
+      "candidateCount": 4,
+      "highConfidence": 4,
+      "mediumConfidence": 0,
+      "primaryCandidates": 1,
+      "notes": "The existing two Magnum rows are not a complete Triton deep-V/fish-and-ski roster.",
+      "reviewedSources": [
+        "https://www.boatingworld.com/boats/triton-boats"
+      ],
+      "missingModels": [
+        {
+          "model": "176 DV Sport",
+          "years": "2007-era",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Annual model roster lists a 17-foot DV Sport absent alongside the existing DV176 Magnum.",
+          "evidenceUrls": [
+            "https://www.boatingworld.com/boats/triton-boats"
+          ]
+        },
+        {
+          "model": "186 DV Freedom",
+          "years": "2007-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Annual roster lists a distinct 18-foot fish-and-sport DV family absent.",
+          "evidenceUrls": [
+            "https://www.boatingworld.com/boats/triton-boats"
+          ]
+        },
+        {
+          "model": "186 DV Liberty",
+          "years": "2007-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Annual roster lists a distinct 18-foot DV family absent.",
+          "evidenceUrls": [
+            "https://www.boatingworld.com/boats/triton-boats"
+          ]
+        },
+        {
+          "model": "190 FS",
+          "years": "2007-era",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Annual roster lists a 19-foot fish-and-ski model absent.",
+          "evidenceUrls": [
+            "https://www.boatingworld.com/boats/triton-boats"
+          ]
+        }
+      ]
+    },
+    {
+      "manufacturer": "Ultracraft (Misty Harbor)",
+      "status": "missing-models-found",
+      "candidateCount": 2,
+      "highConfidence": 2,
+      "mediumConfidence": 0,
+      "primaryCandidates": 1,
+      "notes": "The 169W/178W correction fixed continuity but did not make the relevant Ultracraft roster complete.",
+      "reviewedSources": [
+        "https://www.boats.za.net/ultracraft",
+        "https://www.boatcovers.com/custom/ultracraft-boat-covers"
+      ],
+      "missingModels": [
+        {
+          "model": "Trophy 166W",
+          "years": "2006-2012",
+          "confidence": "high",
+          "classification": "primary-candidate",
+          "reason": "Annual model rosters list a 16-foot windshield family absent from the corrected 169W/178W audit.",
+          "evidenceUrls": [
+            "https://www.boats.za.net/ultracraft"
+          ]
+        },
+        {
+          "model": "Stealth 189FS / 189FS",
+          "years": "2008-2012",
+          "confidence": "high",
+          "classification": "secondary-screening",
+          "reason": "Annual model rosters list a larger fish-and-sport family absent.",
+          "evidenceUrls": [
+            "https://www.boats.za.net/ultracraft"
+          ]
+        }
+      ]
+    }
+  ]
+}

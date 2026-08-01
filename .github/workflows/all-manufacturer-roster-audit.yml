@@ -1,0 +1,46 @@
+name: Audit all manufacturer rosters
+
+on:
+  push:
+    branches:
+      - audit/all-manufacturer-rosters
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run all-manufacturer missing-model audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports research
+          : > reports/all-manufacturer-roster-audit-ci.log
+          node scripts/report-all-manufacturer-roster-baseline.mjs | tee -a reports/all-manufacturer-roster-audit-ci.log
+          node scripts/write-all-manufacturer-roster-gaps.mjs | tee -a reports/all-manufacturer-roster-audit-ci.log
+          node scripts/report-all-manufacturer-roster-gaps.mjs | tee -a reports/all-manufacturer-roster-audit-ci.log
+          node tests/all-manufacturer-roster-gaps-qa.mjs | tee -a reports/all-manufacturer-roster-audit-ci.log
+          node tests/qa.mjs | tee -a reports/all-manufacturer-roster-audit-ci.log
+          echo "all_manufacturer_roster_audit_status=passed" | tee -a reports/all-manufacturer-roster-audit-ci.log
+      - name: Commit verified audit reports
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/all-manufacturer-roster-gaps.json \
+            reports/all-manufacturer-roster-baseline.json \
+            reports/all-manufacturer-roster-baseline.md \
+            reports/all-manufacturer-roster-gaps.json \
+            reports/all-manufacturer-roster-gaps.md \
+            reports/all-manufacturer-roster-audit-ci.log
+          if ! git diff --cached --quiet; then
+            git commit -m "Capture verified all-manufacturer roster audit"
+            git push
+          fi
