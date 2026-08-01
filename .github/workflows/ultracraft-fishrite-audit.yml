@@ -1,0 +1,30 @@
+name: Audit Ultracraft and Fish-Rite
+
+on:
+  push:
+    branches:
+      - audit/ultracraft
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate current snapshot
+        run: node scripts/report-ultracraft-fishrite-current.mjs
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/ultracraft-fishrite-current.json reports/ultracraft-fishrite-current.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Capture Ultracraft and Fish-Rite audit snapshot"
+            git push
+          fi
