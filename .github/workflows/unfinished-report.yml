@@ -33,6 +33,7 @@ jobs:
           qa_patch_status=99
           catalog_status=99
           smoker_status=99
+          semantic_status=99
           report_status=99
           if [ "$repair_status" -eq 0 ]; then
             node scripts/patch-smoker-craft-qa.mjs >> reports/smoker-craft-ci.log 2>&1
@@ -47,6 +48,10 @@ jobs:
             smoker_status=$?
           fi
           if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$smoker_status" -eq 0 ]; then
+            node tests/smoker-craft-semantic-diff-qa.mjs >> reports/smoker-craft-ci.log 2>&1
+            semantic_status=$?
+          fi
+          if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$smoker_status" -eq 0 ] && [ "$semantic_status" -eq 0 ]; then
             node scripts/report-unfinished.mjs >> reports/smoker-craft-ci.log 2>&1
             report_status=$?
           fi
@@ -56,10 +61,11 @@ jobs:
             echo "qa_patch_status=$qa_patch_status"
             echo "catalog_status=$catalog_status"
             echo "smoker_status=$smoker_status"
+            echo "semantic_status=$semantic_status"
             echo "report_status=$report_status"
           } >> reports/smoker-craft-ci.log
 
-          if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$smoker_status" -eq 0 ] && [ "$report_status" -eq 0 ]; then
+          if [ "$repair_status" -eq 0 ] && [ "$qa_patch_status" -eq 0 ] && [ "$catalog_status" -eq 0 ] && [ "$smoker_status" -eq 0 ] && [ "$semantic_status" -eq 0 ] && [ "$report_status" -eq 0 ]; then
             echo "success=true" >> "$GITHUB_OUTPUT"
           else
             echo "success=false" >> "$GITHUB_OUTPUT"
