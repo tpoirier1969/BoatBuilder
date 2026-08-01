@@ -6,11 +6,11 @@
     "manufacturer": "Fisher",
     "model": "Hawk 170 FS",
     "displayName": "Fisher | Hawk 170 FS",
-    "subtitle": "2020 exact cited specification; other advertised years unresolved",
+    "subtitle": "1997-2002 documented production; 2000 redesign and later weight changes separated",
     "badge": "Primary",
     "lowPrice": 3000,
-    "highPrice": 7000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "highPrice": 9500,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Confirm the model year and capacity plate before applying a range.",
     "sourceUrl": "https://www.boats.com/bird-of-prey/",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
@@ -21,7 +21,7 @@
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2020 exact cited specification; other advertised years unresolved"
+        "value": "1997-2002 documented outboard production; 1997-1999, 2000 and 2001-2002 evidence generations separated"
       },
       {
         "label": "Recommendation",
@@ -113,7 +113,7 @@
       },
       {
         "label": "Notes",
-        "value": "Fisher's welded Hawk FS line combined fishing space with family seating. Brand support is legacy-only; inspect welds, flotation, transom and floor."
+        "value": "The old 2020 row was a transcription error for a 2000 on-water test. The 1997-1999 hull is listed at 995 lb, while the redesigned 2000 boat is 1,300 lb and the 2001-2002 rosters rise to 1,400-1,450 lb. Do not blend them. The 2000 test also warns that four-person cockpit fishing is cramped; two is excellent and three is workable."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -129,79 +129,110 @@
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual 1997-2002 rosters, exact-fit 1997-1999 canvas evidence and the detailed 2000 on-water test were reconciled. No unresolved catch-all row remains."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Fisher | Hawk 170 FS:gen:2020",
-        "label": "2020 cited specification snapshot",
-        "startYear": 2020,
-        "endYear": 2020,
-        "status": "cited-snapshot",
-        "specificationBasis": "2020 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "id": "boat:Fisher | Hawk 170 FS:gen:1997-1999",
+        "label": "1997-1999 early Hawk 170 FS generation",
+        "startYear": 1997,
+        "endYear": 1999,
+        "status": "annual-roster-generation",
+        "specificationBasis": "Annual Fisher rosters consistently list the Hawk 170 FS at 995 lb for 1997-1999, and exact-fit canvas records establish the three-year full-windshield identity. Complete certification-table dimensions were not recovered for this early hull.",
+        "sourceUrl": "https://www.jdpower.com/boats/1997/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "17-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "995 lb",
+            "confidence": "annual-roster"
+          },
+          "Layout": {
+            "value": "Full walk-through windshield / fish-and-ski",
+            "confidence": "exact-fit-canvas-evidence"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate; factory packages ranged from 60 to 115 hp",
+            "confidence": "annual-roster-package-evidence"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 170 FS:value:1997-1999",
+            "label": "1997-1999",
+            "startYear": 1997,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1998/fisher-boats",
+          "https://www.jdpower.com/boats/1999/fisher-boats",
+          "https://rnr-marine.com/auto/Fisher_Hawk-170-FS%2C-OB_%281997-1999%29.shtml"
+        ]
+      },
+      {
+        "id": "boat:Fisher | Hawk 170 FS:gen:2000",
+        "label": "2000 redesigned Hawk 170 FS on-water test",
+        "startYear": 2000,
+        "endYear": 2000,
+        "status": "cited-exact-test",
+        "specificationBasis": "The detailed 2000 test publishes the redesigned hull, rigged and trailered weights, construction, ratings and capacities. It is not a 2020 boat.",
         "sourceUrl": "https://www.boats.com/bird-of-prey/",
         "specs": {
           "Length": {
-            "value": "17'0\"",
+            "value": "17'8\"",
             "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "About 95\"",
-            "confidence": "catalog-representative"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "92.75\"",
+            "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
-            "value": "About 1,250 lb",
-            "confidence": "catalog-representative"
+            "value": "1,300 lb",
+            "confidence": "cited-source-exact"
           },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Rigged Test Weight": {
+            "value": "1,688 lb",
+            "confidence": "cited-source-exact"
           },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Trailered Test Weight": {
+            "value": "2,328 lb",
+            "confidence": "cited-source-exact"
           },
           "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "17°",
+            "confidence": "cited-source-exact"
           },
           "Max HP": {
-            "value": "115",
+            "value": "125",
             "confidence": "cited-source-exact"
           },
-          "Persons": {
-            "value": "6",
+          "Persons / Capacity": {
+            "value": "6 persons / 1,300 lb",
             "confidence": "cited-source-exact"
-          },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
           },
           "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "30 gal",
+            "confidence": "cited-source-exact"
           },
           "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "0.100\" welded aluminum",
+            "confidence": "cited-source-exact"
           },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Floor": {
+            "value": "Aluminum floor",
+            "confidence": "cited-source-exact"
           },
           "Construction": {
             "value": "All-welded aluminum deep-V",
@@ -210,35 +241,72 @@
         },
         "eras": [
           {
-            "id": "boat:Fisher | Hawk 170 FS:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 3000,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Fisher | Hawk 170 FS:value:2000s",
-            "label": "2000s",
+            "id": "boat:Fisher | Hawk 170 FS:value:2000",
+            "label": "2000",
             "startYear": 2000,
-            "endYear": 2009,
-            "low": 4000,
-            "high": 7000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "endYear": 2000,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           }
-        ]
+        ],
+        "evidenceUrls": []
       },
       {
-        "id": "boat:Fisher | Hawk 170 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
-        "sourceUrl": "https://www.boats.com/bird-of-prey/",
-        "specs": {},
-        "eras": []
+        "id": "boat:Fisher | Hawk 170 FS:gen:2001-2002",
+        "label": "2001-2002 later published-weight generation",
+        "startYear": 2001,
+        "endYear": 2002,
+        "status": "annual-roster-generation-with-weight-conflict",
+        "specificationBasis": "The Hawk 170 FS remains in the 2001-2002 line, but published dry weight rises to 1,400 lb in 2001 and 1,450 lb in the 2002 annual roster. A secondary 2002 specification source reports about 1,400 lb, so the conflict is retained rather than averaged away.",
+        "sourceUrl": "https://www.jdpower.com/boats/2002/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "17'8\" reported for 2002; verify HIN",
+            "confidence": "secondary-spec-source"
+          },
+          "Beam": {
+            "value": "About 93\" reported for 2002",
+            "confidence": "secondary-spec-source"
+          },
+          "Dry Hull Weight": {
+            "value": "1,400 lb (2001 roster); 1,450 lb (2002 roster), with about 1,400 lb in a secondary 2002 spec source",
+            "confidence": "cited-weight-conflict"
+          },
+          "Layout": {
+            "value": "Full walk-through windshield / fish-and-ski",
+            "confidence": "model-identity-verified"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 170 FS:value:2001",
+            "label": "2001",
+            "startYear": 2001,
+            "endYear": 2001,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          },
+          {
+            "id": "boat:Fisher | Hawk 170 FS:value:2002",
+            "label": "2002",
+            "startYear": 2002,
+            "endYear": 2002,
+            "low": 5500,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2001/fisher-boats",
+          "https://www.jdpower.com/boats/2002/fisher-boats/hawk-170-fs_/10068980/values",
+          "https://www.boats.za.net/boat-specs.aspx?boat=Fisher-Hawk-170-FS-2002&bt=43855"
+        ]
       }
     ],
     "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
@@ -250,12 +318,12 @@
     "manufacturer": "Fisher",
     "model": "Hawk 186 FS",
     "displayName": "Fisher | Hawk 186 FS",
-    "subtitle": "2001 exact cited specification; other advertised years unresolved",
+    "subtitle": "2001-2002 documented outboard production; I/O variant excluded",
     "badge": "Primary",
-    "lowPrice": 3000,
-    "highPrice": 8500,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+    "lowPrice": 5500,
+    "highPrice": 10000,
+    "priceBasis": "Generation-contained estimate for the outboard Hawk 186 FS. The 1,535-lb sterndrive version is a different package and is not included.",
+    "sourceUrl": "https://www.jdpower.com/boats/2002/fisher-boats",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
       "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
@@ -265,7 +333,7 @@
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2001 exact cited specification; other advertised years unresolved"
+        "value": "2001-2002 documented Hawk 186 FS outboard production"
       },
       {
         "label": "Recommendation",
@@ -357,7 +425,7 @@
       },
       {
         "label": "Notes",
-        "value": "Fisher's welded Hawk FS line combined fishing space with family seating. Brand support is legacy-only; inspect welds, flotation, transom and floor."
+        "value": "The outboard Hawk 186 FS is a short-lived 18'6-inch model at about 1,430 lb bare hull. Fisher also sold an I/O version around 1,535 lb; do not use the I/O weight or drivetrain when evaluating an outboard listing. This is capable but already beyond the project's preferred 17'6-inch size."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -373,116 +441,79 @@
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "The 2001 and 2002 annual rosters plus exact-model secondary dimensions were reconciled. The outboard and I/O variants are explicitly separated, and no unresolved catch-all row remains."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Fisher | Hawk 186 FS:gen:2001",
-        "label": "2001 cited specification snapshot",
+        "id": "boat:Fisher | Hawk 186 FS:gen:2001-2002-outboard",
+        "label": "2001-2002 Hawk 186 FS outboard generation",
         "startYear": 2001,
-        "endYear": 2001,
-        "status": "cited-snapshot",
-        "specificationBasis": "2001 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+        "endYear": 2002,
+        "status": "cited-outboard-generation",
+        "specificationBasis": "Annual rosters list the outboard Hawk 186 FS at 1,430 lb in both 2001 and 2002. Exact-model secondary data supplies the 18'6-inch length, 93-inch beam, 37-gallon fuel capacity and six-person rating. The separate I/O package is excluded.",
+        "sourceUrl": "https://www.jdpower.com/boats/2002/fisher-boats",
         "specs": {
           "Length": {
             "value": "18'6\"",
-            "confidence": "cited-source-exact"
+            "confidence": "secondary-spec-source"
           },
           "Beam": {
-            "value": "About 96\"",
-            "confidence": "catalog-representative"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "93\"",
+            "confidence": "secondary-spec-source"
           },
           "Dry Hull Weight": {
-            "value": "About 1,500 lb",
-            "confidence": "catalog-representative"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,430 lb outboard; 1,535 lb I/O variant excluded",
+            "confidence": "annual-roster"
           },
           "Max HP": {
-            "value": "150",
-            "confidence": "cited-source-exact"
+            "value": "Up to 175 reported; verify capacity plate",
+            "confidence": "secondary-spec-source"
           },
           "Persons": {
-            "value": "7",
-            "confidence": "cited-source-exact"
-          },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "6",
+            "confidence": "secondary-spec-source"
           },
           "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "37 gal",
+            "confidence": "secondary-spec-source"
           },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Layout": {
+            "value": "Full walk-through windshield / fish-and-ski",
+            "confidence": "model-identity-verified"
           },
           "Construction": {
             "value": "All-welded aluminum deep-V",
-            "confidence": "cited-source-exact"
+            "confidence": "manufacturer-family-verified"
           }
         },
         "eras": [
           {
-            "id": "boat:Fisher | Hawk 186 FS:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 3000,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Fisher | Hawk 186 FS:value:2001",
+            "label": "2001",
+            "startYear": 2001,
+            "endYear": 2001,
+            "low": 5500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           },
           {
-            "id": "boat:Fisher | Hawk 186 FS:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 5000,
-            "high": 8500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Fisher | Hawk 186 FS:value:2002",
+            "label": "2002",
+            "startYear": 2002,
+            "endYear": 2002,
+            "low": 6000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2001/fisher-boats",
+          "https://www.jdpower.com/boats/2001/fisher-boats/hawk-186-fs___/10069046/specs",
+          "https://www.boats.za.net/boat-specs.aspx?boat=Fisher-Hawk-186-FS-2002&bt=10834",
+          "https://www.boats.za.net/fisher/hawk-186-fs-i-o"
         ]
-      },
-      {
-        "id": "boat:Fisher | Hawk 186 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
-        "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
-        "specs": {},
-        "eras": []
       }
     ],
     "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
@@ -494,12 +525,12 @@
     "manufacturer": "Fisher",
     "model": "Hawk 200 FS",
     "displayName": "Fisher | Hawk 200 FS",
-    "subtitle": "2001 exact cited specification; other advertised years unresolved",
+    "subtitle": "1997-2001 documented production; early narrow and later wide hulls separated",
     "badge": "Secondary",
-    "lowPrice": 3000,
+    "lowPrice": 4500,
     "highPrice": 10000,
-    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
-    "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+    "priceBasis": "Generation-contained used package estimates. This 20-foot platform is generally outside the preferred size and comfortable tow margin.",
+    "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
     "image": {
       "url": "https://boats-from-usa.com/sites/default/files/styles/large/public/boats/2020-02/27/240656/fisher-hawk-186-fish-and-ski-2845547.jpg?itok=WOAhmIx5",
       "source": "https://boats-from-usa.com/fisher/fisher-hawk-186-fish-and-ski-240656",
@@ -509,7 +540,7 @@
     "details": [
       {
         "label": "Model Years / Era",
-        "value": "2001 exact cited specification; other advertised years unresolved"
+        "value": "1997-2001 documented production; 1997-1998, 1999 and 2000-2001 evidence rows separated"
       },
       {
         "label": "Recommendation",
@@ -601,7 +632,7 @@
       },
       {
         "label": "Notes",
-        "value": "Fisher's welded Hawk FS line combined fishing space with family seating. Brand support is legacy-only; inspect welds, flotation, transom and floor."
+        "value": "The early 1997-1998 Hawk 200 FS is a narrower 19'6-inch, 88-inch-beam hull around 1,245 lb. Published weight jumps to 1,560 lb in 1999, and the 2000-2001 version is 19'8 inches with a 98-inch beam at 1,550-1,580 lb. This is not one unchanging five-year hull. It remains Secondary because a fully rigged package can consume most of the Maverick's tow rating."
       },
       {
         "label": "Interior Finish / Deck Material",
@@ -617,116 +648,168 @@
       },
       {
         "label": "Research Status",
-        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+        "value": "Annual 1997-2001 rosters, period boats.com specifications and exact-model 2000-2001 secondary dimensions were reconciled. No 2002 Hawk 200 FS appears in the retained roster, and no unresolved catch-all row remains."
       }
     ],
     "valueEras": [],
     "designGenerations": [
       {
-        "id": "boat:Fisher | Hawk 200 FS:gen:2001",
-        "label": "2001 cited specification snapshot",
-        "startYear": 2001,
-        "endYear": 2001,
-        "status": "cited-snapshot",
-        "specificationBasis": "2001 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
-        "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
+        "id": "boat:Fisher | Hawk 200 FS:gen:1997-1998",
+        "label": "1997-1998 early narrow Hawk 200 FS",
+        "startYear": 1997,
+        "endYear": 1998,
+        "status": "period-spec-generation",
+        "specificationBasis": "Period boats.com coverage publishes the early 19'6-inch, 7'4-inch-beam, 150-hp configuration. Annual rosters list a 1,245-lb hull for both 1997 and 1998.",
+        "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
         "specs": {
           "Length": {
-            "value": "About 20'0\"",
-            "confidence": "catalog-representative"
+            "value": "19'6\"",
+            "confidence": "cited-source-exact"
           },
           "Beam": {
-            "value": "About 96\"",
-            "confidence": "catalog-representative"
-          },
-          "Chine / Bottom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "88\"",
+            "confidence": "cited-source-exact"
           },
           "Dry Hull Weight": {
-            "value": "About 1,800 lb",
-            "confidence": "catalog-representative"
-          },
-          "Max / Bow Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Cockpit / Interior Depth": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Deadrise": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Height": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Transom Width": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,245 lb",
+            "confidence": "annual-roster"
           },
           "Max HP": {
-            "value": "200",
+            "value": "150",
             "confidence": "cited-source-exact"
           },
-          "Persons": {
-            "value": "8",
-            "confidence": "cited-source-exact"
-          },
-          "Capacity Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Fuel Capacity": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Bottom Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
-          },
-          "Side / Freeboard Thickness": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+          "Layout": {
+            "value": "Full walk-through windshield / fish-and-ski",
+            "confidence": "period-model-description"
           },
           "Construction": {
             "value": "All-welded aluminum deep-V",
-            "confidence": "cited-source-exact"
+            "confidence": "manufacturer-family-verified"
           }
         },
         "eras": [
           {
-            "id": "boat:Fisher | Hawk 200 FS:value:1990s",
-            "label": "1990s",
-            "startYear": 1990,
-            "endYear": 1999,
-            "low": 3000,
-            "high": 5500,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
-          },
-          {
-            "id": "boat:Fisher | Hawk 200 FS:value:2000s",
-            "label": "2000s",
-            "startYear": 2000,
-            "endYear": 2009,
-            "low": 6000,
-            "high": 10000,
-            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+            "id": "boat:Fisher | Hawk 200 FS:value:1997-1998",
+            "label": "1997-1998",
+            "startYear": 1997,
+            "endYear": 1998,
+            "low": 4500,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1997/fisher-boats",
+          "https://www.jdpower.com/boats/1998/fisher-boats"
         ]
       },
       {
-        "id": "boat:Fisher | Hawk 200 FS:gen:unresolved",
-        "label": "Other advertised years — specifications and pricing unresolved",
-        "startYear": 1990,
-        "endYear": 2009,
-        "status": "unresolved",
-        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 1990s–2000s; 2000–2002 representative",
-        "sourceUrl": "https://www.jdpower.com/boats/2001/fisher-boats",
-        "specs": {},
-        "eras": []
+        "id": "boat:Fisher | Hawk 200 FS:gen:1999",
+        "label": "1999 heavier transitional Hawk 200 FS",
+        "startYear": 1999,
+        "endYear": 1999,
+        "status": "annual-roster-partial",
+        "specificationBasis": "The 1999 annual roster raises published dry weight to 1,560 lb. Complete dimensions for that exact year were not recovered, so neither the earlier 88-inch beam nor the later 98-inch beam is silently inherited.",
+        "sourceUrl": "https://www.jdpower.com/boats/1999/fisher-boats",
+        "specs": {
+          "Length": {
+            "value": "20-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,560 lb",
+            "confidence": "annual-roster"
+          },
+          "Layout": {
+            "value": "Full walk-through windshield / fish-and-ski",
+            "confidence": "model-identity-verified"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 200 FS:value:1999",
+            "label": "1999",
+            "startYear": 1999,
+            "endYear": 1999,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Fisher | Hawk 200 FS:gen:2000-2001",
+        "label": "2000-2001 later wide Hawk 200 FS",
+        "startYear": 2000,
+        "endYear": 2001,
+        "status": "cited-later-generation",
+        "specificationBasis": "Exact-model 2000-2001 secondary specifications publish a 19'8-inch length, 98-inch beam, 37-gallon tank and eight-person rating. Annual rosters list 1,550 lb in 2000 and 1,580 lb in 2001.",
+        "sourceUrl": "https://www.boats.za.net/fisher/hawk-200-fs",
+        "specs": {
+          "Length": {
+            "value": "19'8\"",
+            "confidence": "secondary-spec-source"
+          },
+          "Beam": {
+            "value": "98\"",
+            "confidence": "secondary-spec-source"
+          },
+          "Dry Hull Weight": {
+            "value": "1,550 lb (2000) / 1,580 lb (2001)",
+            "confidence": "annual-roster"
+          },
+          "Persons": {
+            "value": "8",
+            "confidence": "secondary-spec-source"
+          },
+          "Fuel Capacity": {
+            "value": "37 gal",
+            "confidence": "secondary-spec-source"
+          },
+          "Max HP": {
+            "value": "Capacity plate required; retained databases misparse this field",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Full walk-through windshield / fish-and-ski",
+            "confidence": "model-identity-verified"
+          },
+          "Construction": {
+            "value": "All-welded aluminum deep-V",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Fisher | Hawk 200 FS:value:2000",
+            "label": "2000",
+            "startYear": 2000,
+            "endYear": 2000,
+            "low": 5500,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          },
+          {
+            "id": "boat:Fisher | Hawk 200 FS:value:2001",
+            "label": "2001",
+            "startYear": 2001,
+            "endYear": 2001,
+            "low": 6000,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, structural condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2000/fisher-boats",
+          "https://www.jdpower.com/boats/2001/fisher-boats",
+          "https://www.boats.za.net/boat-specs.aspx?boat=Fisher-Hawk-200-FS-2000&bt=4799",
+          "https://www.boats.za.net/boat-specs.aspx?boat=Fisher-Hawk-200-FS-2001&bt=31459"
+        ]
       }
     ],
     "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
