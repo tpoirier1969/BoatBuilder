@@ -1,6 +1,6 @@
 # Polar Kraft Current Audit Snapshot
 
-Generated 2026-08-01T03:00:02.199Z.
+Generated 2026-08-01T03:00:20.006Z.
 
 - Model records: 4
 - Generation/evidence rows: 8
