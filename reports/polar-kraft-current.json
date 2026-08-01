@@ -1,0 +1,978 @@
+[
+  {
+    "id": "boat:Polar Kraft | Frontier 179 WT",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Polar Kraft",
+    "model": "Frontier 179 WT",
+    "displayName": "Polar Kraft | Frontier 179 WT",
+    "subtitle": "2019 exact cited specification; other advertised years unresolved",
+    "badge": "Primary",
+    "lowPrice": 8000,
+    "highPrice": 20000,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
+    "image": {
+      "url": "https://yamahaoutboards.com/getmedia/73E860A8-3467-41EB-AC6A-B425B696DC97/Frontier179WT..jpg",
+      "source": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
+      "matchQuality": "Exact",
+      "note": "Exact 2019 Frontier 179 WT from Yamaha's performance bulletin; useful overall configuration reference."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2019 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Very good"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory walk-through/full windshield"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "115–150"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Rare"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Primary: 17'11\", 99-inch beam, full windshield and 1,130-lb hull are an excellent physical fit; pursue only older or sharply priced packages."
+      },
+      {
+        "label": "Notes",
+        "value": "Unusually wide, manageable dry weight and a fishing-first WT layout. The dimensions are excellent; used price and regional scarcity are the catches."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was common; some packages offered vinyl cockpit flooring. Verify the exact boat."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Factory-family configuration; flooring packages vary by model year and trim."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Polar Kraft | Frontier 179 WT:gen:2019",
+        "label": "2019 cited specification snapshot",
+        "startYear": 2019,
+        "endYear": 2019,
+        "status": "cited-snapshot",
+        "specificationBasis": "2019 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
+        "specs": {
+          "Length": {
+            "value": "17'11\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "99\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,130 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "23 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum reverse-chine deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Frontier 179 WT:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 8000,
+            "high": 12500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          },
+          {
+            "id": "boat:Polar Kraft | Frontier 179 WT:value:2020s",
+            "label": "2020s",
+            "startYear": 2020,
+            "endYear": 2029,
+            "low": 13000,
+            "high": 20000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:Polar Kraft | Frontier 179 WT:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2010,
+        "endYear": 2029,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s–2020s; 2019 performance-bulletin basis",
+        "sourceUrl": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary)",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Polar Kraft",
+    "model": "Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary)",
+    "displayName": "Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary)",
+    "subtitle": "2012 exact cited specification; other advertised years unresolved",
+    "badge": "Primary",
+    "lowPrice": 4500,
+    "highPrice": 10000,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft/v180/32024479/specs",
+    "image": {
+      "url": "https://features.boats.com/boat-content/files/2014/05/polar-kraft-kodiak-170.jpg",
+      "source": "https://www.boats.com/reviews/polar-kraft-kodiak-sport-170-fishing-family-fun-yes/",
+      "matchQuality": "Same family; 170 used for V180",
+      "note": "Exact 2014 Kodiak Sport 170 photo used as a labeled family-layout stand-in for the larger V180."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2012 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Very good"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory walk-through/full windshield"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90–115"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Primary: exact full-windshield size is a strong Lake Superior/comfort fit, can stay near the Maverick 4K package’s practical loaded target, and older complete packages can plausibly reach $14,000."
+      },
+      {
+        "label": "Notes",
+        "value": "The exact V180 resolves the earlier missing-beam issue: 92-inch beam and 1,338-lb dry hull. Do not confuse it with the 20'11.5\" Outlander 2010 WT."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Easy-clean marine-vinyl main floor with carpeted fishing-deck/trim areas depending on package."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Factory-family data for the current-generation Outlander; verify the exact package."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "GOOD — Vinyl main floor; carpet may remain on raised deck/trim areas."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):gen:2012",
+        "label": "2012 cited specification snapshot",
+        "startYear": 2012,
+        "endYear": 2012,
+        "status": "cited-snapshot",
+        "specificationBasis": "2012 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft/v180/32024479/specs",
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "92\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,338 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "About 39\"",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "About 25\"",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Deep-V; angle not stated",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "About 92\"",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "6",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "About 1,500 lb",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "About 30 gal",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Heavy-gauge; exact value not stated",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Heavy-gauge; exact value not stated",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Welded aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):value:2000s",
+            "label": "2000s",
+            "startYear": 2000,
+            "endYear": 2009,
+            "low": 4500,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          },
+          {
+            "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 6500,
+            "high": 10000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:Polar Kraft | Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary):gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2000,
+        "endYear": 2019,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2009–2013; 2012 basis",
+        "sourceUrl": "https://www.jdpower.com/boats/2012/polar-kraft/v180/32024479/specs",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:Polar Kraft | Kodiak V170 FS",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Polar Kraft",
+    "model": "Kodiak V170 FS",
+    "displayName": "Polar Kraft | Kodiak V170 FS",
+    "subtitle": "2014 exact cited specification; other advertised years unresolved",
+    "badge": "Secondary",
+    "lowPrice": 4000,
+    "highPrice": 9500,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://library.rvusa.com/brochure/2010_Polar_Kraft_Catalog.pdf",
+    "image": {
+      "url": "https://features.boats.com/boat-content/files/2014/05/polar-kraft-kodiak-170.jpg",
+      "source": "https://www.boats.com/reviews/polar-kraft-kodiak-sport-170-fishing-family-fun-yes/",
+      "matchQuality": "Exact model and close era",
+      "note": "Exact Polar Kraft Kodiak Sport 170 review photo; full wrap-around windshield and hull profile visible."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2014 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory full walk-through windshield; fish-and-ski configuration"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90–115"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Possible"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary: qualifying windshield and useful width, but fish-and-ski cockpit compromises and regional scarcity keep it below the strongest targets."
+      },
+      {
+        "label": "Notes",
+        "value": "Towable family/fishing boat. The FS seating is friendlier for cruising than four-person trolling, and exact trim varies."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was common; some packages offered vinyl cockpit flooring. Verify the exact boat."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Factory-family configuration; flooring packages vary by model year and trim."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POSSIBLE — Prefer a vinyl-floor package; reject soft or waterlogged carpeted structures."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Polar Kraft | Kodiak V170 FS:gen:2014",
+        "label": "2014 cited specification snapshot",
+        "startYear": 2014,
+        "endYear": 2014,
+        "status": "cited-snapshot",
+        "specificationBasis": "2014 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://library.rvusa.com/brochure/2010_Polar_Kraft_Catalog.pdf",
+        "specs": {
+          "Length": {
+            "value": "About 17'0\"",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "About 91\"",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "About 1,050 lb",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "115",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Kodiak V170 FS:value:2000s",
+            "label": "2000s",
+            "startYear": 2000,
+            "endYear": 2009,
+            "low": 4000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          },
+          {
+            "id": "boat:Polar Kraft | Kodiak V170 FS:value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 6000,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:Polar Kraft | Kodiak V170 FS:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2000,
+        "endYear": 2019,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: Late 2000s–2010s; 2010 catalog basis",
+        "sourceUrl": "https://library.rvusa.com/brochure/2010_Polar_Kraft_Catalog.pdf",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  },
+  {
+    "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180)",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Polar Kraft",
+    "model": "Outlander 2010 WT (Secondary; not Kodiak V180)",
+    "displayName": "Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180)",
+    "subtitle": "2010 exact cited specification; other advertised years unresolved",
+    "badge": "Secondary",
+    "lowPrice": 11000,
+    "highPrice": 22000,
+    "priceBasis": "Broad hull guidance across the listed model eras. Choose the applicable era when judging a specific listing.",
+    "sourceUrl": "https://www.suzukimarine.com/boat-tests/polar-kraft/polar-kraft-outlander-2010-wt/",
+    "image": {
+      "url": "https://yamahaoutboards.com/getmedia/73E860A8-3467-41EB-AC6A-B425B696DC97/Frontier179WT..jpg",
+      "source": "https://yamahaoutboards.com/outboards/v-max-sho/v-max-in-line-4/vf115/pb_polar-kraft_frontier-179-wt_vf115la_8-28-19_alm",
+      "matchQuality": "Same family",
+      "note": "Frontier 179 WT used as a Polar Kraft walk-through reference for the larger Outlander 2010 WT; not exact and materially smaller."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2010 exact cited specification; other advertised years unresolved"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Excellent hull; far too large"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory walk-through/full windshield"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "150–200"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected hull generation"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Rare below cap"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Secondary: 20'11.5\", 200-hp-class and much too large for the stated search despite the capable hull."
+      },
+      {
+        "label": "Notes",
+        "value": "The model number 2010 is not the model year; the boat is nearly 21 feet long. It is not the compact Kodiak alternative previously implied."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Easy-clean marine-vinyl main floor with carpeted fishing-deck/trim areas depending on package."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Factory-family data for the current-generation Outlander; verify the exact package."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "GOOD — Vinyl main floor; carpet may remain on raised deck/trim areas."
+      },
+      {
+        "label": "Research Status",
+        "value": "Exact cited snapshot preserved; remaining advertised years require generation-by-generation factory reconciliation."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:2010",
+        "label": "2010 cited specification snapshot",
+        "startYear": 2010,
+        "endYear": 2010,
+        "status": "cited-snapshot",
+        "specificationBasis": "2010 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.suzukimarine.com/boat-tests/polar-kraft/polar-kraft-outlander-2010-wt/",
+        "specs": {
+          "Length": {
+            "value": "20'11.5\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "1,440 lb hull only",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "Not stated in test",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not stated in test",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "Not stated in cited brochure",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "Not stated in test",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not stated in test",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "23 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Heavy-gauge; exact value not stated",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Heavy-gauge; exact value not stated",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Welded aluminum",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):value:2010s",
+            "label": "2010s",
+            "startYear": 2010,
+            "endYear": 2019,
+            "low": 11000,
+            "high": 16000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          },
+          {
+            "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):value:2020s",
+            "label": "2020s",
+            "startYear": 2020,
+            "endYear": 2029,
+            "low": 16000,
+            "high": 22000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      {
+        "id": "boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2010,
+        "endYear": 2029,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2018–present",
+        "sourceUrl": "https://www.suzukimarine.com/boat-tests/polar-kraft/polar-kraft-outlander-2010-wt/",
+        "specs": {},
+        "eras": []
+      }
+    ],
+    "generationWarning": "Choose the cited snapshot only when the listing matches it. Other years remain unpriced and carry no inherited specifications until factory evidence establishes their hull generation."
+  }
+]
