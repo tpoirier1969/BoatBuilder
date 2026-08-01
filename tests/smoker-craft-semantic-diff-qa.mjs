@@ -11,7 +11,10 @@ const parseBoats = (source, filename) => {
 };
 
 const currentSource = fs.readFileSync("data/boats.js", "utf8");
-const baseSource = execFileSync("git", ["show", "origin/main:data/boats.js"], { encoding: "utf8" });
+const baseSource = execFileSync("git", ["show", "origin/main:data/boats.js"], {
+  encoding: "utf8",
+  maxBuffer: 100 * 1024 * 1024
+});
 const current = parseBoats(currentSource, "current data/boats.js");
 const base = parseBoats(baseSource, "origin/main data/boats.js");
 
