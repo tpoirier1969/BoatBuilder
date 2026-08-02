@@ -1,6 +1,6 @@
 # BoatBuilder equipment weight scope
 
-Generated: 2026-08-02T15:48:27.937Z
+Generated: 2026-08-02T15:51:21.848Z
 
 - Equipment records: 181
 - Records in weight-relevant categories: 149
