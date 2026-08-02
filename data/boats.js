@@ -4399,7 +4399,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1988,
             "low": 1500,
             "high": 3500,
-            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1988 figure."
+            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure."
           },
           {
             "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1988-1989",
@@ -4408,7 +4408,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1989,
             "low": 1500,
             "high": 3500,
-            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1989 figure."
+            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1988 figure. Hull weight uses the published 1989 figure."
           }
         ],
         "evidenceUrls": [
@@ -32069,7 +32069,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1990,
             "low": 1800,
             "high": 4000,
-            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1989-1990 figure."
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure."
           },
           {
             "id": "boat:Smoker Craft | Fazer 172:value:1989-1994",
@@ -32078,7 +32078,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1994,
             "low": 1800,
             "high": 4000,
-            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1991-1994 figure."
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1991-1994 figure."
           }
         ],
         "weightEras": [
@@ -43946,7 +43946,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1991,
             "low": 3000,
             "high": 8000,
-            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure."
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure."
           },
           {
             "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
@@ -43955,7 +43955,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1993,
             "low": 3000,
             "high": 8000,
-            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1992-1993 figure."
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1992-1993 figure."
           },
           {
             "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
@@ -43964,7 +43964,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1997,
             "low": 3000,
             "high": 8000,
-            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1994-1997 figure."
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1994-1997 figure."
           }
         ],
         "weightEras": [

@@ -1,6 +1,6 @@
 # Hull-weight research targets
 
-Generated: 2026-08-02T16:15:20.464Z
+Generated: 2026-08-02T16:19:47.352Z
 
 Remaining target generation rows: 30
 
