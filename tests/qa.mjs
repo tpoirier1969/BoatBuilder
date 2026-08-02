@@ -320,7 +320,7 @@ const smokerIdealIds = new Set([
   "boat:Smoker Craft | Ultima 172"
 ]);
 const crestliner = assertStrictMaker("Crestliner", 15, 34, crestlinerIdealIds);
-const smokerCraft = assertStrictMaker("Smoker Craft", 18, 70, smokerIdealIds);
+const smokerCraft = assertStrictMaker("Smoker Craft", 25, 86, smokerIdealIds);
 
 const fishHawk1700 = item("boat:Crestliner | Fish Hawk 1700 WT");
 assert.equal(fishHawk1700.designGenerations.length, 1, "Fish Hawk 1700 should close as one 2007-2010 generation");

@@ -55,7 +55,7 @@ const gen = (boat, start, end) => {
 };
 
 const stiletto = byId(expectedIds[0]);
-assert.deepEqual(chronology(stiletto), [[2003, 2003], [2004, 2005]], "Stiletto/LE chronology changed");
+assert.equal(JSON.stringify(chronology(stiletto)), JSON.stringify([[2003, 2003], [2004, 2005]]), "Stiletto/LE chronology changed");
 assert.match(stiletto.model, /165 LE listing alias/, "165 LE badge alias disappeared");
 assert.equal(gen(stiletto, 2004, 2005).specs.Length.value, "16'0\"", "2005 Stiletto length changed");
 assert.equal(gen(stiletto, 2004, 2005).specs.Beam.value, "87\"", "2005 Stiletto beam changed");
@@ -64,36 +64,36 @@ assert.equal(gen(stiletto, 2004, 2005).specs["Max HP"].value, "90", "2005 Stilet
 assert.match(stiletto.generationWarning || "", /HIN.*title.*capacity plate/i, "Stiletto alias warning is incomplete");
 
 const millentia = byId(expectedIds[1]);
-assert.deepEqual(chronology(millentia), [[2001, 2005]], "Millentia 162 chronology changed");
+assert.equal(JSON.stringify(chronology(millentia)), JSON.stringify([[2001, 2005]]), "Millentia 162 chronology changed");
 assert.equal(gen(millentia, 2001, 2005).specs["Dry Hull Weight"].value, "975 lb", "Millentia weight changed");
 assert.match(gen(millentia, 2001, 2005).specs.Layout.value, /Dual-console/, "Millentia dual identity disappeared");
 
 const stinger = byId(expectedIds[2]);
-assert.deepEqual(chronology(stinger), [[2001, 2005], [2006, 2006]], "Stinger 162 chronology changed");
+assert.equal(JSON.stringify(chronology(stinger)), JSON.stringify([[2001, 2005], [2006, 2006]]), "Stinger 162 chronology changed");
 assert.match(gen(stinger, 2006, 2006).specs["Dry Hull Weight"].value, /660.*920|920.*660/, "Stinger 2006 weight conflict was hidden");
 assert.equal(gen(stinger, 2001, 2005).specs.Beam.value, "81\"", "Stinger beam changed");
 
 const stealth = byId(expectedIds[3]);
-assert.deepEqual(chronology(stealth), [[2002, 2002], [2003, 2003], [2004, 2004]], "Stealth 162 annual distinctions changed");
+assert.equal(JSON.stringify(chronology(stealth)), JSON.stringify([[2002, 2002], [2003, 2003], [2004, 2004]]), "Stealth 162 annual distinctions changed");
 assert.equal(gen(stealth, 2002, 2002).specs["Dry Hull Weight"].value, "660 lb", "2002 Stealth weight changed");
 assert.equal(gen(stealth, 2003, 2003).specs["Dry Hull Weight"].value, "600 lb", "2003 Stealth weight changed");
 
 const proMag162 = byId(expectedIds[4]);
-assert.deepEqual(chronology(proMag162), [[2001, 2001], [2003, 2003], [2006, 2007], [2008, 2010], [2019, 2019]], "Pro Mag 162 discontinuous evidence was smoothed over");
+assert.equal(JSON.stringify(chronology(proMag162)), JSON.stringify([[2001, 2001], [2003, 2003], [2006, 2007], [2008, 2010], [2019, 2019]]), "Pro Mag 162 discontinuous evidence was smoothed over");
 assert.equal(gen(proMag162, 2006, 2007).specs.Length.value, "16'5\"", "Early Pro Mag 162 length changed");
 assert.equal(gen(proMag162, 2008, 2010).specs.Length.value, "16'0\"", "Redesigned Pro Mag 162 length changed");
 assert.equal(gen(proMag162, 2008, 2010).specs.Beam.value, "87\"", "Redesigned Pro Mag 162 beam changed");
 assert.equal(gen(proMag162, 2019, 2019).specs["Dry Hull Weight"].value, "1,140 lb", "2019 Pro Mag 162 weight changed");
 
 const proMag172 = byId(expectedIds[5]);
-assert.deepEqual(chronology(proMag172), [[2006, 2007], [2017, 2020]], "Pro Mag 172 discontinuous runs changed");
+assert.equal(JSON.stringify(chronology(proMag172)), JSON.stringify([[2006, 2007], [2017, 2020]]), "Pro Mag 172 discontinuous runs changed");
 assert.equal(gen(proMag172, 2006, 2007).specs.Length.value, "17'2\"", "Early Pro Mag 172 length changed");
 assert.equal(gen(proMag172, 2006, 2007).specs.Beam.value, "91\"", "Early Pro Mag 172 beam changed");
 assert.equal(gen(proMag172, 2006, 2007).specs["Max HP"].value, "135", "Early Pro Mag 172 horsepower changed");
 assert.equal(proMag172.badge, "Primary", "Pro Mag 172 practical tier changed");
 
 const proAngler162 = byId(expectedIds[6]);
-assert.deepEqual(chronology(proAngler162), [[2007, 2007]], "Base Pro Angler 162 should remain an exact 2007 row");
+assert.equal(JSON.stringify(chronology(proAngler162)), JSON.stringify([[2007, 2007]]), "Base Pro Angler 162 should remain an exact 2007 row");
 assert.equal(gen(proAngler162, 2007, 2007).specs.Beam.value, "81\"", "Pro Angler 162 beam changed");
 assert.equal(gen(proAngler162, 2007, 2007).specs["Max HP"].value, "60", "Pro Angler 162 horsepower changed");
 

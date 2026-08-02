@@ -1,6 +1,6 @@
 # All-Manufacturer Roster Baseline
 
-Generated 2026-08-02T02:43:27.147Z.
+Generated 2026-08-02T02:47:44.977Z.
 
 - Boat records: 183
 - Manufacturers represented: 24
