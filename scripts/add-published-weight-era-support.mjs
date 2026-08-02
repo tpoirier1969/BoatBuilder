@@ -36,6 +36,7 @@ function hullWeight(item,config={}){
   if(weightEras.length){
     const selected=selectedWeightEra(generation,config);
     if(selected)return range(selected.lowLb,selected.highLb,selected.basis||\`Published dry-hull weight for \${selected.label}\`,selected.lowLb===selected.highLb?"published":"published-range",true);
+    if(clean(config.era))return unavailable("Published dry-hull weight is not available for the selected year option. Enter a documented or measured weight to complete the package total.",true);
     const low=Math.min(...weightEras.map(era=>Number(era.lowLb)).filter(Number.isFinite));
     const high=Math.max(...weightEras.map(era=>Number(era.highLb??era.lowLb)).filter(Number.isFinite));
     if(Number.isFinite(low)&&Number.isFinite(high))return range(low,high,"Published hull-weight span across documented year-specific variants. Choose a narrower year option when available.",low===high?"published":"published-range",true);
