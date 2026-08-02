@@ -21,8 +21,13 @@ jobs:
           node-version: 22
       - name: Fetch current main for additive semantic comparison
         run: git fetch origin main
-      - name: Add legacy Smoker Craft records
-        run: node scripts/add-smokercraft-legacy-windshield-families.mjs
+      - name: Add legacy Smoker Craft records when not already migrated
+        run: |
+          if grep -q 'boat:Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias' data/boats.js; then
+            echo "Legacy Smoker Craft records already present; skipping one-time insertion."
+          else
+            node scripts/add-smokercraft-legacy-windshield-families.mjs
+          fi
       - name: Update Smoker Craft QA guards
         run: node scripts/update-smokercraft-legacy-qa-counts.mjs
       - name: Regenerate catalog roster baseline
