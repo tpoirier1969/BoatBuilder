@@ -43,6 +43,14 @@ const setWeightEras=(manufacturer,modelFragment,startYear,endYear,eras)=>{
     basis:era.basis,
     sourceUrl:era.sourceUrl
   }));
+  const template=(generation.eras||[])[0]||{};
+  generation.eras=eras.map(era=>({
+    ...template,
+    label:era.label,
+    startYear:era.startYear,
+    endYear:era.endYear,
+    basis:`${template.basis||"Used complete-package screening estimate"} Hull weight uses the published ${era.startYear}${era.endYear!==era.startYear?`-${era.endYear}`:""} figure.`
+  }));
   for(const era of eras)addEvidence(generation,era.sourceUrl);
   touched.push({boatId:boat.id,generationId:generation.id,weightEras:generation.weightEras});
 };
