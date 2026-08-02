@@ -31,6 +31,7 @@ jobs:
           node scripts/remove-conflicted-hull-weights.mjs
           node scripts/apply-published-hull-weights-2.mjs
           node scripts/add-published-weight-era-support.mjs
+          node scripts/enforce-selected-hull-generation.mjs
           node scripts/report-weight-coverage.mjs
           node scripts/report-equipment-weight-scope.mjs
           node scripts/report-weight-targets.mjs
@@ -47,6 +48,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/boats.js app.js index.html styles.css weight-model.js tests/package-weight-qa.mjs reports/published-hull-weight-additions.json reports/weight-coverage.json reports/weight-coverage.md reports/equipment-weight-scope.json reports/equipment-weight-scope.md reports/weight-targets.json reports/weight-targets.md
           if ! git diff --cached --quiet; then
-            git commit -m "Complete era-specific package-weight enrichment"
+            git commit -m "Finalize era-specific package-weight estimator"
             git push
           fi
