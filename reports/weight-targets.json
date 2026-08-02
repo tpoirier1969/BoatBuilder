@@ -1,0 +1,2586 @@
+{
+  "generatedAt": "2026-08-02T16:03:05.938Z",
+  "count": 58,
+  "rows": [
+    {
+      "boatId": "boat:Alumacraft | Magnum CS (side-console series; no walk-through windshield)",
+      "manufacturer": "Alumacraft",
+      "model": "Magnum CS (side-console series; no walk-through windshield)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Alumacraft | Magnum CS (side-console series; no walk-through windshield):gen:family-rejection",
+        "label": "Family-level rejection row; multiple CS sizes and years",
+        "startYear": null,
+        "endYear": null,
+        "status": "family-umbrella-rejection",
+        "specificationBasis": "1995 Alumacraft factory catalog and family identification. CS denotes side-console configurations; this row is retained only to reject the layout from the required full-windshield search.",
+        "sourceUrl": "https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/1990-1999/Catalogs/ALUMA-MY95-Catalog-ENUS.pdf",
+        "specs": {
+          "Length": {
+            "value": "16–18 ft by model/year",
+            "confidence": "catalog-representative"
+          },
+          "Beam": {
+            "value": "Varies",
+            "confidence": "catalog-representative"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "Varies",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "Varies",
+            "confidence": "catalog-representative"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "catalog-representative"
+          }
+        },
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "Family-level rejection row; multiple CS sizes and years",
+        "Dry Hull Weight": "Varies",
+        "Length": "16–18 ft by model/year",
+        "Beam": "Varies"
+      }
+    },
+    {
+      "boatId": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam)",
+      "manufacturer": "Alumacraft",
+      "model": "Trophy 170 (Secondary; 81-inch beam)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1988-1989",
+        "label": "1988–1989 early Trophy 170 identity",
+        "startYear": 1988,
+        "endYear": 1989,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual valuation/model records establish the Trophy 170 name, but surviving weight entries conflict and no complete factory table was recovered. No specifications are inferred.",
+        "sourceUrl": "https://www.jdpower.com/boats/1988/alumacraft-boat-co",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1988-1989",
+            "label": "1988–1989",
+            "startYear": 1988,
+            "endYear": 1989,
+            "low": 1500,
+            "high": 3500,
+            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1988/alumacraft-boat-co",
+          "https://www.jdpower.com/boats/1989/alumacraft-boat-co"
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1988–1996 production across four evidence ranges",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC",
+      "manufacturer": "Crestliner",
+      "model": "*Fish Hawk 1750 WT / full-windshield DC",
+      "idealMatch": true,
+      "generation": {
+        "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2002-2006",
+        "label": "2002–2006 early Fish Hawk 1750 DC identity; detailed tables source-exhausted",
+        "startYear": 2002,
+        "endYear": 2006,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment establishes the 1750 Fish Hawk dual-console line by 2002. Complete early factory tables were not recovered; windshield configuration must be verified.",
+        "sourceUrl": "https://rnr-marine.com/Crestliner.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2002-2006",
+            "label": "2002-2006",
+            "startYear": 2002,
+            "endYear": 2006,
+            "low": 3500,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2002–2026 documented model line; early, 2014 redesign and current AP-X generations separated",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Crestliner | Super Hawk 1800 WT",
+      "manufacturer": "Crestliner",
+      "model": "Super Hawk 1800 WT",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Crestliner | Super Hawk 1800 WT:gen:2004-2007",
+        "label": "2004–2007 early Super Hawk 1800 line; exact propulsion tables source-exhausted",
+        "startYear": 2004,
+        "endYear": 2007,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual model references establish the 1800 Super Hawk before the exact 2008 table. Outboard and sterndrive configurations existed and must not be mixed.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Crestliner | Super Hawk 1800 WT:value:2004-2007",
+            "label": "2004-2007",
+            "startYear": 2004,
+            "endYear": 2007,
+            "low": 4500,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2004–2012 documented production; replaced by the 1850 Super Hawk for 2013",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Crestliner | Vision 1600 WT",
+      "manufacturer": "Crestliner",
+      "model": "Vision 1600 WT",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Crestliner | Vision 1600 WT:gen:2014-2015",
+        "label": "2014–2015 early Vision 1600 identity; complete tables source-exhausted",
+        "startYear": 2014,
+        "endYear": 2015,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Market and model-year records establish the Vision 1600 by 2014. Complete early factory tables were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Crestliner | Vision 1600 WT:value:2014-2015",
+            "label": "2014-2015",
+            "startYear": 2014,
+            "endYear": 2015,
+            "low": 6500,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2014–2018 documented model line; 2016–2018 factory-supported generation",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Crestliner | Vision 1700 WT",
+      "manufacturer": "Crestliner",
+      "model": "Vision 1700 WT",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Crestliner | Vision 1700 WT:gen:2015",
+        "label": "2015 Vision 1700 identity; complete factory table source-exhausted",
+        "startYear": 2015,
+        "endYear": 2015,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "A year-specific review and model identity establish the Vision 1700 in 2015. Complete factory certification data were not recovered.",
+        "sourceUrl": "https://www.crestliner.com/documents.html",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Crestliner | Vision 1700 WT:value:2015",
+            "label": "2015",
+            "startYear": 2015,
+            "endYear": 2015,
+            "low": 8000,
+            "high": 14000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2015–2018 documented model line; 2016–2018 factory-supported generation",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:G3 | Angler V172 FS / WT",
+      "manufacturer": "G3",
+      "model": "Angler V172 FS (full-windshield / walk-through)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:G3 | Angler V172 FS / WT:gen:2009",
+        "label": "2009 first documented V172 full-windshield evidence",
+        "startYear": 2009,
+        "endYear": 2009,
+        "status": "annual-market-evidence",
+        "specificationBasis": "A 2009 V172 full-windshield record establishes the model before the recovered 2010-2016 factory-catalog run. Only family-level physical details are retained for this evidence year.",
+        "sourceUrl": "https://www.jdpower.com/boats/2009/g3-boats",
+        "specs": {
+          "Length": {
+            "value": "17-foot class",
+            "confidence": "annual-roster"
+          },
+          "Layout": {
+            "value": "Full-windshield Angler V172 family",
+            "confidence": "exact-model-market-evidence"
+          },
+          "Construction": {
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-series-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:G3 | Angler V172 FS / WT:value:2009",
+            "label": "2009",
+            "startYear": 2009,
+            "endYear": 2009,
+            "low": 4500,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2009 market/roster evidence; 2010-2012 early V172 FS; 2013-2016 factory-catalog generation",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:G3 | Angler V175 FS",
+      "manufacturer": "G3",
+      "model": "Angler V175 FS",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:G3 | Angler V175 FS:gen:2006-2009",
+        "label": "2006-2009 early Angler V175 FS evidence generation",
+        "startYear": 2006,
+        "endYear": 2009,
+        "status": "annual-roster-partial",
+        "specificationBasis": "Exact-model valuation records establish the V175 FS during 2006-2009. Only durable family characteristics are retained because a complete early factory specification table was not recovered.",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/g3-boats/v175fs__/10234096/specs",
+        "specs": {
+          "Length": {
+            "value": "17-foot class",
+            "confidence": "annual-roster"
+          },
+          "Beam": {
+            "value": "96\" class",
+            "confidence": "exact-model-roster"
+          },
+          "Max HP": {
+            "value": "Up to 150; verify capacity plate",
+            "confidence": "exact-model-roster"
+          },
+          "Construction": {
+            "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
+            "confidence": "factory-series-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:G3 | Angler V175 FS:value:2006-2009",
+            "label": "2006-2009",
+            "startYear": 2006,
+            "endYear": 2009,
+            "low": 5000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2006-2009 early V175 FS evidence; 2010-2012 retained Yamaha-bulletin generation; 2013-2016 factory-catalog generation",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Hewescraft | Sportsman 180",
+      "manufacturer": "Hewescraft",
+      "model": "Sportsman 180",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Hewescraft | Sportsman 180:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2000,
+        "endYear": 2029,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2000s–present; 2024 specification basis",
+        "sourceUrl": "https://hewescraft.com/wp-content/uploads/2014/10/2024-Sportsman-Spreads.pdf",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2014 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Legend | 16 Xcalibur full-windshield",
+      "manufacturer": "Legend",
+      "model": "16 Xcalibur full-windshield",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Legend | 16 Xcalibur full-windshield:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2010,
+        "endYear": 2029,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2017 factory catalog basis",
+        "sourceUrl": "https://cdn2.hubspot.net/hubfs/1817712/2017-legend-boats-catalogue-web.pdf",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2017 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Legend | 18 Xcalibur full-windshield",
+      "manufacturer": "Legend",
+      "model": "18 Xcalibur full-windshield",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Legend | 18 Xcalibur full-windshield:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2010,
+        "endYear": 2029,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2017 factory catalog basis",
+        "sourceUrl": "https://cdn2.hubspot.net/hubfs/1817712/2017-legend-boats-catalogue-web.pdf",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2017 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:MonArk | Pro 1700 DC",
+      "manufacturer": "MonArk",
+      "model": "Pro 1700 DC",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:MonArk | Pro 1700 DC:gen:1998-review",
+        "label": "1998 period-review Pro 1700 evidence",
+        "startYear": 1998,
+        "endYear": 1998,
+        "status": "period-review-evidence",
+        "specificationBasis": "A 1998 multispecies guide publishes the Pro 1700 at 17 feet, 85-inch beam and 125 maximum hp, describing rough-water intent and seating for four. The 1998 annual valuation roster does not list a Pro 1700 under that name, so HIN verification is mandatory.",
+        "sourceUrl": "https://www.boats.com/reviews/boats/small-fishing-boats-and-motors-1998-359/",
+        "specs": {
+          "Length": {
+            "value": "17'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "85\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "Not published",
+            "confidence": "source-not-published"
+          },
+          "Max HP": {
+            "value": "125",
+            "confidence": "cited-source-exact"
+          },
+          "Persons / Seating": {
+            "value": "Cockpit seating for four",
+            "confidence": "period-review"
+          },
+          "Construction": {
+            "value": "Welded aluminum reverse-chine hull",
+            "confidence": "period-review"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:MonArk | Pro 1700 DC:value:1998",
+            "label": "1998",
+            "startYear": 1998,
+            "endYear": 1998,
+            "low": 3500,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate; motor age, trailer, flooring, transom, flotation, canvas and electronics can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1998/mon-ark-boat-co/power-boats"
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1993 exact Pro 1700 DC; 1995-1997 Pro 1700 annual-roster run; 1998 period-review evidence. No 1994 factory row recovered.",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:North River | Seahawk 18'6\"",
+      "manufacturer": "North River",
+      "model": "Seahawk 18'6\"",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:North River | Seahawk 18'6\":gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2010,
+        "endYear": 2029,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s–2020s; 2021 basis",
+        "sourceUrl": "https://www.northriverboats.com/wp-content/uploads/nrb-pdf/2021MY/18%276%20Seahawk%202021%20Standard%20Features.pdf",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2004 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Fazer 172",
+      "manufacturer": "Smoker Craft",
+      "model": "Fazer 172",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Fazer 172:gen:1989-1994",
+        "label": "1989–1994 model identity; detailed tables source-exhausted",
+        "startYear": 1989,
+        "endYear": 1994,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Cover-fit records establish the Fazer 172/F&S production interval. Available factory archive covers and year rosters did not yield a complete compatible specification table for 1989–1994; no 1995 figures are inherited.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Fazer 172:value:1989-1994",
+            "label": "1989-1994",
+            "startYear": 1989,
+            "endYear": 1994,
+            "low": 1800,
+            "high": 4000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1989–1995 documented production; 1995 exact factory table",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Fazer 192",
+      "manufacturer": "Smoker Craft",
+      "model": "Fazer 192",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Fazer 192:gen:1993-1994",
+        "label": "1993–1994 model identity; detailed tables source-exhausted",
+        "startYear": 1993,
+        "endYear": 1994,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model cover fitment and annual references establish the early Fazer 192 span. Complete compatible factory tables were not recovered for 1993–1994.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Fazer 192:value:1993-1994",
+            "label": "1993-1994",
+            "startYear": 1993,
+            "endYear": 1994,
+            "low": 2500,
+            "high": 5200,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1993–1999 documented production; 1995 exact factory table",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Fazer 192",
+      "manufacturer": "Smoker Craft",
+      "model": "Fazer 192",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Fazer 192:gen:1996-1999",
+        "label": "1996–1999 continuing model identity; detailed tables source-exhausted",
+        "startYear": 1996,
+        "endYear": 1999,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model cover fitment and annual model records establish continuation through 1999. Complete post-1995 specifications were not recovered, so the 1995 table is not carried forward.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Fazer 192:value:1996-1999",
+            "label": "1996-1999",
+            "startYear": 1996,
+            "endYear": 1999,
+            "low": 3500,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1993–1999 documented production; 1995 exact factory table",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Millentia 182 WT",
+      "manufacturer": "Smoker Craft",
+      "model": "Millentia 182 WT (misidentified listing alias)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Millentia 182 WT:gen:alias",
+        "label": "No verified factory Millentia 182 model",
+        "startYear": null,
+        "endYear": null,
+        "status": "alias-only",
+        "specificationBasis": "Smoker Craft catalog lineups use Millentia 172 and 192. The 182 size appears under Pro Mag, Pro Angler XL, and Ultima families, not as a verified Millentia 182.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "No verified factory Millentia 182 model; listing-alias rejection",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)",
+      "manufacturer": "Smoker Craft",
+      "model": "Osprey 162 WT (Secondary; verified WT begins in 2017)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2019-2024",
+        "label": "2019–2024 continuing Osprey 162 WT fitment; full annual tables source-exhausted",
+        "startYear": 2019,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Exact-model cover fitment and annual rosters confirm the 2019–2024 Osprey 162. Complete annual factory tables were not recovered; 2017–2018 or current specifications are not inherited.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {
+          "Layout": {
+            "value": "Dual-console / walk-through fitment documented",
+            "confidence": "exact-model-fitment"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2019-2024",
+            "label": "2019-2024",
+            "startYear": 2019,
+            "endYear": 2024,
+            "low": 15000,
+            "high": 28000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2009–2026 documented model presence; 2017–2018 and current WT specifications preserved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Phaser (seller spelling; likely Fazer)",
+      "manufacturer": "Smoker Craft",
+      "model": "Phaser (seller spelling; likely Fazer)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Phaser (seller spelling; likely Fazer):gen:alias",
+        "label": "Seller spelling only; no verified factory Phaser model",
+        "startYear": null,
+        "endYear": null,
+        "status": "alias-only",
+        "specificationBasis": "Smoker Craft factory catalogs use Fazer, not Phaser, for the relevant historical walk-through family.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "No verified factory Phaser model; seller-spelling alias rejection",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
+      "manufacturer": "Smoker Craft",
+      "model": "Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:1994-1999",
+        "label": "1994–1999 early Pro Mag 182 identity; detailed tables source-exhausted",
+        "startYear": 1994,
+        "endYear": 1999,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment establishes the 1994–1999 production interval. Complete factory tables were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:1994-1999",
+            "label": "1994-1999",
+            "startYear": 1994,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1994–2020 documented production across early, 18-foot-2-inch, and 18-foot-5-inch eras",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Ultima 175",
+      "manufacturer": "Smoker Craft",
+      "model": "Ultima 175",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Ultima 175:gen:1994",
+        "label": "1994 model identity; detailed table source-exhausted",
+        "startYear": 1994,
+        "endYear": 1994,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment and annual records establish the 1994 start. Complete 1994 factory specifications were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 175:value:1994",
+            "label": "1994",
+            "startYear": 1994,
+            "endYear": 1994,
+            "low": 2500,
+            "high": 5000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1994–1999 documented production; 1995 exact factory table",
+        "Dry Hull Weight": "1,120 lb",
+        "Length": "17'8\"",
+        "Beam": "85.5\""
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Ultima 175",
+      "manufacturer": "Smoker Craft",
+      "model": "Ultima 175",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Ultima 175:gen:1996-1999",
+        "label": "1996–1999 continuation; detailed tables source-exhausted",
+        "startYear": 1996,
+        "endYear": 1999,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment establishes continuation through 1999. The 1995 table is not assumed unchanged.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 175:value:1996-1999",
+            "label": "1996-1999",
+            "startYear": 1996,
+            "endYear": 1999,
+            "low": 3000,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1994–1999 documented production; 1995 exact factory table",
+        "Dry Hull Weight": "1,120 lb",
+        "Length": "17'8\"",
+        "Beam": "85.5\""
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Ultima 178",
+      "manufacturer": "Smoker Craft",
+      "model": "Ultima 178",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Ultima 178:gen:2001-identity",
+        "label": "2001 model identity; specifications unresolved",
+        "startYear": 2001,
+        "endYear": 2001,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "The 2001 factory archive and annual model identity survive, but a complete compatible specification table was not recovered.",
+        "sourceUrl": "https://www.smokercraft.com/resources/legacy-catalogs/",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 178:value:2001",
+            "label": "2001",
+            "startYear": 2001,
+            "endYear": 2001,
+            "low": 3000,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2001 documented model identity; specification table source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)",
+      "manufacturer": "Smoker Craft",
+      "model": "Ultima 182 (Secondary; 172 is Primary)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2001-2002",
+        "label": "2001–2002 early Ultima 182 identity; detailed tables source-exhausted",
+        "startYear": 2001,
+        "endYear": 2002,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Exact-model fitment establishes the early 2001–2002 Ultima 182. Complete factory tables were not recovered.",
+        "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
+        "specs": {},
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2001-2002",
+            "label": "2001-2002",
+            "startYear": 2001,
+            "endYear": 2002,
+            "low": 4000,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2001–2002 and 2015–2026 documented production; standard, SE, Legacy and Gen 2 configurations separated",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Stealth 162",
+      "manufacturer": "Smoker Craft",
+      "model": "Stealth 162",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Stealth 162:gen:2004",
+        "label": "2004 Stealth 162 exact-model identity",
+        "startYear": 2004,
+        "endYear": 2004,
+        "status": "exact-model-partial",
+        "specificationBasis": "The 2004 exact-model roster confirms the 162 Stealth identity, but a complete trustworthy certification table was not recovered.",
+        "sourceUrl": "https://www.jdpower.com/boats/2004/smoker-craft-inc/162-stealth/10242911/specs",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "exact-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "Verify title/capacity plate; retained sources are incomplete",
+            "confidence": "not-reliably-published"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Even-number dual-console/full-windshield family; verify listing photos",
+            "confidence": "family-naming-evidence"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Stealth 162:value:2004",
+            "label": "2004",
+            "startYear": 2004,
+            "endYear": 2004,
+            "low": 3200,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2002; 2003; 2004",
+        "Dry Hull Weight": "Varies by selected documented year row",
+        "Length": "Varies by selected documented year row",
+        "Beam": "Varies by selected documented year row"
+      }
+    },
+    {
+      "boatId": "boat:Smoker Craft | Pro Mag 162",
+      "manufacturer": "Smoker Craft",
+      "model": "Pro Mag 162",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Smoker Craft | Pro Mag 162:gen:2001-dual",
+        "label": "2001 162 Pro Mag-Dual",
+        "startYear": 2001,
+        "endYear": 2001,
+        "status": "explicit-dual-roster",
+        "specificationBasis": "The 2001 roster explicitly identifies the 162 Pro Mag-Dual. Complete dimensions were not recovered for this exact early row.",
+        "sourceUrl": "https://www.jdpower.com/boats/2001/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "Verify exact early package",
+            "confidence": "not-reliably-published"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield",
+            "confidence": "explicit-dual-roster"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V family",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 162:value:2001",
+            "label": "2001",
+            "startYear": 2001,
+            "endYear": 2001,
+            "low": 3200,
+            "high": 6000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2001; 2003; 2006-2007; 2008-2010; 2019",
+        "Dry Hull Weight": "Varies by selected documented year row",
+        "Length": "Varies by selected documented year row",
+        "Beam": "Varies by selected documented year row"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 170",
+      "manufacturer": "Starcraft",
+      "model": "Fishmaster 170",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Fishmaster 170:gen:1995-1997",
+        "label": "1995–1997 production identity — surviving specifications exhausted",
+        "startYear": 1995,
+        "endYear": 1997,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model rosters and fitment records establish the Fishmaster 170 for 1995–1997, but the surviving archive did not yield a defensible complete annual specification table. No 1998 values are projected backward.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 170:gen:1995-1997:value:1995–1997",
+            "label": "1995–1997",
+            "startYear": 1995,
+            "endYear": 1997,
+            "low": 2500,
+            "high": 6500,
+            "basis": "Used complete-package screening range from surviving Fishmaster 170 examples; condition and floor/transom history dominate"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1995–1998; 1998 exact snapshot, earlier annual specifications source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 196",
+      "manufacturer": "Starcraft",
+      "model": "Fishmaster 196",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006",
+        "label": "1999–2006 early Fishmaster 196 family — source exhausted",
+        "startYear": 1999,
+        "endYear": 2006,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records confirm this production span, but the surviving factory archive did not provide a complete, machine-readable specification table sufficient to prove an unchanged hull. Later dimensions are not projected backward.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006:value:1999–2006",
+            "label": "1999–2006",
+            "startYear": 1999,
+            "endYear": 2006,
+            "low": 3500,
+            "high": 9000,
+            "basis": "Used complete-package screening range for this early production/value span"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1999–2026; choose the exact generation/value era",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 196",
+      "manufacturer": "Starcraft",
+      "model": "Fishmaster 196",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Fishmaster 196:gen:2007-2009",
+        "label": "2007–2009 pre-2010 production identity — source exhausted",
+        "startYear": 2007,
+        "endYear": 2009,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records confirm this production span, but the surviving factory archive did not provide a complete, machine-readable specification table sufficient to prove an unchanged hull. Later dimensions are not projected backward.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:2007-2009:value:2007–2009",
+            "label": "2007–2009",
+            "startYear": 2007,
+            "endYear": 2009,
+            "low": 5000,
+            "high": 10000,
+            "basis": "Used complete-package screening range for this early production/value span"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1999–2026; choose the exact generation/value era",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 196",
+      "manufacturer": "Starcraft",
+      "model": "Fishmaster 196",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024",
+        "label": "2016–2024 later production — surviving generation boundary exhausted",
+        "startYear": 2016,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Official annual catalog archive confirms continuing Fishmaster 196 coverage, but the available records did not establish one defensible unchanged specification set across all nine years. No 2015 or current dry weight is assigned to this span.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory full wraparound windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "31\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Deadrise": {
+            "value": "19° family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "200 family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024:value:2016–2019",
+            "label": "2016–2019",
+            "startYear": 2016,
+            "endYear": 2019,
+            "low": 12000,
+            "high": 26000,
+            "basis": "Used complete-package screening range for late-2010s examples"
+          },
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:2016-2024:value:2020–2024",
+            "label": "2020–2024",
+            "startYear": 2020,
+            "endYear": 2024,
+            "low": 22000,
+            "high": 45000,
+            "basis": "Used complete-package screening range for newer examples; equipment and power dominate"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1999–2026; choose the exact generation/value era",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | SFM 160 Superfisherman",
+      "manufacturer": "Starcraft",
+      "model": "SFM 160 Superfisherman",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989",
+        "label": "1987–1989 production identity — surviving specifications exhausted",
+        "startYear": 1987,
+        "endYear": 1989,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Starcraft retains 1987 and 1989 fishing catalogs, but the surviving indexed material did not recover a complete exact-model table or prove the 1986 hull unchanged. Only the family identity and walk-through layout are retained.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989:value:1987–1989",
+            "label": "1987–1989",
+            "startYear": 1987,
+            "endYear": 1989,
+            "low": 1500,
+            "high": 4000,
+            "basis": "Used complete-package screening range for late-1980s examples; rebuild quality controls value"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1986–1989; 1986 exact, 1987–1989 source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | SFM 180 Superfisherman",
+      "manufacturer": "Starcraft",
+      "model": "SFM 180 Superfisherman",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989",
+        "label": "1987–1989 production identity — surviving specifications exhausted",
+        "startYear": 1987,
+        "endYear": 1989,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Starcraft retains 1987 and 1989 fishing catalogs, but the surviving indexed material did not recover a complete exact-model table or prove the 1986 hull unchanged. Only the family identity and walk-through layout are retained.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989:value:1987–1989",
+            "label": "1987–1989",
+            "startYear": 1987,
+            "endYear": 1989,
+            "low": 2000,
+            "high": 5000,
+            "basis": "Used complete-package screening range for late-1980s examples; rebuild quality controls value"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1986–1989; 1986 exact, 1987–1989 source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Starfish 176 DC / WT",
+      "manufacturer": "Starcraft",
+      "model": "*Starfish 176 DC / WT",
+      "idealMatch": true,
+      "generation": {
+        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007",
+        "label": "2006–2007 early Star Fish 176 DC/SC identity — source exhausted",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Model-fitment and annual catalog records establish an earlier Star Fish 176 DC/SC family. The surviving material did not recover a complete exact DC/WT table, so later specifications are not assigned.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "DC/SC family; confirm center walk-through on the actual boat",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007:value:2006–2007",
+            "label": "2006–2007",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 3500,
+            "high": 7500,
+            "basis": "Used complete-package screening range for the earlier Star Fish family"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2006–2007 early Star Fish identity; 2011–2017 later Starfish 176",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Starfish 176 DC / WT",
+      "manufacturer": "Starcraft",
+      "model": "*Starfish 176 DC / WT",
+      "idealMatch": true,
+      "generation": {
+        "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017",
+        "label": "2016–2017 final production identity — exact table source exhausted",
+        "startYear": 2016,
+        "endYear": 2017,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model and used-market records confirm 2016–2017 Starfish 176 production, but the surviving archive did not yield an exact complete table sufficient to prove the 2013–2015 specifications unchanged.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory dual-console/full walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "92-inch family basis; verify capacity plate",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017:value:2016–2017",
+            "label": "2016–2017",
+            "startYear": 2016,
+            "endYear": 2017,
+            "low": 9000,
+            "high": 15000,
+            "basis": "Used complete-package screening range for final-year examples"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2006–2007 early Star Fish identity; 2011–2017 later Starfish 176",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | STX 2050 Aluminum",
+      "manufacturer": "Starcraft",
+      "model": "STX 2050 Aluminum",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024",
+        "label": "2016–2024 later STX 2050 production — boundary source exhausted",
+        "startYear": 2016,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual factory catalog archive confirms continued STX coverage, but the surviving records did not support one exact unchanged specification set across the span.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "250 family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted Power-Trac deep-V aluminum",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2016–2019",
+            "label": "2016–2019",
+            "startYear": 2016,
+            "endYear": 2019,
+            "low": 15000,
+            "high": 30000,
+            "basis": "Used complete-package screening range for late-2010s STX examples"
+          },
+          {
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2020–2024",
+            "label": "2020–2024",
+            "startYear": 2020,
+            "endYear": 2024,
+            "low": 28000,
+            "high": 52000,
+            "basis": "Used complete-package screening range for newer STX examples"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2010–2026; choose generation/value era",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | STX 2050 Aluminum",
+      "manufacturer": "Starcraft",
+      "model": "STX 2050 Aluminum",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026",
+        "label": "2025–2026 current 20'10-inch factory generation",
+        "startYear": 2025,
+        "endYear": 2026,
+        "status": "factory-current-partial",
+        "specificationBasis": "Current Starcraft factory builder confirms the 20'10-inch, 250-hp, ten-person STX 2050. The current page does not publish every hull field needed to backfill a complete table.",
+        "sourceUrl": "https://builder.starcraftmarine.com/browse/Starcraft/Fishing",
+        "specs": {
+          "Length": {
+            "value": "20'10\"",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "250",
+            "confidence": "source-exhausted-partial"
+          },
+          "Persons": {
+            "value": "10",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Current riveted aluminum STX",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026:value:2025–2026",
+            "label": "2025–2026",
+            "startYear": 2025,
+            "endYear": 2026,
+            "low": 48000,
+            "high": 72000,
+            "basis": "Nearly-new complete-package screening range; outside target budget and tow envelope"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2010–2026; choose generation/value era",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Superfisherman 170",
+      "manufacturer": "Starcraft",
+      "model": "Superfisherman 170",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Superfisherman 170:gen:1991-1997",
+        "label": "1991–1997 early Superfisherman 170 — source exhausted",
+        "startYear": 1991,
+        "endYear": 1997,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records establish the 170 through this span, but the surviving archive did not produce complete year-by-year tables sufficient to prove one unchanged hull.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory windshield family; verify exact center walk-through",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 170:gen:1991-1997:value:1991–1997",
+            "label": "1991–1997",
+            "startYear": 1991,
+            "endYear": 1997,
+            "low": 2500,
+            "high": 7000,
+            "basis": "Used complete-package screening range; floor, transom and motor condition dominate"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1991–1998 early family; separate 2010 170 Sport",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
+      "manufacturer": "Starcraft",
+      "model": "Superfisherman 186 (Secondary; 176 is Primary)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024",
+        "label": "2017–2024 later production — exact revision boundary exhausted",
+        "startYear": 2017,
+        "endYear": 2024,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual factory archive and market records confirm continuing Superfisherman 186 production, but the surviving tables did not support a single exact unchanged specification set across the entire span.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Length": {
+            "value": "18'7\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "100\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "29\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Deadrise": {
+            "value": "19° family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "200 family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory full windshield",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2017–2019",
+            "label": "2017–2019",
+            "startYear": 2017,
+            "endYear": 2019,
+            "low": 16000,
+            "high": 30000,
+            "basis": "Used complete-package screening range for late-2010s examples"
+          },
+          {
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2020–2024",
+            "label": "2020–2024",
+            "startYear": 2020,
+            "endYear": 2024,
+            "low": 26000,
+            "high": 50000,
+            "basis": "Used complete-package screening range for newer examples"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2011–2026; three physical/evidence dispositions",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
+      "manufacturer": "Starcraft",
+      "model": "Superfisherman 186 (Secondary; 176 is Primary)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026",
+        "label": "2025–2026 current factory generation — dry-weight field conflicted",
+        "startYear": 2025,
+        "endYear": 2026,
+        "status": "factory-current-conflicted",
+        "specificationBasis": "Current Starcraft page lists 1,985 pounds as dry weight, while earlier factory tables use 1,985 pounds as total capacity and 1,333 pounds as dry hull weight. The current dry weight is deliberately withheld until Starcraft resolves the field.",
+        "sourceUrl": "https://starcraftmarine.com/series/superfisherman/",
+        "specs": {
+          "Length": {
+            "value": "18'7\"",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "100\"",
+            "confidence": "source-exhausted-partial"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "29\"",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max / Bow Depth": {
+            "value": "49\"",
+            "confidence": "source-exhausted-partial"
+          },
+          "Deadrise": {
+            "value": "19°",
+            "confidence": "source-exhausted-partial"
+          },
+          "Transom Height": {
+            "value": "25\"",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "200",
+            "confidence": "source-exhausted-partial"
+          },
+          "Persons": {
+            "value": "9 / 1,215 lb",
+            "confidence": "source-exhausted-partial"
+          },
+          "Fuel Capacity": {
+            "value": "30 gal",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory full wraparound windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Current riveted aluminum Superfisherman",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026:value:2025–2026",
+            "label": "2025–2026",
+            "startYear": 2025,
+            "endYear": 2026,
+            "low": 43000,
+            "high": 65000,
+            "basis": "Nearly-new complete-package screening range; outside target budget"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2011–2026; three physical/evidence dispositions",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Superfisherman 190",
+      "manufacturer": "Starcraft",
+      "model": "Superfisherman 190",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997",
+        "label": "1991–1997 production identity — surviving specifications exhausted",
+        "startYear": 1991,
+        "endYear": 1997,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Annual model records establish the Superfisherman 190 through this span, but complete exact tables were not recoverable for a defensible unchanged-hull claim.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory windshield family; verify exact walk-through",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
+            "label": "1991–1997",
+            "startYear": 1991,
+            "endYear": 1997,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1991–1998; 1998 exact snapshot, earlier span source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Tournament 170 (does not meet windshield requirement)",
+      "manufacturer": "Starcraft",
+      "model": "Tournament 170 (does not meet windshield requirement)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1996-1997",
+        "label": "1996–1997 model identity — configuration/specification source exhausted",
+        "startYear": 1996,
+        "endYear": 1997,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996–1997 seller-described Tournament boat.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Model name alone does not prove a walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1996-1997:value:1996–1997",
+            "label": "1996–1997",
+            "startYear": 1996,
+            "endYear": 1997,
+            "low": 2500,
+            "high": 5500,
+            "basis": "Used complete-package screening range; exact suffix/layout and condition control"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1995–1997; 1995 exact snapshot and 1996–1997 identity-only disposition",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Tournament 180 (does not meet windshield requirement)",
+      "manufacturer": "Starcraft",
+      "model": "Tournament 180 (does not meet windshield requirement)",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1996-1997",
+        "label": "1996–1997 model identity — configuration/specification source exhausted",
+        "startYear": 1996,
+        "endYear": 1997,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996–1997 seller-described Tournament boat.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Model name alone does not prove a walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1996-1997:value:1996–1997",
+            "label": "1996–1997",
+            "startYear": 1996,
+            "endYear": 1997,
+            "low": 3000,
+            "high": 6000,
+            "basis": "Used complete-package screening range; exact suffix/layout and condition control"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1995–1997; 1995 exact snapshot and 1996–1997 identity-only disposition",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starweld | Fusion 16 DC",
+      "manufacturer": "Starweld",
+      "model": "Fusion 16 DC",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starweld | Fusion 16 DC:gen:2018-2020",
+        "label": "2018–2020 launch generation — annual table source exhausted",
+        "startYear": 2018,
+        "endYear": 2020,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Launch-year and dealer records confirm the Fusion 16 DC; exact annual table fields were not fully recoverable.",
+        "sourceUrl": "https://www.starweldboats.com/",
+        "specs": {
+          "Length": {
+            "value": "16'6\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "82\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory dual-console/full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; full-vinyl fishing surfaces",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starweld | Fusion 16 DC:gen:2018-2020:value:2018–2020",
+            "label": "2018–2020",
+            "startYear": 2018,
+            "endYear": 2020,
+            "low": 13000,
+            "high": 21000,
+            "basis": "Used complete-package screening range for this production/value span"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2018–2026; 2021 exact, adjacent spans source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starweld | Fusion 16 DC",
+      "manufacturer": "Starweld",
+      "model": "Fusion 16 DC",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starweld | Fusion 16 DC:gen:2022-2026",
+        "label": "2022–2026 continuing Fusion 16 DC — exact annual table source exhausted",
+        "startYear": 2022,
+        "endYear": 2026,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Manufacturer and dealer records confirm continuation; current international factory material corroborates length, power, capacity and vinyl floor but does not prove every U.S. annual field unchanged.",
+        "sourceUrl": "https://www.starweldboats.com/",
+        "specs": {
+          "Length": {
+            "value": "16'6\" / 5.03 m family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "82\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "source-exhausted-partial"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory side- or dual-console; DC has full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; all-vinyl floors",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starweld | Fusion 16 DC:gen:2022-2026:value:2022–2026",
+            "label": "2022–2026",
+            "startYear": 2022,
+            "endYear": 2026,
+            "low": 15000,
+            "high": 25000,
+            "basis": "Used complete-package screening range for this production/value span"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2018–2026; 2021 exact, adjacent spans source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starweld | Fusion 18 DC",
+      "manufacturer": "Starweld",
+      "model": "Fusion 18 DC",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starweld | Fusion 18 DC:gen:2018-2020",
+        "label": "2018–2020 launch generation — annual table source exhausted",
+        "startYear": 2018,
+        "endYear": 2020,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "2018 market and annual records establish the Fusion 18 DC; exact complete annual tables were not fully recoverable.",
+        "sourceUrl": "https://www.starweldboats.com/",
+        "specs": {
+          "Length": {
+            "value": "17'4\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "90\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory dual-console/full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; full-vinyl fishing surfaces",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starweld | Fusion 18 DC:gen:2018-2020:value:2018–2020",
+            "label": "2018–2020",
+            "startYear": 2018,
+            "endYear": 2020,
+            "low": 18000,
+            "high": 30000,
+            "basis": "Used complete-package screening range for this production/value span"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2018–2025; 2021 exact, adjacent spans source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starweld | Fusion 18 DC",
+      "manufacturer": "Starweld",
+      "model": "Fusion 18 DC",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starweld | Fusion 18 DC:gen:2022-2025",
+        "label": "2022–2025 continuing Fusion 18 DC — exact annual table source exhausted",
+        "startYear": 2022,
+        "endYear": 2025,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Dealer and fitment records confirm continuation, but surviving annual specification tables did not prove every field unchanged.",
+        "sourceUrl": "https://www.starweldboats.com/",
+        "specs": {
+          "Length": {
+            "value": "17'4\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Beam": {
+            "value": "90\" family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Max HP": {
+            "value": "115 family basis",
+            "confidence": "source-exhausted-partial"
+          },
+          "Layout": {
+            "value": "Factory dual-console/full windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; all-vinyl floors",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starweld | Fusion 18 DC:gen:2022-2025:value:2022–2025",
+            "label": "2022–2025",
+            "startYear": 2022,
+            "endYear": 2025,
+            "low": 20000,
+            "high": 34000,
+            "basis": "Used complete-package screening range for this production/value span"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2018–2025; 2021 exact, adjacent spans source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Tracker | Pro Guide V-175 WT",
+      "manufacturer": "Tracker",
+      "model": "*Pro Guide V-175 WT",
+      "idealMatch": true,
+      "generation": {
+        "id": "boat:Tracker | Pro Guide V-175 WT:gen:2011",
+        "label": "2011 model identity; complete table source-exhausted",
+        "startYear": 2011,
+        "endYear": 2011,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "Annual model identity survives, but a complete compatible factory table was not recovered. No neighboring dimensions are inherited.",
+        "sourceUrl": "https://www.jdpower.com/boats/2011/tracker-marine",
+        "specs": {
+          "Construction": {
+            "value": "All-welded Tracker deep-V; walk-through windshield model identity",
+            "confidence": "model-identity-only"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Pro Guide V-175 WT:value:2011",
+            "label": "2011",
+            "startYear": 2011,
+            "endYear": 2011,
+            "low": 7500,
+            "high": 11500,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2010–2026; five documented hull/evidence rows",
+        "Dry Hull Weight": "Varies by selected year / hull",
+        "Length": "Varies by selected year / hull",
+        "Beam": "Varies by selected year / hull"
+      }
+    },
+    {
+      "boatId": "boat:Tracker | Tundra 18 DC / WT",
+      "manufacturer": "Tracker",
+      "model": "Tundra 18 DC / WT",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Tracker | Tundra 18 DC / WT:gen:2003",
+        "label": "2003 model identity; table source-exhausted",
+        "startYear": 2003,
+        "endYear": 2003,
+        "status": "model-identity-source-exhausted",
+        "specificationBasis": "The Tundra 18 DC/WT model identity is documented for 2003, but a complete compatible year table was not recovered. No adjacent-year weight is assigned.",
+        "sourceUrl": "https://www.boats.za.net/tracker/tundra-18-wt",
+        "specs": {
+          "Length": {
+            "value": "18'0\"",
+            "confidence": "source-supported"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "source-supported"
+          },
+          "Construction": {
+            "value": "Stretch-formed aluminum V-pad hull; DC/WT listing identity",
+            "confidence": "source-supported"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Tracker | Tundra 18 DC / WT:value:2003",
+            "label": "2003",
+            "startYear": 2003,
+            "endYear": 2003,
+            "low": 4250,
+            "high": 7250,
+            "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2002–2009; six documented layout/weight rows",
+        "Dry Hull Weight": "Varies by selected year / hull",
+        "Length": "Varies by selected year / hull",
+        "Beam": "Varies by selected year / hull"
+      }
+    },
+    {
+      "boatId": "boat:Triton | DV176 DC Magnum",
+      "manufacturer": "Triton",
+      "model": "DV176 DC Magnum",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Triton | DV176 DC Magnum:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2000,
+        "endYear": 2009,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2005–2007; 2006 specification basis",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/triton-boats/dv176-magnum__/10232456/specs",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2006 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Triton | DV186 DC Magnum",
+      "manufacturer": "Triton",
+      "model": "DV186 DC Magnum",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Triton | DV186 DC Magnum:gen:2006",
+        "label": "2006 cited specification snapshot",
+        "startYear": 2006,
+        "endYear": 2006,
+        "status": "cited-snapshot",
+        "specificationBasis": "2006 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/triton-boats",
+        "specs": {
+          "Length": {
+            "value": "18'6\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "96\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "150",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "4",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "27 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "Aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Triton | DV186 DC Magnum:value:2000s",
+            "label": "2000s",
+            "startYear": 2000,
+            "endYear": 2009,
+            "low": 4000,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2006 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Triton | DV186 DC Magnum",
+      "manufacturer": "Triton",
+      "model": "DV186 DC Magnum",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Triton | DV186 DC Magnum:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2000,
+        "endYear": 2009,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2006 specification basis",
+        "sourceUrl": "https://www.jdpower.com/boats/2006/triton-boats",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2006 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W",
+      "manufacturer": "Ultracraft (Misty Harbor)",
+      "model": "Trophy 166W / 166W",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W:gen:2007-2008-trophy",
+        "label": "2007-2008 Trophy 166W roster and family-hull evidence",
+        "startYear": 2007,
+        "endYear": 2008,
+        "status": "roster-and-family-hull-evidence",
+        "specificationBasis": "Annual indexes document the Trophy 166W in 2007-2008. The factory Trophy 166 family brochure supports the 16'6-inch, 80-inch-beam, riveted hull, but the exact W-trim dry weight was not recovered and is left unpublished.",
+        "sourceUrl": "https://www.boats.za.net/ultracraft",
+        "specs": {
+          "Length": {
+            "value": "16'6\"",
+            "confidence": "factory-family-hull"
+          },
+          "Beam": {
+            "value": "80\"",
+            "confidence": "factory-family-hull"
+          },
+          "Dry Hull Weight": {
+            "value": "Not recovered for the W trim; do not substitute the 166C weight",
+            "confidence": "not-published"
+          },
+          "Max / Bow Depth": {
+            "value": "32\"",
+            "confidence": "factory-family-hull"
+          },
+          "Transom Height": {
+            "value": "20\"",
+            "confidence": "factory-family-hull"
+          },
+          "Max HP": {
+            "value": "75",
+            "confidence": "family-and-roster-evidence"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "family-and-roster-evidence"
+          },
+          "Capacity Weight": {
+            "value": "1,320 lb",
+            "confidence": "factory-family-hull"
+          },
+          "Fuel Capacity": {
+            "value": "16 gal",
+            "confidence": "factory-family-hull"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.080\"",
+            "confidence": "factory-family-hull"
+          },
+          "Layout": {
+            "value": "Dual-console/windshield W trim",
+            "confidence": "model-identity-verified"
+          },
+          "Construction": {
+            "value": "Riveted aluminum modified-V with treated plywood decking",
+            "confidence": "factory-family-brochure"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W:value:2007-2008",
+            "label": "2007-2008",
+            "startYear": 2007,
+            "endYear": 2008,
+            "low": 5000,
+            "high": 9000,
+            "basis": "Used complete-package screening estimate. Motor age, trailer, floor/transom condition, canvas, electronics and regional demand can move an individual package outside the range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.littlegullmarina.ca/wordpress/wp-content/uploads/Ultracraft-boats.pdf",
+          "https://www.boatcovers.com/product_info1.php?cPath=1_185&products_id=4462&sc_products_id=174"
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2007-2008; 2010",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Legend | 17 Xcalibur full-windshield",
+      "manufacturer": "Legend",
+      "model": "17 Xcalibur full-windshield",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Legend | 17 Xcalibur full-windshield:gen:2007",
+        "label": "2007 cited specification snapshot",
+        "startYear": 2007,
+        "endYear": 2007,
+        "status": "cited-snapshot",
+        "specificationBasis": "2007 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.",
+        "sourceUrl": "https://www.kijiji.ca/b-powerboat-motorboat/ontario/legend-seats/k0c327l9004",
+        "specs": {
+          "Length": {
+            "value": "16'6\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "90\"",
+            "confidence": "cited-source-exact"
+          },
+          "Chine / Bottom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Dry Hull Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max / Bow Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Cockpit / Interior Depth": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Deadrise": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Height": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Transom Width": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Max HP": {
+            "value": "90 observed; verify capacity plate",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Capacity Weight": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Fuel Capacity": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Bottom Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "Not published",
+            "confidence": "catalog-representative"
+          },
+          "Construction": {
+            "value": "All-welded aluminum; verify exact hull and repairs",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Legend | 17 Xcalibur full-windshield:value:2000s",
+            "label": "2000s",
+            "startYear": 2000,
+            "endYear": 2009,
+            "low": 3500,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2007 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Legend | 17 Xcalibur full-windshield",
+      "manufacturer": "Legend",
+      "model": "17 Xcalibur full-windshield",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Legend | 17 Xcalibur full-windshield:gen:unresolved",
+        "label": "Other advertised years — specifications and pricing unresolved",
+        "startYear": 2000,
+        "endYear": 2009,
+        "status": "unresolved",
+        "specificationBasis": "BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2005–2008; 2006–2007 surviving-listing basis",
+        "sourceUrl": "https://www.kijiji.ca/b-powerboat-motorboat/ontario/legend-seats/k0c327l9004",
+        "specs": {},
+        "eras": []
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "2007 exact cited specification; other advertised years unresolved",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 176 DC",
+      "manufacturer": "Starcraft",
+      "model": "Fishmaster 176 DC",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005",
+        "label": "1999–2005 production identity — exact annual tables source exhausted",
+        "startYear": 1999,
+        "endYear": 2005,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "Fitment and annual model records establish the Fishmaster 176 DC through 1999–2005, but the surviving archive did not support applying the complete 2006 table backward.",
+        "sourceUrl": "https://starcraftmarine.com/resources/legacy-catalogs/",
+        "specs": {
+          "Layout": {
+            "value": "Factory dual-console/full walk-through windshield",
+            "confidence": "source-exhausted-partial"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V; period carpeted interior",
+            "confidence": "source-exhausted-partial"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005:value:1999–2005",
+            "label": "1999–2005",
+            "startYear": 1999,
+            "endYear": 2005,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range; floor/transom reconstruction and motor condition dominate"
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1999–2006; 2006 exact snapshot, earlier span source-exhausted",
+        "Dry Hull Weight": "Varies by selected hull generation",
+        "Length": "Varies by selected hull generation",
+        "Beam": "Varies by selected hull generation"
+      }
+    },
+    {
+      "boatId": "boat:Northwood | 170 Pro Tourney",
+      "manufacturer": "Northwood",
+      "model": "170 Pro Tourney",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Northwood | 170 Pro Tourney:gen:1994-seller-evidence",
+        "label": "1994 seller-labeled 170 Pro Tourney — source-exhausted",
+        "startYear": 1994,
+        "endYear": 1994,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "An exact 1994 seller listing verifies the Northwood 170 Pro Tourney identity and aluminum fishing layout. No surviving year-specific factory table was found, so dimensions, capacity and structural specifications remain unknown rather than being copied from the later SC/DC fitment span.",
+        "sourceUrl": "https://yachtsboatslist.com/other-makes/66414-northwood-170-pro-tourney-aluminum-boat-with-load-rite-trailer.html",
+        "specs": {
+          "Length": {
+            "value": "Seller-labeled 17-foot class; exact factory LOA not recovered",
+            "confidence": "source-exhausted"
+          },
+          "Construction": {
+            "value": "Aluminum V-hull",
+            "confidence": "listing-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Northwood | 170 Pro Tourney:value:1994-seller-evidence",
+            "label": "1994 complete used package",
+            "startYear": 1994,
+            "endYear": 1994,
+            "low": 2500,
+            "high": 4500,
+            "basis": "Screening range for a complete running aluminum fishing package, calibrated from surviving exact-family listings and auction results; motor, floor and trailer condition control."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1994–1998 seller evidence; SC/DC configuration fitment verified 1995–1997",
+        "Dry Hull Weight": "Not published",
+        "Length": "16'9\" documented for SC; DC exact length not yet verified",
+        "Beam": "83\" documented for SC; DC beam not yet verified"
+      }
+    },
+    {
+      "boatId": "boat:Northwood | 170 Pro Tourney",
+      "manufacturer": "Northwood",
+      "model": "170 Pro Tourney",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Northwood | 170 Pro Tourney:gen:1995-1997-sc-dc",
+        "label": "1995–1997 170 Pro Tourney — SC or DC / windshield",
+        "startYear": 1995,
+        "endYear": 1997,
+        "status": "closed-partial-specification",
+        "specificationBasis": "Exact ShoreTex custom-cover records identify both 170 Pro Tourney SC and 170 Pro Tourney DC for 1995–1997; Carver bimini records call the configurations 171 SC and 172 DC. Surviving specification evidence documents the SC at 16 ft 9 in and 83 in beam. The DC/windshield option is verified, but its exact factory dimensions were not recovered and are not assumed identical.",
+        "sourceUrl": "https://www.boatcovers.com/custom/northwood-boat-covers",
+        "specs": {
+          "Length": {
+            "value": "16'9\" documented for SC; DC exact factory LOA not recovered",
+            "confidence": "configuration-specific-partial"
+          },
+          "Beam": {
+            "value": "83\" documented for SC; DC exact factory beam not recovered",
+            "confidence": "configuration-specific-partial"
+          },
+          "Layout": {
+            "value": "SC side console or DC dual console / windshield",
+            "confidence": "fitment-verified"
+          },
+          "Construction": {
+            "value": "Aluminum V-hull; seam method not verified",
+            "confidence": "listing-verified"
+          },
+          "Max HP": {
+            "value": "Not recovered; verify capacity plate (surviving packages use 50–120 hp)",
+            "confidence": "unknown"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Northwood | 170 Pro Tourney:value:1995-1997-sc-dc",
+            "label": "1995–1997 complete used package",
+            "startYear": 1995,
+            "endYear": 1997,
+            "low": 2800,
+            "high": 5500,
+            "basis": "Exact-model auction and listing evidence ranges from roughly low-$2,000 auction outcomes to $5,500 asking packages. This screening band assumes a running motor and usable trailer; soft floors, leaking trim systems and neglected trailers move the boat to manual evaluation."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1994–1998 seller evidence; SC/DC configuration fitment verified 1995–1997",
+        "Dry Hull Weight": "Not published",
+        "Length": "16'9\" documented for SC; DC exact length not yet verified",
+        "Beam": "83\" documented for SC; DC beam not yet verified"
+      }
+    },
+    {
+      "boatId": "boat:Northwood | 170 Pro Tourney",
+      "manufacturer": "Northwood",
+      "model": "170 Pro Tourney",
+      "idealMatch": false,
+      "generation": {
+        "id": "boat:Northwood | 170 Pro Tourney:gen:1998-seller-evidence",
+        "label": "1998 seller-labeled 170 Pro Tourney — source-exhausted",
+        "startYear": 1998,
+        "endYear": 1998,
+        "status": "source-exhausted-partial",
+        "specificationBasis": "A surviving 1998 owner listing identifies a Northwoods 170 Pro Tourney with 90 hp Mariner and reports an owner-measured 17 ft 8 in overall length. Cover-fitment records end the formal 170 SC/DC span in 1997 and introduce the 175 Supreme DC for 1998, so this row preserves the seller evidence without treating the measurement as a verified factory redesign.",
+        "sourceUrl": "https://www.kelolandautomall.com/inventory/details/used/NORTHWOODS-FISHING-BOAT/170-PRO-TOURNEY/1998/sioux-falls/South-Dakota/3465672",
+        "specs": {
+          "Length": {
+            "value": "17'8\" owner-measured; factory LOA not recovered",
+            "confidence": "seller-reported"
+          },
+          "Layout": {
+            "value": "Fishing layout with Bimini; exact SC/DC factory designation not recovered",
+            "confidence": "seller-reported"
+          },
+          "Construction": {
+            "value": "Aluminum V-hull",
+            "confidence": "listing-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Northwood | 170 Pro Tourney:value:1998-seller-evidence",
+            "label": "1998 complete used package",
+            "startYear": 1998,
+            "endYear": 1998,
+            "low": 3000,
+            "high": 6000,
+            "basis": "Screening range for a complete running late-1990s Northwood fishing package, calibrated from exact-family asking and auction evidence. Verify the capacity plate and actual model identity before relying on this row."
+          }
+        ]
+      },
+      "topLevelDetails": {
+        "Model Years / Era": "1994–1998 seller evidence; SC/DC configuration fitment verified 1995–1997",
+        "Dry Hull Weight": "Not published",
+        "Length": "16'9\" documented for SC; DC exact length not yet verified",
+        "Beam": "83\" documented for SC; DC beam not yet verified"
+      }
+    }
+  ]
+}
