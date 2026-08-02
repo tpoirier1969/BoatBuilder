@@ -2,6 +2,7 @@
 "use strict";
 
 const PACKAGE_WEIGHT_UI_V1=true;
+const PACKAGE_WEIGHT_UI_V2=true;
 const K="boatbuilder.currentEstimate.v7";
 const OLD=["boatbuilder.currentEstimate.v6","boatbuilder.currentEstimate.v5","boatbuilder.currentEstimate.v4","boatbuilder.currentEstimate.v3","boatbuilder.currentEstimate.v2","boatbuilder.currentEstimate.v1"];
 const GEAR_KEY="boatbuilder.gearAllowance.v1";
@@ -258,10 +259,6 @@ function bind(i,rerender){
       rerender();
     }
   });
-  const bindValue=(selector,key,transform=value=>value)=>E.app.querySelectorAll(selector).forEach(control=>control.onchange=e=>{
-    const id=control.dataset[selector.slice(6,-1).replaceAll("-","")];
-    if(id===i.id){setc(i.id,{[key]:transform(e.target.value)});rerender();}
-  });
   E.app.querySelectorAll("[data-condition]").forEach(select=>select.onchange=e=>{if(select.dataset.condition===i.id){setc(i.id,{condition:e.target.value});rerender();}});
   E.app.querySelectorAll("[data-t]").forEach(select=>select.onchange=e=>{if(select.dataset.t===i.id){setc(i.id,{trailer:e.target.value});rerender();}});
   E.app.querySelectorAll("[data-hp]").forEach(control=>control.onchange=e=>{if(control.dataset.hp===i.id){setc(i.id,{hp:Number(e.target.value)||null});rerender();}});
@@ -310,9 +307,10 @@ function makers(r){
 function list(r){
   const records=items(r.c,r.s).filter(i=>i.manufacturer===r.m).sort((a,b)=>a.model.localeCompare(b.model));
   E.app.innerHTML=heading(r.m)+(r.c==="boats"?`<aside class="manufacturer-note"><strong>Generation audit:</strong> Every model identifies its specification basis. Broad spans remain flagged until redesign boundaries are verified.</aside>`:"")+`<section class="card-list">${records.map(i=>{
-    const p=price(i,work(i.id));
+    const c=work(i.id),p=price(i,c),w=W.itemWeight(i,c);
     const priceHtml=Number.isFinite(p.low)&&Number.isFinite(p.high)?`<span class="price">${fr(p)}</span>`:"";
-    return `<article class="item-card"><button class="item-open" data-i="${esc(i.id)}"><strong>${esc(i.model)}</strong><span>${esc(i.subtitle||"")}${risk(i)?" · generation audit pending":""}</span></button>${priceHtml}</article>`;
+    const weightHtml=w.display?`<span class="weight-brief${w.complete?"":" incomplete"}">${w.complete?W.formatRange(w):i.categoryId==="boats"&&choices(i).length>1&&!selectedChoice(i,c)?"Choose year for weight":"Weight incomplete"}</span>`:"";
+    return `<article class="item-card"><button class="item-open" data-i="${esc(i.id)}"><strong>${esc(i.model)}</strong><span>${esc(i.subtitle||"")}${risk(i)?" · generation audit pending":""}</span></button><div class="item-metrics">${priceHtml}${weightHtml}</div></article>`;
   }).join("")}</section>`;
   E.app.querySelectorAll("[data-i]").forEach(button=>button.onclick=()=>nav("item/"+encodeURIComponent(button.dataset.i)));
 }

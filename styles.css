@@ -579,3 +579,25 @@ main {
 @media (min-width: 48rem) {
   .estimate-summary { grid-template-columns: repeat(4,minmax(0,1fr)); }
 }
+
+
+/* PACKAGE_WEIGHT_UI_V2 */
+.item-metrics {
+  display: grid;
+  justify-items: end;
+  gap: .25rem;
+  min-width: 6.2rem;
+}
+.weight-brief {
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 750;
+  text-align: right;
+  white-space: nowrap;
+}
+.weight-brief.incomplete { color: var(--danger); }
+@media (max-width: 24rem) {
+  .item-card { grid-template-columns: minmax(0,1fr); }
+  .item-metrics { justify-items: start; }
+  .weight-brief { text-align: left; }
+}

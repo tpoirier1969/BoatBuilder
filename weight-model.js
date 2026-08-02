@@ -24,7 +24,7 @@ const number=value=>Number.isFinite(Number(value))?Number(value):null;
 const round5=value=>Math.max(0,Math.round(value/5)*5);
 const detailMap=item=>new Map((item?.details||[]).map(detail=>[detail.label,detail.value]));
 const specText=value=>clean(value&&typeof value==="object"&&"value"in value?value.value:value);
-const range=(low,high,basis,confidence="estimated",required=false)=>({low:round5(low),high:round5(high),basis,confidence,required});
+const range=(low,high,basis,confidence="estimated",required=false)=>({low:Number(low),high:Number(high),basis,confidence,required});
 const unavailable=(basis,required=true)=>({low:null,high:null,basis,confidence:"unavailable",required});
 
 function numericRange(values){
@@ -92,7 +92,7 @@ function fuelWeight(item,config={}){
   if(percent===0)return range(0,0,"Fuel set to empty","user");
   const gallonsOverride=number(config.fuelGallons);
   let gallons=gallonsOverride>0?{low:gallonsOverride,high:gallonsOverride}:gallonRangeFromText(spec(item,config,"Fuel Capacity"));
-  if(!gallons)return unavailable("Fuel capacity is unpublished. Enter carried gallons or choose empty fuel.",false);
+  if(!gallons)return unavailable("Fuel capacity is unpublished. Enter carried gallons or choose empty fuel.",true);
   return range(gallons.low*FUEL_LB_PER_GAL*(percent/100),gallons.high*FUEL_LB_PER_GAL*(percent/100),gallonsOverride>0?`${percent}% of user-entered ${gallonsOverride} gal fuel capacity`:`${percent}% of published fuel capacity at 6.2 lb/gal`,gallonsOverride>0?"user":"published-derived");
 }
 function boatLength(item,config={}){

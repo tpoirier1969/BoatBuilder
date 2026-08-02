@@ -40,7 +40,7 @@ for(const boat of boats){
       assert.equal(hull.confidence,"unavailable",`${generation.id} must remain unavailable instead of estimated`);
       assert.equal(item.complete,false,`${generation.id} incorrectly claims a complete package weight`);
       const overridden=W.hullWeight(boat,{...config,weightOverride:1234});
-      assert.deepEqual([overridden.low,overridden.high],[1235,1235],`${generation.id} user override failed`);
+      assert.deepEqual([overridden.low,overridden.high],[1234,1234],`${generation.id} user override failed`);
       assert.equal(overridden.confidence,"user",`${generation.id} override is not labeled user-entered`);
     }
   }
