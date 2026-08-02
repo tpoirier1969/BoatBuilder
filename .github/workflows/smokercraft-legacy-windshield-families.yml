@@ -23,7 +23,7 @@ jobs:
         run: git fetch origin main
       - name: Add legacy Smoker Craft records
         run: node scripts/add-smokercraft-legacy-windshield-families.mjs
-      - name: Update focused Smoker Craft QA counts
+      - name: Update Smoker Craft QA guards
         run: node scripts/update-smokercraft-legacy-qa-counts.mjs
       - name: Regenerate catalog roster baseline
         run: node scripts/report-all-manufacturer-roster-baseline.mjs
@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/boats.js research/all-manufacturer-roster-gaps.json reports/all-manufacturer-roster-baseline.json reports/all-manufacturer-roster-baseline.md reports/all-manufacturer-roster-gaps.json reports/all-manufacturer-roster-gaps.md reports/smokercraft-legacy-windshield-families.json reports/smokercraft-legacy-windshield-families-ci.log tests/smoker-craft-qa.mjs
+          git add data/boats.js research/all-manufacturer-roster-gaps.json reports/all-manufacturer-roster-baseline.json reports/all-manufacturer-roster-baseline.md reports/all-manufacturer-roster-gaps.json reports/all-manufacturer-roster-gaps.md reports/smokercraft-legacy-windshield-families.json reports/smokercraft-legacy-windshield-families-ci.log tests/qa.mjs tests/smoker-craft-qa.mjs tests/smokercraft-legacy-windshield-families-qa.mjs
           if ! git diff --cached --quiet; then
             git commit -m "Apply legacy Smoker Craft windshield-family additions"
             git push
