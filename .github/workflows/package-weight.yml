@@ -28,6 +28,7 @@ jobs:
             node scripts/refine-package-weight-ui.mjs
           fi
           node scripts/apply-published-hull-weights.mjs
+          node scripts/remove-conflicted-hull-weights.mjs
           node scripts/add-published-weight-era-support.mjs
           node scripts/report-weight-coverage.mjs
           node scripts/report-equipment-weight-scope.mjs
