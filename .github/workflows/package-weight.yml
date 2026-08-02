@@ -24,7 +24,9 @@ jobs:
         run: |
           set -euo pipefail
           node scripts/apply-package-weight-ui.mjs
-          node scripts/refine-package-weight-ui.mjs
+          if ! grep -q "PACKAGE_WEIGHT_UI_V2" app.js; then
+            node scripts/refine-package-weight-ui.mjs
+          fi
           node scripts/report-weight-coverage.mjs
           node scripts/report-equipment-weight-scope.mjs
           node scripts/report-weight-targets.mjs
