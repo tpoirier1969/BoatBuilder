@@ -21,4 +21,13 @@ if (!global.includes('const smokerCraft = assertStrictMaker("Smoker Craft", 25, 
 }
 fs.writeFileSync(globalPath, global);
 
-console.log("Updated global and focused Smoker Craft QA counts for seven added legacy windshield records.");
+const batchPath = "tests/smokercraft-legacy-windshield-families-qa.mjs";
+let batch = fs.readFileSync(batchPath, "utf8");
+batch = batch.replace(
+  /assert\.deepEqual\(chronology\(([^)]+)\), (\[[^\n]+), ("[^"\n]+")\);/g,
+  'assert.equal(JSON.stringify(chronology($1)), JSON.stringify($2), $3);'
+);
+if (batch.includes("assert.deepEqual(chronology(")) throw new Error("Cross-realm chronology assertions remain");
+fs.writeFileSync(batchPath, batch);
+
+console.log("Updated Smoker Craft counts and normalized cross-realm chronology assertions.");
