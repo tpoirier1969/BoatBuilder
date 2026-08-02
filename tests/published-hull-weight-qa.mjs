@@ -30,9 +30,12 @@ assert.equal(weight(boat("Smoker Craft","Pro Mag 182"),1994,1999),"1,310 lb");
 assert.equal(weight(boat("Smoker Craft","Pro Mag 162"),2001,2001),"960 lb");
 assert.equal(weight(boat("Starcraft","Fishmaster 196"),2007,2009),"1,498 lb");
 assert.equal(weight(boat("Starcraft","Fishmaster 196"),2016,2024),"1,430 lb");
-assert.equal(weight(boat("Starcraft","Superfisherman 186"),2025,2026),"1,985 lb");
 assert.equal(weight(boat("Tracker","Pro Guide V-175 WT"),2011,2011),"1,385 lb");
 assert.equal(weight(boat("Triton","DV186 DC Magnum"),2006,2006),"1,300 lb");
+
+const conflicted186=generation(boat("Starcraft","Superfisherman 186"),2025,2026);
+assert.ok(!conflicted186.specs?.["Dry Hull Weight"],"Conflicted Superfisherman 186 weight must remain unavailable");
+assert.match(conflicted186.weightNote||"",/conflict/i,"Conflicted Superfisherman 186 weight note is missing");
 
 const trophy=generation(boat("Alumacraft","Trophy 170"),1988,1989);
 assert.deepEqual(JSON.parse(JSON.stringify(trophy.weightEras.map(({startYear,endYear,lowLb,highLb})=>({startYear,endYear,lowLb,highLb})))),[
@@ -66,4 +69,5 @@ for(const entry of boats){
 
 const additions=JSON.parse(fs.readFileSync("reports/published-hull-weight-additions.json","utf8"));
 assert.ok(additions.count>=25,"Published hull-weight addition count unexpectedly small");
-console.log(JSON.stringify({boats:boats.length,publishedWeightAdditions:additions.count}));
+assert.ok(additions.excludedConflicts?.some(entry=>entry.generationId===conflicted186.id),"Conflict exclusion is missing from the published-weight report");
+console.log(JSON.stringify({boats:boats.length,publishedWeightAdditions:additions.count,excludedConflicts:additions.excludedConflicts.length}));
