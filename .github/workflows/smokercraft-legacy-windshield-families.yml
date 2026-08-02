@@ -31,10 +31,14 @@ jobs:
           fi
       - name: Update Smoker Craft QA guards
         run: node scripts/update-smokercraft-legacy-qa-counts.mjs
-      - name: Regenerate catalog roster baseline
-        run: node scripts/report-all-manufacturer-roster-baseline.mjs
-      - name: Regenerate remaining roster-gap report
-        run: node scripts/report-all-manufacturer-roster-gaps.mjs
+      - name: Regenerate roster reports only during the one-time migration
+        run: |
+          if [ -f reports/smokercraft-legacy-windshield-families.json ]; then
+            echo "Migration report already exists; preserving committed report timestamps."
+          else
+            node scripts/report-all-manufacturer-roster-baseline.mjs
+            node scripts/report-all-manufacturer-roster-gaps.mjs
+          fi
       - name: Run canonical BoatBuilder QA
         run: node tests/qa.mjs
       - name: Run focused Smoker Craft QA
