@@ -29,6 +29,7 @@ jobs:
           fi
           node scripts/apply-published-hull-weights.mjs
           node scripts/remove-conflicted-hull-weights.mjs
+          node scripts/apply-published-hull-weights-2.mjs
           node scripts/add-published-weight-era-support.mjs
           node scripts/report-weight-coverage.mjs
           node scripts/report-equipment-weight-scope.mjs
@@ -37,6 +38,7 @@ jobs:
           node --check app.js
           node tests/qa.mjs
           node tests/published-hull-weight-qa.mjs
+          node tests/published-hull-weight-qa-2.mjs
           node tests/package-weight-qa.mjs
       - name: Commit verified package-weight upgrade
         shell: bash
@@ -45,6 +47,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/boats.js app.js index.html styles.css weight-model.js tests/package-weight-qa.mjs reports/published-hull-weight-additions.json reports/weight-coverage.json reports/weight-coverage.md reports/equipment-weight-scope.json reports/equipment-weight-scope.md reports/weight-targets.json reports/weight-targets.md
           if ! git diff --cached --quiet; then
-            git commit -m "Apply published hull weights and package-weight estimator"
+            git commit -m "Complete era-specific package-weight enrichment"
             git push
           fi
