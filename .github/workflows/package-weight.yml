@@ -1,0 +1,54 @@
+name: Build package weight model
+
+on:
+  push:
+    branches:
+      - feature/package-weight
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  weight-model:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Apply package-weight upgrade and validate
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/apply-package-weight-ui.mjs
+          if ! grep -q "PACKAGE_WEIGHT_UI_V2" app.js; then
+            node scripts/refine-package-weight-ui.mjs
+          fi
+          node scripts/apply-published-hull-weights.mjs
+          node scripts/remove-conflicted-hull-weights.mjs
+          node scripts/apply-published-hull-weights-2.mjs
+          node scripts/add-published-weight-era-support.mjs
+          node scripts/enforce-selected-hull-generation.mjs
+          node scripts/block-cross-year-weight-fallback.mjs
+          node scripts/report-weight-coverage.mjs
+          node scripts/report-equipment-weight-scope.mjs
+          node scripts/report-weight-targets.mjs
+          node --check weight-model.js
+          node --check app.js
+          node tests/qa.mjs
+          node tests/published-hull-weight-qa.mjs
+          node tests/published-hull-weight-qa-2.mjs
+          node tests/package-weight-qa.mjs
+      - name: Commit verified package-weight upgrade
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/boats.js app.js index.html styles.css weight-model.js tests/package-weight-qa.mjs reports/published-hull-weight-additions.json reports/weight-coverage.json reports/weight-coverage.md reports/equipment-weight-scope.json reports/equipment-weight-scope.md reports/weight-targets.json reports/weight-targets.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Finalize era-specific package-weight estimator"
+            git push
+          fi

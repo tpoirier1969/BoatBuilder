@@ -506,3 +506,98 @@ main {
   .item-card:active,
   .estimate-button:active { transform: scale(.985); }
 }
+
+
+/* PACKAGE_WEIGHT_UI_V1 */
+.config-field input {
+  width: 100%;
+  min-height: 2.7rem;
+  padding: .5rem;
+  border: 1px solid var(--line);
+  border-radius: .55rem;
+  background: white;
+}
+.weight-controls,
+.gear-control {
+  display: grid;
+  gap: .75rem;
+  margin: 1rem 0;
+  padding: .85rem;
+  background: #f7fafb;
+  border: 1px solid var(--line);
+  border-radius: .8rem;
+}
+.weight-controls h3 { margin: 0; font-size: .95rem; }
+.weight-panel {
+  margin: 1rem 0;
+  padding: .85rem;
+  background: #f8fafb;
+  border: 1px solid var(--line);
+  border-radius: .8rem;
+}
+.weight-panel header {
+  display: flex;
+  justify-content: space-between;
+  gap: .75rem;
+  align-items: baseline;
+}
+.weight-panel header span { color: var(--muted); font-weight: 700; }
+.weight-panel header strong { font-size: 1.15rem; }
+.weight-component {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto;
+  gap: .15rem .75rem;
+  padding: .65rem 0;
+  border-top: 1px solid var(--line);
+}
+.weight-component:first-of-type { margin-top: .65rem; }
+.weight-component small {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  line-height: 1.35;
+}
+.weight-warning {
+  margin: .6rem 0 0;
+  color: var(--danger);
+  font-size: .82rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.package-warning { margin: 0 0 .8rem; padding: .8rem; background: white; border: 1px solid var(--danger); border-radius: .75rem; }
+.estimate-summary { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.estimate-summary .summary-status {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding-top: .55rem;
+  border-top: 1px solid rgba(255,255,255,.25);
+  font-weight: 800;
+}
+.weight-status-over,
+.weight-status-incomplete { background: #6f2d2d; }
+.weight-status-near { background: #6a4920; }
+.weight-status-caution { background: #3f5962; }
+@media (min-width: 48rem) {
+  .estimate-summary { grid-template-columns: repeat(4,minmax(0,1fr)); }
+}
+
+
+/* PACKAGE_WEIGHT_UI_V2 */
+.item-metrics {
+  display: grid;
+  justify-items: end;
+  gap: .25rem;
+  min-width: 6.2rem;
+}
+.weight-brief {
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 750;
+  text-align: right;
+  white-space: nowrap;
+}
+.weight-brief.incomplete { color: var(--danger); }
+@media (max-width: 24rem) {
+  .item-card { grid-template-columns: minmax(0,1fr); }
+  .item-metrics { justify-items: start; }
+  .weight-brief { text-align: left; }
+}

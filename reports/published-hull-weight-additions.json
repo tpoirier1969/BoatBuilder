@@ -1,0 +1,448 @@
+{
+  "generatedAt": "2026-08-02T16:27:50.112Z",
+  "count": 35,
+  "touched": [
+    {
+      "boatId": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam)",
+      "generationId": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1988-1989",
+      "weightEras": [
+        {
+          "label": "1988 Trophy 170",
+          "startYear": 1988,
+          "endYear": 1988,
+          "lowLb": 875,
+          "highLb": 875,
+          "basis": "1988 annual manufacturer roster lists the Trophy 170 at 875 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/1988/alumacraft-boat-co"
+        },
+        {
+          "label": "1989 Trophy 170 Combo",
+          "startYear": 1989,
+          "endYear": 1989,
+          "lowLb": 1725,
+          "highLb": 1725,
+          "basis": "1989 annual roster lists the Trophy 170 Combo at 1,725 lb; do not carry the 1988 hull weight forward.",
+          "sourceUrl": "https://www.jdpower.com/boats/1989/alumacraft-boat-co"
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC",
+      "generationId": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2002-2006",
+      "value": "1,100 lb"
+    },
+    {
+      "boatId": "boat:Crestliner | Super Hawk 1800 WT",
+      "generationId": "boat:Crestliner | Super Hawk 1800 WT:gen:2004-2007",
+      "value": "1,470 lb"
+    },
+    {
+      "boatId": "boat:Crestliner | Vision 1600 WT",
+      "generationId": "boat:Crestliner | Vision 1600 WT:gen:2014-2015",
+      "value": "935 lb"
+    },
+    {
+      "boatId": "boat:Crestliner | Vision 1700 WT",
+      "generationId": "boat:Crestliner | Vision 1700 WT:gen:2015",
+      "value": "1,190 lb"
+    },
+    {
+      "boatId": "boat:G3 | Angler V175 FS",
+      "generationId": "boat:G3 | Angler V175 FS:gen:2006-2009",
+      "value": "1,460 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Fazer 172",
+      "generationId": "boat:Smoker Craft | Fazer 172:gen:1989-1994",
+      "weightEras": [
+        {
+          "label": "1989-1990 172 Fazer",
+          "startYear": 1989,
+          "endYear": 1990,
+          "lowLb": 860,
+          "highLb": 860,
+          "basis": "1989 172GZ Fazer and 1990 172FZ Fazer Mark II annual rosters list 860 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/1989/smoker-craft-inc"
+        },
+        {
+          "label": "1991-1994 172 Fazer",
+          "startYear": 1991,
+          "endYear": 1994,
+          "lowLb": 910,
+          "highLb": 910,
+          "basis": "1991-1994 annual rosters list the 172 Fazer at 910 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/1991/smoker-craft-inc"
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Smoker Craft | Fazer 192",
+      "generationId": "boat:Smoker Craft | Fazer 192:gen:1993-1994",
+      "value": "1,100 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Fazer 192",
+      "generationId": "boat:Smoker Craft | Fazer 192:gen:1996-1999",
+      "value": "1,375 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
+      "generationId": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:1994-1999",
+      "value": "1,310 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Ultima 175",
+      "generationId": "boat:Smoker Craft | Ultima 175:gen:1994",
+      "value": "1,120 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Ultima 175",
+      "generationId": "boat:Smoker Craft | Ultima 175:gen:1996-1999",
+      "value": "1,120 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Stealth 162",
+      "generationId": "boat:Smoker Craft | Stealth 162:gen:2004",
+      "value": "660 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Pro Mag 162",
+      "generationId": "boat:Smoker Craft | Pro Mag 162:gen:2001-dual",
+      "value": "960 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)",
+      "generationId": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2001-2002",
+      "value": "1,080 lb"
+    },
+    {
+      "boatId": "boat:Starcraft | SFM 160 Superfisherman",
+      "generationId": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989",
+      "value": "650 lb"
+    },
+    {
+      "boatId": "boat:Starcraft | SFM 180 Superfisherman",
+      "generationId": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989",
+      "value": "900 lb"
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 196",
+      "generationId": "boat:Starcraft | Fishmaster 196:gen:2007-2009",
+      "value": "1,498 lb"
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 196",
+      "generationId": "boat:Starcraft | Fishmaster 196:gen:2016-2024",
+      "value": "1,430 lb"
+    },
+    {
+      "boatId": "boat:Starcraft | Superfisherman 190",
+      "generationId": "boat:Starcraft | Superfisherman 190:gen:1991-1997",
+      "weightEras": [
+        {
+          "label": "1991 Superfisherman 190",
+          "startYear": 1991,
+          "endYear": 1991,
+          "lowLb": 930,
+          "highLb": 930,
+          "basis": "1991 annual roster lists the Superfisherman 190 at 930 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/1991/starcraft-co/power-boats"
+        },
+        {
+          "label": "1992-1993 Superfisherman 190",
+          "startYear": 1992,
+          "endYear": 1993,
+          "lowLb": 1050,
+          "highLb": 1050,
+          "basis": "1992-1993 annual rosters list the Superfisherman 190 at 1,050 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/1992/starcraft-co"
+        },
+        {
+          "label": "1994-1997 Superfisherman 190",
+          "startYear": 1994,
+          "endYear": 1997,
+          "lowLb": 1183,
+          "highLb": 1183,
+          "basis": "1994-1997 annual rosters list the Superfisherman 190 at 1,183 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/1994/starcraft-co/power-boats"
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Starcraft | STX 2050 Aluminum",
+      "generationId": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026",
+      "value": "2,160 lb"
+    },
+    {
+      "boatId": "boat:Starweld | Fusion 16 DC",
+      "generationId": "boat:Starweld | Fusion 16 DC:gen:2018-2020",
+      "value": "1,045 lb"
+    },
+    {
+      "boatId": "boat:Starweld | Fusion 16 DC",
+      "generationId": "boat:Starweld | Fusion 16 DC:gen:2022-2026",
+      "value": "925 lb"
+    },
+    {
+      "boatId": "boat:Starweld | Fusion 18 DC",
+      "generationId": "boat:Starweld | Fusion 18 DC:gen:2018-2020",
+      "value": "1,225 lb"
+    },
+    {
+      "boatId": "boat:Starweld | Fusion 18 DC",
+      "generationId": "boat:Starweld | Fusion 18 DC:gen:2022-2025",
+      "value": "1,165 lb"
+    },
+    {
+      "boatId": "boat:Tracker | Pro Guide V-175 WT",
+      "generationId": "boat:Tracker | Pro Guide V-175 WT:gen:2011",
+      "value": "1,385 lb"
+    },
+    {
+      "boatId": "boat:Tracker | Tundra 18 DC / WT",
+      "generationId": "boat:Tracker | Tundra 18 DC / WT:gen:2003",
+      "value": "1,460 lb"
+    },
+    {
+      "boatId": "boat:Triton | DV186 DC Magnum",
+      "generationId": "boat:Triton | DV186 DC Magnum:gen:2006",
+      "value": "1,300 lb"
+    },
+    {
+      "boatId": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)",
+      "generationId": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2019-2024",
+      "weightEras": [
+        {
+          "label": "2019-2023 Osprey 162",
+          "startYear": 2019,
+          "endYear": 2023,
+          "lowLb": 1075,
+          "highLb": 1075,
+          "basis": "2019, 2020, 2022 and 2023 annual rosters list the Osprey 162 at 1,075 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2023/smoker-craft-inc"
+        }
+      ],
+      "choiceEras": [
+        {
+          "label": "2019-2023 Osprey 162",
+          "startYear": 2019,
+          "endYear": 2023
+        },
+        {
+          "label": "2024 Osprey 162 identity",
+          "startYear": 2024,
+          "endYear": 2024
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 176 DC",
+      "generationId": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005",
+      "weightEras": [
+        {
+          "label": "1999-2000 Fishmaster 176 DC",
+          "startYear": 1999,
+          "endYear": 2000,
+          "lowLb": 1176,
+          "highLb": 1176,
+          "basis": "1999 and 2000 annual rosters list the Fishmaster 176 DC at 1,176 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2000/starcraft-co/power-boats"
+        },
+        {
+          "label": "2001-2004 Fishmaster 176 DC",
+          "startYear": 2001,
+          "endYear": 2004,
+          "lowLb": 1175,
+          "highLb": 1175,
+          "basis": "2002 through 2004 annual rosters list the Fishmaster 176 DC at 1,175 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2004/starcraft-co/power-boats"
+        },
+        {
+          "label": "2005 Fishmaster 176 DC",
+          "startYear": 2005,
+          "endYear": 2005,
+          "lowLb": 1195,
+          "highLb": 1195,
+          "basis": "2005 annual roster lists the Fishmaster 176 DC at 1,195 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2005/starcraft-co/power-boats"
+        }
+      ],
+      "choiceEras": [
+        {
+          "label": "1999-2000 Fishmaster 176 DC",
+          "startYear": 1999,
+          "endYear": 2000
+        },
+        {
+          "label": "2001-2004 Fishmaster 176 DC",
+          "startYear": 2001,
+          "endYear": 2004
+        },
+        {
+          "label": "2005 Fishmaster 176 DC",
+          "startYear": 2005,
+          "endYear": 2005
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 196",
+      "generationId": "boat:Starcraft | Fishmaster 196:gen:1999-2006",
+      "weightEras": [
+        {
+          "label": "1999-2004 Fishmaster 196",
+          "startYear": 1999,
+          "endYear": 2004,
+          "lowLb": 1430,
+          "highLb": 1430,
+          "basis": "1999 through 2004 annual rosters list the aluminum Fishmaster 196/DC at 1,430 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2004/starcraft-co/power-boats"
+        },
+        {
+          "label": "2005-2006 Fishmaster 196 DC",
+          "startYear": 2005,
+          "endYear": 2006,
+          "lowLb": 1470,
+          "highLb": 1470,
+          "basis": "2005 and 2006 annual rosters list the Fishmaster 196 DC at 1,470 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2006/starcraft-co/power-boats"
+        }
+      ],
+      "choiceEras": [
+        {
+          "label": "1999-2004 Fishmaster 196",
+          "startYear": 1999,
+          "endYear": 2004
+        },
+        {
+          "label": "2005-2006 Fishmaster 196 DC",
+          "startYear": 2005,
+          "endYear": 2006
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Starcraft | Starfish 176 DC / WT",
+      "generationId": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007",
+      "weightEras": [
+        {
+          "label": "2006-2007 Starfish 176 DC",
+          "startYear": 2006,
+          "endYear": 2007,
+          "lowLb": 1195,
+          "highLb": 1195,
+          "basis": "2006 and 2007 annual rosters list the Starfish 176 DC at 1,195 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2007/starcraft-co/power-boats"
+        }
+      ],
+      "choiceEras": [
+        {
+          "label": "2006-2007 Starfish 176 DC",
+          "startYear": 2006,
+          "endYear": 2007
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Starcraft | Starfish 176 DC / WT",
+      "generationId": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017",
+      "weightEras": [
+        {
+          "label": "2016-2017 Starfish 176 DC",
+          "startYear": 2016,
+          "endYear": 2017,
+          "lowLb": 1176,
+          "highLb": 1176,
+          "basis": "2016 and 2017 annual rosters list the Starfish 176 DC at 1,176 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2017/starcraft-co/power-boats"
+        }
+      ],
+      "choiceEras": [
+        {
+          "label": "2016-2017 Starfish 176 DC",
+          "startYear": 2016,
+          "endYear": 2017
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Starcraft | STX 2050 Aluminum",
+      "generationId": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024",
+      "weightEras": [
+        {
+          "label": "2016-2020 STX 2050",
+          "startYear": 2016,
+          "endYear": 2020,
+          "lowLb": 1650,
+          "highLb": 1650,
+          "basis": "2016 through 2020 annual rosters list the 20-foot STX 2050 at 1,650 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2020/starcraft-co"
+        },
+        {
+          "label": "2021-2024 STX 2050",
+          "startYear": 2021,
+          "endYear": 2024,
+          "lowLb": 2160,
+          "highLb": 2160,
+          "basis": "2021 through 2024 annual rosters list the redesigned 21-foot STX 2050 at 2,160 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2024/starcraft-co"
+        }
+      ],
+      "choiceEras": [
+        {
+          "label": "2016-2020 STX 2050",
+          "startYear": 2016,
+          "endYear": 2020
+        },
+        {
+          "label": "2021-2024 STX 2050",
+          "startYear": 2021,
+          "endYear": 2024
+        }
+      ]
+    },
+    {
+      "boatId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
+      "generationId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024",
+      "weightEras": [
+        {
+          "label": "2017-2021 Superfisherman 186",
+          "startYear": 2017,
+          "endYear": 2021,
+          "lowLb": 1333,
+          "highLb": 1333,
+          "basis": "2017 through 2021 annual rosters list the Superfisherman 186 at 1,333 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2020/starcraft-co"
+        },
+        {
+          "label": "2022-2024 Superfisherman 186",
+          "startYear": 2022,
+          "endYear": 2024,
+          "lowLb": 1985,
+          "highLb": 1985,
+          "basis": "2022 through 2024 annual rosters list the redesigned Superfisherman 186 at 1,985 lb.",
+          "sourceUrl": "https://www.jdpower.com/boats/2024/starcraft-co"
+        }
+      ],
+      "choiceEras": [
+        {
+          "label": "2017-2021 Superfisherman 186",
+          "startYear": 2017,
+          "endYear": 2021
+        },
+        {
+          "label": "2022-2024 Superfisherman 186",
+          "startYear": 2022,
+          "endYear": 2024
+        }
+      ]
+    }
+  ],
+  "excludedConflicts": [
+    {
+      "boatId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
+      "generationId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026",
+      "reason": "Current published dry-weight figures conflict across retained sources. BoatBuilder leaves hull weight unavailable until the conflict is resolved or the listing provides a documented actual weight."
+    }
+  ]
+}
