@@ -1,0 +1,37 @@
+name: Build package weight model
+
+on:
+  push:
+    branches:
+      - feature/package-weight
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  weight-model:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate hull-weight coverage report
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/report-weight-coverage.mjs
+          node tests/qa.mjs
+      - name: Commit generated coverage report
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/weight-coverage.json reports/weight-coverage.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate hull-weight coverage report"
+            git push
+          fi
