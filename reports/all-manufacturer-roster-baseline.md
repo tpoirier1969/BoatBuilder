@@ -1,8 +1,8 @@
 # All-Manufacturer Roster Baseline
 
-Generated 2026-08-01T18:38:55.077Z.
+Generated 2026-08-02T02:43:27.147Z.
 
-- Boat records: 176
+- Boat records: 183
 - Manufacturers represented: 24
 
 This is the catalog side of the missing-model audit. It does not claim that any manufacturer roster is complete.
@@ -25,7 +25,7 @@ This is the catalog side of the missing-model audit. It does not claim that any 
 | Polar Kraft | 4 | Frontier 179 WT; Kodiak Sport 170 FS; Kodiak Sport V180 (Primary; Outlander 2010 WT is Secondary); Outlander 2010 WT (Secondary; not Kodiak V180) |
 | Princecraft | 9 | *Nanook 168 DLX WS; *Pro 179 WS; *Sport 167 / Sport 164; *Sport 172 (Primary; Princecraft model, not a generic Sport trim); *Super Pro 176; *Xpedition 170 WS; Holiday 162 WS; Platinum SE 176; Sport 187 (Secondary; Sport 172 is Primary) |
 | Sea Nymph | 5 | *GLS195 Great Lakes Special; FM161 Fishing Machine; GLS175 Great Lakes Special; SS175 Fish & Ski; SS195 Fish & Ski |
-| Smoker Craft | 18 | *Millentia 172 WT; *Pro Angler 172 (Primary; not Lund Pro Angler); *Pro Angler 172 XL; *Ultima 172; Fazer 172; Fazer 178; Fazer 192; Millentia 182 WT (misidentified listing alias); Millentia 192 (Secondary; 172 is the target size); Osprey 162 WT (Secondary; verified WT begins in 2017); Osprey 172 WT (Secondary; verified WT begins in 2017); Phantom 170 DC; Phaser (seller spelling; likely Fazer); Pro Angler 182 XL (Secondary; 172/172 XL are Primary); Pro Mag 182 (Secondary; 172-size alternatives tow easier); Ultima 175; Ultima 178; Ultima 182 (Secondary; 172 is Primary) |
+| Smoker Craft | 25 | *Millentia 172 WT; *Pro Angler 172 (Primary; not Lund Pro Angler); *Pro Angler 172 XL; *Ultima 172; Fazer 172; Fazer 178; Fazer 192; Millentia 162 Dual; Millentia 182 WT (misidentified listing alias); Millentia 192 (Secondary; 172 is the target size); Osprey 162 WT (Secondary; verified WT begins in 2017); Osprey 172 WT (Secondary; verified WT begins in 2017); Phantom 170 DC; Phaser (seller spelling; likely Fazer); Pro Angler 162; Pro Angler 182 XL (Secondary; 172/172 XL are Primary); Pro Mag 162; Pro Mag 172; Pro Mag 182 (Secondary; 172-size alternatives tow easier); Stealth 162; Stiletto 162 / 16 Stiletto LE / 165 LE listing alias; Stinger 162 Dual / DC; Ultima 175; Ultima 178; Ultima 182 (Secondary; 172 is Primary) |
 | Spectrum / Blue Fin | 1 | 1906 |
 | Starcraft | 14 | *Starfish 176 DC / WT; *Superfisherman 176; Explorer 160 DC (Secondary; not Lund Explorer Sport, Primary); Fishmaster 170; Fishmaster 176 DC; Fishmaster 196; SFM 160 Superfisherman; SFM 180 Superfisherman; STX 2050 Aluminum; Superfisherman 170; Superfisherman 186 (Secondary; 176 is Primary); Superfisherman 190; Tournament 170 (does not meet windshield requirement); Tournament 180 (does not meet windshield requirement) |
 | Starweld | 3 | *1700 DC / WT; Fusion 16 DC; Fusion 18 DC |
@@ -238,14 +238,21 @@ This is the catalog side of the missing-model audit. It does not claim that any 
 | Fazer 172 | Secondary | 1989-1994 (model-identity-source-exhausted); 1995-1995 (factory-exact) | Factory walk-through/full windshield |
 | Fazer 178 | Primary | 1998-1999 (secondary-verified) | Factory walk-through/full windshield |
 | Fazer 192 | Primary | 1993-1994 (model-identity-source-exhausted); 1995-1995 (factory-exact); 1996-1999 (model-identity-source-exhausted) | Factory walk-through/full windshield |
+| Millentia 162 Dual | Secondary | 2001-2005 (annual-roster-family) | Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat |
 | Millentia 182 WT (misidentified listing alias) | Secondary | null-null (alias-only) | Unknown until actual model is identified |
 | Millentia 192 (Secondary; 172 is the target size) | Secondary | 2005-2005 (source-exhausted-partial); 2006-2010 (factory-supported-generation); 2011-2014 (factory-generation); 2015-2015 (source-exhausted-partial); 2016-2016 (factory-exact) | Factory walk-through/full windshield |
 | Osprey 162 WT (Secondary; verified WT begins in 2017) | Secondary | 2009-2016 (source-exhausted-partial); 2017-2018 (factory-generation); 2019-2024 (source-exhausted-partial); 2025-2026 (factory-current) | Factory walk-through/full windshield |
 | Osprey 172 WT (Secondary; verified WT begins in 2017) | Secondary | 2009-2016 (source-exhausted-partial); 2017-2018 (factory-generation); 2019-2024 (source-exhausted-partial); 2025-2026 (factory-current) | Factory walk-through/full windshield |
 | Phantom 170 DC | Primary | 1996-1997 (model-identity-verified) | Factory walk-through/full windshield |
 | Phaser (seller spelling; likely Fazer) | Secondary | null-null (alias-only) | See exact Smoker Craft Fazer model/year |
+| Pro Angler 162 | Secondary | 2007-2007 (factory-exact) | Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat |
 | Pro Angler 182 XL (Secondary; 172/172 XL are Primary) | Secondary | 2015-2018 (factory-supported-generation); 2019-2024 (source-exhausted-partial); 2025-2026 (factory-current) | Factory walk-through/full windshield |
+| Pro Mag 162 | Secondary | 2001-2001 (explicit-dual-roster); 2003-2003 (annual-roster-name-row); 2006-2007 (factory-catalog-generation); 2008-2010 (factory-catalog-generation); 2019-2019 (annual-roster-snapshot) | Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat |
+| Pro Mag 172 | Primary | 2006-2007 (factory-catalog-generation); 2017-2020 (annual-roster-run) | Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat |
 | Pro Mag 182 (Secondary; 172-size alternatives tow easier) | Secondary | 1994-1999 (model-identity-source-exhausted); 2000-2010 (source-exhausted-partial); 2011-2011 (factory-exact); 2012-2012 (source-exhausted-partial); 2013-2014 (factory-generation); 2015-2016 (factory-supported-generation); 2017-2018 (factory-supported-generation); 2019-2020 (source-exhausted-partial) | Factory walk-through/full windshield |
+| Stealth 162 | Secondary | 2002-2002 (annual-roster-row); 2003-2003 (annual-roster-row); 2004-2004 (exact-model-partial) | Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat |
+| Stiletto 162 / 16 Stiletto LE / 165 LE listing alias | Secondary | 2003-2003 (annual-roster-name-row); 2004-2005 (year-specific-generation) | Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat |
+| Stinger 162 Dual / DC | Secondary | 2001-2005 (annual-roster-family); 2006-2006 (cited-weight-conflict) | Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat |
 | Ultima 175 | Primary | 1994-1994 (model-identity-source-exhausted); 1995-1995 (factory-exact); 1996-1999 (model-identity-source-exhausted) | Factory walk-through/full windshield |
 | Ultima 178 | Primary | 2001-2001 (model-identity-source-exhausted) | Factory walk-through/full windshield |
 | Ultima 182 (Secondary; 172 is Primary) | Secondary | 2001-2002 (model-identity-source-exhausted); 2015-2015 (source-exhausted-partial); 2016-2016 (factory-exact); 2017-2018 (factory-generation); 2019-2024 (source-exhausted-partial); 2025-2026 (factory-current) | Factory walk-through/full windshield |

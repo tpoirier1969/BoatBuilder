@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T18:38:55.116Z",
+  "generatedAt": "2026-08-02T02:43:27.198Z",
   "scope": {
     "purpose": "Find aluminum deep-V fishing boats missing from BoatBuilder, not merely validate records already present.",
     "criteria": [
@@ -14,7 +14,7 @@
     ],
     "claimPolicy": "No manufacturer is called roster-complete unless an independent annual roster is encoded and checked."
   },
-  "catalogBoatRecords": 176,
+  "catalogBoatRecords": 183,
   "catalogManufacturers": 24,
   "auditedManufacturers": 24,
   "candidateModelCount": 121,
@@ -1108,7 +1108,7 @@
       "highConfidence": 5,
       "mediumConfidence": 2,
       "primaryCandidates": 4,
-      "notes": "The earlier 18-row audit still missed whole Adventurer and Explorer families.",
+      "notes": "Legacy Smoker Craft full-windshield coverage now includes the Stiletto, Millentia, Stinger, Stealth and Pro Mag even-number families. The earlier roster audit over-relied on WT/DC/FS suffixes and missed models whose dual-console layout was encoded by the 162/172 designation or LE badge.",
       "reviewedSources": [
         "https://www.smokercraft.com/series/",
         "https://www.smokercraft.com/resources/legacy-catalogs/"
@@ -1165,11 +1165,11 @@
           ]
         },
         {
-          "model": "Pro Angler 162 / 162 XL",
+          "model": "Pro Angler 162 XL",
           "years": "legacy",
           "confidence": "medium",
           "classification": "primary-candidate",
-          "reason": "Legacy resource rosters show 162-size Pro Anglers; verify which years had a factory walk-through rather than a side console.",
+          "reason": "The base 2007 Pro Angler 162 is now cataloged. The later XL remains unresolved until its exact chronology and hull specifications are reconciled.",
           "evidenceUrls": [
             "https://www.smokercraft.com/resources/legacy-catalogs/"
           ]

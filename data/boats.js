@@ -38231,6 +38231,1903 @@ window.BOATBUILDER_BOATS = [
     "idealMatch": false
   },
   {
+    "id": "boat:Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Smoker Craft",
+    "model": "Stiletto 162 / 16 Stiletto LE / 165 LE listing alias",
+    "displayName": "Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias",
+    "subtitle": "2003-2005 documented 16-foot dual-console family; 165 LE badge requires HIN confirmation",
+    "badge": "Secondary",
+    "lowPrice": 3200,
+    "highPrice": 7500,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Select the documented year row before judging a listing.",
+    "sourceUrl": "https://www.jdpower.com/boats/2005/smoker-craft-inc/162-stiletto/10242897/specs",
+    "image": {
+      "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
+      "source": "https://www.boatdealers.ca/boat-reviews/2017/smokercraft/pro-angler-172",
+      "matchQuality": "Same-manufacturer layout stand-in",
+      "note": "Existing Smoker Craft image retained only as a layout stand-in; verify the exact legacy family and badge from listing photos."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2003; 2004-2005"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good for two nearshore; cramped and weather-limited for four on Lake Superior"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "75-90"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Useful inexpensive two-person boat, but its 16-foot hull, fish-and-ski furniture and carpet keep it below the stronger 17-foot trolling candidates."
+      },
+      {
+        "label": "Notes",
+        "value": "A photographed hull may be badged 165 LE while annual databases call the same era 16 Stiletto LE or 162 Stiletto. A seller's 2005 estimate fits the 2005 162 Stiletto specifications closely, but the HIN, title and capacity plate must decide the exact model year and designation."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was typical; inspect the deck substrate, carpet edges, seat bases and bilge for trapped moisture and prior repairs."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period factory configuration and surviving examples; verify the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats rather than hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "The 2003 annual roster's 16 Stiletto LE and the 2004-2005 162 Stiletto rows were reconciled as one badge/name family without claiming that every 165 LE decal is automatically a Stiletto."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias:gen:2003-le",
+        "label": "2003 16 Stiletto LE roster row",
+        "startYear": 2003,
+        "endYear": 2003,
+        "status": "annual-roster-name-row",
+        "specificationBasis": "The 2003 manufacturer roster lists a 16 Stiletto LE at 950 lb. Complete certification-table dimensions for this exact badge were not recovered, so later dimensions are not backfilled.",
+        "sourceUrl": "https://www.jdpower.com/boats/2003/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "950 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield family; verify center opening",
+            "confidence": "period-family-evidence"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V/fish-and-ski family",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias:value:2003",
+            "label": "2003",
+            "startYear": 2003,
+            "endYear": 2003,
+            "low": 3200,
+            "high": 6000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias:gen:2004-2005",
+        "label": "2004-2005 162 Stiletto",
+        "startYear": 2004,
+        "endYear": 2005,
+        "status": "year-specific-generation",
+        "specificationBasis": "Annual rosters carry the 162 Stiletto in both years. The 2005 exact-model sheet publishes the 16-foot length, 87-inch beam, 960-lb hull, 90-hp ceiling and capacities.",
+        "sourceUrl": "https://www.jdpower.com/boats/2005/smoker-craft-inc/162-stiletto/10242897/specs",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "87\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "960 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max / Bow Depth": {
+            "value": "24\"",
+            "confidence": "cited-source-exact"
+          },
+          "Transom Width": {
+            "value": "81\"",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,450 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.076\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Factory dual-console/full walk-through windshield family",
+            "confidence": "model-layout-verified"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V/fish-and-ski",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias:value:2004-2005",
+            "label": "2004-2005",
+            "startYear": 2004,
+            "endYear": 2005,
+            "low": 3500,
+            "high": 7500,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2004/smoker-craft-inc",
+          "https://www.jdpower.com/boats/2005/smoker-craft-inc"
+        ]
+      }
+    ],
+    "generationWarning": "Legacy Smoker Craft hull badges, dealer wording and factory catalog names do not always match. Verify the HIN, title, capacity plate and exact windshield opening before applying a row.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Smoker Craft | Millentia 162 Dual",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Smoker Craft",
+    "model": "Millentia 162 Dual",
+    "displayName": "Smoker Craft | Millentia 162 Dual",
+    "subtitle": "2001-2005 documented dual-console 16-foot family",
+    "badge": "Secondary",
+    "lowPrice": 3500,
+    "highPrice": 8000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Select the documented year row before judging a listing.",
+    "sourceUrl": "https://www.jdpower.com/boats/2005/smoker-craft-inc/162-millentia/10242896/specs",
+    "image": {
+      "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
+      "source": "https://www.boatdealers.ca/boat-reviews/2017/smokercraft/pro-angler-172",
+      "matchQuality": "Same-manufacturer layout stand-in",
+      "note": "Existing Smoker Craft image retained only as a layout stand-in; verify the exact legacy family and badge from listing photos."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2001-2005"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good for two; compact for four and best kept to conservative nearshore weather"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "75-90"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "A legitimate full-windshield budget candidate, but still a carpeted 16-foot boat with limited four-person working room."
+      },
+      {
+        "label": "Notes",
+        "value": "The 2001 roster explicitly calls this the 162 Millentia-Dual. Later rosters shorten the name to 162 Millentia, which caused the windshield layout to disappear from name-based auditing."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was typical; inspect the deck substrate, carpet edges, seat bases and bilge for trapped moisture and prior repairs."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period factory configuration and surviving examples; verify the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats rather than hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "The explicit 2001 Dual identity was connected to the 2002-2005 annual 162 Millentia roster. Exact 2005 dimensions are not silently presented as proof of an undocumented redesign date."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Millentia 162 Dual:gen:2001-2005",
+        "label": "2001-2005 162 Millentia Dual family",
+        "startYear": 2001,
+        "endYear": 2005,
+        "status": "annual-roster-family",
+        "specificationBasis": "The 2001 roster explicitly identifies the Dual model. Annual rosters continue the 162 Millentia through 2005, and the exact 2005 sheet supplies the retained late-run specifications.",
+        "sourceUrl": "https://www.jdpower.com/boats/2005/smoker-craft-inc/162-millentia/10242896/specs",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "2005-exact-model"
+          },
+          "Beam": {
+            "value": "87\"",
+            "confidence": "2005-exact-model"
+          },
+          "Dry Hull Weight": {
+            "value": "975 lb",
+            "confidence": "annual-roster-and-2005-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "2005-exact-model"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "2005-exact-model"
+          },
+          "Capacity Weight": {
+            "value": "1,450 lb",
+            "confidence": "2005-exact-model"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "2005-exact-model"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "2005-exact-model"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.076\"",
+            "confidence": "2005-exact-model"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield",
+            "confidence": "2001-explicit-dual-roster"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Millentia 162 Dual:value:2001-2005",
+            "label": "2001-2005",
+            "startYear": 2001,
+            "endYear": 2005,
+            "low": 3500,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2001/smoker-craft-inc",
+          "https://www.jdpower.com/boats/2002/smoker-craft-inc",
+          "https://www.jdpower.com/boats/2003/smoker-craft-inc",
+          "https://www.jdpower.com/boats/2004/smoker-craft-inc",
+          "https://www.jdpower.com/boats/2005/smoker-craft-inc"
+        ]
+      }
+    ],
+    "generationWarning": "Legacy Smoker Craft hull badges, dealer wording and factory catalog names do not always match. Verify the HIN, title, capacity plate and exact windshield opening before applying a row.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Smoker Craft | Stinger 162 Dual / DC",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Smoker Craft",
+    "model": "Stinger 162 Dual / DC",
+    "displayName": "Smoker Craft | Stinger 162 Dual / DC",
+    "subtitle": "2001-2006 documented dual-console family; 2006 weight conflict retained",
+    "badge": "Secondary",
+    "lowPrice": 2800,
+    "highPrice": 7000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Select the documented year row before judging a listing.",
+    "sourceUrl": "https://www.boats.za.net/smoker-craft/stinger-162/smoker-craft-stinger-162-2006",
+    "image": {
+      "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
+      "source": "https://www.boatdealers.ca/boat-reviews/2017/smokercraft/pro-angler-172",
+      "matchQuality": "Same-manufacturer layout stand-in",
+      "note": "Existing Smoker Craft image retained only as a layout stand-in; verify the exact legacy family and badge from listing photos."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2001-2005; 2006"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Fair for two nearshore; too narrow and compact for comfortable four-person Lake Superior fishing"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "50-60"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "The 81-inch beam and 60-hp ceiling make this more of an inland/nearshore budget boat than a serious four-person Superior platform."
+      },
+      {
+        "label": "Notes",
+        "value": "The 2001 roster explicitly labels the 162 Stinger-Dual. The model name later loses Dual even though the 162 identity continues. Published 2006 weights conflict sharply, so the capacity plate and actual trailer-scale weight matter."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was typical; inspect the deck substrate, carpet edges, seat bases and bilge for trapped moisture and prior repairs."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period factory configuration and surviving examples; verify the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats rather than hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "2001-2006 annual identities and an exact 2006 specification sheet were reconciled. The 660-lb versus 920-lb 2006 conflict is retained rather than averaged."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Stinger 162 Dual / DC:gen:2001-2005",
+        "label": "2001-2005 Stinger 162 Dual family",
+        "startYear": 2001,
+        "endYear": 2005,
+        "status": "annual-roster-family",
+        "specificationBasis": "The 2001 roster explicitly says 162 Stinger-Dual. Exact-model specifications retained across the period describe the compact 16-foot, 81-inch-beam, 60-hp platform.",
+        "sourceUrl": "https://www.jdpower.com/boats/2001/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Beam": {
+            "value": "81\"",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Dry Hull Weight": {
+            "value": "660 lb published for the family",
+            "confidence": "annual-roster-and-exact-model"
+          },
+          "Max / Bow Depth": {
+            "value": "25\"",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Transom Width": {
+            "value": "74\"",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Max HP": {
+            "value": "60",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Capacity Weight": {
+            "value": "1,200 lb",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Fuel Capacity": {
+            "value": "16 gal",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.064\"",
+            "confidence": "exact-model-secondary-source"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield",
+            "confidence": "2001-explicit-dual-roster"
+          },
+          "Construction": {
+            "value": "Riveted aluminum modified/deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Stinger 162 Dual / DC:value:2001-2005",
+            "label": "2001-2005",
+            "startYear": 2001,
+            "endYear": 2005,
+            "low": 2800,
+            "high": 6000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Smoker Craft | Stinger 162 Dual / DC:gen:2006",
+        "label": "2006 Stinger 162 published-weight conflict",
+        "startYear": 2006,
+        "endYear": 2006,
+        "status": "cited-weight-conflict",
+        "specificationBasis": "The 2006 annual roster reports 920 lb while an exact-model specification source reports 660 lb. Neither number is discarded; verify the capacity plate and actual package.",
+        "sourceUrl": "https://www.boats.za.net/smoker-craft/stinger-162/smoker-craft-stinger-162-2006",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "81\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "660 lb exact-model source / 920 lb annual roster",
+            "confidence": "cited-source-conflict"
+          },
+          "Max HP": {
+            "value": "60",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,200 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "16 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.064\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield family",
+            "confidence": "model-identity-continuation"
+          },
+          "Construction": {
+            "value": "Riveted aluminum modified/deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Stinger 162 Dual / DC:value:2006",
+            "label": "2006",
+            "startYear": 2006,
+            "endYear": 2006,
+            "low": 3200,
+            "high": 7000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2006/smoker-craft-inc"
+        ]
+      }
+    ],
+    "generationWarning": "Legacy Smoker Craft hull badges, dealer wording and factory catalog names do not always match. Verify the HIN, title, capacity plate and exact windshield opening before applying a row.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Smoker Craft | Stealth 162",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Smoker Craft",
+    "model": "Stealth 162",
+    "displayName": "Smoker Craft | Stealth 162",
+    "subtitle": "2002-2004 documented even-number windshield family; annual weight changes retained",
+    "badge": "Secondary",
+    "lowPrice": 2800,
+    "highPrice": 6500,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Select the documented year row before judging a listing.",
+    "sourceUrl": "https://www.jdpower.com/boats/2004/smoker-craft-inc/162-stealth/10242911/specs",
+    "image": {
+      "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
+      "source": "https://www.boatdealers.ca/boat-reviews/2017/smokercraft/pro-angler-172",
+      "matchQuality": "Same-manufacturer layout stand-in",
+      "note": "Existing Smoker Craft image retained only as a layout stand-in; verify the exact legacy family and badge from listing photos."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2002; 2003; 2004"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Fair for two in conservative nearshore weather; not a comfortable four-person Superior boat"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "50-60"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "Compact, light and tow-friendly, but its narrow platform and modest power ceiling are below the project's preferred big-water envelope."
+      },
+      {
+        "label": "Notes",
+        "value": "The Stealth 162 is easy to miss because the model name contains no layout suffix. The even-number 162 family belongs in the legacy dual-console screening set, but each listing still needs a windshield photo and capacity plate."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was typical; inspect the deck substrate, carpet edges, seat bases and bilge for trapped moisture and prior repairs."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period factory configuration and surviving examples; verify the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats rather than hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "Annual rosters establish 2002-2004 production. Published weight changes from 660 lb in 2002 to 600 lb in 2003; the 2004 exact-model identity is retained without inventing missing certification-table values."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Stealth 162:gen:2002",
+        "label": "2002 Stealth 162",
+        "startYear": 2002,
+        "endYear": 2002,
+        "status": "annual-roster-row",
+        "specificationBasis": "The 2002 annual roster lists the 162 Stealth at 660 lb.",
+        "sourceUrl": "https://www.jdpower.com/boats/2002/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "660 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Even-number dual-console/full-windshield family; verify listing photos",
+            "confidence": "family-naming-evidence"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Stealth 162:value:2002",
+            "label": "2002",
+            "startYear": 2002,
+            "endYear": 2002,
+            "low": 2800,
+            "high": 5000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Smoker Craft | Stealth 162:gen:2003",
+        "label": "2003 Stealth 162 lighter published row",
+        "startYear": 2003,
+        "endYear": 2003,
+        "status": "annual-roster-row",
+        "specificationBasis": "The 2003 annual roster lists the 162 Stealth at 600 lb, so it is retained separately from 2002.",
+        "sourceUrl": "https://www.jdpower.com/boats/2003/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "600 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Even-number dual-console/full-windshield family; verify listing photos",
+            "confidence": "family-naming-evidence"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Stealth 162:value:2003",
+            "label": "2003",
+            "startYear": 2003,
+            "endYear": 2003,
+            "low": 3000,
+            "high": 5500,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Smoker Craft | Stealth 162:gen:2004",
+        "label": "2004 Stealth 162 exact-model identity",
+        "startYear": 2004,
+        "endYear": 2004,
+        "status": "exact-model-partial",
+        "specificationBasis": "The 2004 exact-model roster confirms the 162 Stealth identity, but a complete trustworthy certification table was not recovered.",
+        "sourceUrl": "https://www.jdpower.com/boats/2004/smoker-craft-inc/162-stealth/10242911/specs",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "exact-model-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "Verify title/capacity plate; retained sources are incomplete",
+            "confidence": "not-reliably-published"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Even-number dual-console/full-windshield family; verify listing photos",
+            "confidence": "family-naming-evidence"
+          },
+          "Construction": {
+            "value": "Riveted aluminum fishing hull",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Stealth 162:value:2004",
+            "label": "2004",
+            "startYear": 2004,
+            "endYear": 2004,
+            "low": 3200,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      }
+    ],
+    "generationWarning": "Legacy Smoker Craft hull badges, dealer wording and factory catalog names do not always match. Verify the HIN, title, capacity plate and exact windshield opening before applying a row.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Smoker Craft | Pro Mag 162",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Smoker Craft",
+    "model": "Pro Mag 162",
+    "displayName": "Smoker Craft | Pro Mag 162",
+    "subtitle": "Discontinuous 2001, 2003, 2006-2010 and 2019 evidence; redesigns separated",
+    "badge": "Secondary",
+    "lowPrice": 3200,
+    "highPrice": 15000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Select the documented year row before judging a listing.",
+    "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2007-smokercraft-fishing.pdf",
+    "image": {
+      "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
+      "source": "https://www.boatdealers.ca/boat-reviews/2017/smokercraft/pro-angler-172",
+      "matchQuality": "Same-manufacturer layout stand-in",
+      "note": "Existing Smoker Craft image retained only as a layout stand-in; verify the exact legacy family and badge from listing photos."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2001; 2003; 2006-2007; 2008-2010; 2019"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Good for two; later wide versions are workable for three, but four remain crowded"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "75-90"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Older runs are common to possible under $14k; the 2019 package often exceeds the project budget"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "A useful 16-foot full-windshield family, but not a substitute for a 17-foot open-cockpit trolling boat."
+      },
+      {
+        "label": "Notes",
+        "value": "The Pro Mag 162 appears in discontinuous annual evidence and changed hull specifications. Do not apply the 2007 16'5-inch, 86-inch-beam figures to the 2008 16-foot, 87-inch-beam hull or to the heavier 2019 boat."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was typical; inspect the deck substrate, carpet edges, seat bases and bilge for trapped moisture and prior repairs."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period factory configuration and surviving examples; verify the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats rather than hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "Explicit 2001 Dual and 2003 LE rows, the 2006-2010 run and a separate 2019 snapshot are encoded. Unproven intervening years remain absent."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Pro Mag 162:gen:2001-dual",
+        "label": "2001 162 Pro Mag-Dual",
+        "startYear": 2001,
+        "endYear": 2001,
+        "status": "explicit-dual-roster",
+        "specificationBasis": "The 2001 roster explicitly identifies the 162 Pro Mag-Dual. Complete dimensions were not recovered for this exact early row.",
+        "sourceUrl": "https://www.jdpower.com/boats/2001/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "Verify exact early package",
+            "confidence": "not-reliably-published"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield",
+            "confidence": "explicit-dual-roster"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V family",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 162:value:2001",
+            "label": "2001",
+            "startYear": 2001,
+            "endYear": 2001,
+            "low": 3200,
+            "high": 6000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Mag 162:gen:2003-le",
+        "label": "2003 162 Pro Mag LE",
+        "startYear": 2003,
+        "endYear": 2003,
+        "status": "annual-roster-name-row",
+        "specificationBasis": "The 2003 annual roster lists the 162 Pro Mag LE at 1,115 lb. It is not joined across the missing 2002 evidence year.",
+        "sourceUrl": "https://www.jdpower.com/boats/2003/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,115 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield family",
+            "confidence": "model-family-evidence"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V family",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 162:value:2003",
+            "label": "2003",
+            "startYear": 2003,
+            "endYear": 2003,
+            "low": 3500,
+            "high": 6500,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Mag 162:gen:2006-2007",
+        "label": "2006-2007 16'5-inch Pro Mag 162",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "factory-catalog-generation",
+        "specificationBasis": "The 2007 factory specification table publishes the 16'5-inch, 86-inch-beam, 960-lb configuration. Annual rosters establish the 2006-2007 run.",
+        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2007-smokercraft-fishing.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'5\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "86\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "960 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,300 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "20 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.080\"",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.076\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield",
+            "confidence": "factory-catalog"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 162:value:2006-2007",
+            "label": "2006-2007",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 4500,
+            "high": 8500,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2006/smoker-craft-inc"
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Mag 162:gen:2008-2010",
+        "label": "2008-2010 16-foot Pro Mag 162 redesign",
+        "startYear": 2008,
+        "endYear": 2010,
+        "status": "factory-catalog-generation",
+        "specificationBasis": "The 2008 factory table changes the boat to 16'0 inches, 87-inch beam, 24-gallon fuel and a 0.100-inch bottom while retaining a 960-lb published hull weight and 90-hp ceiling.",
+        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2008-smokercraft-fishing.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "87\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "960 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "90",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,450 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.076\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield",
+            "confidence": "factory-catalog"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 162:value:2008-2010",
+            "label": "2008-2010",
+            "startYear": 2008,
+            "endYear": 2010,
+            "low": 5000,
+            "high": 9500,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Mag 162:gen:2019",
+        "label": "2019 heavier Pro Mag 162 roster snapshot",
+        "startYear": 2019,
+        "endYear": 2019,
+        "status": "annual-roster-snapshot",
+        "specificationBasis": "The 2019 annual roster lists a Pro Mag 162 at 1,140 lb. No continuity across the missing years is claimed.",
+        "sourceUrl": "https://www.jdpower.com/boats/2019/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "16-foot class",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,140 lb",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "Verify 2019 capacity plate",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Dual-console/full-windshield family",
+            "confidence": "annual-model-identity"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V family",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 162:value:2019",
+            "label": "2019",
+            "startYear": 2019,
+            "endYear": 2019,
+            "low": 9000,
+            "high": 15000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      }
+    ],
+    "generationWarning": "Legacy Smoker Craft hull badges, dealer wording and factory catalog names do not always match. Verify the HIN, title, capacity plate and exact windshield opening before applying a row.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Smoker Craft | Pro Mag 172",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Smoker Craft",
+    "model": "Pro Mag 172",
+    "displayName": "Smoker Craft | Pro Mag 172",
+    "subtitle": "2006-2007 and 2017-2020 documented runs; intervening years not assumed",
+    "badge": "Primary",
+    "lowPrice": 5500,
+    "highPrice": 18000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Select the documented year row before judging a listing.",
+    "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2007-smokercraft-fishing.pdf",
+    "image": {
+      "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
+      "source": "https://www.boatdealers.ca/boat-reviews/2017/smokercraft/pro-angler-172",
+      "matchQuality": "Same-manufacturer layout stand-in",
+      "note": "Existing Smoker Craft image retained only as a layout stand-in; verify the exact legacy family and badge from listing photos."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2006-2007; 2017-2020"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Primary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Very good for two or three; workable for four with careful cockpit layout"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "90-135"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Early run is plausible under $14k; later run often exceeds the project budget"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "The 17'2-inch, 91-inch-beam early hull is much closer to the project's preferred Lake Superior envelope than the 16-foot legacy families."
+      },
+      {
+        "label": "Notes",
+        "value": "The Pro Mag 172 is a stronger big-water candidate than the photographed 16-foot boat. The retained evidence shows an early 2006-2007 run and a later 2017-2020 return; no continuous 2008-2016 production is invented."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was typical; inspect the deck substrate, carpet edges, seat bases and bilge for trapped moisture and prior repairs."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period factory configuration and surviving examples; verify the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats rather than hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "The exact 2007 factory table and later annual rosters were encoded as two discontinuous evidence runs. The later row retains only specifications actually supported by the surviving roster evidence."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Pro Mag 172:gen:2006-2007",
+        "label": "2006-2007 early Pro Mag 172",
+        "startYear": 2006,
+        "endYear": 2007,
+        "status": "factory-catalog-generation",
+        "specificationBasis": "The 2007 factory specification table publishes the early 17'2-inch, 91-inch-beam, 1,300-lb configuration. Annual rosters establish 2006-2007 identity.",
+        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2007-smokercraft-fishing.pdf",
+        "specs": {
+          "Length": {
+            "value": "17'2\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "91\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "1,300 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "135",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,400 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "24 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.086\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield",
+            "confidence": "factory-catalog"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 172:value:2006-2007",
+            "label": "2006-2007",
+            "startYear": 2006,
+            "endYear": 2007,
+            "low": 5500,
+            "high": 10500,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2006/smoker-craft-inc"
+        ]
+      },
+      {
+        "id": "boat:Smoker Craft | Pro Mag 172:gen:2017-2020",
+        "label": "2017-2020 later Pro Mag 172 roster run",
+        "startYear": 2017,
+        "endYear": 2020,
+        "status": "annual-roster-run",
+        "specificationBasis": "Annual rosters carry the Pro Mag 172 again from 2017 through 2020. The 2019 roster publishes a 1,305-lb hull. Complete later certification-table dimensions remain year-sensitive.",
+        "sourceUrl": "https://www.jdpower.com/boats/2019/smoker-craft-inc",
+        "specs": {
+          "Length": {
+            "value": "17-foot class; verify exact later year",
+            "confidence": "annual-roster"
+          },
+          "Dry Hull Weight": {
+            "value": "1,305 lb published for 2019",
+            "confidence": "annual-roster"
+          },
+          "Max HP": {
+            "value": "Verify capacity plate for exact year",
+            "confidence": "not-reliably-published"
+          },
+          "Layout": {
+            "value": "Dual-console/full-windshield family",
+            "confidence": "annual-model-identity"
+          },
+          "Construction": {
+            "value": "Riveted aluminum deep-V family",
+            "confidence": "manufacturer-family-verified"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Mag 172:value:2017-2018",
+            "label": "2017-2018",
+            "startYear": 2017,
+            "endYear": 2018,
+            "low": 9500,
+            "high": 15000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          },
+          {
+            "id": "boat:Smoker Craft | Pro Mag 172:value:2019-2020",
+            "label": "2019-2020",
+            "startYear": 2019,
+            "endYear": 2020,
+            "low": 11000,
+            "high": 18000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2017/smoker-craft-inc",
+          "https://www.jdpower.com/boats/2018/smoker-craft-inc",
+          "https://www.jdpower.com/boats/2020/smoker-craft-inc"
+        ]
+      }
+    ],
+    "generationWarning": "Legacy Smoker Craft hull badges, dealer wording and factory catalog names do not always match. Verify the HIN, title, capacity plate and exact windshield opening before applying a row.",
+    "idealMatch": false
+  },
+  {
+    "id": "boat:Smoker Craft | Pro Angler 162",
+    "categoryId": "boats",
+    "categoryName": "Boats",
+    "manufacturer": "Smoker Craft",
+    "model": "Pro Angler 162",
+    "displayName": "Smoker Craft | Pro Angler 162",
+    "subtitle": "2007 factory-documented compact full-windshield row; later XL kept separate",
+    "badge": "Secondary",
+    "lowPrice": 4000,
+    "highPrice": 8000,
+    "priceBasis": "Generation-contained used complete-package screening estimates. Select the documented year row before judging a listing.",
+    "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2007-smokercraft-fishing.pdf",
+    "image": {
+      "url": "https://images.boatdealers.ca/boat-reviews/2016/smokercraft/w700/smoker_craft_pro_angler_172_cockpit.jpg",
+      "source": "https://www.boatdealers.ca/boat-reviews/2017/smokercraft/pro-angler-172",
+      "matchQuality": "Same-manufacturer layout stand-in",
+      "note": "Existing Smoker Craft image retained only as a layout stand-in; verify the exact legacy family and badge from listing photos."
+    },
+    "details": [
+      {
+        "label": "Model Years / Era",
+        "value": "2007"
+      },
+      {
+        "label": "Recommendation",
+        "value": "Secondary"
+      },
+      {
+        "label": "Big-Water Suitability",
+        "value": "Fair for two in conservative nearshore weather; too narrow for comfortable four-person Superior fishing"
+      },
+      {
+        "label": "Layout",
+        "value": "Factory dual-console/full walk-through windshield family; verify the center opening on the individual boat"
+      },
+      {
+        "label": "Length",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Beam",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Chine / Bottom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Dry Hull Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max / Bow Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Cockpit / Interior Depth",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Deadrise",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Height",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Transom Width",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Max HP",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Practical Working HP",
+        "value": "50-60"
+      },
+      {
+        "label": "Persons",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Capacity Weight",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Fuel Capacity",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Bottom Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Side / Freeboard Thickness",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Construction",
+        "value": "Varies by selected documented year row"
+      },
+      {
+        "label": "Availability Under $14k",
+        "value": "Common to possible, condition and motor dependent"
+      },
+      {
+        "label": "Placement Reason",
+        "value": "The 81-inch beam and 60-hp ceiling make this a compact budget boat, not a robust four-person Great Lakes platform."
+      },
+      {
+        "label": "Notes",
+        "value": "This base Pro Angler 162 is not automatically the later 162 XL. The 2007 factory table supports one exact compact full-windshield row; unsupported continuity is not added."
+      },
+      {
+        "label": "Interior Finish / Deck Material",
+        "value": "Marine carpet was typical; inspect the deck substrate, carpet edges, seat bases and bilge for trapped moisture and prior repairs."
+      },
+      {
+        "label": "Interior Material Basis",
+        "value": "Period factory configuration and surviving examples; verify the individual boat."
+      },
+      {
+        "label": "Washdown / Carpet Fit",
+        "value": "POOR — These are generally carpeted boats rather than hose-down interiors."
+      },
+      {
+        "label": "Research Status",
+        "value": "The exact 2007 factory specification row was added. The later Pro Angler 162 XL remains a separate candidate until its chronology and dimensions are reconciled."
+      }
+    ],
+    "valueEras": [],
+    "designGenerations": [
+      {
+        "id": "boat:Smoker Craft | Pro Angler 162:gen:2007",
+        "label": "2007 Pro Angler 162",
+        "startYear": 2007,
+        "endYear": 2007,
+        "status": "factory-exact",
+        "specificationBasis": "The 2007 factory specification table publishes the compact 16-foot, 81-inch-beam, 920-lb full-windshield model.",
+        "sourceUrl": "https://www.smokercraft.com/wp-content/uploads/2007-smokercraft-fishing.pdf",
+        "specs": {
+          "Length": {
+            "value": "16'0\"",
+            "confidence": "cited-source-exact"
+          },
+          "Beam": {
+            "value": "81\"",
+            "confidence": "cited-source-exact"
+          },
+          "Dry Hull Weight": {
+            "value": "920 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Max HP": {
+            "value": "60",
+            "confidence": "cited-source-exact"
+          },
+          "Persons": {
+            "value": "5",
+            "confidence": "cited-source-exact"
+          },
+          "Capacity Weight": {
+            "value": "1,200 lb",
+            "confidence": "cited-source-exact"
+          },
+          "Fuel Capacity": {
+            "value": "16 gal",
+            "confidence": "cited-source-exact"
+          },
+          "Bottom Thickness": {
+            "value": "0.100\"",
+            "confidence": "cited-source-exact"
+          },
+          "Side / Freeboard Thickness": {
+            "value": "0.064\"",
+            "confidence": "cited-source-exact"
+          },
+          "Layout": {
+            "value": "Dual-console/full windshield",
+            "confidence": "factory-catalog"
+          },
+          "Construction": {
+            "value": "Riveted aluminum modified/deep-V",
+            "confidence": "cited-source-exact"
+          }
+        },
+        "eras": [
+          {
+            "id": "boat:Smoker Craft | Pro Angler 162:value:2007",
+            "label": "2007",
+            "startYear": 2007,
+            "endYear": 2007,
+            "low": 4000,
+            "high": 8000,
+            "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
+          }
+        ],
+        "evidenceUrls": []
+      }
+    ],
+    "generationWarning": "Legacy Smoker Craft hull badges, dealer wording and factory catalog names do not always match. Verify the HIN, title, capacity plate and exact windshield opening before applying a row.",
+    "idealMatch": false
+  },
+  {
     "id": "boat:Spectrum / Blue Fin | 1906",
     "categoryId": "boats",
     "categoryName": "Boats",

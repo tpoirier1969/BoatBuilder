@@ -1,0 +1,7 @@
+Added seven legacy Smoker Craft dual-console/full-windshield records.
+Catalog QA passed.
+Focused Smoker Craft QA passed at 25 models and 86 non-overlapping generation/evidence rows.
+Legacy family QA passed with the 2005 165 LE listing retained as a likely Stiletto 162 match pending HIN/title/capacity plate.
+All-manufacturer roster-gap QA passed.
+Additive semantic QA passed: all 176 pre-existing boat records remained unchanged.
+smokercraft_legacy_windshield_families_status=passed

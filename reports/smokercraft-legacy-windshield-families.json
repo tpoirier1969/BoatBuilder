@@ -1,0 +1,117 @@
+{
+  "added": [
+    {
+      "id": "boat:Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias",
+      "model": "Stiletto 162 / 16 Stiletto LE / 165 LE listing alias",
+      "generations": [
+        [
+          2003,
+          2003
+        ],
+        [
+          2004,
+          2005
+        ]
+      ]
+    },
+    {
+      "id": "boat:Smoker Craft | Millentia 162 Dual",
+      "model": "Millentia 162 Dual",
+      "generations": [
+        [
+          2001,
+          2005
+        ]
+      ]
+    },
+    {
+      "id": "boat:Smoker Craft | Stinger 162 Dual / DC",
+      "model": "Stinger 162 Dual / DC",
+      "generations": [
+        [
+          2001,
+          2005
+        ],
+        [
+          2006,
+          2006
+        ]
+      ]
+    },
+    {
+      "id": "boat:Smoker Craft | Stealth 162",
+      "model": "Stealth 162",
+      "generations": [
+        [
+          2002,
+          2002
+        ],
+        [
+          2003,
+          2003
+        ],
+        [
+          2004,
+          2004
+        ]
+      ]
+    },
+    {
+      "id": "boat:Smoker Craft | Pro Mag 162",
+      "model": "Pro Mag 162",
+      "generations": [
+        [
+          2001,
+          2001
+        ],
+        [
+          2003,
+          2003
+        ],
+        [
+          2006,
+          2007
+        ],
+        [
+          2008,
+          2010
+        ],
+        [
+          2019,
+          2019
+        ]
+      ]
+    },
+    {
+      "id": "boat:Smoker Craft | Pro Mag 172",
+      "model": "Pro Mag 172",
+      "generations": [
+        [
+          2006,
+          2007
+        ],
+        [
+          2017,
+          2020
+        ]
+      ]
+    },
+    {
+      "id": "boat:Smoker Craft | Pro Angler 162",
+      "model": "Pro Angler 162",
+      "generations": [
+        [
+          2007,
+          2007
+        ]
+      ]
+    }
+  ],
+  "photographedListingMatch": {
+    "likelyStableId": "boat:Smoker Craft | Stiletto 162 / 16 Stiletto LE / 165 LE listing alias",
+    "sellerEstimatedYear": 2005,
+    "status": "likely-match-pending-hin-title-and-capacity-plate",
+    "visibleBadge": "165 LE"
+  },
+  "remainingCandidateGaps": 121
+}

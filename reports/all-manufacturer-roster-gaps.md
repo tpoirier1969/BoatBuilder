@@ -1,12 +1,12 @@
 # All-Manufacturer Missing-Model Audit
 
-Generated 2026-08-01T18:38:55.116Z.
+Generated 2026-08-02T02:43:27.198Z.
 
 ## Scope
 
 Find aluminum deep-V fishing boats missing from BoatBuilder, not merely validate records already present.
 
-- Catalog baseline: 176 boat records across 24 manufacturers
+- Catalog baseline: 183 boat records across 24 manufacturers
 - Manufacturers audited: 24
 - Candidate missing models or continuity gaps: 121
 - High-confidence: 104
@@ -300,7 +300,7 @@ No fixed model rows were generated. This manufacturer requires listing-by-listin
 
 ### Smoker Craft
 
-**Status:** missing-models-found. The earlier 18-row audit still missed whole Adventurer and Explorer families.
+**Status:** missing-models-found. Legacy Smoker Craft full-windshield coverage now includes the Stiletto, Millentia, Stinger, Stealth and Pro Mag even-number families. The earlier roster audit over-relied on WT/DC/FS suffixes and missed models whose dual-console layout was encoded by the 162/172 designation or LE badge.
 
 | Candidate model/family | Years | Confidence | Classification | Finding | Evidence |
 |---|---|---|---|---|---|
@@ -309,7 +309,7 @@ No fixed model rows were generated. This manufacturer requires listing-by-listin
 | Explorer 172 | 2018-2019 era | high | primary-candidate | Factory catalog lists a walk-through Explorer 172 absent. | <https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf> |
 | Explorer 182 | 2018-2019 era | high | secondary-screening | Factory catalog lists a walk-through Explorer 182 absent. | <https://www.smokercraft.com/wp-content/uploads/2018-smokercraft-fishing.pdf> |
 | Explorer 190 FS | current | high | secondary-screening | Current official Explorer family absent. | <https://www.smokercraft.com/series/explorer/> |
-| Pro Angler 162 / 162 XL | legacy | medium | primary-candidate | Legacy resource rosters show 162-size Pro Anglers; verify which years had a factory walk-through rather than a side console. | <https://www.smokercraft.com/resources/legacy-catalogs/> |
+| Pro Angler 162 XL | legacy | medium | primary-candidate | The base 2007 Pro Angler 162 is now cataloged. The later XL remains unresolved until its exact chronology and hull specifications are reconciled. | <https://www.smokercraft.com/resources/legacy-catalogs/> |
 | Pro Angler XL 171 | legacy | medium | primary-candidate | Legacy roster evidence indicates a 171 XL family missing between older and 172 naming. | <https://www.smokercraft.com/resources/legacy-catalogs/> |
 
 ### Spectrum / Blue Fin

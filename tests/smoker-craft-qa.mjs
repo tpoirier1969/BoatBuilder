@@ -12,10 +12,10 @@ const catalog = sandbox.window.BOATBUILDER_DATA;
 assert.ok(catalog, "Canonical catalog global is missing");
 
 const smokerCraft = catalog.items.filter(entry => entry.manufacturer === "Smoker Craft");
-assert.equal(smokerCraft.length, 18, "Smoker Craft focused model count changed");
+assert.equal(smokerCraft.length, 25, "Smoker Craft focused model count changed");
 assert.equal(
   smokerCraft.reduce((sum, boat) => sum + (boat.designGenerations || []).length, 0),
-  70,
+  86,
   "Smoker Craft generation/evidence-row count changed"
 );
 
@@ -94,4 +94,4 @@ assert.equal(generation(proAngler172XL, 2025, 2026).specs.Length.value, "17'3\""
 assert.equal(generation(proAngler172XL, 2025, 2026).specs.Beam.value, "96\"", "Current Pro Angler 172 XL beam changed");
 assert.equal(generation(proAngler172XL, 2025, 2026).specs["Dry Hull Weight"].value, "1,305 lb", "Current Pro Angler 172 XL weight changed");
 
-console.log(`Smoker Craft QA passed: ${smokerCraft.length} models and 70 non-overlapping generation/evidence rows.`);
+console.log(`Smoker Craft QA passed: ${smokerCraft.length} models and 86 non-overlapping generation/evidence rows.`);
