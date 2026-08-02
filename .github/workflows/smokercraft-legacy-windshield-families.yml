@@ -1,3 +1,4 @@
+# Rerunnable validation after the one-time catalog migration has landed.
 name: Add legacy Smoker Craft windshield families
 
 on:
