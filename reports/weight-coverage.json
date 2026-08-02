@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:20:01.306Z",
+  "generatedAt": "2026-08-02T16:27:50.245Z",
   "scope": "Every BoatBuilder boat record and every documented design generation/evidence row",
   "policy": {
     "hullWeights": "Published era-specific dry-hull weights only. Missing values remain unavailable until sourced.",
@@ -9,9 +9,9 @@
   "totals": {
     "boats": 183,
     "generations": 485,
-    "publishedGenerations": 449,
-    "missingPublishedGenerations": 36,
-    "publishedRangesOrConflicts": 20
+    "publishedGenerations": 456,
+    "missingPublishedGenerations": 29,
+    "publishedRangesOrConflicts": 24
   },
   "byManufacturer": [
     {
@@ -129,8 +129,8 @@
     {
       "manufacturer": "Smoker Craft",
       "generations": 86,
-      "published": 82,
-      "missing": 4,
+      "published": 83,
+      "missing": 3,
       "rangeOrConflict": 2
     },
     {
@@ -143,9 +143,9 @@
     {
       "manufacturer": "Starcraft",
       "generations": 38,
-      "published": 27,
-      "missing": 11,
-      "rangeOrConflict": 1
+      "published": 33,
+      "missing": 5,
+      "rangeOrConflict": 5
     },
     {
       "manufacturer": "Starweld",
@@ -365,21 +365,6 @@
       "needsResearch": true
     },
     {
-      "boatId": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)",
-      "manufacturer": "Smoker Craft",
-      "model": "Osprey 162 WT (Secondary; verified WT begins in 2017)",
-      "generationId": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2019-2024",
-      "generationLabel": "2019–2024 continuing Osprey 162 WT fitment; full annual tables source-exhausted",
-      "startYear": 2019,
-      "endYear": 2024,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
       "boatId": "boat:Smoker Craft | Phaser (seller spelling; likely Fazer)",
       "manufacturer": "Smoker Craft",
       "model": "Phaser (seller spelling; likely Fazer)",
@@ -425,66 +410,6 @@
       "needsResearch": true
     },
     {
-      "boatId": "boat:Starcraft | Fishmaster 196",
-      "manufacturer": "Starcraft",
-      "model": "Fishmaster 196",
-      "generationId": "boat:Starcraft | Fishmaster 196:gen:1999-2006",
-      "generationLabel": "1999–2006 early Fishmaster 196 family — source exhausted",
-      "startYear": 1999,
-      "endYear": 2006,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | Starfish 176 DC / WT",
-      "manufacturer": "Starcraft",
-      "model": "*Starfish 176 DC / WT",
-      "generationId": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007",
-      "generationLabel": "2006–2007 early Star Fish 176 DC/SC identity — source exhausted",
-      "startYear": 2006,
-      "endYear": 2007,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | Starfish 176 DC / WT",
-      "manufacturer": "Starcraft",
-      "model": "*Starfish 176 DC / WT",
-      "generationId": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017",
-      "generationLabel": "2016–2017 final production identity — exact table source exhausted",
-      "startYear": 2016,
-      "endYear": 2017,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | STX 2050 Aluminum",
-      "manufacturer": "Starcraft",
-      "model": "STX 2050 Aluminum",
-      "generationId": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024",
-      "generationLabel": "2016–2024 later STX 2050 production — boundary source exhausted",
-      "startYear": 2016,
-      "endYear": 2024,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
       "boatId": "boat:Starcraft | Superfisherman 170",
       "manufacturer": "Starcraft",
       "model": "Superfisherman 170",
@@ -492,21 +417,6 @@
       "generationLabel": "1991–1997 early Superfisherman 170 — source exhausted",
       "startYear": 1991,
       "endYear": 1997,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
-      "manufacturer": "Starcraft",
-      "model": "Superfisherman 186 (Secondary; 176 is Primary)",
-      "generationId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024",
-      "generationLabel": "2017–2024 later production — exact revision boundary exhausted",
-      "startYear": 2017,
-      "endYear": 2024,
       "status": "source-exhausted-partial",
       "rawWeight": null,
       "lowLb": null,
@@ -658,21 +568,6 @@
       "startYear": 2000,
       "endYear": 2009,
       "status": "unresolved",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | Fishmaster 176 DC",
-      "manufacturer": "Starcraft",
-      "model": "Fishmaster 176 DC",
-      "generationId": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005",
-      "generationLabel": "1999–2005 production identity — exact annual tables source exhausted",
-      "startYear": 1999,
-      "endYear": 2005,
-      "status": "source-exhausted-partial",
       "rawWeight": null,
       "lowLb": null,
       "highLb": null,
@@ -967,6 +862,51 @@
       "needsResearch": false
     },
     {
+      "boatId": "boat:Starcraft | Fishmaster 196",
+      "manufacturer": "Starcraft",
+      "model": "Fishmaster 196",
+      "generationId": "boat:Starcraft | Fishmaster 196:gen:1999-2006",
+      "generationLabel": "1999–2006 early Fishmaster 196 family — source exhausted",
+      "startYear": 1999,
+      "endYear": 2006,
+      "status": "source-exhausted-partial",
+      "rawWeight": "1999-2004 Fishmaster 196: 1430 lb; 2005-2006 Fishmaster 196 DC: 1470 lb",
+      "lowLb": 1430,
+      "highLb": 1470,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
+    },
+    {
+      "boatId": "boat:Starcraft | STX 2050 Aluminum",
+      "manufacturer": "Starcraft",
+      "model": "STX 2050 Aluminum",
+      "generationId": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024",
+      "generationLabel": "2016–2024 later STX 2050 production — boundary source exhausted",
+      "startYear": 2016,
+      "endYear": 2024,
+      "status": "source-exhausted-partial",
+      "rawWeight": "2016-2020 STX 2050: 1650 lb; 2021-2024 STX 2050: 2160 lb",
+      "lowLb": 1650,
+      "highLb": 2160,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
+    },
+    {
+      "boatId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
+      "manufacturer": "Starcraft",
+      "model": "Superfisherman 186 (Secondary; 176 is Primary)",
+      "generationId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024",
+      "generationLabel": "2017–2024 later production — exact revision boundary exhausted",
+      "startYear": 2017,
+      "endYear": 2024,
+      "status": "source-exhausted-partial",
+      "rawWeight": "2017-2021 Superfisherman 186: 1333 lb; 2022-2024 Superfisherman 186: 1985 lb",
+      "lowLb": 1333,
+      "highLb": 1985,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
+    },
+    {
       "boatId": "boat:Starcraft | Superfisherman 190",
       "manufacturer": "Starcraft",
       "model": "Superfisherman 190",
@@ -993,6 +933,21 @@
       "rawWeight": "about 2,205 lb; annual records 2,201–2,227 lb",
       "lowLb": 2205,
       "highLb": 2227,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
+    },
+    {
+      "boatId": "boat:Starcraft | Fishmaster 176 DC",
+      "manufacturer": "Starcraft",
+      "model": "Fishmaster 176 DC",
+      "generationId": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005",
+      "generationLabel": "1999–2005 production identity — exact annual tables source exhausted",
+      "startYear": 1999,
+      "endYear": 2005,
+      "status": "source-exhausted-partial",
+      "rawWeight": "1999-2000 Fishmaster 176 DC: 1176 lb; 2001-2004 Fishmaster 176 DC: 1175 lb; 2005 Fishmaster 176 DC: 1195 lb",
+      "lowLb": 1176,
+      "highLb": 1195,
       "classification": "published-range-or-conflict",
       "needsResearch": false
     },
@@ -5177,11 +5132,11 @@
       "startYear": 2019,
       "endYear": 2024,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "2019-2023 Osprey 162: 1075 lb",
+      "lowLb": 1075,
+      "highLb": 1075,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)",
@@ -6242,11 +6197,11 @@
       "startYear": 1999,
       "endYear": 2006,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1999-2004 Fishmaster 196: 1430 lb; 2005-2006 Fishmaster 196 DC: 1470 lb",
+      "lowLb": 1430,
+      "highLb": 1470,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Fishmaster 196",
@@ -6407,11 +6362,11 @@
       "startYear": 2006,
       "endYear": 2007,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "2006-2007 Starfish 176 DC: 1195 lb",
+      "lowLb": 1195,
+      "highLb": 1195,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Starfish 176 DC / WT",
@@ -6452,11 +6407,11 @@
       "startYear": 2016,
       "endYear": 2017,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "2016-2017 Starfish 176 DC: 1176 lb",
+      "lowLb": 1176,
+      "highLb": 1176,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | STX 2050 Aluminum",
@@ -6497,11 +6452,11 @@
       "startYear": 2016,
       "endYear": 2024,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "2016-2020 STX 2050: 1650 lb; 2021-2024 STX 2050: 2160 lb",
+      "lowLb": 1650,
+      "highLb": 2160,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | STX 2050 Aluminum",
@@ -6602,11 +6557,11 @@
       "startYear": 2017,
       "endYear": 2024,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "2017-2021 Superfisherman 186: 1333 lb; 2022-2024 Superfisherman 186: 1985 lb",
+      "lowLb": 1333,
+      "highLb": 1985,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)",
@@ -8057,11 +8012,11 @@
       "startYear": 1999,
       "endYear": 2005,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1999-2000 Fishmaster 176 DC: 1176 lb; 2001-2004 Fishmaster 176 DC: 1175 lb; 2005 Fishmaster 176 DC: 1195 lb",
+      "lowLb": 1176,
+      "highLb": 1195,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Fishmaster 176 DC",

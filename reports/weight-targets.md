@@ -1,8 +1,8 @@
 # Hull-weight research targets
 
-Generated: 2026-08-02T16:20:01.434Z
+Generated: 2026-08-02T16:27:50.343Z
 
-Remaining target generation rows: 30
+Remaining target generation rows: 23
 
 ## Alumacraft | Magnum CS (side-console series; no walk-through windshield)
 
@@ -100,18 +100,6 @@ Remaining target generation rows: 30
 - Basis: Smoker Craft catalog lineups use Millentia 172 and 192. The 182 size appears under Pro Mag, Pro Angler XL, and Ultima families, not as a verified Millentia 182.
 - Source: https://www.smokercraft.com/resources/legacy-catalogs/
 
-## Smoker Craft | Osprey 162 WT (Secondary; verified WT begins in 2017)
-
-- Boat ID: `boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s)`
-- Generation ID: `boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2019-2024`
-- Years: 2019–2024
-- Label: 2019–2024 continuing Osprey 162 WT fitment; full annual tables source-exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2019-2024 [2019-2024]
-- Basis: Exact-model cover fitment and annual rosters confirm the 2019–2024 Osprey 162. Complete annual factory tables were not recovered; 2017–2018 or current specifications are not inherited.
-- Source: https://rnr-marine.com/SmokerCraft.shtml
-
 ## Smoker Craft | Phaser (seller spelling; likely Fazer)
 
 - Boat ID: `boat:Smoker Craft | Phaser (seller spelling; likely Fazer)`
@@ -148,54 +136,6 @@ Remaining target generation rows: 30
 - Basis: Annual model rosters and fitment records establish the Fishmaster 170 for 1995–1997, but the surviving archive did not yield a defensible complete annual specification table. No 1998 values are projected backward.
 - Source: https://starcraftmarine.com/resources/legacy-catalogs/
 
-## Starcraft | Fishmaster 196
-
-- Boat ID: `boat:Starcraft | Fishmaster 196`
-- Generation ID: `boat:Starcraft | Fishmaster 196:gen:1999-2006`
-- Years: 1999–2006
-- Label: 1999–2006 early Fishmaster 196 family — source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1999–2006 [1999-2006]
-- Basis: Annual model records confirm this production span, but the surviving factory archive did not provide a complete, machine-readable specification table sufficient to prove an unchanged hull. Later dimensions are not projected backward.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
-## Starcraft | *Starfish 176 DC / WT
-
-- Boat ID: `boat:Starcraft | Starfish 176 DC / WT`
-- Generation ID: `boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007`
-- Years: 2006–2007
-- Label: 2006–2007 early Star Fish 176 DC/SC identity — source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2006–2007 [2006-2007]
-- Basis: Model-fitment and annual catalog records establish an earlier Star Fish 176 DC/SC family. The surviving material did not recover a complete exact DC/WT table, so later specifications are not assigned.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
-## Starcraft | *Starfish 176 DC / WT
-
-- Boat ID: `boat:Starcraft | Starfish 176 DC / WT`
-- Generation ID: `boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017`
-- Years: 2016–2017
-- Label: 2016–2017 final production identity — exact table source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2016–2017 [2016-2017]
-- Basis: Annual model and used-market records confirm 2016–2017 Starfish 176 production, but the surviving archive did not yield an exact complete table sufficient to prove the 2013–2015 specifications unchanged.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
-## Starcraft | STX 2050 Aluminum
-
-- Boat ID: `boat:Starcraft | STX 2050 Aluminum`
-- Generation ID: `boat:Starcraft | STX 2050 Aluminum:gen:2016-2024`
-- Years: 2016–2024
-- Label: 2016–2024 later STX 2050 production — boundary source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2016–2019 [2016-2019]; 2020–2024 [2020-2024]
-- Basis: Annual factory catalog archive confirms continued STX coverage, but the surviving records did not support one exact unchanged specification set across the span.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
 ## Starcraft | Superfisherman 170
 
 - Boat ID: `boat:Starcraft | Superfisherman 170`
@@ -206,18 +146,6 @@ Remaining target generation rows: 30
 - Length/beam: Varies by selected hull generation / Varies by selected hull generation
 - Price eras: 1991–1997 [1991-1997]
 - Basis: Annual model records establish the 170 through this span, but the surviving archive did not produce complete year-by-year tables sufficient to prove one unchanged hull.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
-## Starcraft | Superfisherman 186 (Secondary; 176 is Primary)
-
-- Boat ID: `boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary)`
-- Generation ID: `boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024`
-- Years: 2017–2024
-- Label: 2017–2024 later production — exact revision boundary exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2017–2019 [2017-2019]; 2020–2024 [2020-2024]
-- Basis: Annual factory archive and market records confirm continuing Superfisherman 186 production, but the surviving tables did not support a single exact unchanged specification set across the entire span.
 - Source: https://starcraftmarine.com/resources/legacy-catalogs/
 
 ## Starcraft | Superfisherman 186 (Secondary; 176 is Primary)
@@ -315,18 +243,6 @@ Remaining target generation rows: 30
 - Price eras: none
 - Basis: BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2005–2008; 2006–2007 surviving-listing basis
 - Source: https://www.kijiji.ca/b-powerboat-motorboat/ontario/legend-seats/k0c327l9004
-
-## Starcraft | Fishmaster 176 DC
-
-- Boat ID: `boat:Starcraft | Fishmaster 176 DC`
-- Generation ID: `boat:Starcraft | Fishmaster 176 DC:gen:1999-2005`
-- Years: 1999–2005
-- Label: 1999–2005 production identity — exact annual tables source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1999–2005 [1999-2005]
-- Basis: Fitment and annual model records establish the Fishmaster 176 DC through 1999–2005, but the surviving archive did not support applying the complete 2006 table backward.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
 
 ## Northwood | 170 Pro Tourney
 

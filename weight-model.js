@@ -1,6 +1,8 @@
 (function(root){
 "use strict";
 const PUBLISHED_WEIGHT_ERAS_V1=true;
+const BLOCK_CROSS_YEAR_WEIGHT_FALLBACK_V1=true;
+const SELECTED_HULL_GENERATION_REQUIRED_V1=true;
 
 const TOW_LIMIT_LB=4000;
 const DISPLAY_THRESHOLD_LB=30;
@@ -91,11 +93,14 @@ function selectedWeightEra(generation,config={}){
 function hullWeight(item,config={}){
   const override=number(config.weightOverride);
   if(override>0)return range(override,override,"User-entered actual dry-hull weight","user",true);
+  const generations=Array.isArray(item?.designGenerations)?item.designGenerations:[];
   const generation=selectedGeneration(item,config);
+  if(generations.length>1&&!generation)return unavailable("Choose a year / hull generation before calculating dry-hull weight.",true);
   const weightEras=Array.isArray(generation?.weightEras)?generation.weightEras:[];
   if(weightEras.length){
     const selected=selectedWeightEra(generation,config);
     if(selected)return range(selected.lowLb,selected.highLb,selected.basis||`Published dry-hull weight for ${selected.label}`,selected.lowLb===selected.highLb?"published":"published-range",true);
+    if(clean(config.era))return unavailable("Published dry-hull weight is not available for the selected year option. Enter a documented or measured weight to complete the package total.",true);
     const low=Math.min(...weightEras.map(era=>Number(era.lowLb)).filter(Number.isFinite));
     const high=Math.max(...weightEras.map(era=>Number(era.highLb??era.lowLb)).filter(Number.isFinite));
     if(Number.isFinite(low)&&Number.isFinite(high))return range(low,high,"Published hull-weight span across documented year-specific variants. Choose a narrower year option when available.",low===high?"published":"published-range",true);

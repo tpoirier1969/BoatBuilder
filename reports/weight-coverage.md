@@ -1,6 +1,6 @@
 # BoatBuilder hull-weight coverage
 
-Generated: 2026-08-02T16:20:01.306Z
+Generated: 2026-08-02T16:27:50.245Z
 
 ## Policy
 
@@ -12,9 +12,9 @@ Generated: 2026-08-02T16:20:01.306Z
 
 - Boats: 183
 - Generation/evidence rows: 485
-- Rows with a usable published weight: 449
-- Rows still needing published weight research: 36
-- Published ranges/conflicts: 20
+- Rows with a usable published weight: 456
+- Rows still needing published weight research: 29
+- Published ranges/conflicts: 24
 
 ## Coverage by manufacturer
 
@@ -36,9 +36,9 @@ Generated: 2026-08-02T16:20:01.306Z
 | Polar Kraft | 10 | 8 | 2 | 1 |
 | Princecraft | 19 | 19 | 0 | 0 |
 | Sea Nymph | 24 | 24 | 0 | 2 |
-| Smoker Craft | 86 | 82 | 4 | 2 |
+| Smoker Craft | 86 | 83 | 3 | 2 |
 | Spectrum / Blue Fin | 2 | 2 | 0 | 0 |
-| Starcraft | 38 | 27 | 11 | 1 |
+| Starcraft | 38 | 33 | 5 | 5 |
 | Starweld | 7 | 7 | 0 | 0 |
 | Sylvan | 41 | 39 | 2 | 0 |
 | Tracker | 29 | 29 | 0 | 1 |
@@ -59,16 +59,10 @@ Generated: 2026-08-02T16:20:01.306Z
 - **Polar Kraft Frontier 179 WT** · 2020-2023 retained factory-page generation · `boat:Polar Kraft | Frontier 179 WT:gen:2020-2023`
 - **Polar Kraft Outlander 2010 WT (Secondary; not Kodiak V180)** · 2020-2023 retained factory-page generation · `boat:Polar Kraft | Outlander 2010 WT (Secondary; not Kodiak V180):gen:2020-2023`
 - **Smoker Craft Millentia 182 WT (misidentified listing alias)** · No verified factory Millentia 182 model · `boat:Smoker Craft | Millentia 182 WT:gen:alias`
-- **Smoker Craft Osprey 162 WT (Secondary; verified WT begins in 2017)** · 2019–2024 continuing Osprey 162 WT fitment; full annual tables source-exhausted · `boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):gen:2019-2024`
 - **Smoker Craft Phaser (seller spelling; likely Fazer)** · Seller spelling only; no verified factory Phaser model · `boat:Smoker Craft | Phaser (seller spelling; likely Fazer):gen:alias`
 - **Smoker Craft Ultima 178** · 2001 model identity; specifications unresolved · `boat:Smoker Craft | Ultima 178:gen:2001-identity`
 - **Starcraft Fishmaster 170** · 1995–1997 production identity — surviving specifications exhausted · `boat:Starcraft | Fishmaster 170:gen:1995-1997`
-- **Starcraft Fishmaster 196** · 1999–2006 early Fishmaster 196 family — source exhausted · `boat:Starcraft | Fishmaster 196:gen:1999-2006`
-- **Starcraft *Starfish 176 DC / WT** · 2006–2007 early Star Fish 176 DC/SC identity — source exhausted · `boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007`
-- **Starcraft *Starfish 176 DC / WT** · 2016–2017 final production identity — exact table source exhausted · `boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017`
-- **Starcraft STX 2050 Aluminum** · 2016–2024 later STX 2050 production — boundary source exhausted · `boat:Starcraft | STX 2050 Aluminum:gen:2016-2024`
 - **Starcraft Superfisherman 170** · 1991–1997 early Superfisherman 170 — source exhausted · `boat:Starcraft | Superfisherman 170:gen:1991-1997`
-- **Starcraft Superfisherman 186 (Secondary; 176 is Primary)** · 2017–2024 later production — exact revision boundary exhausted · `boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024`
 - **Starcraft Superfisherman 186 (Secondary; 176 is Primary)** · 2025–2026 current factory generation — dry-weight field conflicted · `boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2025-2026`
 - **Starcraft Tournament 170 (does not meet windshield requirement)** · 1996–1997 model identity — configuration/specification source exhausted · `boat:Starcraft | Tournament 170 (does not meet windshield requirement):gen:1996-1997`
 - **Starcraft Tournament 180 (does not meet windshield requirement)** · 1996–1997 model identity — configuration/specification source exhausted · `boat:Starcraft | Tournament 180 (does not meet windshield requirement):gen:1996-1997`
@@ -79,7 +73,6 @@ Generated: 2026-08-02T16:20:01.306Z
 - **Ultracraft (Misty Harbor) Trophy 166W / 166W** · 2007-2008 Trophy 166W roster and family-hull evidence · `boat:Ultracraft (Misty Harbor) | Trophy 166W / 166W:gen:2007-2008-trophy`
 - **Legend 17 Xcalibur full-windshield** · 2007 cited specification snapshot · `boat:Legend | 17 Xcalibur full-windshield:gen:2007`
 - **Legend 17 Xcalibur full-windshield** · Other advertised years — specifications and pricing unresolved · `boat:Legend | 17 Xcalibur full-windshield:gen:unresolved`
-- **Starcraft Fishmaster 176 DC** · 1999–2005 production identity — exact annual tables source exhausted · `boat:Starcraft | Fishmaster 176 DC:gen:1999-2005`
 - **Northwood 170 Pro Tourney** · 1994 seller-labeled 170 Pro Tourney — source-exhausted · `boat:Northwood | 170 Pro Tourney:gen:1994-seller-evidence`
 - **Northwood 170 Pro Tourney** · 1995–1997 170 Pro Tourney — SC or DC / windshield · `boat:Northwood | 170 Pro Tourney:gen:1995-1997-sc-dc`
 - **Northwood 170 Pro Tourney** · 1998 seller-labeled 170 Pro Tourney — source-exhausted · `boat:Northwood | 170 Pro Tourney:gen:1998-seller-evidence`
@@ -102,7 +95,11 @@ Generated: 2026-08-02T16:20:01.306Z
 - **Sea Nymph SS195 Fish & Ski** · 1991–1992 SS195 sterndrive configuration: 1,100 lb (1991) to 1,800 lb (1992 roster)
 - **Smoker Craft Fazer 172** · 1989–1994 model identity; detailed tables source-exhausted: 1989-1990 172 Fazer: 860 lb; 1991-1994 172 Fazer: 910 lb
 - **Smoker Craft Stinger 162 Dual / DC** · 2006 Stinger 162 published-weight conflict: 660 lb exact-model source / 920 lb annual roster
+- **Starcraft Fishmaster 196** · 1999–2006 early Fishmaster 196 family — source exhausted: 1999-2004 Fishmaster 196: 1430 lb; 2005-2006 Fishmaster 196 DC: 1470 lb
+- **Starcraft STX 2050 Aluminum** · 2016–2024 later STX 2050 production — boundary source exhausted: 2016-2020 STX 2050: 1650 lb; 2021-2024 STX 2050: 2160 lb
+- **Starcraft Superfisherman 186 (Secondary; 176 is Primary)** · 2017–2024 later production — exact revision boundary exhausted: 2017-2021 Superfisherman 186: 1333 lb; 2022-2024 Superfisherman 186: 1985 lb
 - **Starcraft Superfisherman 190** · 1991–1997 production identity — surviving specifications exhausted: 1991 Superfisherman 190: 930 lb; 1992-1993 Superfisherman 190: 1050 lb; 1994-1997 Superfisherman 190: 1183 lb
 - **Tracker Targa V-18 WT** · 2021–2026 heavier .125-inch platform: about 2,205 lb; annual records 2,201–2,227 lb
+- **Starcraft Fishmaster 176 DC** · 1999–2005 production identity — exact annual tables source exhausted: 1999-2000 Fishmaster 176 DC: 1176 lb; 2001-2004 Fishmaster 176 DC: 1175 lb; 2005 Fishmaster 176 DC: 1195 lb
 - **Lund 1600 Angler** · 1997–1998 1600 Angler / Angler SS platform: 712 lb tiller; 779 lb SS
 - **Lund 1600 Explorer** · 1997–1998 1600 Explorer / Explorer SS platform: 615 lb tiller; 680 lb SS

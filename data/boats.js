@@ -4399,7 +4399,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1988,
             "low": 1500,
             "high": 3500,
-            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure."
+            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure."
           },
           {
             "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1988-1989",
@@ -4408,7 +4408,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1989,
             "low": 1500,
             "high": 3500,
-            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure. Hull weight uses the published 1989 figure."
+            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure. Hull weight uses the published 1988 figure. Hull weight uses the published 1989 figure."
           }
         ],
         "evidenceUrls": [
@@ -32069,7 +32069,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1990,
             "low": 1800,
             "high": 4000,
-            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure."
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure."
           },
           {
             "id": "boat:Smoker Craft | Fazer 172:value:1989-1994",
@@ -32078,7 +32078,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1994,
             "low": 1800,
             "high": 4000,
-            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1991-1994 figure."
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1989-1990 figure. Hull weight uses the published 1991-1994 figure."
           }
         ],
         "weightEras": [
@@ -34073,13 +34073,37 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2019-2024",
-            "label": "2019-2024",
+            "label": "2019-2023 Osprey 162",
             "startYear": 2019,
+            "endYear": 2023,
+            "low": 15000,
+            "high": 28000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 2019-2023 figure."
+          },
+          {
+            "id": "boat:Smoker Craft | Osprey 162 WT (Secondary; wide WT version is 2020s):value:2019-2024",
+            "label": "2024 Osprey 162 identity",
+            "startYear": 2024,
             "endYear": 2024,
             "low": 15000,
             "high": 28000,
-            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Published hull weight remains unavailable for this year."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "2019-2023 Osprey 162",
+            "startYear": 2019,
+            "endYear": 2023,
+            "lowLb": 1075,
+            "highLb": 1075,
+            "basis": "2019, 2020, 2022 and 2023 annual rosters list the Osprey 162 at 1,075 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2023/smoker-craft-inc"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2023/smoker-craft-inc",
+          "https://www.jdpower.com/boats/2024/smoker-craft-inc"
         ]
       },
       {
@@ -41215,13 +41239,46 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006:value:1999–2006",
-            "label": "1999–2006",
+            "label": "1999-2004 Fishmaster 196",
             "startYear": 1999,
+            "endYear": 2004,
+            "low": 3500,
+            "high": 9000,
+            "basis": "Used complete-package screening range for this early production/value span Hull weight uses the published 1999-2004 figure."
+          },
+          {
+            "id": "boat:Starcraft | Fishmaster 196:gen:1999-2006:value:1999–2006",
+            "label": "2005-2006 Fishmaster 196 DC",
+            "startYear": 2005,
             "endYear": 2006,
             "low": 3500,
             "high": 9000,
-            "basis": "Used complete-package screening range for this early production/value span"
+            "basis": "Used complete-package screening range for this early production/value span Hull weight uses the published 2005-2006 figure."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "1999-2004 Fishmaster 196",
+            "startYear": 1999,
+            "endYear": 2004,
+            "lowLb": 1430,
+            "highLb": 1430,
+            "basis": "1999 through 2004 annual rosters list the aluminum Fishmaster 196/DC at 1,430 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2004/starcraft-co/power-boats"
+          },
+          {
+            "label": "2005-2006 Fishmaster 196 DC",
+            "startYear": 2005,
+            "endYear": 2006,
+            "lowLb": 1470,
+            "highLb": 1470,
+            "basis": "2005 and 2006 annual rosters list the Fishmaster 196 DC at 1,470 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2006/starcraft-co/power-boats"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2004/starcraft-co/power-boats",
+          "https://www.jdpower.com/boats/2006/starcraft-co/power-boats"
         ]
       },
       {
@@ -42296,13 +42353,27 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2006-2007:value:2006–2007",
-            "label": "2006–2007",
+            "label": "2006-2007 Starfish 176 DC",
             "startYear": 2006,
             "endYear": 2007,
             "low": 3500,
             "high": 7500,
-            "basis": "Used complete-package screening range for the earlier Star Fish family"
+            "basis": "Used complete-package screening range for the earlier Star Fish family Hull weight uses the published 2006-2007 figure."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "2006-2007 Starfish 176 DC",
+            "startYear": 2006,
+            "endYear": 2007,
+            "lowLb": 1195,
+            "highLb": 1195,
+            "basis": "2006 and 2007 annual rosters list the Starfish 176 DC at 1,195 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2007/starcraft-co/power-boats"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2007/starcraft-co/power-boats"
         ]
       },
       {
@@ -42486,13 +42557,27 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Starcraft | Starfish 176 DC / WT:gen:2016-2017:value:2016–2017",
-            "label": "2016–2017",
+            "label": "2016-2017 Starfish 176 DC",
             "startYear": 2016,
             "endYear": 2017,
             "low": 9000,
             "high": 15000,
-            "basis": "Used complete-package screening range for final-year examples"
+            "basis": "Used complete-package screening range for final-year examples Hull weight uses the published 2016-2017 figure."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "2016-2017 Starfish 176 DC",
+            "startYear": 2016,
+            "endYear": 2017,
+            "lowLb": 1176,
+            "highLb": 1176,
+            "basis": "2016 and 2017 annual rosters list the Starfish 176 DC at 1,176 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2017/starcraft-co/power-boats"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2017/starcraft-co/power-boats"
         ]
       }
     ],
@@ -42815,22 +42900,46 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2016–2019",
-            "label": "2016–2019",
+            "label": "2016-2020 STX 2050",
             "startYear": 2016,
-            "endYear": 2019,
+            "endYear": 2020,
             "low": 15000,
             "high": 30000,
-            "basis": "Used complete-package screening range for late-2010s STX examples"
+            "basis": "Used complete-package screening range for late-2010s STX examples Hull weight uses the published 2016-2020 figure."
           },
           {
-            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2020–2024",
-            "label": "2020–2024",
-            "startYear": 2020,
+            "id": "boat:Starcraft | STX 2050 Aluminum:gen:2016-2024:value:2016–2019",
+            "label": "2021-2024 STX 2050",
+            "startYear": 2021,
             "endYear": 2024,
-            "low": 28000,
-            "high": 52000,
-            "basis": "Used complete-package screening range for newer STX examples"
+            "low": 15000,
+            "high": 30000,
+            "basis": "Used complete-package screening range for late-2010s STX examples Hull weight uses the published 2021-2024 figure."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "2016-2020 STX 2050",
+            "startYear": 2016,
+            "endYear": 2020,
+            "lowLb": 1650,
+            "highLb": 1650,
+            "basis": "2016 through 2020 annual rosters list the 20-foot STX 2050 at 1,650 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2020/starcraft-co"
+          },
+          {
+            "label": "2021-2024 STX 2050",
+            "startYear": 2021,
+            "endYear": 2024,
+            "lowLb": 2160,
+            "highLb": 2160,
+            "basis": "2021 through 2024 annual rosters list the redesigned 21-foot STX 2050 at 2,160 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2024/starcraft-co"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2020/starcraft-co",
+          "https://www.jdpower.com/boats/2024/starcraft-co"
         ]
       },
       {
@@ -43694,22 +43803,46 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2017–2019",
-            "label": "2017–2019",
+            "label": "2017-2021 Superfisherman 186",
             "startYear": 2017,
-            "endYear": 2019,
+            "endYear": 2021,
             "low": 16000,
             "high": 30000,
-            "basis": "Used complete-package screening range for late-2010s examples"
+            "basis": "Used complete-package screening range for late-2010s examples Hull weight uses the published 2017-2021 figure."
           },
           {
-            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2020–2024",
-            "label": "2020–2024",
-            "startYear": 2020,
+            "id": "boat:Starcraft | Superfisherman 186 (Secondary; 176 is Primary):gen:2017-2024:value:2017–2019",
+            "label": "2022-2024 Superfisherman 186",
+            "startYear": 2022,
             "endYear": 2024,
-            "low": 26000,
-            "high": 50000,
-            "basis": "Used complete-package screening range for newer examples"
+            "low": 16000,
+            "high": 30000,
+            "basis": "Used complete-package screening range for late-2010s examples Hull weight uses the published 2022-2024 figure."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "2017-2021 Superfisherman 186",
+            "startYear": 2017,
+            "endYear": 2021,
+            "lowLb": 1333,
+            "highLb": 1333,
+            "basis": "2017 through 2021 annual rosters list the Superfisherman 186 at 1,333 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2020/starcraft-co"
+          },
+          {
+            "label": "2022-2024 Superfisherman 186",
+            "startYear": 2022,
+            "endYear": 2024,
+            "lowLb": 1985,
+            "highLb": 1985,
+            "basis": "2022 through 2024 annual rosters list the redesigned Superfisherman 186 at 1,985 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2024/starcraft-co"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2020/starcraft-co",
+          "https://www.jdpower.com/boats/2024/starcraft-co"
         ]
       },
       {
@@ -43946,7 +44079,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1991,
             "low": 3000,
             "high": 8000,
-            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure."
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure."
           },
           {
             "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
@@ -43955,7 +44088,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1993,
             "low": 3000,
             "high": 8000,
-            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1992-1993 figure."
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1992-1993 figure."
           },
           {
             "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
@@ -43964,7 +44097,7 @@ window.BOATBUILDER_BOATS = [
             "endYear": 1997,
             "low": 3000,
             "high": 8000,
-            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1994-1997 figure."
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1991 figure. Hull weight uses the published 1994-1997 figure."
           }
         ],
         "weightEras": [
@@ -55031,13 +55164,65 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005:value:1999–2005",
-            "label": "1999–2005",
+            "label": "1999-2000 Fishmaster 176 DC",
             "startYear": 1999,
+            "endYear": 2000,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range; floor/transom reconstruction and motor condition dominate Hull weight uses the published 1999-2000 figure."
+          },
+          {
+            "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005:value:1999–2005",
+            "label": "2001-2004 Fishmaster 176 DC",
+            "startYear": 2001,
+            "endYear": 2004,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range; floor/transom reconstruction and motor condition dominate Hull weight uses the published 2001-2004 figure."
+          },
+          {
+            "id": "boat:Starcraft | Fishmaster 176 DC:gen:1999-2005:value:1999–2005",
+            "label": "2005 Fishmaster 176 DC",
+            "startYear": 2005,
             "endYear": 2005,
             "low": 3000,
             "high": 8000,
-            "basis": "Used complete-package screening range; floor/transom reconstruction and motor condition dominate"
+            "basis": "Used complete-package screening range; floor/transom reconstruction and motor condition dominate Hull weight uses the published 2005 figure."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "1999-2000 Fishmaster 176 DC",
+            "startYear": 1999,
+            "endYear": 2000,
+            "lowLb": 1176,
+            "highLb": 1176,
+            "basis": "1999 and 2000 annual rosters list the Fishmaster 176 DC at 1,176 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2000/starcraft-co/power-boats"
+          },
+          {
+            "label": "2001-2004 Fishmaster 176 DC",
+            "startYear": 2001,
+            "endYear": 2004,
+            "lowLb": 1175,
+            "highLb": 1175,
+            "basis": "2002 through 2004 annual rosters list the Fishmaster 176 DC at 1,175 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2004/starcraft-co/power-boats"
+          },
+          {
+            "label": "2005 Fishmaster 176 DC",
+            "startYear": 2005,
+            "endYear": 2005,
+            "lowLb": 1195,
+            "highLb": 1195,
+            "basis": "2005 annual roster lists the Fishmaster 176 DC at 1,195 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/2005/starcraft-co/power-boats"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2000/starcraft-co/power-boats",
+          "https://www.jdpower.com/boats/2004/starcraft-co/power-boats",
+          "https://www.jdpower.com/boats/2005/starcraft-co/power-boats"
         ]
       },
       {

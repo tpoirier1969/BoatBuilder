@@ -19,6 +19,7 @@ assert.equal(W.DISPLAY_THRESHOLD_LB,30,"Display threshold must remain 30 lb");
 assert.equal(boats.length,183,"Boat baseline changed without updating package-weight QA");
 
 const PUBLISHED_WEIGHT_ERAS_QA_V1=true;
+const SELECTED_HULL_GENERATION_REQUIRED_QA_V1=true;
 const pounds=text=>[...String(text||"").replaceAll(",","").matchAll(/(\d+(?:\.\d+)?)\s*(?:lb|lbs|pound|pounds)\b/gi)].map(match=>Number(match[1]));
 let published=0,missing=0;
 for(const boat of boats){
@@ -62,6 +63,13 @@ for(const item of equipment.filter(entry=>entry.categoryId==="bow-trolling-motor
   assert.ok(result.complete,`${item.id} bow-motor package weight is incomplete`);
   assert.ok(result.high>30,`${item.id} bow-motor package does not cross the display threshold`);
 }
+
+
+const multipleGenerationBoat=boats.find(boat=>boat.designGenerations?.length>1&&boat.designGenerations.some(generation=>pounds(generation.specs?.["Dry Hull Weight"]?.value).length||generation.weightEras?.length));
+assert.ok(multipleGenerationBoat,"No multi-generation boat found for selection guard");
+const unselectedHull=W.hullWeight(multipleGenerationBoat,{});
+assert.equal(unselectedHull.confidence,"unavailable","Multi-generation hull weight leaked before a year/hull was selected");
+assert.match(unselectedHull.basis,/choose a year/i,"Missing year-selection instruction");
 
 const knownBoat=boats.find(boat=>boat.designGenerations?.some(generation=>pounds(generation.specs?.["Dry Hull Weight"]?.value).length));
 assert.ok(knownBoat,"No generation-specific published-weight boat found");
