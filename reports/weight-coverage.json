@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:11:44.999Z",
+  "generatedAt": "2026-08-02T16:15:20.368Z",
   "scope": "Every BoatBuilder boat record and every documented design generation/evidence row",
   "policy": {
     "hullWeights": "Published era-specific dry-hull weights only. Missing values remain unavailable until sourced.",
@@ -9,23 +9,23 @@
   "totals": {
     "boats": 183,
     "generations": 485,
-    "publishedGenerations": 421,
-    "missingPublishedGenerations": 64,
-    "publishedRangesOrConflicts": 17
+    "publishedGenerations": 449,
+    "missingPublishedGenerations": 36,
+    "publishedRangesOrConflicts": 20
   },
   "byManufacturer": [
     {
       "manufacturer": "Alumacraft",
       "generations": 52,
-      "published": 50,
-      "missing": 2,
-      "rangeOrConflict": 0
+      "published": 51,
+      "missing": 1,
+      "rangeOrConflict": 1
     },
     {
       "manufacturer": "Crestliner",
       "generations": 34,
-      "published": 30,
-      "missing": 4,
+      "published": 34,
+      "missing": 0,
       "rangeOrConflict": 4
     },
     {
@@ -45,8 +45,8 @@
     {
       "manufacturer": "G3",
       "generations": 8,
-      "published": 6,
-      "missing": 2,
+      "published": 7,
+      "missing": 1,
       "rangeOrConflict": 0
     },
     {
@@ -129,9 +129,9 @@
     {
       "manufacturer": "Smoker Craft",
       "generations": 86,
-      "published": 73,
-      "missing": 13,
-      "rangeOrConflict": 1
+      "published": 82,
+      "missing": 4,
+      "rangeOrConflict": 2
     },
     {
       "manufacturer": "Spectrum / Blue Fin",
@@ -143,15 +143,15 @@
     {
       "manufacturer": "Starcraft",
       "generations": 38,
-      "published": 21,
-      "missing": 17,
-      "rangeOrConflict": 0
+      "published": 27,
+      "missing": 11,
+      "rangeOrConflict": 1
     },
     {
       "manufacturer": "Starweld",
       "generations": 7,
-      "published": 3,
-      "missing": 4,
+      "published": 7,
+      "missing": 0,
       "rangeOrConflict": 0
     },
     {
@@ -164,15 +164,15 @@
     {
       "manufacturer": "Tracker",
       "generations": 29,
-      "published": 27,
-      "missing": 2,
+      "published": 29,
+      "missing": 0,
       "rangeOrConflict": 1
     },
     {
       "manufacturer": "Triton",
       "generations": 4,
-      "published": 1,
-      "missing": 3,
+      "published": 2,
+      "missing": 2,
       "rangeOrConflict": 0
     },
     {
@@ -194,81 +194,6 @@
       "endYear": null,
       "status": "family-umbrella-rejection",
       "rawWeight": "Varies",
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam)",
-      "manufacturer": "Alumacraft",
-      "model": "Trophy 170 (Secondary; 81-inch beam)",
-      "generationId": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1988-1989",
-      "generationLabel": "1988–1989 early Trophy 170 identity",
-      "startYear": 1988,
-      "endYear": 1989,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC",
-      "manufacturer": "Crestliner",
-      "model": "*Fish Hawk 1750 WT / full-windshield DC",
-      "generationId": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2002-2006",
-      "generationLabel": "2002–2006 early Fish Hawk 1750 DC identity; detailed tables source-exhausted",
-      "startYear": 2002,
-      "endYear": 2006,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Crestliner | Super Hawk 1800 WT",
-      "manufacturer": "Crestliner",
-      "model": "Super Hawk 1800 WT",
-      "generationId": "boat:Crestliner | Super Hawk 1800 WT:gen:2004-2007",
-      "generationLabel": "2004–2007 early Super Hawk 1800 line; exact propulsion tables source-exhausted",
-      "startYear": 2004,
-      "endYear": 2007,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Crestliner | Vision 1600 WT",
-      "manufacturer": "Crestliner",
-      "model": "Vision 1600 WT",
-      "generationId": "boat:Crestliner | Vision 1600 WT:gen:2014-2015",
-      "generationLabel": "2014–2015 early Vision 1600 identity; complete tables source-exhausted",
-      "startYear": 2014,
-      "endYear": 2015,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Crestliner | Vision 1700 WT",
-      "manufacturer": "Crestliner",
-      "model": "Vision 1700 WT",
-      "generationId": "boat:Crestliner | Vision 1700 WT:gen:2015",
-      "generationLabel": "2015 Vision 1700 identity; complete factory table source-exhausted",
-      "startYear": 2015,
-      "endYear": 2015,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
       "lowLb": null,
       "highLb": null,
       "classification": "missing-published-weight",
@@ -298,21 +223,6 @@
       "startYear": 2009,
       "endYear": 2009,
       "status": "annual-market-evidence",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:G3 | Angler V175 FS",
-      "manufacturer": "G3",
-      "model": "Angler V175 FS",
-      "generationId": "boat:G3 | Angler V175 FS:gen:2006-2009",
-      "generationLabel": "2006-2009 early Angler V175 FS evidence generation",
-      "startYear": 2006,
-      "endYear": 2009,
-      "status": "annual-roster-partial",
       "rawWeight": null,
       "lowLb": null,
       "highLb": null,
@@ -440,51 +350,6 @@
       "needsResearch": true
     },
     {
-      "boatId": "boat:Smoker Craft | Fazer 172",
-      "manufacturer": "Smoker Craft",
-      "model": "Fazer 172",
-      "generationId": "boat:Smoker Craft | Fazer 172:gen:1989-1994",
-      "generationLabel": "1989–1994 model identity; detailed tables source-exhausted",
-      "startYear": 1989,
-      "endYear": 1994,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Smoker Craft | Fazer 192",
-      "manufacturer": "Smoker Craft",
-      "model": "Fazer 192",
-      "generationId": "boat:Smoker Craft | Fazer 192:gen:1993-1994",
-      "generationLabel": "1993–1994 model identity; detailed tables source-exhausted",
-      "startYear": 1993,
-      "endYear": 1994,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Smoker Craft | Fazer 192",
-      "manufacturer": "Smoker Craft",
-      "model": "Fazer 192",
-      "generationId": "boat:Smoker Craft | Fazer 192:gen:1996-1999",
-      "generationLabel": "1996–1999 continuing model identity; detailed tables source-exhausted",
-      "startYear": 1996,
-      "endYear": 1999,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
       "boatId": "boat:Smoker Craft | Millentia 182 WT",
       "manufacturer": "Smoker Craft",
       "model": "Millentia 182 WT (misidentified listing alias)",
@@ -530,51 +395,6 @@
       "needsResearch": true
     },
     {
-      "boatId": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
-      "manufacturer": "Smoker Craft",
-      "model": "Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
-      "generationId": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:1994-1999",
-      "generationLabel": "1994–1999 early Pro Mag 182 identity; detailed tables source-exhausted",
-      "startYear": 1994,
-      "endYear": 1999,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Smoker Craft | Ultima 175",
-      "manufacturer": "Smoker Craft",
-      "model": "Ultima 175",
-      "generationId": "boat:Smoker Craft | Ultima 175:gen:1994",
-      "generationLabel": "1994 model identity; detailed table source-exhausted",
-      "startYear": 1994,
-      "endYear": 1994,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Smoker Craft | Ultima 175",
-      "manufacturer": "Smoker Craft",
-      "model": "Ultima 175",
-      "generationId": "boat:Smoker Craft | Ultima 175:gen:1996-1999",
-      "generationLabel": "1996–1999 continuation; detailed tables source-exhausted",
-      "startYear": 1996,
-      "endYear": 1999,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
       "boatId": "boat:Smoker Craft | Ultima 178",
       "manufacturer": "Smoker Craft",
       "model": "Ultima 178",
@@ -584,51 +404,6 @@
       "endYear": 2001,
       "status": "model-identity-source-exhausted",
       "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)",
-      "manufacturer": "Smoker Craft",
-      "model": "Ultima 182 (Secondary; 172 is Primary)",
-      "generationId": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2001-2002",
-      "generationLabel": "2001–2002 early Ultima 182 identity; detailed tables source-exhausted",
-      "startYear": 2001,
-      "endYear": 2002,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Smoker Craft | Stealth 162",
-      "manufacturer": "Smoker Craft",
-      "model": "Stealth 162",
-      "generationId": "boat:Smoker Craft | Stealth 162:gen:2004",
-      "generationLabel": "2004 Stealth 162 exact-model identity",
-      "startYear": 2004,
-      "endYear": 2004,
-      "status": "exact-model-partial",
-      "rawWeight": "Verify title/capacity plate; retained sources are incomplete",
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Smoker Craft | Pro Mag 162",
-      "manufacturer": "Smoker Craft",
-      "model": "Pro Mag 162",
-      "generationId": "boat:Smoker Craft | Pro Mag 162:gen:2001-dual",
-      "generationLabel": "2001 162 Pro Mag-Dual",
-      "startYear": 2001,
-      "endYear": 2001,
-      "status": "explicit-dual-roster",
-      "rawWeight": "Verify exact early package",
       "lowLb": null,
       "highLb": null,
       "classification": "missing-published-weight",
@@ -657,66 +432,6 @@
       "generationLabel": "1999–2006 early Fishmaster 196 family — source exhausted",
       "startYear": 1999,
       "endYear": 2006,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | Fishmaster 196",
-      "manufacturer": "Starcraft",
-      "model": "Fishmaster 196",
-      "generationId": "boat:Starcraft | Fishmaster 196:gen:2007-2009",
-      "generationLabel": "2007–2009 pre-2010 production identity — source exhausted",
-      "startYear": 2007,
-      "endYear": 2009,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | Fishmaster 196",
-      "manufacturer": "Starcraft",
-      "model": "Fishmaster 196",
-      "generationId": "boat:Starcraft | Fishmaster 196:gen:2016-2024",
-      "generationLabel": "2016–2024 later production — surviving generation boundary exhausted",
-      "startYear": 2016,
-      "endYear": 2024,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | SFM 160 Superfisherman",
-      "manufacturer": "Starcraft",
-      "model": "SFM 160 Superfisherman",
-      "generationId": "boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989",
-      "generationLabel": "1987–1989 production identity — surviving specifications exhausted",
-      "startYear": 1987,
-      "endYear": 1989,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starcraft | SFM 180 Superfisherman",
-      "manufacturer": "Starcraft",
-      "model": "SFM 180 Superfisherman",
-      "generationId": "boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989",
-      "generationLabel": "1987–1989 production identity — surviving specifications exhausted",
-      "startYear": 1987,
-      "endYear": 1989,
       "status": "source-exhausted-partial",
       "rawWeight": null,
       "lowLb": null,
@@ -770,21 +485,6 @@
       "needsResearch": true
     },
     {
-      "boatId": "boat:Starcraft | STX 2050 Aluminum",
-      "manufacturer": "Starcraft",
-      "model": "STX 2050 Aluminum",
-      "generationId": "boat:Starcraft | STX 2050 Aluminum:gen:2025-2026",
-      "generationLabel": "2025–2026 current 20'10-inch factory generation",
-      "startYear": 2025,
-      "endYear": 2026,
-      "status": "factory-current-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
       "boatId": "boat:Starcraft | Superfisherman 170",
       "manufacturer": "Starcraft",
       "model": "Superfisherman 170",
@@ -830,21 +530,6 @@
       "needsResearch": true
     },
     {
-      "boatId": "boat:Starcraft | Superfisherman 190",
-      "manufacturer": "Starcraft",
-      "model": "Superfisherman 190",
-      "generationId": "boat:Starcraft | Superfisherman 190:gen:1991-1997",
-      "generationLabel": "1991–1997 production identity — surviving specifications exhausted",
-      "startYear": 1991,
-      "endYear": 1997,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
       "boatId": "boat:Starcraft | Tournament 170 (does not meet windshield requirement)",
       "manufacturer": "Starcraft",
       "model": "Tournament 170 (does not meet windshield requirement)",
@@ -868,66 +553,6 @@
       "startYear": 1996,
       "endYear": 1997,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starweld | Fusion 16 DC",
-      "manufacturer": "Starweld",
-      "model": "Fusion 16 DC",
-      "generationId": "boat:Starweld | Fusion 16 DC:gen:2018-2020",
-      "generationLabel": "2018–2020 launch generation — annual table source exhausted",
-      "startYear": 2018,
-      "endYear": 2020,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starweld | Fusion 16 DC",
-      "manufacturer": "Starweld",
-      "model": "Fusion 16 DC",
-      "generationId": "boat:Starweld | Fusion 16 DC:gen:2022-2026",
-      "generationLabel": "2022–2026 continuing Fusion 16 DC — exact annual table source exhausted",
-      "startYear": 2022,
-      "endYear": 2026,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starweld | Fusion 18 DC",
-      "manufacturer": "Starweld",
-      "model": "Fusion 18 DC",
-      "generationId": "boat:Starweld | Fusion 18 DC:gen:2018-2020",
-      "generationLabel": "2018–2020 launch generation — annual table source exhausted",
-      "startYear": 2018,
-      "endYear": 2020,
-      "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Starweld | Fusion 18 DC",
-      "manufacturer": "Starweld",
-      "model": "Fusion 18 DC",
-      "generationId": "boat:Starweld | Fusion 18 DC:gen:2022-2025",
-      "generationLabel": "2022–2025 continuing Fusion 18 DC — exact annual table source exhausted",
-      "startYear": 2022,
-      "endYear": 2025,
-      "status": "source-exhausted-partial",
       "rawWeight": null,
       "lowLb": null,
       "highLb": null,
@@ -965,36 +590,6 @@
       "needsResearch": true
     },
     {
-      "boatId": "boat:Tracker | Pro Guide V-175 WT",
-      "manufacturer": "Tracker",
-      "model": "*Pro Guide V-175 WT",
-      "generationId": "boat:Tracker | Pro Guide V-175 WT:gen:2011",
-      "generationLabel": "2011 model identity; complete table source-exhausted",
-      "startYear": 2011,
-      "endYear": 2011,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Tracker | Tundra 18 DC / WT",
-      "manufacturer": "Tracker",
-      "model": "Tundra 18 DC / WT",
-      "generationId": "boat:Tracker | Tundra 18 DC / WT:gen:2003",
-      "generationLabel": "2003 model identity; table source-exhausted",
-      "startYear": 2003,
-      "endYear": 2003,
-      "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
       "boatId": "boat:Triton | DV176 DC Magnum",
       "manufacturer": "Triton",
       "model": "DV176 DC Magnum",
@@ -1004,21 +599,6 @@
       "endYear": 2009,
       "status": "unresolved",
       "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
-    },
-    {
-      "boatId": "boat:Triton | DV186 DC Magnum",
-      "manufacturer": "Triton",
-      "model": "DV186 DC Magnum",
-      "generationId": "boat:Triton | DV186 DC Magnum:gen:2006",
-      "generationLabel": "2006 cited specification snapshot",
-      "startYear": 2006,
-      "endYear": 2006,
-      "status": "cited-snapshot",
-      "rawWeight": "Not published",
       "lowLb": null,
       "highLb": null,
       "classification": "missing-published-weight",
@@ -1146,6 +726,21 @@
     }
   ],
   "ranges": [
+    {
+      "boatId": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam)",
+      "manufacturer": "Alumacraft",
+      "model": "Trophy 170 (Secondary; 81-inch beam)",
+      "generationId": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1988-1989",
+      "generationLabel": "1988–1989 early Trophy 170 identity",
+      "startYear": 1988,
+      "endYear": 1989,
+      "status": "model-identity-source-exhausted",
+      "rawWeight": "1988 Trophy 170: 875 lb; 1989 Trophy 170 Combo: 1725 lb",
+      "lowLb": 875,
+      "highLb": 1725,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
+    },
     {
       "boatId": "boat:Crestliner | Fish Hawk 1700 WT",
       "manufacturer": "Crestliner",
@@ -1342,6 +937,21 @@
       "needsResearch": false
     },
     {
+      "boatId": "boat:Smoker Craft | Fazer 172",
+      "manufacturer": "Smoker Craft",
+      "model": "Fazer 172",
+      "generationId": "boat:Smoker Craft | Fazer 172:gen:1989-1994",
+      "generationLabel": "1989–1994 model identity; detailed tables source-exhausted",
+      "startYear": 1989,
+      "endYear": 1994,
+      "status": "model-identity-source-exhausted",
+      "rawWeight": "1989-1990 172 Fazer: 860 lb; 1991-1994 172 Fazer: 910 lb",
+      "lowLb": 860,
+      "highLb": 910,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
+    },
+    {
       "boatId": "boat:Smoker Craft | Stinger 162 Dual / DC",
       "manufacturer": "Smoker Craft",
       "model": "Stinger 162 Dual / DC",
@@ -1353,6 +963,21 @@
       "rawWeight": "660 lb exact-model source / 920 lb annual roster",
       "lowLb": 660,
       "highLb": 920,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
+    },
+    {
+      "boatId": "boat:Starcraft | Superfisherman 190",
+      "manufacturer": "Starcraft",
+      "model": "Superfisherman 190",
+      "generationId": "boat:Starcraft | Superfisherman 190:gen:1991-1997",
+      "generationLabel": "1991–1997 production identity — surviving specifications exhausted",
+      "startYear": 1991,
+      "endYear": 1997,
+      "status": "source-exhausted-partial",
+      "rawWeight": "1991 Superfisherman 190: 930 lb; 1992-1993 Superfisherman 190: 1050 lb; 1994-1997 Superfisherman 190: 1183 lb",
+      "lowLb": 930,
+      "highLb": 1183,
       "classification": "published-range-or-conflict",
       "needsResearch": false
     },
@@ -1952,11 +1577,11 @@
       "startYear": 1988,
       "endYear": 1989,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1988 Trophy 170: 875 lb; 1989 Trophy 170 Combo: 1725 lb",
+      "lowLb": 875,
+      "highLb": 1725,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam)",
@@ -2207,11 +1832,11 @@
       "startYear": 2002,
       "endYear": 2006,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,100 lb",
+      "lowLb": 1100,
+      "highLb": 1100,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC",
@@ -2582,11 +2207,11 @@
       "startYear": 2004,
       "endYear": 2007,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,470 lb",
+      "lowLb": 1470,
+      "highLb": 1470,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Crestliner | Super Hawk 1800 WT",
@@ -2612,11 +2237,11 @@
       "startYear": 2014,
       "endYear": 2015,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "935 lb",
+      "lowLb": 935,
+      "highLb": 935,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Crestliner | Vision 1600 WT",
@@ -2642,11 +2267,11 @@
       "startYear": 2015,
       "endYear": 2015,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,190 lb",
+      "lowLb": 1190,
+      "highLb": 1190,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Crestliner | Vision 1700 WT",
@@ -3002,11 +2627,11 @@
       "startYear": 2006,
       "endYear": 2009,
       "status": "annual-roster-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,460 lb",
+      "lowLb": 1460,
+      "highLb": 1460,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:G3 | Angler V175 FS",
@@ -5237,11 +4862,11 @@
       "startYear": 1989,
       "endYear": 1994,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1989-1990 172 Fazer: 860 lb; 1991-1994 172 Fazer: 910 lb",
+      "lowLb": 860,
+      "highLb": 910,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Fazer 172",
@@ -5282,11 +4907,11 @@
       "startYear": 1993,
       "endYear": 1994,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,100 lb",
+      "lowLb": 1100,
+      "highLb": 1100,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Fazer 192",
@@ -5312,11 +4937,11 @@
       "startYear": 1996,
       "endYear": 1999,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,375 lb",
+      "lowLb": 1375,
+      "highLb": 1375,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Millentia 172 WT",
@@ -5882,11 +5507,11 @@
       "startYear": 1994,
       "endYear": 1999,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,310 lb",
+      "lowLb": 1310,
+      "highLb": 1310,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)",
@@ -6137,11 +5762,11 @@
       "startYear": 1994,
       "endYear": 1994,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,120 lb",
+      "lowLb": 1120,
+      "highLb": 1120,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Ultima 175",
@@ -6167,11 +5792,11 @@
       "startYear": 1996,
       "endYear": 1999,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,120 lb",
+      "lowLb": 1120,
+      "highLb": 1120,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Ultima 178",
@@ -6197,11 +5822,11 @@
       "startYear": 2001,
       "endYear": 2002,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,080 lb",
+      "lowLb": 1080,
+      "highLb": 1080,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)",
@@ -6392,11 +6017,11 @@
       "startYear": 2004,
       "endYear": 2004,
       "status": "exact-model-partial",
-      "rawWeight": "Verify title/capacity plate; retained sources are incomplete",
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "660 lb",
+      "lowLb": 660,
+      "highLb": 660,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Pro Mag 162",
@@ -6407,11 +6032,11 @@
       "startYear": 2001,
       "endYear": 2001,
       "status": "explicit-dual-roster",
-      "rawWeight": "Verify exact early package",
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "960 lb",
+      "lowLb": 960,
+      "highLb": 960,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Smoker Craft | Pro Mag 162",
@@ -6632,11 +6257,11 @@
       "startYear": 2007,
       "endYear": 2009,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,498 lb",
+      "lowLb": 1498,
+      "highLb": 1498,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Fishmaster 196",
@@ -6692,11 +6317,11 @@
       "startYear": 2016,
       "endYear": 2024,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,430 lb",
+      "lowLb": 1430,
+      "highLb": 1430,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Fishmaster 196",
@@ -6737,11 +6362,11 @@
       "startYear": 1987,
       "endYear": 1989,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "650 lb",
+      "lowLb": 650,
+      "highLb": 650,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | SFM 180 Superfisherman",
@@ -6767,11 +6392,11 @@
       "startYear": 1987,
       "endYear": 1989,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "900 lb",
+      "lowLb": 900,
+      "highLb": 900,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Starfish 176 DC / WT",
@@ -6887,11 +6512,11 @@
       "startYear": 2025,
       "endYear": 2026,
       "status": "factory-current-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "2,160 lb",
+      "lowLb": 2160,
+      "highLb": 2160,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Superfisherman 170",
@@ -7007,11 +6632,11 @@
       "startYear": 1991,
       "endYear": 1997,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1991 Superfisherman 190: 930 lb; 1992-1993 Superfisherman 190: 1050 lb; 1994-1997 Superfisherman 190: 1183 lb",
+      "lowLb": 930,
+      "highLb": 1183,
+      "classification": "published-range-or-conflict",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starcraft | Superfisherman 190",
@@ -7097,11 +6722,11 @@
       "startYear": 2018,
       "endYear": 2020,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,045 lb",
+      "lowLb": 1045,
+      "highLb": 1045,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starweld | Fusion 16 DC",
@@ -7127,11 +6752,11 @@
       "startYear": 2022,
       "endYear": 2026,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "925 lb",
+      "lowLb": 925,
+      "highLb": 925,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starweld | Fusion 18 DC",
@@ -7142,11 +6767,11 @@
       "startYear": 2018,
       "endYear": 2020,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,225 lb",
+      "lowLb": 1225,
+      "highLb": 1225,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Starweld | Fusion 18 DC",
@@ -7172,11 +6797,11 @@
       "startYear": 2022,
       "endYear": 2025,
       "status": "source-exhausted-partial",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,165 lb",
+      "lowLb": 1165,
+      "highLb": 1165,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Sylvan | Adventurer 1700 DC",
@@ -7757,11 +7382,11 @@
       "startYear": 2011,
       "endYear": 2011,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,385 lb",
+      "lowLb": 1385,
+      "highLb": 1385,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Tracker | Pro Guide V-175 WT",
@@ -7967,11 +7592,11 @@
       "startYear": 2003,
       "endYear": 2003,
       "status": "model-identity-source-exhausted",
-      "rawWeight": null,
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,460 lb",
+      "lowLb": 1460,
+      "highLb": 1460,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Tracker | Tundra 18 DC / WT",
@@ -8072,11 +7697,11 @@
       "startYear": 2006,
       "endYear": 2006,
       "status": "cited-snapshot",
-      "rawWeight": "Not published",
-      "lowLb": null,
-      "highLb": null,
-      "classification": "missing-published-weight",
-      "needsResearch": true
+      "rawWeight": "1,300 lb",
+      "lowLb": 1300,
+      "highLb": 1300,
+      "classification": "published-single",
+      "needsResearch": false
     },
     {
       "boatId": "boat:Triton | DV186 DC Magnum",

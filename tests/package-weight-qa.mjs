@@ -18,6 +18,7 @@ assert.equal(W.TOW_LIMIT_LB,4000,"Tow limit changed unexpectedly");
 assert.equal(W.DISPLAY_THRESHOLD_LB,30,"Display threshold must remain 30 lb");
 assert.equal(boats.length,183,"Boat baseline changed without updating package-weight QA");
 
+const PUBLISHED_WEIGHT_ERAS_QA_V1=true;
 const pounds=text=>[...String(text||"").replaceAll(",","").matchAll(/(\d+(?:\.\d+)?)\s*(?:lb|lbs|pound|pounds)\b/gi)].map(match=>Number(match[1]));
 let published=0,missing=0;
 for(const boat of boats){
@@ -25,7 +26,7 @@ for(const boat of boats){
   const details=Object.fromEntries((boat.details||[]).map(detail=>[detail.label,detail.value]));
   for(const generation of generations){
     const raw=generation.catalogSpecs?details["Dry Hull Weight"]:generation.specs?.["Dry Hull Weight"]?.value;
-    const hasPublished=pounds(raw).length>0;
+    const hasPublished=pounds(raw).length>0||(Array.isArray(generation.weightEras)&&generation.weightEras.some(era=>Number.isFinite(Number(era.lowLb))));
     const config={generationId:generation.id,trailer:"standard",fuelPercent:0};
     const hull=W.hullWeight(boat,config);
     const item=W.itemWeight(boat,config);
@@ -45,7 +46,7 @@ for(const boat of boats){
     }
   }
 }
-assert.ok(published>=421,"Published generation-weight coverage regressed");
+assert.ok(published>=440,"Published generation-weight coverage regressed");
 assert.ok(missing>=1,"Missing published hull weights were silently filled without updating evidence QA");
 
 for(const item of equipment.filter(entry=>entry.categoryId==="main-motors"||entry.categoryId==="kickers")){
@@ -75,6 +76,15 @@ const packageResult=W.packageWeight([
 assert.ok(packageResult.complete,"Known boat + motor package should be complete");
 assert.ok(packageResult.high>packageResult.low,"Package should retain a realistic range");
 assert.ok(packageResult.gearAllowance===150,"Gear allowance was not included");
+
+
+const trophy=boats.find(boat=>boat.manufacturer==="Alumacraft"&&boat.model.includes("Trophy 170"));
+assert.ok(trophy,"Trophy 170 weight-era test boat missing");
+const trophyGeneration=trophy.designGenerations.find(generation=>generation.startYear===1988&&generation.endYear===1989);
+assert.equal(W.hullWeight(trophy,{generationId:trophyGeneration.id,era:"1988 Trophy 170"}).low,875,"1988 Trophy 170 weight changed");
+assert.equal(W.hullWeight(trophy,{generationId:trophyGeneration.id,era:"1989 Trophy 170 Combo"}).low,1725,"1989 Trophy 170 weight changed");
+const trophySpan=W.hullWeight(trophy,{generationId:trophyGeneration.id});
+assert.deepEqual([trophySpan.low,trophySpan.high],[875,1725],"Unspecified Trophy year must retain the published span");
 
 const app=read("app.js");
 const html=read("index.html");

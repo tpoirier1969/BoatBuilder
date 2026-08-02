@@ -4394,17 +4394,46 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1988-1989",
-            "label": "1988–1989",
+            "label": "1988 Trophy 170",
             "startYear": 1988,
+            "endYear": 1988,
+            "low": 1500,
+            "high": 3500,
+            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1988 figure."
+          },
+          {
+            "id": "boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):value:1988-1989",
+            "label": "1989 Trophy 170 Combo",
+            "startYear": 1989,
             "endYear": 1989,
             "low": 1500,
             "high": 3500,
-            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value"
+            "basis": "Used complete-package screening estimate; motor, trailer, structural condition, canvas and electronics materially affect value Hull weight uses the published 1989 figure."
           }
         ],
         "evidenceUrls": [
           "https://www.jdpower.com/boats/1988/alumacraft-boat-co",
           "https://www.jdpower.com/boats/1989/alumacraft-boat-co"
+        ],
+        "weightEras": [
+          {
+            "label": "1988 Trophy 170",
+            "startYear": 1988,
+            "endYear": 1988,
+            "lowLb": 875,
+            "highLb": 875,
+            "basis": "1988 annual manufacturer roster lists the Trophy 170 at 875 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/1988/alumacraft-boat-co"
+          },
+          {
+            "label": "1989 Trophy 170 Combo",
+            "startYear": 1989,
+            "endYear": 1989,
+            "lowLb": 1725,
+            "highLb": 1725,
+            "basis": "1989 annual roster lists the Trophy 170 Combo at 1,725 lb; do not carry the 1988 hull weight forward.",
+            "sourceUrl": "https://www.jdpower.com/boats/1989/alumacraft-boat-co"
+          }
         ]
       },
       {
@@ -6029,7 +6058,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Exact-model fitment establishes the 1750 Fish Hawk dual-console line by 2002. Complete early factory tables were not recovered; windshield configuration must be verified.",
         "sourceUrl": "https://rnr-marine.com/Crestliner.shtml",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,100 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:value:2002-2006",
@@ -6040,6 +6074,9 @@ window.BOATBUILDER_BOATS = [
             "high": 7500,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2002/crestliner-inc"
         ]
       },
       {
@@ -9195,7 +9232,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Annual model references establish the 1800 Super Hawk before the exact 2008 table. Outboard and sterndrive configurations existed and must not be mixed.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,470 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Crestliner | Super Hawk 1800 WT:value:2004-2007",
@@ -9206,6 +9248,9 @@ window.BOATBUILDER_BOATS = [
             "high": 8500,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2004/crestliner-inc/power-boats"
         ]
       },
       {
@@ -9441,7 +9486,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Market and model-year records establish the Vision 1600 by 2014. Complete early factory tables were not recovered.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "935 lb",
+            "confidence": "manufacturer-reported-annual-spec"
+          }
+        },
         "eras": [
           {
             "id": "boat:Crestliner | Vision 1600 WT:value:2014-2015",
@@ -9452,6 +9502,9 @@ window.BOATBUILDER_BOATS = [
             "high": 11500,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2015/crestliner-inc/1600-vision___/32048517/specs"
         ]
       },
       {
@@ -9687,7 +9740,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "A year-specific review and model identity establish the Vision 1700 in 2015. Complete factory certification data were not recovered.",
         "sourceUrl": "https://www.crestliner.com/documents.html",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,190 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Crestliner | Vision 1700 WT:value:2015",
@@ -9698,6 +9756,9 @@ window.BOATBUILDER_BOATS = [
             "high": 14000,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2015/crestliner-inc"
         ]
       },
       {
@@ -12720,6 +12781,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "Riveted three-piece aluminum GX2 deep-V with full-length riveted keel",
             "confidence": "factory-series-verified"
+          },
+          "Dry Hull Weight": {
+            "value": "1,460 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -12733,7 +12798,9 @@ window.BOATBUILDER_BOATS = [
             "basis": "Used complete-package screening estimate; motor age, trailer, floor/transom condition, canvas and electronics can move an individual package outside the range."
           }
         ],
-        "evidenceUrls": []
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2009/g3-boats"
+        ]
       },
       {
         "id": "boat:G3 | Angler V175 FS:gen:2010-2012",
@@ -31997,13 +32064,46 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Smoker Craft | Fazer 172:value:1989-1994",
-            "label": "1989-1994",
+            "label": "1989-1990 172 Fazer",
             "startYear": 1989,
+            "endYear": 1990,
+            "low": 1800,
+            "high": 4000,
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1989-1990 figure."
+          },
+          {
+            "id": "boat:Smoker Craft | Fazer 172:value:1989-1994",
+            "label": "1991-1994 172 Fazer",
+            "startYear": 1991,
             "endYear": 1994,
             "low": 1800,
             "high": 4000,
-            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
+            "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range. Hull weight uses the published 1991-1994 figure."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "1989-1990 172 Fazer",
+            "startYear": 1989,
+            "endYear": 1990,
+            "lowLb": 860,
+            "highLb": 860,
+            "basis": "1989 172GZ Fazer and 1990 172FZ Fazer Mark II annual rosters list 860 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/1989/smoker-craft-inc"
+          },
+          {
+            "label": "1991-1994 172 Fazer",
+            "startYear": 1991,
+            "endYear": 1994,
+            "lowLb": 910,
+            "highLb": 910,
+            "basis": "1991-1994 annual rosters list the 172 Fazer at 910 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/1991/smoker-craft-inc"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1989/smoker-craft-inc",
+          "https://www.jdpower.com/boats/1991/smoker-craft-inc"
         ]
       },
       {
@@ -32396,7 +32496,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Exact-model cover fitment and annual references establish the early Fazer 192 span. Complete compatible factory tables were not recovered for 1993–1994.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,100 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Smoker Craft | Fazer 192:value:1993-1994",
@@ -32407,6 +32512,9 @@ window.BOATBUILDER_BOATS = [
             "high": 5200,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1994/smoker-craft-inc"
         ]
       },
       {
@@ -32479,7 +32587,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Exact-model cover fitment and annual model records establish continuation through 1999. Complete post-1995 specifications were not recovered, so the 1995 table is not carried forward.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,375 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Smoker Craft | Fazer 192:value:1996-1999",
@@ -32490,6 +32603,9 @@ window.BOATBUILDER_BOATS = [
             "high": 7000,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1996/smoker-craft-inc"
         ]
       }
     ],
@@ -36265,7 +36381,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Exact-model fitment establishes the 1994–1999 production interval. Complete factory tables were not recovered.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,310 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):value:1994-1999",
@@ -36276,6 +36397,9 @@ window.BOATBUILDER_BOATS = [
             "high": 7000,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1996/smoker-craft-inc"
         ]
       },
       {
@@ -37500,7 +37624,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Exact-model fitment and annual records establish the 1994 start. Complete 1994 factory specifications were not recovered.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,120 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Smoker Craft | Ultima 175:value:1994",
@@ -37511,6 +37640,9 @@ window.BOATBUILDER_BOATS = [
             "high": 5000,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1994/smoker-craft-inc"
         ]
       },
       {
@@ -37583,7 +37715,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Exact-model fitment establishes continuation through 1999. The 1995 table is not assumed unchanged.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,120 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Smoker Craft | Ultima 175:value:1996-1999",
@@ -37594,6 +37731,9 @@ window.BOATBUILDER_BOATS = [
             "high": 6500,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1996/smoker-craft-inc"
         ]
       }
     ],
@@ -37903,7 +38043,12 @@ window.BOATBUILDER_BOATS = [
         "status": "model-identity-source-exhausted",
         "specificationBasis": "Exact-model fitment establishes the early 2001–2002 Ultima 182. Complete factory tables were not recovered.",
         "sourceUrl": "https://rnr-marine.com/SmokerCraft.shtml",
-        "specs": {},
+        "specs": {
+          "Dry Hull Weight": {
+            "value": "1,080 lb",
+            "confidence": "published-annual-roster"
+          }
+        },
         "eras": [
           {
             "id": "boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):value:2001-2002",
@@ -37914,6 +38059,9 @@ window.BOATBUILDER_BOATS = [
             "high": 8500,
             "basis": "Used complete-package screening estimate calibrated from year-specific valuation references and observed used-market asking prices; structural condition, motor, trailer and equipment can move a specific package outside this range."
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2001/smoker-craft-inc"
         ]
       },
       {
@@ -39220,8 +39368,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "exact-model-roster"
           },
           "Dry Hull Weight": {
-            "value": "Verify title/capacity plate; retained sources are incomplete",
-            "confidence": "not-reliably-published"
+            "value": "660 lb",
+            "confidence": "published-annual-roster"
           },
           "Max HP": {
             "value": "Verify capacity plate",
@@ -39247,7 +39395,9 @@ window.BOATBUILDER_BOATS = [
             "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
           }
         ],
-        "evidenceUrls": []
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2004/smoker-craft-inc"
+        ]
       }
     ],
     "generationWarning": "Legacy Smoker Craft hull badges, dealer wording and factory catalog names do not always match. Verify the HIN, title, capacity plate and exact windshield opening before applying a row.",
@@ -39402,8 +39552,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "annual-roster"
           },
           "Dry Hull Weight": {
-            "value": "Verify exact early package",
-            "confidence": "not-reliably-published"
+            "value": "960 lb",
+            "confidence": "published-annual-roster"
           },
           "Max HP": {
             "value": "Verify capacity plate",
@@ -39429,7 +39579,9 @@ window.BOATBUILDER_BOATS = [
             "basis": "Used complete-package screening estimate. Motor condition, floor and transom condition, trailer, canvas, electronics and regional demand can move a package outside this range."
           }
         ],
-        "evidenceUrls": []
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2001/smoker-craft-inc"
+        ]
       },
       {
         "id": "boat:Smoker Craft | Pro Mag 162:gen:2003-le",
@@ -41088,6 +41240,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "Riveted aluminum deep-V",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "1,498 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -41100,6 +41256,9 @@ window.BOATBUILDER_BOATS = [
             "high": 10000,
             "basis": "Used complete-package screening range for this early production/value span"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2008/starcraft-co/power-boats"
         ]
       },
       {
@@ -41356,6 +41515,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "Riveted Power-Trac deep-V aluminum",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "1,430 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -41377,6 +41540,9 @@ window.BOATBUILDER_BOATS = [
             "high": 45000,
             "basis": "Used complete-package screening range for newer examples; equipment and power dominate"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2017/starcraft-co/power-boats"
         ]
       },
       {
@@ -41689,6 +41855,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "Riveted aluminum",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "650 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -41701,6 +41871,9 @@ window.BOATBUILDER_BOATS = [
             "high": 4000,
             "basis": "Used complete-package screening range for late-1980s examples; rebuild quality controls value"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1989/starcraft-co"
         ]
       }
     ],
@@ -41943,6 +42116,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "Riveted aluminum",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "900 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -41955,6 +42132,9 @@ window.BOATBUILDER_BOATS = [
             "high": 5000,
             "basis": "Used complete-package screening range for late-1980s examples; rebuild quality controls value"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1989/starcraft-co"
         ]
       }
     ],
@@ -42681,6 +42861,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "Current riveted aluminum STX",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "2,160 lb",
+            "confidence": "current-factory-spec"
           }
         },
         "eras": [
@@ -42693,6 +42877,9 @@ window.BOATBUILDER_BOATS = [
             "high": 72000,
             "basis": "Nearly-new complete-package screening range; outside target budget and tow envelope"
           }
+        ],
+        "evidenceUrls": [
+          "https://starcraftmarine.com/series/stx/"
         ]
       }
     ],
@@ -43589,7 +43776,11 @@ window.BOATBUILDER_BOATS = [
             "high": 65000,
             "basis": "Nearly-new complete-package screening range; outside target budget"
           }
-        ]
+        ],
+        "evidenceUrls": [
+          "https://starcraftmarine.com/model/186-dc/"
+        ],
+        "weightNote": "Current published dry-weight figures conflict across retained sources. BoatBuilder leaves hull weight unavailable until the conflict is resolved or the listing provides a documented actual weight."
       }
     ],
     "generationWarning": "Excellent Lake Superior hull, but the 186 normally exceeds the preferred price and practical loaded tow target. The 176 remains the better search fit."
@@ -43750,13 +43941,65 @@ window.BOATBUILDER_BOATS = [
         "eras": [
           {
             "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
-            "label": "1991–1997",
+            "label": "1991 Superfisherman 190",
             "startYear": 1991,
+            "endYear": 1991,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1991 figure."
+          },
+          {
+            "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
+            "label": "1992-1993 Superfisherman 190",
+            "startYear": 1992,
+            "endYear": 1993,
+            "low": 3000,
+            "high": 8000,
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1992-1993 figure."
+          },
+          {
+            "id": "boat:Starcraft | Superfisherman 190:gen:1991-1997:value:1991–1997",
+            "label": "1994-1997 Superfisherman 190",
+            "startYear": 1994,
             "endYear": 1997,
             "low": 3000,
             "high": 8000,
-            "basis": "Used complete-package screening range; large old motors and structural condition dominate"
+            "basis": "Used complete-package screening range; large old motors and structural condition dominate Hull weight uses the published 1994-1997 figure."
           }
+        ],
+        "weightEras": [
+          {
+            "label": "1991 Superfisherman 190",
+            "startYear": 1991,
+            "endYear": 1991,
+            "lowLb": 930,
+            "highLb": 930,
+            "basis": "1991 annual roster lists the Superfisherman 190 at 930 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/1991/starcraft-co/power-boats"
+          },
+          {
+            "label": "1992-1993 Superfisherman 190",
+            "startYear": 1992,
+            "endYear": 1993,
+            "lowLb": 1050,
+            "highLb": 1050,
+            "basis": "1992-1993 annual rosters list the Superfisherman 190 at 1,050 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/1992/starcraft-co"
+          },
+          {
+            "label": "1994-1997 Superfisherman 190",
+            "startYear": 1994,
+            "endYear": 1997,
+            "lowLb": 1183,
+            "highLb": 1183,
+            "basis": "1994-1997 annual rosters list the Superfisherman 190 at 1,183 lb.",
+            "sourceUrl": "https://www.jdpower.com/boats/1994/starcraft-co/power-boats"
+          }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/1991/starcraft-co/power-boats",
+          "https://www.jdpower.com/boats/1992/starcraft-co",
+          "https://www.jdpower.com/boats/1994/starcraft-co/power-boats"
         ]
       },
       {
@@ -44515,6 +44758,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "All-welded aluminum; full-vinyl fishing surfaces",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "1,045 lb",
+            "confidence": "factory-catalog"
           }
         },
         "eras": [
@@ -44527,6 +44774,9 @@ window.BOATBUILDER_BOATS = [
             "high": 21000,
             "basis": "Used complete-package screening range for this production/value span"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.starcraftmarine.com/sites/default/files/2018-Starweld-Catalog.pdf"
         ]
       },
       {
@@ -44647,6 +44897,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "All-welded aluminum; all-vinyl floors",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "925 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -44659,6 +44913,9 @@ window.BOATBUILDER_BOATS = [
             "high": 25000,
             "basis": "Used complete-package screening range for this production/value span"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2024/starweld"
         ]
       }
     ],
@@ -44823,6 +45080,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "All-welded aluminum; full-vinyl fishing surfaces",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "1,225 lb",
+            "confidence": "factory-catalog"
           }
         },
         "eras": [
@@ -44835,6 +45096,9 @@ window.BOATBUILDER_BOATS = [
             "high": 30000,
             "basis": "Used complete-package screening range for this production/value span"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.starcraftmarine.com/sites/default/files/2018-Starweld-Catalog.pdf"
         ]
       },
       {
@@ -44951,6 +45215,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "All-welded aluminum; all-vinyl floors",
             "confidence": "source-exhausted-partial"
+          },
+          "Dry Hull Weight": {
+            "value": "1,165 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -44963,6 +45231,9 @@ window.BOATBUILDER_BOATS = [
             "high": 34000,
             "basis": "Used complete-package screening range for this production/value span"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2024/starweld"
         ]
       }
     ],
@@ -49626,6 +49897,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "All-welded Tracker deep-V; walk-through windshield model identity",
             "confidence": "model-identity-only"
+          },
+          "Dry Hull Weight": {
+            "value": "1,385 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -49638,6 +49913,9 @@ window.BOATBUILDER_BOATS = [
             "high": 11500,
             "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2011/tracker-marine"
         ]
       },
       {
@@ -50891,6 +51169,10 @@ window.BOATBUILDER_BOATS = [
           "Construction": {
             "value": "Stretch-formed aluminum V-pad hull; DC/WT listing identity",
             "confidence": "source-supported"
+          },
+          "Dry Hull Weight": {
+            "value": "1,460 lb",
+            "confidence": "published-annual-roster"
           }
         },
         "eras": [
@@ -50903,6 +51185,9 @@ window.BOATBUILDER_BOATS = [
             "high": 7250,
             "basis": "Used complete-package screening estimate for a running boat, ordinary period-appropriate outboard and usable trailer"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2003/tracker-marine"
         ]
       },
       {
@@ -51531,8 +51816,8 @@ window.BOATBUILDER_BOATS = [
             "confidence": "catalog-representative"
           },
           "Dry Hull Weight": {
-            "value": "Not published",
-            "confidence": "catalog-representative"
+            "value": "1,300 lb",
+            "confidence": "published-annual-roster"
           },
           "Max / Bow Depth": {
             "value": "Not published",
@@ -51593,6 +51878,9 @@ window.BOATBUILDER_BOATS = [
             "high": 7000,
             "basis": "Used complete-package screening estimate; use only after confirming the selected cited hull snapshot matches the listing"
           }
+        ],
+        "evidenceUrls": [
+          "https://www.jdpower.com/boats/2006/triton-boats"
         ]
       },
       {

@@ -1,8 +1,8 @@
 # Hull-weight research targets
 
-Generated: 2026-08-02T16:11:45.070Z
+Generated: 2026-08-02T16:15:20.464Z
 
-Remaining target generation rows: 58
+Remaining target generation rows: 30
 
 ## Alumacraft | Magnum CS (side-console series; no walk-through windshield)
 
@@ -16,66 +16,6 @@ Remaining target generation rows: 58
 - Basis: 1995 Alumacraft factory catalog and family identification. CS denotes side-console configurations; this row is retained only to reject the layout from the required full-windshield search.
 - Source: https://www.alumacraft.com/original-content/content/dam/global/en/alumacraft/catalogs/1990-1999/Catalogs/ALUMA-MY95-Catalog-ENUS.pdf
 
-## Alumacraft | Trophy 170 (Secondary; 81-inch beam)
-
-- Boat ID: `boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam)`
-- Generation ID: `boat:Alumacraft | Trophy 170 (Secondary; 81-inch beam):gen:1988-1989`
-- Years: 1988–1989
-- Label: 1988–1989 early Trophy 170 identity
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1988–1989 [1988-1989]
-- Basis: Annual valuation/model records establish the Trophy 170 name, but surviving weight entries conflict and no complete factory table was recovered. No specifications are inferred.
-- Source: https://www.jdpower.com/boats/1988/alumacraft-boat-co
-
-## Crestliner | *Fish Hawk 1750 WT / full-windshield DC
-
-- Boat ID: `boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC`
-- Generation ID: `boat:Crestliner | Fish Hawk 1750 WT / full-windshield DC:gen:2002-2006`
-- Years: 2002–2006
-- Label: 2002–2006 early Fish Hawk 1750 DC identity; detailed tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2002-2006 [2002-2006]
-- Basis: Exact-model fitment establishes the 1750 Fish Hawk dual-console line by 2002. Complete early factory tables were not recovered; windshield configuration must be verified.
-- Source: https://rnr-marine.com/Crestliner.shtml
-
-## Crestliner | Super Hawk 1800 WT
-
-- Boat ID: `boat:Crestliner | Super Hawk 1800 WT`
-- Generation ID: `boat:Crestliner | Super Hawk 1800 WT:gen:2004-2007`
-- Years: 2004–2007
-- Label: 2004–2007 early Super Hawk 1800 line; exact propulsion tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2004-2007 [2004-2007]
-- Basis: Annual model references establish the 1800 Super Hawk before the exact 2008 table. Outboard and sterndrive configurations existed and must not be mixed.
-- Source: https://www.crestliner.com/documents.html
-
-## Crestliner | Vision 1600 WT
-
-- Boat ID: `boat:Crestliner | Vision 1600 WT`
-- Generation ID: `boat:Crestliner | Vision 1600 WT:gen:2014-2015`
-- Years: 2014–2015
-- Label: 2014–2015 early Vision 1600 identity; complete tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2014-2015 [2014-2015]
-- Basis: Market and model-year records establish the Vision 1600 by 2014. Complete early factory tables were not recovered.
-- Source: https://www.crestliner.com/documents.html
-
-## Crestliner | Vision 1700 WT
-
-- Boat ID: `boat:Crestliner | Vision 1700 WT`
-- Generation ID: `boat:Crestliner | Vision 1700 WT:gen:2015`
-- Years: 2015–2015
-- Label: 2015 Vision 1700 identity; complete factory table source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2015 [2015-2015]
-- Basis: A year-specific review and model identity establish the Vision 1700 in 2015. Complete factory certification data were not recovered.
-- Source: https://www.crestliner.com/documents.html
-
 ## G3 | Angler V172 FS (full-windshield / walk-through)
 
 - Boat ID: `boat:G3 | Angler V172 FS / WT`
@@ -87,18 +27,6 @@ Remaining target generation rows: 58
 - Price eras: 2009 [2009-2009]
 - Basis: A 2009 V172 full-windshield record establishes the model before the recovered 2010-2016 factory-catalog run. Only family-level physical details are retained for this evidence year.
 - Source: https://www.jdpower.com/boats/2009/g3-boats
-
-## G3 | Angler V175 FS
-
-- Boat ID: `boat:G3 | Angler V175 FS`
-- Generation ID: `boat:G3 | Angler V175 FS:gen:2006-2009`
-- Years: 2006–2009
-- Label: 2006-2009 early Angler V175 FS evidence generation
-- Status: annual-roster-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2006-2009 [2006-2009]
-- Basis: Exact-model valuation records establish the V175 FS during 2006-2009. Only durable family characteristics are retained because a complete early factory specification table was not recovered.
-- Source: https://www.jdpower.com/boats/2006/g3-boats/v175fs__/10234096/specs
 
 ## Hewescraft | Sportsman 180
 
@@ -160,42 +88,6 @@ Remaining target generation rows: 58
 - Basis: BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2010s–2020s; 2021 basis
 - Source: https://www.northriverboats.com/wp-content/uploads/nrb-pdf/2021MY/18%276%20Seahawk%202021%20Standard%20Features.pdf
 
-## Smoker Craft | Fazer 172
-
-- Boat ID: `boat:Smoker Craft | Fazer 172`
-- Generation ID: `boat:Smoker Craft | Fazer 172:gen:1989-1994`
-- Years: 1989–1994
-- Label: 1989–1994 model identity; detailed tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1989-1994 [1989-1994]
-- Basis: Cover-fit records establish the Fazer 172/F&S production interval. Available factory archive covers and year rosters did not yield a complete compatible specification table for 1989–1994; no 1995 figures are inherited.
-- Source: https://rnr-marine.com/SmokerCraft.shtml
-
-## Smoker Craft | Fazer 192
-
-- Boat ID: `boat:Smoker Craft | Fazer 192`
-- Generation ID: `boat:Smoker Craft | Fazer 192:gen:1993-1994`
-- Years: 1993–1994
-- Label: 1993–1994 model identity; detailed tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1993-1994 [1993-1994]
-- Basis: Exact-model cover fitment and annual references establish the early Fazer 192 span. Complete compatible factory tables were not recovered for 1993–1994.
-- Source: https://rnr-marine.com/SmokerCraft.shtml
-
-## Smoker Craft | Fazer 192
-
-- Boat ID: `boat:Smoker Craft | Fazer 192`
-- Generation ID: `boat:Smoker Craft | Fazer 192:gen:1996-1999`
-- Years: 1996–1999
-- Label: 1996–1999 continuing model identity; detailed tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1996-1999 [1996-1999]
-- Basis: Exact-model cover fitment and annual model records establish continuation through 1999. Complete post-1995 specifications were not recovered, so the 1995 table is not carried forward.
-- Source: https://rnr-marine.com/SmokerCraft.shtml
-
 ## Smoker Craft | Millentia 182 WT (misidentified listing alias)
 
 - Boat ID: `boat:Smoker Craft | Millentia 182 WT`
@@ -232,42 +124,6 @@ Remaining target generation rows: 58
 - Basis: Smoker Craft factory catalogs use Fazer, not Phaser, for the relevant historical walk-through family.
 - Source: https://www.smokercraft.com/resources/legacy-catalogs/
 
-## Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)
-
-- Boat ID: `boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier)`
-- Generation ID: `boat:Smoker Craft | Pro Mag 182 (Secondary; 172-size alternatives tow easier):gen:1994-1999`
-- Years: 1994–1999
-- Label: 1994–1999 early Pro Mag 182 identity; detailed tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1994-1999 [1994-1999]
-- Basis: Exact-model fitment establishes the 1994–1999 production interval. Complete factory tables were not recovered.
-- Source: https://rnr-marine.com/SmokerCraft.shtml
-
-## Smoker Craft | Ultima 175
-
-- Boat ID: `boat:Smoker Craft | Ultima 175`
-- Generation ID: `boat:Smoker Craft | Ultima 175:gen:1994`
-- Years: 1994–1994
-- Label: 1994 model identity; detailed table source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: 17'8" / 85.5"
-- Price eras: 1994 [1994-1994]
-- Basis: Exact-model fitment and annual records establish the 1994 start. Complete 1994 factory specifications were not recovered.
-- Source: https://rnr-marine.com/SmokerCraft.shtml
-
-## Smoker Craft | Ultima 175
-
-- Boat ID: `boat:Smoker Craft | Ultima 175`
-- Generation ID: `boat:Smoker Craft | Ultima 175:gen:1996-1999`
-- Years: 1996–1999
-- Label: 1996–1999 continuation; detailed tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: 17'8" / 85.5"
-- Price eras: 1996-1999 [1996-1999]
-- Basis: Exact-model fitment establishes continuation through 1999. The 1995 table is not assumed unchanged.
-- Source: https://rnr-marine.com/SmokerCraft.shtml
-
 ## Smoker Craft | Ultima 178
 
 - Boat ID: `boat:Smoker Craft | Ultima 178`
@@ -279,42 +135,6 @@ Remaining target generation rows: 58
 - Price eras: 2001 [2001-2001]
 - Basis: The 2001 factory archive and annual model identity survive, but a complete compatible specification table was not recovered.
 - Source: https://www.smokercraft.com/resources/legacy-catalogs/
-
-## Smoker Craft | Ultima 182 (Secondary; 172 is Primary)
-
-- Boat ID: `boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary)`
-- Generation ID: `boat:Smoker Craft | Ultima 182 (Secondary; 172 is Primary):gen:2001-2002`
-- Years: 2001–2002
-- Label: 2001–2002 early Ultima 182 identity; detailed tables source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2001-2002 [2001-2002]
-- Basis: Exact-model fitment establishes the early 2001–2002 Ultima 182. Complete factory tables were not recovered.
-- Source: https://rnr-marine.com/SmokerCraft.shtml
-
-## Smoker Craft | Stealth 162
-
-- Boat ID: `boat:Smoker Craft | Stealth 162`
-- Generation ID: `boat:Smoker Craft | Stealth 162:gen:2004`
-- Years: 2004–2004
-- Label: 2004 Stealth 162 exact-model identity
-- Status: exact-model-partial
-- Length/beam: Varies by selected documented year row / Varies by selected documented year row
-- Price eras: 2004 [2004-2004]
-- Basis: The 2004 exact-model roster confirms the 162 Stealth identity, but a complete trustworthy certification table was not recovered.
-- Source: https://www.jdpower.com/boats/2004/smoker-craft-inc/162-stealth/10242911/specs
-
-## Smoker Craft | Pro Mag 162
-
-- Boat ID: `boat:Smoker Craft | Pro Mag 162`
-- Generation ID: `boat:Smoker Craft | Pro Mag 162:gen:2001-dual`
-- Years: 2001–2001
-- Label: 2001 162 Pro Mag-Dual
-- Status: explicit-dual-roster
-- Length/beam: Varies by selected documented year row / Varies by selected documented year row
-- Price eras: 2001 [2001-2001]
-- Basis: The 2001 roster explicitly identifies the 162 Pro Mag-Dual. Complete dimensions were not recovered for this exact early row.
-- Source: https://www.jdpower.com/boats/2001/smoker-craft-inc
 
 ## Starcraft | Fishmaster 170
 
@@ -338,54 +158,6 @@ Remaining target generation rows: 58
 - Length/beam: Varies by selected hull generation / Varies by selected hull generation
 - Price eras: 1999–2006 [1999-2006]
 - Basis: Annual model records confirm this production span, but the surviving factory archive did not provide a complete, machine-readable specification table sufficient to prove an unchanged hull. Later dimensions are not projected backward.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
-## Starcraft | Fishmaster 196
-
-- Boat ID: `boat:Starcraft | Fishmaster 196`
-- Generation ID: `boat:Starcraft | Fishmaster 196:gen:2007-2009`
-- Years: 2007–2009
-- Label: 2007–2009 pre-2010 production identity — source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2007–2009 [2007-2009]
-- Basis: Annual model records confirm this production span, but the surviving factory archive did not provide a complete, machine-readable specification table sufficient to prove an unchanged hull. Later dimensions are not projected backward.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
-## Starcraft | Fishmaster 196
-
-- Boat ID: `boat:Starcraft | Fishmaster 196`
-- Generation ID: `boat:Starcraft | Fishmaster 196:gen:2016-2024`
-- Years: 2016–2024
-- Label: 2016–2024 later production — surviving generation boundary exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2016–2019 [2016-2019]; 2020–2024 [2020-2024]
-- Basis: Official annual catalog archive confirms continuing Fishmaster 196 coverage, but the available records did not establish one defensible unchanged specification set across all nine years. No 2015 or current dry weight is assigned to this span.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
-## Starcraft | SFM 160 Superfisherman
-
-- Boat ID: `boat:Starcraft | SFM 160 Superfisherman`
-- Generation ID: `boat:Starcraft | SFM 160 Superfisherman:gen:1987-1989`
-- Years: 1987–1989
-- Label: 1987–1989 production identity — surviving specifications exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1987–1989 [1987-1989]
-- Basis: Starcraft retains 1987 and 1989 fishing catalogs, but the surviving indexed material did not recover a complete exact-model table or prove the 1986 hull unchanged. Only the family identity and walk-through layout are retained.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
-## Starcraft | SFM 180 Superfisherman
-
-- Boat ID: `boat:Starcraft | SFM 180 Superfisherman`
-- Generation ID: `boat:Starcraft | SFM 180 Superfisherman:gen:1987-1989`
-- Years: 1987–1989
-- Label: 1987–1989 production identity — surviving specifications exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1987–1989 [1987-1989]
-- Basis: Starcraft retains 1987 and 1989 fishing catalogs, but the surviving indexed material did not recover a complete exact-model table or prove the 1986 hull unchanged. Only the family identity and walk-through layout are retained.
 - Source: https://starcraftmarine.com/resources/legacy-catalogs/
 
 ## Starcraft | *Starfish 176 DC / WT
@@ -424,18 +196,6 @@ Remaining target generation rows: 58
 - Basis: Annual factory catalog archive confirms continued STX coverage, but the surviving records did not support one exact unchanged specification set across the span.
 - Source: https://starcraftmarine.com/resources/legacy-catalogs/
 
-## Starcraft | STX 2050 Aluminum
-
-- Boat ID: `boat:Starcraft | STX 2050 Aluminum`
-- Generation ID: `boat:Starcraft | STX 2050 Aluminum:gen:2025-2026`
-- Years: 2025–2026
-- Label: 2025–2026 current 20'10-inch factory generation
-- Status: factory-current-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2025–2026 [2025-2026]
-- Basis: Current Starcraft factory builder confirms the 20'10-inch, 250-hp, ten-person STX 2050. The current page does not publish every hull field needed to backfill a complete table.
-- Source: https://builder.starcraftmarine.com/browse/Starcraft/Fishing
-
 ## Starcraft | Superfisherman 170
 
 - Boat ID: `boat:Starcraft | Superfisherman 170`
@@ -472,18 +232,6 @@ Remaining target generation rows: 58
 - Basis: Current Starcraft page lists 1,985 pounds as dry weight, while earlier factory tables use 1,985 pounds as total capacity and 1,333 pounds as dry hull weight. The current dry weight is deliberately withheld until Starcraft resolves the field.
 - Source: https://starcraftmarine.com/series/superfisherman/
 
-## Starcraft | Superfisherman 190
-
-- Boat ID: `boat:Starcraft | Superfisherman 190`
-- Generation ID: `boat:Starcraft | Superfisherman 190:gen:1991-1997`
-- Years: 1991–1997
-- Label: 1991–1997 production identity — surviving specifications exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 1991–1997 [1991-1997]
-- Basis: Annual model records establish the Superfisherman 190 through this span, but complete exact tables were not recoverable for a defensible unchanged-hull claim.
-- Source: https://starcraftmarine.com/resources/legacy-catalogs/
-
 ## Starcraft | Tournament 170 (does not meet windshield requirement)
 
 - Boat ID: `boat:Starcraft | Tournament 170 (does not meet windshield requirement)`
@@ -508,78 +256,6 @@ Remaining target generation rows: 58
 - Basis: Annual model rosters distinguish Tournament Fish, Tournament Pro and related layouts. Surviving records do not support assigning the 1995 non-walk-through specification set to every 1996–1997 seller-described Tournament boat.
 - Source: https://starcraftmarine.com/resources/legacy-catalogs/
 
-## Starweld | Fusion 16 DC
-
-- Boat ID: `boat:Starweld | Fusion 16 DC`
-- Generation ID: `boat:Starweld | Fusion 16 DC:gen:2018-2020`
-- Years: 2018–2020
-- Label: 2018–2020 launch generation — annual table source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2018–2020 [2018-2020]
-- Basis: Launch-year and dealer records confirm the Fusion 16 DC; exact annual table fields were not fully recoverable.
-- Source: https://www.starweldboats.com/
-
-## Starweld | Fusion 16 DC
-
-- Boat ID: `boat:Starweld | Fusion 16 DC`
-- Generation ID: `boat:Starweld | Fusion 16 DC:gen:2022-2026`
-- Years: 2022–2026
-- Label: 2022–2026 continuing Fusion 16 DC — exact annual table source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2022–2026 [2022-2026]
-- Basis: Manufacturer and dealer records confirm continuation; current international factory material corroborates length, power, capacity and vinyl floor but does not prove every U.S. annual field unchanged.
-- Source: https://www.starweldboats.com/
-
-## Starweld | Fusion 18 DC
-
-- Boat ID: `boat:Starweld | Fusion 18 DC`
-- Generation ID: `boat:Starweld | Fusion 18 DC:gen:2018-2020`
-- Years: 2018–2020
-- Label: 2018–2020 launch generation — annual table source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2018–2020 [2018-2020]
-- Basis: 2018 market and annual records establish the Fusion 18 DC; exact complete annual tables were not fully recoverable.
-- Source: https://www.starweldboats.com/
-
-## Starweld | Fusion 18 DC
-
-- Boat ID: `boat:Starweld | Fusion 18 DC`
-- Generation ID: `boat:Starweld | Fusion 18 DC:gen:2022-2025`
-- Years: 2022–2025
-- Label: 2022–2025 continuing Fusion 18 DC — exact annual table source exhausted
-- Status: source-exhausted-partial
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2022–2025 [2022-2025]
-- Basis: Dealer and fitment records confirm continuation, but surviving annual specification tables did not prove every field unchanged.
-- Source: https://www.starweldboats.com/
-
-## Tracker | *Pro Guide V-175 WT
-
-- Boat ID: `boat:Tracker | Pro Guide V-175 WT`
-- Generation ID: `boat:Tracker | Pro Guide V-175 WT:gen:2011`
-- Years: 2011–2011
-- Label: 2011 model identity; complete table source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected year / hull / Varies by selected year / hull
-- Price eras: 2011 [2011-2011]
-- Basis: Annual model identity survives, but a complete compatible factory table was not recovered. No neighboring dimensions are inherited.
-- Source: https://www.jdpower.com/boats/2011/tracker-marine
-
-## Tracker | Tundra 18 DC / WT
-
-- Boat ID: `boat:Tracker | Tundra 18 DC / WT`
-- Generation ID: `boat:Tracker | Tundra 18 DC / WT:gen:2003`
-- Years: 2003–2003
-- Label: 2003 model identity; table source-exhausted
-- Status: model-identity-source-exhausted
-- Length/beam: Varies by selected year / hull / Varies by selected year / hull
-- Price eras: 2003 [2003-2003]
-- Basis: The Tundra 18 DC/WT model identity is documented for 2003, but a complete compatible year table was not recovered. No adjacent-year weight is assigned.
-- Source: https://www.boats.za.net/tracker/tundra-18-wt
-
 ## Triton | DV176 DC Magnum
 
 - Boat ID: `boat:Triton | DV176 DC Magnum`
@@ -591,18 +267,6 @@ Remaining target generation rows: 58
 - Price eras: none
 - Basis: BoatBuilder has not yet verified redesign boundaries or exact specifications for this span. Original catalog wording: 2005–2007; 2006 specification basis
 - Source: https://www.jdpower.com/boats/2006/triton-boats/dv176-magnum__/10232456/specs
-
-## Triton | DV186 DC Magnum
-
-- Boat ID: `boat:Triton | DV186 DC Magnum`
-- Generation ID: `boat:Triton | DV186 DC Magnum:gen:2006`
-- Years: 2006–2006
-- Label: 2006 cited specification snapshot
-- Status: cited-snapshot
-- Length/beam: Varies by selected hull generation / Varies by selected hull generation
-- Price eras: 2000s [2000-2009]
-- Basis: 2006 cited source snapshot. This is not proof that the same specifications apply across the full advertised production span.
-- Source: https://www.jdpower.com/boats/2006/triton-boats
 
 ## Triton | DV186 DC Magnum
 

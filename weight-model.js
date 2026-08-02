@@ -1,5 +1,6 @@
 (function(root){
 "use strict";
+const PUBLISHED_WEIGHT_ERAS_V1=true;
 
 const TOW_LIMIT_LB=4000;
 const DISPLAY_THRESHOLD_LB=30;
@@ -76,9 +77,29 @@ function voltageOptions(item){
   const text=[item?.model,detailMap(item).get("Specs / Role")].map(clean).join(" ");
   return [...new Set([...text.matchAll(/\b(12|24|36)V\b/gi)].map(match=>Number(match[1])))].sort((a,b)=>a-b);
 }
+function selectedWeightEra(generation,config={}){
+  const weightEras=Array.isArray(generation?.weightEras)?generation.weightEras:[];
+  if(!weightEras.length)return null;
+  const selected=(generation.eras||[]).find(era=>clean(era.label)===clean(config.era));
+  if(selected&&Number.isInteger(selected.startYear)&&Number.isInteger(selected.endYear)){
+    const matches=weightEras.filter(era=>selected.startYear>=era.startYear&&selected.endYear<=era.endYear);
+    if(matches.length===1)return matches[0];
+  }
+  const exact=weightEras.find(era=>clean(era.label)===clean(config.era));
+  return exact||null;
+}
 function hullWeight(item,config={}){
   const override=number(config.weightOverride);
   if(override>0)return range(override,override,"User-entered actual dry-hull weight","user",true);
+  const generation=selectedGeneration(item,config);
+  const weightEras=Array.isArray(generation?.weightEras)?generation.weightEras:[];
+  if(weightEras.length){
+    const selected=selectedWeightEra(generation,config);
+    if(selected)return range(selected.lowLb,selected.highLb,selected.basis||`Published dry-hull weight for ${selected.label}`,selected.lowLb===selected.highLb?"published":"published-range",true);
+    const low=Math.min(...weightEras.map(era=>Number(era.lowLb)).filter(Number.isFinite));
+    const high=Math.max(...weightEras.map(era=>Number(era.highLb??era.lowLb)).filter(Number.isFinite));
+    if(Number.isFinite(low)&&Number.isFinite(high))return range(low,high,"Published hull-weight span across documented year-specific variants. Choose a narrower year option when available.",low===high?"published":"published-range",true);
+  }
   const raw=spec(item,config,"Dry Hull Weight");
   const parsed=weightRangeFromText(raw);
   if(parsed){
