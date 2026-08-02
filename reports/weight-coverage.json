@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T15:47:55.116Z",
+  "generatedAt": "2026-08-02T15:48:27.895Z",
   "scope": "Every BoatBuilder boat record and every documented design generation/evidence row",
   "policy": {
     "hullWeights": "Published era-specific dry-hull weights only. Missing values remain unavailable until sourced.",
