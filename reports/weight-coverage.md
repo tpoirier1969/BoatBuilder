@@ -1,6 +1,6 @@
 # BoatBuilder hull-weight coverage
 
-Generated: 2026-08-02T15:40:14.214Z
+Generated: 2026-08-02T15:41:19.056Z
 
 ## Policy
 
