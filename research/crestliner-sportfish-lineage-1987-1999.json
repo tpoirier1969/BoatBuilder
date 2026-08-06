@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "title": "Crestliner Sportfish Lineage Reconciliation, 1987–1999",
+  "generatedAt": "2026-08-06",
+  "scope": {
+    "manufacturer": "Crestliner",
+    "years": {
+      "start": 1987,
+      "end": 1999
+    },
+    "purpose": "Lock annual model identity and missing-era boundaries for the Sportfish lineage before detailed specifications, pricing or app-data edits.",
+    "notIncluded": [
+      "Used-market pricing",
+      "Complete specifications",
+      "Unverified layout inference",
+      "Automatic app insertion"
+    ]
+  },
+  "sourcePolicy": {
+    "officialCatalogArchive": "https://www.crestliner.com/documents.html",
+    "annualRosterPattern": "https://www.jdpower.com/boats/{year}/crestliner-inc",
+    "rule": "Annual roster establishes model identity and published roster weight. Catalog imagery is still required when the roster name does not explicitly prove the windshield layout."
+  },
+  "annualRosters": [
+    {
+      "year": 1987,
+      "sourceUrl": "https://www.jdpower.com/boats/1987/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "Mirage V160 Sportfish",
+          "lineage": "compact-160",
+          "weightLb": null,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V170 Sportfish",
+          "lineage": "sportfish-170",
+          "weightLb": 1075,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V180 Sportfish",
+          "lineage": "sportfish-180",
+          "weightLb": 1250,
+          "identityStatus": "exact-name"
+        }
+      ]
+    },
+    {
+      "year": 1988,
+      "sourceUrl": "https://www.jdpower.com/boats/1988/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "Mirage V160 Sportfish",
+          "lineage": "compact-160",
+          "weightLb": null,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V170 Sportfish",
+          "lineage": "sportfish-170",
+          "weightLb": 1075,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V180 Sportfish",
+          "lineage": "sportfish-180",
+          "weightLb": 1250,
+          "identityStatus": "exact-name"
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "sourceUrl": "https://www.jdpower.com/boats/1989/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "Mirage V160 SF",
+          "lineage": "compact-160",
+          "weightLb": null,
+          "identityStatus": "abbreviated-exact-family"
+        },
+        {
+          "publishedName": "Phantom V170 SF",
+          "lineage": "sportfish-170",
+          "weightLb": 1075,
+          "identityStatus": "abbreviated-exact-family"
+        },
+        {
+          "publishedName": "Phantom V180 SF",
+          "lineage": "sportfish-180",
+          "weightLb": 1250,
+          "identityStatus": "abbreviated-exact-family"
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "sourceUrl": "https://www.jdpower.com/boats/1990/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "Mirage V160",
+          "lineage": "compact-160",
+          "weightLb": null,
+          "identityStatus": "layout-not-explicit",
+          "note": "Annual roster drops the Sportfish suffix; catalog-image confirmation is required."
+        },
+        {
+          "publishedName": "Phantom V170/175",
+          "lineage": "sportfish-170",
+          "weightLb": 1075,
+          "identityStatus": "compressed-roster-continuity",
+          "note": "Annual roster compresses V170 and V175; exact Sportfish badging needs catalog-image confirmation."
+        },
+        {
+          "publishedName": "Phantom V180/185",
+          "lineage": "sportfish-180",
+          "weightLb": 1250,
+          "identityStatus": "compressed-roster-continuity",
+          "note": "Annual roster compresses V180 and V185; exact Sportfish badging needs catalog-image confirmation."
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "sourceUrl": "https://www.jdpower.com/boats/1991/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "Phantom V160 Sportfish",
+          "lineage": "sportfish-160",
+          "weightLb": 1130,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V170 Sportfish",
+          "lineage": "sportfish-170",
+          "weightLb": 1280,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V180 Sportfish",
+          "lineage": "sportfish-180",
+          "weightLb": 1440,
+          "identityStatus": "exact-name"
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "sourceUrl": "https://www.jdpower.com/boats/1992/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "Phantom V160 Sportfish",
+          "lineage": "sportfish-160",
+          "weightLb": 1130,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V170 Sportfish",
+          "lineage": "sportfish-170",
+          "weightLb": 1280,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V180 Sportfish",
+          "lineage": "sportfish-180",
+          "weightLb": 1440,
+          "identityStatus": "exact-name"
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "sourceUrl": "https://www.jdpower.com/boats/1993/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "Phantom V160 Sportfish",
+          "lineage": "sportfish-160",
+          "weightLb": 1130,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V170 Sportfish",
+          "lineage": "sportfish-170",
+          "weightLb": 1280,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "Phantom V180 Sportfish",
+          "lineage": "sportfish-180",
+          "weightLb": 1440,
+          "identityStatus": "exact-name"
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "sourceUrl": "https://www.jdpower.com/boats/1994/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "V160 Sportfish",
+          "lineage": "sportfish-160",
+          "weightLb": 1130,
+          "identityStatus": "factory-name-transition",
+          "note": "Phantom prefix disappears while the published roster weight remains unchanged."
+        },
+        {
+          "publishedName": "V170 Sportfish",
+          "lineage": "sportfish-170",
+          "weightLb": 1280,
+          "identityStatus": "factory-name-transition",
+          "note": "Phantom prefix disappears while the published roster weight remains unchanged."
+        },
+        {
+          "publishedName": "V180 Sportfish",
+          "lineage": "sportfish-180",
+          "weightLb": 1440,
+          "identityStatus": "factory-name-transition",
+          "note": "Phantom prefix disappears while the published roster weight remains unchanged."
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "sourceUrl": "https://www.jdpower.com/boats/1995/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "1650 Sportfish",
+          "lineage": "numbered-1650",
+          "weightLb": 1130,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "1750 Sportfish OB",
+          "lineage": "numbered-1750",
+          "weightLb": 1280,
+          "identityStatus": "exact-outboard"
+        },
+        {
+          "publishedName": "1950 Sportfish OB",
+          "lineage": "numbered-1950",
+          "weightLb": 1440,
+          "identityStatus": "exact-outboard"
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "sourceUrl": "https://www.jdpower.com/boats/1996/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "1650 Sportfish",
+          "lineage": "numbered-1650",
+          "weightLb": 1130,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "1750 Sportfish OB",
+          "lineage": "numbered-1750",
+          "weightLb": 1280,
+          "identityStatus": "exact-outboard"
+        },
+        {
+          "publishedName": "1950 Sportfish OB",
+          "lineage": "numbered-1950",
+          "weightLb": 1440,
+          "identityStatus": "exact-outboard"
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "sourceUrl": "https://www.jdpower.com/boats/1997/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "1650 Sportfish",
+          "lineage": "numbered-1650",
+          "weightLb": 1130,
+          "identityStatus": "exact-name"
+        },
+        {
+          "publishedName": "1750 Sportfish OB",
+          "lineage": "numbered-1750",
+          "weightLb": 1280,
+          "identityStatus": "exact-outboard"
+        },
+        {
+          "publishedName": "1850 Sportfish OB",
+          "lineage": "numbered-1850",
+          "weightLb": 1470,
+          "identityStatus": "exact-outboard"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "sourceUrl": "https://www.jdpower.com/boats/1998/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "1750 Sportfish OB",
+          "lineage": "numbered-1750",
+          "weightLb": 2045,
+          "identityStatus": "exact-name-weight-conflict",
+          "note": "Published outboard value matches the stern-drive row; do not treat 2,045 lb as settled hull weight."
+        },
+        {
+          "publishedName": "1850 Sportfish OB",
+          "lineage": "numbered-1850",
+          "weightLb": 1470,
+          "identityStatus": "exact-outboard"
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "sourceUrl": "https://www.jdpower.com/boats/1999/crestliner-inc",
+      "models": [
+        {
+          "publishedName": "1750 Sportfish OB",
+          "lineage": "numbered-1750",
+          "weightLb": 1300,
+          "identityStatus": "exact-outboard"
+        },
+        {
+          "publishedName": "1850 Sportfish OB",
+          "lineage": "numbered-1850",
+          "weightLb": 1400,
+          "identityStatus": "exact-outboard"
+        }
+      ]
+    }
+  ],
+  "approvedActions": [
+    {
+      "key": "phantom-v160",
+      "currentId": "boat:Crestliner | Phantom Sportfish V160",
+      "action": "update-existing-record",
+      "status": "ready-for-spec-research",
+      "approvedCoverage": [
+        {
+          "startYear": 1991,
+          "endYear": 1993,
+          "identity": "Phantom V160 Sportfish"
+        },
+        {
+          "startYear": 1994,
+          "endYear": 1994,
+          "identity": "V160 Sportfish transition alias"
+        }
+      ],
+      "doNotMerge": [
+        {
+          "startYear": 1987,
+          "endYear": 1990,
+          "identity": "Mirage V160 / Mirage V160 Sportfish",
+          "reason": "Different family name and 1990 layout suffix is not explicit."
+        }
+      ],
+      "reason": "The current record is correctly anchored in 1991, but the documented 1994 transition year is missing."
+    },
+    {
+      "key": "phantom-v170",
+      "currentId": "boat:Crestliner | Phantom Sportfish V170",
+      "action": "update-existing-record",
+      "status": "ready-for-spec-research",
+      "approvedCoverage": [
+        {
+          "startYear": 1987,
+          "endYear": 1990,
+          "identity": "early Phantom V170 Sportfish lineage",
+          "publishedWeightLb": 1075
+        },
+        {
+          "startYear": 1991,
+          "endYear": 1994,
+          "identity": "later Phantom/V170 Sportfish lineage",
+          "publishedWeightLb": 1280
+        }
+      ],
+      "reason": "The 1991 weight jump is a material generation boundary; the current 1991–1993-only record omits both the early hull and 1994 transition year."
+    },
+    {
+      "key": "phantom-v180",
+      "currentId": "boat:Crestliner | Phantom Sportfish V180",
+      "action": "update-existing-record",
+      "status": "ready-for-spec-research",
+      "approvedCoverage": [
+        {
+          "startYear": 1987,
+          "endYear": 1990,
+          "identity": "early Phantom V180 Sportfish lineage",
+          "publishedWeightLb": 1250
+        },
+        {
+          "startYear": 1991,
+          "endYear": 1994,
+          "identity": "later Phantom/V180 Sportfish lineage",
+          "publishedWeightLb": 1440
+        }
+      ],
+      "reason": "The 190-lb published jump in 1991 requires a separate generation. The 1988 listing belongs to the omitted early era."
+    },
+    {
+      "key": "1650-sportfish",
+      "proposedId": "boat:Crestliner | 1650 Sportfish",
+      "action": "add-new-record",
+      "status": "ready-for-spec-research",
+      "approvedCoverage": [
+        {
+          "startYear": 1995,
+          "endYear": 1997,
+          "identity": "1650 Sportfish",
+          "publishedWeightLb": 1130
+        }
+      ],
+      "reason": "The numbered 16-foot Sportfish family is absent and should not be hidden inside the earlier Phantom V160 record."
+    },
+    {
+      "key": "1750-sportfish-early",
+      "currentId": "boat:Crestliner | Sportfish 1750",
+      "action": "update-existing-record",
+      "status": "ready-for-spec-research",
+      "approvedCoverage": [
+        {
+          "startYear": 1995,
+          "endYear": 1997,
+          "identity": "1750 Sportfish outboard",
+          "publishedWeightLb": 1280
+        },
+        {
+          "startYear": 1998,
+          "endYear": 1998,
+          "identity": "1750 Sportfish outboard",
+          "publishedWeightLb": null,
+          "note": "Retain model identity; quarantine the conflicting published weight."
+        },
+        {
+          "startYear": 1999,
+          "endYear": 1999,
+          "identity": "1750 Sportfish outboard",
+          "publishedWeightLb": 1300
+        }
+      ],
+      "reason": "The app begins this family in 2000, omitting five documented model years."
+    },
+    {
+      "key": "1850-sportfish-early",
+      "currentId": "boat:Crestliner | Sportfish 1850",
+      "action": "update-existing-record",
+      "status": "ready-for-spec-research",
+      "approvedCoverage": [
+        {
+          "startYear": 1997,
+          "endYear": 1998,
+          "identity": "1850 Sportfish outboard",
+          "publishedWeightLb": 1470
+        },
+        {
+          "startYear": 1999,
+          "endYear": 1999,
+          "identity": "1850 Sportfish outboard",
+          "publishedWeightLb": 1400
+        }
+      ],
+      "reason": "The app begins this family in 2000, omitting the documented 1997–1999 outboard run."
+    },
+    {
+      "key": "1950-sportfish",
+      "proposedId": "boat:Crestliner | 1950 Sportfish",
+      "action": "add-new-record",
+      "status": "ready-for-spec-research",
+      "approvedCoverage": [
+        {
+          "startYear": 1995,
+          "endYear": 1996,
+          "identity": "1950 Sportfish outboard",
+          "publishedWeightLb": 1440
+        }
+      ],
+      "reason": "The 19-foot numbered Sportfish existed for two documented years. The earlier audit incorrectly extended it through 1997."
+    }
+  ],
+  "quarantinedReviews": [
+    {
+      "family": "Mirage V160 Sportfish / Mirage V160",
+      "years": "1987–1990",
+      "status": "needs-catalog-layout-proof",
+      "reason": "1987–1989 explicitly use Sportfish/SF, but the 1990 annual roster drops the suffix. Do not merge into Phantom V160."
+    },
+    {
+      "family": "1600 / 1700 Super Hawk",
+      "years": "1998–1999",
+      "status": "needs-catalog-layout-proof",
+      "reason": "Annual model identity is documented, but factory windshield configuration should be confirmed from catalog imagery before backdating current Super Hawk records."
+    },
+    {
+      "family": "1750 Tournament Pro / Tournament Series / Tournament TS",
+      "years": "1997–1999",
+      "status": "needs-alias-and-layout-reconciliation",
+      "reason": "Annual naming shifts and exact windshield trim must be mapped before deciding whether this is one stable family."
+    },
+    {
+      "family": "1650 / 1750 / 1850 Pro AM and SC",
+      "years": "1995–1997",
+      "status": "needs-layout-proof",
+      "reason": "Roster names alone do not prove full walk-through windshield configuration; side-console variants must not enter this catalog."
+    },
+    {
+      "family": "Phantom Eagle, Viking, Voyager, Fish Hawk and other 1987–1994 names",
+      "years": "1987–1994",
+      "status": "next-roster-batch",
+      "reason": "These require catalog-image layout screening outside the Sportfish lineage pass."
+    }
+  ],
+  "explicitExclusions": [
+    {
+      "family": "1680 Sport / 1880 Sport",
+      "reason": "Annual roster classifies these as pontoons, not aluminum deep-V fishing boats."
+    },
+    {
+      "family": "Phantom Fish & Ski V175/V185 and similar stern-drive rows",
+      "reason": "Separate stern-drive/I/O families; not outboard Sportfish lineage."
+    },
+    {
+      "family": "Center-console, tiller, utility and SC-only variants",
+      "reason": "Outside the required full walk-through windshield scope unless a factory full-windshield trim is independently proven."
+    }
+  ],
+  "nextStep": "Research exact specifications and package-value eras only for approved actions, then create a small Crestliner app patch with regression tests."
+}
