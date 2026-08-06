@@ -1,0 +1,40 @@
+name: Crestliner Sportfish Roster QA
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - research/crestliner-sportfish-lineage-1987-1999.json
+      - research/crestliner-sportfish-lineage-1987-1999.md
+      - tests/crestliner-sportfish-lineage-qa.mjs
+      - .github/workflows/crestliner-sportfish-lineage-qa.yml
+  push:
+    branches: [main]
+    paths:
+      - research/crestliner-sportfish-lineage-1987-1999.json
+      - research/crestliner-sportfish-lineage-1987-1999.md
+      - tests/crestliner-sportfish-lineage-qa.mjs
+      - .github/workflows/crestliner-sportfish-lineage-qa.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  roster-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Check audit test syntax
+        run: node --check tests/crestliner-sportfish-lineage-qa.mjs
+
+      - name: Validate annual lineage roster
+        run: node tests/crestliner-sportfish-lineage-qa.mjs
