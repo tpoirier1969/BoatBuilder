@@ -46,8 +46,15 @@ const index = fs.readFileSync("index.html", "utf8");
 assert.ok(index.indexOf("data/boats.js") < index.indexOf("data/boat-history-patches.js"));
 assert.ok(index.indexOf("data/boat-history-patches.js") < index.indexOf("data/catalog.js"));
 assert.ok(index.indexOf("app.js") < index.indexOf("ui-enhancements.js"));
+assert.match(index, /ui-enhancements\.js\?v=2/, "Evidence UI cache version was not advanced");
+
 const ui = fs.readFileSync("ui-enhancements.js", "utf8");
 assert.ok(ui.includes("single-year-hull"));
 assert.ok(ui.includes("select disabled"));
+assert.match(ui, /dataEvidenceNote|evidenceNote/, "Evidence panel marker is missing");
+assert.match(ui, /Choose a year \/ hull above to see the sources tied to that generation/, "Unselected multi-generation evidence warning is missing");
+assert.match(ui, /generation\.evidenceUrls/, "Generation evidence URLs are not used");
+assert.match(ui, /target=\"_blank\"/, "Evidence source links are not exposed as clickable links");
+assert.match(ui, /noopener noreferrer/, "External evidence links lack opener protection");
 
-console.log("Crestliner live integration QA passed.");
+console.log("Crestliner live integration and evidence UI QA passed.");
