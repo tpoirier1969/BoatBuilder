@@ -1,6 +1,7 @@
 (() => {
   "use strict";
 
+  const YEAR_KEY = "boatbuilder.modelYearFilter.v1";
   const esc = value => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
   const clean = value => String(value ?? "").trim();
 
@@ -121,14 +122,128 @@
     }
   }
 
+  function boatBrowseView() {
+    const parts = location.hash.replace(/^#/, "").split("/").map(part => decodeURIComponent(part));
+    if (parts[0] === "category" && parts[1] === "boats") return "makers";
+    if (parts[0] === "manufacturer" && parts[1] === "boats") return "models";
+    return null;
+  }
+
+  function storedYear() {
+    try {
+      const value = Number(sessionStorage.getItem(YEAR_KEY));
+      return Number.isInteger(value) && value >= 1900 && value <= 2100 ? value : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function saveYear(year) {
+    try {
+      if (Number.isInteger(year)) sessionStorage.setItem(YEAR_KEY, String(year));
+      else sessionStorage.removeItem(YEAR_KEY);
+    } catch {}
+  }
+
+  function modelHasYear(item, year) {
+    if (!year || !item || item.categoryId !== "boats") return true;
+    return (item.designGenerations || []).some(generation =>
+      Number.isInteger(generation.startYear) && Number.isInteger(generation.endYear) &&
+      year >= generation.startYear && year <= generation.endYear
+    );
+  }
+
+  function documentedYears() {
+    const catalog = window.BOATBUILDER_DATA;
+    const years = new Set();
+    for (const item of catalog?.items || []) {
+      if (item.categoryId !== "boats") continue;
+      for (const generation of item.designGenerations || []) {
+        if (!Number.isInteger(generation.startYear) || !Number.isInteger(generation.endYear)) continue;
+        for (let year = generation.startYear; year <= generation.endYear && year <= 2100; year += 1) years.add(year);
+      }
+    }
+    return [...years].sort((a, b) => b - a);
+  }
+
+  function applyYearFilter(root, view, year) {
+    const catalog = window.BOATBUILDER_DATA;
+    const boats = (catalog?.items || []).filter(item => item.categoryId === "boats");
+    let matches = 0;
+
+    if (view === "makers") {
+      for (const button of root.querySelectorAll("button[data-m]")) {
+        const manufacturer = button.dataset.m;
+        const makerBoats = boats.filter(item => item.manufacturer === manufacturer);
+        const matched = year ? makerBoats.filter(item => modelHasYear(item, year)) : makerBoats;
+        button.hidden = Boolean(year) && matched.length === 0;
+        if (!button.hidden) matches += matched.length;
+        const small = button.querySelector("small");
+        if (small) {
+          if (!small.dataset.baseText) small.dataset.baseText = small.textContent || "";
+          small.textContent = year ? `${matched.length} documented model${matched.length === 1 ? "" : "s"} in ${year}` : small.dataset.baseText;
+        }
+      }
+    }
+
+    if (view === "models") {
+      for (const card of root.querySelectorAll(".item-card")) {
+        const id = card.querySelector("[data-i]")?.dataset.i;
+        const item = boats.find(entry => entry.id === id);
+        const visible = !year || modelHasYear(item, year);
+        card.hidden = !visible;
+        if (visible) matches += 1;
+      }
+    }
+
+    let status = root.querySelector("[data-year-filter-status]");
+    if (!status) {
+      status = document.createElement("p");
+      status.className = "data-note";
+      status.dataset.yearFilterStatus = "true";
+      root.querySelector("[data-year-filter]")?.insertAdjacentElement("afterend", status);
+    }
+    if (status) status.textContent = year ? `${matches} documented ${view === "makers" ? "boat records across visible manufacturers" : `model${matches === 1 ? "" : "s"}`} for ${year}.` : "Showing all documented model years.";
+  }
+
+  function injectYearFilter() {
+    const view = boatBrowseView();
+    const root = document.querySelector("#app");
+    if (!view || !root || root.querySelector("[data-year-filter]")) return;
+    if (view === "makers" && !root.querySelector("button[data-m]")) return;
+    if (view === "models" && !root.querySelector(".item-card [data-i]")) return;
+
+    const years = documentedYears();
+    if (!years.length) return;
+    const current = storedYear();
+    const filter = document.createElement("label");
+    filter.className = "config-field year-discovery-filter";
+    filter.dataset.yearFilter = "true";
+    filter.innerHTML = `<span>Filter by model year</span><select aria-label="Filter boats by documented model year"><option value="">All documented years</option>${years.map(year => `<option value="${year}"${year === current ? " selected" : ""}>${year}</option>`).join("")}</select><small>Uses documented hull-generation years, not text in the model name.</small>`;
+
+    const list = root.querySelector(".card-list");
+    if (!list) return;
+    list.insertAdjacentElement("beforebegin", filter);
+    applyYearFilter(root, view, current);
+
+    filter.querySelector("select").onchange = event => {
+      const year = Number(event.target.value);
+      const selected = Number.isInteger(year) && year > 0 ? year : null;
+      saveYear(selected);
+      applyYearFilter(root, view, selected);
+    };
+  }
+
   function enhance() {
     injectSingleYearHull();
     injectEvidence();
+    injectYearFilter();
   }
 
   const observer = new MutationObserver(enhance);
   observer.observe(document.documentElement, { childList: true, subtree: true });
   addEventListener("DOMContentLoaded", enhance, { once: true });
+  addEventListener("hashchange", () => queueMicrotask(enhance));
   enhance();
 
   window.BOATBUILDER_UI_ENHANCEMENTS = {
@@ -136,6 +251,11 @@
     injectSingleYearHull,
     selectedGeneration,
     evidenceSources,
-    injectEvidence
+    injectEvidence,
+    boatBrowseView,
+    modelHasYear,
+    documentedYears,
+    applyYearFilter,
+    injectYearFilter
   };
 })();
