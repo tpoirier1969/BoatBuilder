@@ -15,6 +15,7 @@ const get = id => boats.find(boat => boat.id === id);
 const ranges = id => get(id).designGenerations.map(g => [g.startYear, g.endYear]);
 const assertRanges = (id, expected, message) => assert.equal(JSON.stringify(ranges(id)), JSON.stringify(expected), message);
 const weight = g => g.specs?.["Dry Hull Weight"]?.value ?? null;
+const hasYear = (boat, year) => (boat.designGenerations || []).some(g => year >= g.startYear && year <= g.endYear);
 
 assert.equal(boats.length, 185);
 assert.equal(sandbox.window.BOATBUILDER_DATA.counts.boats, 185);
@@ -42,11 +43,16 @@ for (const id of sandbox.window.BOATBUILDER_HISTORY_PATCHES.crestliner.updatedId
   }
 }
 
+const crestliner1988 = boats.filter(boat => boat.manufacturer === "Crestliner" && hasYear(boat, 1988));
+assert.ok(crestliner1988.some(boat => boat.id === "boat:Crestliner | Phantom Sportfish V170"), "1988 filter would miss Phantom V170 Sportfish");
+assert.ok(crestliner1988.some(boat => boat.id === "boat:Crestliner | Phantom Sportfish V180"), "1988 filter would miss Phantom V180 Sportfish");
+assert.ok(!crestliner1988.some(boat => boat.id === "boat:Crestliner | 1650 Sportfish"), "1988 filter would incorrectly include 1995+ 1650 Sportfish");
+
 const index = fs.readFileSync("index.html", "utf8");
 assert.ok(index.indexOf("data/boats.js") < index.indexOf("data/boat-history-patches.js"));
 assert.ok(index.indexOf("data/boat-history-patches.js") < index.indexOf("data/catalog.js"));
 assert.ok(index.indexOf("app.js") < index.indexOf("ui-enhancements.js"));
-assert.match(index, /ui-enhancements\.js\?v=2/, "Evidence UI cache version was not advanced");
+assert.match(index, /ui-enhancements\.js\?v=3/, "Year-discovery UI cache version was not advanced");
 
 const ui = fs.readFileSync("ui-enhancements.js", "utf8");
 assert.ok(ui.includes("single-year-hull"));
@@ -56,5 +62,11 @@ assert.match(ui, /Choose a year \/ hull above to see the sources tied to that ge
 assert.match(ui, /generation\.evidenceUrls/, "Generation evidence URLs are not used");
 assert.match(ui, /target=\"_blank\"/, "Evidence source links are not exposed as clickable links");
 assert.match(ui, /noopener noreferrer/, "External evidence links lack opener protection");
+assert.match(ui, /boatbuilder\.modelYearFilter\.v1/, "Documented model-year filter state is missing");
+assert.match(ui, /Filter by model year/, "Model-year filter control is missing");
+assert.match(ui, /modelHasYear/, "Model-year filtering is not based on generation coverage");
+assert.match(ui, /sessionStorage/, "Model-year filter should persist only within the active browsing session");
+assert.match(ui, /data-m/, "Year filter does not cover the manufacturer chooser");
+assert.match(ui, /data-i/, "Year filter does not cover the manufacturer model list");
 
-console.log("Crestliner live integration and evidence UI QA passed.");
+console.log("Crestliner live integration, evidence UI, and model-year discovery QA passed.");
